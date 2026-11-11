@@ -174,13 +174,13 @@ Copy the skill folders into one of these folders, or use the skills CLI with the
 
 | Agent          | For all your projects                             | For one project                                        | How skills start                                                    |
 | -------------- | ------------------------------------------------- | ------------------------------------------------------ | ------------------------------------------------------------------- |
-| Codex          | `~/.agents/skills`                                | `.agents/skills`                                       | Automatically, or with `$skill-name`; restart if one doesn't appear |
-| Cursor         | `~/.cursor/skills` or `~/.agents/skills`          | `.cursor/skills` or `.agents/skills`                   | Automatically, or with `/skill-name`                                |
-| GitHub Copilot | `~/.copilot/skills` or `~/.agents/skills`         | `.github/skills`, `.agents/skills` or `.claude/skills` | Automatically, or with `/skill-name`                                |
-| Gemini CLI     | `~/.gemini/skills` or `~/.agents/skills`          | `.gemini/skills` or `.agents/skills`                   | The model asks to activate a skill and you approve                  |
-| opencode       | `~/.config/opencode/skills` or `~/.agents/skills` | `.opencode/skills` or `.agents/skills`                 | Loaded on demand                                                    |
+| Codex          | `~/.trae/skills`                                | `.trae/skills`                                       | Automatically, or with `$skill-name`; restart if one doesn't appear |
+| Cursor         | `~/.cursor/skills` or `~/.trae/skills`          | `.cursor/skills` or `.trae/skills`                   | Automatically, or with `/skill-name`                                |
+| GitHub Copilot | `~/.copilot/skills` or `~/.trae/skills`         | `.github/skills`, `.trae/skills` or `.claude/skills` | Automatically, or with `/skill-name`                                |
+| Gemini CLI     | `~/.gemini/skills` or `~/.trae/skills`          | `.gemini/skills` or `.trae/skills`                   | The model asks to activate a skill and you approve                  |
+| opencode       | `~/.config/opencode/skills` or `~/.trae/skills` | `.opencode/skills` or `.trae/skills`                 | Loaded on demand                                                    |
 
-`~/.agents/skills` is read by Codex, Cursor, GitHub Copilot, Gemini CLI and opencode, so one copy there covers all five.
+`~/.trae/skills` is read by Codex, Cursor, GitHub Copilot, Gemini CLI and opencode, so one copy there covers all five.
 
 Gemini CLI can also install one skill straight from the repository:
 

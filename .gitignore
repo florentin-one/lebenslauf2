@@ -66,6 +66,7 @@ temp
 .worktrees
 .migration
 /plans
+.trae/*
 
 # Local Storage Data
 /data

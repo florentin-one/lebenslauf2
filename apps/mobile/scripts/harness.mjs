@@ -1,4 +1,4 @@
-// Shared host-test loader: compile mobile source with esbuild, then run it against explicit mocks. See ../AGENTS.md.
+// Shared host-test loader: compile mobile source with esbuild, then run it against explicit mocks. See ../.trae/rules/index.md.
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import { createRequire } from "node:module";

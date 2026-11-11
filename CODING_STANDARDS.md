@@ -10,7 +10,7 @@ its file and line.
 - **Web and mobile parity.** A user-facing feature added, removed or changed in `apps/web` has the matching change in
   `apps/mobile` in the same work, and the reverse. Shared logic lives in a workspace package (`packages/api`,
   `packages/schema`, `packages/resume`, `packages/pdf`), not duplicated per app. The only allowed gaps are the owner's
-  exceptions listed in `apps/mobile/AGENTS.md`.
+  exceptions listed in `.trae/rules/mobile.md`.
 - **Old clients keep working.** Installed mobile binaries and OTA bundles stay in use for weeks. API changes are
   additive or backward compatible; nothing relies on clients updating first. A mobile change that needs new native
   code is called out as a store build, never forced through a runtime-version bump.
@@ -19,7 +19,7 @@ its file and line.
 
 ## Ownership and security
 
-- Code sits with its owner from the root `AGENTS.md` ownership map. Workflow-specific UI stays in its web or mobile
+- Code sits with its owner from the root `.trae/rules/index.md` ownership map. Workflow-specific UI stays in its web or mobile
   feature; `packages/ui` holds only generic primitives; `packages/utils` only helpers no domain package owns.
 - Authenticated procedures use `protectedProcedure`, and feature logic checks the caller owns every resource it reads
   or changes, including IDs nested in input. Server code reuses the shared auth resolution; no new auth path.

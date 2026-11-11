@@ -28,7 +28,7 @@ describe("agent skills discovery", () => {
 		const index = await response.json();
 
 		expect(response.headers.get("Content-Type")).toBe("application/json");
-		expect(index.$schema).toBe("https://schemas.agentskills.io/discovery/0.2.0/schema.json");
+		expect(index.$schema).toBe("https://schemas.traekills.io/discovery/0.2.0/schema.json");
 		expect(index.skills.map((skill: { name: string }) => skill.name)).toEqual(readdirSync(skillsRoot).toSorted());
 
 		for (const skill of index.skills) {

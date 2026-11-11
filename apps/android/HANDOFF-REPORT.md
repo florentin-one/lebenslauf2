@@ -6,7 +6,7 @@ Native Android app for Reactive Resume in Kotlin and Jetpack Compose, built from
 ## What was built
 
 - **25 Gradle modules** under `apps/android`: `:app`, nine `:core:*` modules and fourteen `:feature:*` modules. The
-  structure and the reason for each choice are in `PLAN.md`; the rules for future work are in `AGENTS.md`.
+  structure and the reason for each choice are in `PLAN.md`; the rules for future work are in `.trae/rules/index.md`.
 - **All 61 storyboard screens**, with real navigation between them, in light and dark. Each screen has Roborazzi
   captures named after its storyboard file (`<ID>-<Name>-light.png` / `-dark.png`), plus extra states (empty, error,
   offline, locked, 200% font). 323 goldens in total, verified on every build.

@@ -108,7 +108,7 @@ patchedDependencies:
   expo-sharing@58.0.22: apps/mobile/patches/expo-sharing@58.0.22.patch
 skills:
   dirs:
-    - .agents/skills
+    - .trae/skills
 permissions:
   "@tanstack/devtools-vite":
     skills: true

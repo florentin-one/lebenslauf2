@@ -4,7 +4,7 @@ import { join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { gzipSync } from "node:zlib";
 
-const SCHEMA_URL = "https://schemas.agentskills.io/discovery/0.2.0/schema.json";
+const SCHEMA_URL = "https://schemas.traekills.io/discovery/0.2.0/schema.json";
 const SKILL_NAME = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 const cacheControl = "public, max-age=3600";
 

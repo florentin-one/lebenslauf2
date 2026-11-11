@@ -53,7 +53,7 @@ Independent reviewers must have written none of the UI under review.
 
 Each issued brief includes the absolute bundle path above, exact screen IDs/stems, owned files/modules,
 available shared components and stateless state/callback/repository contracts, and the fidelity contract.
-Read local AGENTS.md, REDESIGN.md, COMPONENTS.md, screens/dumps/source and SCREENS.md before edits.
+Read local .trae/rules/index.md, REDESIGN.md, COMPONENTS.md, screens/dumps/source and SCREENS.md before edits.
 Never edit another worker's module or core; request missing shared components from lead.
 Use JDK 21 and existing static fonts/Phosphor drawables. Fetch current API docs via Context7.
 Keep real repositories; exact storyboard seeds and image fixtures belong to fakes.

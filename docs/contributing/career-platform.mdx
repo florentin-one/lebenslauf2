@@ -42,7 +42,7 @@ pnpm test:e2e:local --build tests/e2e/specs/form-fill-engine.spec.ts
 
 Set `RUN_CAPTURE_EXTENSION=1` for the actual Chromium helper case; otherwise that case is intentionally omitted. The shared-engine spec launches Chromium and host WebKit to check the desktop script. The earlier loopback lab under `tooling/autofill/` remains historical experiment evidence and does not verify the new product integration.
 
-Mobile packet changes use JavaScript, copy and existing native dependencies, so they are OTA eligible by source inspection. Compare the installed native fingerprint during release verification. Deploy the additive backend first; old mobile APIs stay compatible. The owner-approved native-autofill exception is listed under "Parity exceptions" in `apps/mobile/AGENTS.md`.
+Mobile packet changes use JavaScript, copy and existing native dependencies, so they are OTA eligible by source inspection. Compare the installed native fingerprint during release verification. Deploy the additive backend first; old mobile APIs stay compatible. The owner-approved native-autofill exception is listed under "Parity exceptions" in `.trae/rules/mobile.md`.
 
 Refresh `writing-application-answers`, `career-workspace-reference` and `exporting-your-data` with packet changes. `employer-form-packet-v2.png` is an actual fictional-account product screenshot; it makes no native-device claim. Keep the original `employer-form-prototype.png` as historical lab evidence.
 

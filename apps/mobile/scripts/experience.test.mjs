@@ -161,7 +161,7 @@ const mocks = {
 		withSpring: (value) => value,
 	},
 };
-// Every source import needs a key here or in `extra`; see ../AGENTS.md.
+// Every source import needs a key here or in `extra`; see ../.trae/rules/index.md.
 const load = (path, extra = {}, append = "") =>
 	harness.load(`../src/${path}`, { ...mocks, ...extra }, { jsx: "transform", globals: { React: react }, append });
 const nodes = (tree) =>
