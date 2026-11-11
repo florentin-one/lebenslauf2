@@ -33,12 +33,12 @@ class PublicScreenshotsTest : RrScreenshotTest() {
             override suspend fun page(document: me.rxresu.core.page.RenderedDocument, index: Int, widthPx: Int) = bitmap
         }
         try { captureScreen(if (rtl) "P1-Public-rtl" else "P1-Public", dark, fontScale = screenshotScale, wrap = { c -> CompositionLocalProvider(androidx.compose.ui.platform.LocalLayoutDirection provides if (rtl) androidx.compose.ui.unit.LayoutDirection.Rtl else androidx.compose.ui.unit.LayoutDirection.Ltr, LocalRepositories provides fakes) { c() } }) {
-            PublicScreen(state, "rx.cv/alex", readyRenderer, {}, {}, {}, {}, {}, {}, {}, {}, {})
+            PublicScreen(state, "cv2.florentin-one.de/alex", readyRenderer, {}, {}, {}, {}, {}, {}, {}, {}, {})
         } } finally { fakes.close() }
     }
     private fun ats(dark: Boolean) = capture("P2-ATS-result", dark) { fakes ->
         val sample = runBlocking { fakes.checks.createPdfCheck(UploadPart("file", byteArrayOf(), "my-cv-final.pdf", "application/pdf")) }
-        val result = sample.copy(score = 64.0, fullText = "ALEX MORGAN Senior product\ndesigner Lisbon alex@morgan\nNorthwind Labs 2022 Present\nLed the redesign of onboard-\ning lifting activation from…", file = sample.file.copy(name = "my-cv-final.pdf", sizeBytes = 1_900_000.0), findings = listOf(
+        val result = sample.copy(score = 64.0, fullText = "Laura Beier Senior product\ndesigner Lisbon alex@morgan\nNorthwind Labs 2022 Present\nLed the redesign of onboard-\ning lifting activation from…", file = sample.file.copy(name = "my-cv-final.pdf", sizeBytes = 1_900_000.0), findings = listOf(
             CreatePdfCheckResponseTipsItem(CreatePdfCheckResponseChecksItemCategory.Layout, CreatePdfCheckResponseCappedByItem.MULTICOLUMNLAYOUT, severity = CreatePdfCheckResponseChecksItemSeverity.Warning),
             CreatePdfCheckResponseTipsItem(CreatePdfCheckResponseChecksItemCategory.Parseability, CreatePdfCheckResponseCappedByItem.FILETOOLARGE, severity = CreatePdfCheckResponseChecksItemSeverity.Warning)
         ))

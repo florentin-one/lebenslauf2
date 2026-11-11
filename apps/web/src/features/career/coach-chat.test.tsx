@@ -522,7 +522,7 @@ it("names a lost connection and offers another AI connection only for provider f
 	const view = screen.getByRole("textbox", { name: "Message the coach" });
 	fireEvent.change(view, { target: { value: "Hello" } });
 	fireEvent.keyDown(view, { key: "Enter" });
-	await screen.findByText("Couldn't reach Reactive Resume. Check your internet connection, then try again.");
+	await screen.findByText("Couldn't reach Lebenslauf2. Check your internet connection, then try again.");
 	expect(screen.queryByRole("button", { name: "Change connection" })).toBeNull();
 });
 

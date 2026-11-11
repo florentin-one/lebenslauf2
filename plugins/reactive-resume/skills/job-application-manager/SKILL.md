@@ -1,11 +1,11 @@
 ---
 name: job-application-manager
-description: Runs the job-search pipeline. Adds jobs from a link or pasted posting, keeps stages and dates accurate, sets follow-ups, runs a weekly review (stale applications, next actions, funnel stats), records the exact resume version sent, and drafts networking, LinkedIn, referral, recruiter-reply, follow-up, thank-you, status-check, expedite and withdrawal messages without sending them. Use when the user says "add this job to my tracker", "I applied", "log my interview", "I got rejected", "I was ghosted", "log my offer", "track my applications", "do my weekly review", "what should I follow up on", "write a thank-you note", "message this recruiter", "ask for a referral", "withdraw my application", or wants a job-search spreadsheet. Works with a Markdown/CSV tracker or Reactive Resume MCP tools. Not for resume work (resume-tailor, resume-bullet-writer, resume-content-guide), interview prep or practice (interview-prep, mock-interview), or judging, negotiating, accepting or declining an offer (offer-negotiation).
+description: Runs the job-search pipeline. Adds jobs from a link or pasted posting, keeps stages and dates accurate, sets follow-ups, runs a weekly review (stale applications, next actions, funnel stats), records the exact resume version sent, and drafts networking, LinkedIn, referral, recruiter-reply, follow-up, thank-you, status-check, expedite and withdrawal messages without sending them. Use when the user says "add this job to my tracker", "I applied", "log my interview", "I got rejected", "I was ghosted", "log my offer", "track my applications", "do my weekly review", "what should I follow up on", "write a thank-you note", "message this recruiter", "ask for a referral", "withdraw my application", or wants a job-search spreadsheet. Works with a Markdown/CSV tracker or Lebenslauf2 MCP tools. Not for resume work (resume-tailor, resume-bullet-writer, resume-content-guide), interview prep or practice (interview-prep, mock-interview), or judging, negotiating, accepting or declining an offer (offer-negotiation).
 ---
 
 # Job Application Manager
 
-Run the user's job search as a pipeline. Each opportunity is one record with one stage, real dates, the exact documents sent, a next action and a follow-up date. You draft and log. The user applies, sends and decides. Everything works in plain conversation with a Markdown or CSV tracker; when the Reactive Resume MCP server is connected, the same workflow drives its application tools.
+Run the user's job search as a pipeline. Each opportunity is one record with one stage, real dates, the exact documents sent, a next action and a follow-up date. You draft and log. The user applies, sends and decides. Everything works in plain conversation with a Markdown or CSV tracker; when the Lebenslauf2 MCP server is connected, the same workflow drives its application tools.
 
 ## Ground rules
 
@@ -111,7 +111,7 @@ One stage per record: where the application is now. Map what the user says:
 - If a tier A user applied before asking for the referral, still draft the ask; the contact can flag the application to the recruiter.
 - When the user accepts an offer, propose closing every other open application as `accepted-other` and draft the withdrawals (§5) in the same turn.
 
-**Record exactly what was sent.** Interviewers quiz the resume they received, so the record must hold that version. Before marking `applied`, ask "Which resume and cover letter did you send?" and record both in the same update. In Reactive Resume, reaching Applied snapshots the linked resume and letter as they are at that moment and then fixes the link. If the user has edited the resume since submitting, the snapshot won't match what the employer has: attach the PDF they actually sent instead. Without MCP, record the exact file name (e.g. `Sam_Lee_Acme_2026-10-02.pdf`) and tell the user to keep that file unchanged.
+**Record exactly what was sent.** Interviewers quiz the resume they received, so the record must hold that version. Before marking `applied`, ask "Which resume and cover letter did you send?" and record both in the same update. In Lebenslauf2, reaching Applied snapshots the linked resume and letter as they are at that moment and then fixes the link. If the user has edited the resume since submitting, the snapshot won't match what the employer has: attach the PDF they actually sent instead. Without MCP, record the exact file name (e.g. `Sam_Lee_Acme_2026-10-02.pdf`) and tell the user to keep that file unchanged.
 
 ## 3. Follow-ups and the status clock
 
@@ -249,11 +249,11 @@ Read [references/tracker-template.md](references/tracker-template.md) when creat
 - **Starting from a pile.** Ask the user to paste whatever they have, one line per job in any order, and normalise it into the columns. Then ask at most 5 questions, open records first (offers, booked interviews, anything due this week). Make each answerable in one line covering several rows ("Resume per job, e.g. 1–8 Backend v3, 9–20 Generic"; "Top targets? List the numbers; the rest default to B"). Leave the remaining unknowns blank and fill them during the first weekly review. Never guess dates; an approximation the user gives ("about 7 weeks ago") is fine: record it and mark it approximate.
 - **Networking without a posting.** Keep `job-search/contacts.csv` (`name, company, role, relationship, last_contact_on, next_step, follow_up_on, notes`) so informational chats, referral leads and "who else should I talk to?" names aren't lost.
 - **Review** with the same columns: `furthest_stage` drives the funnel, and `last_contact_on` and `follow_up_on` drive the clock.
-- **Moving to Reactive Resume later:** rows map onto `import_applications` (up to 500 per call).
+- **Moving to Lebenslauf2 later:** rows map onto `import_applications` (up to 500 per call).
 
-## Reactive Resume MCP (skip if not connected)
+## Lebenslauf2 MCP (skip if not connected)
 
-Use these only when the server is connected. Read before writing; show before/after and get a yes before changing an existing record. Read [references/mcp-recipes.md](references/mcp-recipes.md) before the first Reactive Resume write in a session: exact payloads for intake, applied with the resume link, interviews, logging sent messages, bulk closes, the accept-offer cascade and fixing mistakes.
+Use these only when the server is connected. Read before writing; show before/after and get a yes before changing an existing record. Read [references/mcp-recipes.md](references/mcp-recipes.md) before the first Lebenslauf2 write in a session: exact payloads for intake, applied with the resume link, interviews, logging sent messages, bulk closes, the accept-offer cascade and fixing mistakes.
 
 | Job              | Tools                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -302,4 +302,4 @@ Gotchas that cost users data:
 - [references/messages.md](references/messages.md): before drafting any message.
 - [references/tracker-template.md](references/tracker-template.md): when creating, importing or reviewing a plain tracker (not for a one-off message).
 - [references/pipeline-rules.md](references/pipeline-rules.md): for stage edge cases, tag and source vocabularies, offer-stage detail and regional rules.
-- [references/mcp-recipes.md](references/mcp-recipes.md): before the first Reactive Resume write in a session.
+- [references/mcp-recipes.md](references/mcp-recipes.md): before the first Lebenslauf2 write in a session.

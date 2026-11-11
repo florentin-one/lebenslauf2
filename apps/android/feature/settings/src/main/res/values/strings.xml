@@ -1,5 +1,5 @@
 <resources>
-    <string name="screen_about_reactive_resume">"About Reactive Resume"</string>
+    <string name="screen_about_reactive_resume">"About Lebenslauf2"</string>
     <string name="screen_also_follows_your_system_setting">"Also follows your system setting"</string>
     <string name="screen_amount">"Amount"</string>
     <string name="screen_any_edits_not_yet_synced_from_this_device_will_be_lost">"Any edits not yet synced from this device will be lost."</string>

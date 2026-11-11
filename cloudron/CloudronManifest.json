@@ -1,6 +1,6 @@
 {
 	"id": "me.rxresu.cloudronapp",
-	"title": "Reactive Resume",
+	"title": "Lebenslauf2",
 	"tagline": "Free and open-source resume builder",
 	"description": "file://DESCRIPTION.md",
 	"changelog": "file://CHANGELOG",
@@ -23,17 +23,17 @@
 			"loginRedirectUri": "/api/auth/callback/custom"
 		}
 	},
-	"website": "https://rxresu.me",
-	"documentationUrl": "https://docs.rxresu.me",
+	"website": "https://lebenslauf2.florentin-one.de",
+	"documentationUrl": "https://docs.lebenslauf2.me",
 	"forumUrl": "https://github.com/reactive-resume/reactive-resume/discussions",
 	"packageUrl": "https://github.com/reactive-resume/reactive-resume/tree/main/cloudron",
 	"packagerName": "Amruth Pillai",
 	"packagerUrl": "https://github.com/reactive-resume",
-	"iconUrl": "https://rxresu.me/pwa-512x512.png",
+	"iconUrl": "https://lebenslauf2.florentin-one.de/pwa-512x512.png",
 	"tags": ["productivity", "resume", "career"],
 	"mediaLinks": [
-		"https://rxresu.me/screenshots/web/2-resume-dashboard.webp",
-		"https://rxresu.me/screenshots/web/3-builder-screen.webp",
-		"https://rxresu.me/screenshots/web/4-template-gallery.webp"
+		"https://lebenslauf2.florentin-one.de/screenshots/web/2-resume-dashboard.webp",
+		"https://lebenslauf2.florentin-one.de/screenshots/web/3-builder-screen.webp",
+		"https://lebenslauf2.florentin-one.de/screenshots/web/4-template-gallery.webp"
 	]
 }

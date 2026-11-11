@@ -24,7 +24,7 @@ vi.mock("@reactive-resume/db/schema", () => ({ user: { __table: "user" } }));
 vi.mock("drizzle-orm", () => ({ eq: () => "EQ" }));
 vi.mock("@reactive-resume/env/server", async (importOriginal) => {
 	const { env } = await importOriginal<typeof import("@reactive-resume/env/server")>();
-	return { env: { ...env, APP_ALIAS_URL: "https://rx.cv" } };
+	return { env: { ...env, APP_ALIAS_URL: "https://cv2.florentin-one.de" } };
 });
 
 const { resolveUserFromRequestHeaders, resolveAuthenticationFromRequestHeaders, publicProcedure, protectedProcedure } =
@@ -89,10 +89,10 @@ describe("cookie request origins", () => {
 		{ origin: "https://attacker.example" },
 		{ origin: "null" },
 		{ "sec-fetch-site": "cross-site" },
-		{ origin: "https://rx.cv", "sec-fetch-site": "cross-site" },
-		{ origin: "https://rx.cv.attacker.example", "sec-fetch-site": "same-origin" },
+		{ origin: "https://cv2.florentin-one.de", "sec-fetch-site": "cross-site" },
+		{ origin: "https://cv2.florentin-one.de.attacker.example", "sec-fetch-site": "same-origin" },
 		{ origin: "http://rx.cv", "sec-fetch-site": "same-origin" },
-		{ origin: "https://rx.cv:8443", "sec-fetch-site": "same-origin" },
+		{ origin: "https://cv2.florentin-one.de:8443", "sec-fetch-site": "same-origin" },
 	])("rejects ambient credentials from another origin: %j", async (originHeaders) => {
 		reset();
 		authMock.api.getSession.mockResolvedValue({ user: { id: "owner" } });
@@ -106,7 +106,11 @@ describe("cookie request origins", () => {
 		authMock.api.getSession.mockResolvedValue(null);
 		const context = {
 			locale: "en-US" as const,
-			reqHeaders: new Headers({ cookie: "theme=dark", origin: "https://rx.cv", "sec-fetch-site": "same-origin" }),
+			reqHeaders: new Headers({
+				cookie: "theme=dark",
+				origin: "https://cv2.florentin-one.de",
+				"sec-fetch-site": "same-origin",
+			}),
 		};
 		const publicOperation = createProcedureClient(
 			publicProcedure.handler(({ context }) => context.user),

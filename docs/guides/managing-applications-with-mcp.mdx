@@ -1,15 +1,15 @@
 ---
 title: "Managing applications with MCP"
-description: "Track job applications from an AI client connected to Reactive Resume: add roles, move stages, schedule interviews, attach sent PDFs and draft letters."
+description: "Track job applications from an AI client connected to Lebenslauf2: add roles, move stages, schedule interviews, attach sent PDFs and draft letters."
 ---
 
-Once your AI client is connected to the Reactive Resume MCP server, you can run your job search from a chat: add roles you find, move applications through their stages, log notes and interviews, attach the PDFs you sent, and ask for match scores or tailored resumes. This guide gives you prompts that work well and explains what each one does behind the scenes.
+Once your AI client is connected to the Lebenslauf2 MCP server, you can run your job search from a chat: add roles you find, move applications through their stages, log notes and interviews, attach the PDFs you sent, and ask for match scores or tailored resumes. This guide gives you prompts that work well and explains what each one does behind the scenes.
 
 ## Before you start
 
 - Connect your client to the MCP server with OAuth or an API key. See [Using the MCP server](/guides/using-the-mcp-server).
-- Ask the client to list its Reactive Resume tools. You should see `list_applications`, `create_application`, `update_application` and the other application tools.
-- For match scores, tailored resumes, drafted letters and job-posting autofill, set up and test a default AI provider in Reactive Resume. See [Connecting an AI provider](/guides/using-ai). These tools send your resume and the job description to that provider.
+- Ask the client to list its Lebenslauf2 tools. You should see `list_applications`, `create_application`, `update_application` and the other application tools.
+- For match scores, tailored resumes, drafted letters and job-posting autofill, set up and test a default AI provider in Lebenslauf2. See [Connecting an AI provider](/guides/using-ai). These tools send your resume and the job description to that provider.
 
 ## How applications are organized
 
@@ -48,7 +48,7 @@ Add an application for Senior Gameplay Engineer at Northwind Games. Stage: saved
 If you have a job posting, paste it and ask the client to read it first. The autofill tool works on pasted text; it doesn't open links.
 
 ```text
-Read this job posting with the Reactive Resume autofill tool, then save it as an application in the saved stage with the job description included.
+Read this job posting with the Lebenslauf2 autofill tool, then save it as an application in the saved stage with the job description included.
 
 [Paste the job posting here]
 ```
@@ -81,7 +81,7 @@ Add the recruiter Priya Shah (priya@example.com) as a contact on the Northwind G
 
 The client uses `update_application` for stages, contacts, tags and follow-up dates, and `add_application_note` for notes. When `update_application` changes a list such as contacts or tags, the list it sends replaces the old one, so a careful client reads the application first and sends the full list.
 
-When an application with a linked resume reaches **Applied** or a later stage, Reactive Resume saves that resume, and the linked letter, as a sent version named after the company. You can see later exactly what you sent.
+When an application with a linked resume reaches **Applied** or a later stage, Lebenslauf2 saves that resume, and the linked letter, as a sent version named after the company. You can see later exactly what you sent.
 
 ## Schedule interviews
 
@@ -154,7 +154,7 @@ Tailoring uses the same copy and assistant owners as the app. It retains `resume
 Its proposed edits come back pending, each with the posting requirement it addresses, the assistant's citations and anything nothing checked backs, plus the posting requirements it found, gaps included. Each set names the application whose copy it's for (`tailoredFor`), and recording one as accepted on any other resume is refused. Nothing changes until you approve: your AI client applies an approved edit to that copy with `apply_resume_patch`, passing `proposalApplications` and `proposalSafety`, so the decision is recorded in the same write. If the edit's current wording isn't what the patch writes, or tailoring doesn't allow it on that resume, nothing is written. A structural set (an edit with a `snapshot`) is applied whole. Send `snapshot:<edit id>` as its `proposalApplications` value; this bounded receipt identifies the immutable proposal even when its review summary is long. Prose receipts name the current `after`. Both allow later user refinements in the same save. Older `true` receipts require the saved content to match the proposal exactly, including the whole `snapshot.after` for structural sets. A resume with tailored or reworded assistant edits refuses content changes that don't send `proposalSafety`. The explicit `api_documents_copy_for_job` → `api_agent_threads_start` → `api_agent_messages_send` route remains available when you want to choose each step.
 
 ```text
-Copy my resume for the Northwind Games application and ask the Reactive Resume assistant to tailor the copy. Show me each proposed edit with its requirement, citations and flagged claims, and the requirements with gaps. Apply only the ones I approve.
+Copy my resume for the Northwind Games application and ask the Lebenslauf2 assistant to tailor the copy. Show me each proposed edit with its requirement, citations and flagged claims, and the requirements with gaps. Apply only the ones I approve.
 ```
 
 Cover-letter mode uses the app's letter draft prompt and language rules, sending the posting and linked resume text without private notes or design settings. Review the returned `text` in your AI client. Only after you approve it should the client read the new letter's current revision and call `update_cover_letter` with the approved body as escaped HTML paragraphs, `expectedRevision`, and the returned `aiOperationIds`. Those references retain the original provider/model; saving approved text makes no new model request. The returned `coverLetterId` does not mean the draft body has been accepted. A failed draft creates no letter. Follow-up mode neither creates a letter nor logs a reply as sent.
@@ -189,7 +189,7 @@ Add the tag follow-up to every application in the applied stage with a follow-up
 Add this to your client's project or session instructions so it handles your applications carefully:
 
 ```text
-Use Reactive Resume MCP for job applications. Call list_applications before creating an application so you don't duplicate one. Before update_application changes contacts or tags, read the application and send the complete list. Ask me before delete_application, bulk_delete_applications, bulk_update_applications, or replacing an attached document. Score or tailor only when the application has a job description, and never describe a drafted letter or follow-up as sent.
+Use Lebenslauf2 MCP for job applications. Call list_applications before creating an application so you don't duplicate one. Before update_application changes contacts or tags, read the application and send the complete list. Ask me before delete_application, bulk_delete_applications, bulk_update_applications, or replacing an attached document. Score or tailor only when the application has a job description, and never describe a drafted letter or follow-up as sent.
 ```
 
 ## Troubleshooting

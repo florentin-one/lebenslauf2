@@ -98,7 +98,7 @@ type Prompt = { threadId: string; text: string; attachments: ChatAttachment[] };
 
 /** Why a reply failed, in the reader's language: a lost connection, the provider, or this server's own reason. */
 function replyFailure(error: unknown, fallback: string, t: ReturnType<typeof useLingui>["t"]) {
-	if (isNetworkError(error)) return t`Couldn't reach Reactive Resume. Check your internet connection, then try again.`;
+	if (isNetworkError(error)) return t`Couldn't reach Lebenslauf2. Check your internet connection, then try again.`;
 	const key = error instanceof Error && !(error instanceof ORPCError) ? agentReplyError(error.message) : null;
 	if (key)
 		return {

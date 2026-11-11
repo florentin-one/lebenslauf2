@@ -55,7 +55,7 @@
     <string name="p4_web_page_settings">Web page settings</string>
     <string name="p4_your_current_resume_will_be_kept_as_a_version_before_restoring">Your current resume will be kept as a version before restoring.</string>
     <string name="p4_your_domain_will_stop_opening_your_resume">Your domain will stop opening your resume.</string>
-    <string name="p4_your_short_link_rx_cv_1_s_opens_this_resume">Your short link rx.cv/%1$s opens this resume.</string>
+    <string name="p4_your_short_link_rx_cv_1_s_opens_this_resume">Your short link cv2.florentin-one.de/%1$s opens this resume.</string>
     <string name="p4_your_short_link_will_open_this_resume">Your short link will open this resume.</string>
     <string name="p4_your_web_page_is_live">Your web page is live</string>
     <string name="p4_live_at">Live at %1$s</string>
@@ -93,7 +93,7 @@
     <string name="word_hint">For portals that ask for it</string>
     <string name="open_document_hint">For LibreOffice</string>
     <string name="text_hint">For pasting into forms</string>
-    <string name="json_hint">Imports back into Reactive Resume</string>
+    <string name="json_hint">Imports back into Lebenslauf2</string>
     <string name="more_formats">More formats</string>
     <string name="sessions_kept">Every editing session is kept.</string>
     <string name="from_assistant">from the assistant</string>

@@ -1,10 +1,10 @@
 ---
 title: "Self-hosting with Docker"
-description: "Run your own Reactive Resume server with Docker Compose and PostgreSQL: set up, create the first account, check health, update and back up."
+description: "Run your own Lebenslauf2 server with Docker Compose and PostgreSQL: set up, create the first account, check health, update and back up."
 ---
 
-This guide sets up your own Reactive Resume server with Docker Compose. You end up with two containers, the app and a
-PostgreSQL database, reachable at an address you choose. It's the same app that runs on `https://rxresu.me`, and your data stays on
+This guide sets up your own Lebenslauf2 server with Docker Compose. You end up with two containers, the app and a
+PostgreSQL database, reachable at an address you choose. It's the same app that runs on `https://lebenslauf2.florentin-one.de`, and your data stays on
 your hardware.
 
 ## Before you start
@@ -87,7 +87,7 @@ Pi 4 or newer running a 64-bit operating system.
     </CodeGroup>
 
     If you will serve the instance from a domain, set `APP_URL` to that address now, for example
-    `https://resume.example.com`. Every other setting is optional; the
+    `https://lebenslauf2.florentin-one.de`. Every other setting is optional; the
     [environment variable reference](/self-hosting/environment-variables) lists them all.
 
   </Step>
@@ -159,7 +159,7 @@ Pi 4 or newer running a 64-bit operating system.
   <Step title="Create your account">
     Open your `APP_URL` in a browser and create an account; see [Creating an account](/guides/creating-an-account).
 
-    You're signed in right away. Reactive Resume also sends a verification email, but you don't have to open it to
+    You're signed in right away. Lebenslauf2 also sends a verification email, but you don't have to open it to
     use the app. Without SMTP settings the email isn't sent; its link is written to the app log instead:
 
     ```bash

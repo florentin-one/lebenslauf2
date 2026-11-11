@@ -6,7 +6,7 @@
 		"fields": [
 			{
 				"n": 16,
-				"text": "Alex Morgan",
+				"text": "Laura Beier",
 				"scale": 0.475,
 				"before": {
 					"slot": {
@@ -53,7 +53,7 @@
 			},
 			{
 				"n": 17,
-				"text": "Senior product designer",
+				"text": "Fachärztin für Psychiatrie und Psychotherapie",
 				"scale": 0.475,
 				"before": {
 					"slot": {
@@ -100,7 +100,7 @@
 			},
 			{
 				"n": 19,
-				"text": "Lisbon, Portugal",
+				"text": "Hanover, Germany",
 				"scale": 0.475,
 				"before": {
 					"slot": {
@@ -147,7 +147,7 @@
 			},
 			{
 				"n": 20,
-				"text": "alex@morgan.design",
+				"text": "beier.laura@mh-hannover.de",
 				"scale": 0.475,
 				"before": {
 					"slot": {
@@ -288,7 +288,7 @@
 			},
 			{
 				"n": 23,
-				"text": "Product designer with eight years in onboarding, payments and design systems for business software. I turn research into shipped, measurable changes.",
+				"text": "Klinik für Psychiatrie, Sozialpsychiatrie und Psychotherapie, payments and design systems for business software. I turn research into shipped, measurable changes.",
 				"scale": 0.475,
 				"before": {
 					"slot": {
@@ -476,7 +476,7 @@
 			},
 			{
 				"n": 28,
-				"text": "Senior product designer · Lisbon",
+				"text": "Fachärztin für Psychiatrie und Psychotherapie · Lisbon",
 				"scale": 0.475,
 				"before": {
 					"slot": {
@@ -1141,7 +1141,7 @@
 		"fields": [
 			{
 				"n": 16,
-				"text": "Alex Morgan",
+				"text": "Laura Beier",
 				"scale": 0.419,
 				"before": {
 					"slot": {
@@ -1188,7 +1188,7 @@
 			},
 			{
 				"n": 17,
-				"text": "Senior product designer",
+				"text": "Fachärztin für Psychiatrie und Psychotherapie",
 				"scale": 0.419,
 				"before": {
 					"slot": {
@@ -1235,7 +1235,7 @@
 			},
 			{
 				"n": 19,
-				"text": "Lisbon, Portugal",
+				"text": "Hanover, Germany",
 				"scale": 0.419,
 				"before": {
 					"slot": {
@@ -1282,7 +1282,7 @@
 			},
 			{
 				"n": 20,
-				"text": "alex@morgan.design",
+				"text": "beier.laura@mh-hannover.de",
 				"scale": 0.419,
 				"before": {
 					"slot": {
@@ -1376,7 +1376,7 @@
 			},
 			{
 				"n": 22,
-				"text": "Product designer with eight years in onboarding, payments and design systems for business software.",
+				"text": "Klinik für Psychiatrie, Sozialpsychiatrie und Psychotherapie, payments and design systems for business software.",
 				"scale": 0.419,
 				"before": {
 					"slot": {
@@ -1564,7 +1564,7 @@
 			},
 			{
 				"n": 27,
-				"text": "Senior product designer · Lisbon",
+				"text": "Fachärztin für Psychiatrie und Psychotherapie · Lisbon",
 				"scale": 0.419,
 				"before": {
 					"slot": {

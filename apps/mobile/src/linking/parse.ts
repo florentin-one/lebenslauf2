@@ -41,9 +41,9 @@ export function parseDeepLink(input: string, currentServer: string): DeepLink | 
 	let path: string;
 	let server: string | null = null;
 	let native = false;
-	if (/^me\.rxresu:/i.test(input)) {
+	if (/^me\.lebenslauf2:/i.test(input)) {
 		native = true;
-		path = `/${input.slice("me.rxresu:".length).replace(/^\/+/, "")}`;
+		path = `/${input.slice("me.lebenslauf2:".length).replace(/^\/+/, "")}`;
 	} else if (input.startsWith("/") && !input.startsWith("//")) {
 		native = true;
 		path = input;

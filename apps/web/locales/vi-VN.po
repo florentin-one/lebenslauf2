@@ -1014,8 +1014,8 @@ msgid "{skipped, plural, one {# row had no company or role and was skipped.} oth
 msgstr "{skipped, plural, other {# hàng không có công ty hoặc vai trò nên đã bị bỏ qua.}}"
 
 #: src/features/homepage/header.tsx
-msgid "{stars, plural, one {Star Reactive Resume on GitHub, # star} other {Star Reactive Resume on GitHub, # stars}}"
-msgstr "{stars, plural, other {Gắn sao cho Reactive Resume trên GitHub, # sao}}"
+msgid "{stars, plural, one {Star Lebenslauf2 on GitHub, # star} other {Star Lebenslauf2 on GitHub, # stars}}"
+msgstr "{stars, plural, other {Gắn sao cho Lebenslauf2 trên GitHub, # sao}}"
 
 #: src/features/documents/page-navigation.tsx
 msgid "{start}–{end} of {total}"
@@ -1248,8 +1248,8 @@ msgid "A accepts and R rejects the focused edit. ↑ and ↓ move between edits.
 msgstr "A chấp nhận và R từ chối chỉnh sửa tập trung. ↑ và ↓ di chuyển giữa các lần chỉnh sửa."
 
 #: src/routes/builder/letter/-components/download-sheet.tsx
-msgid "A backup of this letter. Imports back into Reactive Resume as a letter."
-msgstr "Bản sao lưu của bức thư này. Nhập lại vào Reactive Resume dưới dạng một lá thư."
+msgid "A backup of this letter. Imports back into Lebenslauf2 as a letter."
+msgstr "Bản sao lưu của bức thư này. Nhập lại vào Lebenslauf2 dưới dạng một lá thư."
 
 #: src/features/resume/editor/check/issues.ts
 msgid "A city and country let roles be matched to where you are."
@@ -1442,8 +1442,8 @@ msgid "About 90 seconds when spoken"
 msgstr "Khoảng 90 giây khi nói"
 
 #: src/features/settings/root.tsx
-msgid "About Reactive Resume"
-msgstr "Giới thiệu về Reactive Resume"
+msgid "About Lebenslauf2"
+msgstr "Giới thiệu về Lebenslauf2"
 
 #: src/features/resume/editor/design/entries-group.tsx
 msgid "Accent"
@@ -2183,11 +2183,6 @@ msgstr "Bản nháp có AI hỗ trợ"
 msgid "Albanian"
 msgstr "Tiếng Albania"
 
-#: src/features/homepage/check.tsx
-#: src/features/homepage/sheet.tsx
-msgid "Alex Morgan"
-msgstr "Alex Morgan"
-
 #: src/features/resume/editor/write/rich-text-editor-field.tsx
 msgid "Align center"
 msgstr "Căn giữa"
@@ -2638,7 +2633,7 @@ msgstr "Phê duyệt và tạo bộ hồ sơ"
 msgid "Approve change"
 msgstr "Phê duyệt thay đổi"
 
-#. Email preview text. appName: Reactive Resume
+#. Email preview text. appName: Lebenslauf2
 #: src/features/auth/email-text.ts
 msgid "Approve changing your {appName} email address"
 msgstr "Phê duyệt việc thay đổi địa chỉ email {appName} của bạn"
@@ -4028,8 +4023,8 @@ msgid "Complete {0} before saving."
 msgstr "Hoàn thành {0} trước khi lưu."
 
 #: src/features/resume/share/download-tab.tsx
-msgid "Complete data backup. Imports back into Reactive Resume."
-msgstr "Bản sao lưu dữ liệu đầy đủ. Có thể nhập lại vào Reactive Resume."
+msgid "Complete data backup. Imports back into Lebenslauf2."
+msgstr "Bản sao lưu dữ liệu đầy đủ. Có thể nhập lại vào Lebenslauf2."
 
 #: src/features/ats-checker/messages.ts
 msgid "Compress or remove large images to keep uploads quick."
@@ -4071,17 +4066,17 @@ msgstr "Hãy xác nhận thời gian với {contact} trước khi thêm buổi p
 msgid "Confirm the time, link and who you'll meet. Glance at the resume and letter you sent."
 msgstr "Xác nhận thời gian, đường liên kết và người bạn sẽ gặp. Xem qua sơ yếu lý lịch và thư bạn đã gửi."
 
-#. Email sent to a new address to finish an email change. appName: Reactive Resume
+#. Email sent to a new address to finish an email change. appName: Lebenslauf2
 #: src/features/auth/email-text.ts
 msgid "Confirm this address to finish changing your {appName} email. The link works for 1 hour."
 msgstr "Hãy xác nhận địa chỉ này để hoàn tất việc thay đổi email {appName} của bạn. Liên kết có hiệu lực trong 1 giờ."
 
-#. Verification email. appName: Reactive Resume
+#. Verification email. appName: Lebenslauf2
 #: src/features/auth/email-text.ts
 msgid "Confirm this is your email address for {appName}. The link works for 1 hour."
 msgstr "Hãy xác nhận đây là địa chỉ email của bạn cho {appName}. Liên kết có hiệu lực trong 1 giờ."
 
-#. Email preview text. appName: Reactive Resume
+#. Email preview text. appName: Lebenslauf2
 #: src/features/auth/email-text.ts
 msgid "Confirm your new {appName} email address"
 msgstr "Xác nhận địa chỉ email {appName} mới của bạn"
@@ -4833,8 +4828,8 @@ msgid "Couldn't propose these edits: {0}"
 msgstr "Không thể đề xuất những chỉnh sửa này: {0}"
 
 #: src/libs/error-message.ts
-msgid "Couldn't reach Reactive Resume. Check your internet connection, then try again."
-msgstr "Không thể kết nối với Reactive Resume. Hãy kiểm tra kết nối internet rồi thử lại."
+msgid "Couldn't reach Lebenslauf2. Check your internet connection, then try again."
+msgstr "Không thể kết nối với Lebenslauf2. Hãy kiểm tra kết nối internet rồi thử lại."
 
 #: src/features/documents/new-document-dialog.tsx
 msgid "Couldn't reach the AI provider. Try again in a moment."
@@ -6232,8 +6227,8 @@ msgid "Drag to reposition and use the slider to zoom before uploading."
 msgstr "Kéo chuột để định vị lại và sử dụng thanh trượt để phóng to trước khi tải lên."
 
 #: src/features/documents/new-document-dialog.tsx
-msgid "Drop a file here or browse. PDF, Word (needs AI), Reactive Resume, JSON Resume or a LinkedIn export (.zip). Sections come in ready to edit. For a PDF or Word file, anything that couldn't be placed is listed before you create the resume."
-msgstr "Thả tệp vào đây hoặc duyệt tìm. PDF, Word (cần AI), Reactive Resume, JSON Resume hoặc tệp xuất từ LinkedIn (.zip). Các mục được đưa vào sẵn sàng để chỉnh sửa. Với tệp PDF hoặc Word, những phần không thể sắp xếp sẽ được liệt kê trước khi bạn tạo sơ yếu lý lịch."
+msgid "Drop a file here or browse. PDF, Word (needs AI), Lebenslauf2, JSON Resume or a LinkedIn export (.zip). Sections come in ready to edit. For a PDF or Word file, anything that couldn't be placed is listed before you create the resume."
+msgstr "Thả tệp vào đây hoặc duyệt tìm. PDF, Word (cần AI), Lebenslauf2, JSON Resume hoặc tệp xuất từ LinkedIn (.zip). Các mục được đưa vào sẵn sàng để chỉnh sửa. Với tệp PDF hoặc Word, những phần không thể sắp xếp sẽ được liệt kê trước khi bạn tạo sơ yếu lý lịch."
 
 #: src/features/ats-checker/messages.ts
 msgid "Drop the pronouns and start from the verb. That is the convention in most markets."
@@ -6371,8 +6366,8 @@ msgid "Edit interview…"
 msgstr "Chỉnh sửa cuộc phỏng vấn…"
 
 #: src/features/ats-checker/checker.tsx
-msgid "Edit it in Reactive Resume"
-msgstr "Chỉnh sửa trong Reactive Resume"
+msgid "Edit it in Lebenslauf2"
+msgstr "Chỉnh sửa trong Lebenslauf2"
 
 #: src/components/input/chip-input.tsx
 msgid "Edit keyword"
@@ -6772,8 +6767,8 @@ msgid "Exact form URL"
 msgstr "URL chính xác của biểu mẫu"
 
 #: src/features/homepage/sections.tsx
-msgid "Exchange resume feedback, ask questions, and help shape Reactive Resume with the community."
-msgstr "Trao đổi góp ý về CV, đặt câu hỏi và cùng cộng đồng định hình Reactive Resume."
+msgid "Exchange resume feedback, ask questions, and help shape Lebenslauf2 with the community."
+msgstr "Trao đổi góp ý về CV, đặt câu hỏi và cùng cộng đồng định hình Lebenslauf2."
 
 #: src/features/resume/stylesheet/toolbar.tsx
 msgid "Exit focus mode"
@@ -7232,8 +7227,8 @@ msgid "For portals or recruiters who ask for Word. Layout is simplified."
 msgstr "Dành cho các cổng thông tin hoặc nhà tuyển dụng yêu cầu Word. Bố cục được đơn giản hóa."
 
 #: src/features/auth/email-text.ts
-msgid "For security, only use links from emails sent by Reactive Resume."
-msgstr "Vì lý do bảo mật, chỉ dùng các liên kết từ email do Reactive Resume gửi."
+msgid "For security, only use links from emails sent by Lebenslauf2."
+msgstr "Vì lý do bảo mật, chỉ dùng các liên kết từ email do Lebenslauf2 gửi."
 
 #: src/features/career/workspace/debrief.tsx
 msgid "For the next round:"
@@ -7307,17 +7302,17 @@ msgstr "Tìm thấy cho “{0}”. Tin tuyển dụng được kiểm tra {1}."
 
 #: src/features/career/schedule-sheet.tsx
 #: src/libs/orpc/ai-consent.ts
-msgid "Found posting links are read by Reactive Resume and the sites being read."
-msgstr "Các liên kết tin tuyển dụng tìm được sẽ được Reactive Resume và các trang web đang được đọc xử lý."
+msgid "Found posting links are read by Lebenslauf2 and the sites being read."
+msgstr "Các liên kết tin tuyển dụng tìm được sẽ được Lebenslauf2 và các trang web đang được đọc xử lý."
 
 #. placeholder {0}: webAccess.provider
 #: src/features/career/schedule-sheet.tsx
-msgid "Found posting links are read by Reactive Resume and, when needed, {0} and the sites being read. The reader may charge."
-msgstr "Các liên kết tin tuyển dụng tìm được sẽ được Reactive Resume và, khi cần, {0} cùng các trang web đang được đọc xử lý. Trình đọc có thể tính phí."
+msgid "Found posting links are read by Lebenslauf2 and, when needed, {0} and the sites being read. The reader may charge."
+msgstr "Các liên kết tin tuyển dụng tìm được sẽ được Lebenslauf2 và, khi cần, {0} cùng các trang web đang được đọc xử lý. Trình đọc có thể tính phí."
 
 #: src/libs/orpc/ai-consent.ts
-msgid "Found posting links are read by Reactive Resume and, when needed, {reader} and the sites being read. The reader may charge."
-msgstr "Các liên kết tin tuyển dụng tìm được sẽ được Reactive Resume và, khi cần, {reader} cùng các trang web đang được đọc xử lý. Trình đọc có thể tính phí."
+msgid "Found posting links are read by Lebenslauf2 and, when needed, {reader} and the sites being read. The reader may charge."
+msgstr "Các liên kết tin tuyển dụng tìm được sẽ được Lebenslauf2 và, khi cần, {reader} cùng các trang web đang được đọc xử lý. Trình đọc có thể tính phí."
 
 #: src/features/applications/components/add-application-dialog.tsx
 msgid "Found the role and company on the page. Review the details before saving."
@@ -7544,8 +7539,8 @@ msgstr "Đến câu trả lời cho biểu mẫu"
 
 #: src/features/feedback/review-page.tsx
 #: src/features/resume/share/web-page-text.ts
-msgid "Go to Reactive Resume"
-msgstr "Đến Reactive Resume"
+msgid "Go to Lebenslauf2"
+msgstr "Đến Lebenslauf2"
 
 #: src/features/command-palette/pages/navigation.tsx
 msgid "Go to…"
@@ -7557,8 +7552,8 @@ msgid "Goes live at {0} when you publish."
 msgstr "Sẽ hoạt động tại {0} khi bạn xuất bản."
 
 #: src/features/resume/share/download-tab.tsx
-msgid "Good luck out there. Reactive Resume stays free because people chip in."
-msgstr "Chúc may mắn ở ngoài đó. Reactive Resume vẫn miễn phí vì mọi người tham gia."
+msgid "Good luck out there. Lebenslauf2 stays free because people chip in."
+msgstr "Chúc may mắn ở ngoài đó. Lebenslauf2 vẫn miễn phí vì mọi người tham gia."
 
 #. Authentication provider display name in account settings
 #. Brand name label for Google social sign-in button
@@ -7973,8 +7968,8 @@ msgid "If you didn't ask for this, you can ignore this email."
 msgstr "Nếu bạn không yêu cầu điều này, bạn có thể bỏ qua email này."
 
 #: src/features/auth/pages/verify-2fa.tsx
-msgid "If you never verified your email address, a password reset turns two-step verification off. Otherwise a reset keeps it on, so ask the person who runs this Reactive Resume server to turn it off for your account. Then sign in with your password and turn it on again with a new authenticator."
-msgstr "Nếu bạn chưa từng xác minh địa chỉ email, việc đặt lại mật khẩu sẽ tắt xác minh hai bước. Nếu không, việc đặt lại vẫn giữ nó bật, vì vậy hãy nhờ người quản lý máy chủ Reactive Resume này tắt nó cho tài khoản của bạn. Sau đó đăng nhập bằng mật khẩu và bật lại với một ứng dụng xác thực mới."
+msgid "If you never verified your email address, a password reset turns two-step verification off. Otherwise a reset keeps it on, so ask the person who runs this Lebenslauf2 server to turn it off for your account. Then sign in with your password and turn it on again with a new authenticator."
+msgstr "Nếu bạn chưa từng xác minh địa chỉ email, việc đặt lại mật khẩu sẽ tắt xác minh hai bước. Nếu không, việc đặt lại vẫn giữ nó bật, vì vậy hãy nhờ người quản lý máy chủ Lebenslauf2 này tắt nó cho tài khoản của bạn. Sau đó đăng nhập bằng mật khẩu và bật lại với một ứng dụng xác thực mới."
 
 #: src/features/resume/editor/check/check-panel.tsx
 msgid "Ignore"
@@ -8036,12 +8031,12 @@ msgid "Import the one you have, or start blank."
 msgstr "Nhập bản bạn đang có, hoặc bắt đầu từ trang trống."
 
 #: src/features/ats-checker/checker.tsx
-msgid "Import this file into a free Reactive Resume to keep editing it, with Check reading it as you go."
-msgstr "Nhập tệp này vào Reactive Resume miễn phí để tiếp tục chỉnh sửa, với Kiểm tra đọc nó trong lúc bạn làm."
+msgid "Import this file into a free Lebenslauf2 to keep editing it, with Check reading it as you go."
+msgstr "Nhập tệp này vào Lebenslauf2 miễn phí để tiếp tục chỉnh sửa, với Kiểm tra đọc nó trong lúc bạn làm."
 
 #: src/features/ats-checker/checker.tsx
-msgid "Import this file into a free Reactive Resume, then keep checking it in Check as you edit. Check reads the resume you're editing, so its findings can differ from this file's."
-msgstr "Nhập tệp này vào Reactive Resume miễn phí, rồi tiếp tục kiểm tra trong Kiểm tra khi bạn chỉnh sửa. Kiểm tra đọc sơ yếu lý lịch bạn đang chỉnh sửa, nên kết quả có thể khác với tệp này."
+msgid "Import this file into a free Lebenslauf2, then keep checking it in Check as you edit. Check reads the resume you're editing, so its findings can differ from this file's."
+msgstr "Nhập tệp này vào Lebenslauf2 miễn phí, rồi tiếp tục kiểm tra trong Kiểm tra khi bạn chỉnh sửa. Kiểm tra đọc sơ yếu lý lịch bạn đang chỉnh sửa, nên kết quả có thể khác với tệp này."
 
 #: src/features/career/workspace/application-packet.tsx
 msgid "Import this file into the browser helper, review the destination and fill report. Unsupported forms use exact PDF downloads and copyable answers below. Native browser integration requires its own verified build."
@@ -8262,8 +8257,8 @@ msgid "Is equity part of the offer?"
 msgstr "Cổ phần có nằm trong lời đề nghị không?"
 
 #: src/features/homepage/faq.tsx
-msgid "Is Reactive Resume really free?"
-msgstr "Reactive Resume có thực sự miễn phí không?"
+msgid "Is Lebenslauf2 really free?"
+msgstr "Lebenslauf2 có thực sự miễn phí không?"
 
 #: src/features/career/offers.tsx
 msgid "Is there a bonus, and what does it depend on?"
@@ -8780,6 +8775,11 @@ msgstr "Mới nhất"
 msgid "Latvian"
 msgstr "Tiếng Latvia"
 
+#: src/features/homepage/check.tsx
+#: src/features/homepage/sheet.tsx
+msgid "Laura Beier"
+msgstr ""
+
 #: src/features/ats-checker/messages.ts
 msgid "Lay the text out horizontally. Rotated runs are often dropped or misplaced."
 msgstr "Trình bày văn bản theo chiều ngang. Các đoạn bị xoay thường bị mất hoặc đặt sai vị trí."
@@ -8848,6 +8848,15 @@ msgstr "Để trống để dùng tiêu đề gốc."
 #: src/features/applications/components/import-applications-sheet.tsx
 msgid "Leave out"
 msgstr "bỏ đi"
+
+#: src/features/settings/root.tsx
+#: src/routes/dashboard/settings/route.tsx
+msgid "Lebenslauf2 {__APP_VERSION__} · MIT"
+msgstr "Lebenslauf2 {__APP_VERSION__} · MIT"
+
+#: src/features/homepage/sections.tsx
+msgid "Lebenslauf2 is open source under the MIT License. Amruth Pillai and a community of contributors keep it running, and donations pay for hosting and development. There’s no paid tier."
+msgstr "Lebenslauf2 là mã nguồn mở theo Giấy phép MIT. Amruth Pillai và cộng đồng người đóng góp duy trì dự án, còn tiền quyên góp chi trả cho lưu trữ và phát triển. Không có gói trả phí."
 
 #: src/features/homepage/sheet.tsx
 msgid "Led <0>user research</0> for the onboarding redesign; activation rose from 31% to 44%."
@@ -9047,12 +9056,12 @@ msgid "Link a fact to practice this story"
 msgstr "Liên kết một dữ kiện để luyện tập câu chuyện này"
 
 #: src/features/applications/components/application-form-sheet.tsx
-msgid "Link a Reactive Resume (recommended)"
-msgstr "Liên kết Reactive Resume (được khuyến nghị)"
+msgid "Link a Lebenslauf2 (recommended)"
+msgstr "Liên kết Lebenslauf2 (được khuyến nghị)"
 
 #: src/features/applications/components/application-form-sheet.tsx
-msgid "Link a Reactive Resume to use a fit check against each requirement and tailoring."
-msgstr "Liên kết một sơ yếu lý lịch Reactive Resume để kiểm tra mức độ phù hợp với từng yêu cầu và điều chỉnh."
+msgid "Link a Lebenslauf2 to use a fit check against each requirement and tailoring."
+msgstr "Liên kết một sơ yếu lý lịch Lebenslauf2 để kiểm tra mức độ phù hợp với từng yêu cầu và điều chỉnh."
 
 #: src/features/resume/editor/write/basics-card.tsx
 #: src/features/resume/editor/write/rich-text-editor-field.tsx
@@ -9399,8 +9408,8 @@ msgid "Lower the design sheet"
 msgstr "Hạ tờ thiết kế xuống"
 
 #: src/features/resume/share/web-page-text.ts
-msgid "Made with Reactive Resume, free and open source"
-msgstr "Được tạo bằng Reactive Resume, mã nguồn mở và miễn phí"
+msgid "Made with Lebenslauf2, free and open source"
+msgstr "Được tạo bằng Lebenslauf2, mã nguồn mở và miễn phí"
 
 #. Layout editor column label for the primary content area
 #: src/routes/builder/$resumeId/-sidebar/right/sections/layout/pages.tsx
@@ -10574,7 +10583,7 @@ msgstr "Không tìm thấy mục Kinh nghiệm làm việc."
 msgid "No. {number} · {name}"
 msgstr "Số {number} · {name}"
 
-#. Receipt line amount for something Reactive Resume doesn't have, e.g. ads.
+#. Receipt line amount for something Lebenslauf2 doesn't have, e.g. ads.
 #: src/features/assistant/tool-approvals.tsx
 #: src/features/homepage/sections.tsx
 msgid "none"
@@ -11203,13 +11212,13 @@ msgstr "Mở câu chuyện"
 msgid "Open the exported file and confirm you can select and copy every part of it."
 msgstr "Mở tệp đã xuất và xác nhận bạn có thể chọn và sao chép mọi phần của nó."
 
+#: src/routes/auth/native-callback.tsx
+msgid "Open the Lebenslauf2 app"
+msgstr "Mở ứng dụng Lebenslauf2"
+
 #: src/features/applications/components/detail/sent-documents.tsx
 msgid "Open the letter version sent"
 msgstr "Mở phiên bản thư đã gửi"
-
-#: src/routes/auth/native-callback.tsx
-msgid "Open the Reactive Resume app"
-msgstr "Mở ứng dụng Reactive Resume"
 
 #: src/features/applications/components/detail/sent-documents.tsx
 msgid "Open the resume version sent"
@@ -11682,8 +11691,8 @@ msgid "PDF styles support a subset of CSS. Rotation, dashed and dotted borders, 
 msgstr "Các kiểu PDF hỗ trợ một tập hợp con của CSS. Các đường viền xoay, nét đứt và chấm cũng như một số thuộc tính bố cục bị bỏ qua."
 
 #: src/features/homepage/faq.tsx
-msgid "PDF, Word (DOCX), Markdown and JSON. The JSON export imports back into any Reactive Resume, including one you host yourself, so your data is never locked in."
-msgstr "PDF, Word (DOCX), Markdown Và JSON. các JSON xuất khẩu nhập khẩu trở lại bất kỳ Reactive Resume, bao gồm cả máy chủ do bạn tự lưu trữ nên dữ liệu của bạn không bao giờ bị khóa."
+msgid "PDF, Word (DOCX), Markdown and JSON. The JSON export imports back into any Lebenslauf2, including one you host yourself, so your data is never locked in."
+msgstr "PDF, Word (DOCX), Markdown Và JSON. các JSON xuất khẩu nhập khẩu trở lại bất kỳ Lebenslauf2, bao gồm cả máy chủ do bạn tự lưu trữ nên dữ liệu của bạn không bao giờ bị khóa."
 
 #: src/features/documents/documents-page.tsx
 msgid "PDF, Word or JSON. We'll build a resume from it."
@@ -12449,15 +12458,6 @@ msgstr "Xuất lại với font đã nhúng, sau đó mở tệp và kiểm tra 
 #: src/features/homepage/prepare.tsx
 msgid "Re: Senior Product Designer"
 msgstr "Re: Nhà thiết kế sản phẩm cao cấp"
-
-#: src/features/settings/root.tsx
-#: src/routes/dashboard/settings/route.tsx
-msgid "Reactive Resume {__APP_VERSION__} · MIT"
-msgstr "Reactive Resume {__APP_VERSION__} · MIT"
-
-#: src/features/homepage/sections.tsx
-msgid "Reactive Resume is open source under the MIT License. Amruth Pillai and a community of contributors keep it running, and donations pay for hosting and development. There’s no paid tier."
-msgstr "Reactive Resume là mã nguồn mở theo Giấy phép MIT. Amruth Pillai và cộng đồng người đóng góp duy trì dự án, còn tiền quyên góp chi trả cho lưu trữ và phát triển. Không có gói trả phí."
 
 #: src/features/applications/components/add-application-dialog.tsx
 #: src/features/applications/components/application-detail-sheet.tsx
@@ -13233,7 +13233,7 @@ msgstr "Đặt lại mặc định thiết kế"
 msgid "Reset password"
 msgstr "Đặt lại mật khẩu"
 
-#. Email preview text. appName: Reactive Resume
+#. Email preview text. appName: Lebenslauf2
 #: src/features/auth/email-text.ts
 msgid "Reset your {appName} password"
 msgstr "Đặt lại mật khẩu {appName} của bạn"
@@ -14694,8 +14694,8 @@ msgid "Show"
 msgstr "Hiện"
 
 #: src/features/resume/share/share-panel.tsx
-msgid "Show “Made with Reactive Resume”"
-msgstr "Hiện “Được tạo bằng Reactive Resume”"
+msgid "Show “Made with Lebenslauf2”"
+msgstr "Hiện “Được tạo bằng Lebenslauf2”"
 
 #. placeholder {0}: i18n.number(Math.min(remaining, COLUMN_PAGE_SIZE))
 #. placeholder {0}: i18n.number(visible.length - shown.length)
@@ -15136,7 +15136,7 @@ msgstr "Một số văn bản bị xoay."
 msgid "Some uploaded files were skipped. Check upload-manifest.json in the archive."
 msgstr "Một số tệp đã tải lên bị bỏ qua. Kiểm tra upload-manifest.json trong tệp nén."
 
-#. Email change approval. appName: Reactive Resume; previousEmail and newEmail are email addresses
+#. Email change approval. appName: Lebenslauf2; previousEmail and newEmail are email addresses
 #: src/features/auth/email-text.ts
 msgid "Someone asked to change your {appName} email from {previousEmail} to {newEmail}."
 msgstr "Có người đã yêu cầu đổi email {appName} của bạn từ {previousEmail} sang {newEmail}."
@@ -15288,8 +15288,8 @@ msgid "Standard section headings"
 msgstr "Tiêu đề phần tiêu chuẩn"
 
 #: src/features/homepage/header.tsx
-msgid "Star Reactive Resume on GitHub"
-msgstr "Sao Reactive Resume trên GitHub"
+msgid "Star Lebenslauf2 on GitHub"
+msgstr "Sao Lebenslauf2 trên GitHub"
 
 #: src/features/homepage/sections.tsx
 msgid "Stars on GitHub"
@@ -16601,8 +16601,8 @@ msgid "This file isn't a readable image. Choose a PNG, JPEG, WebP or GIF photo."
 msgstr "Tệp này không phải là hình ảnh đọc được. Hãy chọn ảnh PNG, JPEG, WebP hoặc GIF."
 
 #: src/features/documents/new-document-dialog.tsx
-msgid "This file type can't be imported. Use a PDF, Word, Reactive Resume or JSON Resume file, or a LinkedIn export (.zip)."
-msgstr "Không thể nhập loại tệp này. Sử dụng tệp PDF, Word, Reactive Resume hoặc JSON Resume hoặc xuất LinkedIn (.zip)."
+msgid "This file type can't be imported. Use a PDF, Word, Lebenslauf2 or JSON Resume file, or a LinkedIn export (.zip)."
+msgstr "Không thể nhập loại tệp này. Sử dụng tệp PDF, Word, Lebenslauf2 hoặc JSON Resume hoặc xuất LinkedIn (.zip)."
 
 #: src/features/ats-checker/messages.ts
 msgid "This file uses a lot of different fonts."
@@ -16638,8 +16638,8 @@ msgid "This is not a common resume page size."
 msgstr "Đây không phải là kích thước trang phổ biến cho sơ yếu lý lịch."
 
 #: src/features/documents/new-document-dialog.tsx
-msgid "This JSON isn't a Reactive Resume or JSON Resume file."
-msgstr "Tệp JSON này không phải là tệp Reactive Resume hoặc JSON Resume."
+msgid "This JSON isn't a Lebenslauf2 or JSON Resume file."
+msgstr "Tệp JSON này không phải là tệp Lebenslauf2 hoặc JSON Resume."
 
 #: src/routes/builder/letter/-components/download-sheet.tsx
 msgid "This letter and “{resumeName}” as two PDFs, named to match."
@@ -17848,7 +17848,7 @@ msgstr "Xác minh bằng mã dự phòng"
 msgid "Verify your email"
 msgstr "Xác minh email của bạn"
 
-#. Email preview text. appName: Reactive Resume
+#. Email preview text. appName: Lebenslauf2
 #: src/features/auth/email-text.ts
 msgid "Verify your email for {appName}"
 msgstr "Xác minh email của bạn cho {appName}"
@@ -18015,7 +18015,7 @@ msgstr "Trước đây: {0}"
 msgid "WCAG 2.1 AA"
 msgstr "WCAG 2.1 AA"
 
-#. Password reset email. appName: Reactive Resume
+#. Password reset email. appName: Lebenslauf2
 #: src/features/auth/email-text.ts
 msgid "We received a request to reset your {appName} password."
 msgstr "Chúng tôi đã nhận được yêu cầu đặt lại mật khẩu {appName} của bạn."
@@ -18592,12 +18592,12 @@ msgid "Yes. Every job you track gets its own workspace: check your fit against t
 msgstr "Có. Mỗi công việc bạn theo dõi đều có không gian làm việc riêng: kiểm tra độ phù hợp với tin tuyển dụng, soạn câu trả lời từ những câu chuyện bạn chỉ viết một lần, nhận kế hoạch ngắn trước buổi phỏng vấn, luyện tập thành tiếng có nhận xét và tổng kết sau đó. Khi có lời đề nghị, hãy so sánh chúng cạnh nhau. Phần tư vấn dùng khóa AI của riêng bạn; việc so sánh thì không cần."
 
 #: src/features/homepage/faq.tsx
-msgid "Yes. Import a PDF, a LinkedIn data export, a JSON Resume file or a Reactive Resume export, then pick up where it left off. With an AI provider set up, Word documents work too."
-msgstr "Đúng. Nhập PDF, xuất dữ liệu LinkedIn, tệp JSON Resume hoặc xuất Reactive Resume, sau đó tiếp tục từ nơi nó đã dừng lại. Khi nhà cung cấp AI được thiết lập, tài liệu Word cũng hoạt động."
+msgid "Yes. Import a PDF, a LinkedIn data export, a JSON Resume file or a Lebenslauf2 export, then pick up where it left off. With an AI provider set up, Word documents work too."
+msgstr "Đúng. Nhập PDF, xuất dữ liệu LinkedIn, tệp JSON Resume hoặc xuất Lebenslauf2, sau đó tiếp tục từ nơi nó đã dừng lại. Khi nhà cung cấp AI được thiết lập, tài liệu Word cũng hoạt động."
 
 #: src/features/homepage/faq.tsx
-msgid "Yes. Reactive Resume is open source under the MIT License and ships as a Docker image, so it runs on your own server with your own database and storage."
-msgstr "Đúng. Reactive Resume là nguồn mở theo MIT License và được gửi dưới dạng hình ảnh Docker, vì vậy nó chạy trên máy chủ của riêng bạn với cơ sở dữ liệu và bộ lưu trữ của riêng bạn."
+msgid "Yes. Lebenslauf2 is open source under the MIT License and ships as a Docker image, so it runs on your own server with your own database and storage."
+msgstr "Đúng. Lebenslauf2 là nguồn mở theo MIT License và được gửi dưới dạng hình ảnh Docker, vì vậy nó chạy trên máy chủ của riêng bạn với cơ sở dữ liệu và bộ lưu trữ của riêng bạn."
 
 #: src/features/career/coach-thread.tsx
 msgid "Yesterday"

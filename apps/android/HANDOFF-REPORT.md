@@ -1,6 +1,6 @@
 # Android app: handoff report
 
-Native Android app for Reactive Resume in Kotlin and Jetpack Compose, built from the mobile storyboard in
+Native Android app for Lebenslauf2 in Kotlin and Jetpack Compose, built from the mobile storyboard in
 `.agents/handoff/android-app/` (61 screens, light and dark). Branch `feat/android-app`, not pushed.
 
 ## What was built
@@ -24,7 +24,7 @@ Native Android app for Reactive Resume in Kotlin and Jetpack Compose, built from
   last good page offline. Tapping the page opens the block under the finger (text positions read from the PDF), with
   Outline as the exact alternative.
 - **System**: share targets (link → Save a job; PDF → ATS checker or Import), App Links (`/builder/*`, `/feedback/*`,
-  public pages on rxresu.me and rx.cv), dynamic launcher shortcuts, local notifications from a 15-minute sync (one
+  public pages on lebenslauf2.me and rx.cv), dynamic launcher shortcuts, local notifications from a 15-minute sync (one
   channel per category), Glance widgets, in-app language on API 26–32, Ctrl+K / `/` search.
 
 ## How to build and run
@@ -92,7 +92,7 @@ this job".
    Optional: append the upload-key fingerprint (Play Console → App integrity) so links open CI-built release APKs.
 2. **Native passkeys** (follow-up): add `delegate_permission/common.get_login_creds` to `assetlinks.json`.
 3. **Done: first sign-in skips the consent screen.** A client registered with exactly
-   `https://rxresu.me/auth/native-callback` (the Android and iOS apps) is marked trusted, and its first token records
+   `https://lebenslauf2.florentin-one.de/auth/native-callback` (the Android and iOS apps) is marked trusted, and its first token records
    the grant, so Connected apps still lists and disconnects it (`packages/auth/src/config.ts`). Deploy the server first;
    existing installs keep their cached client and their earlier consent.
 4. **API gaps** found while building (each screen degrades honestly today):
@@ -131,7 +131,7 @@ this job".
 
 ## Next steps
 
-1. Apply the server changes above, sign a release build and verify App Links on rxresu.me and rx.cv.
+1. Apply the server changes above, sign a release build and verify App Links on lebenslauf2.me and rx.cv.
 2. Work through `REVIEW.md`'s remaining items and the gaps above.
 3. On-device rendering: `packages/forme-native` (Rust, JNI bridge exists) with the `packages/pdf` templates in an
    embedded JS engine behind the same `PageRenderer`; it also gives exact tap-to-edit blocks and offline renders.

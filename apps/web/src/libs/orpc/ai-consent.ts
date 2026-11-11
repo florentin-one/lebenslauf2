@@ -163,8 +163,8 @@ export async function authorizeAiRequest(
 		const webNotice =
 			scheduled && fields.kind === "discovery"
 				? reader
-					? t`Found posting links are read by Reactive Resume and, when needed, ${reader} and the sites being read. The reader may charge.`
-					: t`Found posting links are read by Reactive Resume and the sites being read.`
+					? t`Found posting links are read by Lebenslauf2 and, when needed, ${reader} and the sites being read. The reader may charge.`
+					: t`Found posting links are read by Lebenslauf2 and the sites being read.`
 				: web
 					? t`Web destination: ${access?.searxng ? t`your server's search service` : (access?.provider ?? t`built-in reader`)}.`
 					: "";

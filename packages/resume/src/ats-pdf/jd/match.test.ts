@@ -154,7 +154,7 @@ describe("matchJobDescription keeps concrete skills while dropping noise", () =>
 
 	it("reads a list of tools after a title's dash as skills, not the employer", () => {
 		const terms = termsOf(
-			"Senior Product Designer — Figma, Sketch, SQL\nRequirements\n- Strong Figma and SQL skills\n- Docker for prototypes",
+			"Fachärztin für Psychiatrie und Psychotherapie — Figma, Sketch, SQL\nRequirements\n- Strong Figma and SQL skills\n- Docker for prototypes",
 		);
 
 		for (const skill of ["figma", "sketch", "sql", "docker", "product designer"]) expect(terms).toContain(skill);
@@ -325,7 +325,7 @@ describe("posting boundaries and known employers", () => {
 });
 
 describe("job match terms a resume can't use (RX-99 A2-15)", () => {
-	const posting = `Lumenpay is hiring a Senior Product Designer.
+	const posting = `Lumenpay is hiring a Fachärztin für Psychiatrie und Psychotherapie.
 About the role
 You will lead design for checkout flows and bring 6+ years of experience. Run research, evolve our design system and analyze funnel data.
 Requirements
@@ -340,7 +340,7 @@ Requirements
 		const report = matchJobDescription({
 			jobDescription: posting,
 			resumeText: resume,
-			role: "Senior Product Designer",
+			role: "Fachärztin für Psychiatrie und Psychotherapie",
 		});
 		expect(report.missingTerms).toEqual(["accessibility audits", "funnel data", "wcag"]);
 		expect(report.matchedTerms).toContain("checkout flows");

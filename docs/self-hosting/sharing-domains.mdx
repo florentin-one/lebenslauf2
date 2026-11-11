@@ -3,14 +3,14 @@ title: "Sharing domains"
 description: "Serve public resume pages on an alias domain, enable users' own domains with DNS verification and HTTPS, and troubleshoot sharing after an upgrade."
 ---
 
-Use this guide when you operate a Reactive Resume server and want a shorter public address or want users to connect
+Use this guide when you operate a Lebenslauf2 server and want a shorter public address or want users to connect
 their own domains. Ordinary public resume links work with `APP_URL` alone. Domain settings are optional.
 
 ## Choose which address you need
 
 | Address                                                      | Purpose                                       | What it serves                                                                  |
 | ------------------------------------------------------------ | --------------------------------------------- | ------------------------------------------------------------------------------- |
-| `APP_URL`, such as `https://resume.example.com`              | Your main application address                 | Sign-in, editor, public pages and API                                           |
+| `APP_URL`, such as `https://lebenslauf2.florentin-one.de`    | Your main application address                 | Sign-in, editor, public pages and API                                           |
 | `APP_ALIAS_URL`, such as `https://cv.example.com`            | One shorter address for everyone              | The same public pages; sign-in and editor redirect to `APP_URL`                 |
 | A user's verified domain, such as `https://jane.example.net` | One account's personal resume site            | That account's primary resume at `/`                                            |
 | `ROOT_RESUME_ID`                                             | Turn your instance's homepage into one resume | The selected public resume at `/`, while the application keeps its usual routes |
@@ -22,12 +22,12 @@ An alias doesn't move accounts or create another database. A custom domain doesn
 ## Add an alias domain
 
 1. Point the alias domain's DNS to the same server as your main domain.
-2. Configure your reverse proxy to accept both hostnames, send both to Reactive Resume, and provide valid HTTPS
+2. Configure your reverse proxy to accept both hostnames, send both to Lebenslauf2, and provide valid HTTPS
    certificates for both. Preserve the incoming hostname so the app can distinguish them.
 3. Add the alias to the app's environment and recreate or redeploy the app:
 
    ```dotenv
-   APP_URL=https://resume.example.com
+   APP_URL=https://lebenslauf2.florentin-one.de
    APP_ALIAS_URL=https://cv.example.com
    ```
 

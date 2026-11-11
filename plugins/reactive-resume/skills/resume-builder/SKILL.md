@@ -1,11 +1,11 @@
 ---
 name: resume-builder
-description: Builds a complete resume as Reactive Resume JSON that conforms to the schema and imports at https://rxresu.me. Asks for missing facts, then produces valid JSON with UUIDs, HTML descriptions, template and layout. Use when the user requests importable JSON, creation in Reactive Resume, or help with its schema, sections, templates or layout. Use resume-writer for a general text draft, resume-content-guide for a content audit, resume-bullet-writer for bullets and resume-tailor for one posting.
+description: Builds a complete resume as Lebenslauf2 JSON that conforms to the schema and imports at https://lebenslauf2.florentin-one.de. Asks for missing facts, then produces valid JSON with UUIDs, HTML descriptions, template and layout. Use when the user requests importable JSON, creation in Lebenslauf2, or help with its schema, sections, templates or layout. Use resume-writer for a general text draft, resume-content-guide for a content audit, resume-bullet-writer for bullets and resume-tailor for one posting.
 ---
 
-# Resume Builder for Reactive Resume
+# Resume Builder for Lebenslauf2
 
-Build professional resumes through conversational AI for [Reactive Resume](https://rxresu.me), a free and open-source resume builder.
+Build professional resumes through conversational AI for [Lebenslauf2](https://lebenslauf2.florentin-one.de), a free and open-source resume builder.
 
 ## Core Principles
 
@@ -64,7 +64,7 @@ Ask about preferences:
 
 ### Step 4: Generate Valid JSON
 
-Output must conform to the schema of the intended Reactive Resume installation. When connected, read its `resume://_meta/schema` MCP resource; otherwise fetch `/schema.json` from that installation ([hosted schema](https://rxresu.me/schema.json)). Both are generated from the schema that the server accepts. Use [references/schema.md](references/schema.md) as an offline reference snapshot, not as proof of current compatibility; if the current schema is unavailable, label validation as pending instead of claiming the JSON is verified for import.
+Output must conform to the schema of the intended Lebenslauf2 installation. When connected, read its `resume://_meta/schema` MCP resource; otherwise fetch `/schema.json` from that installation ([hosted schema](https://lebenslauf2.florentin-one.de/schema.json)). Both are generated from the schema that the server accepts. Use [references/schema.md](references/schema.md) as an offline reference snapshot, not as proof of current compatibility; if the current schema is unavailable, label validation as pending instead of claiming the JSON is verified for import.
 
 Key requirements:
 
@@ -89,7 +89,7 @@ For deeper content work, hand off to resume-content-guide (what to include, coun
 
 ## Output Format
 
-When generating the resume, output a complete JSON object that conforms to the Reactive Resume schema. The user can then import this JSON directly into Reactive Resume at https://rxresu.me. With the Reactive Resume MCP server connected, offer to create it with `import_resume {data}` instead, after the user approves; if the payload is too large for the client, give the JSON file.
+When generating the resume, output a complete JSON object that conforms to the Lebenslauf2 schema. The user can then import this JSON directly into Lebenslauf2 at <https://lebenslauf2.florentin-one.de>. With the Lebenslauf2 MCP server connected, offer to create it with `import_resume {data}` instead, after the user approves; if the payload is too large for the client, give the JSON file.
 
 Example minimal structure:
 
@@ -108,7 +108,7 @@ Check the complete output against the current schema from step 4; [references/sc
 
 ## MCP Application Tracking
 
-The Reactive Resume MCP server also manages job applications. For pipeline work (adding jobs, moving stages, follow-ups, recording the resume version sent, weekly reviews, messages), use the job-application-manager skill. If it isn't installed:
+The Lebenslauf2 MCP server also manages job applications. For pipeline work (adding jobs, moving stages, follow-ups, recording the resume version sent, weekly reviews, messages), use the job-application-manager skill. If it isn't installed:
 
 - `list_applications` before changing existing records; `create_application` for a new opportunity.
 - `update_application` to move a stage or link a resume; `add_application_note` to log activity.

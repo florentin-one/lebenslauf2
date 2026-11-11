@@ -1,6 +1,6 @@
 ---
 name: resume-tailor
-description: Tailors one resume to one specific job posting. Builds a must-have/nice-to-have requirement table, an evidence map, gap questions instead of invention, a tailored copy (headline, summary, bullet order, skills), honest ATS guidance, and an optional cover letter for that posting. Use when the user says "tailor my resume to this job", "customize my CV for this posting", "match my resume to this job description", "what keywords am I missing", "make my resume ATS-friendly for this role", "will this get past the ATS", "the job asks for X and I don't have it", or pastes a job ad with a resume. Works from pasted text; uses Reactive Resume MCP tools when connected. Not for bullets with no target job (resume-bullet-writer), what belongs on a resume or a general audit (resume-content-guide), tracking or follow-ups (job-application-manager), or interview prep and practice (interview-prep, mock-interview).
+description: Tailors one resume to one specific job posting. Builds a must-have/nice-to-have requirement table, an evidence map, gap questions instead of invention, a tailored copy (headline, summary, bullet order, skills), honest ATS guidance, and an optional cover letter for that posting. Use when the user says "tailor my resume to this job", "customize my CV for this posting", "match my resume to this job description", "what keywords am I missing", "make my resume ATS-friendly for this role", "will this get past the ATS", "the job asks for X and I don't have it", or pastes a job ad with a resume. Works from pasted text; uses Lebenslauf2 MCP tools when connected. Not for bullets with no target job (resume-bullet-writer), what belongs on a resume or a general audit (resume-content-guide), tracking or follow-ups (job-application-manager), or interview prep and practice (interview-prep, mock-interview).
 ---
 
 # Resume Tailor
@@ -47,7 +47,7 @@ Default to Standard and name the tier in the first reply. For an impatient user:
 Ask only for what is missing, inside the first question batch:
 
 1. The JD as text. A URL alone is fragile: fetch it if you can, and ask for pasted text if the page is login-walled or unreadable.
-2. The base resume (pasted text, a file, or a Reactive Resume record).
+2. The base resume (pasted text, a file, or a Lebenslauf2 record).
 3. The target country: infer it from the JD's location; ask only when the JD is remote or cross-border and the answer changes the output (photo, date of birth, length). The resume-content-guide skill covers those norms if it is available.
 4. With MCP, look up the application record yourself (MCP step 1); don't ask the user whether one exists.
 
@@ -135,8 +135,8 @@ Term rules:
 
 ### 7. Deliver
 
-- **Without MCP:** give the tailored resume as copy-ready text in section order, then a short change log (what moved, what is hidden, what is new and which answer it came from, with before/after for rewritten lines) and the remaining gaps. If the user keeps the resume as Reactive Resume JSON, offer a JSON Patch list or the full updated JSON; the resume-builder skill covers the schema.
-- **With MCP:** follow the Reactive Resume section below.
+- **Without MCP:** give the tailored resume as copy-ready text in section order, then a short change log (what moved, what is hidden, what is new and which answer it came from, with before/after for rewritten lines) and the remaining gaps. If the user keeps the resume as Lebenslauf2 JSON, offer a JSON Patch list or the full updated JSON; the resume-builder skill covers the schema.
+- **With MCP:** follow the Lebenslauf2 section below.
 
 ### 8. Check before it goes out
 
@@ -225,9 +225,9 @@ Questions: 1) Can you be on-site in Austin three days a week? 2) What were the "
 
 Every verb above matches the user's answer (defined, built, sized, analysed), and every "~" survives. Had the user only picked tests, row 5 would stay Adjacent, and "A/B testing" would stay out of the headline and Skills.
 
-## Reactive Resume MCP (skip if not connected)
+## Lebenslauf2 MCP (skip if not connected)
 
-Use these tools only when the Reactive Resume MCP server is connected. Read before writing, show the before/after, and get a yes before any change to the user's data. Read [references/mcp-recipes.md](references/mcp-recipes.md) before the first write, and when the application has no JD or no linked resume.
+Use these tools only when the Lebenslauf2 MCP server is connected. Read before writing, show the before/after, and get a yes before any change to the user's data. Read [references/mcp-recipes.md](references/mcp-recipes.md) before the first write, and when the application has no JD or no linked resume.
 
 | Situation                                                                            | Path                                                                                                                                                                                                                                                                                                |
 | ------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -257,4 +257,4 @@ Tools marked AI (`tailor_resume_for_application`, `score_application_match`, `dr
 - [references/rewrite-playbook.md](references/rewrite-playbook.md): headline and summary patterns, bullet and skills rules, before/after pairs, delivery format.
 - [references/ats-reality.md](references/ats-reality.md): the screening pipeline, what each vendor documents, parse safety, hidden text, myths, legal context.
 - [references/cover-letter.md](references/cover-letter.md): write-or-skip, template, phrases to avoid, worked example.
-- [references/mcp-recipes.md](references/mcp-recipes.md): Reactive Resume tool sequences, JSON Patch recipes (headline, summary, bullet reorder, hiding, skill order and naming, section order, one-column layout), errors and edge cases.
+- [references/mcp-recipes.md](references/mcp-recipes.md): Lebenslauf2 tool sequences, JSON Patch recipes (headline, summary, bullet reorder, hiding, skill order and naming, section order, one-column layout), errors and edge cases.

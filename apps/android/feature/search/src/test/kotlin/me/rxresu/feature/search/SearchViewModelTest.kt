@@ -29,7 +29,7 @@ class SearchViewModelTest {
     @Test fun groupsApplicationsThenDocumentsAboveShortcuts() {
         val hits = listOf(
             SearchHit("settings", "Settings", "", "destination"),
-            SearchHit("a", "Lumen", "Senior product designer", "application", applicationId = "a"),
+            SearchHit("a", "Lumen", "Fachärztin für Psychiatrie und Psychotherapie", "application", applicationId = "a"),
             SearchHit("r", "Lumen · Senior", "", "resume", documentId = "r"),
         )
         val groups = SearchViewModel.group("lumen", hits, recent = listOf("kiln"), docs = emptyList(), apps = emptyList())

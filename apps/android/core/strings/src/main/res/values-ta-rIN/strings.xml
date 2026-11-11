@@ -4,8 +4,8 @@
     <!-- A: {answer} -->
     <!-- Arguments: %1$s = {answer} -->
     <string name="a_answer">"A: %1$s"</string>
-    <!-- A backup of this letter. Imports back into Reactive Resume as a letter. -->
-    <string name="a_backup_of_this_letter_imports_back_into_reactive_resume_as_a_letter" formatted="false">"இந்த கடிதத்தின் காப்புப்பிரதி. கடிதமாக Reactive Resume க்கு மீண்டும் இறக்குமதி செய்கிறது."</string>
+    <!-- A backup of this letter. Imports back into Lebenslauf2 as a letter. -->
+    <string name="a_backup_of_this_letter_imports_back_into_lebenslauf2_as_a_letter" formatted="false">"இந்த கடிதத்தின் காப்புப்பிரதி. கடிதமாக Lebenslauf2 க்கு மீண்டும் இறக்குமதி செய்கிறது."</string>
     <!-- A city and country let roles be matched to where you are. -->
     <string name="a_city_and_country_let_roles_be_matched_to_where_you_are" formatted="false">"ஒரு நகரமும் நாடும் பாத்திரங்களை நீங்கள் இருக்கும் இடத்திற்குப் பொருத்த அனுமதிக்கவும்."</string>
     <!-- A comfortable length, and it fits on one page. -->
@@ -368,8 +368,6 @@
     <string name="ai_providers_couldn_t_be_loaded_reload_to_try_again" formatted="false">"AI வழங்குநர்களை ஏற்ற முடியவில்லை. மீண்டும் முயற்சிக்க, மீண்டும் ஏற்றவும்."</string>
     <!-- AI providers couldn't be loaded. Retry or fill the details manually. -->
     <string name="ai_providers_couldn_t_be_loaded_retry_or_fill_the_details_manually" formatted="false">"AI வழங்குநர்களை ஏற்ற முடியவில்லை. மீண்டும் முயற்சிக்கவும் அல்லது விவரங்களைக் கைமுறையாக நிரப்பவும்."</string>
-    <!-- AI reads pasted text only when you ask. Links can use the page’s own job data without AI. -->
-    <string name="ai_reads_pasted_text_only_when_you_ask_links_can_use_the_pages_own_job_data_without_ai" formatted="false">"நீங்கள் கேட்கும்போது மட்டுமே AI ஒட்டிய உரையைப் படிக்கும். இணைப்புகள் AI இல்லாமல் பக்கத்தின் வேலைத் தரவைப் பயன்படுத்தலாம்."</string>
     <!-- AI request attempts: {0} -->
     <!-- Arguments: %1$s = {0} -->
     <string name="ai_request_attempts_0">"AI கோரிக்கை முயற்சிகள்: %1$s"</string>
@@ -377,8 +375,6 @@
     <string name="ai_request_history_unavailable_for_this_result" formatted="false">"இந்த முடிவுக்கான AI கோரிக்கை வரலாறு கிடைக்கவில்லை."</string>
     <!-- AI settings -->
     <string name="ai_settings" formatted="false">"AI அமைப்புகள்"</string>
-    <!-- AI suggestions, not verified qualifications or hiring predictions. Sources below are your statements. -->
-    <string name="ai_suggestions_not_verified_qualifications_or_hiring_predictions_sources_below_are_your_statements" formatted="false">"AI பரிந்துரைகள்; சரிபார்க்கப்பட்ட தகுதிகளோ நியமனக் கணிப்புகளோ அல்ல. கீழே உள்ள ஆதாரங்கள் உங்கள் கூற்றுகளே."</string>
     <!-- AI usage couldn't be loaded. Try refreshing. Older servers may need an update. -->
     <string name="ai_usage_couldn_t_be_loaded_try_refreshing_older_servers_may_need_an_update" formatted="false">"AI பயன்பாட்டை ஏற்ற முடியவில்லை. புதுப்பிக்கவும். பழைய சேவையகங்களுக்குப் புதுப்பிப்பு தேவைப்படலாம்."</string>
     <!-- AI usage this week -->
@@ -440,8 +436,6 @@
     <string name="always_appears_in_today_email_requires_a_verified_address_and_server_mail_setup_no_push_notification" formatted="false">"எப்போதும் இன்று பகுதியில் தோன்றும். மின்னஞ்சலுக்கு சரிபார்த்த முகவரியும் சேவையக மின்னஞ்சல் அமைப்பும் தேவை. புஷ் அறிவிப்புகள் அனுப்பப்படாது."</string>
     <!-- Amharic -->
     <string name="amharic" formatted="false">"அம்ஹாரிக்"</string>
-    <!-- An AI reading to help you edit, not a prediction of how an employer or screening system will respond. -->
-    <string name="an_ai_reading_to_help_you_edit_not_a_prediction_of_how_an_employer_or_screening_system_will_respond" formatted="false">"திருத்த உதவும் ஒரு AI படிப்பு; முதலாளி அல்லது தேர்வு அமைப்பு எப்படி பதிலளிக்கும் என்பதன் கணிப்பு அல்ல."</string>
     <!-- An edit addresses it -->
     <string name="an_edit_addresses_it" formatted="false">"இதை முன்வைக்கும் ஒரு திருத்தம்"</string>
     <!-- An embedded font could not be read. -->
@@ -636,9 +630,9 @@
     <string name="assistant" formatted="false">"உதவியாளர்"</string>
     <!-- Assistant conversations -->
     <string name="assistant_conversations" formatted="false">"உதவியாளர் உரையாடல்கள்"</string>
-    <!-- {at} · {providerLabel}. Sends this application and your Knowledge; your provider may charge. -->
+    <!-- {at} · {providerLabel} -->
     <!-- Arguments: %1$s = {at}, %2$s = {providerLabel} -->
-    <string name="at_providerlabel_sends_this_application_and_your_knowledge_your_provider_may_charge">"%1$s · %2$s. இந்த விண்ணப்பத்தையும் உங்கள் அறிவுத் தளத்தையும் அனுப்பும்; வழங்குநர் கட்டணம் வசூலிக்கலாம்."</string>
+    <string name="at_providerlabel">"%1$s · %2$s"</string>
     <!-- ATS checker -->
     <string name="ats_checker" formatted="false">"ATS சரிபார்ப்பு"</string>
     <!-- ATS-safe -->
@@ -1131,8 +1125,8 @@
     <!-- Complete {0} before saving. -->
     <!-- Arguments: %1$s = {0} -->
     <string name="complete_0_before_saving">"சேமிக்கும் முன் %1$s பகுதியை நிரப்பவும்."</string>
-    <!-- Complete data backup. Imports back into Reactive Resume. -->
-    <string name="complete_data_backup_imports_back_into_reactive_resume" formatted="false">"முழுமையான தரவு பேக்கப். Reactive Resume-க்குள் மீண்டும் இறக்குமதி செய்யலாம்."</string>
+    <!-- Complete data backup. Imports back into Lebenslauf2. -->
+    <string name="complete_data_backup_imports_back_into_lebenslauf2" formatted="false">"முழுமையான தரவு பேக்கப். Lebenslauf2-க்குள் மீண்டும் இறக்குமதி செய்யலாம்."</string>
     <!-- Complete the employer form manually in your browser using reviewed answers and approved PDFs. -->
     <string name="complete_the_employer_form_manually_in_your_browser_using_reviewed_answers_and_approved_pdfs" formatted="false">"மதிப்பாய்வித்த பதில்கள் மற்றும் ஒப்புதலளித்த PDF-களைப் பயன்படுத்தி, உலாவியில் முதலாளியின் படிவத்தைக் கைமுறையாக நிரப்பவும்."</string>
     <!-- {completed, plural, one {# document updated} other {# documents updated}} -->
@@ -1442,8 +1436,8 @@
     <!-- Couldn't propose these edits: {0} -->
     <!-- Arguments: %1$s = {0} -->
     <string name="couldn_t_propose_these_edits_0">"இந்தத் திருத்தங்களை முன்மொழிய முடியவில்லை: %1$s"</string>
-    <!-- Couldn't reach Reactive Resume. Check your internet connection, then try again. -->
-    <string name="couldn_t_reach_reactive_resume_check_your_internet_connection_then_try_again" formatted="false">"Reactive Resume-ஐ அணுக முடியவில்லை. உங்கள் இணைய இணைப்பைச் சரிபார்த்து, மீண்டும் முயற்சிக்கவும்."</string>
+    <!-- Couldn't reach Lebenslauf2. Check your internet connection, then try again. -->
+    <string name="couldn_t_reach_lebenslauf2_check_your_internet_connection_then_try_again" formatted="false">"Lebenslauf2-ஐ அணுக முடியவில்லை. உங்கள் இணைய இணைப்பைச் சரிபார்த்து, மீண்டும் முயற்சிக்கவும்."</string>
     <!-- Couldn't reach your AI provider. Try again or check its key in AI settings. -->
     <string name="couldn_t_reach_your_ai_provider_try_again_or_check_its_key_in_ai_settings" formatted="false">"உங்கள் AI வழங்குநரை அணுக முடியவில்லை. மீண்டும் முயற்சிக்கவும் அல்லது AI அமைப்புகளில் அதன் விசையைச் சரிபார்க்கவும்."</string>
     <!-- Couldn't read {name}'s answer. Try again, or switch the default provider in AI settings. -->
@@ -2056,8 +2050,6 @@
     <string name="earlier_discovery_result_search_query_and_posting_check_time_unknown" formatted="false">"முந்தைய கண்டுபிடிப்பு முடிவு. தேடல் வினவல் மற்றும் அறிவிப்பு சரிபார்ப்பு நேரம் தெரியவில்லை."</string>
     <!-- Earlier messages and attachments in this conversation will be sent to this destination when you send again. -->
     <string name="earlier_messages_and_attachments_in_this_conversation_will_be_sent_to_this_destination_when_you_send" formatted="false">"நீங்கள் மீண்டும் அனுப்பும்போது, இந்த உரையாடலின் முந்தைய செய்திகளும் இணைப்புகளும் இந்த இலக்கிற்கு அனுப்பப்படும்."</string>
-    <!-- earlier messages in this chat -->
-    <string name="earlier_messages_in_this_chat" formatted="false">"இந்த அரட்டையின் முந்தைய செய்திகள்"</string>
     <!-- Edit -->
     <string name="edit" formatted="false">"திருத்து"</string>
     <!-- Edit {0} -->
@@ -2080,8 +2072,8 @@
     <string name="edit_first" formatted="false">"முதலில் திருத்து"</string>
     <!-- Edit interview -->
     <string name="edit_interview" formatted="false">"நேர்காணலைத் திருத்தவும்"</string>
-    <!-- Edit it in Reactive Resume -->
-    <string name="edit_it_in_reactive_resume" formatted="false">"Reactive Resume-இல் திருத்து"</string>
+    <!-- Edit it in Lebenslauf2 -->
+    <string name="edit_it_in_lebenslauf2" formatted="false">"Lebenslauf2-இல் திருத்து"</string>
     <!-- Edit link -->
     <string name="edit_link" formatted="false">"இணைப்பைத் திருத்து"</string>
     <!-- Edit note -->
@@ -2149,8 +2141,6 @@
     <string name="empty_trash" formatted="false">"குப்பையைக் காலியாக்கு"</string>
     <!-- Empty Trash? -->
     <string name="empty_trash_ab0a72a70c" formatted="false">"குப்பையைக் காலியாக்கவா?"</string>
-    <!-- enabled Knowledge -->
-    <string name="enabled_knowledge" formatted="false">"இயக்கப்பட்ட அறிவு"</string>
     <!-- End -->
     <string name="end" formatted="false">"முடிவு"</string>
     <!-- English -->
@@ -2199,8 +2189,8 @@
     <string name="enter_any_model_id_supported_by_your_endpoint" formatted="false">"உங்கள் எண்ட்பாயிண்ட் ஆதரிக்கும் எந்த மாதிரி IDயையும் உள்ளிடவும்."</string>
     <!-- Enter terms yourself. No AI request is made. Leave unknown amounts blank. -->
     <string name="enter_terms_yourself_no_ai_request_is_made_leave_unknown_amounts_blank" formatted="false">"நிபந்தனைகளை நீங்களே உள்ளிடவும். AI-க்கு எந்தக் கோரிக்கையும் அனுப்பப்படாது. தெரியாத தொகைகளைக் காலியாக விடவும்."</string>
-    <!-- Enter the address you open Reactive Resume at in a browser. The app checks it's a Reactive Resume server that allows app sign-in before you continue. -->
-    <string name="enter_the_address_you_open_reactive_resume_at_in_a_browser_the_app_checks_it_s_a_reactive_resume_ser" formatted="false">"உலாவியில் Reactive Resume ஐ திறக்க நீங்கள் பயன்படுத்தும் முகவரியை உள்ளிடவும். நீங்கள் தொடர்வதற்கு முன், இது மொபைல் உள்நுழைவு இயக்கப்பட்ட Reactive Resume சேவையகம் என்பதை மொபைல் பயன்பாடு சரிபார்க்கிறது."</string>
+    <!-- Enter the address you open Lebenslauf2 at in a browser. The app checks it's a Lebenslauf2 server that allows app sign-in before you continue. -->
+    <string name="enter_the_address_you_open_lebenslauf2_at_in_a_browser_the_app_checks_it_s_a_lebenslauf2_server_that" formatted="false">"உலாவியில் Lebenslauf2 ஐ திறக்க நீங்கள் பயன்படுத்தும் முகவரியை உள்ளிடவும். நீங்கள் தொடர்வதற்கு முன், இது மொபைல் உள்நுழைவு இயக்கப்பட்ட Lebenslauf2 சேவையகம் என்பதை மொபைல் பயன்பாடு சரிபார்க்கிறது."</string>
     <!-- Enter the API base URL of your service and test again. -->
     <string name="enter_the_api_base_url_of_your_service_and_test_again" formatted="false">"உங்கள் சேவையின் API அடிப்படை URL-ஐ உள்ளிட்டு மீண்டும் சோதிக்கவும்."</string>
     <!-- Enter your details below. Choosing a resume replaces them and links its design. -->
@@ -2466,11 +2456,11 @@
     <!-- Found for “{0}”. Posting checked {1}. -->
     <!-- Arguments: %1$s = {0}, %2$s = {1} -->
     <string name="found_for_0_posting_checked_1">"“%1$s”-க்காகக் கண்டறியப்பட்டது. அறிவிப்பு %2$s அன்று சரிபார்க்கப்பட்டது."</string>
-    <!-- Found posting links are read by Reactive Resume and the sites being read. -->
-    <string name="found_posting_links_are_read_by_reactive_resume_and_the_sites_being_read" formatted="false">"கண்டறியப்பட்ட அறிவிப்பு இணைப்புகள், Reactive Resume மற்றும் படிக்கப்படும் தளங்களால் படிக்கப்படுகின்றன."</string>
-    <!-- Found posting links are read by Reactive Resume and, when needed, {reader} and the sites being read. The reader may charge. -->
+    <!-- Found posting links are read by Lebenslauf2 and the sites being read. -->
+    <string name="found_posting_links_are_read_by_lebenslauf2_and_the_sites_being_read" formatted="false">"கண்டறியப்பட்ட அறிவிப்பு இணைப்புகள், Lebenslauf2 மற்றும் படிக்கப்படும் தளங்களால் படிக்கப்படுகின்றன."</string>
+    <!-- Found posting links are read by Lebenslauf2 and, when needed, {reader} and the sites being read. The reader may charge. -->
     <!-- Arguments: %1$s = {reader} -->
-    <string name="found_posting_links_are_read_by_reactive_resume_and_when_needed_reader_and_the_sites_being_read_the">"கண்டறியப்பட்ட அறிவிப்பு இணைப்புகள் Reactive Resume மூலமும், தேவைப்பட்டால் %1$s மற்றும் படிக்கப்படும் தளங்கள் மூலமும் படிக்கப்படும். படிக்கும் சேவை கட்டணம் வசூலிக்கலாம்."</string>
+    <string name="found_posting_links_are_read_by_lebenslauf2_and_when_needed_reader_and_the_sites_being_read_the_read">"கண்டறியப்பட்ட அறிவிப்பு இணைப்புகள் Lebenslauf2 மூலமும், தேவைப்பட்டால் %1$s மற்றும் படிக்கப்படும் தளங்கள் மூலமும் படிக்கப்படும். படிக்கும் சேவை கட்டணம் வசூலிக்கலாம்."</string>
     <!-- Free-form -->
     <string name="free_form" formatted="false">"இலவச வடிவம்"</string>
     <!-- French -->
@@ -2859,8 +2849,6 @@
     <!-- Its own design ({summary}). -->
     <!-- Arguments: %1$s = {summary} -->
     <string name="its_own_design_summary">"அதன் சொந்த வடிவமைப்பு (%1$s)."</string>
-    <!-- its requirements -->
-    <string name="its_requirements" formatted="false">"அதன் தேவைகள்"</string>
     <!-- Its saved key is deleted. Conversations using it need another provider. -->
     <string name="its_saved_key_is_deleted_conversations_using_it_need_another_provider" formatted="false">"அதன் சேமித்த விசை நீக்கப்பட்டது. அதைப் பயன்படுத்தும் உரையாடல்களுக்கு மற்றொரு வழங்குநர் தேவை."</string>
     <!-- Japanese -->
@@ -3054,6 +3042,8 @@
     <string name="leave_out" formatted="false">"வெளியே விடுங்கள்"</string>
     <!-- Leave without keeping the draft? -->
     <string name="leave_without_keeping_the_draft" formatted="false">"வரைவை வைக்காமல் வெளியேறவா?"</string>
+    <!-- Lebenslauf2 -->
+    <string name="lebenslauf2" formatted="false">"Lebenslauf2"</string>
     <!-- Left -->
     <string name="left" formatted="false">"விட்டு"</string>
     <!-- Left blank. Add it later only if you can support it. -->
@@ -3308,8 +3298,6 @@
     <string name="managed_by_server" formatted="false">"சர்வரால் நிர்வகிக்கப்படுகிறது"</string>
     <!-- Managed by your server -->
     <string name="managed_by_your_server" formatted="false">"உங்கள் சர்வரால் நிர்வகிக்கப்படுகிறது"</string>
-    <!-- Manual roles and preferences work without AI. Suggestions never search or schedule anything. -->
-    <string name="manual_roles_and_preferences_work_without_ai_suggestions_never_search_or_schedule_anything" formatted="false">"கைமுறை பதவிகளும் விருப்பத்தேர்வுகளும் AI இன்றி வேலை செய்யும். பரிந்துரைகள் எதையும் தேடவோ அட்டவணைப்படுத்தவோ செய்யாது."</string>
     <!-- Many bullets start with the same phrase. -->
     <string name="many_bullets_start_with_the_same_phrase" formatted="false">"பல புல்லட் புள்ளிகள் ஒரே சொற்றொடரில் தொடங்குகின்றன."</string>
     <!-- Mar 2022 -->
@@ -3527,12 +3515,6 @@
     <plurals name="message_0_plural_one_1_of_posting_term_covered_other_2_of_posting_terms_covered">
         <item quantity="one">"அறிவிப்பின் %1$s முக்கியச் சொற்களில் %2$s இடம்பெற்றுள்ளது"</item>
         <item quantity="other">"அறிவிப்பின் %1$s முக்கியச் சொற்களில் %3$s இடம்பெற்றுள்ளன"</item>
-    </plurals>
-    <!-- {0, plural, one {Also sends {1}.} other {Also sends # files: {2}.}} -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1}, %3$s = {2} -->
-    <plurals name="message_0_plural_one_also_sends_1_other_also_sends_files_2">
-        <item quantity="one">"கூடுதலாக %2$s அனுப்பப்படும்."</item>
-        <item quantity="other">"கூடுதலாக %1$s கோப்புகள் அனுப்பப்படும்: %3$s."</item>
     </plurals>
     <!-- {0, plural, one {# answer} other {# answers}} -->
     <!-- Arguments: %1$s = {0} -->
@@ -3955,8 +3937,6 @@
     <string name="message_the_assistant" formatted="false">"உதவியாளருக்கு செய்தி அனுப்பவும்"</string>
     <!-- Messages -->
     <string name="messages" formatted="false">"செய்திகள்"</string>
-    <!-- Messages from before Knowledge changed aren't sent. -->
-    <string name="messages_from_before_knowledge_changed_aren_t_sent" formatted="false">"அறிவுத் தளம் மாறுவதற்கு முன் இருந்த செய்திகள் அனுப்பப்படாது."</string>
     <!-- Messages from before Knowledge changed aren't sent to the AI anymore, so it won't remember them. Start a new conversation to keep context together. -->
     <string name="messages_from_before_knowledge_changed_aren_t_sent_to_the_ai_anymore_so_it_won_t_remember_them_start" formatted="false">"அறிவுத் தளம் மாறுவதற்கு முன் இருந்த செய்திகள் இனி AI-க்கு அனுப்பப்படாது; எனவே அவற்றை அது நினைவில் வைக்காது. சூழலை ஒன்றாக வைக்க ஒரு புதிய உரையாடலைத் தொடங்கவும்."</string>
     <!-- Minimum base salary -->
@@ -4294,6 +4274,8 @@
     <string name="no_keys_yet" formatted="false">"இன்னும் சாவிகள் இல்லை."</string>
     <!-- No language matches. -->
     <string name="no_language_matches" formatted="false">"எந்த மொழியும் பொருந்தவில்லை."</string>
+    <!-- No Lebenslauf2 server answered at this address. Check the spelling, or ask your administrator whether the server allows app sign-in. -->
+    <string name="no_lebenslauf2_server_answered_at_this_address_check_the_spelling_or_ask_your_administrator_whether" formatted="false">"இந்த முகவரியில் Lebenslauf2 சேவையகம் இல்லை. எழுத்துப்பிழையைச் சரிபார்க்கவும் அல்லது ஆப்ஸ் உள்நுழைவைச் சேவையகம் அனுமதிக்கிறதா என்று உங்கள் நிர்வாகியிடம் கேட்கவும்."</string>
     <!-- No lines look like a job title paired with an employer. -->
     <string name="no_lines_look_like_a_job_title_paired_with_an_employer" formatted="false">"பணிப் பதவியும் முதலாளியும் இணைந்த வரி எதுவும் தெரியவில்லை."</string>
     <!-- No linked application -->
@@ -4326,8 +4308,6 @@
     <string name="no_photo_most_ats_ignore_photos_some_regions_expect_one" formatted="false">"புகைப்படம் இல்லை. பெரும்பாலான ATS புகைப்படங்களை புறக்கணிக்கிறது; சில பிராந்தியங்கள் ஒன்றை எதிர்பார்க்கின்றன."</string>
     <!-- No postings found. Try different keywords. -->
     <string name="no_postings_found_try_different_keywords" formatted="false">"வேலை வாய்ப்புகள் இல்லை. வெவ்வேறு முக்கிய வார்த்தைகளை முயற்சிக்கவும்."</string>
-    <!-- No Reactive Resume server answered at this address. Check the spelling, or ask your administrator whether the server allows app sign-in. -->
-    <string name="no_reactive_resume_server_answered_at_this_address_check_the_spelling_or_ask_your_administrator_whet" formatted="false">"இந்த முகவரியில் Reactive Resume சேவையகம் இல்லை. எழுத்துப்பிழையைச் சரிபார்க்கவும் அல்லது ஆப்ஸ் உள்நுழைவைச் சேவையகம் அனுமதிக்கிறதா என்று உங்கள் நிர்வாகியிடம் கேட்கவும்."</string>
     <!-- No recognizable terms in this posting. -->
     <string name="no_recognizable_terms_in_this_posting" formatted="false">"இந்த இடுகையில் அடையாளம் காணக்கூடிய சொற்கள் இல்லை."</string>
     <!-- No recorded answers are available. -->
@@ -4450,8 +4430,6 @@
     <string name="nothing_in_your_library_yet" formatted="false">"உங்கள் நூலகத்தில் இன்னும் எதுவும் இல்லை"</string>
     <!-- Nothing is applied for or created until you choose. -->
     <string name="nothing_is_applied_for_or_created_until_you_choose" formatted="false">"நீங்கள் தேர்ந்தெடுக்கும் வரை எதற்கும் விண்ணப்பிக்கப்படாது, எதுவும் உருவாக்கப்படாது."</string>
-    <!-- Nothing is sent until you choose a connection for this conversation. -->
-    <string name="nothing_is_sent_until_you_choose_a_connection_for_this_conversation" formatted="false">"இந்த உரையாடலுக்கு நீங்கள் ஒரு இணைப்பைத் தேர்ந்தெடுக்கும்வரை எதுவும் அனுப்பப்படாது."</string>
     <!-- Nothing marks a role as ongoing. -->
     <string name="nothing_marks_a_role_as_ongoing" formatted="false">"ஒரு பணி தொடர்கிறது என எதுவும் குறிக்கவில்லை."</string>
     <!-- Nothing on this day. -->
@@ -4525,8 +4503,8 @@
     <string name="on" formatted="false">"இயக்கத்தில்"</string>
     <!-- On. Anyone with the link can see your web page. -->
     <string name="on_anyone_with_the_link_can_see_your_web_page" formatted="false">"இயக்கப்பட்டுள்ளது. இணைப்பு உள்ள எவரும் உங்கள் வலைப்பக்கத்தைப் பார்க்கலாம்."</string>
-    <!-- On iOS, choose Keep for review, then reopen app in the Share extension. Reopen Reactive Resume yourself within 15 minutes. Sign in here before sharing. -->
-    <string name="on_ios_choose_keep_for_review_then_reopen_app_in_the_share_extension_reopen_reactive_resume_yourself" formatted="false">"iOS-இல், மதிப்பாய்விக்கு “வைத்திரு” என்பதைத் தேர்ந்தெடுத்து, பின் Share நீட்டிப்பில் ஆப்பை மீண்டும் திறக்கவும். 15 நிமிடங்களுக்குள் Reactive Resume-ஐ நீங்களே மீண்டும் திறக்கவும். பகிர்வதற்கு முன் இங்கே உள்நுழையவும்."</string>
+    <!-- On iOS, choose Keep for review, then reopen app in the Share extension. Reopen Lebenslauf2 yourself within 15 minutes. Sign in here before sharing. -->
+    <string name="on_ios_choose_keep_for_review_then_reopen_app_in_the_share_extension_reopen_lebenslauf2_yourself_wit" formatted="false">"iOS-இல், மதிப்பாய்விக்கு “வைத்திரு” என்பதைத் தேர்ந்தெடுத்து, பின் Share நீட்டிப்பில் ஆப்பை மீண்டும் திறக்கவும். 15 நிமிடங்களுக்குள் Lebenslauf2-ஐ நீங்களே மீண்டும் திறக்கவும். பகிர்வதற்கு முன் இங்கே உள்நுழையவும்."</string>
     <!-- On. Visitors need the link and password to see your web page. -->
     <string name="on_visitors_need_the_link_and_password_to_see_your_web_page" formatted="false">"இயக்கத்தில் உள்ளது. உங்கள் வலைப்பக்கத்தைப் பார்க்க பார்வையாளர்களுக்கு இணைப்பும் கடவுச்சொல்லும் தேவை."</string>
     <!-- Once a round is scheduled, Interview prep builds a timed plan, your opening and the questions to ask. -->
@@ -4787,14 +4765,14 @@
     <string name="pdf_check_canceled_retry_when_ready" formatted="false">"PDF சரிபார்ப்பு ரத்துசெய்யப்பட்டது. தயாரானதும் மீண்டும் முயற்சிக்கவும்."</string>
     <!-- PDF import -->
     <string name="pdf_import" formatted="false">"PDF இறக்குமதி"</string>
-    <!-- PDF only · up to 10 MB each. Linking a Reactive Resume enables a fit check against each requirement and tailoring. -->
-    <string name="pdf_only_up_to_10_mb_each_linking_a_reactive_resume_enables_a_fit_check_against_each_requirement_and" formatted="false">"PDF மட்டும் · ஒவ்வொன்றும் 10 MB வரை. ஒரு Reactive Resume ரெஸ்யூமை இணைப்பது, ஒவ்வொரு தேவைக்கும் பொருத்தச் சரிபார்ப்பு மற்றும் வேலைக்கு ஏற்ப மாற்றியமைப்பை இயலுமைப்படுத்தும்."</string>
-    <!-- PDF reads its text layer on your server by default, without AI. Turn on the AI switch to send it to your provider. Word (.docx) needs an AI provider. Current and v4 Reactive Resume JSON, cover letters, JSON Resume and LinkedIn exports (.zip) are supported. Up to 10 MB. -->
-    <string name="pdf_reads_its_text_layer_on_your_server_by_default_without_ai_turn_on_the_ai_switch_to_send_it_to_yo" formatted="false">"PDF இயல்பாக, AI இன்றி, உங்கள் சேவையகத்தில் அதன் உரை அடுக்கைப் படிக்கும். உங்கள் வழங்குபவருக்கு அனுப்ப AI நிலை மாற்றியை இயக்கவும். Word (.docx)-க்கு ஒரு AI வழங்குபவர் தேவை. தற்போதைய மற்றும் v4 Reactive Resume JSON, கவர் கடிதங்கள், JSON Resume மற்றும் LinkedIn ஏற்றுமதிகள் (.zip) ஆதரிக்கப்படுகின்றன. 10 MB வரை."</string>
+    <!-- PDF only · up to 10 MB each. Linking a Lebenslauf2 enables a fit check against each requirement and tailoring. -->
+    <string name="pdf_only_up_to_10_mb_each_linking_a_lebenslauf2_enables_a_fit_check_against_each_requirement_and_tai" formatted="false">"PDF மட்டும் · ஒவ்வொன்றும் 10 MB வரை. ஒரு Lebenslauf2 ரெஸ்யூமை இணைப்பது, ஒவ்வொரு தேவைக்கும் பொருத்தச் சரிபார்ப்பு மற்றும் வேலைக்கு ஏற்ப மாற்றியமைப்பை இயலுமைப்படுத்தும்."</string>
+    <!-- PDF reads its text layer on your server by default, without AI. Turn on the AI switch to send it to your provider. Word (.docx) needs an AI provider. Current and v4 Lebenslauf2 JSON, cover letters, JSON Resume and LinkedIn exports (.zip) are supported. Up to 10 MB. -->
+    <string name="pdf_reads_its_text_layer_on_your_server_by_default_without_ai_turn_on_the_ai_switch_to_send_it_to_yo" formatted="false">"PDF இயல்பாக, AI இன்றி, உங்கள் சேவையகத்தில் அதன் உரை அடுக்கைப் படிக்கும். உங்கள் வழங்குபவருக்கு அனுப்ப AI நிலை மாற்றியை இயக்கவும். Word (.docx)-க்கு ஒரு AI வழங்குபவர் தேவை. தற்போதைய மற்றும் v4 Lebenslauf2 JSON, கவர் கடிதங்கள், JSON Resume மற்றும் LinkedIn ஏற்றுமதிகள் (.zip) ஆதரிக்கப்படுகின்றன. 10 MB வரை."</string>
     <!-- PDF styles support a subset of CSS. Rotation, dashed and dotted borders, and some layout properties are ignored. -->
     <string name="pdf_styles_support_a_subset_of_css_rotation_dashed_and_dotted_borders_and_some_layout_properties_are" formatted="false">"PDF பாணிகள் CSS இன் துணைக்குழுவை ஆதரிக்கின்றன. சுழற்சி, கோடு மற்றும் புள்ளியிடப்பட்ட பார்டர்கள் மற்றும் சில தளவமைப்பு பண்புகள் புறக்கணிக்கப்படுகின்றன."</string>
-    <!-- PDF, Word, Reactive Resume, JSON Resume or LinkedIn export. -->
-    <string name="pdf_word_reactive_resume_json_resume_or_linkedin_export" formatted="false">"PDF, Word, Reactive Resume, JSON Resume அல்லது LinkedIn ஏற்றுமதி."</string>
+    <!-- PDF, Word, Lebenslauf2, JSON Resume or LinkedIn export. -->
+    <string name="pdf_word_lebenslauf2_json_resume_or_linkedin_export" formatted="false">"PDF, Word, Lebenslauf2, JSON Resume அல்லது LinkedIn ஏற்றுமதி."</string>
     <!-- {pending, plural, one {# proposed edit on this page · nothing changes until you accept} other {# proposed edits on this page · nothing changes until you accept}} -->
     <!-- Arguments: %1$s = {pending} -->
     <plurals name="pending_plural_one_proposed_edit_on_this_page_nothing_changes_until_you_accept_other_proposed_edits">
@@ -4910,8 +4888,6 @@
     <!-- Practice in {company}’s workspace -->
     <!-- Arguments: %1$s = {company} -->
     <string name="practice_in_company_s_workspace">"%1$s பணியிடத்தில் பயிற்சி செய்யவும்"</string>
-    <!-- Practice priorities, not conclusions about why an employer decided anything. -->
-    <string name="practice_priorities_not_conclusions_about_why_an_employer_decided_anything" formatted="false">"பயிற்சி முன்னுரிமைகள் மட்டுமே; பணி வழங்குநர் ஏன் ஒரு முடிவை எடுத்தார் என்பது பற்றிய முடிவுகள் அல்ல."</string>
     <!-- Practice priority: -->
     <string name="practice_priority" formatted="false">"பயிற்சி முன்னுரிமை:"</string>
     <!-- Practice without an application -->
@@ -5120,8 +5096,6 @@
     <string name="re_export_with_fonts_embedded_and_check_the_text_copies_out_cleanly" formatted="false">"எழுத்துருக்கள் உட்பொதிக்கப்பட்ட நிலையில் மீண்டும் ஏற்றுமதி செய்து, உரை சரியாக நகலெடுக்கப்படுகிறதா எனச் சரிபார்க்கவும்."</string>
     <!-- Re-export with fonts embedded, then open the file and check that the text copies out cleanly. -->
     <string name="re_export_with_fonts_embedded_then_open_the_file_and_check_that_the_text_copies_out_cleanly" formatted="false">"எழுத்துருக்கள் உட்பொதிக்கப்பட்ட நிலையில் மீண்டும் ஏற்றுமதி செய்து, கோப்பைத் திறந்து உரை சரியாக நகலெடுக்கப்படுகிறதா எனச் சரிபார்க்கவும்."</string>
-    <!-- Reactive Resume -->
-    <string name="reactive_resume" formatted="false">"Reactive Resume"</string>
     <!-- Read briefing -->
     <string name="read_briefing" formatted="false">"சுருக்கக் குறிப்பைப் படி"</string>
     <!-- Read, change and delete documents and applications (legacy connection). -->
@@ -5855,8 +5829,6 @@
     <string name="search_or_run" formatted="false">"தேடவும் அல்லது இயக்கவும்…"</string>
     <!-- Search saved answers -->
     <string name="search_saved_answers" formatted="false">"சேமித்த பதில்களைத் தேடு"</string>
-    <!-- Search terms go to your web search service. -->
-    <string name="search_terms_go_to_your_web_search_service" formatted="false">"தேடல் சொற்கள் உங்கள் இணையத் தேடல் சேவைக்குச் செல்லும்."</string>
     <!-- Search the web -->
     <string name="search_the_web" formatted="false">"இணையத்தில் தேடு"</string>
     <!-- Search timezones -->
@@ -5934,51 +5906,8 @@
     <string name="sender_details_copied_into_the_letter" formatted="false">"அனுப்புநரின் விவரங்கள் கடிதத்தில் நகலெடுக்கப்பட்டன"</string>
     <!-- Sending… -->
     <string name="sending" formatted="false">"அனுப்புகிறது…"</string>
-    <!-- Sends {0} to {label}. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {label} -->
-    <string name="sends_0_to_label">"%1$s-ஐ %2$s-க்கு அனுப்புகிறது."</string>
-    <!-- Sends only your selected resume and up to 20 active shared facts to this connection. No application profile, saved answers or private application facts. Your provider may charge. -->
-    <string name="sends_only_your_selected_resume_and_up_to_20_active_shared_facts_to_this_connection_no_application_p" formatted="false">"இந்த இணைப்புக்கு, நீங்கள் தேர்ந்தெடுத்த ரெஸ்யூம் மட்டுமே — அதிகபட்சம் 20 இயக்கத்திலுள்ள பகிர்ந்த உண்மைகளுடன் — அனுப்பப்படுகிறது. விண்ணப்ப சுயவிவரங்கள், சேமித்த பதில்கள் அல்லது தனிப்பட்ட விண்ணப்ப உண்மைகள் இல்லை. உங்கள் வழங்குபவர் கட்டணம் வசூலிக்கலாம்."</string>
-    <!-- Sends the {0} posting to {1} · {2} to draft the body. Your provider may charge. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1}, %3$s = {2} -->
-    <string name="sends_the_0_posting_to_1_2_to_draft_the_body_your_provider_may_charge">"உட்பொருளை வரைய, %1$s அறிவிப்பை %2$s · %3$s-க்கு அனுப்புகிறது. உங்கள் வழங்குபவர் கட்டணம் வசூலிக்கலாம்."</string>
-    <!-- Sends the posting text to {0} to read it. -->
-    <!-- Arguments: %1$s = {0} -->
-    <string name="sends_the_posting_text_to_0_to_read_it">"அதைப் படிக்க, அறிவிப்பு உரையை %1$s-க்கு அனுப்புகிறது."</string>
     <!-- Sends this application and enabled Knowledge to this connection. Your provider may charge. Scheduled work never switches to another connection automatically. -->
     <string name="sends_this_application_and_enabled_knowledge_to_this_connection_your_provider_may_charge_scheduled_w" formatted="false">"இந்த விண்ணப்பத்தையும் இயக்கிய அறிவுத் தளத்தையும் இந்த இணைப்புக்கு அனுப்புகிறது. உங்கள் வழங்குபவர் கட்டணம் வசூலிக்கலாம். திட்டமிடப்பட்ட வேலை ஒருபோதும் தானாக வேறு இணைப்புக்கு மாறாது."</string>
-    <!-- Sends this letter's resume and the {0} posting to {1} · {2} to draft the body. Your provider may charge. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1}, %3$s = {2} -->
-    <string name="sends_this_letter_s_resume_and_the_0_posting_to_1_2_to_draft_the_body_your_provider_may_charge">"இந்தக் கடிதத்தின் ரெஸ்யூம், %1$s அறிவிப்புடன், உட்பொருளை வரைய %2$s · %3$s-க்கு அனுப்பப்படுகிறது. உங்கள் வழங்குபவர் கட்டணம் வசூலிக்கலாம்."</string>
-    <!-- Sends this letter's resume to {0} · {1} to draft the body. Your provider may charge. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1} -->
-    <string name="sends_this_letter_s_resume_to_0_1_to_draft_the_body_your_provider_may_charge">"இந்தக் கடிதத்தின் ரெஸ்யூம், உட்பொருளை வரைய %1$s · %2$s-க்கு அனுப்பப்படுகிறது. உங்கள் வழங்குபவர் கட்டணம் வசூலிக்கலாம்."</string>
-    <!-- Sends this line, surrounding field text and your instructions to {0} · {1}. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1} -->
-    <string name="sends_this_line_surrounding_field_text_and_your_instructions_to_0_1">"இந்த வரி, சுற்றியுள்ள புலத்தின் உரை மற்றும் உங்கள் அறிவுறுத்தல்கள் %1$s · %2$s-க்கு அனுப்பப்படுகின்றன."</string>
-    <!-- Sends this paragraph, the rest of the letter and your instructions to {0} · {1}. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1} -->
-    <string name="sends_this_paragraph_the_rest_of_the_letter_and_your_instructions_to_0_1">"இந்தப் பத்தி, கடிதத்தின் மீதிப் பகுதி மற்றும் உங்கள் வழிமுறைகளை %1$s · %2$s க்கு அனுப்பும்."</string>
-    <!-- Sends this paragraph, the rest of the letter, the linked job posting and your instructions to {0} · {1}. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1} -->
-    <string name="sends_this_paragraph_the_rest_of_the_letter_the_linked_job_posting_and_your_instructions_to_0_1">"இந்தப் பத்தி, கடிதத்தின் மீதிப் பகுதி, இணைக்கப்பட்ட வேலை விளம்பரம் மற்றும் உங்கள் வழிமுறைகளை %1$s · %2$s க்கு அனுப்பும்."</string>
-    <!-- Sends this PDF to your configured AI provider instead of reading its text layer. -->
-    <string name="sends_this_pdf_to_your_configured_ai_provider_instead_of_reading_its_text_layer" formatted="false">"இந்த PDF ஐ அதன் உரை அடுக்கைப் படிப்பதற்குப் பதிலாக, உங்கள் உள்ளமைக்கப்பட்ட AI வழங்குநருக்கு அனுப்புகிறது."</string>
-    <!-- Sends your message and this application (posting, notes, documents, your form answers, the saved offer and recent messages) to {label}. -->
-    <!-- Arguments: %1$s = {label} -->
-    <string name="sends_your_message_and_this_application_posting_notes_documents_your_form_answers_the_saved_offer_an">"உங்கள் செய்தியும் இந்த விண்ணப்பமும் (அறிவிப்பு, குறிப்புகள், ஆவணங்கள், உங்கள் படிவப் பதில்கள், சேமித்த ஆஃபர் மற்றும் சமீபத்திய செய்திகள்) %1$s-க்கு அனுப்பப்படுகின்றன."</string>
-    <!-- Sends your message, earlier messages and this application (posting, notes, documents, your form answers, the saved offer and recent messages) to {label}. -->
-    <!-- Arguments: %1$s = {label} -->
-    <string name="sends_your_message_earlier_messages_and_this_application_posting_notes_documents_your_form_answers_t">"உங்கள் செய்தியும், முந்தைய செய்திகளும், இந்த விண்ணப்பமும் (அறிவிப்பு, குறிப்புகள், ஆவணங்கள், உங்கள் படிவப் பதில்கள், சேமித்த ஆஃபர் மற்றும் சமீபத்திய செய்திகள்) %1$s-க்கு அனுப்பப்படுகின்றன."</string>
-    <!-- Sends your message, earlier messages here, this application (posting, notes, documents, your form answers, the saved offer and recent messages) and Knowledge that's switched on, to {label}. -->
-    <!-- Arguments: %1$s = {label} -->
-    <string name="sends_your_message_earlier_messages_here_this_application_posting_notes_documents_your_form_answers">"உங்கள் செய்தி, இங்குள்ள முந்தைய செய்திகள், இந்த விண்ணப்பம் (வேலை அறிவிப்பு, குறிப்புகள், ஆவணங்கள், படிவத்தில் உங்கள் பதில்கள், சேமித்த வேலை வாய்ப்பு மற்றும் சமீபத்திய செய்திகள்) மற்றும் இயக்கப்பட்ட அறிவை %1$sக்கு அனுப்புகிறது."</string>
-    <!-- Sends your message, this application (posting, notes, documents, your form answers, the saved offer and recent messages) and Knowledge that's switched on, to {label}. -->
-    <!-- Arguments: %1$s = {label} -->
-    <string name="sends_your_message_this_application_posting_notes_documents_your_form_answers_the_saved_offer_and_re">"உங்கள் செய்தி, இந்த விண்ணப்பம் (வேலை அறிவிப்பு, குறிப்புகள், ஆவணங்கள், படிவத்தில் உங்கள் பதில்கள், சேமித்த வேலை வாய்ப்பு மற்றும் சமீபத்திய செய்திகள்) மற்றும் இயக்கப்பட்ட அறிவை %1$sக்கு அனுப்புகிறது."</string>
-    <!-- Sends your resume's text only to {0} · {1}, with your key. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1} -->
-    <string name="sends_your_resume_s_text_only_to_0_1_with_your_key">"உங்கள் சாவியுடன் %1$s · %2$s க்கு மட்டுமே உங்கள் ரெஸ்யூம் உரையை அனுப்புகிறது."</string>
     <!-- Sent -->
     <string name="sent" formatted="false">"அனுப்பப்பட்டது"</string>
     <!-- Sent: {0} -->
@@ -6128,8 +6057,8 @@
     <string name="show_less" formatted="false">"குறைவாகக் காட்டு"</string>
     <!-- Show link in title -->
     <string name="show_link_in_title" formatted="false">"தலைப்பில் இணைப்பைக் காட்டு"</string>
-    <!-- Show “Made with Reactive Resume” -->
-    <string name="show_made_with_reactive_resume" formatted="false">"“Reactive Resume மூலம் உருவாக்கப்பட்டது” என்பதைக் காட்டு"</string>
+    <!-- Show “Made with Lebenslauf2” -->
+    <string name="show_made_with_lebenslauf2" formatted="false">"“Lebenslauf2 மூலம் உருவாக்கப்பட்டது” என்பதைக் காட்டு"</string>
     <!-- Show more -->
     <string name="show_more" formatted="false">"மேலும் காட்டு"</string>
     <!-- Show on page -->
@@ -6659,20 +6588,14 @@
     <string name="the_built_in_reader_remains_active" formatted="false">"உள்ளமைக்கப்பட்ட ரீடர் செயலில் உள்ளது."</string>
     <!-- The checks are mechanical. This asks a language model how a reader might react to your bullets and suggests rewrites. It isn't part of the score. -->
     <string name="the_checks_are_mechanical_this_asks_a_language_model_how_a_reader_might_react_to_your_bullets_and_su" formatted="false">"காசோலைகள் இயந்திரத்தனமானவை. உங்கள் பட்டியல் உள்ளீடுகளுக்கு வாசகர் எவ்வாறு எதிர்வினையாற்றலாம் என்பதை இது மொழி மாதிரியைக் கேட்கிறது மற்றும் மீண்டும் எழுத பரிந்துரைக்கிறது. இது மதிப்பெண்ணின் ஒரு பகுதி அல்ல."</string>
-    <!-- The coach asks before remembering facts you state. -->
-    <string name="the_coach_asks_before_remembering_facts_you_state" formatted="false">"நீங்கள் கூறும் உண்மைகளை நினைவில் வைப்பதற்கு முன் ஆலோசகர் உங்களிடம் கேட்பார்."</string>
     <!-- The coach doesn't remember anything from your messages. -->
     <string name="the_coach_doesn_t_remember_anything_from_your_messages" formatted="false">"உங்கள் செய்திகளிலிருந்து ஆலோசகர் எதையும் நினைவில் வைக்காது."</string>
-    <!-- The coach doesn't remember anything you write. -->
-    <string name="the_coach_doesn_t_remember_anything_you_write" formatted="false">"நீங்கள் எழுதுவதை ஆலோசகர் எதையும் நினைவில் வைக்க மாட்டார்."</string>
     <!-- The coach isn't set up on this server. Whoever runs it needs to set ENCRYPTION_SECRET. -->
     <string name="the_coach_isn_t_set_up_on_this_server_whoever_runs_it_needs_to_set_encryption_secret" formatted="false">"இந்தச் சேவையகத்தில் பயிற்சியாளர் அமைக்கப்படவில்லை. சேவையக நிர்வாகி ENCRYPTION_SECRET என்பதை அமைக்க வேண்டும்."</string>
     <!-- The coach isn't set up on this server. Whoever runs it needs to set ENCRYPTION_SECRET. Knowledge, Offers and your applications work without it. -->
     <string name="the_coach_isn_t_set_up_on_this_server_whoever_runs_it_needs_to_set_encryption_secret_knowledge_offer" formatted="false">"இந்தச் சேவையகத்தில் ஆலோசகர் அமைக்கப்படவில்லை. இதை இயக்குபவர் ENCRYPTION_SECRET-ஐ அமைக்க வேண்டும். அறிவுத் தளம், சலுகைகள், உங்கள் விண்ணப்பங்கள் அது இல்லாமலும் வேலை செய்யும்."</string>
     <!-- The coach proposes each fact in the chat. Nothing is saved until you agree. -->
     <string name="the_coach_proposes_each_fact_in_the_chat_nothing_is_saved_until_you_agree" formatted="false">"ஆலோசகர் ஒவ்வொரு உண்மையையும் அரட்டையில் முன்மொழியும். நீங்கள் ஒப்புக்கொள்ளும் வரை எதுவும் சேமிக்கப்படாது."</string>
-    <!-- The coach remembers facts you state, and tells you. -->
-    <string name="the_coach_remembers_facts_you_state_and_tells_you" formatted="false">"நீங்கள் கூறும் உண்மைகளை ஆலோசகர் நினைவில் வைப்பார்; உங்களுக்கும் அதைத் தெரிவிப்பார்."</string>
     <!-- The coach saves facts you state, and tells you. You can undo. -->
     <string name="the_coach_saves_facts_you_state_and_tells_you_you_can_undo" formatted="false">"நீங்கள் கூறும் உண்மைகளை ஆலோசகர் சேமித்து, உங்களுக்குத் தெரிவிக்கும். நீங்கள் செயல்தவிர்க்கலாம்."</string>
     <!-- The connection couldn't be loaded or saved. Try again. -->
@@ -6683,8 +6606,6 @@
     <string name="the_connection_works_turn_on_use_this_provider_to_use_it" formatted="false">"இணைப்பு வேலை செய்கிறது. பயன்படுத்த, “இந்த வழங்குபவரைப் பயன்படுத்து” என்பதை இயக்கவும்."</string>
     <!-- The copy gets the job's posting and keeps this resume as it is for other jobs. -->
     <string name="the_copy_gets_the_job_s_posting_and_keeps_this_resume_as_it_is_for_other_jobs" formatted="false">"நகலுக்கு அந்த வேலையின் அறிவிப்பு வரும்; இந்த ரெஸ்யூம் மற்ற வேலைகளுக்கு இப்படியே இருக்கும்."</string>
-    <!-- the cover letter for this job -->
-    <string name="the_cover_letter_for_this_job" formatted="false">"இந்த வேலைக்கான கவர் கடிதம்"</string>
     <!-- The current state will be saved as “Before restore” first. -->
     <string name="the_current_state_will_be_saved_as_before_restore_first" formatted="false">"தற்போதைய நிலை முதலில் “மீட்டெடுப்பதற்கு முன்” என சேமிக்கப்படும்."</string>
     <!-- the document -->
@@ -6693,24 +6614,18 @@
     <string name="the_editor_opens_on_check_which_checks_the_imported_resume_again" formatted="false">"திருத்தி சரிபார்ப்பு பகுதியைத் திறந்து, இறக்குமதி செய்த ரெஸ்யூமை மீண்டும் சரிபார்க்கும்."</string>
     <!-- The employer may have changed it since. -->
     <string name="the_employer_may_have_changed_it_since" formatted="false">"அதன் பிறகு வேலைவழங்குநர் இதை மாற்றியிருக்கலாம்."</string>
-    <!-- the employer's message -->
-    <string name="the_employer_s_message" formatted="false">"முதலாளியின் செய்தி"</string>
     <!-- The end date is before the start date. Check both dates. -->
     <string name="the_end_date_is_before_the_start_date_check_both_dates" formatted="false">"முடிவுத் தேதி தொடக்கத் தேதிக்கு முன் உள்ளது. இரு தேதிகளையும் சரிபார்க்கவும்."</string>
     <!-- The follow-up is saved. To get a reminder, allow notifications in your device settings. -->
     <string name="the_follow_up_is_saved_to_get_a_reminder_allow_notifications_in_your_device_settings" formatted="false">"தொடர்தொடர்பு சேமிக்கப்பட்டது. நினைவூட்டலைப் பெற சாதன அமைப்புகளில் அறிவிப்புகளை அனுமதிக்கவும்."</string>
     <!-- The greeting follows the name. -->
     <string name="the_greeting_follows_the_name" formatted="false">"வாழ்த்து பெயரைப் பின்பற்றுகிறது."</string>
-    <!-- the interview details -->
-    <string name="the_interview_details" formatted="false">"நேர்காணல் விவரங்கள்"</string>
     <!-- The interview is saved. To get a reminder, allow notifications in your device settings. -->
     <string name="the_interview_is_saved_to_get_a_reminder_allow_notifications_in_your_device_settings" formatted="false">"நேர்காணல் சேமிக்கப்பட்டது. நினைவூட்டலைப் பெற, உங்கள் சாதன அமைப்புகளில் அறிவிப்புகளை அனுமதிக்கவும்."</string>
     <!-- The key is encrypted on the server and never shown again. Saving tests the connection. -->
     <string name="the_key_is_encrypted_on_the_server_and_never_shown_again_saving_tests_the_connection" formatted="false">"விசை சேவையகத்தில் குறியாக்கம் செய்யப்பட்டு மீண்டும் காட்டப்படாது. சேமித்தல் இணைப்பைச் சோதிக்கிறது."</string>
     <!-- The key was rejected. Check the key and test again. -->
     <string name="the_key_was_rejected_check_the_key_and_test_again" formatted="false">"விசை நிராகரிக்கப்பட்டது. விசையைச் சரிபார்த்து மீண்டும் சோதிக்கவும்."</string>
-    <!-- the last messages -->
-    <string name="the_last_messages" formatted="false">"கடைசி செய்திகள்"</string>
     <!-- The lead time has passed. Saving runs the briefing now. -->
     <string name="the_lead_time_has_passed_saving_runs_the_briefing_now" formatted="false">"திட்டமிடப்பட்ட தயாரிப்பு நேரம் கடந்துவிட்டது. சேமித்தல் சுருக்கத்தை உடனடியாகத் தொடங்குகிறது."</string>
     <!-- The letter as it is -->
@@ -6753,10 +6668,6 @@
     <string name="the_provider_limited_this_request_wait_and_try_again_check_your_account_quota" formatted="false">"வழங்குபவர் இந்தக் கோரிக்கையை வரம்புப்படுத்தினார். காத்திருந்து மீண்டும் முயற்சிக்கவும்; உங்கள் கணக்கின் ஒதுக்கீட்டைச் சரிபார்க்கவும்."</string>
     <!-- The provider reported a server error. Try again later. -->
     <string name="the_provider_reported_a_server_error_try_again_later" formatted="false">"வழங்குபவர் சேவையகப் பிழை தெரிவித்தார். பின்னர் மீண்டும் முயற்சிக்கவும்."</string>
-    <!-- the question and what you said -->
-    <string name="the_question_and_what_you_said" formatted="false">"கேள்வி மற்றும் நீங்கள் சொன்னது"</string>
-    <!-- the question and your answer -->
-    <string name="the_question_and_your_answer" formatted="false">"கேள்வி மற்றும் உங்கள் பதில்"</string>
     <!-- The reason is kept for Insights. Linked documents aren't touched. -->
     <string name="the_reason_is_kept_for_insights_linked_documents_aren_t_touched" formatted="false">"காரணம் நுண்ணறிவுக்காக வைக்கப்பட்டுள்ளது. இணைக்கப்பட்ட ஆவணங்கள் தொடப்படவில்லை."</string>
     <!-- The records aren't visible yet. Check again later. -->
@@ -6765,8 +6676,6 @@
     <string name="the_rest_of_the_file_isn_t_in_this_report" formatted="false">"மீதமுள்ள கோப்பு இந்த அறிக்கையில் இல்லை."</string>
     <!-- The resume as it is -->
     <string name="the_resume_as_it_is" formatted="false">"ரெஸ்யூமே அப்படியே"</string>
-    <!-- the resume for this job -->
-    <string name="the_resume_for_this_job" formatted="false">"இந்த வேலைக்கான ரெஸ்யூம்"</string>
     <!-- The reviewer sees each one's stage and dates. Notes, contacts and pay stay private. -->
     <string name="the_reviewer_sees_each_one_s_stage_and_dates_notes_contacts_and_pay_stay_private" formatted="false">"மதிப்பாய்வாளர் ஒவ்வொன்றின் நிலையையும் தேதிகளையும் காண்கிறார். குறிப்புகள், தொடர்புகள் மற்றும் ஊதியம் தனிப்பட்டதாகவே இருக்கும்."</string>
     <!-- The same line repeats on every page. -->
@@ -6775,8 +6684,6 @@
     <string name="the_saved_key_isn_t_sent_to_a_new_base_url_enter_it_again" formatted="false">"சேமித்த விசை புதிய அடிப்படை URL க்கு அனுப்பப்படவில்லை. விசையை மீண்டும் உள்ளிடவும்."</string>
     <!-- The saved key isn't sent to a new base URL. Enter it again if this server needs one. -->
     <string name="the_saved_key_isn_t_sent_to_a_new_base_url_enter_it_again_if_this_server_needs_one" formatted="false">"சேமித்த விசை புதிய அடிப்படை URL க்கு அனுப்பப்படவில்லை. இந்த சேவையகத்திற்கு விசை தேவைப்பட்டால் மீண்டும் விசையை உள்ளிடவும்."</string>
-    <!-- the saved offer -->
-    <string name="the_saved_offer" formatted="false">"சேமித்த ஆஃபர்"</string>
     <!-- The score counts how reliably software reads your resume. It doesn't predict whether you'll be shortlisted. -->
     <string name="the_score_counts_how_reliably_software_reads_your_resume_it_doesn_t_predict_whether_you_ll_be_shortl" formatted="false">"மென்பொருள் உங்கள் ரெஸ்யூமை எவ்வளவு நம்பகத்தன்மையுடன் படிக்கிறது என்பதை மதிப்பெண் கணக்கிடுகிறது. நீங்கள் ஷார்ட்லிஸ்ட் செய்யப்படுவீர்கள் என்பதை இது கணிக்கவில்லை."</string>
     <!-- The score reflects how reliably text is extracted, not your chances. -->
@@ -6962,8 +6869,6 @@
     <string name="this_pdf_is_a_scanned_image_there_s_no_text_to_read_try_the_word_version_or_start_blank_and_paste_se" formatted="false">"இந்த PDF ஸ்கேன் செய்யப்பட்ட படம். படிக்க எந்த உரையும் இல்லை. Word பதிப்பை முயற்சிக்கவும் அல்லது காலியாகத் தொடங்கி பிரிவுகளை ஒட்டவும்."</string>
     <!-- This PDF is password protected. Save an unprotected copy and try again. -->
     <string name="this_pdf_is_password_protected_save_an_unprotected_copy_and_try_again" formatted="false">"இந்த PDF கடவுச்சொல் பாதுகாப்புடையது. பாதுகாக்கப்படாத நகலைச் சேமித்து மீண்டும் முயற்சிக்கவும்."</string>
-    <!-- this posting -->
-    <string name="this_posting" formatted="false">"இந்த அறிவிப்பு"</string>
     <!-- This question couldn't be asked. Send a new message to continue. -->
     <string name="this_question_couldn_t_be_asked_send_a_new_message_to_continue" formatted="false">"இந்தக் கேள்வியைக் கேட்க முடியவில்லை. தொடர ஒரு புதிய செய்தியை அனுப்பவும்."</string>
     <!-- This question didn't finish. -->
@@ -7398,8 +7303,8 @@
     <string name="use_url">"%1$s ஐப் பயன்படுத்தவும்"</string>
     <!-- Use web access? -->
     <string name="use_web_access" formatted="false">"இணைய அணுகலைப் பயன்படுத்தவா?"</string>
-    <!-- Use your browser’s Share action to send one posting URL or selected text to Reactive Resume. Receiving shares requires the latest store build; URL and paste import remain available. -->
-    <string name="use_your_browsers_share_action_to_send_one_posting_url_or_selected_text_to_reactive_resume_receiving" formatted="false">"ஒரு அறிவிப்பு URL அல்லது தேர்ந்தெடுத்த உரையை Reactive Resume-க்கு அனுப்ப, உங்கள் உலாவியின் பகிர்வு செயலைப் பயன்படுத்தவும். பகிர்வுகளைப் பெறுவதற்கு சமீபத்திய ஸ்டோர உருவாக்கம் தேவை; URL மற்றும் ஒட்டும் இறக்குமதி இன்னும் கிடைக்கும்."</string>
+    <!-- Use your browser’s Share action to send one posting URL or selected text to Lebenslauf2. Receiving shares requires the latest store build; URL and paste import remain available. -->
+    <string name="use_your_browsers_share_action_to_send_one_posting_url_or_selected_text_to_lebenslauf2_receiving_sha" formatted="false">"ஒரு அறிவிப்பு URL அல்லது தேர்ந்தெடுத்த உரையை Lebenslauf2-க்கு அனுப்ப, உங்கள் உலாவியின் பகிர்வு செயலைப் பயன்படுத்தவும். பகிர்வுகளைப் பெறுவதற்கு சமீபத்திய ஸ்டோர உருவாக்கம் தேவை; URL மற்றும் ஒட்டும் இறக்குமதி இன்னும் கிடைக்கும்."</string>
     <!-- Use your editor's normal bullet list, so stray glyphs do not land mid-sentence. -->
     <string name="use_your_editor_s_normal_bullet_list_so_stray_glyphs_do_not_land_mid_sentence" formatted="false">"பிசகான எழுத்துருக் குறியீடுகள் வாக்கியத்தின் நடுவில் வராமல் இருக்க, உங்கள் எடிட்டரின் வழக்கமான புல்லட் பட்டியலைப் பயன்படுத்தவும்."</string>
     <!-- Used: {summary} -->
@@ -7629,9 +7534,6 @@
     <string name="when_would_you_start" formatted="false">"நீங்கள் எப்போது தொடங்குவீர்கள்?"</string>
     <!-- When you're done, the browser closes and you come back here. -->
     <string name="when_you_re_done_the_browser_closes_and_you_come_back_here" formatted="false">"நீங்கள் முடித்ததும், உலாவி மூடப்படும் மற்றும் நீங்கள் மீண்டும் இங்கு வருவீர்கள்."</string>
-    <!-- When you tap send, {list} go to your {connection}. -->
-    <!-- Arguments: %1$s = {list}, %2$s = {connection} -->
-    <string name="when_you_tap_send_list_go_to_your_connection">"நீங்கள் அனுப்பு என்பதைத் தட்டும்போது, %1$s %2$s-க்குச் செல்லும்."</string>
     <!-- Where applications come from -->
     <string name="where_applications_come_from" formatted="false">"விண்ணப்பங்கள் எங்கிருந்து வருகின்றன"</string>
     <!-- Where you want to work -->
@@ -7660,8 +7562,6 @@
     <string name="width" formatted="false">"அகலம்"</string>
     <!-- Willing to relocate -->
     <string name="willing_to_relocate" formatted="false">"இடம்பெயரத் தயார்"</string>
-    <!-- With Knowledge off, nothing you write is remembered. -->
-    <string name="with_knowledge_off_nothing_you_write_is_remembered" formatted="false">"அறிவுத் தளம் முடக்கப்பட்டிருந்தால், நீங்கள் எழுதுவது எதுவும் நினைவில் வைக்கப்படாது."</string>
     <!-- Within your office-day limit. -->
     <string name="within_your_office_day_limit" formatted="false">"உங்கள் அலுவலக நாள் வரம்பிற்குள்."</string>
     <!-- Without a fact, the coach and practice can't use this story. -->
@@ -7842,8 +7742,6 @@
     <string name="your_changes_on_this_device_will_be_replaced_by_the_saved_version" formatted="false">"இந்தச் சாதனத்தில் நீங்கள் செய்த மாற்றங்கள் சேமிக்கப்பட்ட பதிப்பால் மாற்றப்படும்."</string>
     <!-- Your contact details are not on the first page. -->
     <string name="your_contact_details_are_not_on_the_first_page" formatted="false">"உங்கள் தொடர்பு விவரங்கள் முதல் பக்கத்தில் இல்லை."</string>
-    <!-- your contacts -->
-    <string name="your_contacts" formatted="false">"உங்கள் தொடர்புகள்"</string>
     <!-- Your data -->
     <string name="your_data" formatted="false">"உங்கள் தரவு"</string>
     <!-- Your dates are written several different ways. -->
@@ -7864,22 +7762,18 @@
     <string name="your_facts_stories_and_preferences_editing_knowledge_sends_nothing_to_an_ai_connection" formatted="false">"உங்கள் உண்மைகள், கதைகள், விருப்பத்தேர்வுகள். அறிவுத் தளத்தைத் திருத்துவது AI இணைப்புக்கு எதையும் அனுப்பாது."</string>
     <!-- Your focus -->
     <string name="your_focus" formatted="false">"உங்கள் கவனம்"</string>
-    <!-- your form answers -->
-    <string name="your_form_answers" formatted="false">"உங்கள் படிவப் பதில்கள்"</string>
     <!-- Your headings look the same as your body text. -->
     <string name="your_headings_look_the_same_as_your_body_text" formatted="false">"உங்கள் தலைப்புகள் உங்கள் உள்ளடக்க உரையைப் போலவே தெரிகின்றன."</string>
     <!-- Your job search starts here -->
     <string name="your_job_search_starts_here" formatted="false">"உங்கள் வேலைத் தேடல் இங்கே தொடங்குகிறது"</string>
     <!-- your Knowledge -->
     <string name="your_knowledge" formatted="false">"உங்கள் அறிவுத் தளம்"</string>
-    <!-- Your language is saved. Restart Reactive Resume to apply the new left-to-right or right-to-left layout. -->
-    <string name="your_language_is_saved_restart_reactive_resume_to_apply_the_new_left_to_right_or_right_to_left_layou" formatted="false">"உங்கள் மொழி சேமிக்கப்பட்டது. புதிய இடமிருந்து வலமாக அல்லது வலமிருந்து இடமாக அமைப்பைப் பயன்படுத்த Reactive Resume ஐ மறுதொடக்கம் செய்யவும்."</string>
+    <!-- Your language is saved. Restart Lebenslauf2 to apply the new left-to-right or right-to-left layout. -->
+    <string name="your_language_is_saved_restart_lebenslauf2_to_apply_the_new_left_to_right_or_right_to_left_layout" formatted="false">"உங்கள் மொழி சேமிக்கப்பட்டது. புதிய இடமிருந்து வலமாக அல்லது வலமிருந்து இடமாக அமைப்பைப் பயன்படுத்த Lebenslauf2 ஐ மறுதொடக்கம் செய்யவும்."</string>
     <!-- Your lines are packed very tightly. -->
     <string name="your_lines_are_packed_very_tightly" formatted="false">"உங்கள் வரிகள் மிகவும் இறுக்கமாக நிரம்பியுள்ளன."</string>
     <!-- Your margins are very narrow. -->
     <string name="your_margins_are_very_narrow" formatted="false">"உங்கள் ஓரங்கள் மிகவும் குறுகியவை."</string>
-    <!-- your message -->
-    <string name="your_message" formatted="false">"உங்கள் செய்தி"</string>
     <!-- Your message is kept. -->
     <string name="your_message_is_kept" formatted="false">"உங்கள் செய்தி பாதுகாக்கப்பட்டது."</string>
     <!-- Your name -->
@@ -7910,9 +7804,6 @@
     <string name="your_public_links_begin_with_server">"உங்கள் பொது இணைப்புகள் %1$s/ உடன் தொடங்கும்"</string>
     <!-- Your public links will change -->
     <string name="your_public_links_will_change" formatted="false">"உங்கள் பொது இணைப்புகள் மாறும்"</string>
-    <!-- Your recording goes to {transcriberName} after you stop, to be transcribed. Your provider may charge. The server keeps transcripts, never recordings. -->
-    <!-- Arguments: %1$s = {transcriberName} -->
-    <string name="your_recording_goes_to_transcribername_after_you_stop_to_be_transcribed_your_provider_may_charge_the">"நீங்கள் நிறுத்திய பிறகு, உங்கள் பதிவு %1$s க்கு டிரான்ஸ்கிரிப்ட் செய்யப்படும். உங்கள் வழங்குநர் கட்டணம் விதிக்கலாம். சேவையகம் டிரான்ஸ்கிரிப்ட்களை வைத்திருக்கிறது, ஒருபோதும் பதிவு செய்யாது."</string>
     <!-- Your request and relevant resume, letter, job posting, application, career information, conversation history, and attachments are sent through your server to this AI provider, according to the feature and context you selected. They can contain personal information. -->
     <string name="your_request_and_relevant_resume_letter_job_posting_application_career_information_conversation_hist" formatted="false">"நீங்கள் தேர்ந்தெடுத்த அம்சம் மற்றும் சூழலுக்கு ஏற்ப, உங்கள் கோரிக்கை மற்றும் தொடர்புடைய விண்ணப்பம், கடிதம், வேலை இடுகை, விண்ணப்பம், தொழில் தகவல், உரையாடல் வரலாறு மற்றும் இணைப்புகள் உங்கள் சேவையகத்தின் மூலம் இந்த AI வழங்குநருக்கு அனுப்பப்படும். அவை தனிப்பட்ட தகவல்களைக் கொண்டிருக்கலாம்."</string>
     <!-- Your requirements -->
@@ -7957,8 +7848,6 @@
     <string name="your_short_link_points_to_0_which_isn_t_published">"உங்கள் குறு இணைப்பு “%1$s”-ஐச் சுட்டுகிறது; அது வெளியிடப்படவில்லை."</string>
     <!-- Your short link says this resume isn't shared until you publish it again. -->
     <string name="your_short_link_says_this_resume_isn_t_shared_until_you_publish_it_again" formatted="false">"நீங்கள் மீண்டும் வெளியிடும்வரை இந்த ரெஸ்யூம் பகிரப்படவில்லை என உங்கள் குறு இணைப்பு காட்டுகிறது."</string>
-    <!-- your stories -->
-    <string name="your_stories" formatted="false">"உங்கள் கதைகள்"</string>
     <!-- Your story couldn't be loaded. -->
     <string name="your_story_couldn_t_be_loaded" formatted="false">"உங்கள் கதையை ஏற்ற முடியவில்லை."</string>
     <!-- Your tags -->

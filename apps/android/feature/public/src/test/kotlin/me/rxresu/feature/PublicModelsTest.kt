@@ -74,7 +74,7 @@ class PublicModelsTest {
             if (request.url.host == "rx.cv") Response.Builder().request(request).protocol(Protocol.HTTP_1_1).code(302).message("Found").header("Location", "https://self.example/alex/design").body("".toResponseBody()).build()
             else Response.Builder().request(request).protocol(Protocol.HTTP_1_1).code(200).message("OK").body("<html></html>".toResponseBody()).build()
         }.build()
-        val result = resolvePublicAddress("https://rx.cv/alex", client)
+        val result = resolvePublicAddress("https://cv2.florentin-one.de/alex", client)
         assertEquals("https://self.example/alex/design", result.url)
         assertTrue(requests.all { it.header("Authorization") == null && it.header("Cookie") == null })
     }

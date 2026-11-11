@@ -32,7 +32,7 @@ let specPromise: ReturnType<typeof generateOnce> | undefined;
 async function generateOnce() {
 	const { generateOpenApiSpec } = await import("./generator");
 	return generateOpenApiSpec({
-		appUrl: "https://rxresu.me",
+		appUrl: "https://lebenslauf2.florentin-one.de",
 		version: "9.8.7",
 	});
 }
@@ -268,6 +268,6 @@ it("overrides every generated cURL sample with one that has no shell line contin
 	for (const source of samples) expect(source).toMatch(/^curl [^\\]*$/);
 	expect(spec.paths?.["/api/health"]?.get).toHaveProperty(
 		"x-codeSamples.0.source",
-		'curl "https://rxresu.me/api/health"',
+		'curl "https://lebenslauf2.florentin-one.de/api/health"',
 	);
 });

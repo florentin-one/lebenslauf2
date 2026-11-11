@@ -73,7 +73,7 @@ With no filings or earnings calls, use: the company site and product (sign up fo
 - **Not allowed:** personal social media, family, home location, anything from people-search or data-broker sites.
 - **Use** it to pitch the level of detail and to choose questions ("I saw your talk on X; how has that approach held up?" is fine). Don't reveal deep digging.
 - LinkedIn may show the person that the user viewed their profile. Viewing is normal; the user should just know.
-- In Reactive Resume, interview participants hold only a name, a role and an optional public `https` profile link. Store nothing else about interviewers.
+- In Lebenslauf2, interview participants hold only a name, a role and an optional public `https` profile link. Store nothing else about interviewers.
 
 ## 7. Review sites and leaked questions
 

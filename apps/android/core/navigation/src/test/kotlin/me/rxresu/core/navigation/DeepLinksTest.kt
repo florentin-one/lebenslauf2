@@ -6,26 +6,26 @@ import org.junit.Test
 
 class DeepLinksTest {
     @Test fun builderLinkOpensBuilder() =
-        assertEquals(Builder("abc123"), routeForLink("https://rxresu.me/builder/abc123"))
+        assertEquals(Builder("abc123"), routeForLink("https://lebenslauf2.florentin-one.de/builder/abc123"))
 
     @Test fun publicResumeOnAppAndAliasHosts() {
-        val a = "https://rxresu.me/alex/fieldnote"
-        val b = "https://rx.cv/alex"
+        val a = "https://lebenslauf2.florentin-one.de/alex/fieldnote"
+        val b = "https://cv2.florentin-one.de/alex"
         assertEquals(PublicResume(a), routeForLink(a))
         assertEquals(PublicResume(b), routeForLink(b))
     }
 
     @Test fun feedbackLinkOpensPublicViewer() {
-        val link = "https://rxresu.me/feedback/tok_1"
+        val link = "https://lebenslauf2.florentin-one.de/feedback/tok_1"
         assertEquals(PublicResume(link), routeForLink(link))
     }
 
     @Test fun appSectionsAndOtherHostsStayInTheBrowser() {
-        assertNull(routeForLink("https://rxresu.me/dashboard/resumes"))
-        assertNull(routeForLink("https://rxresu.me/auth/native-callback?code=x"))
-        assertNull(routeForLink("https://rxresu.me/"))
+        assertNull(routeForLink("https://lebenslauf2.florentin-one.de/dashboard/resumes"))
+        assertNull(routeForLink("https://lebenslauf2.florentin-one.de/auth/native-callback?code=x"))
+        assertNull(routeForLink("https://lebenslauf2.florentin-one.de/"))
         assertNull(routeForLink("https://example.com/alex/cv"))
-        assertNull(routeForLink("https://rxresu.me/a/b/c"))
+        assertNull(routeForLink("https://lebenslauf2.florentin-one.de/a/b/c"))
     }
 
     @Test fun sharedTextYieldsItsUrl() {

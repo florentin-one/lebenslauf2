@@ -14,7 +14,7 @@ import org.junit.Test
 class RepositoriesTest {
     @Test fun storyboardShapesRoundTripThroughGeneratedOperations()=runTest {
         FakeRepositories(coroutineScope=backgroundScope).use { r ->
-            val profile=r.account.getProfile();assertEquals("Alex Morgan",profile.name);assertEquals("Europe/Lisbon",profile.timezone)
+            val profile=r.account.getProfile();assertEquals("Laura Beier",profile.name);assertEquals("Europe/Lisbon",profile.timezone)
             val resume=r.resumes.getResume(StoryboardIds.resume)
             assertEquals("Northwind Labs",resume.data.sections.experience.items.first().company)
             assertEquals(resume,ApiJson.decodeFromJsonElement(Resume.serializer(),ApiJson.encodeToJsonElement(Resume.serializer(),resume)))
@@ -62,7 +62,7 @@ class RepositoriesTest {
             assertEquals("Edited Alex",draft.state.value.document!!.data.basics.name)
             assertEquals(SaveStatus.Offline,draft.state.value.status)
             assertEquals(1,r.drafts.pending().first().size)
-            draft.undo();runCurrent();assertEquals("Alex Morgan",draft.state.value.document!!.data.basics.name)
+            draft.undo();runCurrent();assertEquals("Laura Beier",draft.state.value.document!!.data.basics.name)
             draft.redo();runCurrent();assertEquals("Edited Alex",draft.state.value.document!!.data.basics.name)
             controls.online.value=true;assertTrue(r.drafts.sync());runCurrent()
             assertEquals("Edited Alex",r.resumes.getResume(StoryboardIds.resume).data.basics.name)
@@ -172,10 +172,10 @@ class RepositoriesTest {
         }
     }
     @Test fun previewExportsContainReadablePdfAndWordContainers() {
-        val pdf=fakeExport("pdf","Alex Morgan","{}").bytes.decodeToString()
+        val pdf=fakeExport("pdf","Laura Beier","{}").bytes.decodeToString()
         val xref=pdf.substringAfterLast("startxref\n").substringBefore('\n').toInt()
         assertTrue(pdf.startsWith("%PDF-1.4"));assertTrue(pdf.substring(xref).startsWith("xref"));assertTrue(pdf.endsWith("%%EOF\n"))
-        val doc=fakeExport("docx","Alex Morgan","{}")
+        val doc=fakeExport("docx","Laura Beier","{}")
         val entries=java.util.zip.ZipInputStream(doc.bytes.inputStream()).use { zip -> buildList { while(true) { val entry=zip.nextEntry ?: break;add(entry.name) } } }
         assertTrue("word/document.xml" in entries);assertTrue("[Content_Types].xml" in entries)
     }

@@ -99,7 +99,7 @@ class ServerAuthService internal constructor(
     private val generation = AtomicLong()
     private val discoveries = mutableMapOf<String, Discovery>()
     private val mutableState = MutableStateFlow<SessionState>(SessionState.Loading)
-    private val mutableOrigin = MutableStateFlow("https://rxresu.me")
+    private val mutableOrigin = MutableStateFlow("https://lebenslauf2.florentin-one.de")
     override val state: StateFlow<SessionState> = mutableState
     override val origin: StateFlow<String> = mutableOrigin
     private var restored = false
@@ -171,7 +171,7 @@ class ServerAuthService internal constructor(
         val d = discover(server)
         val key = "client.$server"
         val clientId = storage.read(key) ?: post(d.register, buildJsonObject {
-            put("client_name", "Reactive Resume for Android")
+            put("client_name", "Lebenslauf2 for Android")
             put("redirect_uris", JsonArray(listOf(JsonPrimitive(redirectUri(server, debug)))))
             put("token_endpoint_auth_method", "none")
             put("grant_types", JsonArray(listOf(JsonPrimitive("authorization_code"), JsonPrimitive("refresh_token"))))
@@ -247,7 +247,7 @@ class ServerAuthService internal constructor(
         return follow(response.text("url") ?: "${p.server}/api/auth/oauth?${nativeQuery ?: throw AuthFailure("invalid_grant")}")
     }
 
-    /** Follow only the chosen origin; capture callback without ever requesting rxresu.me with its code. */
+    /** Follow only the chosen origin; capture callback without ever requesting lebenslauf2.me with its code. */
     private suspend fun follow(start: String): AuthResult {
         val p = pending ?: throw AuthFailure("invalid_grant")
         var next = start

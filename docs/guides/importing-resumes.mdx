@@ -1,24 +1,24 @@
 ---
 title: "Importing a resume"
-description: "Turn an existing resume into an editable Reactive Resume document from a PDF, Word file, LinkedIn export, JSON Resume or Reactive Resume JSON file."
+description: "Turn an existing resume into an editable Lebenslauf2 document from a PDF, Word file, LinkedIn export, JSON Resume or Lebenslauf2 JSON file."
 ---
 
-If you already have a resume, you don't need to retype it. Import the file and Reactive Resume builds a new, editable resume from it, section by section. Your original file is never changed.
+If you already have a resume, you don't need to retype it. Import the file and Lebenslauf2 builds a new, editable resume from it, section by section. Your original file is never changed.
 
 ## Supported files
 
-Reactive Resume works out the format from the file's contents, so you don't pick a type.
+Lebenslauf2 works out the format from the file's contents, so you don't pick a type.
 
-| File                                        | Needs an AI provider? | Notes                                                                                        |
-| ------------------------------------------- | --------------------- | -------------------------------------------------------------------------------------------- |
-| **Reactive Resume JSON** (versions 5 and 6) | No                    | Best for backups and moving between accounts or servers. Keeps everything, including design. |
-| **Reactive Resume v4 JSON**                 | No                    | Exports from the old version 4 app.                                                          |
-| **JSON Resume** (`.json`)                   | No                    | Files that follow the open [JSON Resume](https://jsonresume.org) standard.                   |
-| **LinkedIn data export** (`.zip`)           | No                    | Reads your profile, positions, education, skills, languages and certifications.              |
-| **PDF**                                     | Optional              | Choose local reading or explicitly approve AI reading.                                       |
-| **Word** (`.docx`)                          | Yes                   | Read by your AI provider.                                                                    |
+| File                                    | Needs an AI provider? | Notes                                                                                        |
+| --------------------------------------- | --------------------- | -------------------------------------------------------------------------------------------- |
+| **Lebenslauf2 JSON** (versions 5 and 6) | No                    | Best for backups and moving between accounts or servers. Keeps everything, including design. |
+| **Lebenslauf2 v4 JSON**                 | No                    | Exports from the old version 4 app.                                                          |
+| **JSON Resume** (`.json`)               | No                    | Files that follow the open [JSON Resume](https://jsonresume.org) standard.                   |
+| **LinkedIn data export** (`.zip`)       | No                    | Reads your profile, positions, education, skills, languages and certifications.              |
+| **PDF**                                 | Optional              | Choose local reading or explicitly approve AI reading.                                       |
+| **Word** (`.docx`)                      | Yes                   | Read by your AI provider.                                                                    |
 
-A cover letter exported from Reactive Resume as JSON imports as a letter, not a resume.
+A cover letter exported from Lebenslauf2 as JSON imports as a letter, not a resume.
 
 <Info>
   An AI provider is an AI service you connect in **Settings → AI & developer**. Only a provider that is turned on and
@@ -27,7 +27,7 @@ A cover letter exported from Reactive Resume as JSON imports as a letter, not a 
 
 ## Import a file
 
-In **New**, **Resume language** lets you choose the imported document's language before saving. Leave it at **Default** to keep a Reactive Resume JSON file's own language. Formats without a stored language use your interface language. An explicit choice changes generated headings, date words and text direction; it does not translate imported content. PDF and Word review also lets you change this choice before **Create resume**. Choosing **Default** there uses your current interface language, even if you chose another language earlier. Your source file and existing resumes remain unchanged.
+In **New**, **Resume language** lets you choose the imported document's language before saving. Leave it at **Default** to keep a Lebenslauf2 JSON file's own language. Formats without a stored language use your interface language. An explicit choice changes generated headings, date words and text direction; it does not translate imported content. PDF and Word review also lets you change this choice before **Create resume**. Choosing **Default** there uses your current interface language, even if you chose another language earlier. Your source file and existing resumes remain unchanged.
 
 <Steps>
   <Step title="Open the import">
@@ -112,12 +112,12 @@ Dates that couldn't be read exactly, such as "Summer 2019", are kept as written.
 
 The imported resume is named after the person in it. If you already have a resume with that name, the headline is added ("Morgan Chen — Engineering lead"), then a number, so two imports stay apart in Documents and in pickers.
 
-Go through every section before you send the resume. PDF and Word files don't store which text belongs where, so parts can land in the wrong section, lose formatting or come out slightly reworded. Structured files (Reactive Resume JSON, JSON Resume, LinkedIn) come in far more reliably.
+Go through every section before you send the resume. PDF and Word files don't store which text belongs where, so parts can land in the wrong section, lose formatting or come out slightly reworded. Structured files (Lebenslauf2 JSON, JSON Resume, LinkedIn) come in far more reliably.
 
 ## Notes on each format
 
 <AccordionGroup>
-  <Accordion title="Reactive Resume JSON">
+  <Accordion title="Lebenslauf2 JSON">
     Download it from another resume with **Download** and the JSON format, or extract an individual resume JSON file
     from **Export everything** (see [Downloading your resume](/guides/exporting-your-resume)). Custom styles written for
     the older styling system come in converted to the current one. If a version 5 resume contained cover letters, each
@@ -125,7 +125,7 @@ Go through every section before you send the resume. PDF and Word files don't st
   </Accordion>
   <Accordion title="LinkedIn data export">
     In LinkedIn's settings, request a copy of your data and download the archive when LinkedIn emails you. Import the
-    `.zip` file as it is; don't unzip it. Reactive Resume reads `Profile.csv`, `Positions.csv`, `Education.csv`,
+    `.zip` file as it is; don't unzip it. Lebenslauf2 reads `Profile.csv`, `Positions.csv`, `Education.csv`,
     `Skills.csv`, `Languages.csv` and `Certifications.csv` and ignores everything else, such as messages. The file never
     leaves your browser.
   </Accordion>
@@ -163,7 +163,7 @@ Go through every section before you send the resume. PDF and Word files don't st
 
 **"This PDF is password protected."** Save a copy without a password and import that instead.
 
-**"The file couldn't be read as a resume"** (or **"The file could not be read as a valid resume"**, followed by the fields it couldn't read). The JSON file is damaged or isn't a resume. Check that it came from Reactive Resume or follows the JSON Resume standard.
+**"The file couldn't be read as a resume"** (or **"The file could not be read as a valid resume"**, followed by the fields it couldn't read). The JSON file is damaged or isn't a resume. Check that it came from Lebenslauf2 or follows the JSON Resume standard.
 
 **"The end date for your role at … isn't a date."** A JSON Resume date must be a year, a year and month, or a full date (`2024`, `2024-03` or `2024-03-15`). Fix that entry in the file, or import a PDF instead. An empty date (`""`), which many exporters write for a current role, is fine: the role imports as current.
 
@@ -174,4 +174,4 @@ Go through every section before you send the resume. PDF and Word files don't st
 - [Creating your first resume](/guides/creating-your-first-resume): start from scratch instead.
 - [Entering dates](/guides/entering-dates): fix dates that need a look.
 - [Managing sections](/guides/managing-sections): rename, hide or reorder imported sections.
-- [JSON Resume schema](/guides/json-resume-schema): the structure of Reactive Resume's JSON format.
+- [JSON Resume schema](/guides/json-resume-schema): the structure of Lebenslauf2's JSON format.

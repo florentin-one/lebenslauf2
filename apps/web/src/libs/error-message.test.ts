@@ -48,7 +48,7 @@ describe("getReadableErrorMessage", () => {
 });
 
 describe("connection and reply failures", () => {
-	const offline = "Couldn't reach Reactive Resume. Check your internet connection, then try again.";
+	const offline = "Couldn't reach Lebenslauf2. Check your internet connection, then try again.";
 
 	it("names a lost connection in every browser's words, but not other type errors", () => {
 		for (const message of ["Failed to fetch", "Load failed", "NetworkError when attempting to fetch resource."])

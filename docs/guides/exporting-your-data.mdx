@@ -44,7 +44,7 @@ description: "Download your account records, document history and referenced upl
 | `uploads/`                 | Stored photo and attachment bytes referenced by exported records, including document history and live conversation attachments, within the limits below.  |
 | `upload-manifest.json`     | Included storage paths and byte counts, export limits, and the path and reason for each skipped file.                                                     |
 
-In `applications.json`, `appliedAt` is filled in even for a job you only saved: it starts as the date you saved it. `status` is the current stage. `submittedAt` is the first recorded submission time, or `null` when no submission is recorded. It stays set if you later return the job to Saved or close it. This records what you tracked in Reactive Resume; it does not confirm delivery to an employer. Older server exports may omit `submittedAt`; a missing field does not prove that you never applied.
+In `applications.json`, `appliedAt` is filled in even for a job you only saved: it starts as the date you saved it. `status` is the current stage. `submittedAt` is the first recorded submission time, or `null` when no submission is recorded. It stays set if you later return the job to Saved or close it. This records what you tracked in Lebenslauf2; it does not confirm delivery to an employer. Older server exports may omit `submittedAt`; a missing field does not prove that you never applied.
 
 `career.json` contains your preferences, facts and their source/correction history, stories, reviewed reusable answers with scope, source and evidence revision references, workspace answers and checklist state, saved results, schedules, notifications, discovered roles, voice transcripts, and career conversations with attachment metadata. Referenced live attachment files are saved separately under `uploads/`. Raw voice recordings are not retained or exported.
 
@@ -76,5 +76,5 @@ On native mobile, **Export everything** shares the same zip, with the same files
 ## Related guides
 
 - [Downloading your resume](/guides/exporting-your-resume): PDF, Word, OpenDocument, Markdown and JSON for a single resume.
-- [Importing resumes](/guides/importing-resumes): bring a resume file into Reactive Resume.
+- [Importing resumes](/guides/importing-resumes): bring a resume file into Lebenslauf2.
 - [Deleting your account](/guides/deleting-your-account): remove your account and everything in it.

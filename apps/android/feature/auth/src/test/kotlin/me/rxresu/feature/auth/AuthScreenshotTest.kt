@@ -14,7 +14,7 @@ class AuthScreenshotTest : RrScreenshotTest() {
             info =
                 runBlocking {
                     FakeAuthService(RuntimeEnvironment.getApplication())
-                        .checkServer("https://rxresu.me")
+                        .checkServer("https://lebenslauf2.florentin-one.de")
                         .copy(
                             providers =
                                 linkedMapOf(
@@ -24,7 +24,7 @@ class AuthScreenshotTest : RrScreenshotTest() {
                                 )
                         )
                 },
-            email = "alex@morgan.design",
+            email = "beier.laura@mh-hannover.de",
             password = "0123456789",
         )
 
@@ -64,7 +64,7 @@ class AuthScreenshotTest : RrScreenshotTest() {
 
     private val request =
         ConsentRequest(
-            "https://rxresu.me",
+            "https://lebenslauf2.florentin-one.de",
             "",
             "rr_cli_7f3a9c21",
             "Claude",
@@ -106,7 +106,7 @@ class AuthScreenshotTest : RrScreenshotTest() {
     @Test
     fun register() =
         capture("A2-Register", false) {
-            SignInScreen(sample().copy(name = "Alex Morgan", username = "alex"), register = true)
+            SignInScreen(sample().copy(name = "Laura Beier", username = "alex"), register = true)
         }
 
     @Test

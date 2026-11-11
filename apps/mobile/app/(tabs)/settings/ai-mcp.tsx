@@ -16,7 +16,7 @@ export default function McpScreen() {
 			<Text color="ink2">{t`New keys start read-only. Create keys in your browser account settings.`}</Text>
 			<Text variant="title">{t`Setup guide`}</Text>
 			<Text selectable variant="mono">
-				https://docs.rxresu.me/guides/using-the-mcp-server
+				https://docs.lebenslauf2.me/guides/using-the-mcp-server
 			</Text>
 		</Screen>
 	);

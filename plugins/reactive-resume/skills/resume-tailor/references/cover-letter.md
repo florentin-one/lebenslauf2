@@ -10,7 +10,7 @@ When to write one, how to build it from the requirement table, what to cut, and 
 4. Phrases to avoid
 5. Worked example
 6. Review checklist
-7. Saving it in Reactive Resume
+7. Saving it in Lebenslauf2
 8. Sources
 
 ## 1. Do letters still matter?
@@ -83,7 +83,7 @@ About 155 words: two evidence paragraphs are enough. Every fact above came from 
 - [ ] The user has edited or approved at least one line in their own voice.
 - [ ] Company, role and hiring-manager names spelled as in the posting.
 
-## 7. Saving it in Reactive Resume
+## 7. Saving it in Lebenslauf2
 
 With the MCP server connected (skip otherwise):
 

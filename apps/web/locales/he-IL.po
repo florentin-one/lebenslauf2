@@ -1014,8 +1014,8 @@ msgid "{skipped, plural, one {# row had no company or role and was skipped.} oth
 msgstr "{skipped, plural, one {בשורה # לא הייתה חברה או תפקיד והיא דולגה.} other {ב-# שורות לא הייתה חברה או תפקיד והן דולגו.}}"
 
 #: src/features/homepage/header.tsx
-msgid "{stars, plural, one {Star Reactive Resume on GitHub, # star} other {Star Reactive Resume on GitHub, # stars}}"
-msgstr "{stars, plural, one {תן כוכב ל-Reactive Resume ב-GitHub, כוכב #} other {תן כוכב ל-Reactive Resume ב-GitHub, # כוכבים}}"
+msgid "{stars, plural, one {Star Lebenslauf2 on GitHub, # star} other {Star Lebenslauf2 on GitHub, # stars}}"
+msgstr "{stars, plural, one {תן כוכב ל-Lebenslauf2 ב-GitHub, כוכב #} other {תן כוכב ל-Lebenslauf2 ב-GitHub, # כוכבים}}"
 
 #: src/features/documents/page-navigation.tsx
 msgid "{start}–{end} of {total}"
@@ -1248,8 +1248,8 @@ msgid "A accepts and R rejects the focused edit. ↑ and ↓ move between edits.
 msgstr "A מקבל ו-R דוחה את העריכה הממוקדת. ↑ ו-↓ מעבר בין עריכות."
 
 #: src/routes/builder/letter/-components/download-sheet.tsx
-msgid "A backup of this letter. Imports back into Reactive Resume as a letter."
-msgstr "גיבוי למכתב זה. מייבא חזרה אל Reactive Resume כמכתב."
+msgid "A backup of this letter. Imports back into Lebenslauf2 as a letter."
+msgstr "גיבוי למכתב זה. מייבא חזרה אל Lebenslauf2 כמכתב."
 
 #: src/features/resume/editor/check/issues.ts
 msgid "A city and country let roles be matched to where you are."
@@ -1442,8 +1442,8 @@ msgid "About 90 seconds when spoken"
 msgstr "כ-90 שניות בדיבור"
 
 #: src/features/settings/root.tsx
-msgid "About Reactive Resume"
-msgstr "אודות Reactive Resume"
+msgid "About Lebenslauf2"
+msgstr "אודות Lebenslauf2"
 
 #: src/features/resume/editor/design/entries-group.tsx
 msgid "Accent"
@@ -2183,11 +2183,6 @@ msgstr "טיוטה בסיוע AI"
 msgid "Albanian"
 msgstr "אלבנית"
 
-#: src/features/homepage/check.tsx
-#: src/features/homepage/sheet.tsx
-msgid "Alex Morgan"
-msgstr "Alex Morgan"
-
 #: src/features/resume/editor/write/rich-text-editor-field.tsx
 msgid "Align center"
 msgstr "יישור למרכז"
@@ -2638,7 +2633,7 @@ msgstr "אשר וצור חבילה"
 msgid "Approve change"
 msgstr "אשר את השינוי"
 
-#. Email preview text. appName: Reactive Resume
+#. Email preview text. appName: Lebenslauf2
 #: src/features/auth/email-text.ts
 msgid "Approve changing your {appName} email address"
 msgstr "אשר את שינוי כתובת הדוא״ל שלך ב-{appName}"
@@ -4028,8 +4023,8 @@ msgid "Complete {0} before saving."
 msgstr "יש להשלים את {0} לפני השמירה."
 
 #: src/features/resume/share/download-tab.tsx
-msgid "Complete data backup. Imports back into Reactive Resume."
-msgstr "גיבוי נתונים מלא. ניתן לייבא בחזרה ל-Reactive Resume."
+msgid "Complete data backup. Imports back into Lebenslauf2."
+msgstr "גיבוי נתונים מלא. ניתן לייבא בחזרה ל-Lebenslauf2."
 
 #: src/features/ats-checker/messages.ts
 msgid "Compress or remove large images to keep uploads quick."
@@ -4071,17 +4066,17 @@ msgstr "אשר את השעה עם {contact} לפני הוספת ראיון חד�
 msgid "Confirm the time, link and who you'll meet. Glance at the resume and letter you sent."
 msgstr "אשר את השעה, הקישור ועם מי תיפגש. העף מבט בקורות החיים ובמכתב ששלחת."
 
-#. Email sent to a new address to finish an email change. appName: Reactive Resume
+#. Email sent to a new address to finish an email change. appName: Lebenslauf2
 #: src/features/auth/email-text.ts
 msgid "Confirm this address to finish changing your {appName} email. The link works for 1 hour."
 msgstr "אשר את הכתובת הזו כדי לסיים את שינוי הדוא״ל שלך ב-{appName}. הקישור פעיל למשך שעה אחת."
 
-#. Verification email. appName: Reactive Resume
+#. Verification email. appName: Lebenslauf2
 #: src/features/auth/email-text.ts
 msgid "Confirm this is your email address for {appName}. The link works for 1 hour."
 msgstr "אשר שזו כתובת הדוא״ל שלך ב-{appName}. הקישור פעיל למשך שעה אחת."
 
-#. Email preview text. appName: Reactive Resume
+#. Email preview text. appName: Lebenslauf2
 #: src/features/auth/email-text.ts
 msgid "Confirm your new {appName} email address"
 msgstr "אשר את כתובת הדוא״ל החדשה שלך ב-{appName}"
@@ -4833,8 +4828,8 @@ msgid "Couldn't propose these edits: {0}"
 msgstr "לא ניתן להציע את העריכות הבאות: {0}"
 
 #: src/libs/error-message.ts
-msgid "Couldn't reach Reactive Resume. Check your internet connection, then try again."
-msgstr "לא ניתן היה להתחבר ל-Reactive Resume. בדוק את חיבור האינטרנט שלך ונסה שוב."
+msgid "Couldn't reach Lebenslauf2. Check your internet connection, then try again."
+msgstr "לא ניתן היה להתחבר ל-Lebenslauf2. בדוק את חיבור האינטרנט שלך ונסה שוב."
 
 #: src/features/documents/new-document-dialog.tsx
 msgid "Couldn't reach the AI provider. Try again in a moment."
@@ -6232,8 +6227,8 @@ msgid "Drag to reposition and use the slider to zoom before uploading."
 msgstr "גרור כדי לשנות מיקום והשתמש במחוון כדי להגדיל את התמונה לפני ההעלאה."
 
 #: src/features/documents/new-document-dialog.tsx
-msgid "Drop a file here or browse. PDF, Word (needs AI), Reactive Resume, JSON Resume or a LinkedIn export (.zip). Sections come in ready to edit. For a PDF or Word file, anything that couldn't be placed is listed before you create the resume."
-msgstr "גרור קובץ לכאן או עיין. PDF,‏ Word (דורש AI),‏ Reactive Resume,‏ JSON Resume או ייצוא מ-LinkedIn ‏(‎.zip). המקטעים מגיעים מוכנים לעריכה. בקובץ PDF או Word, כל מה שלא ניתן היה לשבץ מוצג לפני שתיצור את קורות החיים."
+msgid "Drop a file here or browse. PDF, Word (needs AI), Lebenslauf2, JSON Resume or a LinkedIn export (.zip). Sections come in ready to edit. For a PDF or Word file, anything that couldn't be placed is listed before you create the resume."
+msgstr "גרור קובץ לכאן או עיין. PDF,‏ Word (דורש AI),‏ Lebenslauf2,‏ JSON Resume או ייצוא מ-LinkedIn ‏(‎.zip). המקטעים מגיעים מוכנים לעריכה. בקובץ PDF או Word, כל מה שלא ניתן היה לשבץ מוצג לפני שתיצור את קורות החיים."
 
 #: src/features/ats-checker/messages.ts
 msgid "Drop the pronouns and start from the verb. That is the convention in most markets."
@@ -6371,8 +6366,8 @@ msgid "Edit interview…"
 msgstr "ערוך ראיון..."
 
 #: src/features/ats-checker/checker.tsx
-msgid "Edit it in Reactive Resume"
-msgstr "ערוך אותו ב-Reactive Resume"
+msgid "Edit it in Lebenslauf2"
+msgstr "ערוך אותו ב-Lebenslauf2"
 
 #: src/components/input/chip-input.tsx
 msgid "Edit keyword"
@@ -6772,8 +6767,8 @@ msgid "Exact form URL"
 msgstr "כתובת URL מדויקת של הטופס"
 
 #: src/features/homepage/sections.tsx
-msgid "Exchange resume feedback, ask questions, and help shape Reactive Resume with the community."
-msgstr "החליפו משוב על קורות חיים, שאלו שאלות ועזרו לעצב את Reactive Resume יחד עם הקהילה."
+msgid "Exchange resume feedback, ask questions, and help shape Lebenslauf2 with the community."
+msgstr "החליפו משוב על קורות חיים, שאלו שאלות ועזרו לעצב את Lebenslauf2 יחד עם הקהילה."
 
 #: src/features/resume/stylesheet/toolbar.tsx
 msgid "Exit focus mode"
@@ -7232,8 +7227,8 @@ msgid "For portals or recruiters who ask for Word. Layout is simplified."
 msgstr "עבור פורטלים או מגייסים המבקשים Word. הפריסה פשוטה יותר."
 
 #: src/features/auth/email-text.ts
-msgid "For security, only use links from emails sent by Reactive Resume."
-msgstr "למען האבטחה, השתמש רק בקישורים מהודעות דוא״ל שנשלחו על ידי Reactive Resume."
+msgid "For security, only use links from emails sent by Lebenslauf2."
+msgstr "למען האבטחה, השתמש רק בקישורים מהודעות דוא״ל שנשלחו על ידי Lebenslauf2."
 
 #: src/features/career/workspace/debrief.tsx
 msgid "For the next round:"
@@ -7307,17 +7302,17 @@ msgstr "נמצא עבור “{0}”. מודעת הדרושים נבדקה {1}."
 
 #: src/features/career/schedule-sheet.tsx
 #: src/libs/orpc/ai-consent.ts
-msgid "Found posting links are read by Reactive Resume and the sites being read."
-msgstr "קישורי מודעות דרושים שנמצאו נקראים על ידי Reactive Resume והאתרים הנקראים."
+msgid "Found posting links are read by Lebenslauf2 and the sites being read."
+msgstr "קישורי מודעות דרושים שנמצאו נקראים על ידי Lebenslauf2 והאתרים הנקראים."
 
 #. placeholder {0}: webAccess.provider
 #: src/features/career/schedule-sheet.tsx
-msgid "Found posting links are read by Reactive Resume and, when needed, {0} and the sites being read. The reader may charge."
-msgstr "קישורי מודעות דרושים שנמצאו נקראים על ידי Reactive Resume, ובמידת הצורך גם על ידי {0} והאתרים הנקראים. הקורא עשוי לחייב."
+msgid "Found posting links are read by Lebenslauf2 and, when needed, {0} and the sites being read. The reader may charge."
+msgstr "קישורי מודעות דרושים שנמצאו נקראים על ידי Lebenslauf2, ובמידת הצורך גם על ידי {0} והאתרים הנקראים. הקורא עשוי לחייב."
 
 #: src/libs/orpc/ai-consent.ts
-msgid "Found posting links are read by Reactive Resume and, when needed, {reader} and the sites being read. The reader may charge."
-msgstr "קישורי מודעות דרושים שנמצאו נקראים על ידי Reactive Resume, ובמידת הצורך גם על ידי {reader} והאתרים הנקראים. הקורא עשוי לחייב."
+msgid "Found posting links are read by Lebenslauf2 and, when needed, {reader} and the sites being read. The reader may charge."
+msgstr "קישורי מודעות דרושים שנמצאו נקראים על ידי Lebenslauf2, ובמידת הצורך גם על ידי {reader} והאתרים הנקראים. הקורא עשוי לחייב."
 
 #: src/features/applications/components/add-application-dialog.tsx
 msgid "Found the role and company on the page. Review the details before saving."
@@ -7544,8 +7539,8 @@ msgstr "עבור לתשובות לטופס"
 
 #: src/features/feedback/review-page.tsx
 #: src/features/resume/share/web-page-text.ts
-msgid "Go to Reactive Resume"
-msgstr "מעבר אל Reactive Resume"
+msgid "Go to Lebenslauf2"
+msgstr "מעבר אל Lebenslauf2"
 
 #: src/features/command-palette/pages/navigation.tsx
 msgid "Go to…"
@@ -7557,8 +7552,8 @@ msgid "Goes live at {0} when you publish."
 msgstr "יעלה לאוויר בכתובת {0} כשתפרסם."
 
 #: src/features/resume/share/download-tab.tsx
-msgid "Good luck out there. Reactive Resume stays free because people chip in."
-msgstr "בהצלחה שם בחוץ. Reactive Resume נשאר בחינם כי אנשים מצטרפים."
+msgid "Good luck out there. Lebenslauf2 stays free because people chip in."
+msgstr "בהצלחה שם בחוץ. Lebenslauf2 נשאר בחינם כי אנשים מצטרפים."
 
 #. Authentication provider display name in account settings
 #. Brand name label for Google social sign-in button
@@ -7973,8 +7968,8 @@ msgid "If you didn't ask for this, you can ignore this email."
 msgstr "אם לא ביקשת זאת, אפשר להתעלם מהודעה זו."
 
 #: src/features/auth/pages/verify-2fa.tsx
-msgid "If you never verified your email address, a password reset turns two-step verification off. Otherwise a reset keeps it on, so ask the person who runs this Reactive Resume server to turn it off for your account. Then sign in with your password and turn it on again with a new authenticator."
-msgstr "אם מעולם לא אימתת את כתובת הדוא״ל שלך, איפוס סיסמה מכבה את האימות הדו-שלבי. אחרת האיפוס משאיר אותו פעיל, לכן בקש מהאחראי על שרת Reactive Resume הזה לכבות אותו בחשבון שלך. לאחר מכן היכנס עם הסיסמה שלך והפעל אותו מחדש עם מאמת חדש."
+msgid "If you never verified your email address, a password reset turns two-step verification off. Otherwise a reset keeps it on, so ask the person who runs this Lebenslauf2 server to turn it off for your account. Then sign in with your password and turn it on again with a new authenticator."
+msgstr "אם מעולם לא אימתת את כתובת הדוא״ל שלך, איפוס סיסמה מכבה את האימות הדו-שלבי. אחרת האיפוס משאיר אותו פעיל, לכן בקש מהאחראי על שרת Lebenslauf2 הזה לכבות אותו בחשבון שלך. לאחר מכן היכנס עם הסיסמה שלך והפעל אותו מחדש עם מאמת חדש."
 
 #: src/features/resume/editor/check/check-panel.tsx
 msgid "Ignore"
@@ -8036,12 +8031,12 @@ msgid "Import the one you have, or start blank."
 msgstr "ייבא את מה שיש לך, או התחל ממסמך ריק."
 
 #: src/features/ats-checker/checker.tsx
-msgid "Import this file into a free Reactive Resume to keep editing it, with Check reading it as you go."
-msgstr "ייבא את הקובץ הזה ל-Reactive Resume בחינם כדי להמשיך לערוך אותו, כש„בדיקה” קוראת אותו תוך כדי."
+msgid "Import this file into a free Lebenslauf2 to keep editing it, with Check reading it as you go."
+msgstr "ייבא את הקובץ הזה ל-Lebenslauf2 בחינם כדי להמשיך לערוך אותו, כש„בדיקה” קוראת אותו תוך כדי."
 
 #: src/features/ats-checker/checker.tsx
-msgid "Import this file into a free Reactive Resume, then keep checking it in Check as you edit. Check reads the resume you're editing, so its findings can differ from this file's."
-msgstr "ייבא את הקובץ הזה ל-Reactive Resume בחינם, ואז המשך לבדוק אותו ב„בדיקה” בזמן העריכה. „בדיקה” קוראת את קורות החיים שאתה עורך, ולכן הממצאים שלה עשויים להיות שונים מאלה של הקובץ הזה."
+msgid "Import this file into a free Lebenslauf2, then keep checking it in Check as you edit. Check reads the resume you're editing, so its findings can differ from this file's."
+msgstr "ייבא את הקובץ הזה ל-Lebenslauf2 בחינם, ואז המשך לבדוק אותו ב„בדיקה” בזמן העריכה. „בדיקה” קוראת את קורות החיים שאתה עורך, ולכן הממצאים שלה עשויים להיות שונים מאלה של הקובץ הזה."
 
 #: src/features/career/workspace/application-packet.tsx
 msgid "Import this file into the browser helper, review the destination and fill report. Unsupported forms use exact PDF downloads and copyable answers below. Native browser integration requires its own verified build."
@@ -8262,8 +8257,8 @@ msgid "Is equity part of the offer?"
 msgstr "האם ההצעה כוללת אופציות?"
 
 #: src/features/homepage/faq.tsx
-msgid "Is Reactive Resume really free?"
-msgstr "האם Reactive Resume באמת בחינם?"
+msgid "Is Lebenslauf2 really free?"
+msgstr "האם Lebenslauf2 באמת בחינם?"
 
 #: src/features/career/offers.tsx
 msgid "Is there a bonus, and what does it depend on?"
@@ -8780,6 +8775,11 @@ msgstr "האחרון"
 msgid "Latvian"
 msgstr "לטבית"
 
+#: src/features/homepage/check.tsx
+#: src/features/homepage/sheet.tsx
+msgid "Laura Beier"
+msgstr ""
+
 #: src/features/ats-checker/messages.ts
 msgid "Lay the text out horizontally. Rotated runs are often dropped or misplaced."
 msgstr "סדר את הטקסט אופקית. קטעי טקסט מסובבים נוטים ליפול או להיות ממוקמים לא נכון."
@@ -8848,6 +8848,15 @@ msgstr "השאר ריק כדי להשתמש בכותרת המקורית."
 #: src/features/applications/components/import-applications-sheet.tsx
 msgid "Leave out"
 msgstr "לְהַשְׁמִיט"
+
+#: src/features/settings/root.tsx
+#: src/routes/dashboard/settings/route.tsx
+msgid "Lebenslauf2 {__APP_VERSION__} · MIT"
+msgstr "Lebenslauf2 {__APP_VERSION__} · MIT"
+
+#: src/features/homepage/sections.tsx
+msgid "Lebenslauf2 is open source under the MIT License. Amruth Pillai and a community of contributors keep it running, and donations pay for hosting and development. There’s no paid tier."
+msgstr "Lebenslauf2 הוא קוד פתוח ברישיון MIT. Amruth Pillai וקהילה של תורמים מתחזקים אותו, ותרומות מממנות את האחסון והפיתוח. אין מסלול בתשלום."
 
 #: src/features/homepage/sheet.tsx
 msgid "Led <0>user research</0> for the onboarding redesign; activation rose from 31% to 44%."
@@ -9047,12 +9056,12 @@ msgid "Link a fact to practice this story"
 msgstr "יש לקשר עובדה כדי לתרגל את הסיפור"
 
 #: src/features/applications/components/application-form-sheet.tsx
-msgid "Link a Reactive Resume (recommended)"
-msgstr "קשר Reactive Resume (מומלץ)"
+msgid "Link a Lebenslauf2 (recommended)"
+msgstr "קשר Lebenslauf2 (מומלץ)"
 
 #: src/features/applications/components/application-form-sheet.tsx
-msgid "Link a Reactive Resume to use a fit check against each requirement and tailoring."
-msgstr "קשר קורות חיים מ-Reactive Resume כדי להשתמש בבדיקת התאמה לכל דרישה ובהתאמת קורות החיים."
+msgid "Link a Lebenslauf2 to use a fit check against each requirement and tailoring."
+msgstr "קשר קורות חיים מ-Lebenslauf2 כדי להשתמש בבדיקת התאמה לכל דרישה ובהתאמת קורות החיים."
 
 #: src/features/resume/editor/write/basics-card.tsx
 #: src/features/resume/editor/write/rich-text-editor-field.tsx
@@ -9399,8 +9408,8 @@ msgid "Lower the design sheet"
 msgstr "הורד את גיליון העיצוב"
 
 #: src/features/resume/share/web-page-text.ts
-msgid "Made with Reactive Resume, free and open source"
-msgstr "מיוצר עם Reactive Resume, חינם וקוד פתוח"
+msgid "Made with Lebenslauf2, free and open source"
+msgstr "מיוצר עם Lebenslauf2, חינם וקוד פתוח"
 
 #. Layout editor column label for the primary content area
 #: src/routes/builder/$resumeId/-sidebar/right/sections/layout/pages.tsx
@@ -10574,7 +10583,7 @@ msgstr "לא נמצא מקטע ניסיון תעסוקתי."
 msgid "No. {number} · {name}"
 msgstr "מס. {number} · {name}"
 
-#. Receipt line amount for something Reactive Resume doesn't have, e.g. ads.
+#. Receipt line amount for something Lebenslauf2 doesn't have, e.g. ads.
 #: src/features/assistant/tool-approvals.tsx
 #: src/features/homepage/sections.tsx
 msgid "none"
@@ -11203,13 +11212,13 @@ msgstr "פתח סיפור"
 msgid "Open the exported file and confirm you can select and copy every part of it."
 msgstr "פתח את הקובץ המיוצא וודא שאפשר לבחור ולהעתיק כל חלק ממנו."
 
+#: src/routes/auth/native-callback.tsx
+msgid "Open the Lebenslauf2 app"
+msgstr "פתח את האפליקציה Lebenslauf2"
+
 #: src/features/applications/components/detail/sent-documents.tsx
 msgid "Open the letter version sent"
 msgstr "פתח את גרסת המכתב שנשלחה"
-
-#: src/routes/auth/native-callback.tsx
-msgid "Open the Reactive Resume app"
-msgstr "פתח את האפליקציה Reactive Resume"
 
 #: src/features/applications/components/detail/sent-documents.tsx
 msgid "Open the resume version sent"
@@ -11682,8 +11691,8 @@ msgid "PDF styles support a subset of CSS. Rotation, dashed and dotted borders, 
 msgstr "סגנונות PDF תומכים בקבוצת משנה של CSS. מתעלמים מסיבוב, גבולות מקווקו ומקווקו ומאפייני פריסה מסוימים."
 
 #: src/features/homepage/faq.tsx
-msgid "PDF, Word (DOCX), Markdown and JSON. The JSON export imports back into any Reactive Resume, including one you host yourself, so your data is never locked in."
-msgstr "PDF, Word (DOCX), Markdown ו-JSON. היצוא JSON מייבא חזרה לכל Reactive Resume, כולל כזה שאתה מארח בעצמך, כך שהנתונים שלך לעולם לא יהיו נעולים."
+msgid "PDF, Word (DOCX), Markdown and JSON. The JSON export imports back into any Lebenslauf2, including one you host yourself, so your data is never locked in."
+msgstr "PDF, Word (DOCX), Markdown ו-JSON. היצוא JSON מייבא חזרה לכל Lebenslauf2, כולל כזה שאתה מארח בעצמך, כך שהנתונים שלך לעולם לא יהיו נעולים."
 
 #: src/features/documents/documents-page.tsx
 msgid "PDF, Word or JSON. We'll build a resume from it."
@@ -12449,15 +12458,6 @@ msgstr "ייצא מחדש עם גופנים מוטבעים, ולאחר מכן פ
 #: src/features/homepage/prepare.tsx
 msgid "Re: Senior Product Designer"
 msgstr "Re: מעצב מוצר בכיר"
-
-#: src/features/settings/root.tsx
-#: src/routes/dashboard/settings/route.tsx
-msgid "Reactive Resume {__APP_VERSION__} · MIT"
-msgstr "Reactive Resume {__APP_VERSION__} · MIT"
-
-#: src/features/homepage/sections.tsx
-msgid "Reactive Resume is open source under the MIT License. Amruth Pillai and a community of contributors keep it running, and donations pay for hosting and development. There’s no paid tier."
-msgstr "Reactive Resume הוא קוד פתוח ברישיון MIT. Amruth Pillai וקהילה של תורמים מתחזקים אותו, ותרומות מממנות את האחסון והפיתוח. אין מסלול בתשלום."
 
 #: src/features/applications/components/add-application-dialog.tsx
 #: src/features/applications/components/application-detail-sheet.tsx
@@ -13233,7 +13233,7 @@ msgstr "אפס את ברירת המחדל של העיצוב"
 msgid "Reset password"
 msgstr "איפוס סיסמה"
 
-#. Email preview text. appName: Reactive Resume
+#. Email preview text. appName: Lebenslauf2
 #: src/features/auth/email-text.ts
 msgid "Reset your {appName} password"
 msgstr "אפס את הסיסמה שלך ב-{appName}"
@@ -14694,8 +14694,8 @@ msgid "Show"
 msgstr "הצג"
 
 #: src/features/resume/share/share-panel.tsx
-msgid "Show “Made with Reactive Resume”"
-msgstr "הצגת “נוצר באמצעות Reactive Resume”"
+msgid "Show “Made with Lebenslauf2”"
+msgstr "הצגת “נוצר באמצעות Lebenslauf2”"
 
 #. placeholder {0}: i18n.number(Math.min(remaining, COLUMN_PAGE_SIZE))
 #. placeholder {0}: i18n.number(visible.length - shown.length)
@@ -15136,7 +15136,7 @@ msgstr "חלק מהטקסט מסובב."
 msgid "Some uploaded files were skipped. Check upload-manifest.json in the archive."
 msgstr "דולגו כמה קבצים שהועלו. יש לבדוק את upload-manifest.json בארכיון."
 
-#. Email change approval. appName: Reactive Resume; previousEmail and newEmail are email addresses
+#. Email change approval. appName: Lebenslauf2; previousEmail and newEmail are email addresses
 #: src/features/auth/email-text.ts
 msgid "Someone asked to change your {appName} email from {previousEmail} to {newEmail}."
 msgstr "מישהו ביקש לשנות את כתובת הדוא״ל שלך ב-{appName} מ-{previousEmail} ל-{newEmail}."
@@ -15288,8 +15288,8 @@ msgid "Standard section headings"
 msgstr "כותרות סעיפים סטנדרטיים"
 
 #: src/features/homepage/header.tsx
-msgid "Star Reactive Resume on GitHub"
-msgstr "סמן את Reactive Resume ב-GitHub"
+msgid "Star Lebenslauf2 on GitHub"
+msgstr "סמן את Lebenslauf2 ב-GitHub"
 
 #: src/features/homepage/sections.tsx
 msgid "Stars on GitHub"
@@ -16601,8 +16601,8 @@ msgid "This file isn't a readable image. Choose a PNG, JPEG, WebP or GIF photo."
 msgstr "הקובץ הזה אינו תמונה קריאה. בחר תמונת PNG,‏ JPEG,‏ WebP או GIF."
 
 #: src/features/documents/new-document-dialog.tsx
-msgid "This file type can't be imported. Use a PDF, Word, Reactive Resume or JSON Resume file, or a LinkedIn export (.zip)."
-msgstr "לא ניתן לייבא סוג קובץ זה. השתמש בקובץ PDF, Word, Reactive Resume או JSON Resume, או יצוא LinkedIn (.zip)."
+msgid "This file type can't be imported. Use a PDF, Word, Lebenslauf2 or JSON Resume file, or a LinkedIn export (.zip)."
+msgstr "לא ניתן לייבא סוג קובץ זה. השתמש בקובץ PDF, Word, Lebenslauf2 או JSON Resume, או יצוא LinkedIn (.zip)."
 
 #: src/features/ats-checker/messages.ts
 msgid "This file uses a lot of different fonts."
@@ -16638,8 +16638,8 @@ msgid "This is not a common resume page size."
 msgstr "זהו לא גודל עמוד נפוץ לקורות חיים."
 
 #: src/features/documents/new-document-dialog.tsx
-msgid "This JSON isn't a Reactive Resume or JSON Resume file."
-msgstr "קובץ ה-JSON הזה אינו קובץ Reactive Resume או JSON Resume."
+msgid "This JSON isn't a Lebenslauf2 or JSON Resume file."
+msgstr "קובץ ה-JSON הזה אינו קובץ Lebenslauf2 או JSON Resume."
 
 #: src/routes/builder/letter/-components/download-sheet.tsx
 msgid "This letter and “{resumeName}” as two PDFs, named to match."
@@ -17848,7 +17848,7 @@ msgstr "אימות עם קוד גיבוי"
 msgid "Verify your email"
 msgstr "אמת את הדוא״ל שלך"
 
-#. Email preview text. appName: Reactive Resume
+#. Email preview text. appName: Lebenslauf2
 #: src/features/auth/email-text.ts
 msgid "Verify your email for {appName}"
 msgstr "אמת את הדוא״ל שלך ב-{appName}"
@@ -18015,7 +18015,7 @@ msgstr "היה: {0}"
 msgid "WCAG 2.1 AA"
 msgstr "WCAG 2.1 AA"
 
-#. Password reset email. appName: Reactive Resume
+#. Password reset email. appName: Lebenslauf2
 #: src/features/auth/email-text.ts
 msgid "We received a request to reset your {appName} password."
 msgstr "קיבלנו בקשה לאפס את הסיסמה שלך ב-{appName}."
@@ -18592,12 +18592,12 @@ msgid "Yes. Every job you track gets its own workspace: check your fit against t
 msgstr "כן. כל משרה שאתה עוקב אחריה מקבלת סביבת עבודה משלה: בדוק את ההתאמה שלך מול המודעה, נסח תשובות מסיפורים שכתבת פעם אחת, קבל תוכנית קצרה לפני הראיון, תרגל בקול עם משוב וערוך תחקיר אחר כך. כשמגיעות הצעות, השווה ביניהן זו לצד זו. האימון משתמש במפתח ה-AI שלך; ההשוואה לא צריכה מפתח."
 
 #: src/features/homepage/faq.tsx
-msgid "Yes. Import a PDF, a LinkedIn data export, a JSON Resume file or a Reactive Resume export, then pick up where it left off. With an AI provider set up, Word documents work too."
-msgstr "כֵּן. ייבא PDF, ייצוא נתונים LinkedIn, קובץ JSON Resume או ייצוא Reactive Resume, ואז המשיכו מהנקודה שבה הפסיקה. עם הגדרת ספק AI, גם מסמכי Word עובדים."
+msgid "Yes. Import a PDF, a LinkedIn data export, a JSON Resume file or a Lebenslauf2 export, then pick up where it left off. With an AI provider set up, Word documents work too."
+msgstr "כֵּן. ייבא PDF, ייצוא נתונים LinkedIn, קובץ JSON Resume או ייצוא Lebenslauf2, ואז המשיכו מהנקודה שבה הפסיקה. עם הגדרת ספק AI, גם מסמכי Word עובדים."
 
 #: src/features/homepage/faq.tsx
-msgid "Yes. Reactive Resume is open source under the MIT License and ships as a Docker image, so it runs on your own server with your own database and storage."
-msgstr "כֵּן. Reactive Resume הוא קוד פתוח תחת MIT License ונשלח כתמונת Docker, כך שהוא פועל בשרת משלך עם מסד נתונים ואחסון משלך."
+msgid "Yes. Lebenslauf2 is open source under the MIT License and ships as a Docker image, so it runs on your own server with your own database and storage."
+msgstr "כֵּן. Lebenslauf2 הוא קוד פתוח תחת MIT License ונשלח כתמונת Docker, כך שהוא פועל בשרת משלך עם מסד נתונים ואחסון משלך."
 
 #: src/features/career/coach-thread.tsx
 msgid "Yesterday"

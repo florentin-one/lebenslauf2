@@ -1,12 +1,12 @@
 {
 	"name": "reactive-resume",
-	"description": "Reactive Resume is a free and open-source resume builder that makes it easy to create, update, and share your resume.",
+	"description": "Lebenslauf2 is a free and open-source resume builder that makes it easy to create, update, and share your resume.",
 	"version": "6.1.0",
 	"private": true,
 	"license": "MIT",
 	"author": {
 		"name": "Amruth Pillai",
-		"email": "amruth@rxresu.me",
+		"email": "amruth@lebenslauf2.me",
 		"url": "https://amruthpillai.com"
 	},
 	"repository": {

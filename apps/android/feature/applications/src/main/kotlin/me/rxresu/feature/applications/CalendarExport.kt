@@ -24,10 +24,10 @@ private fun icsText(value: String) = value.replace("\\", "\\\\").replace(";", "\
 
 /** RFC 5545 calendar text (web ics.ts): one VEVENT, or a CANCEL for a deleted interview. */
 internal fun icsFor(event: CalendarEvent, now: Instant, cancel: Boolean = false): String = buildString {
-    append("BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:-//Reactive Resume//Applications//EN\r\n")
+    append("BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:-//Lebenslauf2//Applications//EN\r\n")
     append(if (cancel) "METHOD:CANCEL\r\n" else "METHOD:PUBLISH\r\n")
     append("BEGIN:VEVENT\r\n")
-    append("UID:${event.uid}@rxresu.me\r\n")
+    append("UID:${event.uid}@lebenslauf2.me\r\n")
     append("DTSTAMP:${IcsStamp.format(now)}\r\n")
     append("DTSTART:${IcsStamp.format(event.start)}\r\n")
     append("DTEND:${IcsStamp.format(event.start.plusSeconds(event.minutes * 60))}\r\n")

@@ -32,7 +32,7 @@ class AccountSettingsViewModelTest {
 
     private suspend fun auth() =
         FakeAuthService(RuntimeEnvironment.getApplication()).also {
-            it.signInWithPassword("https://rxresu.me", "alex", "test-password")
+            it.signInWithPassword("https://lebenslauf2.florentin-one.de", "alex", "test-password")
         }
 
     @Test

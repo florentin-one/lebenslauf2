@@ -1004,8 +1004,8 @@ msgid "90 days"
 msgstr "90 hari"
 
 #: src/features/letters/share.tsx
-msgid "A backup of this letter. Imports back into Reactive Resume as a letter."
-msgstr "Sandaran surat ini. Import semula ke Reactive Resume sebagai surat."
+msgid "A backup of this letter. Imports back into Lebenslauf2 as a letter."
+msgstr "Sandaran surat ini. Import semula ke Lebenslauf2 sebagai surat."
 
 #: src/features/check/issues.ts
 msgid "A city and country let roles be matched to where you are."
@@ -3244,8 +3244,8 @@ msgid "Complete {0} before saving."
 msgstr "Lengkapkan {0} sebelum menyimpan."
 
 #: src/features/share/download.tsx
-msgid "Complete data backup. Imports back into Reactive Resume."
-msgstr "Sandaran data lengkap. Boleh diimport semula ke dalam Reactive Resume."
+msgid "Complete data backup. Imports back into Lebenslauf2."
+msgstr "Sandaran data lengkap. Boleh diimport semula ke dalam Lebenslauf2."
 
 #: src/features/workspace/application-packet.tsx
 msgid "Complete the employer form manually in your browser using reviewed answers and approved PDFs."
@@ -3871,8 +3871,8 @@ msgid "Couldn't propose these edits: {0}"
 msgstr "Tidak dapat mencadangkan suntingan ini: {0}"
 
 #: src/features/write/improve.tsx
-msgid "Couldn't reach Reactive Resume. Check your internet connection, then try again."
-msgstr "Reactive Resume tidak dapat dihubungi. Semak sambungan internet anda, kemudian cuba lagi."
+msgid "Couldn't reach Lebenslauf2. Check your internet connection, then try again."
+msgstr "Lebenslauf2 tidak dapat dihubungi. Semak sambungan internet anda, kemudian cuba lagi."
 
 #: src/features/check/writing.tsx
 msgid "Couldn't reach your AI provider. Try again or check its key in AI settings."
@@ -5098,8 +5098,8 @@ msgid "Edit interview"
 msgstr "Edit wawancara"
 
 #: src/features/ats-checker/checker.tsx
-msgid "Edit it in Reactive Resume"
-msgstr "Suntingnya dalam Reactive Resume"
+msgid "Edit it in Lebenslauf2"
+msgstr "Suntingnya dalam Lebenslauf2"
 
 #: src/features/write/basics-screen.tsx
 msgid "Edit link"
@@ -5318,8 +5318,8 @@ msgid "Enter terms yourself. No AI request is made. Leave unknown amounts blank.
 msgstr "Masukkan terma sendiri. Tiada permintaan AI dihantar. Biarkan jumlah yang tidak diketahui kosong."
 
 #: app/(auth)/server.tsx
-msgid "Enter the address you open Reactive Resume at in a browser. The app checks it's a Reactive Resume server that allows app sign-in before you continue."
-msgstr "Masukkan alamat yang anda buka Reactive Resume dalam penyemak imbas. Apl itu menyemak ia adalah pelayan Reactive Resume yang membenarkan log masuk apl sebelum anda meneruskan."
+msgid "Enter the address you open Lebenslauf2 at in a browser. The app checks it's a Lebenslauf2 server that allows app sign-in before you continue."
+msgstr "Masukkan alamat yang anda buka Lebenslauf2 dalam penyemak imbas. Apl itu menyemak ia adalah pelayan Lebenslauf2 yang membenarkan log masuk apl sebelum anda meneruskan."
 
 #: src/features/ai/error.ts
 msgid "Enter the API base URL of your service and test again."
@@ -5791,13 +5791,13 @@ msgstr "Ditemui untuk “{0}”. Siaran disemak {1}."
 
 #: src/api/ai-consent.ts
 #: src/features/career/schedule-sheet.tsx
-msgid "Found posting links are read by Reactive Resume and the sites being read."
-msgstr "Pautan siaran yang ditemui akan dibaca oleh Reactive Resume dan tapak yang dibaca."
+msgid "Found posting links are read by Lebenslauf2 and the sites being read."
+msgstr "Pautan siaran yang ditemui akan dibaca oleh Lebenslauf2 dan tapak yang dibaca."
 
 #: src/api/ai-consent.ts
 #: src/features/career/schedule-sheet.tsx
-msgid "Found posting links are read by Reactive Resume and, when needed, {reader} and the sites being read. The reader may charge."
-msgstr "Pautan siaran yang ditemui akan dibaca oleh Reactive Resume dan, apabila diperlukan, {reader} serta tapak yang dibaca. Pembaca mungkin mengenakan caj."
+msgid "Found posting links are read by Lebenslauf2 and, when needed, {reader} and the sites being read. The reader may charge."
+msgstr "Pautan siaran yang ditemui akan dibaca oleh Lebenslauf2 dan, apabila diperlukan, {reader} serta tapak yang dibaca. Pembaca mungkin mengenakan caj."
 
 #: src/features/design/style-groups.tsx
 #: src/features/letters/design.tsx
@@ -6924,6 +6924,10 @@ msgstr "tinggalkan"
 #: app/letter/[id]/_layout.tsx
 msgid "Leave without keeping the draft?"
 msgstr "Pergi tanpa menyimpan draf?"
+
+#: src/auth/auth-header.tsx
+msgid "Lebenslauf2"
+msgstr "Lebenslauf2"
 
 #: src/features/design/template-group.tsx
 msgid "Left"
@@ -8267,6 +8271,10 @@ msgstr "Tiada kunci lagi."
 msgid "No language matches."
 msgstr "Tiada padanan bahasa."
 
+#: src/auth/messages.ts
+msgid "No Lebenslauf2 server answered at this address. Check the spelling, or ask your administrator whether the server allows app sign-in."
+msgstr "Tiada pelayan Lebenslauf2 menjawab di alamat ini. Sahkan ejaan atau tanya pentadbir anda sama ada pelayan membenarkan log masuk apl."
+
 #: src/features/ats-checker/messages.ts
 msgid "No lines look like a job title paired with an employer."
 msgstr "Tiada baris yang kelihatan seperti jawatan yang dipasangkan dengan majikan."
@@ -8333,10 +8341,6 @@ msgstr "Tiada foto. Kebanyakan ATS mengabaikan foto; sesetengah wilayah menghara
 #: src/features/applications/add-sheet.tsx
 msgid "No postings found. Try different keywords."
 msgstr "Tiada siaran pekerjaan ditemui. Cuba kata kunci yang berbeza."
-
-#: src/auth/messages.ts
-msgid "No Reactive Resume server answered at this address. Check the spelling, or ask your administrator whether the server allows app sign-in."
-msgstr "Tiada pelayan Reactive Resume menjawab di alamat ini. Sahkan ejaan atau tanya pentadbir anda sama ada pelayan membenarkan log masuk apl."
 
 #: src/features/check/job-match.tsx
 msgid "No recognizable terms in this posting."
@@ -8753,8 +8757,8 @@ msgid "On"
 msgstr "hidup"
 
 #: src/features/applications/add-sheet.tsx
-msgid "On iOS, choose Keep for review, then reopen app in the Share extension. Reopen Reactive Resume yourself within 15 minutes. Sign in here before sharing."
-msgstr "Di iOS, pilih Kekalkan untuk semakan, kemudian buka semula aplikasi dalam sambungan Kongsi. Buka semula Reactive Resume sendiri dalam masa 15 minit. Log masuk di sini sebelum berkongsi."
+msgid "On iOS, choose Keep for review, then reopen app in the Share extension. Reopen Lebenslauf2 yourself within 15 minutes. Sign in here before sharing."
+msgstr "Di iOS, pilih Kekalkan untuk semakan, kemudian buka semula aplikasi dalam sambungan Kongsi. Buka semula Lebenslauf2 sendiri dalam masa 15 minit. Log masuk di sini sebelum berkongsi."
 
 #: src/features/share/link.tsx
 msgid "On. Anyone with the link can see your web page."
@@ -9293,20 +9297,20 @@ msgid "PDF import"
 msgstr "Import PDF"
 
 #: src/features/application-detail/sections.tsx
-msgid "PDF only · up to 10 MB each. Linking a Reactive Resume enables a fit check against each requirement and tailoring."
-msgstr "PDF sahaja · sehingga 10 MB setiap satu. Memautkan Reactive Resume membolehkan semakan kesesuaian terhadap setiap keperluan dan penyesuaian."
+msgid "PDF only · up to 10 MB each. Linking a Lebenslauf2 enables a fit check against each requirement and tailoring."
+msgstr "PDF sahaja · sehingga 10 MB setiap satu. Memautkan Lebenslauf2 membolehkan semakan kesesuaian terhadap setiap keperluan dan penyesuaian."
 
 #: src/features/documents/new-document.tsx
-msgid "PDF reads its text layer on your server by default, without AI. Turn on the AI switch to send it to your provider. Word (.docx) needs an AI provider. Current and v4 Reactive Resume JSON, cover letters, JSON Resume and LinkedIn exports (.zip) are supported. Up to 10 MB."
-msgstr "PDF membaca lapisan teksnya pada pelayan anda secara lalai, tanpa AI. Hidupkan suis AI untuk menghantarnya kepada penyedia anda. Word (.docx) memerlukan penyedia AI. JSON Reactive Resume semasa dan v4, surat iringan, JSON Resume serta eksport LinkedIn (.zip) disokong. Sehingga 10 MB."
+msgid "PDF reads its text layer on your server by default, without AI. Turn on the AI switch to send it to your provider. Word (.docx) needs an AI provider. Current and v4 Lebenslauf2 JSON, cover letters, JSON Resume and LinkedIn exports (.zip) are supported. Up to 10 MB."
+msgstr "PDF membaca lapisan teksnya pada pelayan anda secara lalai, tanpa AI. Hidupkan suis AI untuk menghantarnya kepada penyedia anda. Word (.docx) memerlukan penyedia AI. JSON Lebenslauf2 semasa dan v4, surat iringan, JSON Resume serta eksport LinkedIn (.zip) disokong. Sehingga 10 MB."
 
 #: src/features/design/advanced.tsx
 msgid "PDF styles support a subset of CSS. Rotation, dashed and dotted borders, and some layout properties are ignored."
 msgstr "Gaya PDF menyokong subset CSS. Putaran, sempadan putus-putus dan bertitik serta beberapa sifat reka letak diabaikan."
 
 #: src/features/documents/new-document.tsx
-msgid "PDF, Word, Reactive Resume, JSON Resume or LinkedIn export."
-msgstr "Eksport PDF, Word, Reactive Resume, JSON Resume atau LinkedIn."
+msgid "PDF, Word, Lebenslauf2, JSON Resume or LinkedIn export."
+msgstr "Eksport PDF, Word, Lebenslauf2, JSON Resume atau LinkedIn."
 
 #: src/features/workspace/tabs/messages.tsx
 msgid "per hour"
@@ -9937,10 +9941,6 @@ msgstr "Eksport semula dengan fon dibenamkan, dan semak teks disalin keluar deng
 #: src/features/ats-checker/messages.ts
 msgid "Re-export with fonts embedded, then open the file and check that the text copies out cleanly."
 msgstr "Eksport semula dengan fon dibenamkan, kemudian buka fail dan semak teks disalin keluar dengan bersih."
-
-#: src/auth/auth-header.tsx
-msgid "Reactive Resume"
-msgstr "Reactive Resume"
 
 #: src/features/application-detail/sheets.tsx
 #: src/features/applications/add-sheet.tsx
@@ -11872,8 +11872,8 @@ msgid "Show"
 msgstr "Tunjuk"
 
 #: src/features/share/web-page.tsx
-msgid "Show “Made with Reactive Resume”"
-msgstr "Tunjukkan “Dibuat dengan Reactive Resume”"
+msgid "Show “Made with Lebenslauf2”"
+msgstr "Tunjukkan “Dibuat dengan Lebenslauf2”"
 
 #. placeholder {0}: i18n.number(Math.min(remaining, COLUMN_PAGE_SIZE))
 #: src/features/applications-board/board-screen.tsx
@@ -14378,8 +14378,8 @@ msgid "Use web access?"
 msgstr "Guna akses web?"
 
 #: src/features/applications/add-sheet.tsx
-msgid "Use your browser’s Share action to send one posting URL or selected text to Reactive Resume. Receiving shares requires the latest store build; URL and paste import remain available."
-msgstr "Guna tindakan Kongsi pelayar anda untuk menghantar satu URL siaran atau teks terpilih kepada Reactive Resume. Menerima perkongsian memerlukan binaan gedung terbaharu; import URL dan tampalan kekal tersedia."
+msgid "Use your browser’s Share action to send one posting URL or selected text to Lebenslauf2. Receiving shares requires the latest store build; URL and paste import remain available."
+msgstr "Guna tindakan Kongsi pelayar anda untuk menghantar satu URL siaran atau teks terpilih kepada Lebenslauf2. Menerima perkongsian memerlukan binaan gedung terbaharu; import URL dan tampalan kekal tersedia."
 
 #: src/features/ats-checker/messages.ts
 msgid "Use your editor's normal bullet list, so stray glyphs do not land mid-sentence."
@@ -15244,8 +15244,8 @@ msgstr "Pengetahuan anda"
 
 #: app/_layout.tsx
 #: app/(tabs)/settings/preferences.tsx
-msgid "Your language is saved. Restart Reactive Resume to apply the new left-to-right or right-to-left layout."
-msgstr "Bahasa anda disimpan. Mulakan semula Reactive Resume untuk menggunakan reka letak kiri-ke-kanan atau kanan-ke-kiri baharu."
+msgid "Your language is saved. Restart Lebenslauf2 to apply the new left-to-right or right-to-left layout."
+msgstr "Bahasa anda disimpan. Mulakan semula Lebenslauf2 untuk menggunakan reka letak kiri-ke-kanan atau kanan-ke-kiri baharu."
 
 #: src/features/ats-checker/messages.ts
 msgid "Your lines are packed very tightly."

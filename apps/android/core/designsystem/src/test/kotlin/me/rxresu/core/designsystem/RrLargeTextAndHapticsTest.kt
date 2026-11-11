@@ -107,12 +107,12 @@ class RrLargeTextAndHapticsTest {
             RrTheme {
                 Scaled(2f) {
                     Box(Modifier.width(358.dp)) {
-                        RrListRow("Lumen", subtitle = "Senior product designer", trailing = { RrText("Applied 2 days ago", Modifier.testTag("time")) })
+                        RrListRow("Lumen", subtitle = "Fachärztin für Psychiatrie und Psychotherapie", trailing = { RrText("Applied 2 days ago", Modifier.testTag("time")) })
                     }
                 }
             }
         }
-        val subtitle = rule.onNodeWithText("Senior product designer").getUnclippedBoundsInRoot()
+        val subtitle = rule.onNodeWithText("Fachärztin für Psychiatrie und Psychotherapie").getUnclippedBoundsInRoot()
         val time = rule.onNodeWithTag("time").getUnclippedBoundsInRoot()
         assertTrue("trailing at ${time.top} should sit under the words ending at ${subtitle.bottom}", time.top >= subtitle.bottom)
     }
@@ -121,11 +121,11 @@ class RrLargeTextAndHapticsTest {
         rule.setContent {
             RrTheme {
                 Box(Modifier.width(358.dp)) {
-                    RrListRow("Lumen", subtitle = "Senior product designer", trailing = { RrText("Applied 2 days ago", Modifier.testTag("time")) })
+                    RrListRow("Lumen", subtitle = "Fachärztin für Psychiatrie und Psychotherapie", trailing = { RrText("Applied 2 days ago", Modifier.testTag("time")) })
                 }
             }
         }
-        val subtitle = rule.onNodeWithText("Senior product designer").getUnclippedBoundsInRoot()
+        val subtitle = rule.onNodeWithText("Fachärztin für Psychiatrie und Psychotherapie").getUnclippedBoundsInRoot()
         val time = rule.onNodeWithTag("time").getUnclippedBoundsInRoot()
         assertTrue(time.top < subtitle.bottom)
         assertTrue(time.left >= subtitle.right)

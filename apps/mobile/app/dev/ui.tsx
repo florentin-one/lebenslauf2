@@ -1,7 +1,7 @@
 // Dev-only gallery of every src/ui primitive, for design review and screenshots. Not a product screen, so its
 // sample copy is not translated. Production builds redirect home.
 //
-// Deep links: `me.rxresu://dev/ui?group=fields`, and `&open=sheet|long|reopen|tags|footer|dialog|destructive|toast|undo`
+// Deep links: `me.lebenslauf2://dev/ui?group=fields`, and `&open=sheet|long|reopen|tags|footer|dialog|destructive|toast|undo`
 // to open an overlay on arrival. `reopen` closes the sheet and reopens it while it is still sliding away.
 import type { ReactNode } from "react";
 import { AnimatedLegendList } from "@legendapp/list/reanimated";
@@ -108,7 +108,7 @@ function Buttons() {
 }
 
 function Fields() {
-	const [name, setName] = useState("Senior Product Designer");
+	const [name, setName] = useState("Fachärztin für Psychiatrie und Psychotherapie");
 	const [server, setServer] = useState("");
 	const [summary, setSummary] = useState("");
 	const [degree, setDegree] = useState<string | null>(null);
@@ -129,8 +129,8 @@ function Fields() {
 					prefix="https://"
 					value={server}
 					onChangeText={setServer}
-					placeholder="rxresu.me"
-					helper="The address you open Reactive Resume at."
+					placeholder="lebenslauf2.me"
+					helper="The address you open Lebenslauf2 at."
 					autoCapitalize="none"
 					keyboardType="url"
 				/>
@@ -270,7 +270,7 @@ function Lists() {
 					leading="bell"
 					trailing={<Switch label="Interview reminders" value={notify} onValueChange={setNotify} />}
 				/>
-				<ListRow title="Password and passkeys" subtitle="rxresu.me" leading="lock" external onPress={noop} />
+				<ListRow title="Password and passkeys" subtitle="lebenslauf2.me" leading="lock" external onPress={noop} />
 				<ListRow title="Add server" leading="plus" accent onPress={noop} />
 				<ListRow title="Sign out" leading="sign-out" destructive onPress={noop} />
 			</ListGroup>
@@ -328,7 +328,7 @@ function Feedback() {
 			/>
 			<Banner
 				variant="sessionExpired"
-				title="Your session on rxresu.me ended"
+				title="Your session on lebenslauf2.me ended"
 				message="Sign in again to keep working. Edits you made are kept on this device."
 			/>
 			<Banner tone="danger" icon="warning-circle" message="The Word file couldn't be generated. Try again." />

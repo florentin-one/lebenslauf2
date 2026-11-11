@@ -116,7 +116,7 @@ class RrShareGeometryTest : RrScreenshotTest() {
                 CompositionLocalProvider(LocalRrDesignTags provides true) {
                     Column {
                         RrTextField("default", {}, mono = true)
-                        RrTextField("slug", {}, mono = true, prefix = "rxresu.me/alex/", prefixGap = 8.dp,
+                        RrTextField("slug", {}, mono = true, prefix = "lebenslauf2.me/alex/", prefixGap = 8.dp,
                             textStyle = RrType.mono.copy(fontSize = 14.sp, lineHeight = 20.sp, fontWeight = FontWeight.Normal))
                     }
                 }
@@ -130,7 +130,7 @@ class RrShareGeometryTest : RrScreenshotTest() {
         assertEquals(14.sp, compact.fontSize)
         assertEquals(20.sp, compact.lineHeight)
         assertEquals(FontWeight.Normal, compact.fontWeight)
-        assertEquals(8.dp, text("slug").getUnclippedBoundsInRoot().left - text("rxresu.me/alex/").getUnclippedBoundsInRoot().right)
+        assertEquals(8.dp, text("slug").getUnclippedBoundsInRoot().left - text("lebenslauf2.me/alex/").getUnclippedBoundsInRoot().right)
     }
 
     @Test fun trailingGapOverrideDoesNotChangeOtherRows() {

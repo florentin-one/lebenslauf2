@@ -65,10 +65,10 @@ class SystemTests {
         val send = Intent(Intent.ACTION_SEND).setType("application/pdf").setComponent(ComponentName("me.rxresu", "me.rxresu.feature.system.CheckPdf"))
         send.clipData = ClipData.newRawUri("PDF", Uri.parse("content://documents/file"))
         assertEquals(AtsChecker("content://documents/file"), systemRouteFor(send))
-        assertNull(systemRouteFor(Intent(Intent.ACTION_VIEW, Uri.parse("https://rxresu.me/%ZZ/b"))))
-        assertNull(systemRouteFor(Intent(Intent.ACTION_VIEW, Uri.parse("https://rxresu.me/auth/native-callback"))))
-        assertEquals(Builder("abc"), systemRouteFor(Intent(Intent.ACTION_VIEW, Uri.parse("https://rxresu.me/builder/abc"))))
-        assertEquals(PublicResume("https://rx.cv/alex"), systemRouteFor(Intent(Intent.ACTION_VIEW, Uri.parse("https://rx.cv/alex"))))
+        assertNull(systemRouteFor(Intent(Intent.ACTION_VIEW, Uri.parse("https://lebenslauf2.florentin-one.de/%ZZ/b"))))
+        assertNull(systemRouteFor(Intent(Intent.ACTION_VIEW, Uri.parse("https://lebenslauf2.florentin-one.de/auth/native-callback"))))
+        assertEquals(Builder("abc"), systemRouteFor(Intent(Intent.ACTION_VIEW, Uri.parse("https://lebenslauf2.florentin-one.de/builder/abc"))))
+        assertEquals(PublicResume("https://cv2.florentin-one.de/alex"), systemRouteFor(Intent(Intent.ACTION_VIEW, Uri.parse("https://cv2.florentin-one.de/alex"))))
     }
     @Test fun shortcutsUseInstalledPackageIncludingDebugAndTargetCorrectRoutes() {
         installLauncherShortcuts(context)

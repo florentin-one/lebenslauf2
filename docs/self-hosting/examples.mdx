@@ -1,6 +1,6 @@
 ---
 title: "Deployment examples"
-description: "Copy-ready setups for self-hosted Reactive Resume: Caddy, Traefik and nginx with HTTPS, S3 storage, Redis, local AI with Ollama, and more."
+description: "Copy-ready setups for self-hosted Lebenslauf2: Caddy, Traefik and nginx with HTTPS, S3 storage, Redis, local AI with Ollama, and more."
 ---
 
 Each section on this page solves one common self-hosting task and builds on the two-container setup from
@@ -13,7 +13,7 @@ Whatever proxy you use, configure it so that:
 
 - **The whole site goes to the app.** The app serves pages, the API (`/api/`), the MCP server (`/mcp`), uploads and
   assets from one address. Don't split or rewrite paths.
-- **`APP_URL` is the public address**, for example `APP_URL="https://resume.example.com"`.
+- **`APP_URL` is the public address**, for example `APP_URL="https://lebenslauf2.florentin-one.de"`.
 - **Trust only the proxy's actual socket address.** Set `TRUSTED_PROXIES` on the app to the proxy's private IP or a
   narrowly scoped CIDR. Otherwise visitors share the proxy's IP-based sign-in and resume-password limits. The Node
   server walks `X-Forwarded-For` right to left through trusted hops; it ignores the header from untrusted peers.
@@ -108,7 +108,7 @@ resume.example.com {
 }
 ```
 
-Point your domain's DNS at the server, set `APP_URL="https://resume.example.com"` in `.env`, and run
+Point your domain's DNS at the server, set `APP_URL="https://lebenslauf2.florentin-one.de"` in `.env`, and run
 `docker compose up -d`. Caddy replaces any `X-Forwarded-For` header a client sends with the real client address, and
 the `header_up` lines drop the other IP headers.
 
@@ -412,7 +412,7 @@ accepts public `https://` provider addresses, so you turn on a flag that allows 
 
   </Step>
 
-  <Step title="Add the provider in Reactive Resume">
+  <Step title="Add the provider in Lebenslauf2">
     Open **Settings**, then **AI & developer**, and select **Add provider**. Choose **Ollama** as the provider and
     fill in:
 
@@ -457,7 +457,7 @@ page instead of the home page.
   </Step>
 
   <Step title="Copy the resume's ID">
-    The ID is the last part of the editor's address: `https://resume.example.com/builder/<resume-id>`.
+    The ID is the last part of the editor's address: `https://lebenslauf2.florentin-one.de/builder/<resume-id>`.
   </Step>
 
   <Step title="Set the variable and restart">

@@ -1,6 +1,6 @@
 # Glossary
 
-What the recurring terms in Reactive Resume's interface actually mean.
+What the recurring terms in Lebenslauf2's interface actually mean.
 
 This file exists because most of the interface is translated from short, standalone strings.
 A translator, human or machine, sees `Board` or `Resume` with no surrounding sentence, picks the
@@ -18,14 +18,14 @@ string is defined, so you can read the surrounding code when this file is not en
 Product and technology names stay in English (or in the locale's established transliteration, if
 the catalog already uses one consistently):
 
-Reactive Resume, GitHub, Crowdin, Docker, PostgreSQL, Better Auth, TanStack, Microsoft Word,
+Lebenslauf2, GitHub, Crowdin, Docker, PostgreSQL, Better Auth, TanStack, Microsoft Word,
 PDF, DOCX, JSON, CSV, API, MCP, oRPC, SSO, CSS, URL, JSON Resume.
 
 Also keep LinkedIn, Discord, Figma, Claude Desktop, PDF.js, models.dev, iOS, MIT License,
 and WCAG 2.1 AA unchanged. **Word**, when naming an import or download format, means
 **Microsoft Word**; do not translate it as the ordinary noun "word".
 
-Names in sample documents and job postings are proper nouns too: Alex Morgan, Amruth Pillai,
+Names in sample documents and job postings are proper nouns too: Laura Beier, Amruth Pillai,
 Fieldnote, Northwind Labs, Parcel & Co., Lumen, and University of Porto. Keep these names
 unchanged, including inside longer sentences. Translate surrounding job titles and descriptions,
 not the person's, company's, or institution's name. Preserve place names such as Lisbon, Porto,
@@ -281,7 +281,7 @@ the **Profiles** section), and not the PDF.
 **Primary resume** — the one resume an account's short link and custom domain open. Not the "main"
 or "default" resume.
 
-**Short link** — the short address (`/<username>`, such as `rx.cv/dkowalski`) that opens the **Primary
+**Short link** — the short address (`/<username>`, such as `cv2.florentin-one.de/dkowalski`) that opens the **Primary
 resume**. It works on every domain the app answers on. Not a link-shortening service.
 
 **Custom domain** — the owner's own web address, such as `john.dev`, that opens their **Primary

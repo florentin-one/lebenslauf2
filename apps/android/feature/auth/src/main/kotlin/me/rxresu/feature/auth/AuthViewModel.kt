@@ -14,7 +14,7 @@ import kotlinx.coroutines.launch
 import me.rxresu.core.auth.*
 
 internal data class AuthUiState(
-    val server: String = "https://rxresu.me",
+    val server: String = "https://lebenslauf2.florentin-one.de",
     val ownServer: Boolean = false,
     val info: ServerInfo? = null,
     val busy: Boolean = false,
@@ -58,7 +58,7 @@ internal class AuthViewModel(private val auth: AuthService) : ViewModel() {
         MutableStateFlow(
             AuthUiState(
                 server = auth.origin.value,
-                ownServer = auth.origin.value != "https://rxresu.me",
+                ownServer = auth.origin.value != "https://lebenslauf2.florentin-one.de",
             )
         )
     val state = mutable.asStateFlow()

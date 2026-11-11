@@ -3,7 +3,7 @@ package me.rxresu.core.network
 
 import kotlinx.coroutines.flow.StateFlow
 
-/** The server the app talks to, as an origin such as `https://rxresu.me` (no trailing slash). */
+/** The server the app talks to, as an origin such as `https://lebenslauf2.florentin-one.de` (no trailing slash). */
 interface ServerOrigin {
     val origin: StateFlow<String>
 }

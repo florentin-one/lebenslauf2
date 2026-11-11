@@ -298,7 +298,7 @@ async function uiFontFace(): Promise<string | null> {
 }
 
 // A funnel-flow snapshot (the shareable picture). Hand-drawn SVG on the theme surface, with inline stage tokens
-// resolved for the PNG export; the "Tracked using Reactive Resume" mark is injected only when exporting.
+// resolved for the PNG export; the "Tracked using Lebenslauf2" mark is injected only when exporting.
 function PipelineFlow({
 	insights,
 	lanes,
@@ -449,7 +449,7 @@ function PipelineFlow({
 						</g>
 					))}
 
-					{/* export-only watermark: the Reactive Resume mark, bottom-right, 8px from each edge, in the theme's
+					{/* export-only watermark: the Lebenslauf2 mark, bottom-right, 8px from each edge, in the theme's
 				    ink so it reads on the light and dark surface alike. Paths are apps/web/public/icon/dark.svg verbatim. */}
 					<g
 						data-export-only

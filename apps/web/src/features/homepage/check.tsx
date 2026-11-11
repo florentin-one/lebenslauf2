@@ -27,12 +27,12 @@ function ParsedText({ fixed }: { fixed: boolean }) {
 	return (
 		<>
 			<div>
-				<span className={field}>name</span> <span className="text-[2.6cqw]">{t`Alex Morgan`}</span>
+				<span className={field}>name</span> <span className="text-[2.6cqw]">{t`Laura Beier`}</span>
 				<br />
-				<span className={field}>title</span> {t`Senior Product Designer`}
+				<span className={field}>title</span> {t`Fachärztin für Psychiatrie und Psychotherapie`}
 				<br />
-				<span className={field}>email</span> alex@morgan.design <span className={field}>loc</span> {t`Lisbon, Portugal`}{" "}
-				<span className={field}>url</span> morgan.design
+				<span className={field}>email</span> beier.laura@mh-hannover.de <span className={field}>loc</span>{" "}
+				{t`Hanover, Germany`} <span className={field}>url</span> Medizinische Hochschule Hannover
 			</div>
 			<div>
 				{section(t`Profile`)}

@@ -578,7 +578,7 @@ function Result({ result, uri, size, importError, onFix, onReset, onBlank }: Res
 				) : (
 					// With nothing to fix, editing is the offer, not fixing (web says the same).
 					<Button
-						label={issues === 0 ? t`Edit it in Reactive Resume` : t`Fix these in the editor`}
+						label={issues === 0 ? t`Edit it in Lebenslauf2` : t`Fix these in the editor`}
 						variant={issues === 0 ? "secondary" : "primary"}
 						onPress={onFix}
 						fullWidth

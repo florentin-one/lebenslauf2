@@ -16,8 +16,8 @@ import { LocaleCombobox } from "@/features/locale/combobox";
 import { localeMap } from "@/libs/locale";
 import { orpc } from "@/libs/orpc/client";
 
-const crowdinUrl = "https://crowdin.com/project/reactive-resume";
-const githubUrl = "https://github.com/reactive-resume/reactive-resume";
+const crowdinUrl = "https://crowdin.com/project/lebenslauf2";
+const githubUrl = "https://github.com/lebenslauf2/lebenslauf2";
 // The statistics service caches the totals for six hours.
 const statisticsStaleTime = 6 * 60 * 60 * 1000;
 // A fresh self-hosted install has a handful of users; a total that small reads as a joke, so it isn't shown.
@@ -296,7 +296,7 @@ export function Support() {
 	const templates = i18n.number(templateSchema.options.length);
 	const none = t({
 		message: "none",
-		comment: "Receipt line amount for something Reactive Resume doesn't have, e.g. ads.",
+		comment: "Receipt line amount for something Lebenslauf2 doesn't have, e.g. ads.",
 	});
 	const lineItems = [
 		[t`Resume builder`, nothing],
@@ -313,7 +313,7 @@ export function Support() {
 	const doorways: { href: string; label: string }[] = [
 		{ href: crowdinUrl, label: t`Translate the app` },
 		{ href: `${githubUrl}/issues`, label: t`Report a bug` },
-		{ href: "https://docs.rxresu.me/contributing/development", label: t`Contribute code` },
+		{ href: "https://docs.lebenslauf2.me/contributing/development", label: t`Contribute code` },
 	];
 
 	return (
@@ -341,7 +341,7 @@ export function Support() {
 					</Trans>
 				</h2>
 				<p className="max-w-[28em] font-display text-[clamp(17px,1.4vw,21px)] leading-normal text-pretty text-ink-2">
-					{t`Reactive Resume is open source under the MIT License. Amruth Pillai and a community of contributors keep it running, and donations pay for hosting and development. There’s no paid tier.`}
+					{t`Lebenslauf2 is open source under the MIT License. Florentin Sakwiset keeps it running, and donations pay for hosting and development. There’s no paid tier 🫶`}
 				</p>
 				<ul className="grid gap-2.5">
 					{doorways.map((doorway) => (
@@ -355,7 +355,7 @@ export function Support() {
 				<div className="grid max-w-[28em] gap-3 border-t border-line pt-5">
 					<h3 className="font-display text-2xl text-ink">{t`A second pair of eyes.`}</h3>
 					<p className="font-ui text-sm leading-normal text-ink-2">
-						{t`Exchange resume feedback, ask questions, and help shape Reactive Resume with the community.`}
+						{t`Exchange resume feedback, ask questions, and help shape Lebenslauf2 with the community.`}
 					</p>
 					<a href="https://discord.gg/jSVSJyWd2k" className={cn(doorwayLinkClass, "w-fit")}>
 						{t`Join the Discord community`} <span aria-hidden="true">↗</span>
@@ -374,7 +374,7 @@ export function Support() {
 					<div className="[transform:translateY(calc((1-clamp(0,var(--p)*1.7-.15,1))*-100%))] drop-shadow-[0_18px_24px_oklch(0.2_0.01_95/.22)] [transition:transform_.4s_linear]">
 						<div className="receipt-paper font-receipt bg-[#fdfcf8] px-[26px] pt-[30px] pb-[46px] text-[14px] leading-[1.75] font-medium text-[oklch(0.25_0.01_95)]">
 							<div className="mb-4 flex flex-col gap-0.5 text-center">
-								<b className="text-[18px] leading-[1.1] font-bold tracking-[-.01em]">REACTIVE RESUME</b>
+								<b className="text-[18px] leading-[1.1] font-bold tracking-[-.01em]">LEBENSLAUF2</b>
 								<span className="text-[oklch(0.5_0.01_95)]">{t`A free and open-source resume builder`}</span>
 								<span className="text-[oklch(0.5_0.01_95)]">
 									{i18n.date(receiptDate, { day: "2-digit", month: "short", year: "numeric" })}
@@ -397,7 +397,7 @@ export function Support() {
 							</p>
 							<div className="mt-2.5 flex flex-col gap-1.5">
 								<a
-									href="https://github.com/sponsors/AmruthPillai"
+									href="https://opencollective.com/elster-1/donate"
 									className={cn(
 										receiptButtonClass,
 										"bg-[oklch(0.22_0.01_95)] text-white hover:bg-[oklch(0.32_0.01_95)]",
@@ -407,7 +407,7 @@ export function Support() {
 									<Icon name="arrow-up-right" size={19} />
 								</a>
 								<a
-									href="https://opencollective.com/reactive-resume/donate"
+									href="https://opencollective.com/elster-1/donate"
 									className={cn(
 										receiptButtonClass,
 										"border border-[oklch(0.82_0.008_95)] text-[oklch(0.22_0.01_95)] hover:bg-[oklch(0.96_0.005_95)]",
@@ -442,13 +442,13 @@ export function Closing() {
 		{
 			name: "App Store",
 			lead: t`Download on the`,
-			href: "https://go.rx.cv/ios",
+			href: "https://go.lebenslauf2.me/ios",
 			icon: AppleLogoIcon,
 		},
 		{
 			name: "Google Play",
 			lead: t`Get it on`,
-			href: "https://go.rx.cv/android",
+			href: "https://go.lebenslauf2.me/android",
 			icon: GooglePlayLogoIcon,
 		},
 	];

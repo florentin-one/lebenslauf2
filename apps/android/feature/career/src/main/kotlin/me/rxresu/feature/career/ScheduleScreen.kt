@@ -188,5 +188,5 @@ import me.rxresu.core.network.generated.*
     else scheduleStatus(row, time)
 }
 
-/** "Senior product designer, Lisbon" → its terms, for chips. */
+/** "Fachärztin für Psychiatrie und Psychotherapie, Lisbon" → its terms, for chips. */
 internal fun queryTerms(query: String): List<String> = query.split(',').map { it.trim() }.filter { it.isNotEmpty() }.distinct()

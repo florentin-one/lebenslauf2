@@ -1005,7 +1005,7 @@ export function Timeline({ application, onOpenInterview }: SectionProps & Interv
 	);
 }
 
-/** ATTACHMENTS: the PDFs actually sent (≤ 10 MB each), apart from linked Reactive Resume documents. */
+/** ATTACHMENTS: the PDFs actually sent (≤ 10 MB each), apart from linked Lebenslauf2 documents. */
 export function Attachments({ application }: SectionProps) {
 	const { t } = useLingui();
 	const { space } = useTheme();
@@ -1076,7 +1076,7 @@ export function Attachments({ application }: SectionProps) {
 				),
 			)}
 			<Text variant="callout" color="ink3" style={{ paddingHorizontal: space.s1 }}>
-				{t`PDF only · up to 10 MB each. Linking a Reactive Resume enables a fit check against each requirement and tailoring.`}
+				{t`PDF only · up to 10 MB each. Linking a Lebenslauf2 enables a fit check against each requirement and tailoring.`}
 			</Text>
 			<ConfirmDialog
 				open={removing !== null}

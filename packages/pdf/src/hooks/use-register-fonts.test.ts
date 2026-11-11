@@ -278,7 +278,7 @@ describe("resumeContentScripts", () => {
 	});
 
 	it("returns an empty set for Latin-only content", () => {
-		expect(resumeContentScripts(withSummary("Reactive Resume")).size).toBe(0);
+		expect(resumeContentScripts(withSummary("Lebenslauf2")).size).toBe(0);
 	});
 });
 

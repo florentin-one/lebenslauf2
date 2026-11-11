@@ -4,8 +4,8 @@
     <!-- A: {answer} -->
     <!-- Arguments: %1$s = {answer} -->
     <string name="a_answer">"S: %1$s"</string>
-    <!-- A backup of this letter. Imports back into Reactive Resume as a letter. -->
-    <string name="a_backup_of_this_letter_imports_back_into_reactive_resume_as_a_letter" formatted="false">"En backup av detta brev. Importerar tillbaka till Reactive Resume som ett brev."</string>
+    <!-- A backup of this letter. Imports back into Lebenslauf2 as a letter. -->
+    <string name="a_backup_of_this_letter_imports_back_into_lebenslauf2_as_a_letter" formatted="false">"En backup av detta brev. Importerar tillbaka till Lebenslauf2 som ett brev."</string>
     <!-- A city and country let roles be matched to where you are. -->
     <string name="a_city_and_country_let_roles_be_matched_to_where_you_are" formatted="false">"En stad och ett land låter roller matchas till var du är."</string>
     <!-- A comfortable length, and it fits on one page. -->
@@ -368,8 +368,6 @@
     <string name="ai_providers_couldn_t_be_loaded_reload_to_try_again" formatted="false">"AI-leverantörer kunde inte laddas. Ladda om för att försöka igen."</string>
     <!-- AI providers couldn't be loaded. Retry or fill the details manually. -->
     <string name="ai_providers_couldn_t_be_loaded_retry_or_fill_the_details_manually" formatted="false">"AI-leverantörerna kunde inte läsas in. Försök igen eller fyll i uppgifterna manuellt."</string>
-    <!-- AI reads pasted text only when you ask. Links can use the page’s own job data without AI. -->
-    <string name="ai_reads_pasted_text_only_when_you_ask_links_can_use_the_pages_own_job_data_without_ai" formatted="false">"AI läser bara inklistrad text när du frågar. Länkar kan använda sidans egna jobbdata utan AI."</string>
     <!-- AI request attempts: {0} -->
     <!-- Arguments: %1$s = {0} -->
     <string name="ai_request_attempts_0">"AI-förfrågningsförsök: %1$s"</string>
@@ -377,8 +375,6 @@
     <string name="ai_request_history_unavailable_for_this_result" formatted="false">"Historik över AI-förfrågningar saknas för detta resultat."</string>
     <!-- AI settings -->
     <string name="ai_settings" formatted="false">"AI-inställningar"</string>
-    <!-- AI suggestions, not verified qualifications or hiring predictions. Sources below are your statements. -->
-    <string name="ai_suggestions_not_verified_qualifications_or_hiring_predictions_sources_below_are_your_statements" formatted="false">"AI-förslag, inte verifierade kvalifikationer eller rekryteringsprognoser. Källorna nedan är dina egna påståenden."</string>
     <!-- AI usage couldn't be loaded. Try refreshing. Older servers may need an update. -->
     <string name="ai_usage_couldn_t_be_loaded_try_refreshing_older_servers_may_need_an_update" formatted="false">"AI-användningen kunde inte läsas in. Uppdatera vyn. Äldre servrar kan behöva uppdateras."</string>
     <!-- AI usage this week -->
@@ -440,8 +436,6 @@
     <string name="always_appears_in_today_email_requires_a_verified_address_and_server_mail_setup_no_push_notification" formatted="false">"Visas alltid i I dag. E-post kräver en verifierad adress och serverpostkonfiguration. Inga push-meddelanden skickas."</string>
     <!-- Amharic -->
     <string name="amharic" formatted="false">"Amhariska"</string>
-    <!-- An AI reading to help you edit, not a prediction of how an employer or screening system will respond. -->
-    <string name="an_ai_reading_to_help_you_edit_not_a_prediction_of_how_an_employer_or_screening_system_will_respond" formatted="false">"En AI-läsning som hjälper dig att redigera, inte en förutsägelse av hur en arbetsgivare eller screeningssystem kommer att reagera."</string>
     <!-- An edit addresses it -->
     <string name="an_edit_addresses_it" formatted="false">"En ändring tar hand om den"</string>
     <!-- An embedded font could not be read. -->
@@ -636,9 +630,9 @@
     <string name="assistant" formatted="false">"Assistent"</string>
     <!-- Assistant conversations -->
     <string name="assistant_conversations" formatted="false">"Assistentkonversationer"</string>
-    <!-- {at} · {providerLabel}. Sends this application and your Knowledge; your provider may charge. -->
+    <!-- {at} · {providerLabel} -->
     <!-- Arguments: %1$s = {at}, %2$s = {providerLabel} -->
-    <string name="at_providerlabel_sends_this_application_and_your_knowledge_your_provider_may_charge">"%1$s · %2$s. Skickar denna jobbansökan och din Kunskap; din leverantör kan ta betalt."</string>
+    <string name="at_providerlabel">"%1$s · %2$s"</string>
     <!-- ATS checker -->
     <string name="ats_checker" formatted="false">"ATS-kontroll"</string>
     <!-- ATS-safe -->
@@ -1131,8 +1125,8 @@
     <!-- Complete {0} before saving. -->
     <!-- Arguments: %1$s = {0} -->
     <string name="complete_0_before_saving">"Fyll i %1$s innan du sparar."</string>
-    <!-- Complete data backup. Imports back into Reactive Resume. -->
-    <string name="complete_data_backup_imports_back_into_reactive_resume" formatted="false">"Komplett säkerhetskopia av data. Importeras tillbaka till Reactive Resume."</string>
+    <!-- Complete data backup. Imports back into Lebenslauf2. -->
+    <string name="complete_data_backup_imports_back_into_lebenslauf2" formatted="false">"Komplett säkerhetskopia av data. Importeras tillbaka till Lebenslauf2."</string>
     <!-- Complete the employer form manually in your browser using reviewed answers and approved PDFs. -->
     <string name="complete_the_employer_form_manually_in_your_browser_using_reviewed_answers_and_approved_pdfs" formatted="false">"Fyll i arbetsgivarens formulär manuellt i webbläsaren med granskade svar och godkända PDF:er."</string>
     <!-- {completed, plural, one {# document updated} other {# documents updated}} -->
@@ -1442,8 +1436,8 @@
     <!-- Couldn't propose these edits: {0} -->
     <!-- Arguments: %1$s = {0} -->
     <string name="couldn_t_propose_these_edits_0">"Kunde inte föreslå dessa redigeringar: %1$s"</string>
-    <!-- Couldn't reach Reactive Resume. Check your internet connection, then try again. -->
-    <string name="couldn_t_reach_reactive_resume_check_your_internet_connection_then_try_again" formatted="false">"Kunde inte nå Reactive Resume. Kontrollera din internetanslutning och försök igen."</string>
+    <!-- Couldn't reach Lebenslauf2. Check your internet connection, then try again. -->
+    <string name="couldn_t_reach_lebenslauf2_check_your_internet_connection_then_try_again" formatted="false">"Kunde inte nå Lebenslauf2. Kontrollera din internetanslutning och försök igen."</string>
     <!-- Couldn't reach your AI provider. Try again or check its key in AI settings. -->
     <string name="couldn_t_reach_your_ai_provider_try_again_or_check_its_key_in_ai_settings" formatted="false">"Det gick inte att nå din AI-leverantör. Försök igen eller kontrollera dess nyckel i inställningarna för AI."</string>
     <!-- Couldn't read {name}'s answer. Try again, or switch the default provider in AI settings. -->
@@ -2056,8 +2050,6 @@
     <string name="earlier_discovery_result_search_query_and_posting_check_time_unknown" formatted="false">"Tidigare upptäcktresultat. Sökfråga och annonskontrolltid okända."</string>
     <!-- Earlier messages and attachments in this conversation will be sent to this destination when you send again. -->
     <string name="earlier_messages_and_attachments_in_this_conversation_will_be_sent_to_this_destination_when_you_send" formatted="false">"Tidigare meddelanden och bilagor i den här konversationen skickas till den här destinationen när du skickar igen."</string>
-    <!-- earlier messages in this chat -->
-    <string name="earlier_messages_in_this_chat" formatted="false">"tidigare meddelanden i den här chatten"</string>
     <!-- Edit -->
     <string name="edit" formatted="false">"Redigera"</string>
     <!-- Edit {0} -->
@@ -2080,8 +2072,8 @@
     <string name="edit_first" formatted="false">"Redigera först"</string>
     <!-- Edit interview -->
     <string name="edit_interview" formatted="false">"Redigera intervju"</string>
-    <!-- Edit it in Reactive Resume -->
-    <string name="edit_it_in_reactive_resume" formatted="false">"Redigera det i Reactive Resume"</string>
+    <!-- Edit it in Lebenslauf2 -->
+    <string name="edit_it_in_lebenslauf2" formatted="false">"Redigera det i Lebenslauf2"</string>
     <!-- Edit link -->
     <string name="edit_link" formatted="false">"Redigera länk"</string>
     <!-- Edit note -->
@@ -2149,8 +2141,6 @@
     <string name="empty_trash" formatted="false">"Töm papperskorgen"</string>
     <!-- Empty Trash? -->
     <string name="empty_trash_ab0a72a70c" formatted="false">"Tömma papperskorgen?"</string>
-    <!-- enabled Knowledge -->
-    <string name="enabled_knowledge" formatted="false">"aktiverad Kunskap"</string>
     <!-- End -->
     <string name="end" formatted="false">"Avsluta"</string>
     <!-- English -->
@@ -2199,8 +2189,8 @@
     <string name="enter_any_model_id_supported_by_your_endpoint" formatted="false">"Ange ett modell-ID som din slutpunkt stöder."</string>
     <!-- Enter terms yourself. No AI request is made. Leave unknown amounts blank. -->
     <string name="enter_terms_yourself_no_ai_request_is_made_leave_unknown_amounts_blank" formatted="false">"Fyll i villkoren själv. Ingen förfrågan skickas till AI. Lämna okända belopp tomma."</string>
-    <!-- Enter the address you open Reactive Resume at in a browser. The app checks it's a Reactive Resume server that allows app sign-in before you continue. -->
-    <string name="enter_the_address_you_open_reactive_resume_at_in_a_browser_the_app_checks_it_s_a_reactive_resume_ser" formatted="false">"Ange adressen du öppnar Reactive Resume på i en webbläsare. Appen kontrollerar att det är en Reactive Resume-server som tillåter appinloggning innan du fortsätter."</string>
+    <!-- Enter the address you open Lebenslauf2 at in a browser. The app checks it's a Lebenslauf2 server that allows app sign-in before you continue. -->
+    <string name="enter_the_address_you_open_lebenslauf2_at_in_a_browser_the_app_checks_it_s_a_lebenslauf2_server_that" formatted="false">"Ange adressen du öppnar Lebenslauf2 på i en webbläsare. Appen kontrollerar att det är en Lebenslauf2-server som tillåter appinloggning innan du fortsätter."</string>
     <!-- Enter the API base URL of your service and test again. -->
     <string name="enter_the_api_base_url_of_your_service_and_test_again" formatted="false">"Ange API-basadressen för din tjänst och testa igen."</string>
     <!-- Enter your details below. Choosing a resume replaces them and links its design. -->
@@ -2466,11 +2456,11 @@
     <!-- Found for “{0}”. Posting checked {1}. -->
     <!-- Arguments: %1$s = {0}, %2$s = {1} -->
     <string name="found_for_0_posting_checked_1">"Hittades för ”%1$s”. Annonsen kontrollerad %2$s."</string>
-    <!-- Found posting links are read by Reactive Resume and the sites being read. -->
-    <string name="found_posting_links_are_read_by_reactive_resume_and_the_sites_being_read" formatted="false">"Hittade annonslänkar läses av Reactive Resume och webbplatserna som läses."</string>
-    <!-- Found posting links are read by Reactive Resume and, when needed, {reader} and the sites being read. The reader may charge. -->
+    <!-- Found posting links are read by Lebenslauf2 and the sites being read. -->
+    <string name="found_posting_links_are_read_by_lebenslauf2_and_the_sites_being_read" formatted="false">"Hittade annonslänkar läses av Lebenslauf2 och webbplatserna som läses."</string>
+    <!-- Found posting links are read by Lebenslauf2 and, when needed, {reader} and the sites being read. The reader may charge. -->
     <!-- Arguments: %1$s = {reader} -->
-    <string name="found_posting_links_are_read_by_reactive_resume_and_when_needed_reader_and_the_sites_being_read_the">"Hittade annonslänkar läses av Reactive Resume och, vid behov, %1$s och webbplatserna som läses. Läsaren kan ta betalt."</string>
+    <string name="found_posting_links_are_read_by_lebenslauf2_and_when_needed_reader_and_the_sites_being_read_the_read">"Hittade annonslänkar läses av Lebenslauf2 och, vid behov, %1$s och webbplatserna som läses. Läsaren kan ta betalt."</string>
     <!-- Free-form -->
     <string name="free_form" formatted="false">"Fri form"</string>
     <!-- French -->
@@ -2859,8 +2849,6 @@
     <!-- Its own design ({summary}). -->
     <!-- Arguments: %1$s = {summary} -->
     <string name="its_own_design_summary">"Egen design (%1$s)."</string>
-    <!-- its requirements -->
-    <string name="its_requirements" formatted="false">"dess krav"</string>
     <!-- Its saved key is deleted. Conversations using it need another provider. -->
     <string name="its_saved_key_is_deleted_conversations_using_it_need_another_provider" formatted="false">"Dess sparade nyckel raderas. Konversationer som använder den behöver en annan leverantör."</string>
     <!-- Japanese -->
@@ -3054,6 +3042,8 @@
     <string name="leave_out" formatted="false">"Utelämna"</string>
     <!-- Leave without keeping the draft? -->
     <string name="leave_without_keeping_the_draft" formatted="false">"Lämna utan att behålla utkastet?"</string>
+    <!-- Lebenslauf2 -->
+    <string name="lebenslauf2" formatted="false">"Lebenslauf2"</string>
     <!-- Left -->
     <string name="left" formatted="false">"Vänster"</string>
     <!-- Left blank. Add it later only if you can support it. -->
@@ -3308,8 +3298,6 @@
     <string name="managed_by_server" formatted="false">"Hanteras av server"</string>
     <!-- Managed by your server -->
     <string name="managed_by_your_server" formatted="false">"Hanteras av din server"</string>
-    <!-- Manual roles and preferences work without AI. Suggestions never search or schedule anything. -->
-    <string name="manual_roles_and_preferences_work_without_ai_suggestions_never_search_or_schedule_anything" formatted="false">"Manuella roller och preferenser fungerar utan AI. Förslag söker eller schemalägger aldrig något."</string>
     <!-- Many bullets start with the same phrase. -->
     <string name="many_bullets_start_with_the_same_phrase" formatted="false">"Många punkter börjar med samma fras."</string>
     <!-- Mar 2022 -->
@@ -3527,12 +3515,6 @@
     <plurals name="message_0_plural_one_1_of_posting_term_covered_other_2_of_posting_terms_covered">
         <item quantity="one">"%2$s av %1$s term i annonsen finns med"</item>
         <item quantity="other">"%3$s av %1$s termer i annonsen finns med"</item>
-    </plurals>
-    <!-- {0, plural, one {Also sends {1}.} other {Also sends # files: {2}.}} -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1}, %3$s = {2} -->
-    <plurals name="message_0_plural_one_also_sends_1_other_also_sends_files_2">
-        <item quantity="one">"Skickar även %2$s."</item>
-        <item quantity="other">"Skickar även %1$s filer: %3$s."</item>
     </plurals>
     <!-- {0, plural, one {# answer} other {# answers}} -->
     <!-- Arguments: %1$s = {0} -->
@@ -3955,8 +3937,6 @@
     <string name="message_the_assistant" formatted="false">"Skicka meddelande till assistenten"</string>
     <!-- Messages -->
     <string name="messages" formatted="false">"Meddelanden"</string>
-    <!-- Messages from before Knowledge changed aren't sent. -->
-    <string name="messages_from_before_knowledge_changed_aren_t_sent" formatted="false">"Meddelanden från före Kunskap ändrades skickas inte."</string>
     <!-- Messages from before Knowledge changed aren't sent to the AI anymore, so it won't remember them. Start a new conversation to keep context together. -->
     <string name="messages_from_before_knowledge_changed_aren_t_sent_to_the_ai_anymore_so_it_won_t_remember_them_start" formatted="false">"Meddelanden från innan Kunskap ändrades skickas inte till AI:n längre, så den kommer inte att minnas dem. Starta en ny konversation för att hålla kontexten samlad."</string>
     <!-- Minimum base salary -->
@@ -4294,6 +4274,8 @@
     <string name="no_keys_yet" formatted="false">"Inga nycklar än."</string>
     <!-- No language matches. -->
     <string name="no_language_matches" formatted="false">"Inget språk matchar."</string>
+    <!-- No Lebenslauf2 server answered at this address. Check the spelling, or ask your administrator whether the server allows app sign-in. -->
+    <string name="no_lebenslauf2_server_answered_at_this_address_check_the_spelling_or_ask_your_administrator_whether" formatted="false">"Ingen Lebenslauf2-server svarade på den här adressen. Kontrollera stavningen eller fråga din administratör om servern tillåter appinloggning."</string>
     <!-- No lines look like a job title paired with an employer. -->
     <string name="no_lines_look_like_a_job_title_paired_with_an_employer" formatted="false">"Ingen rad ser ut som en jobbtitel ihopkopplad med en arbetsgivare."</string>
     <!-- No linked application -->
@@ -4326,8 +4308,6 @@
     <string name="no_photo_most_ats_ignore_photos_some_regions_expect_one" formatted="false">"Inget foto. De flesta ATS ignorerar foton; vissa regioner förväntar sig en."</string>
     <!-- No postings found. Try different keywords. -->
     <string name="no_postings_found_try_different_keywords" formatted="false">"Inga jobbannonser hittades. Prova olika sökord."</string>
-    <!-- No Reactive Resume server answered at this address. Check the spelling, or ask your administrator whether the server allows app sign-in. -->
-    <string name="no_reactive_resume_server_answered_at_this_address_check_the_spelling_or_ask_your_administrator_whet" formatted="false">"Ingen Reactive Resume-server svarade på den här adressen. Kontrollera stavningen eller fråga din administratör om servern tillåter appinloggning."</string>
     <!-- No recognizable terms in this posting. -->
     <string name="no_recognizable_terms_in_this_posting" formatted="false">"Inga igenkännbara termer i den här annonsen."</string>
     <!-- No recorded answers are available. -->
@@ -4450,8 +4430,6 @@
     <string name="nothing_in_your_library_yet" formatted="false">"Inget i ditt bibliotek än"</string>
     <!-- Nothing is applied for or created until you choose. -->
     <string name="nothing_is_applied_for_or_created_until_you_choose" formatted="false">"Inget söks eller skapas förrän du väljer det."</string>
-    <!-- Nothing is sent until you choose a connection for this conversation. -->
-    <string name="nothing_is_sent_until_you_choose_a_connection_for_this_conversation" formatted="false">"Inget skickas förrän du väljer en anslutning för den här konversationen."</string>
     <!-- Nothing marks a role as ongoing. -->
     <string name="nothing_marks_a_role_as_ongoing" formatted="false">"Inget markerar en roll som pågående."</string>
     <!-- Nothing on this day. -->
@@ -4525,8 +4503,8 @@
     <string name="on" formatted="false">"Aktiverad"</string>
     <!-- On. Anyone with the link can see your web page. -->
     <string name="on_anyone_with_the_link_can_see_your_web_page" formatted="false">"På. Alla med länken kan se din webbsida."</string>
-    <!-- On iOS, choose Keep for review, then reopen app in the Share extension. Reopen Reactive Resume yourself within 15 minutes. Sign in here before sharing. -->
-    <string name="on_ios_choose_keep_for_review_then_reopen_app_in_the_share_extension_reopen_reactive_resume_yourself" formatted="false">"På iOS, välj Behåll för granskning och öppna sedan appen igen i tillägget Dela. Öppna Reactive Resume själv inom 15 minuter. Logga in här innan du delar."</string>
+    <!-- On iOS, choose Keep for review, then reopen app in the Share extension. Reopen Lebenslauf2 yourself within 15 minutes. Sign in here before sharing. -->
+    <string name="on_ios_choose_keep_for_review_then_reopen_app_in_the_share_extension_reopen_lebenslauf2_yourself_wit" formatted="false">"På iOS, välj Behåll för granskning och öppna sedan appen igen i tillägget Dela. Öppna Lebenslauf2 själv inom 15 minuter. Logga in här innan du delar."</string>
     <!-- On. Visitors need the link and password to see your web page. -->
     <string name="on_visitors_need_the_link_and_password_to_see_your_web_page" formatted="false">"På. Besökare behöver länken och lösenordet för att se din webbsida."</string>
     <!-- Once a round is scheduled, Interview prep builds a timed plan, your opening and the questions to ask. -->
@@ -4787,14 +4765,14 @@
     <string name="pdf_check_canceled_retry_when_ready" formatted="false">"PDF-kontrollen avbröts. Försök igen när du är redo."</string>
     <!-- PDF import -->
     <string name="pdf_import" formatted="false">"PDF-import"</string>
-    <!-- PDF only · up to 10 MB each. Linking a Reactive Resume enables a fit check against each requirement and tailoring. -->
-    <string name="pdf_only_up_to_10_mb_each_linking_a_reactive_resume_enables_a_fit_check_against_each_requirement_and" formatted="false">"Bara PDF · upp till 10 MB per fil. Att länka ett Reactive Resume-CV aktiverar en matchningskontroll mot varje krav och anpassning."</string>
-    <!-- PDF reads its text layer on your server by default, without AI. Turn on the AI switch to send it to your provider. Word (.docx) needs an AI provider. Current and v4 Reactive Resume JSON, cover letters, JSON Resume and LinkedIn exports (.zip) are supported. Up to 10 MB. -->
-    <string name="pdf_reads_its_text_layer_on_your_server_by_default_without_ai_turn_on_the_ai_switch_to_send_it_to_yo" formatted="false">"PDF läser sitt textlager på din server som standard, utan AI. Slå på AI-reglaget för att skicka den till din leverantör. Word (.docx) kräver en AI-leverantör. Aktuellt och v4 Reactive Resume JSON, följbrev, JSON Resume och LinkedIn-exporter (.zip) stöds. Upp till 10 MB."</string>
+    <!-- PDF only · up to 10 MB each. Linking a Lebenslauf2 enables a fit check against each requirement and tailoring. -->
+    <string name="pdf_only_up_to_10_mb_each_linking_a_lebenslauf2_enables_a_fit_check_against_each_requirement_and_tai" formatted="false">"Bara PDF · upp till 10 MB per fil. Att länka ett Lebenslauf2-CV aktiverar en matchningskontroll mot varje krav och anpassning."</string>
+    <!-- PDF reads its text layer on your server by default, without AI. Turn on the AI switch to send it to your provider. Word (.docx) needs an AI provider. Current and v4 Lebenslauf2 JSON, cover letters, JSON Resume and LinkedIn exports (.zip) are supported. Up to 10 MB. -->
+    <string name="pdf_reads_its_text_layer_on_your_server_by_default_without_ai_turn_on_the_ai_switch_to_send_it_to_yo" formatted="false">"PDF läser sitt textlager på din server som standard, utan AI. Slå på AI-reglaget för att skicka den till din leverantör. Word (.docx) kräver en AI-leverantör. Aktuellt och v4 Lebenslauf2 JSON, följbrev, JSON Resume och LinkedIn-exporter (.zip) stöds. Upp till 10 MB."</string>
     <!-- PDF styles support a subset of CSS. Rotation, dashed and dotted borders, and some layout properties are ignored. -->
     <string name="pdf_styles_support_a_subset_of_css_rotation_dashed_and_dotted_borders_and_some_layout_properties_are" formatted="false">"PDF-stilar stöder en delmängd av CSS. Rotation, streckade och prickade kanter och vissa layoutegenskaper ignoreras."</string>
-    <!-- PDF, Word, Reactive Resume, JSON Resume or LinkedIn export. -->
-    <string name="pdf_word_reactive_resume_json_resume_or_linkedin_export" formatted="false">"PDF, Word, Reactive Resume, JSON Resume eller LinkedIn export."</string>
+    <!-- PDF, Word, Lebenslauf2, JSON Resume or LinkedIn export. -->
+    <string name="pdf_word_lebenslauf2_json_resume_or_linkedin_export" formatted="false">"PDF, Word, Lebenslauf2, JSON Resume eller LinkedIn export."</string>
     <!-- {pending, plural, one {# proposed edit on this page · nothing changes until you accept} other {# proposed edits on this page · nothing changes until you accept}} -->
     <!-- Arguments: %1$s = {pending} -->
     <plurals name="pending_plural_one_proposed_edit_on_this_page_nothing_changes_until_you_accept_other_proposed_edits">
@@ -4910,8 +4888,6 @@
     <!-- Practice in {company}’s workspace -->
     <!-- Arguments: %1$s = {company} -->
     <string name="practice_in_company_s_workspace">"Öva i arbetsytan för %1$s"</string>
-    <!-- Practice priorities, not conclusions about why an employer decided anything. -->
-    <string name="practice_priorities_not_conclusions_about_why_an_employer_decided_anything" formatted="false">"Saker att öva på, inte slutsatser om varför en arbetsgivare beslutade något."</string>
     <!-- Practice priority: -->
     <string name="practice_priority" formatted="false">"Att öva på:"</string>
     <!-- Practice without an application -->
@@ -5120,8 +5096,6 @@
     <string name="re_export_with_fonts_embedded_and_check_the_text_copies_out_cleanly" formatted="false">"Exportera på nytt med inbäddade typsnitt, och kontrollera att texten kopieras ut felfritt."</string>
     <!-- Re-export with fonts embedded, then open the file and check that the text copies out cleanly. -->
     <string name="re_export_with_fonts_embedded_then_open_the_file_and_check_that_the_text_copies_out_cleanly" formatted="false">"Exportera på nytt med inbäddade typsnitt, öppna sedan filen och kontrollera att texten kopieras ut felfritt."</string>
-    <!-- Reactive Resume -->
-    <string name="reactive_resume" formatted="false">"Reactive Resume"</string>
     <!-- Read briefing -->
     <string name="read_briefing" formatted="false">"Läs genomgången"</string>
     <!-- Read, change and delete documents and applications (legacy connection). -->
@@ -5855,8 +5829,6 @@
     <string name="search_or_run" formatted="false">"Sök eller kör..."</string>
     <!-- Search saved answers -->
     <string name="search_saved_answers" formatted="false">"Sök i sparade svar"</string>
-    <!-- Search terms go to your web search service. -->
-    <string name="search_terms_go_to_your_web_search_service" formatted="false">"Söktermer skickas till din webbsöktjänst."</string>
     <!-- Search the web -->
     <string name="search_the_web" formatted="false">"Sök på webben"</string>
     <!-- Search timezones -->
@@ -5934,51 +5906,8 @@
     <string name="sender_details_copied_into_the_letter" formatted="false">"Avsändaruppgifter kopierade till brevet"</string>
     <!-- Sending… -->
     <string name="sending" formatted="false">"Skickar..."</string>
-    <!-- Sends {0} to {label}. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {label} -->
-    <string name="sends_0_to_label">"Skickar %1$s till %2$s."</string>
-    <!-- Sends only your selected resume and up to 20 active shared facts to this connection. No application profile, saved answers or private application facts. Your provider may charge. -->
-    <string name="sends_only_your_selected_resume_and_up_to_20_active_shared_facts_to_this_connection_no_application_p" formatted="false">"Skickar bara ditt markerade CV och upp till 20 aktiva delade fakta till den här anslutningen. Ingen ansökningsprofil, inga sparade svar och inga privata ansökningsfakta. Din leverantör kan ta betalt."</string>
-    <!-- Sends the {0} posting to {1} · {2} to draft the body. Your provider may charge. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1}, %3$s = {2} -->
-    <string name="sends_the_0_posting_to_1_2_to_draft_the_body_your_provider_may_charge">"Skickar annonsen från %1$s till %2$s · %3$s för att skriva utkastet till texten. Din leverantör kan ta betalt."</string>
-    <!-- Sends the posting text to {0} to read it. -->
-    <!-- Arguments: %1$s = {0} -->
-    <string name="sends_the_posting_text_to_0_to_read_it">"Skickar annonsens text till %1$s för att läsa den."</string>
     <!-- Sends this application and enabled Knowledge to this connection. Your provider may charge. Scheduled work never switches to another connection automatically. -->
     <string name="sends_this_application_and_enabled_knowledge_to_this_connection_your_provider_may_charge_scheduled_w" formatted="false">"Skickar den här ansökan och aktiverad Kunskap till den här anslutningen. Din leverantör kan ta betalt. Schemalagt arbete byter aldrig automatiskt till en annan anslutning."</string>
-    <!-- Sends this letter's resume and the {0} posting to {1} · {2} to draft the body. Your provider may charge. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1}, %3$s = {2} -->
-    <string name="sends_this_letter_s_resume_and_the_0_posting_to_1_2_to_draft_the_body_your_provider_may_charge">"Skickar det här brevets CV och annonsen från %1$s till %2$s · %3$s för att skriva utkastet till texten. Din leverantör kan ta betalt."</string>
-    <!-- Sends this letter's resume to {0} · {1} to draft the body. Your provider may charge. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1} -->
-    <string name="sends_this_letter_s_resume_to_0_1_to_draft_the_body_your_provider_may_charge">"Skickar det här brevets CV till %1$s · %2$s för att skriva utkastet till texten. Din leverantör kan ta betalt."</string>
-    <!-- Sends this line, surrounding field text and your instructions to {0} · {1}. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1} -->
-    <string name="sends_this_line_surrounding_field_text_and_your_instructions_to_0_1">"Skickar den här raden, omgivande fälttext och dina instruktioner till %1$s · %2$s."</string>
-    <!-- Sends this paragraph, the rest of the letter and your instructions to {0} · {1}. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1} -->
-    <string name="sends_this_paragraph_the_rest_of_the_letter_and_your_instructions_to_0_1">"Skickar det här stycket, resten av brevet och dina instruktioner till %1$s · %2$s."</string>
-    <!-- Sends this paragraph, the rest of the letter, the linked job posting and your instructions to {0} · {1}. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1} -->
-    <string name="sends_this_paragraph_the_rest_of_the_letter_the_linked_job_posting_and_your_instructions_to_0_1">"Skickar det här stycket, resten av brevet, den länkade jobbannonsen och dina instruktioner till %1$s · %2$s."</string>
-    <!-- Sends this PDF to your configured AI provider instead of reading its text layer. -->
-    <string name="sends_this_pdf_to_your_configured_ai_provider_instead_of_reading_its_text_layer" formatted="false">"Skickar denna PDF till din konfigurerade AI-leverantör istället för att läsa dess textlager."</string>
-    <!-- Sends your message and this application (posting, notes, documents, your form answers, the saved offer and recent messages) to {label}. -->
-    <!-- Arguments: %1$s = {label} -->
-    <string name="sends_your_message_and_this_application_posting_notes_documents_your_form_answers_the_saved_offer_an">"Skickar ditt meddelande och den här ansökan (annons, anteckningar, dokument, dina formulärsvar, det sparade erbjudandet och senaste meddelanden) till %1$s."</string>
-    <!-- Sends your message, earlier messages and this application (posting, notes, documents, your form answers, the saved offer and recent messages) to {label}. -->
-    <!-- Arguments: %1$s = {label} -->
-    <string name="sends_your_message_earlier_messages_and_this_application_posting_notes_documents_your_form_answers_t">"Skickar ditt meddelande, tidigare meddelanden och den här ansökan (annons, anteckningar, dokument, dina formulärsvar, det sparade erbjudandet och senaste meddelanden) till %1$s."</string>
-    <!-- Sends your message, earlier messages here, this application (posting, notes, documents, your form answers, the saved offer and recent messages) and Knowledge that's switched on, to {label}. -->
-    <!-- Arguments: %1$s = {label} -->
-    <string name="sends_your_message_earlier_messages_here_this_application_posting_notes_documents_your_form_answers">"Skickar ditt meddelande, tidigare meddelanden här, den här ansökan (jobbannons, anteckningar, dokument, dina formulärsvar, det sparade erbjudandet och de senaste meddelandena) och aktiverad Kunskap till %1$s."</string>
-    <!-- Sends your message, this application (posting, notes, documents, your form answers, the saved offer and recent messages) and Knowledge that's switched on, to {label}. -->
-    <!-- Arguments: %1$s = {label} -->
-    <string name="sends_your_message_this_application_posting_notes_documents_your_form_answers_the_saved_offer_and_re">"Skickar ditt meddelande, den här ansökan (jobbannons, anteckningar, dokument, dina formulärsvar, det sparade erbjudandet och de senaste meddelandena) och aktiverad Kunskap till %1$s."</string>
-    <!-- Sends your resume's text only to {0} · {1}, with your key. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1} -->
-    <string name="sends_your_resume_s_text_only_to_0_1_with_your_key">"Skickar ditt CV:s text endast till %1$s · %2$s, med din nyckel."</string>
     <!-- Sent -->
     <string name="sent" formatted="false">"Skickat"</string>
     <!-- Sent: {0} -->
@@ -6128,8 +6057,8 @@
     <string name="show_less" formatted="false">"Visa mindre"</string>
     <!-- Show link in title -->
     <string name="show_link_in_title" formatted="false">"Visa länk i titel"</string>
-    <!-- Show “Made with Reactive Resume” -->
-    <string name="show_made_with_reactive_resume" formatted="false">"Visa ”Skapad med Reactive Resume”"</string>
+    <!-- Show “Made with Lebenslauf2” -->
+    <string name="show_made_with_lebenslauf2" formatted="false">"Visa ”Skapad med Lebenslauf2”"</string>
     <!-- Show more -->
     <string name="show_more" formatted="false">"Visa mer"</string>
     <!-- Show on page -->
@@ -6659,20 +6588,14 @@
     <string name="the_built_in_reader_remains_active" formatted="false">"Den inbyggda läsaren förblir aktiv."</string>
     <!-- The checks are mechanical. This asks a language model how a reader might react to your bullets and suggests rewrites. It isn't part of the score. -->
     <string name="the_checks_are_mechanical_this_asks_a_language_model_how_a_reader_might_react_to_your_bullets_and_su" formatted="false">"Kontrollerna är mekaniska. Detta frågar en språkmodell hur en läsare kan reagera på dina listposter och föreslår omskrivningar. Det är inte en del av poängen."</string>
-    <!-- The coach asks before remembering facts you state. -->
-    <string name="the_coach_asks_before_remembering_facts_you_state" formatted="false">"Coachen frågar innan den minns fakta du uppger."</string>
     <!-- The coach doesn't remember anything from your messages. -->
     <string name="the_coach_doesn_t_remember_anything_from_your_messages" formatted="false">"Coachen kommer inte ihåg något från dina meddelanden."</string>
-    <!-- The coach doesn't remember anything you write. -->
-    <string name="the_coach_doesn_t_remember_anything_you_write" formatted="false">"Coachen minns inget du skriver."</string>
     <!-- The coach isn't set up on this server. Whoever runs it needs to set ENCRYPTION_SECRET. -->
     <string name="the_coach_isn_t_set_up_on_this_server_whoever_runs_it_needs_to_set_encryption_secret" formatted="false">"Coachen är inte konfigurerad på den här servern. Den som administrerar servern måste ange ENCRYPTION_SECRET."</string>
     <!-- The coach isn't set up on this server. Whoever runs it needs to set ENCRYPTION_SECRET. Knowledge, Offers and your applications work without it. -->
     <string name="the_coach_isn_t_set_up_on_this_server_whoever_runs_it_needs_to_set_encryption_secret_knowledge_offer" formatted="false">"Coachen är inte konfigurerad på den här servern. Den som driver den behöver ställa in ENCRYPTION_SECRET. Kunskap, Erbjudanden och dina ansökningar fungerar utan det."</string>
     <!-- The coach proposes each fact in the chat. Nothing is saved until you agree. -->
     <string name="the_coach_proposes_each_fact_in_the_chat_nothing_is_saved_until_you_agree" formatted="false">"Coachen föreslår varje faktum i chatten. Inget sparas förrän du godkänner."</string>
-    <!-- The coach remembers facts you state, and tells you. -->
-    <string name="the_coach_remembers_facts_you_state_and_tells_you" formatted="false">"Coachen minns fakta du uppger och talar om det."</string>
     <!-- The coach saves facts you state, and tells you. You can undo. -->
     <string name="the_coach_saves_facts_you_state_and_tells_you_you_can_undo" formatted="false">"Coachen sparar fakta du anger och berättar det för dig. Du kan ångra."</string>
     <!-- The connection couldn't be loaded or saved. Try again. -->
@@ -6683,8 +6606,6 @@
     <string name="the_connection_works_turn_on_use_this_provider_to_use_it" formatted="false">"Anslutningen fungerar. Slå på Använd den här leverantören för att använda den."</string>
     <!-- The copy gets the job's posting and keeps this resume as it is for other jobs. -->
     <string name="the_copy_gets_the_job_s_posting_and_keeps_this_resume_as_it_is_for_other_jobs" formatted="false">"Kopian får jobbets annons och behåller det här CV:t som det är för andra jobb."</string>
-    <!-- the cover letter for this job -->
-    <string name="the_cover_letter_for_this_job" formatted="false">"följebrevet för det här jobbet"</string>
     <!-- The current state will be saved as “Before restore” first. -->
     <string name="the_current_state_will_be_saved_as_before_restore_first" formatted="false">"Det aktuella tillståndet sparas först som \"Innan återställning\"."</string>
     <!-- the document -->
@@ -6693,24 +6614,18 @@
     <string name="the_editor_opens_on_check_which_checks_the_imported_resume_again" formatted="false">"Editorn öppnas på Kontroll, som kontrollerar det importerade CV:t igen."</string>
     <!-- The employer may have changed it since. -->
     <string name="the_employer_may_have_changed_it_since" formatted="false">"Arbetsgivaren kan ha ändrat annonsen sedan dess."</string>
-    <!-- the employer's message -->
-    <string name="the_employer_s_message" formatted="false">"arbetsgivarens meddelande"</string>
     <!-- The end date is before the start date. Check both dates. -->
     <string name="the_end_date_is_before_the_start_date_check_both_dates" formatted="false">"Slutdatumet infaller före startdatumet. Kontrollera båda datumen."</string>
     <!-- The follow-up is saved. To get a reminder, allow notifications in your device settings. -->
     <string name="the_follow_up_is_saved_to_get_a_reminder_allow_notifications_in_your_device_settings" formatted="false">"Uppföljningen sparas. Tillåt aviseringar i enhetens inställningar för att få en påminnelse."</string>
     <!-- The greeting follows the name. -->
     <string name="the_greeting_follows_the_name" formatted="false">"Hälsningen följer namnet."</string>
-    <!-- the interview details -->
-    <string name="the_interview_details" formatted="false">"intervjuduppgifterna"</string>
     <!-- The interview is saved. To get a reminder, allow notifications in your device settings. -->
     <string name="the_interview_is_saved_to_get_a_reminder_allow_notifications_in_your_device_settings" formatted="false">"Intervjun är sparad. Tillåt aviseringar i enhetens inställningar för att få en påminnelse."</string>
     <!-- The key is encrypted on the server and never shown again. Saving tests the connection. -->
     <string name="the_key_is_encrypted_on_the_server_and_never_shown_again_saving_tests_the_connection" formatted="false">"Nyckeln är krypterad på servern och visas aldrig igen. Att spara testar anslutningen."</string>
     <!-- The key was rejected. Check the key and test again. -->
     <string name="the_key_was_rejected_check_the_key_and_test_again" formatted="false">"Nyckeln avslogs. Kontrollera nyckeln och testa igen."</string>
-    <!-- the last messages -->
-    <string name="the_last_messages" formatted="false">"de senaste meddelandena"</string>
     <!-- The lead time has passed. Saving runs the briefing now. -->
     <string name="the_lead_time_has_passed_saving_runs_the_briefing_now" formatted="false">"Ledtiden har passerat. Spara kör genomgången nu."</string>
     <!-- The letter as it is -->
@@ -6753,10 +6668,6 @@
     <string name="the_provider_limited_this_request_wait_and_try_again_check_your_account_quota" formatted="false">"Leverantören begränsade den här begäran. Vänta och försök igen; kontrollera din kontokvot."</string>
     <!-- The provider reported a server error. Try again later. -->
     <string name="the_provider_reported_a_server_error_try_again_later" formatted="false">"Leverantören rapporterade ett serverfel. Försök igen senare."</string>
-    <!-- the question and what you said -->
-    <string name="the_question_and_what_you_said" formatted="false">"frågan och vad du sa"</string>
-    <!-- the question and your answer -->
-    <string name="the_question_and_your_answer" formatted="false">"frågan och ditt svar"</string>
     <!-- The reason is kept for Insights. Linked documents aren't touched. -->
     <string name="the_reason_is_kept_for_insights_linked_documents_aren_t_touched" formatted="false">"Orsaken behålls för Insights. Länkade dokument berörs inte."</string>
     <!-- The records aren't visible yet. Check again later. -->
@@ -6765,8 +6676,6 @@
     <string name="the_rest_of_the_file_isn_t_in_this_report" formatted="false">"Resten av filen finns inte i den här rapporten."</string>
     <!-- The resume as it is -->
     <string name="the_resume_as_it_is" formatted="false">"CV som det är"</string>
-    <!-- the resume for this job -->
-    <string name="the_resume_for_this_job" formatted="false">"CV:t för det här jobbet"</string>
     <!-- The reviewer sees each one's stage and dates. Notes, contacts and pay stay private. -->
     <string name="the_reviewer_sees_each_one_s_stage_and_dates_notes_contacts_and_pay_stay_private" formatted="false">"Granskaren ser var och ens fas och datum. Anteckningar, kontakter och lön förblir privata."</string>
     <!-- The same line repeats on every page. -->
@@ -6775,8 +6684,6 @@
     <string name="the_saved_key_isn_t_sent_to_a_new_base_url_enter_it_again" formatted="false">"Den sparade nyckeln skickas inte till en ny bas-URL. Ange nyckeln igen."</string>
     <!-- The saved key isn't sent to a new base URL. Enter it again if this server needs one. -->
     <string name="the_saved_key_isn_t_sent_to_a_new_base_url_enter_it_again_if_this_server_needs_one" formatted="false">"Den sparade nyckeln skickas inte till en ny bas-URL. Ange nyckeln igen om denna server kräver en nyckel."</string>
-    <!-- the saved offer -->
-    <string name="the_saved_offer" formatted="false">"det sparade erbjudandet"</string>
     <!-- The score counts how reliably software reads your resume. It doesn't predict whether you'll be shortlisted. -->
     <string name="the_score_counts_how_reliably_software_reads_your_resume_it_doesn_t_predict_whether_you_ll_be_shortl" formatted="false">"Poängen räknar hur tillförlitligt programvaran läser ditt CV. Det förutsäger inte om du kommer att bli nominerad."</string>
     <!-- The score reflects how reliably text is extracted, not your chances. -->
@@ -6962,8 +6869,6 @@
     <string name="this_pdf_is_a_scanned_image_there_s_no_text_to_read_try_the_word_version_or_start_blank_and_paste_se" formatted="false">"Denna PDF är en skannad bild. Det finns ingen text att läsa. Prova Word-versionen, eller starta tomma och klistra in avsnitt."</string>
     <!-- This PDF is password protected. Save an unprotected copy and try again. -->
     <string name="this_pdf_is_password_protected_save_an_unprotected_copy_and_try_again" formatted="false">"Denna PDF är lösenordsskyddad. Spara en oskyddad kopia och försök igen."</string>
-    <!-- this posting -->
-    <string name="this_posting" formatted="false">"den här annonsen"</string>
     <!-- This question couldn't be asked. Send a new message to continue. -->
     <string name="this_question_couldn_t_be_asked_send_a_new_message_to_continue" formatted="false">"Den här frågan kunde inte ställas. Skicka ett nytt meddelande för att fortsätta."</string>
     <!-- This question didn't finish. -->
@@ -7398,8 +7303,8 @@
     <string name="use_url">"Använd %1$s"</string>
     <!-- Use web access? -->
     <string name="use_web_access" formatted="false">"Använd webbåtkomst?"</string>
-    <!-- Use your browser’s Share action to send one posting URL or selected text to Reactive Resume. Receiving shares requires the latest store build; URL and paste import remain available. -->
-    <string name="use_your_browsers_share_action_to_send_one_posting_url_or_selected_text_to_reactive_resume_receiving" formatted="false">"Använd webbläsarens dela-åtgärd för att skicka en annonswebbadress eller markerad text till Reactive Resume. Att ta emot delningar kräver den senaste butiksversionen; webbadress- och inklistringsimport finns kvar."</string>
+    <!-- Use your browser’s Share action to send one posting URL or selected text to Lebenslauf2. Receiving shares requires the latest store build; URL and paste import remain available. -->
+    <string name="use_your_browsers_share_action_to_send_one_posting_url_or_selected_text_to_lebenslauf2_receiving_sha" formatted="false">"Använd webbläsarens dela-åtgärd för att skicka en annonswebbadress eller markerad text till Lebenslauf2. Att ta emot delningar kräver den senaste butiksversionen; webbadress- och inklistringsimport finns kvar."</string>
     <!-- Use your editor's normal bullet list, so stray glyphs do not land mid-sentence. -->
     <string name="use_your_editor_s_normal_bullet_list_so_stray_glyphs_do_not_land_mid_sentence" formatted="false">"Använd din redigerares vanliga punktlista, så att lösa tecken inte hamnar mitt i en mening."</string>
     <!-- Used: {summary} -->
@@ -7629,9 +7534,6 @@
     <string name="when_would_you_start" formatted="false">"När skulle du börja?"</string>
     <!-- When you're done, the browser closes and you come back here. -->
     <string name="when_you_re_done_the_browser_closes_and_you_come_back_here" formatted="false">"När du är klar stängs webbläsaren och du kommer tillbaka hit."</string>
-    <!-- When you tap send, {list} go to your {connection}. -->
-    <!-- Arguments: %1$s = {list}, %2$s = {connection} -->
-    <string name="when_you_tap_send_list_go_to_your_connection">"När du trycker på skicka går %1$s till %2$s."</string>
     <!-- Where applications come from -->
     <string name="where_applications_come_from" formatted="false">"Varifrån kommer ansökningarna"</string>
     <!-- Where you want to work -->
@@ -7660,8 +7562,6 @@
     <string name="width" formatted="false">"Bredd"</string>
     <!-- Willing to relocate -->
     <string name="willing_to_relocate" formatted="false">"Kan flytta"</string>
-    <!-- With Knowledge off, nothing you write is remembered. -->
-    <string name="with_knowledge_off_nothing_you_write_is_remembered" formatted="false">"Med Kunskap avstängd blir inget du skriver ihågminnat."</string>
     <!-- Within your office-day limit. -->
     <string name="within_your_office_day_limit" formatted="false">"Inom din gräns för kontorsdagar."</string>
     <!-- Without a fact, the coach and practice can't use this story. -->
@@ -7842,8 +7742,6 @@
     <string name="your_changes_on_this_device_will_be_replaced_by_the_saved_version" formatted="false">"Dina ändringar på den här enheten kommer att ersättas av den sparade versionen."</string>
     <!-- Your contact details are not on the first page. -->
     <string name="your_contact_details_are_not_on_the_first_page" formatted="false">"Dina kontaktuppgifter finns inte på första sidan."</string>
-    <!-- your contacts -->
-    <string name="your_contacts" formatted="false">"dina kontakter"</string>
     <!-- Your data -->
     <string name="your_data" formatted="false">"Dina data"</string>
     <!-- Your dates are written several different ways. -->
@@ -7864,22 +7762,18 @@
     <string name="your_facts_stories_and_preferences_editing_knowledge_sends_nothing_to_an_ai_connection" formatted="false">"Dina fakta, berättelser och preferenser. Redigering av Kunskap skickar ingenting till en AI-anslutning."</string>
     <!-- Your focus -->
     <string name="your_focus" formatted="false">"Ditt fokus"</string>
-    <!-- your form answers -->
-    <string name="your_form_answers" formatted="false">"dina formulärsvar"</string>
     <!-- Your headings look the same as your body text. -->
     <string name="your_headings_look_the_same_as_your_body_text" formatted="false">"Dina rubriker ser likadana ut som din brödtext."</string>
     <!-- Your job search starts here -->
     <string name="your_job_search_starts_here" formatted="false">"Din jobbsökning börjar här"</string>
     <!-- your Knowledge -->
     <string name="your_knowledge" formatted="false">"din Kunskap"</string>
-    <!-- Your language is saved. Restart Reactive Resume to apply the new left-to-right or right-to-left layout. -->
-    <string name="your_language_is_saved_restart_reactive_resume_to_apply_the_new_left_to_right_or_right_to_left_layou" formatted="false">"Ditt språk är sparat. Starta om Reactive Resume för att tillämpa den nya layouten från vänster till höger eller höger till vänster."</string>
+    <!-- Your language is saved. Restart Lebenslauf2 to apply the new left-to-right or right-to-left layout. -->
+    <string name="your_language_is_saved_restart_lebenslauf2_to_apply_the_new_left_to_right_or_right_to_left_layout" formatted="false">"Ditt språk är sparat. Starta om Lebenslauf2 för att tillämpa den nya layouten från vänster till höger eller höger till vänster."</string>
     <!-- Your lines are packed very tightly. -->
     <string name="your_lines_are_packed_very_tightly" formatted="false">"Dina linjer är mycket tätt packade."</string>
     <!-- Your margins are very narrow. -->
     <string name="your_margins_are_very_narrow" formatted="false">"Dina marginaler är mycket smala."</string>
-    <!-- your message -->
-    <string name="your_message" formatted="false">"ditt meddelande"</string>
     <!-- Your message is kept. -->
     <string name="your_message_is_kept" formatted="false">"Ditt meddelande behålls."</string>
     <!-- Your name -->
@@ -7910,9 +7804,6 @@
     <string name="your_public_links_begin_with_server">"Dina offentliga länkar börjar med %1$s/"</string>
     <!-- Your public links will change -->
     <string name="your_public_links_will_change" formatted="false">"Dina offentliga länkar kommer att ändras"</string>
-    <!-- Your recording goes to {transcriberName} after you stop, to be transcribed. Your provider may charge. The server keeps transcripts, never recordings. -->
-    <!-- Arguments: %1$s = {transcriberName} -->
-    <string name="your_recording_goes_to_transcribername_after_you_stop_to_be_transcribed_your_provider_may_charge_the">"Din inspelning går till %1$s efter att du har slutat, för att transkriberas. Din leverantör kan ta betalt. Servern sparar utskrifter, aldrig inspelningar."</string>
     <!-- Your request and relevant resume, letter, job posting, application, career information, conversation history, and attachments are sent through your server to this AI provider, according to the feature and context you selected. They can contain personal information. -->
     <string name="your_request_and_relevant_resume_letter_job_posting_application_career_information_conversation_hist" formatted="false">"Din förfrågan och relevanta CV, brev, platsannons, ansökan, karriärinformation, konversationshistorik och bilagor skickas via din server till denna AI-leverantör, enligt funktionen och sammanhanget du valt. De kan innehålla personlig information."</string>
     <!-- Your requirements -->
@@ -7957,8 +7848,6 @@
     <string name="your_short_link_points_to_0_which_isn_t_published">"Din korta länk pekar på ”%1$s”, som inte är publicerat."</string>
     <!-- Your short link says this resume isn't shared until you publish it again. -->
     <string name="your_short_link_says_this_resume_isn_t_shared_until_you_publish_it_again" formatted="false">"Din korta länk säger att det här CV:t inte är delat förrän du publicerar det igen."</string>
-    <!-- your stories -->
-    <string name="your_stories" formatted="false">"dina berättelser"</string>
     <!-- Your story couldn't be loaded. -->
     <string name="your_story_couldn_t_be_loaded" formatted="false">"Det gick inte att ladda din berättelse."</string>
     <!-- Your tags -->

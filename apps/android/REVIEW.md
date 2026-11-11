@@ -49,16 +49,16 @@ not unscrolled content. Every hash below was read before review and rechecked un
    The extra section violates both structure/order and copy requirements in REDESIGN §2.1/§2.7.
    It also introduces separators and trailing carets where the drawn screen has no further rows.
 
-   | Visible extra                                   | Scroll-end box (x, y, w, h) | Unscrolled y |
-   | ----------------------------------------------- | --------------------------- | ------------ |
-   | Account details heading                         | (24, 330, 112.3, 28)        | 817          |
-   | Name / Alex Morgan row, including caret         | (24, 362, 342, 71)          | 849          |
-   | Sessions / 3 row, including caret               | (24, 433, 342, 71)          | 920          |
-   | GitHub / Connected row, including caret         | (24, 504, 342, 71)          | 991          |
-   | Server / https://rxresu.me row, including caret | (24, 575, 342, 71)          | 1062         |
-   | Sign out row                                    | (24, 646, 342, 64)          | 1133         |
-   | Change photo button                             | (24, 734, 118.5, 36)        | 1221         |
-   | Remove photo button                             | (154.5, 734, 120.5, 36)     | 1221         |
+   | Visible extra                                                        | Scroll-end box (x, y, w, h) | Unscrolled y |
+   | -------------------------------------------------------------------- | --------------------------- | ------------ |
+   | Account details heading                                              | (24, 330, 112.3, 28)        | 817          |
+   | Name / Laura Beier row, including caret                              | (24, 362, 342, 71)          | 849          |
+   | Sessions / 3 row, including caret                                    | (24, 433, 342, 71)          | 920          |
+   | GitHub / Connected row, including caret                              | (24, 504, 342, 71)          | 991          |
+   | Server / <https://lebenslauf2.florentin-one.de> row, including caret | (24, 575, 342, 71)          | 1062         |
+   | Sign out row                                                         | (24, 646, 342, 64)          | 1133         |
+   | Change photo button                                                  | (24, 734, 118.5, 36)        | 1221         |
+   | Remove photo button                                                  | (154.5, 734, 120.5, 36)     | 1221         |
 
    Evidence: both `S2-Account-<theme>-end.png` viewed at full size; corresponding end JSONs
    locate their real rendered boxes. Existing layout report also records these as EXTRA;
@@ -276,15 +276,15 @@ Actuals: `apps/android/build/fidelity/`; composites and inherited numeric eviden
    raw layout report records the actual `KI` as EXTRA.
 
 2. **T1-Today, light and dark: three additional New roles rows.**
-   The reference board body and layout contain one Kiln Studio / Senior product designer row,
+   The reference board body and layout contain one Kiln Studio / Fachärztin für Psychiatrie und Psychotherapie row,
    then end the content. Current end PNGs show three further rows, with extra monograms,
    carets and dividers. No reference geometry/copy exists for these rows:
 
-   | Additional row                                                 | End row box (x, y, w, h) | Unscrolled y |
-   | -------------------------------------------------------------- | ------------------------ | ------------ |
-   | Senior product designer / Northwind Labs · Lisbon · Hybrid, NO | (24, 221, 342, 71)       | 918          |
-   | Product designer / Harbour Studio · Lisbon · Hybrid, HA        | (24, 292, 342, 71)       | 989          |
-   | Design systems lead / Kiln Studio · Lisbon · Hybrid, KI        | (24, 363, 342, 70)       | 1060         |
+   | Additional row                                                                       | End row box (x, y, w, h) | Unscrolled y |
+   | ------------------------------------------------------------------------------------ | ------------------------ | ------------ |
+   | Fachärztin für Psychiatrie und Psychotherapie / Northwind Labs · Lisbon · Hybrid, NO | (24, 221, 342, 71)       | 918          |
+   | Product designer / Harbour Studio · Lisbon · Hybrid, HA                              | (24, 292, 342, 71)       | 989          |
+   | Design systems lead / Kiln Studio · Lisbon · Hybrid, KI                              | (24, 363, 342, 70)       | 1060         |
 
    These are visible structural additions under REDESIGN §2.1, despite passing numeric score.
    Raw layout report records the rows and their contents as EXTRA; extras do not fail that tool.

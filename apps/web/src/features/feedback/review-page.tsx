@@ -81,7 +81,7 @@ function FeedbackUnavailable({ reason }: FeedbackUnavailableProps) {
 					)}
 				</p>
 				<Link to="/" className={buttonVariants({ variant: "secondary", size: "sm" })}>
-					<Trans>Go to Reactive Resume</Trans>
+					<Trans>Go to Lebenslauf2</Trans>
 				</Link>
 			</div>
 		</main>

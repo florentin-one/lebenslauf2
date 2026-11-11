@@ -4,8 +4,8 @@
     <!-- A: {answer} -->
     <!-- Arguments: %1$s = {answer} -->
     <string name="a_answer">"О: %1$s"</string>
-    <!-- A backup of this letter. Imports back into Reactive Resume as a letter. -->
-    <string name="a_backup_of_this_letter_imports_back_into_reactive_resume_as_a_letter" formatted="false">"Резервная копия этого письма. Импортируется обратно в Reactive Resume в виде буквы."</string>
+    <!-- A backup of this letter. Imports back into Lebenslauf2 as a letter. -->
+    <string name="a_backup_of_this_letter_imports_back_into_lebenslauf2_as_a_letter" formatted="false">"Резервная копия этого письма. Импортируется обратно в Lebenslauf2 в виде буквы."</string>
     <!-- A city and country let roles be matched to where you are. -->
     <string name="a_city_and_country_let_roles_be_matched_to_where_you_are" formatted="false">"Город и страна позволяют согласовывать роли с тем, где вы находитесь."</string>
     <!-- A comfortable length, and it fits on one page. -->
@@ -370,8 +370,6 @@
     <string name="ai_providers_couldn_t_be_loaded_reload_to_try_again" formatted="false">"Не удалось загрузить поставщиков ИИ. Перезагрузите, чтобы повторить попытку."</string>
     <!-- AI providers couldn't be loaded. Retry or fill the details manually. -->
     <string name="ai_providers_couldn_t_be_loaded_retry_or_fill_the_details_manually" formatted="false">"Не удалось загрузить AI-провайдеров. Попробуйте еще раз или заполните данные вручную."</string>
-    <!-- AI reads pasted text only when you ask. Links can use the page’s own job data without AI. -->
-    <string name="ai_reads_pasted_text_only_when_you_ask_links_can_use_the_pages_own_job_data_without_ai" formatted="false">"AI читает вставленный текст только по вашему запросу. Ссылки могут использовать данные вакансии со страницы без AI."</string>
     <!-- AI request attempts: {0} -->
     <!-- Arguments: %1$s = {0} -->
     <string name="ai_request_attempts_0">"Попытки запросов ИИ: %1$s"</string>
@@ -379,8 +377,6 @@
     <string name="ai_request_history_unavailable_for_this_result" formatted="false">"История запросов ИИ для этого результата недоступна."</string>
     <!-- AI settings -->
     <string name="ai_settings" formatted="false">"Настройки ИИ"</string>
-    <!-- AI suggestions, not verified qualifications or hiring predictions. Sources below are your statements. -->
-    <string name="ai_suggestions_not_verified_qualifications_or_hiring_predictions_sources_below_are_your_statements" formatted="false">"Предложения ИИ, а не подтверждённая квалификация или прогноз найма. Источники ниже — ваши собственные утверждения."</string>
     <!-- AI usage couldn't be loaded. Try refreshing. Older servers may need an update. -->
     <string name="ai_usage_couldn_t_be_loaded_try_refreshing_older_servers_may_need_an_update" formatted="false">"Не удалось загрузить использование ИИ. Обновите данные. Старым серверам может потребоваться обновление."</string>
     <!-- AI usage this week -->
@@ -442,8 +438,6 @@
     <string name="always_appears_in_today_email_requires_a_verified_address_and_server_mail_setup_no_push_notification" formatted="false">"Всегда отображается в разделе «Сегодня». Для писем нужен подтверждённый адрес и настроенная почта на сервере. Push-уведомления не отправляются."</string>
     <!-- Amharic -->
     <string name="amharic" formatted="false">"Амхарский"</string>
-    <!-- An AI reading to help you edit, not a prediction of how an employer or screening system will respond. -->
-    <string name="an_ai_reading_to_help_you_edit_not_a_prediction_of_how_an_employer_or_screening_system_will_respond" formatted="false">"Оценка ИИ в помощь при редактировании, а не прогноз того, как отреагирует работодатель или система отбора."</string>
     <!-- An edit addresses it -->
     <string name="an_edit_addresses_it" formatted="false">"Это учтено в правке"</string>
     <!-- An embedded font could not be read. -->
@@ -640,9 +634,9 @@
     <string name="assistant" formatted="false">"Ассистент"</string>
     <!-- Assistant conversations -->
     <string name="assistant_conversations" formatted="false">"Ассистентские разговоры"</string>
-    <!-- {at} · {providerLabel}. Sends this application and your Knowledge; your provider may charge. -->
+    <!-- {at} · {providerLabel} -->
     <!-- Arguments: %1$s = {at}, %2$s = {providerLabel} -->
-    <string name="at_providerlabel_sends_this_application_and_your_knowledge_your_provider_may_charge">"%1$s · %2$s. Отправляет эту заявку и ваши Знания; провайдер может взимать плату."</string>
+    <string name="at_providerlabel">"%1$s · %2$s"</string>
     <!-- ATS checker -->
     <string name="ats_checker" formatted="false">"ATS шашка"</string>
     <!-- ATS-safe -->
@@ -1141,8 +1135,8 @@
     <!-- Complete {0} before saving. -->
     <!-- Arguments: %1$s = {0} -->
     <string name="complete_0_before_saving">"Заполните %1$s перед сохранением."</string>
-    <!-- Complete data backup. Imports back into Reactive Resume. -->
-    <string name="complete_data_backup_imports_back_into_reactive_resume" formatted="false">"Полная резервная копия данных. Импортируется обратно в Reactive Resume."</string>
+    <!-- Complete data backup. Imports back into Lebenslauf2. -->
+    <string name="complete_data_backup_imports_back_into_lebenslauf2" formatted="false">"Полная резервная копия данных. Импортируется обратно в Lebenslauf2."</string>
     <!-- Complete the employer form manually in your browser using reviewed answers and approved PDFs. -->
     <string name="complete_the_employer_form_manually_in_your_browser_using_reviewed_answers_and_approved_pdfs" formatted="false">"Заполните форму работодателя вручную в браузере, используя проверенные ответы и утверждённые PDF."</string>
     <!-- {completed, plural, one {# document updated} other {# documents updated}} -->
@@ -1456,8 +1450,8 @@
     <!-- Couldn't propose these edits: {0} -->
     <!-- Arguments: %1$s = {0} -->
     <string name="couldn_t_propose_these_edits_0">"Не удалось предложить эти изменения: %1$s."</string>
-    <!-- Couldn't reach Reactive Resume. Check your internet connection, then try again. -->
-    <string name="couldn_t_reach_reactive_resume_check_your_internet_connection_then_try_again" formatted="false">"Не удалось подключиться к Reactive Resume. Проверьте подключение к интернету и попробуйте ещё раз."</string>
+    <!-- Couldn't reach Lebenslauf2. Check your internet connection, then try again. -->
+    <string name="couldn_t_reach_lebenslauf2_check_your_internet_connection_then_try_again" formatted="false">"Не удалось подключиться к Lebenslauf2. Проверьте подключение к интернету и попробуйте ещё раз."</string>
     <!-- Couldn't reach your AI provider. Try again or check its key in AI settings. -->
     <string name="couldn_t_reach_your_ai_provider_try_again_or_check_its_key_in_ai_settings" formatted="false">"Не удалось связаться с вашим провайдером AI. Попробуйте еще раз или проверьте его ключ в настройках AI."</string>
     <!-- Couldn't read {name}'s answer. Try again, or switch the default provider in AI settings. -->
@@ -2086,8 +2080,6 @@
     <string name="earlier_discovery_result_search_query_and_posting_check_time_unknown" formatted="false">"Более ранний результат поиска. Поисковый запрос и время проверки вакансии неизвестны."</string>
     <!-- Earlier messages and attachments in this conversation will be sent to this destination when you send again. -->
     <string name="earlier_messages_and_attachments_in_this_conversation_will_be_sent_to_this_destination_when_you_send" formatted="false">"Предыдущие сообщения и вложения в этом разговоре будут отправлены туда, когда вы снова отправите сообщение."</string>
-    <!-- earlier messages in this chat -->
-    <string name="earlier_messages_in_this_chat" formatted="false">"предыдущие сообщения в этом чате"</string>
     <!-- Edit -->
     <string name="edit" formatted="false">"Редактировать"</string>
     <!-- Edit {0} -->
@@ -2110,8 +2102,8 @@
     <string name="edit_first" formatted="false">"Сначала отредактировать"</string>
     <!-- Edit interview -->
     <string name="edit_interview" formatted="false">"Редактировать интервью"</string>
-    <!-- Edit it in Reactive Resume -->
-    <string name="edit_it_in_reactive_resume" formatted="false">"Отредактируйте его в Reactive Resume"</string>
+    <!-- Edit it in Lebenslauf2 -->
+    <string name="edit_it_in_lebenslauf2" formatted="false">"Отредактируйте его в Lebenslauf2"</string>
     <!-- Edit link -->
     <string name="edit_link" formatted="false">"Изменить ссылку"</string>
     <!-- Edit note -->
@@ -2179,8 +2171,6 @@
     <string name="empty_trash" formatted="false">"Очистить корзину"</string>
     <!-- Empty Trash? -->
     <string name="empty_trash_ab0a72a70c" formatted="false">"Очистить корзину?"</string>
-    <!-- enabled Knowledge -->
-    <string name="enabled_knowledge" formatted="false">"включённые Знания"</string>
     <!-- End -->
     <string name="end" formatted="false">"Конец"</string>
     <!-- English -->
@@ -2229,8 +2219,8 @@
     <string name="enter_any_model_id_supported_by_your_endpoint" formatted="false">"Введите любой ID модели, поддерживаемой вашей конечной точкой."</string>
     <!-- Enter terms yourself. No AI request is made. Leave unknown amounts blank. -->
     <string name="enter_terms_yourself_no_ai_request_is_made_leave_unknown_amounts_blank" formatted="false">"Введите условия самостоятельно. Запрос к ИИ отправляться не будет. Неизвестные суммы оставьте пустыми."</string>
-    <!-- Enter the address you open Reactive Resume at in a browser. The app checks it's a Reactive Resume server that allows app sign-in before you continue. -->
-    <string name="enter_the_address_you_open_reactive_resume_at_in_a_browser_the_app_checks_it_s_a_reactive_resume_ser" formatted="false">"Введите адрес, который вы используете для открытия Reactive Resume в браузере. Прежде чем продолжить, мобильное приложение проверяет, что это сервер Reactive Resume с включенным входом с мобильного устройства."</string>
+    <!-- Enter the address you open Lebenslauf2 at in a browser. The app checks it's a Lebenslauf2 server that allows app sign-in before you continue. -->
+    <string name="enter_the_address_you_open_lebenslauf2_at_in_a_browser_the_app_checks_it_s_a_lebenslauf2_server_that" formatted="false">"Введите адрес, который вы используете для открытия Lebenslauf2 в браузере. Прежде чем продолжить, мобильное приложение проверяет, что это сервер Lebenslauf2 с включенным входом с мобильного устройства."</string>
     <!-- Enter the API base URL of your service and test again. -->
     <string name="enter_the_api_base_url_of_your_service_and_test_again" formatted="false">"Введите базовый URL API вашего сервиса и проверьте снова."</string>
     <!-- Enter your details below. Choosing a resume replaces them and links its design. -->
@@ -2502,11 +2492,11 @@
     <!-- Found for “{0}”. Posting checked {1}. -->
     <!-- Arguments: %1$s = {0}, %2$s = {1} -->
     <string name="found_for_0_posting_checked_1">"Найдено по запросу «%1$s». Вакансия проверена %2$s."</string>
-    <!-- Found posting links are read by Reactive Resume and the sites being read. -->
-    <string name="found_posting_links_are_read_by_reactive_resume_and_the_sites_being_read" formatted="false">"Найденные ссылки на вакансии читают Reactive Resume и сами читаемые сайты."</string>
-    <!-- Found posting links are read by Reactive Resume and, when needed, {reader} and the sites being read. The reader may charge. -->
+    <!-- Found posting links are read by Lebenslauf2 and the sites being read. -->
+    <string name="found_posting_links_are_read_by_lebenslauf2_and_the_sites_being_read" formatted="false">"Найденные ссылки на вакансии читают Lebenslauf2 и сами читаемые сайты."</string>
+    <!-- Found posting links are read by Lebenslauf2 and, when needed, {reader} and the sites being read. The reader may charge. -->
     <!-- Arguments: %1$s = {reader} -->
-    <string name="found_posting_links_are_read_by_reactive_resume_and_when_needed_reader_and_the_sites_being_read_the">"Найденные ссылки на вакансии читают Reactive Resume, при необходимости %1$s, и сами читаемые сайты. Сервис чтения может взимать плату."</string>
+    <string name="found_posting_links_are_read_by_lebenslauf2_and_when_needed_reader_and_the_sites_being_read_the_read">"Найденные ссылки на вакансии читают Lebenslauf2, при необходимости %1$s, и сами читаемые сайты. Сервис чтения может взимать плату."</string>
     <!-- Free-form -->
     <string name="free_form" formatted="false">"Свободная форма"</string>
     <!-- French -->
@@ -2903,8 +2893,6 @@
     <!-- Its own design ({summary}). -->
     <!-- Arguments: %1$s = {summary} -->
     <string name="its_own_design_summary">"Собственный дизайн (%1$s)."</string>
-    <!-- its requirements -->
-    <string name="its_requirements" formatted="false">"её требования"</string>
     <!-- Its saved key is deleted. Conversations using it need another provider. -->
     <string name="its_saved_key_is_deleted_conversations_using_it_need_another_provider" formatted="false">"Сохраненный ключ удаляется. Для разговоров с его использованием нужен другой провайдер."</string>
     <!-- Japanese -->
@@ -3100,6 +3088,8 @@
     <string name="leave_out" formatted="false">"Пропустить"</string>
     <!-- Leave without keeping the draft? -->
     <string name="leave_without_keeping_the_draft" formatted="false">"Уйти, не сохранив черновик?"</string>
+    <!-- Lebenslauf2 -->
+    <string name="lebenslauf2" formatted="false">"Lebenslauf2"</string>
     <!-- Left -->
     <string name="left" formatted="false">"Левый"</string>
     <!-- Left blank. Add it later only if you can support it. -->
@@ -3354,8 +3344,6 @@
     <string name="managed_by_server" formatted="false">"Управляется сервером"</string>
     <!-- Managed by your server -->
     <string name="managed_by_your_server" formatted="false">"Управляется вашим сервером"</string>
-    <!-- Manual roles and preferences work without AI. Suggestions never search or schedule anything. -->
-    <string name="manual_roles_and_preferences_work_without_ai_suggestions_never_search_or_schedule_anything" formatted="false">"Ручной ввод должностей и предпочтений работает без ИИ. Предложения никогда ничего не ищут и не планируют."</string>
     <!-- Many bullets start with the same phrase. -->
     <string name="many_bullets_start_with_the_same_phrase" formatted="false">"Многие пункты начинаются с одной и той же фразы."</string>
     <!-- Mar 2022 -->
@@ -3587,14 +3575,6 @@
         <item quantity="many">"Охвачено ключевых слов вакансии: %3$s из %1$s"</item>
         <item quantity="one">"Охвачено ключевых слов вакансии: %2$s из %1$s"</item>
         <item quantity="other">"Охвачено ключевых слов вакансии: %3$s из %1$s"</item>
-    </plurals>
-    <!-- {0, plural, one {Also sends {1}.} other {Also sends # files: {2}.}} -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1}, %3$s = {2} -->
-    <plurals name="message_0_plural_one_also_sends_1_other_also_sends_files_2">
-        <item quantity="few">"Также отправляются %1$s файла: %3$s."</item>
-        <item quantity="many">"Также отправляются %1$s файлов: %3$s."</item>
-        <item quantity="one">"Также отправляется %2$s."</item>
-        <item quantity="other">"Также отправляются %1$s файла: %3$s."</item>
     </plurals>
     <!-- {0, plural, one {# answer} other {# answers}} -->
     <!-- Arguments: %1$s = {0} -->
@@ -4135,8 +4115,6 @@
     <string name="message_the_assistant" formatted="false">"Напишите помощнику"</string>
     <!-- Messages -->
     <string name="messages" formatted="false">"Сообщения"</string>
-    <!-- Messages from before Knowledge changed aren't sent. -->
-    <string name="messages_from_before_knowledge_changed_aren_t_sent" formatted="false">"Сообщения, написанные до изменения «Знаний», не отправляются."</string>
     <!-- Messages from before Knowledge changed aren't sent to the AI anymore, so it won't remember them. Start a new conversation to keep context together. -->
     <string name="messages_from_before_knowledge_changed_aren_t_sent_to_the_ai_anymore_so_it_won_t_remember_them_start" formatted="false">"Сообщения, написанные до изменения «Знаний», больше не отправляются ИИ, поэтому он их не запомнит. Начните новый разговор, чтобы сохранить контекст целиком."</string>
     <!-- Minimum base salary -->
@@ -4480,6 +4458,8 @@
     <string name="no_keys_yet" formatted="false">"Ключей пока нет."</string>
     <!-- No language matches. -->
     <string name="no_language_matches" formatted="false">"Ни один язык не соответствует."</string>
+    <!-- No Lebenslauf2 server answered at this address. Check the spelling, or ask your administrator whether the server allows app sign-in. -->
+    <string name="no_lebenslauf2_server_answered_at_this_address_check_the_spelling_or_ask_your_administrator_whether" formatted="false">"По этому адресу не ответил ни один сервер Lebenslauf2. Проверьте правильность написания или спросите администратора, разрешает ли сервер вход в приложение."</string>
     <!-- No lines look like a job title paired with an employer. -->
     <string name="no_lines_look_like_a_job_title_paired_with_an_employer" formatted="false">"Ни одна строка не похожа на должность вместе с работодателем."</string>
     <!-- No linked application -->
@@ -4512,8 +4492,6 @@
     <string name="no_photo_most_ats_ignore_photos_some_regions_expect_one" formatted="false">"Нет фото. Большинство ATS игнорируют фотографии; некоторые регионы ожидают его."</string>
     <!-- No postings found. Try different keywords. -->
     <string name="no_postings_found_try_different_keywords" formatted="false">"Объявлений о вакансиях не найдено. Попробуйте разные ключевые слова."</string>
-    <!-- No Reactive Resume server answered at this address. Check the spelling, or ask your administrator whether the server allows app sign-in. -->
-    <string name="no_reactive_resume_server_answered_at_this_address_check_the_spelling_or_ask_your_administrator_whet" formatted="false">"По этому адресу не ответил ни один сервер Reactive Resume. Проверьте правильность написания или спросите администратора, разрешает ли сервер вход в приложение."</string>
     <!-- No recognizable terms in this posting. -->
     <string name="no_recognizable_terms_in_this_posting" formatted="false">"В этой вакансии нет распознаваемых терминов."</string>
     <!-- No recorded answers are available. -->
@@ -4636,8 +4614,6 @@
     <string name="nothing_in_your_library_yet" formatted="false">"В вашей библиотеке пока ничего нет"</string>
     <!-- Nothing is applied for or created until you choose. -->
     <string name="nothing_is_applied_for_or_created_until_you_choose" formatted="false">"Ничего не отправляется и не создается, пока вы не решите."</string>
-    <!-- Nothing is sent until you choose a connection for this conversation. -->
-    <string name="nothing_is_sent_until_you_choose_a_connection_for_this_conversation" formatted="false">"Ничего не отправляется, пока вы не выберете подключение для этого разговора."</string>
     <!-- Nothing marks a role as ongoing. -->
     <string name="nothing_marks_a_role_as_ongoing" formatted="false">"Ничто не указывает, что должность занимается по настоящее время."</string>
     <!-- Nothing on this day. -->
@@ -4711,8 +4687,8 @@
     <string name="on" formatted="false">"Вкл."</string>
     <!-- On. Anyone with the link can see your web page. -->
     <string name="on_anyone_with_the_link_can_see_your_web_page" formatted="false">"Включено. Вашу веб-страницу может открыть любой, у кого есть ссылка."</string>
-    <!-- On iOS, choose Keep for review, then reopen app in the Share extension. Reopen Reactive Resume yourself within 15 minutes. Sign in here before sharing. -->
-    <string name="on_ios_choose_keep_for_review_then_reopen_app_in_the_share_extension_reopen_reactive_resume_yourself" formatted="false">"На iOS выберите «Keep for review», затем снова откройте приложение в расширении «Поделиться». Вернитесь в Reactive Resume самостоятельно в течение 15 минут. Перед тем как делиться, войдите здесь."</string>
+    <!-- On iOS, choose Keep for review, then reopen app in the Share extension. Reopen Lebenslauf2 yourself within 15 minutes. Sign in here before sharing. -->
+    <string name="on_ios_choose_keep_for_review_then_reopen_app_in_the_share_extension_reopen_lebenslauf2_yourself_wit" formatted="false">"На iOS выберите «Keep for review», затем снова откройте приложение в расширении «Поделиться». Вернитесь в Lebenslauf2 самостоятельно в течение 15 минут. Перед тем как делиться, войдите здесь."</string>
     <!-- On. Visitors need the link and password to see your web page. -->
     <string name="on_visitors_need_the_link_and_password_to_see_your_web_page" formatted="false">"Включено. Для просмотра вашей веб-страницы посетителям нужны ссылка и пароль."</string>
     <!-- Once a round is scheduled, Interview prep builds a timed plan, your opening and the questions to ask. -->
@@ -4973,14 +4949,14 @@
     <string name="pdf_check_canceled_retry_when_ready" formatted="false">"Проверка PDF отменена. Повторите, когда будете готовы."</string>
     <!-- PDF import -->
     <string name="pdf_import" formatted="false">"Импорт PDF"</string>
-    <!-- PDF only · up to 10 MB each. Linking a Reactive Resume enables a fit check against each requirement and tailoring. -->
-    <string name="pdf_only_up_to_10_mb_each_linking_a_reactive_resume_enables_a_fit_check_against_each_requirement_and" formatted="false">"Только PDF · до 10 МБ каждый. Если связать резюме Reactive Resume, станут доступны проверка соответствия каждому требованию и адаптация."</string>
-    <!-- PDF reads its text layer on your server by default, without AI. Turn on the AI switch to send it to your provider. Word (.docx) needs an AI provider. Current and v4 Reactive Resume JSON, cover letters, JSON Resume and LinkedIn exports (.zip) are supported. Up to 10 MB. -->
-    <string name="pdf_reads_its_text_layer_on_your_server_by_default_without_ai_turn_on_the_ai_switch_to_send_it_to_yo" formatted="false">"По умолчанию текстовый слой PDF читается на вашем сервере, без ИИ. Включите переключатель ИИ, чтобы отправить его вашему провайдеру. Для Word (.docx) нужен провайдер ИИ. Поддерживаются JSON текущей версии и v4 Reactive Resume, сопроводительные письма, JSON Resume и экспорт LinkedIn (.zip). До 10 МБ."</string>
+    <!-- PDF only · up to 10 MB each. Linking a Lebenslauf2 enables a fit check against each requirement and tailoring. -->
+    <string name="pdf_only_up_to_10_mb_each_linking_a_lebenslauf2_enables_a_fit_check_against_each_requirement_and_tai" formatted="false">"Только PDF · до 10 МБ каждый. Если связать резюме Lebenslauf2, станут доступны проверка соответствия каждому требованию и адаптация."</string>
+    <!-- PDF reads its text layer on your server by default, without AI. Turn on the AI switch to send it to your provider. Word (.docx) needs an AI provider. Current and v4 Lebenslauf2 JSON, cover letters, JSON Resume and LinkedIn exports (.zip) are supported. Up to 10 MB. -->
+    <string name="pdf_reads_its_text_layer_on_your_server_by_default_without_ai_turn_on_the_ai_switch_to_send_it_to_yo" formatted="false">"По умолчанию текстовый слой PDF читается на вашем сервере, без ИИ. Включите переключатель ИИ, чтобы отправить его вашему провайдеру. Для Word (.docx) нужен провайдер ИИ. Поддерживаются JSON текущей версии и v4 Lebenslauf2, сопроводительные письма, JSON Resume и экспорт LinkedIn (.zip). До 10 МБ."</string>
     <!-- PDF styles support a subset of CSS. Rotation, dashed and dotted borders, and some layout properties are ignored. -->
     <string name="pdf_styles_support_a_subset_of_css_rotation_dashed_and_dotted_borders_and_some_layout_properties_are" formatted="false">"Стили PDF поддерживают подмножество CSS. Поворот, пунктирные и пунктирные границы, а также некоторые свойства макета игнорируются."</string>
-    <!-- PDF, Word, Reactive Resume, JSON Resume or LinkedIn export. -->
-    <string name="pdf_word_reactive_resume_json_resume_or_linkedin_export" formatted="false">"Экспорт PDF, Word, Reactive Resume, JSON Resume или LinkedIn."</string>
+    <!-- PDF, Word, Lebenslauf2, JSON Resume or LinkedIn export. -->
+    <string name="pdf_word_lebenslauf2_json_resume_or_linkedin_export" formatted="false">"Экспорт PDF, Word, Lebenslauf2, JSON Resume или LinkedIn."</string>
     <!-- {pending, plural, one {# proposed edit on this page · nothing changes until you accept} other {# proposed edits on this page · nothing changes until you accept}} -->
     <!-- Arguments: %1$s = {pending} -->
     <plurals name="pending_plural_one_proposed_edit_on_this_page_nothing_changes_until_you_accept_other_proposed_edits">
@@ -5098,8 +5074,6 @@
     <!-- Practice in {company}’s workspace -->
     <!-- Arguments: %1$s = {company} -->
     <string name="practice_in_company_s_workspace">"Репетировать в рабочей области %1$s"</string>
-    <!-- Practice priorities, not conclusions about why an employer decided anything. -->
-    <string name="practice_priorities_not_conclusions_about_why_an_employer_decided_anything" formatted="false">"Приоритеты для тренировки, а не выводы о том, почему работодатель принял то или иное решение."</string>
     <!-- Practice priority: -->
     <string name="practice_priority" formatted="false">"Приоритет для тренировки:"</string>
     <!-- Practice without an application -->
@@ -5312,8 +5286,6 @@
     <string name="re_export_with_fonts_embedded_and_check_the_text_copies_out_cleanly" formatted="false">"Экспортируйте заново со встроенными шрифтами и проверьте, что текст копируется без искажений."</string>
     <!-- Re-export with fonts embedded, then open the file and check that the text copies out cleanly. -->
     <string name="re_export_with_fonts_embedded_then_open_the_file_and_check_that_the_text_copies_out_cleanly" formatted="false">"Экспортируйте заново со встроенными шрифтами, затем откройте файл и проверьте, что текст копируется без искажений."</string>
-    <!-- Reactive Resume -->
-    <string name="reactive_resume" formatted="false">"Reactive Resume"</string>
     <!-- Read briefing -->
     <string name="read_briefing" formatted="false">"Читать брифинг"</string>
     <!-- Read, change and delete documents and applications (legacy connection). -->
@@ -6051,8 +6023,6 @@
     <string name="search_or_run" formatted="false">"Ищите или бегите…"</string>
     <!-- Search saved answers -->
     <string name="search_saved_answers" formatted="false">"Поиск по сохранённым ответам"</string>
-    <!-- Search terms go to your web search service. -->
-    <string name="search_terms_go_to_your_web_search_service" formatted="false">"Поисковые запросы отправляются в ваш сервис веб-поиска."</string>
     <!-- Search the web -->
     <string name="search_the_web" formatted="false">"Поиск в интернете"</string>
     <!-- Search timezones -->
@@ -6132,51 +6102,8 @@
     <string name="sender_details_copied_into_the_letter" formatted="false">"Данные отправителя скопированы в письмо"</string>
     <!-- Sending… -->
     <string name="sending" formatted="false">"Отправка…"</string>
-    <!-- Sends {0} to {label}. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {label} -->
-    <string name="sends_0_to_label">"Отправляет %1$s в %2$s."</string>
-    <!-- Sends only your selected resume and up to 20 active shared facts to this connection. No application profile, saved answers or private application facts. Your provider may charge. -->
-    <string name="sends_only_your_selected_resume_and_up_to_20_active_shared_facts_to_this_connection_no_application_p" formatted="false">"В это подключение отправляются только выбранное вами резюме и до 20 активных общих фактов. Без профиля для заявок, сохранённых ответов и закрытых фактов заявок. Ваш провайдер может взимать плату."</string>
-    <!-- Sends the {0} posting to {1} · {2} to draft the body. Your provider may charge. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1}, %3$s = {2} -->
-    <string name="sends_the_0_posting_to_1_2_to_draft_the_body_your_provider_may_charge">"Отправляет вакансию %1$s в %2$s · %3$s, чтобы составить основной текст. Ваш провайдер может взимать плату."</string>
-    <!-- Sends the posting text to {0} to read it. -->
-    <!-- Arguments: %1$s = {0} -->
-    <string name="sends_the_posting_text_to_0_to_read_it">"Отправляет текст вакансии в %1$s для чтения."</string>
     <!-- Sends this application and enabled Knowledge to this connection. Your provider may charge. Scheduled work never switches to another connection automatically. -->
     <string name="sends_this_application_and_enabled_knowledge_to_this_connection_your_provider_may_charge_scheduled_w" formatted="false">"Отправляет эту заявку и включённые «Знания» в это подключение. Ваш провайдер может взимать плату. Работа по расписанию никогда не переключается на другое подключение автоматически."</string>
-    <!-- Sends this letter's resume and the {0} posting to {1} · {2} to draft the body. Your provider may charge. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1}, %3$s = {2} -->
-    <string name="sends_this_letter_s_resume_and_the_0_posting_to_1_2_to_draft_the_body_your_provider_may_charge">"Отправляет резюме этого письма и вакансию %1$s в %2$s · %3$s, чтобы составить основной текст. Ваш провайдер может взимать плату."</string>
-    <!-- Sends this letter's resume to {0} · {1} to draft the body. Your provider may charge. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1} -->
-    <string name="sends_this_letter_s_resume_to_0_1_to_draft_the_body_your_provider_may_charge">"Отправляет резюме этого письма в %1$s · %2$s, чтобы составить основной текст. Ваш провайдер может взимать плату."</string>
-    <!-- Sends this line, surrounding field text and your instructions to {0} · {1}. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1} -->
-    <string name="sends_this_line_surrounding_field_text_and_your_instructions_to_0_1">"Отправляет эту строку, окружающий текст поля и ваши инструкции в %1$s · %2$s."</string>
-    <!-- Sends this paragraph, the rest of the letter and your instructions to {0} · {1}. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1} -->
-    <string name="sends_this_paragraph_the_rest_of_the_letter_and_your_instructions_to_0_1">"Отправляет этот абзац, остальную часть письма и ваши указания в %1$s · %2$s."</string>
-    <!-- Sends this paragraph, the rest of the letter, the linked job posting and your instructions to {0} · {1}. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1} -->
-    <string name="sends_this_paragraph_the_rest_of_the_letter_the_linked_job_posting_and_your_instructions_to_0_1">"Отправляет этот абзац, остальную часть письма, связанную вакансию и ваши указания в %1$s · %2$s."</string>
-    <!-- Sends this PDF to your configured AI provider instead of reading its text layer. -->
-    <string name="sends_this_pdf_to_your_configured_ai_provider_instead_of_reading_its_text_layer" formatted="false">"Отправляет этот PDF настроенному провайдеру AI вместо чтения его текстового слоя."</string>
-    <!-- Sends your message and this application (posting, notes, documents, your form answers, the saved offer and recent messages) to {label}. -->
-    <!-- Arguments: %1$s = {label} -->
-    <string name="sends_your_message_and_this_application_posting_notes_documents_your_form_answers_the_saved_offer_an">"Отправляет ваше сообщение и эту заявку (вакансию, заметки, документы, ваши ответы для формы, сохранённое предложение и последние сообщения) в %1$s."</string>
-    <!-- Sends your message, earlier messages and this application (posting, notes, documents, your form answers, the saved offer and recent messages) to {label}. -->
-    <!-- Arguments: %1$s = {label} -->
-    <string name="sends_your_message_earlier_messages_and_this_application_posting_notes_documents_your_form_answers_t">"Отправляет ваше сообщение, предыдущие сообщения и эту заявку (вакансию, заметки, документы, ваши ответы для формы, сохранённое предложение и последние сообщения) в %1$s."</string>
-    <!-- Sends your message, earlier messages here, this application (posting, notes, documents, your form answers, the saved offer and recent messages) and Knowledge that's switched on, to {label}. -->
-    <!-- Arguments: %1$s = {label} -->
-    <string name="sends_your_message_earlier_messages_here_this_application_posting_notes_documents_your_form_answers">"Отправляет ваше сообщение, предыдущие сообщения здесь, этот отклик (вакансию, заметки, документы, ваши ответы в формах, сохранённое предложение и последние сообщения) и включённые Знания в %1$s."</string>
-    <!-- Sends your message, this application (posting, notes, documents, your form answers, the saved offer and recent messages) and Knowledge that's switched on, to {label}. -->
-    <!-- Arguments: %1$s = {label} -->
-    <string name="sends_your_message_this_application_posting_notes_documents_your_form_answers_the_saved_offer_and_re">"Отправляет ваше сообщение, этот отклик (вакансию, заметки, документы, ваши ответы в формах, сохранённое предложение и последние сообщения) и включённые Знания в %1$s."</string>
-    <!-- Sends your resume's text only to {0} · {1}, with your key. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1} -->
-    <string name="sends_your_resume_s_text_only_to_0_1_with_your_key">"Отправляет текст вашего резюме только на номер %1$s · %2$s с вашим ключом."</string>
     <!-- Sent -->
     <string name="sent" formatted="false">"Отправил"</string>
     <!-- Sent: {0} -->
@@ -6326,8 +6253,8 @@
     <string name="show_less" formatted="false">"Свернуть"</string>
     <!-- Show link in title -->
     <string name="show_link_in_title" formatted="false">"Показать ссылку в заголовке"</string>
-    <!-- Show “Made with Reactive Resume” -->
-    <string name="show_made_with_reactive_resume" formatted="false">"Показывать «Сделано с помощью Reactive Resume»"</string>
+    <!-- Show “Made with Lebenslauf2” -->
+    <string name="show_made_with_lebenslauf2" formatted="false">"Показывать «Сделано с помощью Lebenslauf2»"</string>
     <!-- Show more -->
     <string name="show_more" formatted="false">"Показать больше"</string>
     <!-- Show on page -->
@@ -6863,20 +6790,14 @@
     <string name="the_built_in_reader_remains_active" formatted="false">"Встроенный считыватель остается активным."</string>
     <!-- The checks are mechanical. This asks a language model how a reader might react to your bullets and suggests rewrites. It isn't part of the score. -->
     <string name="the_checks_are_mechanical_this_asks_a_language_model_how_a_reader_might_react_to_your_bullets_and_su" formatted="false">"Проверка механическая. Это запрашивает языковую модель, как читатель может отреагировать на записи вашего списка, и предлагает переписать. Это не часть оценки."</string>
-    <!-- The coach asks before remembering facts you state. -->
-    <string name="the_coach_asks_before_remembering_facts_you_state" formatted="false">"Коуч спрашивает, прежде чем запомнить сообщённые вами факты."</string>
     <!-- The coach doesn't remember anything from your messages. -->
     <string name="the_coach_doesn_t_remember_anything_from_your_messages" formatted="false">"Коуч ничего не запоминает из ваших сообщений."</string>
-    <!-- The coach doesn't remember anything you write. -->
-    <string name="the_coach_doesn_t_remember_anything_you_write" formatted="false">"Коуч ничего не запоминает из того, что вы пишете."</string>
     <!-- The coach isn't set up on this server. Whoever runs it needs to set ENCRYPTION_SECRET. -->
     <string name="the_coach_isn_t_set_up_on_this_server_whoever_runs_it_needs_to_set_encryption_secret" formatted="false">"Консультант не настроен на этом сервере. Администратору сервера нужно задать ENCRYPTION_SECRET."</string>
     <!-- The coach isn't set up on this server. Whoever runs it needs to set ENCRYPTION_SECRET. Knowledge, Offers and your applications work without it. -->
     <string name="the_coach_isn_t_set_up_on_this_server_whoever_runs_it_needs_to_set_encryption_secret_knowledge_offer" formatted="false">"Коуч не настроен на этом сервере. Администратору нужно задать ENCRYPTION_SECRET. Знания, Предложения и ваши заявки работают и без него."</string>
     <!-- The coach proposes each fact in the chat. Nothing is saved until you agree. -->
     <string name="the_coach_proposes_each_fact_in_the_chat_nothing_is_saved_until_you_agree" formatted="false">"Коуч предлагает каждый факт в чате. Ничего не сохраняется без вашего согласия."</string>
-    <!-- The coach remembers facts you state, and tells you. -->
-    <string name="the_coach_remembers_facts_you_state_and_tells_you" formatted="false">"Коуч запоминает сообщённые вами факты и говорит вам об этом."</string>
     <!-- The coach saves facts you state, and tells you. You can undo. -->
     <string name="the_coach_saves_facts_you_state_and_tells_you_you_can_undo" formatted="false">"Коуч сохраняет факты, которые вы сообщаете, и говорит вам об этом. Это можно отменить."</string>
     <!-- The connection couldn't be loaded or saved. Try again. -->
@@ -6887,8 +6808,6 @@
     <string name="the_connection_works_turn_on_use_this_provider_to_use_it" formatted="false">"Подключение работает. Включите «Используйте этого провайдера», чтобы применять его."</string>
     <!-- The copy gets the job's posting and keeps this resume as it is for other jobs. -->
     <string name="the_copy_gets_the_job_s_posting_and_keeps_this_resume_as_it_is_for_other_jobs" formatted="false">"Копия получает вакансию, а это резюме остаётся как есть для других вакансий."</string>
-    <!-- the cover letter for this job -->
-    <string name="the_cover_letter_for_this_job" formatted="false">"сопроводительное письмо для этой вакансии"</string>
     <!-- The current state will be saved as “Before restore” first. -->
     <string name="the_current_state_will_be_saved_as_before_restore_first" formatted="false">"Текущее состояние сначала будет сохранено как «Перед восстановлением»."</string>
     <!-- the document -->
@@ -6897,24 +6816,18 @@
     <string name="the_editor_opens_on_check_which_checks_the_imported_resume_again" formatted="false">"Редактор открывает панель «Проверка» и еще раз проверяет импортированное резюме."</string>
     <!-- The employer may have changed it since. -->
     <string name="the_employer_may_have_changed_it_since" formatted="false">"С тех пор работодатель мог изменить объявление."</string>
-    <!-- the employer's message -->
-    <string name="the_employer_s_message" formatted="false">"сообщение работодателя"</string>
     <!-- The end date is before the start date. Check both dates. -->
     <string name="the_end_date_is_before_the_start_date_check_both_dates" formatted="false">"Дата окончания раньше даты начала. Проверьте обе даты."</string>
     <!-- The follow-up is saved. To get a reminder, allow notifications in your device settings. -->
     <string name="the_follow_up_is_saved_to_get_a_reminder_allow_notifications_in_your_device_settings" formatted="false">"Напоминание связаться сохранено. Разрешите уведомления в настройках устройства, чтобы получить его."</string>
     <!-- The greeting follows the name. -->
     <string name="the_greeting_follows_the_name" formatted="false">"Приветствие следует за именем."</string>
-    <!-- the interview details -->
-    <string name="the_interview_details" formatted="false">"данные собеседования"</string>
     <!-- The interview is saved. To get a reminder, allow notifications in your device settings. -->
     <string name="the_interview_is_saved_to_get_a_reminder_allow_notifications_in_your_device_settings" formatted="false">"Собеседование сохранено. Чтобы получить напоминание, разрешите уведомления в настройках вашего устройства."</string>
     <!-- The key is encrypted on the server and never shown again. Saving tests the connection. -->
     <string name="the_key_is_encrypted_on_the_server_and_never_shown_again_saving_tests_the_connection" formatted="false">"Ключ зашифрован на сервере и больше никогда не отображается. Сохранение проверяет соединение."</string>
     <!-- The key was rejected. Check the key and test again. -->
     <string name="the_key_was_rejected_check_the_key_and_test_again" formatted="false">"Ключ отклонён. Проверьте ключ и протестируйте снова."</string>
-    <!-- the last messages -->
-    <string name="the_last_messages" formatted="false">"последние сообщения"</string>
     <!-- The lead time has passed. Saving runs the briefing now. -->
     <string name="the_lead_time_has_passed_saving_runs_the_briefing_now" formatted="false">"Запланированное время подготовки прошло. При сохранении брифинг начинается немедленно."</string>
     <!-- The letter as it is -->
@@ -6957,10 +6870,6 @@
     <string name="the_provider_limited_this_request_wait_and_try_again_check_your_account_quota" formatted="false">"Провайдер ограничил этот запрос. Подождите и попробуйте снова; проверьте квоту своего аккаунта."</string>
     <!-- The provider reported a server error. Try again later. -->
     <string name="the_provider_reported_a_server_error_try_again_later" formatted="false">"Провайдер сообщил об ошибке сервера. Попробуйте позже."</string>
-    <!-- the question and what you said -->
-    <string name="the_question_and_what_you_said" formatted="false">"вопрос и то, что вы сказали"</string>
-    <!-- the question and your answer -->
-    <string name="the_question_and_your_answer" formatted="false">"вопрос и ваш ответ"</string>
     <!-- The reason is kept for Insights. Linked documents aren't touched. -->
     <string name="the_reason_is_kept_for_insights_linked_documents_aren_t_touched" formatted="false">"Причина сохраняется в Insights. Связанные документы не трогаются."</string>
     <!-- The records aren't visible yet. Check again later. -->
@@ -6969,8 +6878,6 @@
     <string name="the_rest_of_the_file_isn_t_in_this_report" formatted="false">"Остальной части файла нет в этом отчете."</string>
     <!-- The resume as it is -->
     <string name="the_resume_as_it_is" formatted="false">"Резюме как оно есть"</string>
-    <!-- the resume for this job -->
-    <string name="the_resume_for_this_job" formatted="false">"резюме для этой вакансии"</string>
     <!-- The reviewer sees each one's stage and dates. Notes, contacts and pay stay private. -->
     <string name="the_reviewer_sees_each_one_s_stage_and_dates_notes_contacts_and_pay_stay_private" formatted="false">"Рецензент видит этап и даты каждой заявки. Заметки, контакты и оплата остаются закрытыми."</string>
     <!-- The same line repeats on every page. -->
@@ -6979,8 +6886,6 @@
     <string name="the_saved_key_isn_t_sent_to_a_new_base_url_enter_it_again" formatted="false">"Сохраненный ключ не отправляется на новый базовый URL-адрес. Введите ключ еще раз."</string>
     <!-- The saved key isn't sent to a new base URL. Enter it again if this server needs one. -->
     <string name="the_saved_key_isn_t_sent_to_a_new_base_url_enter_it_again_if_this_server_needs_one" formatted="false">"Сохраненный ключ не отправляется на новый базовый URL-адрес. Введите ключ еще раз, если этому серверу требуется ключ."</string>
-    <!-- the saved offer -->
-    <string name="the_saved_offer" formatted="false">"сохранённое предложение"</string>
     <!-- The score counts how reliably software reads your resume. It doesn't predict whether you'll be shortlisted. -->
     <string name="the_score_counts_how_reliably_software_reads_your_resume_it_doesn_t_predict_whether_you_ll_be_shortl" formatted="false">"Оценка учитывает, насколько надежно программное обеспечение считывает ваше резюме. Он не предсказывает, попадете ли вы в шорт-лист."</string>
     <!-- The score reflects how reliably text is extracted, not your chances. -->
@@ -7166,8 +7071,6 @@
     <string name="this_pdf_is_a_scanned_image_there_s_no_text_to_read_try_the_word_version_or_start_blank_and_paste_se" formatted="false">"Этот PDF представляет собой отсканированное изображение. Нет текста для чтения. Попробуйте версию Word или начните с пустых разделов и вставьте их."</string>
     <!-- This PDF is password protected. Save an unprotected copy and try again. -->
     <string name="this_pdf_is_password_protected_save_an_unprotected_copy_and_try_again" formatted="false">"Этот PDF защищён паролем. Сохраните незащищённую копию и попробуйте снова."</string>
-    <!-- this posting -->
-    <string name="this_posting" formatted="false">"эта вакансия"</string>
     <!-- This question couldn't be asked. Send a new message to continue. -->
     <string name="this_question_couldn_t_be_asked_send_a_new_message_to_continue" formatted="false">"Не удалось задать этот вопрос. Отправьте новое сообщение, чтобы продолжить."</string>
     <!-- This question didn't finish. -->
@@ -7614,8 +7517,8 @@
     <string name="use_url">"Используйте %1$s"</string>
     <!-- Use web access? -->
     <string name="use_web_access" formatted="false">"Использовать веб-доступ?"</string>
-    <!-- Use your browser’s Share action to send one posting URL or selected text to Reactive Resume. Receiving shares requires the latest store build; URL and paste import remain available. -->
-    <string name="use_your_browsers_share_action_to_send_one_posting_url_or_selected_text_to_reactive_resume_receiving" formatted="false">"Используйте действие «Поделиться» в браузере, чтобы отправить в Reactive Resume один URL вакансии или выделенный текст. Для получения требуется последняя версия из магазина приложений; импорт по URL и вставкой остаётся доступным."</string>
+    <!-- Use your browser’s Share action to send one posting URL or selected text to Lebenslauf2. Receiving shares requires the latest store build; URL and paste import remain available. -->
+    <string name="use_your_browsers_share_action_to_send_one_posting_url_or_selected_text_to_lebenslauf2_receiving_sha" formatted="false">"Используйте действие «Поделиться» в браузере, чтобы отправить в Lebenslauf2 один URL вакансии или выделенный текст. Для получения требуется последняя версия из магазина приложений; импорт по URL и вставкой остаётся доступным."</string>
     <!-- Use your editor's normal bullet list, so stray glyphs do not land mid-sentence. -->
     <string name="use_your_editor_s_normal_bullet_list_so_stray_glyphs_do_not_land_mid_sentence" formatted="false">"Используйте обычный маркированный список редактора, чтобы посторонние глифы не попадали в середину предложения."</string>
     <!-- Used: {summary} -->
@@ -7845,9 +7748,6 @@
     <string name="when_would_you_start" formatted="false">"Когда вы сможете приступить?"</string>
     <!-- When you're done, the browser closes and you come back here. -->
     <string name="when_you_re_done_the_browser_closes_and_you_come_back_here" formatted="false">"Когда вы закончите, браузер закроется, и вы вернетесь сюда."</string>
-    <!-- When you tap send, {list} go to your {connection}. -->
-    <!-- Arguments: %1$s = {list}, %2$s = {connection} -->
-    <string name="when_you_tap_send_list_go_to_your_connection">"Когда вы нажмете «Отправить», %1$s будут отправлены в %2$s."</string>
     <!-- Where applications come from -->
     <string name="where_applications_come_from" formatted="false">"Откуда приходят заявки"</string>
     <!-- Where you want to work -->
@@ -7876,8 +7776,6 @@
     <string name="width" formatted="false">"Ширина"</string>
     <!-- Willing to relocate -->
     <string name="willing_to_relocate" formatted="false">"Готов к переезду"</string>
-    <!-- With Knowledge off, nothing you write is remembered. -->
-    <string name="with_knowledge_off_nothing_you_write_is_remembered" formatted="false">"Когда «Знания» отключены, ничего из написанного вами не запоминается."</string>
     <!-- Within your office-day limit. -->
     <string name="within_your_office_day_limit" formatted="false">"В пределах лимита дней в офисе."</string>
     <!-- Without a fact, the coach and practice can't use this story. -->
@@ -8060,8 +7958,6 @@
     <string name="your_changes_on_this_device_will_be_replaced_by_the_saved_version" formatted="false">"Ваши изменения на этом устройстве будут заменены сохраненной версией."</string>
     <!-- Your contact details are not on the first page. -->
     <string name="your_contact_details_are_not_on_the_first_page" formatted="false">"Ваши контактные данные не на первой странице."</string>
-    <!-- your contacts -->
-    <string name="your_contacts" formatted="false">"ваши контакты"</string>
     <!-- Your data -->
     <string name="your_data" formatted="false">"Ваши данные"</string>
     <!-- Your dates are written several different ways. -->
@@ -8082,22 +7978,18 @@
     <string name="your_facts_stories_and_preferences_editing_knowledge_sends_nothing_to_an_ai_connection" formatted="false">"Ваши факты, истории и предпочтения. Изменение Знаний ничего не отправляет провайдеру AI."</string>
     <!-- Your focus -->
     <string name="your_focus" formatted="false">"Ваш фокус"</string>
-    <!-- your form answers -->
-    <string name="your_form_answers" formatted="false">"ваши ответы для формы"</string>
     <!-- Your headings look the same as your body text. -->
     <string name="your_headings_look_the_same_as_your_body_text" formatted="false">"Ваши заголовки выглядят так же, как основной текст."</string>
     <!-- Your job search starts here -->
     <string name="your_job_search_starts_here" formatted="false">"Ваш поиск работы начинается здесь"</string>
     <!-- your Knowledge -->
     <string name="your_knowledge" formatted="false">"ваши Знания"</string>
-    <!-- Your language is saved. Restart Reactive Resume to apply the new left-to-right or right-to-left layout. -->
-    <string name="your_language_is_saved_restart_reactive_resume_to_apply_the_new_left_to_right_or_right_to_left_layou" formatted="false">"Ваш язык сохранен. Перезапустите Reactive Resume, чтобы применить новую раскладку слева направо или справа налево."</string>
+    <!-- Your language is saved. Restart Lebenslauf2 to apply the new left-to-right or right-to-left layout. -->
+    <string name="your_language_is_saved_restart_lebenslauf2_to_apply_the_new_left_to_right_or_right_to_left_layout" formatted="false">"Ваш язык сохранен. Перезапустите Lebenslauf2, чтобы применить новую раскладку слева направо или справа налево."</string>
     <!-- Your lines are packed very tightly. -->
     <string name="your_lines_are_packed_very_tightly" formatted="false">"Ваши строки упакованы очень плотно."</string>
     <!-- Your margins are very narrow. -->
     <string name="your_margins_are_very_narrow" formatted="false">"Ваши поля очень узкие."</string>
-    <!-- your message -->
-    <string name="your_message" formatted="false">"ваше сообщение"</string>
     <!-- Your message is kept. -->
     <string name="your_message_is_kept" formatted="false">"Ваше сообщение сохранено."</string>
     <!-- Your name -->
@@ -8128,9 +8020,6 @@
     <string name="your_public_links_begin_with_server">"Ваши общедоступные ссылки начинаются с %1$s/"</string>
     <!-- Your public links will change -->
     <string name="your_public_links_will_change" formatted="false">"Ваши публичные ссылки изменятся"</string>
-    <!-- Your recording goes to {transcriberName} after you stop, to be transcribed. Your provider may charge. The server keeps transcripts, never recordings. -->
-    <!-- Arguments: %1$s = {transcriberName} -->
-    <string name="your_recording_goes_to_transcribername_after_you_stop_to_be_transcribed_your_provider_may_charge_the">"После остановки ваша запись передается на %1$s для расшифровки. Ваш провайдер может взимать плату. Сервер хранит стенограммы, а не записи."</string>
     <!-- Your request and relevant resume, letter, job posting, application, career information, conversation history, and attachments are sent through your server to this AI provider, according to the feature and context you selected. They can contain personal information. -->
     <string name="your_request_and_relevant_resume_letter_job_posting_application_career_information_conversation_hist" formatted="false">"Ваш запрос и соответствующее резюме, письмо, объявление о вакансии, заявление, информация о карьере, история разговоров и вложения отправляются через ваш сервер этому поставщику ИИ в соответствии с выбранной вами функцией и контекстом. Они могут содержать личную информацию."</string>
     <!-- Your requirements -->
@@ -8175,8 +8064,6 @@
     <string name="your_short_link_points_to_0_which_isn_t_published">"Ваша короткая ссылка указывает на «%1$s», которое не опубликовано."</string>
     <!-- Your short link says this resume isn't shared until you publish it again. -->
     <string name="your_short_link_says_this_resume_isn_t_shared_until_you_publish_it_again" formatted="false">"По вашей короткой ссылке будет показано, что это резюме не опубликовано, пока вы не опубликуете его снова."</string>
-    <!-- your stories -->
-    <string name="your_stories" formatted="false">"ваши истории"</string>
     <!-- Your story couldn't be loaded. -->
     <string name="your_story_couldn_t_be_loaded" formatted="false">"Не удалось загрузить вашу историю."</string>
     <!-- Your tags -->

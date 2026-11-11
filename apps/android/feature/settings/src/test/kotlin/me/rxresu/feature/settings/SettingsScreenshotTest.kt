@@ -108,7 +108,7 @@ class SettingsScreenshotTest : RrScreenshotTest() {
                             (profile?.data ?: ProfileData()).copy(
                                 address =
                                     (profile?.data?.address ?: Address()).copy(
-                                        city = "Lisbon, Portugal"
+                                        city = "Hanover, Germany"
                                     ),
                                 links =
                                     listOf(
@@ -131,19 +131,19 @@ class SettingsScreenshotTest : RrScreenshotTest() {
 
     @Test
     fun rootLight() =
-        capture("S1-Settings", false) { s, _ -> SettingsScreen(s, "https://rxresu.me", "1.0 (1)") }
+        capture("S1-Settings", false) { s, _ -> SettingsScreen(s, "https://lebenslauf2.florentin-one.de", "1.0 (1)") }
 
     @Test
     fun rootDark() =
-        capture("S1-Settings", true) { s, _ -> SettingsScreen(s, "https://rxresu.me", "1.0 (1)") }
+        capture("S1-Settings", true) { s, _ -> SettingsScreen(s, "https://lebenslauf2.florentin-one.de", "1.0 (1)") }
 
     @Test
     fun accountLight() =
-        capture("S2-Account", false) { s, _ -> AccountScreen(s, "https://rxresu.me") }
+        capture("S2-Account", false) { s, _ -> AccountScreen(s, "https://lebenslauf2.florentin-one.de") }
 
     @Test
     fun accountDark() =
-        capture("S2-Account", true) { s, _ -> AccountScreen(s, "https://rxresu.me") }
+        capture("S2-Account", true) { s, _ -> AccountScreen(s, "https://lebenslauf2.florentin-one.de") }
 
     @Test fun preferencesLight() = capture("S3-Preferences", false) { s, _ -> PreferencesScreen(s) }
 
@@ -190,7 +190,7 @@ class SettingsScreenshotTest : RrScreenshotTest() {
     @Test
     fun offline() =
         capture("S1-Offline", true) { s, _ ->
-            SettingsScreen(s.copy(offline = true, error = true), "https://rxresu.me", "1.0 (1)")
+            SettingsScreen(s.copy(offline = true, error = true), "https://lebenslauf2.florentin-one.de", "1.0 (1)")
         }
 
     @Test

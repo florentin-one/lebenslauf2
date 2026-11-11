@@ -2,25 +2,25 @@
 	"$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
 	"name": "reactive-resume",
 	"version": "1.1.0",
-	"description": "32 skills for resume writing, specific professions, cover letters, LinkedIn, portfolios and the job search, with optional Reactive Resume account tools.",
+	"description": "32 skills for resume writing, specific professions, cover letters, LinkedIn, portfolios and the job search, with optional Lebenslauf2 account tools.",
 	"author": { "name": "Amruth Pillai", "url": "https://amruthpillai.com" },
-	"homepage": "https://rxresu.me",
+	"homepage": "https://lebenslauf2.florentin-one.de",
 	"repository": "https://github.com/reactive-resume/reactive-resume",
 	"license": "MIT",
 	"keywords": ["resume", "cv", "job-search", "cover-letter", "interview"],
 	"extensions": {
 		"com.openai": {
 			"interface": {
-				"displayName": "Reactive Resume",
+				"displayName": "Lebenslauf2",
 				"shortDescription": "Build and tailor your resume",
-				"longDescription": "Write and review resumes with 32 skills, including fourteen role guides, first-job and career-change resumes, academic CVs, cover letters, LinkedIn profiles and portfolio case studies. Work from pasted text or connect Reactive Resume to read and edit resumes, cover letters and applications. Tailor a copy for a posting, track the search, prepare for interviews and negotiate offers. Skills preserve facts and estimates and require review and authorization for connected changes. Reactive Resume is free and open source.",
-				"developerName": "Reactive Resume",
+				"longDescription": "Write and review resumes with 32 skills, including fourteen role guides, first-job and career-change resumes, academic CVs, cover letters, LinkedIn profiles and portfolio case studies. Work from pasted text or connect Lebenslauf2 to read and edit resumes, cover letters and applications. Tailor a copy for a posting, track the search, prepare for interviews and negotiate offers. Skills preserve facts and estimates and require review and authorization for connected changes. Lebenslauf2 is free and open source.",
+				"developerName": "Lebenslauf2",
 				"category": "Productivity",
 				"capabilities": ["Read", "Write"],
-				"websiteURL": "https://rxresu.me",
+				"websiteURL": "https://lebenslauf2.florentin-one.de",
 				"supportURL": "https://github.com/reactive-resume/reactive-resume/issues",
-				"privacyPolicyURL": "https://docs.rxresu.me/legal/privacy-policy",
-				"termsOfServiceURL": "https://docs.rxresu.me/legal/terms-of-service",
+				"privacyPolicyURL": "https://docs.lebenslauf2.me/legal/privacy-policy",
+				"termsOfServiceURL": "https://docs.lebenslauf2.me/legal/terms-of-service",
 				"defaultPrompt": [
 					"List my resumes.",
 					"Tailor my resume to this job posting.",
@@ -34,7 +34,7 @@
 					"positive": [
 						{
 							"description": "Lists the account's resumes",
-							"prompt": "List my resumes in Reactive Resume.",
+							"prompt": "List my resumes in Lebenslauf2.",
 							"tools_triggered": "list_resumes",
 							"expected_behavior": "Returns the names of the resumes in the demo account, including Demo Resume."
 						},
@@ -74,7 +74,7 @@
 				}
 			},
 			"publication": {
-				"release_notes": "Adds 24 resume and career-writing skills, including fourteen profession-specific guides, for a collection of 32 skills with the Reactive Resume MCP server."
+				"release_notes": "Adds 24 resume and career-writing skills, including fourteen profession-specific guides, for a collection of 32 skills with the Lebenslauf2 MCP server."
 			}
 		}
 	}

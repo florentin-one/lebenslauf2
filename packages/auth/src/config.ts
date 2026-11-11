@@ -230,11 +230,11 @@ async function revokeTokensFromBeforeGrant(oauthQuery: string, headers: Headers 
 }
 
 /**
- * The Reactive Resume apps register their own client with this one callback. Only the signed official app receives it
+ * The Lebenslauf2 apps register their own client with this one callback. Only the signed official app receives it
  * (verified App Links and Universal Links; the web fallback opens it by package name), so an authorization code sent
  * there can't reach anyone else, and its sign-in skips the consent screen.
  */
-const FIRST_PARTY_APP_CALLBACK = "https://rxresu.me/auth/native-callback";
+const FIRST_PARTY_APP_CALLBACK = "https://lebenslauf2.florentin-one.de/auth/native-callback";
 
 async function trustFirstPartyClient(client: Record<string, unknown>) {
 	const redirects = client.redirect_uris;
@@ -746,7 +746,7 @@ const getAuthConfig = () => {
 	}
 
 	return betterAuth({
-		appName: "Reactive Resume",
+		appName: "Lebenslauf2",
 		baseURL: authBaseUrl,
 		secret: env.AUTH_SECRET,
 
@@ -1161,7 +1161,7 @@ const getAuthConfig = () => {
 			passkey(),
 			genericOAuth({ config: authConfigs }),
 			twoFactor({
-				issuer: "Reactive Resume",
+				issuer: "Lebenslauf2",
 				// Capitals without look-alike characters; the sign-in form also tries what's typed in capitals.
 				backupCodeOptions: { customBackupCodesGenerate: () => generateBackupCodes() },
 			}),

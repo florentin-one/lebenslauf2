@@ -1014,8 +1014,8 @@ msgid "{skipped, plural, one {# row had no company or role and was skipped.} oth
 msgstr "{skipped, plural, one {# riadok nemal spoločnosť ani pozíciu a bol preskočený.} few {# riadky nemali spoločnosť ani pozíciu a boli preskočené.} many {# riadka nemalo spoločnosť ani pozíciu a bolo preskočené.} other {# riadkov nemalo spoločnosť ani pozíciu a boli preskočené.}}"
 
 #: src/features/homepage/header.tsx
-msgid "{stars, plural, one {Star Reactive Resume on GitHub, # star} other {Star Reactive Resume on GitHub, # stars}}"
-msgstr "{stars, plural, one {Dajte Reactive Resume hviezdičku na GitHube, # hviezdička} few {Dajte Reactive Resume hviezdičku na GitHube, # hviezdičky} many {Dajte Reactive Resume hviezdičku na GitHube, # hviezdičky} other {Dajte Reactive Resume hviezdičku na GitHube, # hviezdičiek}}"
+msgid "{stars, plural, one {Star Lebenslauf2 on GitHub, # star} other {Star Lebenslauf2 on GitHub, # stars}}"
+msgstr "{stars, plural, one {Dajte Lebenslauf2 hviezdičku na GitHube, # hviezdička} few {Dajte Lebenslauf2 hviezdičku na GitHube, # hviezdičky} many {Dajte Lebenslauf2 hviezdičku na GitHube, # hviezdičky} other {Dajte Lebenslauf2 hviezdičku na GitHube, # hviezdičiek}}"
 
 #: src/features/documents/page-navigation.tsx
 msgid "{start}–{end} of {total}"
@@ -1248,8 +1248,8 @@ msgid "A accepts and R rejects the focused edit. ↑ and ↓ move between edits.
 msgstr "A akceptuje a R odmietne zameranú úpravu. ↑ a ↓ sa pohybujú medzi úpravami."
 
 #: src/routes/builder/letter/-components/download-sheet.tsx
-msgid "A backup of this letter. Imports back into Reactive Resume as a letter."
-msgstr "Záloha tohto listu. Importuje sa späť do Reactive Resume ako list."
+msgid "A backup of this letter. Imports back into Lebenslauf2 as a letter."
+msgstr "Záloha tohto listu. Importuje sa späť do Lebenslauf2 ako list."
 
 #: src/features/resume/editor/check/issues.ts
 msgid "A city and country let roles be matched to where you are."
@@ -1442,8 +1442,8 @@ msgid "About 90 seconds when spoken"
 msgstr "Asi 90 sekúnd nahlas"
 
 #: src/features/settings/root.tsx
-msgid "About Reactive Resume"
-msgstr "O aplikácii Reactive Resume"
+msgid "About Lebenslauf2"
+msgstr "O aplikácii Lebenslauf2"
 
 #: src/features/resume/editor/design/entries-group.tsx
 msgid "Accent"
@@ -2183,11 +2183,6 @@ msgstr "Koncept s pomocou AI"
 msgid "Albanian"
 msgstr "Albánčina"
 
-#: src/features/homepage/check.tsx
-#: src/features/homepage/sheet.tsx
-msgid "Alex Morgan"
-msgstr "Alex Morgan"
-
 #: src/features/resume/editor/write/rich-text-editor-field.tsx
 msgid "Align center"
 msgstr "Zarovnať na stred"
@@ -2638,7 +2633,7 @@ msgstr "Schváliť a vytvoriť balík"
 msgid "Approve change"
 msgstr "Schváliť zmenu"
 
-#. Email preview text. appName: Reactive Resume
+#. Email preview text. appName: Lebenslauf2
 #: src/features/auth/email-text.ts
 msgid "Approve changing your {appName} email address"
 msgstr "Schváľte zmenu e-mailovej adresy pre {appName}"
@@ -4028,8 +4023,8 @@ msgid "Complete {0} before saving."
 msgstr "Pred uložením vyplňte {0}."
 
 #: src/features/resume/share/download-tab.tsx
-msgid "Complete data backup. Imports back into Reactive Resume."
-msgstr "Úplná záloha údajov. Dá sa znova importovať do Reactive Resume."
+msgid "Complete data backup. Imports back into Lebenslauf2."
+msgstr "Úplná záloha údajov. Dá sa znova importovať do Lebenslauf2."
 
 #: src/features/ats-checker/messages.ts
 msgid "Compress or remove large images to keep uploads quick."
@@ -4071,17 +4066,17 @@ msgstr "Pred pridaním nového pohovoru potvrďte čas s {contact}."
 msgid "Confirm the time, link and who you'll meet. Glance at the resume and letter you sent."
 msgstr "Potvrďte čas, odkaz a s kým sa stretnete. Pozrite si životopis a list, ktoré ste poslali."
 
-#. Email sent to a new address to finish an email change. appName: Reactive Resume
+#. Email sent to a new address to finish an email change. appName: Lebenslauf2
 #: src/features/auth/email-text.ts
 msgid "Confirm this address to finish changing your {appName} email. The link works for 1 hour."
 msgstr "Potvrďte túto adresu a dokončite zmenu e-mailu pre {appName}. Odkaz platí 1 hodinu."
 
-#. Verification email. appName: Reactive Resume
+#. Verification email. appName: Lebenslauf2
 #: src/features/auth/email-text.ts
 msgid "Confirm this is your email address for {appName}. The link works for 1 hour."
 msgstr "Potvrďte, že toto je vaša e-mailová adresa pre {appName}. Odkaz platí 1 hodinu."
 
-#. Email preview text. appName: Reactive Resume
+#. Email preview text. appName: Lebenslauf2
 #: src/features/auth/email-text.ts
 msgid "Confirm your new {appName} email address"
 msgstr "Potvrďte svoju novú e-mailovú adresu pre {appName}"
@@ -4833,8 +4828,8 @@ msgid "Couldn't propose these edits: {0}"
 msgstr "Nepodarilo sa navrhnúť tieto úpravy: {0}"
 
 #: src/libs/error-message.ts
-msgid "Couldn't reach Reactive Resume. Check your internet connection, then try again."
-msgstr "Nepodarilo sa spojiť s Reactive Resume. Skontrolujte internetové pripojenie a skúste to znova."
+msgid "Couldn't reach Lebenslauf2. Check your internet connection, then try again."
+msgstr "Nepodarilo sa spojiť s Lebenslauf2. Skontrolujte internetové pripojenie a skúste to znova."
 
 #: src/features/documents/new-document-dialog.tsx
 msgid "Couldn't reach the AI provider. Try again in a moment."
@@ -6232,8 +6227,8 @@ msgid "Drag to reposition and use the slider to zoom before uploading."
 msgstr "Pred nahraním potiahnutím zmeňte polohu a pomocou posúvača priblížte obrázok."
 
 #: src/features/documents/new-document-dialog.tsx
-msgid "Drop a file here or browse. PDF, Word (needs AI), Reactive Resume, JSON Resume or a LinkedIn export (.zip). Sections come in ready to edit. For a PDF or Word file, anything that couldn't be placed is listed before you create the resume."
-msgstr "Presuňte sem súbor alebo ho vyhľadajte. PDF, Word (vyžaduje AI), Reactive Resume, JSON Resume alebo export z LinkedIn (.zip). Sekcie sú hneď pripravené na úpravu. Pri súbore PDF alebo Word sa pred vytvorením životopisu zobrazí všetko, čo sa nepodarilo zaradiť."
+msgid "Drop a file here or browse. PDF, Word (needs AI), Lebenslauf2, JSON Resume or a LinkedIn export (.zip). Sections come in ready to edit. For a PDF or Word file, anything that couldn't be placed is listed before you create the resume."
+msgstr "Presuňte sem súbor alebo ho vyhľadajte. PDF, Word (vyžaduje AI), Lebenslauf2, JSON Resume alebo export z LinkedIn (.zip). Sekcie sú hneď pripravené na úpravu. Pri súbore PDF alebo Word sa pred vytvorením životopisu zobrazí všetko, čo sa nepodarilo zaradiť."
 
 #: src/features/ats-checker/messages.ts
 msgid "Drop the pronouns and start from the verb. That is the convention in most markets."
@@ -6371,8 +6366,8 @@ msgid "Edit interview…"
 msgstr "Upraviť rozhovor…"
 
 #: src/features/ats-checker/checker.tsx
-msgid "Edit it in Reactive Resume"
-msgstr "Upravte ho v Reactive Resume"
+msgid "Edit it in Lebenslauf2"
+msgstr "Upravte ho v Lebenslauf2"
 
 #: src/components/input/chip-input.tsx
 msgid "Edit keyword"
@@ -6772,8 +6767,8 @@ msgid "Exact form URL"
 msgstr "Presná URL formulára"
 
 #: src/features/homepage/sections.tsx
-msgid "Exchange resume feedback, ask questions, and help shape Reactive Resume with the community."
-msgstr "Vymieňajte si spätnú väzbu k životopisom, pýtajte sa a pomôžte s komunitou formovať Reactive Resume."
+msgid "Exchange resume feedback, ask questions, and help shape Lebenslauf2 with the community."
+msgstr "Vymieňajte si spätnú väzbu k životopisom, pýtajte sa a pomôžte s komunitou formovať Lebenslauf2."
 
 #: src/features/resume/stylesheet/toolbar.tsx
 msgid "Exit focus mode"
@@ -7232,8 +7227,8 @@ msgid "For portals or recruiters who ask for Word. Layout is simplified."
 msgstr "Pre portály alebo recruiterov, ktorí žiadajú o Word. Rozloženie je zjednodušené."
 
 #: src/features/auth/email-text.ts
-msgid "For security, only use links from emails sent by Reactive Resume."
-msgstr "Z bezpečnostných dôvodov používajte len odkazy z e-mailov, ktoré poslal Reactive Resume."
+msgid "For security, only use links from emails sent by Lebenslauf2."
+msgstr "Z bezpečnostných dôvodov používajte len odkazy z e-mailov, ktoré poslal Lebenslauf2."
 
 #: src/features/career/workspace/debrief.tsx
 msgid "For the next round:"
@@ -7307,17 +7302,17 @@ msgstr "Nájdené pre „{0}“. Inzerát skontrolovaný {1}."
 
 #: src/features/career/schedule-sheet.tsx
 #: src/libs/orpc/ai-consent.ts
-msgid "Found posting links are read by Reactive Resume and the sites being read."
-msgstr "Odkazy na nájdené inzeráty číta Reactive Resume a čítané stránky."
+msgid "Found posting links are read by Lebenslauf2 and the sites being read."
+msgstr "Odkazy na nájdené inzeráty číta Lebenslauf2 a čítané stránky."
 
 #. placeholder {0}: webAccess.provider
 #: src/features/career/schedule-sheet.tsx
-msgid "Found posting links are read by Reactive Resume and, when needed, {0} and the sites being read. The reader may charge."
-msgstr "Odkazy na nájdené inzeráty číta Reactive Resume, v prípade potreby {0}, a čítané stránky. Čítačka môže účtovať poplatky."
+msgid "Found posting links are read by Lebenslauf2 and, when needed, {0} and the sites being read. The reader may charge."
+msgstr "Odkazy na nájdené inzeráty číta Lebenslauf2, v prípade potreby {0}, a čítané stránky. Čítačka môže účtovať poplatky."
 
 #: src/libs/orpc/ai-consent.ts
-msgid "Found posting links are read by Reactive Resume and, when needed, {reader} and the sites being read. The reader may charge."
-msgstr "Odkazy na nájdené inzeráty číta Reactive Resume, v prípade potreby {reader}, a čítané stránky. Čítačka môže účtovať poplatky."
+msgid "Found posting links are read by Lebenslauf2 and, when needed, {reader} and the sites being read. The reader may charge."
+msgstr "Odkazy na nájdené inzeráty číta Lebenslauf2, v prípade potreby {reader}, a čítané stránky. Čítačka môže účtovať poplatky."
 
 #: src/features/applications/components/add-application-dialog.tsx
 msgid "Found the role and company on the page. Review the details before saving."
@@ -7544,8 +7539,8 @@ msgstr "Prejsť na odpovede do formulára"
 
 #: src/features/feedback/review-page.tsx
 #: src/features/resume/share/web-page-text.ts
-msgid "Go to Reactive Resume"
-msgstr "Prejsť na Reactive Resume"
+msgid "Go to Lebenslauf2"
+msgstr "Prejsť na Lebenslauf2"
 
 #: src/features/command-palette/pages/navigation.tsx
 msgid "Go to…"
@@ -7557,8 +7552,8 @@ msgid "Goes live at {0} when you publish."
 msgstr "Po zverejnení bude dostupné na {0}."
 
 #: src/features/resume/share/download-tab.tsx
-msgid "Good luck out there. Reactive Resume stays free because people chip in."
-msgstr "Veľa šťastia tam vonku. Reactive Resume zostáva zadarmo, pretože sa ľudia prihlásia."
+msgid "Good luck out there. Lebenslauf2 stays free because people chip in."
+msgstr "Veľa šťastia tam vonku. Lebenslauf2 zostáva zadarmo, pretože sa ľudia prihlásia."
 
 #. Authentication provider display name in account settings
 #. Brand name label for Google social sign-in button
@@ -7973,8 +7968,8 @@ msgid "If you didn't ask for this, you can ignore this email."
 msgstr "Ak ste o to nežiadali, môžete tento e-mail ignorovať."
 
 #: src/features/auth/pages/verify-2fa.tsx
-msgid "If you never verified your email address, a password reset turns two-step verification off. Otherwise a reset keeps it on, so ask the person who runs this Reactive Resume server to turn it off for your account. Then sign in with your password and turn it on again with a new authenticator."
-msgstr "Ak ste svoju e-mailovú adresu nikdy neoverili, obnovenie hesla vypne dvojstupňové overenie. Inak ho obnovenie ponechá zapnuté, preto požiadajte správcu tohto servera Reactive Resume, aby ho pre váš účet vypol. Potom sa prihláste heslom a znova ho zapnite s novou overovacou aplikáciou."
+msgid "If you never verified your email address, a password reset turns two-step verification off. Otherwise a reset keeps it on, so ask the person who runs this Lebenslauf2 server to turn it off for your account. Then sign in with your password and turn it on again with a new authenticator."
+msgstr "Ak ste svoju e-mailovú adresu nikdy neoverili, obnovenie hesla vypne dvojstupňové overenie. Inak ho obnovenie ponechá zapnuté, preto požiadajte správcu tohto servera Lebenslauf2, aby ho pre váš účet vypol. Potom sa prihláste heslom a znova ho zapnite s novou overovacou aplikáciou."
 
 #: src/features/resume/editor/check/check-panel.tsx
 msgid "Ignore"
@@ -8036,12 +8031,12 @@ msgid "Import the one you have, or start blank."
 msgstr "Importujte ten, ktorý máte, alebo začnite od nuly."
 
 #: src/features/ats-checker/checker.tsx
-msgid "Import this file into a free Reactive Resume to keep editing it, with Check reading it as you go."
-msgstr "Importujte tento súbor do bezplatného Reactive Resume a pokračujte v úpravách, pričom Kontrola ho bude priebežne čítať."
+msgid "Import this file into a free Lebenslauf2 to keep editing it, with Check reading it as you go."
+msgstr "Importujte tento súbor do bezplatného Lebenslauf2 a pokračujte v úpravách, pričom Kontrola ho bude priebežne čítať."
 
 #: src/features/ats-checker/checker.tsx
-msgid "Import this file into a free Reactive Resume, then keep checking it in Check as you edit. Check reads the resume you're editing, so its findings can differ from this file's."
-msgstr "Importujte tento súbor do bezplatného Reactive Resume a pri úpravách ho ďalej kontrolujte v Kontrole. Kontrola číta životopis, ktorý upravujete, takže jej zistenia sa môžu líšiť od tohto súboru."
+msgid "Import this file into a free Lebenslauf2, then keep checking it in Check as you edit. Check reads the resume you're editing, so its findings can differ from this file's."
+msgstr "Importujte tento súbor do bezplatného Lebenslauf2 a pri úpravách ho ďalej kontrolujte v Kontrole. Kontrola číta životopis, ktorý upravujete, takže jej zistenia sa môžu líšiť od tohto súboru."
 
 #: src/features/career/workspace/application-packet.tsx
 msgid "Import this file into the browser helper, review the destination and fill report. Unsupported forms use exact PDF downloads and copyable answers below. Native browser integration requires its own verified build."
@@ -8262,8 +8257,8 @@ msgid "Is equity part of the offer?"
 msgstr "Sú súčasťou ponuky akcie?"
 
 #: src/features/homepage/faq.tsx
-msgid "Is Reactive Resume really free?"
-msgstr "Je Reactive Resume naozaj zadarmo?"
+msgid "Is Lebenslauf2 really free?"
+msgstr "Je Lebenslauf2 naozaj zadarmo?"
 
 #: src/features/career/offers.tsx
 msgid "Is there a bonus, and what does it depend on?"
@@ -8780,6 +8775,11 @@ msgstr "Najnovšie"
 msgid "Latvian"
 msgstr "Lotyština"
 
+#: src/features/homepage/check.tsx
+#: src/features/homepage/sheet.tsx
+msgid "Laura Beier"
+msgstr ""
+
 #: src/features/ats-checker/messages.ts
 msgid "Lay the text out horizontally. Rotated runs are often dropped or misplaced."
 msgstr "Usporiadajte text vodorovne. Otočené úseky sa často strácajú alebo posúvajú."
@@ -8848,6 +8848,15 @@ msgstr "Nechajte prázdne a použije sa pôvodný názov."
 #: src/features/applications/components/import-applications-sheet.tsx
 msgid "Leave out"
 msgstr "Vynechať"
+
+#: src/features/settings/root.tsx
+#: src/routes/dashboard/settings/route.tsx
+msgid "Lebenslauf2 {__APP_VERSION__} · MIT"
+msgstr "Lebenslauf2 {__APP_VERSION__} · MIT"
+
+#: src/features/homepage/sections.tsx
+msgid "Lebenslauf2 is open source under the MIT License. Amruth Pillai and a community of contributors keep it running, and donations pay for hosting and development. There’s no paid tier."
+msgstr "Lebenslauf2 je open source pod licenciou MIT. Prevádzkujú ho Amruth Pillai a komunita prispievateľov a dary pokrývajú hosting a vývoj. Neexistuje žiadny platený program."
 
 #: src/features/homepage/sheet.tsx
 msgid "Led <0>user research</0> for the onboarding redesign; activation rose from 31% to 44%."
@@ -9047,12 +9056,12 @@ msgid "Link a fact to practice this story"
 msgstr "Pripojte fakt a precvičte si tento príbeh"
 
 #: src/features/applications/components/application-form-sheet.tsx
-msgid "Link a Reactive Resume (recommended)"
-msgstr "Prepojiť Reactive Resume (odporúčané)"
+msgid "Link a Lebenslauf2 (recommended)"
+msgstr "Prepojiť Lebenslauf2 (odporúčané)"
 
 #: src/features/applications/components/application-form-sheet.tsx
-msgid "Link a Reactive Resume to use a fit check against each requirement and tailoring."
-msgstr "Prepojte životopis z Reactive Resume, aby ste mohli použiť kontrolu vhodnosti voči každej požiadavke a prispôsobenie."
+msgid "Link a Lebenslauf2 to use a fit check against each requirement and tailoring."
+msgstr "Prepojte životopis z Lebenslauf2, aby ste mohli použiť kontrolu vhodnosti voči každej požiadavke a prispôsobenie."
 
 #: src/features/resume/editor/write/basics-card.tsx
 #: src/features/resume/editor/write/rich-text-editor-field.tsx
@@ -9399,8 +9408,8 @@ msgid "Lower the design sheet"
 msgstr "Znížte návrhový list"
 
 #: src/features/resume/share/web-page-text.ts
-msgid "Made with Reactive Resume, free and open source"
-msgstr "Vyrobené z Reactive Resume, bezplatný a otvorený zdroj"
+msgid "Made with Lebenslauf2, free and open source"
+msgstr "Vyrobené z Lebenslauf2, bezplatný a otvorený zdroj"
 
 #. Layout editor column label for the primary content area
 #: src/routes/builder/$resumeId/-sidebar/right/sections/layout/pages.tsx
@@ -10574,7 +10583,7 @@ msgstr "Nebola nájdená sekcia pracovných skúseností."
 msgid "No. {number} · {name}"
 msgstr "č. {number} · {name}"
 
-#. Receipt line amount for something Reactive Resume doesn't have, e.g. ads.
+#. Receipt line amount for something Lebenslauf2 doesn't have, e.g. ads.
 #: src/features/assistant/tool-approvals.tsx
 #: src/features/homepage/sections.tsx
 msgid "none"
@@ -11203,13 +11212,13 @@ msgstr "Otvoriť príbeh"
 msgid "Open the exported file and confirm you can select and copy every part of it."
 msgstr "Otvorte exportovaný súbor a overte, že môžete označiť a skopírovať každú jeho časť."
 
+#: src/routes/auth/native-callback.tsx
+msgid "Open the Lebenslauf2 app"
+msgstr "Otvorte aplikáciu Lebenslauf2"
+
 #: src/features/applications/components/detail/sent-documents.tsx
 msgid "Open the letter version sent"
 msgstr "Otvoriť odoslanú verziu listu"
-
-#: src/routes/auth/native-callback.tsx
-msgid "Open the Reactive Resume app"
-msgstr "Otvorte aplikáciu Reactive Resume"
 
 #: src/features/applications/components/detail/sent-documents.tsx
 msgid "Open the resume version sent"
@@ -11682,8 +11691,8 @@ msgid "PDF styles support a subset of CSS. Rotation, dashed and dotted borders, 
 msgstr "Štýly PDF podporujú podmnožinu CSS. Otočenie, prerušované a bodkované okraje a niektoré vlastnosti rozloženia sú ignorované."
 
 #: src/features/homepage/faq.tsx
-msgid "PDF, Word (DOCX), Markdown and JSON. The JSON export imports back into any Reactive Resume, including one you host yourself, so your data is never locked in."
-msgstr "PDF, Word (DOCX), Markdown a JSON. Export JSON sa importuje späť do ľubovoľného zariadenia Reactive Resume vrátane toho, ktorý hosťujete sami, takže vaše údaje nie sú nikdy uzamknuté."
+msgid "PDF, Word (DOCX), Markdown and JSON. The JSON export imports back into any Lebenslauf2, including one you host yourself, so your data is never locked in."
+msgstr "PDF, Word (DOCX), Markdown a JSON. Export JSON sa importuje späť do ľubovoľného zariadenia Lebenslauf2 vrátane toho, ktorý hosťujete sami, takže vaše údaje nie sú nikdy uzamknuté."
 
 #: src/features/documents/documents-page.tsx
 msgid "PDF, Word or JSON. We'll build a resume from it."
@@ -12449,15 +12458,6 @@ msgstr "Exportujte znova s vloženými písmami, potom otvorte súbor a overte, 
 #: src/features/homepage/prepare.tsx
 msgid "Re: Senior Product Designer"
 msgstr "Re: Senior Product Designer"
-
-#: src/features/settings/root.tsx
-#: src/routes/dashboard/settings/route.tsx
-msgid "Reactive Resume {__APP_VERSION__} · MIT"
-msgstr "Reactive Resume {__APP_VERSION__} · MIT"
-
-#: src/features/homepage/sections.tsx
-msgid "Reactive Resume is open source under the MIT License. Amruth Pillai and a community of contributors keep it running, and donations pay for hosting and development. There’s no paid tier."
-msgstr "Reactive Resume je open source pod licenciou MIT. Prevádzkujú ho Amruth Pillai a komunita prispievateľov a dary pokrývajú hosting a vývoj. Neexistuje žiadny platený program."
 
 #: src/features/applications/components/add-application-dialog.tsx
 #: src/features/applications/components/application-detail-sheet.tsx
@@ -13233,7 +13233,7 @@ msgstr "Obnoviť predvolené nastavenia dizajnu"
 msgid "Reset password"
 msgstr "Obnoviť heslo"
 
-#. Email preview text. appName: Reactive Resume
+#. Email preview text. appName: Lebenslauf2
 #: src/features/auth/email-text.ts
 msgid "Reset your {appName} password"
 msgstr "Obnovte si heslo pre {appName}"
@@ -14694,8 +14694,8 @@ msgid "Show"
 msgstr "Zobraziť"
 
 #: src/features/resume/share/share-panel.tsx
-msgid "Show “Made with Reactive Resume”"
-msgstr "Zobraziť „Vytvorené pomocou Reactive Resume“"
+msgid "Show “Made with Lebenslauf2”"
+msgstr "Zobraziť „Vytvorené pomocou Lebenslauf2“"
 
 #. placeholder {0}: i18n.number(Math.min(remaining, COLUMN_PAGE_SIZE))
 #. placeholder {0}: i18n.number(visible.length - shown.length)
@@ -15136,7 +15136,7 @@ msgstr "Časť textu je otočená."
 msgid "Some uploaded files were skipped. Check upload-manifest.json in the archive."
 msgstr "Niektoré nahrané súbory boli vynechané. Pozrite si upload-manifest.json v archíve."
 
-#. Email change approval. appName: Reactive Resume; previousEmail and newEmail are email addresses
+#. Email change approval. appName: Lebenslauf2; previousEmail and newEmail are email addresses
 #: src/features/auth/email-text.ts
 msgid "Someone asked to change your {appName} email from {previousEmail} to {newEmail}."
 msgstr "Niekto požiadal o zmenu vášho e-mailu pre {appName} z {previousEmail} na {newEmail}."
@@ -15288,8 +15288,8 @@ msgid "Standard section headings"
 msgstr "Štandardné nadpisy sekcií"
 
 #: src/features/homepage/header.tsx
-msgid "Star Reactive Resume on GitHub"
-msgstr "Označte hviezdičkou Reactive Resume na GitHub"
+msgid "Star Lebenslauf2 on GitHub"
+msgstr "Označte hviezdičkou Lebenslauf2 na GitHub"
 
 #: src/features/homepage/sections.tsx
 msgid "Stars on GitHub"
@@ -16601,8 +16601,8 @@ msgid "This file isn't a readable image. Choose a PNG, JPEG, WebP or GIF photo."
 msgstr "Tento súbor nie je čitateľný obrázok. Vyberte fotografiu vo formáte PNG, JPEG, WebP alebo GIF."
 
 #: src/features/documents/new-document-dialog.tsx
-msgid "This file type can't be imported. Use a PDF, Word, Reactive Resume or JSON Resume file, or a LinkedIn export (.zip)."
-msgstr "Tento typ súboru nie je možné importovať. Použite súbor PDF, Word, Reactive Resume alebo JSON Resume alebo export LinkedIn (.zip)."
+msgid "This file type can't be imported. Use a PDF, Word, Lebenslauf2 or JSON Resume file, or a LinkedIn export (.zip)."
+msgstr "Tento typ súboru nie je možné importovať. Použite súbor PDF, Word, Lebenslauf2 alebo JSON Resume alebo export LinkedIn (.zip)."
 
 #: src/features/ats-checker/messages.ts
 msgid "This file uses a lot of different fonts."
@@ -16638,8 +16638,8 @@ msgid "This is not a common resume page size."
 msgstr "Toto nie je bežná veľkosť strany pre životopis."
 
 #: src/features/documents/new-document-dialog.tsx
-msgid "This JSON isn't a Reactive Resume or JSON Resume file."
-msgstr "Tento JSON nie je súbor Reactive Resume ani JSON Resume."
+msgid "This JSON isn't a Lebenslauf2 or JSON Resume file."
+msgstr "Tento JSON nie je súbor Lebenslauf2 ani JSON Resume."
 
 #: src/routes/builder/letter/-components/download-sheet.tsx
 msgid "This letter and “{resumeName}” as two PDFs, named to match."
@@ -17848,7 +17848,7 @@ msgstr "Overiť pomocou záložného kódu"
 msgid "Verify your email"
 msgstr "Overte svoj e-mail"
 
-#. Email preview text. appName: Reactive Resume
+#. Email preview text. appName: Lebenslauf2
 #: src/features/auth/email-text.ts
 msgid "Verify your email for {appName}"
 msgstr "Overte svoj e-mail pre {appName}"
@@ -18015,7 +18015,7 @@ msgstr "Predtým: {0}"
 msgid "WCAG 2.1 AA"
 msgstr "WCAG 2.1 AA"
 
-#. Password reset email. appName: Reactive Resume
+#. Password reset email. appName: Lebenslauf2
 #: src/features/auth/email-text.ts
 msgid "We received a request to reset your {appName} password."
 msgstr "Dostali sme žiadosť o obnovenie vášho hesla pre {appName}."
@@ -18592,12 +18592,12 @@ msgid "Yes. Every job you track gets its own workspace: check your fit against t
 msgstr "Áno. Každá práca, ktorú sledujete, má vlastný pracovný priestor: overte si zhodu s inzerátom, navrhujte odpovede z príbehov, ktoré ste napísali raz, získajte krátky plán pred pohovorom, nacvičujte nahlas so spätnou väzbou a potom urobte rozbor. Keď prídu ponuky, porovnajte ich vedľa seba. Koučing používa váš vlastný kľúč AI; porovnanie ho nepotrebuje."
 
 #: src/features/homepage/faq.tsx
-msgid "Yes. Import a PDF, a LinkedIn data export, a JSON Resume file or a Reactive Resume export, then pick up where it left off. With an AI provider set up, Word documents work too."
-msgstr "áno. Importujte export údajov PDF, LinkedIn, súbor JSON Resume alebo export Reactive Resume a potom pokračujte tam, kde ste skončili. S nastavením poskytovateľa AI fungujú aj dokumenty Word."
+msgid "Yes. Import a PDF, a LinkedIn data export, a JSON Resume file or a Lebenslauf2 export, then pick up where it left off. With an AI provider set up, Word documents work too."
+msgstr "áno. Importujte export údajov PDF, LinkedIn, súbor JSON Resume alebo export Lebenslauf2 a potom pokračujte tam, kde ste skončili. S nastavením poskytovateľa AI fungujú aj dokumenty Word."
 
 #: src/features/homepage/faq.tsx
-msgid "Yes. Reactive Resume is open source under the MIT License and ships as a Docker image, so it runs on your own server with your own database and storage."
-msgstr "áno. Reactive Resume je open source pod MIT License a dodáva sa ako obraz Docker, takže beží na vašom vlastnom serveri s vašou vlastnou databázou a úložiskom."
+msgid "Yes. Lebenslauf2 is open source under the MIT License and ships as a Docker image, so it runs on your own server with your own database and storage."
+msgstr "áno. Lebenslauf2 je open source pod MIT License a dodáva sa ako obraz Docker, takže beží na vašom vlastnom serveri s vašou vlastnou databázou a úložiskom."
 
 #: src/features/career/coach-thread.tsx
 msgid "Yesterday"

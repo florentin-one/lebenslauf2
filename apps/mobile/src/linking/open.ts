@@ -37,7 +37,7 @@ export function redirectSystemPath({
 	path: string;
 	initial: boolean;
 }): Promise<string | null> | string {
-	if (/^me\.rxresu:\/\/\/?expo-sharing\/?$/.test(path)) return initial ? "/" : Promise.resolve(null);
+	if (/^me\.lebenslauf2:\/\/\/?expo-sharing\/?$/.test(path)) return initial ? "/" : Promise.resolve(null);
 	const immediate = parseDeepLink(path, getServer());
 	if (immediate?.kind === "callback") return path;
 	if (immediate?.kind === "root") return "/";

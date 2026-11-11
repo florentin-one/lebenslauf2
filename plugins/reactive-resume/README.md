@@ -1,13 +1,13 @@
-# Reactive Resume
+# Lebenslauf2
 
-Resume and job-search help for your AI agent, built around [Reactive Resume](https://rxresu.me), the free and open-source resume builder. The plugin bundles 32 skills and the Reactive Resume MCP server. Write from pasted text, build a resume for your profession, or connect your account to read and edit resumes, cover letters and applications.
+Resume and job-search help for your AI agent, built around [Lebenslauf2](https://lebenslauf2.florentin-one.de), the free and open-source resume builder. The plugin bundles 32 skills and the Lebenslauf2 MCP server. Write from pasted text, build a resume for your profession, or connect your account to read and edit resumes, cover letters and applications.
 
 ## Resume writing and review
 
 | Skill                      | What it does                                                                                           |
 | -------------------------- | ------------------------------------------------------------------------------------------------------ |
 | `resume-writer`            | Writes a complete resume, headline or summary as copy-ready text.                                      |
-| `resume-builder`           | Builds a new resume as Reactive Resume JSON, asking for missing facts.                                 |
+| `resume-builder`           | Builds a new resume as Lebenslauf2 JSON, asking for missing facts.                                     |
 | `resume-content-guide`     | Decides what belongs on a resume for your situation, country and industry, and audits an existing one. |
 | `accomplishment-inventory` | Recovers real achievements and builds an evidence bank before drafting.                                |
 | `resume-bullet-writer`     | Turns duties into impact bullets, asking for real numbers or honest ranges.                            |
@@ -57,11 +57,11 @@ The skills never invent employers, dates, numbers or results. They keep estimate
 
 ## MCP server
 
-The plugin connects to `https://rxresu.me/mcp`. The first time a skill needs your data, your agent asks you to sign in to Reactive Resume and approve access; no API key is stored in the plugin. Without signing in, the skills still work on text you paste.
+The plugin connects to `https://lebenslauf2.florentin-one.de/mcp`. The first time a skill needs your data, your agent asks you to sign in to Lebenslauf2 and approve access; no API key is stored in the plugin. Without signing in, the skills still work on text you paste.
 
-Your agent's provider processes the text you give it under its own terms. Connected tools read and save data in your Reactive Resume account under its [privacy policy](https://docs.rxresu.me/legal/privacy-policy). Tools that use AI (match scores, tailored summaries, drafted messages) also send data to the AI provider you configured in Reactive Resume; the skills ask before calling them. They do not upload your resume to outside scanners or publish private work samples without authorization.
+Your agent's provider processes the text you give it under its own terms. Connected tools read and save data in your Lebenslauf2 account under its [privacy policy](https://docs.lebenslauf2.me/legal/privacy-policy). Tools that use AI (match scores, tailored summaries, drafted messages) also send data to the AI provider you configured in Lebenslauf2; the skills ask before calling them. They do not upload your resume to outside scanners or publish private work samples without authorization.
 
-Self-hosting Reactive Resume? Install the skills on their own and connect your own server instead: `npx add-mcp <your-app-url>/mcp --name reactive-resume`.
+Self-hosting Lebenslauf2? Install the skills on their own and connect your own server instead: `npx add-mcp <your-app-url>/mcp --name reactive-resume`.
 
 ## Install
 
@@ -78,7 +78,7 @@ codex plugin marketplace add reactive-resume/reactive-resume
 codex plugin add reactive-resume@reactive-resume
 ```
 
-Then ask in plain language, for example "Tailor my resume to this job posting" or "Mock interview me for this role". Full guide: [Using agent skills](https://docs.rxresu.me/guides/using-agent-skills).
+Then ask in plain language, for example "Tailor my resume to this job posting" or "Mock interview me for this role". Full guide: [Using agent skills](https://docs.lebenslauf2.me/guides/using-agent-skills).
 
 ## Inspiration
 

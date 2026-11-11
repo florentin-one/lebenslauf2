@@ -4,8 +4,8 @@
     <!-- A: {answer} -->
     <!-- Arguments: %1$s = {answer} -->
     <string name="a_answer">"P: %1$s"</string>
-    <!-- A backup of this letter. Imports back into Reactive Resume as a letter. -->
-    <string name="a_backup_of_this_letter_imports_back_into_reactive_resume_as_a_letter" formatted="false">"Një kopje rezervë e kësaj letre. Importon përsëri në Reactive Resume si një letër."</string>
+    <!-- A backup of this letter. Imports back into Lebenslauf2 as a letter. -->
+    <string name="a_backup_of_this_letter_imports_back_into_lebenslauf2_as_a_letter" formatted="false">"Një kopje rezervë e kësaj letre. Importon përsëri në Lebenslauf2 si një letër."</string>
     <!-- A city and country let roles be matched to where you are. -->
     <string name="a_city_and_country_let_roles_be_matched_to_where_you_are" formatted="false">"Një qytet dhe vend lejojnë që rolet të përputhen me vendin ku jeni."</string>
     <!-- A comfortable length, and it fits on one page. -->
@@ -368,8 +368,6 @@
     <string name="ai_providers_couldn_t_be_loaded_reload_to_try_again" formatted="false">"Ofruesit e AI nuk mund të ngarkoheshin. Ringarko për të provuar sërish."</string>
     <!-- AI providers couldn't be loaded. Retry or fill the details manually. -->
     <string name="ai_providers_couldn_t_be_loaded_retry_or_fill_the_details_manually" formatted="false">"Ofruesit e AI nuk mund të ngarkoheshin. Provoni përsëri ose plotësoni detajet me dorë."</string>
-    <!-- AI reads pasted text only when you ask. Links can use the page’s own job data without AI. -->
-    <string name="ai_reads_pasted_text_only_when_you_ask_links_can_use_the_pages_own_job_data_without_ai" formatted="false">"AI lexon tekstin e ngjitur vetëm kur ju pyet. Lidhjet mund të përdorin të dhënat e punës së faqes pa AI."</string>
     <!-- AI request attempts: {0} -->
     <!-- Arguments: %1$s = {0} -->
     <string name="ai_request_attempts_0">"Përpjekje kërkesash AI: %1$s"</string>
@@ -377,8 +375,6 @@
     <string name="ai_request_history_unavailable_for_this_result" formatted="false">"Historiku i kërkesave AI nuk ofrohet për këtë rezultat."</string>
     <!-- AI settings -->
     <string name="ai_settings" formatted="false">"Parametrat e IA-së"</string>
-    <!-- AI suggestions, not verified qualifications or hiring predictions. Sources below are your statements. -->
-    <string name="ai_suggestions_not_verified_qualifications_or_hiring_predictions_sources_below_are_your_statements" formatted="false">"Sugjerime nga IA, jo kualifikime të verifikuara as parashikime punësimi. Burimet më poshtë janë deklarimet e tua."</string>
     <!-- AI usage couldn't be loaded. Try refreshing. Older servers may need an update. -->
     <string name="ai_usage_couldn_t_be_loaded_try_refreshing_older_servers_may_need_an_update" formatted="false">"Përdorimi i AI nuk u ngarkua. Rifreskoje. Serverët e vjetër mund të kërkojnë përditësim."</string>
     <!-- AI usage this week -->
@@ -440,8 +436,6 @@
     <string name="always_appears_in_today_email_requires_a_verified_address_and_server_mail_setup_no_push_notification" formatted="false">"Gjithmonë shfaqet në Sot. Email-i kërkon një adresë të verifikuar dhe një konfigurim të postës elektronike të serverit. Nuk dërgohen njoftime shtytëse."</string>
     <!-- Amharic -->
     <string name="amharic" formatted="false">"Amharisht"</string>
-    <!-- An AI reading to help you edit, not a prediction of how an employer or screening system will respond. -->
-    <string name="an_ai_reading_to_help_you_edit_not_a_prediction_of_how_an_employer_or_screening_system_will_respond" formatted="false">"Një lexim nga IA për të të ndihmuar të ndreqësh, jo parashikim i asaj se si do të përgjigjet një punëdhënës ose një sistem shqyrtimi."</string>
     <!-- An edit addresses it -->
     <string name="an_edit_addresses_it" formatted="false">"Një redaktim e trajton atë"</string>
     <!-- An embedded font could not be read. -->
@@ -636,9 +630,9 @@
     <string name="assistant" formatted="false">"Asistent"</string>
     <!-- Assistant conversations -->
     <string name="assistant_conversations" formatted="false">"Bisedat e asistentit"</string>
-    <!-- {at} · {providerLabel}. Sends this application and your Knowledge; your provider may charge. -->
+    <!-- {at} · {providerLabel} -->
     <!-- Arguments: %1$s = {at}, %2$s = {providerLabel} -->
-    <string name="at_providerlabel_sends_this_application_and_your_knowledge_your_provider_may_charge">"%1$s · %2$s. Dërgon këtë aplikimi dhe Njohuritë tuaj; ofruesi juaj mund të tarifojë."</string>
+    <string name="at_providerlabel">"%1$s · %2$s"</string>
     <!-- ATS checker -->
     <string name="ats_checker" formatted="false">"ATS kontrollues"</string>
     <!-- ATS-safe -->
@@ -1131,8 +1125,8 @@
     <!-- Complete {0} before saving. -->
     <!-- Arguments: %1$s = {0} -->
     <string name="complete_0_before_saving">"Plotësoni %1$s para se ta ruani."</string>
-    <!-- Complete data backup. Imports back into Reactive Resume. -->
-    <string name="complete_data_backup_imports_back_into_reactive_resume" formatted="false">"Rezervë e plotë e të dhënave. Importohet përsëri në Reactive Resume."</string>
+    <!-- Complete data backup. Imports back into Lebenslauf2. -->
+    <string name="complete_data_backup_imports_back_into_lebenslauf2" formatted="false">"Rezervë e plotë e të dhënave. Importohet përsëri në Lebenslauf2."</string>
     <!-- Complete the employer form manually in your browser using reviewed answers and approved PDFs. -->
     <string name="complete_the_employer_form_manually_in_your_browser_using_reviewed_answers_and_approved_pdfs" formatted="false">"Plotëso formularin e punëdhënësit manualisht në shfletuesin tënd duke përdorur përgjigjet e shqyrtuara dhe PDF-të e aprovuara."</string>
     <!-- {completed, plural, one {# document updated} other {# documents updated}} -->
@@ -1442,8 +1436,8 @@
     <!-- Couldn't propose these edits: {0} -->
     <!-- Arguments: %1$s = {0} -->
     <string name="couldn_t_propose_these_edits_0">"Nuk mund të propozoja këto modifikime: %1$s"</string>
-    <!-- Couldn't reach Reactive Resume. Check your internet connection, then try again. -->
-    <string name="couldn_t_reach_reactive_resume_check_your_internet_connection_then_try_again" formatted="false">"Nuk u arrit dot Reactive Resume. Kontrollo lidhjen e internetit, pastaj provo përsëri."</string>
+    <!-- Couldn't reach Lebenslauf2. Check your internet connection, then try again. -->
+    <string name="couldn_t_reach_lebenslauf2_check_your_internet_connection_then_try_again" formatted="false">"Nuk u arrit dot Lebenslauf2. Kontrollo lidhjen e internetit, pastaj provo përsëri."</string>
     <!-- Couldn't reach your AI provider. Try again or check its key in AI settings. -->
     <string name="couldn_t_reach_your_ai_provider_try_again_or_check_its_key_in_ai_settings" formatted="false">"Nuk mund të kontaktohej me ofruesin tënd të AI. Provo sërish ose kontrollo çelësin e tij te cilësimet e AI."</string>
     <!-- Couldn't read {name}'s answer. Try again, or switch the default provider in AI settings. -->
@@ -2056,8 +2050,6 @@
     <string name="earlier_discovery_result_search_query_and_posting_check_time_unknown" formatted="false">"Rezultat zbulimi i mëparshëm. Pyetja e kërkimit dhe koha e kontrollit të njoftimit janë të panjohura."</string>
     <!-- Earlier messages and attachments in this conversation will be sent to this destination when you send again. -->
     <string name="earlier_messages_and_attachments_in_this_conversation_will_be_sent_to_this_destination_when_you_send" formatted="false">"Mesazhet dhe bashkëngjimet e mëparshme në këtë bisedë do t\'i dërgohen këtij destinacioni kur të dërgosh përsëri."</string>
-    <!-- earlier messages in this chat -->
-    <string name="earlier_messages_in_this_chat" formatted="false">"mesazhet e mëparshme në këtë bisedë"</string>
     <!-- Edit -->
     <string name="edit" formatted="false">"Modifiko"</string>
     <!-- Edit {0} -->
@@ -2080,8 +2072,8 @@
     <string name="edit_first" formatted="false">"Ndreqe fillimisht"</string>
     <!-- Edit interview -->
     <string name="edit_interview" formatted="false">"Redakto intervistën"</string>
-    <!-- Edit it in Reactive Resume -->
-    <string name="edit_it_in_reactive_resume" formatted="false">"Ndreqe në Reactive Resume"</string>
+    <!-- Edit it in Lebenslauf2 -->
+    <string name="edit_it_in_lebenslauf2" formatted="false">"Ndreqe në Lebenslauf2"</string>
     <!-- Edit link -->
     <string name="edit_link" formatted="false">"Redakto lidhjen"</string>
     <!-- Edit note -->
@@ -2149,8 +2141,6 @@
     <string name="empty_trash" formatted="false">"Zbraz koshin"</string>
     <!-- Empty Trash? -->
     <string name="empty_trash_ab0a72a70c" formatted="false">"Të zbrazet Koshi?"</string>
-    <!-- enabled Knowledge -->
-    <string name="enabled_knowledge" formatted="false">"Njohuritë e aktivizuara"</string>
     <!-- End -->
     <string name="end" formatted="false">"fund"</string>
     <!-- English -->
@@ -2199,8 +2189,8 @@
     <string name="enter_any_model_id_supported_by_your_endpoint" formatted="false">"Vendosni çdo ID modeli që mbështetet nga pika juaj fundore."</string>
     <!-- Enter terms yourself. No AI request is made. Leave unknown amounts blank. -->
     <string name="enter_terms_yourself_no_ai_request_is_made_leave_unknown_amounts_blank" formatted="false">"Vendosni vetë kushtet. Nuk dërgohet asnjë kërkesë te IA-ja. Lërini bosh shumat e panjohura."</string>
-    <!-- Enter the address you open Reactive Resume at in a browser. The app checks it's a Reactive Resume server that allows app sign-in before you continue. -->
-    <string name="enter_the_address_you_open_reactive_resume_at_in_a_browser_the_app_checks_it_s_a_reactive_resume_ser" formatted="false">"Futni adresën në të cilën hapni Reactive Resume në një shfletues. Aplikacioni kontrollon se është një server Reactive Resume që lejon identifikimin në aplikacion përpara se të vazhdoni."</string>
+    <!-- Enter the address you open Lebenslauf2 at in a browser. The app checks it's a Lebenslauf2 server that allows app sign-in before you continue. -->
+    <string name="enter_the_address_you_open_lebenslauf2_at_in_a_browser_the_app_checks_it_s_a_lebenslauf2_server_that" formatted="false">"Futni adresën në të cilën hapni Lebenslauf2 në një shfletues. Aplikacioni kontrollon se është një server Lebenslauf2 që lejon identifikimin në aplikacion përpara se të vazhdoni."</string>
     <!-- Enter the API base URL of your service and test again. -->
     <string name="enter_the_api_base_url_of_your_service_and_test_again" formatted="false">"Fut URL-në bazë API të shërbimit tënd dhe testo përsëri."</string>
     <!-- Enter your details below. Choosing a resume replaces them and links its design. -->
@@ -2466,11 +2456,11 @@
     <!-- Found for “{0}”. Posting checked {1}. -->
     <!-- Arguments: %1$s = {0}, %2$s = {1} -->
     <string name="found_for_0_posting_checked_1">"U gjet për „%1$s“. Njoftimi u kontrollua %2$s."</string>
-    <!-- Found posting links are read by Reactive Resume and the sites being read. -->
-    <string name="found_posting_links_are_read_by_reactive_resume_and_the_sites_being_read" formatted="false">"Lidhjet e gjetura të njoftimeve lexohen nga Reactive Resume dhe nga site-et që po lexohen."</string>
-    <!-- Found posting links are read by Reactive Resume and, when needed, {reader} and the sites being read. The reader may charge. -->
+    <!-- Found posting links are read by Lebenslauf2 and the sites being read. -->
+    <string name="found_posting_links_are_read_by_lebenslauf2_and_the_sites_being_read" formatted="false">"Lidhjet e gjetura të njoftimeve lexohen nga Lebenslauf2 dhe nga site-et që po lexohen."</string>
+    <!-- Found posting links are read by Lebenslauf2 and, when needed, {reader} and the sites being read. The reader may charge. -->
     <!-- Arguments: %1$s = {reader} -->
-    <string name="found_posting_links_are_read_by_reactive_resume_and_when_needed_reader_and_the_sites_being_read_the">"Lidhjet e gjetura të njoftimeve lexohen nga Reactive Resume dhe, kur duhet, nga %1$s dhe nga site-et që po lexohen. Lexuesi mund të faturojë."</string>
+    <string name="found_posting_links_are_read_by_lebenslauf2_and_when_needed_reader_and_the_sites_being_read_the_read">"Lidhjet e gjetura të njoftimeve lexohen nga Lebenslauf2 dhe, kur duhet, nga %1$s dhe nga site-et që po lexohen. Lexuesi mund të faturojë."</string>
     <!-- Free-form -->
     <string name="free_form" formatted="false">"Formë e lirë"</string>
     <!-- French -->
@@ -2859,8 +2849,6 @@
     <!-- Its own design ({summary}). -->
     <!-- Arguments: %1$s = {summary} -->
     <string name="its_own_design_summary">"Dizajni i tij (%1$s)."</string>
-    <!-- its requirements -->
-    <string name="its_requirements" formatted="false">"kërkesat e saj"</string>
     <!-- Its saved key is deleted. Conversations using it need another provider. -->
     <string name="its_saved_key_is_deleted_conversations_using_it_need_another_provider" formatted="false">"Çelësi i tij i ruajtur fshihet. Bisedat duke e përdorur atë kanë nevojë për një ofrues tjetër."</string>
     <!-- Japanese -->
@@ -3054,6 +3042,8 @@
     <string name="leave_out" formatted="false">"Lëreni jashtë"</string>
     <!-- Leave without keeping the draft? -->
     <string name="leave_without_keeping_the_draft" formatted="false">"Të dalësh pa e mbajtur draftin?"</string>
+    <!-- Lebenslauf2 -->
+    <string name="lebenslauf2" formatted="false">"Lebenslauf2"</string>
     <!-- Left -->
     <string name="left" formatted="false">"Majtas"</string>
     <!-- Left blank. Add it later only if you can support it. -->
@@ -3308,8 +3298,6 @@
     <string name="managed_by_server" formatted="false">"Menaxhohet nga serveri"</string>
     <!-- Managed by your server -->
     <string name="managed_by_your_server" formatted="false">"Menaxhohet nga serveri juaj"</string>
-    <!-- Manual roles and preferences work without AI. Suggestions never search or schedule anything. -->
-    <string name="manual_roles_and_preferences_work_without_ai_suggestions_never_search_or_schedule_anything" formatted="false">"Rolet dhe preferencat manuale punojnë pa IA. Sugjerimet nuk kërkojnë as nuk planifikojnë kurrë asgjë."</string>
     <!-- Many bullets start with the same phrase. -->
     <string name="many_bullets_start_with_the_same_phrase" formatted="false">"Shumë pika fillojnë me të njëjtën frazë."</string>
     <!-- Mar 2022 -->
@@ -3527,12 +3515,6 @@
     <plurals name="message_0_plural_one_1_of_posting_term_covered_other_2_of_posting_terms_covered">
         <item quantity="one">"%2$s nga %1$s term i shpalljes i përfshirë"</item>
         <item quantity="other">"%3$s nga %1$s terma të shpalljes të përfshirë"</item>
-    </plurals>
-    <!-- {0, plural, one {Also sends {1}.} other {Also sends # files: {2}.}} -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1}, %3$s = {2} -->
-    <plurals name="message_0_plural_one_also_sends_1_other_also_sends_files_2">
-        <item quantity="one">"Dërgon gjithashtu %2$s."</item>
-        <item quantity="other">"Dërgon gjithashtu %1$s skedarë: %3$s."</item>
     </plurals>
     <!-- {0, plural, one {# answer} other {# answers}} -->
     <!-- Arguments: %1$s = {0} -->
@@ -3955,8 +3937,6 @@
     <string name="message_the_assistant" formatted="false">"Dërgojini mesazh asistentit"</string>
     <!-- Messages -->
     <string name="messages" formatted="false">"Mesazhet"</string>
-    <!-- Messages from before Knowledge changed aren't sent. -->
-    <string name="messages_from_before_knowledge_changed_aren_t_sent" formatted="false">"Mesazhet nga para ndryshimit të Njohurive nuk dërgohen."</string>
     <!-- Messages from before Knowledge changed aren't sent to the AI anymore, so it won't remember them. Start a new conversation to keep context together. -->
     <string name="messages_from_before_knowledge_changed_aren_t_sent_to_the_ai_anymore_so_it_won_t_remember_them_start" formatted="false">"Mesazhet nga para se të ndryshonin Njohuritë nuk i dërgohen më IA-së, kështu që nuk i kujton më. Fillo një bisedë të re që konteksti të mbahet bashkë."</string>
     <!-- Minimum base salary -->
@@ -4294,6 +4274,8 @@
     <string name="no_keys_yet" formatted="false">"Nuk ka ende çelësa."</string>
     <!-- No language matches. -->
     <string name="no_language_matches" formatted="false">"Nuk ka përputhje gjuhësore."</string>
+    <!-- No Lebenslauf2 server answered at this address. Check the spelling, or ask your administrator whether the server allows app sign-in. -->
+    <string name="no_lebenslauf2_server_answered_at_this_address_check_the_spelling_or_ask_your_administrator_whether" formatted="false">"Asnjë server Lebenslauf2 nuk u përgjigj në këtë adresë. Verifikoni drejtshkrimin ose pyesni administratorin nëse serveri lejon hyrjen në aplikacion."</string>
     <!-- No lines look like a job title paired with an employer. -->
     <string name="no_lines_look_like_a_job_title_paired_with_an_employer" formatted="false">"Asnjë rresht nuk duket si titull pune i shoqëruar me një punëdhënës."</string>
     <!-- No linked application -->
@@ -4326,8 +4308,6 @@
     <string name="no_photo_most_ats_ignore_photos_some_regions_expect_one" formatted="false">"Asnjë foto. Shumica e ATS injorojnë fotot; disa rajone presin një të tillë."</string>
     <!-- No postings found. Try different keywords. -->
     <string name="no_postings_found_try_different_keywords" formatted="false">"Nuk u gjet asnjë njoftim pune. Provoni fjalë kyçe të ndryshme."</string>
-    <!-- No Reactive Resume server answered at this address. Check the spelling, or ask your administrator whether the server allows app sign-in. -->
-    <string name="no_reactive_resume_server_answered_at_this_address_check_the_spelling_or_ask_your_administrator_whet" formatted="false">"Asnjë server Reactive Resume nuk u përgjigj në këtë adresë. Verifikoni drejtshkrimin ose pyesni administratorin nëse serveri lejon hyrjen në aplikacion."</string>
     <!-- No recognizable terms in this posting. -->
     <string name="no_recognizable_terms_in_this_posting" formatted="false">"Nuk ka terma të njohur në këtë shpallje."</string>
     <!-- No recorded answers are available. -->
@@ -4450,8 +4430,6 @@
     <string name="nothing_in_your_library_yet" formatted="false">"Ende asgjë në bibliotekën tënde"</string>
     <!-- Nothing is applied for or created until you choose. -->
     <string name="nothing_is_applied_for_or_created_until_you_choose" formatted="false">"Asgjë nuk aplikohet apo krijohet derisa të zgjidhni ju."</string>
-    <!-- Nothing is sent until you choose a connection for this conversation. -->
-    <string name="nothing_is_sent_until_you_choose_a_connection_for_this_conversation" formatted="false">"Asgjë nuk dërgohet derisa të zgjedhësh një lidhje për këtë bisedë."</string>
     <!-- Nothing marks a role as ongoing. -->
     <string name="nothing_marks_a_role_as_ongoing" formatted="false">"Asgjë nuk e shënon një rol si në vazhdim."</string>
     <!-- Nothing on this day. -->
@@ -4525,8 +4503,8 @@
     <string name="on" formatted="false">"Aktiv"</string>
     <!-- On. Anyone with the link can see your web page. -->
     <string name="on_anyone_with_the_link_can_see_your_web_page" formatted="false">"Aktiv. Kushdo që ka lidhjen mund ta shohë faqen tuaj të internetit."</string>
-    <!-- On iOS, choose Keep for review, then reopen app in the Share extension. Reopen Reactive Resume yourself within 15 minutes. Sign in here before sharing. -->
-    <string name="on_ios_choose_keep_for_review_then_reopen_app_in_the_share_extension_reopen_reactive_resume_yourself" formatted="false">"Në iOS, zgjidh „Mbaj për shqyrtim“, pastaj rihap aplikacionin në zgjerimin Share. Rihape vetë Reactive Resume brenda 15 minutash. Kyçu këtu përpara ndarjes."</string>
+    <!-- On iOS, choose Keep for review, then reopen app in the Share extension. Reopen Lebenslauf2 yourself within 15 minutes. Sign in here before sharing. -->
+    <string name="on_ios_choose_keep_for_review_then_reopen_app_in_the_share_extension_reopen_lebenslauf2_yourself_wit" formatted="false">"Në iOS, zgjidh „Mbaj për shqyrtim“, pastaj rihap aplikacionin në zgjerimin Share. Rihape vetë Lebenslauf2 brenda 15 minutash. Kyçu këtu përpara ndarjes."</string>
     <!-- On. Visitors need the link and password to see your web page. -->
     <string name="on_visitors_need_the_link_and_password_to_see_your_web_page" formatted="false">"Aktiv. Vizitorëve u duhen lidhja dhe fjalëkalimi për të parë faqen tuaj të internetit."</string>
     <!-- Once a round is scheduled, Interview prep builds a timed plan, your opening and the questions to ask. -->
@@ -4787,14 +4765,14 @@
     <string name="pdf_check_canceled_retry_when_ready" formatted="false">"Kontrolli i PDF-së u anulua. Provoni përsëri kur të jeni gati."</string>
     <!-- PDF import -->
     <string name="pdf_import" formatted="false">"Import PDF"</string>
-    <!-- PDF only · up to 10 MB each. Linking a Reactive Resume enables a fit check against each requirement and tailoring. -->
-    <string name="pdf_only_up_to_10_mb_each_linking_a_reactive_resume_enables_a_fit_check_against_each_requirement_and" formatted="false">"Vetëm PDF · deri në 10 MB secili. Lidhja e një Reactive Resume aktivizon një kontroll përputhjeje ndaj çdo kërkese dhe përshtatjen sipas punës."</string>
-    <!-- PDF reads its text layer on your server by default, without AI. Turn on the AI switch to send it to your provider. Word (.docx) needs an AI provider. Current and v4 Reactive Resume JSON, cover letters, JSON Resume and LinkedIn exports (.zip) are supported. Up to 10 MB. -->
-    <string name="pdf_reads_its_text_layer_on_your_server_by_default_without_ai_turn_on_the_ai_switch_to_send_it_to_yo" formatted="false">"PDF-i lexon shtresën e tij të tekstit në serverin tënd si parazgjedhje, pa IA. Aktivizo çelësin e IA-së për t\'ia dërguar ofruesit tënd. Word (.docx) lyp një ofrues IA. Mbështeten JSON-i aktual dhe v4 i Reactive Resume, letrat motivimi, JSON Resume dhe eksportet e LinkedIn (.zip). Deri në 10 MB."</string>
+    <!-- PDF only · up to 10 MB each. Linking a Lebenslauf2 enables a fit check against each requirement and tailoring. -->
+    <string name="pdf_only_up_to_10_mb_each_linking_a_lebenslauf2_enables_a_fit_check_against_each_requirement_and_tai" formatted="false">"Vetëm PDF · deri në 10 MB secili. Lidhja e një Lebenslauf2 aktivizon një kontroll përputhjeje ndaj çdo kërkese dhe përshtatjen sipas punës."</string>
+    <!-- PDF reads its text layer on your server by default, without AI. Turn on the AI switch to send it to your provider. Word (.docx) needs an AI provider. Current and v4 Lebenslauf2 JSON, cover letters, JSON Resume and LinkedIn exports (.zip) are supported. Up to 10 MB. -->
+    <string name="pdf_reads_its_text_layer_on_your_server_by_default_without_ai_turn_on_the_ai_switch_to_send_it_to_yo" formatted="false">"PDF-i lexon shtresën e tij të tekstit në serverin tënd si parazgjedhje, pa IA. Aktivizo çelësin e IA-së për t\'ia dërguar ofruesit tënd. Word (.docx) lyp një ofrues IA. Mbështeten JSON-i aktual dhe v4 i Lebenslauf2, letrat motivimi, JSON Resume dhe eksportet e LinkedIn (.zip). Deri në 10 MB."</string>
     <!-- PDF styles support a subset of CSS. Rotation, dashed and dotted borders, and some layout properties are ignored. -->
     <string name="pdf_styles_support_a_subset_of_css_rotation_dashed_and_dotted_borders_and_some_layout_properties_are" formatted="false">"Stilet PDF mbështesin një nëngrup të CSS. Rrotullimi, kufijtë e ndërprerë dhe me pika dhe disa veçori të strukturës nuk merren parasysh."</string>
-    <!-- PDF, Word, Reactive Resume, JSON Resume or LinkedIn export. -->
-    <string name="pdf_word_reactive_resume_json_resume_or_linkedin_export" formatted="false">"Eksporto PDF, Word, Reactive Resume, JSON Resume ose LinkedIn."</string>
+    <!-- PDF, Word, Lebenslauf2, JSON Resume or LinkedIn export. -->
+    <string name="pdf_word_lebenslauf2_json_resume_or_linkedin_export" formatted="false">"Eksporto PDF, Word, Lebenslauf2, JSON Resume ose LinkedIn."</string>
     <!-- {pending, plural, one {# proposed edit on this page · nothing changes until you accept} other {# proposed edits on this page · nothing changes until you accept}} -->
     <!-- Arguments: %1$s = {pending} -->
     <plurals name="pending_plural_one_proposed_edit_on_this_page_nothing_changes_until_you_accept_other_proposed_edits">
@@ -4910,8 +4888,6 @@
     <!-- Practice in {company}’s workspace -->
     <!-- Arguments: %1$s = {company} -->
     <string name="practice_in_company_s_workspace">"Ushtro në hapësirën e punës së %1$s"</string>
-    <!-- Practice priorities, not conclusions about why an employer decided anything. -->
-    <string name="practice_priorities_not_conclusions_about_why_an_employer_decided_anything" formatted="false">"Përparësi për ushtrim, jo përfundime se pse një punëdhënës vendosi diçka."</string>
     <!-- Practice priority: -->
     <string name="practice_priority" formatted="false">"Përparësia e ushtrimit:"</string>
     <!-- Practice without an application -->
@@ -5120,8 +5096,6 @@
     <string name="re_export_with_fonts_embedded_and_check_the_text_copies_out_cleanly" formatted="false">"Eksportoni përsëri me fontet e integruara, dhe kontrolloni që teksti kopjohet pastër."</string>
     <!-- Re-export with fonts embedded, then open the file and check that the text copies out cleanly. -->
     <string name="re_export_with_fonts_embedded_then_open_the_file_and_check_that_the_text_copies_out_cleanly" formatted="false">"Eksportoni përsëri me fontet e integruara, pastaj hapni skedarin dhe kontrolloni që teksti kopjohet pastër."</string>
-    <!-- Reactive Resume -->
-    <string name="reactive_resume" formatted="false">"Reactive Resume"</string>
     <!-- Read briefing -->
     <string name="read_briefing" formatted="false">"Lexo përmbledhjen"</string>
     <!-- Read, change and delete documents and applications (legacy connection). -->
@@ -5855,8 +5829,6 @@
     <string name="search_or_run" formatted="false">"Kërko ose ekzekuto…"</string>
     <!-- Search saved answers -->
     <string name="search_saved_answers" formatted="false">"Kërko mes përgjigjeve të ruajtura"</string>
-    <!-- Search terms go to your web search service. -->
-    <string name="search_terms_go_to_your_web_search_service" formatted="false">"Termat e kërkimit shkojnë te shërbimi juaj i kërkimit në ueb."</string>
     <!-- Search the web -->
     <string name="search_the_web" formatted="false">"Kërko në ueb"</string>
     <!-- Search timezones -->
@@ -5934,51 +5906,8 @@
     <string name="sender_details_copied_into_the_letter" formatted="false">"Detajet e dërguesit janë kopjuar në letër"</string>
     <!-- Sending… -->
     <string name="sending" formatted="false">"Po dërgohet…"</string>
-    <!-- Sends {0} to {label}. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {label} -->
-    <string name="sends_0_to_label">"I dërgon %1$s te %2$s."</string>
-    <!-- Sends only your selected resume and up to 20 active shared facts to this connection. No application profile, saved answers or private application facts. Your provider may charge. -->
-    <string name="sends_only_your_selected_resume_and_up_to_20_active_shared_facts_to_this_connection_no_application_p" formatted="false">"I dërgon vetëm CV-në tënde të përzgjedhur dhe deri në 20 fakte aktive të ndara kësaj lidhjeje. Pa profil aplikimi, pa përgjigje të ruajtura dhe pa fakte private aplikimi. Ofruesi yt mund të faturojë."</string>
-    <!-- Sends the {0} posting to {1} · {2} to draft the body. Your provider may charge. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1}, %3$s = {2} -->
-    <string name="sends_the_0_posting_to_1_2_to_draft_the_body_your_provider_may_charge">"I dërgon njoftimin %1$s te %2$s · %3$s për të hartuar trupin. Ofruesi yt mund të faturojë."</string>
-    <!-- Sends the posting text to {0} to read it. -->
-    <!-- Arguments: %1$s = {0} -->
-    <string name="sends_the_posting_text_to_0_to_read_it">"I dërgon tekstin e njoftimit te %1$s që ta lexojë."</string>
     <!-- Sends this application and enabled Knowledge to this connection. Your provider may charge. Scheduled work never switches to another connection automatically. -->
     <string name="sends_this_application_and_enabled_knowledge_to_this_connection_your_provider_may_charge_scheduled_w" formatted="false">"I dërgon këtë aplikim dhe Njohuritë e aktivizuara kësaj lidhjeje. Ofruesi yt mund të faturojë. Punët e planifikuara nuk kalojnë kurrë automatikisht në një lidhje tjetër."</string>
-    <!-- Sends this letter's resume and the {0} posting to {1} · {2} to draft the body. Your provider may charge. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1}, %3$s = {2} -->
-    <string name="sends_this_letter_s_resume_and_the_0_posting_to_1_2_to_draft_the_body_your_provider_may_charge">"I dërgon CV-në e kësaj letre dhe njoftimin %1$s te %2$s · %3$s për të hartuar trupin. Ofruesi yt mund të faturojë."</string>
-    <!-- Sends this letter's resume to {0} · {1} to draft the body. Your provider may charge. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1} -->
-    <string name="sends_this_letter_s_resume_to_0_1_to_draft_the_body_your_provider_may_charge">"I dërgon CV-në e kësaj letre te %1$s · %2$s për të hartuar trupin. Ofruesi yt mund të faturojë."</string>
-    <!-- Sends this line, surrounding field text and your instructions to {0} · {1}. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1} -->
-    <string name="sends_this_line_surrounding_field_text_and_your_instructions_to_0_1">"I dërgon këtë rresht, tekstin përreth fushës dhe udhëzimet e tua te %1$s · %2$s."</string>
-    <!-- Sends this paragraph, the rest of the letter and your instructions to {0} · {1}. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1} -->
-    <string name="sends_this_paragraph_the_rest_of_the_letter_and_your_instructions_to_0_1">"Dërgon këtë paragraf, pjesën tjetër të letrës dhe udhëzimet tuaja te %1$s · %2$s."</string>
-    <!-- Sends this paragraph, the rest of the letter, the linked job posting and your instructions to {0} · {1}. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1} -->
-    <string name="sends_this_paragraph_the_rest_of_the_letter_the_linked_job_posting_and_your_instructions_to_0_1">"Dërgon këtë paragraf, pjesën tjetër të letrës, shpalljen e lidhur të punës dhe udhëzimet tuaja te %1$s · %2$s."</string>
-    <!-- Sends this PDF to your configured AI provider instead of reading its text layer. -->
-    <string name="sends_this_pdf_to_your_configured_ai_provider_instead_of_reading_its_text_layer" formatted="false">"Dërgon këtë PDF te ofruesi juaj i konfiguruar AI në vend që të lexojë shtresën e tij të tekstit."</string>
-    <!-- Sends your message and this application (posting, notes, documents, your form answers, the saved offer and recent messages) to {label}. -->
-    <!-- Arguments: %1$s = {label} -->
-    <string name="sends_your_message_and_this_application_posting_notes_documents_your_form_answers_the_saved_offer_an">"I dërgon mesazhin tënd dhe këtë aplikim (njoftimi, shënimet, dokumentet, përgjigjet e tua të formularit, oferta e ruajtur dhe mesazhet e fundit) te %1$s."</string>
-    <!-- Sends your message, earlier messages and this application (posting, notes, documents, your form answers, the saved offer and recent messages) to {label}. -->
-    <!-- Arguments: %1$s = {label} -->
-    <string name="sends_your_message_earlier_messages_and_this_application_posting_notes_documents_your_form_answers_t">"I dërgon mesazhin tënd, mesazhet e mëparshme dhe këtë aplikim (njoftimi, shënimet, dokumentet, përgjigjet e tua të formularit, oferta e ruajtur dhe mesazhet e fundit) te %1$s."</string>
-    <!-- Sends your message, earlier messages here, this application (posting, notes, documents, your form answers, the saved offer and recent messages) and Knowledge that's switched on, to {label}. -->
-    <!-- Arguments: %1$s = {label} -->
-    <string name="sends_your_message_earlier_messages_here_this_application_posting_notes_documents_your_form_answers">"Dërgon mesazhin tuaj, mesazhet e mëparshme këtu, këtë aplikim (shpalljen, shënimet, dokumentet, përgjigjet tuaja në formularë, ofertën e ruajtur dhe mesazhet e fundit) dhe Njohuritë e aktivizuara te %1$s."</string>
-    <!-- Sends your message, this application (posting, notes, documents, your form answers, the saved offer and recent messages) and Knowledge that's switched on, to {label}. -->
-    <!-- Arguments: %1$s = {label} -->
-    <string name="sends_your_message_this_application_posting_notes_documents_your_form_answers_the_saved_offer_and_re">"Dërgon mesazhin tuaj, këtë aplikim (shpalljen, shënimet, dokumentet, përgjigjet tuaja në formularë, ofertën e ruajtur dhe mesazhet e fundit) dhe Njohuritë e aktivizuara te %1$s."</string>
-    <!-- Sends your resume's text only to {0} · {1}, with your key. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1} -->
-    <string name="sends_your_resume_s_text_only_to_0_1_with_your_key">"Dërgon tekstin e CV-së tuaj vetëm te %1$s · %2$s, me çelësin tuaj."</string>
     <!-- Sent -->
     <string name="sent" formatted="false">"Dërguar"</string>
     <!-- Sent: {0} -->
@@ -6128,8 +6057,8 @@
     <string name="show_less" formatted="false">"Shfaq më pak"</string>
     <!-- Show link in title -->
     <string name="show_link_in_title" formatted="false">"Trego linkun në titull"</string>
-    <!-- Show “Made with Reactive Resume” -->
-    <string name="show_made_with_reactive_resume" formatted="false">"Shfaq “Bërë me Reactive Resume”"</string>
+    <!-- Show “Made with Lebenslauf2” -->
+    <string name="show_made_with_lebenslauf2" formatted="false">"Shfaq “Bërë me Lebenslauf2”"</string>
     <!-- Show more -->
     <string name="show_more" formatted="false">"Trego më shumë"</string>
     <!-- Show on page -->
@@ -6659,20 +6588,14 @@
     <string name="the_built_in_reader_remains_active" formatted="false">"Lexuesi i integruar mbetet aktiv."</string>
     <!-- The checks are mechanical. This asks a language model how a reader might react to your bullets and suggests rewrites. It isn't part of the score. -->
     <string name="the_checks_are_mechanical_this_asks_a_language_model_how_a_reader_might_react_to_your_bullets_and_su" formatted="false">"Kontrollet janë mekanike. Kjo pyet një model gjuhësor se si një lexues mund të reagojë ndaj hyrjeve në listën tuaj dhe sugjeron rishkrime. Nuk është pjesë e rezultatit."</string>
-    <!-- The coach asks before remembering facts you state. -->
-    <string name="the_coach_asks_before_remembering_facts_you_state" formatted="false">"Këshilltari pyet përpara se të kujtojë faktet që i deklaron."</string>
     <!-- The coach doesn't remember anything from your messages. -->
     <string name="the_coach_doesn_t_remember_anything_from_your_messages" formatted="false">"Këshilltari nuk mban mend asgjë nga mesazhet tuaja."</string>
-    <!-- The coach doesn't remember anything you write. -->
-    <string name="the_coach_doesn_t_remember_anything_you_write" formatted="false">"Këshilltari nuk i kujton asgjë që shkruan."</string>
     <!-- The coach isn't set up on this server. Whoever runs it needs to set ENCRYPTION_SECRET. -->
     <string name="the_coach_isn_t_set_up_on_this_server_whoever_runs_it_needs_to_set_encryption_secret" formatted="false">"Këshilluesi nuk është konfiguruar në këtë server. Administratori i serverit duhet të caktojë ENCRYPTION_SECRET."</string>
     <!-- The coach isn't set up on this server. Whoever runs it needs to set ENCRYPTION_SECRET. Knowledge, Offers and your applications work without it. -->
     <string name="the_coach_isn_t_set_up_on_this_server_whoever_runs_it_needs_to_set_encryption_secret_knowledge_offer" formatted="false">"Këshilltari nuk është konfiguruar në këtë server. Kushdo që e administron duhet të vendosë ENCRYPTION_SECRET. Njohuritë, Ofertat dhe aplikimet tuaja funksionojnë pa të."</string>
     <!-- The coach proposes each fact in the chat. Nothing is saved until you agree. -->
     <string name="the_coach_proposes_each_fact_in_the_chat_nothing_is_saved_until_you_agree" formatted="false">"Këshilltari propozon çdo fakt në bisedë. Asgjë nuk ruhet derisa të pranoni."</string>
-    <!-- The coach remembers facts you state, and tells you. -->
-    <string name="the_coach_remembers_facts_you_state_and_tells_you" formatted="false">"Këshilltari i kujton faktet që i deklaron, dhe ta bën të ditur."</string>
     <!-- The coach saves facts you state, and tells you. You can undo. -->
     <string name="the_coach_saves_facts_you_state_and_tells_you_you_can_undo" formatted="false">"Këshilltari ruan faktet që deklaroni dhe ju njofton. Mund ta anuloni."</string>
     <!-- The connection couldn't be loaded or saved. Try again. -->
@@ -6683,8 +6606,6 @@
     <string name="the_connection_works_turn_on_use_this_provider_to_use_it" formatted="false">"Lidhja punon. Aktivizo „Përdor këtë ofrues“ që ta përdorësh."</string>
     <!-- The copy gets the job's posting and keeps this resume as it is for other jobs. -->
     <string name="the_copy_gets_the_job_s_posting_and_keeps_this_resume_as_it_is_for_other_jobs" formatted="false">"Kopja merr njoftimin e punës dhe mban këtë CV siç është për punët e tjera."</string>
-    <!-- the cover letter for this job -->
-    <string name="the_cover_letter_for_this_job" formatted="false">"letra motivimi për këtë punë"</string>
     <!-- The current state will be saved as “Before restore” first. -->
     <string name="the_current_state_will_be_saved_as_before_restore_first" formatted="false">"Gjendja aktuale do të ruhet fillimisht si “Përpara rivendosjes”."</string>
     <!-- the document -->
@@ -6693,24 +6614,18 @@
     <string name="the_editor_opens_on_check_which_checks_the_imported_resume_again" formatted="false">"Redaktori hapet në Kontroll, i cili kontrollon sërish CV-në e importuar."</string>
     <!-- The employer may have changed it since. -->
     <string name="the_employer_may_have_changed_it_since" formatted="false">"Punëdhënësi mund ta ketë ndryshuar që atëherë."</string>
-    <!-- the employer's message -->
-    <string name="the_employer_s_message" formatted="false">"mesazhi i punëdhënësit"</string>
     <!-- The end date is before the start date. Check both dates. -->
     <string name="the_end_date_is_before_the_start_date_check_both_dates" formatted="false">"Data e mbarimit është para datës së fillimit. Kontrollo të dyja datat."</string>
     <!-- The follow-up is saved. To get a reminder, allow notifications in your device settings. -->
     <string name="the_follow_up_is_saved_to_get_a_reminder_allow_notifications_in_your_device_settings" formatted="false">"Vazhdimi është ruajtur. Për të marrë një rikujtues, lejo njoftimet në cilësimet e pajisjes."</string>
     <!-- The greeting follows the name. -->
     <string name="the_greeting_follows_the_name" formatted="false">"Përshëndetja vjen pas emrit."</string>
-    <!-- the interview details -->
-    <string name="the_interview_details" formatted="false">"detajet e intervistës"</string>
     <!-- The interview is saved. To get a reminder, allow notifications in your device settings. -->
     <string name="the_interview_is_saved_to_get_a_reminder_allow_notifications_in_your_device_settings" formatted="false">"Intervista është ruajtur. Për të marrë një rikujtues, lejo njoftimet në cilësimet e pajisjes."</string>
     <!-- The key is encrypted on the server and never shown again. Saving tests the connection. -->
     <string name="the_key_is_encrypted_on_the_server_and_never_shown_again_saving_tests_the_connection" formatted="false">"Çelësi është i koduar në server dhe nuk shfaqet më kurrë. Ruajtja teston lidhjen."</string>
     <!-- The key was rejected. Check the key and test again. -->
     <string name="the_key_was_rejected_check_the_key_and_test_again" formatted="false">"Çelësi u refuzua. Kontrollo çelësin dhe testo përsëri."</string>
-    <!-- the last messages -->
-    <string name="the_last_messages" formatted="false">"mesazhet e fundit"</string>
     <!-- The lead time has passed. Saving runs the briefing now. -->
     <string name="the_lead_time_has_passed_saving_runs_the_briefing_now" formatted="false">"Koha e përgatitjes ka kaluar. Ruajtja e nis përmbledhjen tani."</string>
     <!-- The letter as it is -->
@@ -6753,10 +6668,6 @@
     <string name="the_provider_limited_this_request_wait_and_try_again_check_your_account_quota" formatted="false">"Ofruesi e kufizoi këtë kërkesë. Prit dhe provo përsëri; kontrollo kuotën e llogarisë tënde."</string>
     <!-- The provider reported a server error. Try again later. -->
     <string name="the_provider_reported_a_server_error_try_again_later" formatted="false">"Ofruesi raportoi një gabim serveri. Provo përsëri më vonë."</string>
-    <!-- the question and what you said -->
-    <string name="the_question_and_what_you_said" formatted="false">"pyetja dhe çfarë the"</string>
-    <!-- the question and your answer -->
-    <string name="the_question_and_your_answer" formatted="false">"pyetja dhe përgjigja jote"</string>
     <!-- The reason is kept for Insights. Linked documents aren't touched. -->
     <string name="the_reason_is_kept_for_insights_linked_documents_aren_t_touched" formatted="false">"Arsyeja mbahet për Insights. Dokumentet e lidhura nuk preken."</string>
     <!-- The records aren't visible yet. Check again later. -->
@@ -6765,8 +6676,6 @@
     <string name="the_rest_of_the_file_isn_t_in_this_report" formatted="false">"Pjesa tjetër e skedarit nuk është në këtë raport."</string>
     <!-- The resume as it is -->
     <string name="the_resume_as_it_is" formatted="false">"CV ashtu siç është"</string>
-    <!-- the resume for this job -->
-    <string name="the_resume_for_this_job" formatted="false">"CV-ja për këtë punë"</string>
     <!-- The reviewer sees each one's stage and dates. Notes, contacts and pay stay private. -->
     <string name="the_reviewer_sees_each_one_s_stage_and_dates_notes_contacts_and_pay_stay_private" formatted="false">"Shqyrtuesi sheh fazën dhe datat e secilit. Shënimet, kontaktet dhe paga mbeten private."</string>
     <!-- The same line repeats on every page. -->
@@ -6775,8 +6684,6 @@
     <string name="the_saved_key_isn_t_sent_to_a_new_base_url_enter_it_again" formatted="false">"Çelësi i ruajtur nuk dërgohet në një URL të re bazë. Futni përsëri çelësin."</string>
     <!-- The saved key isn't sent to a new base URL. Enter it again if this server needs one. -->
     <string name="the_saved_key_isn_t_sent_to_a_new_base_url_enter_it_again_if_this_server_needs_one" formatted="false">"Çelësi i ruajtur nuk dërgohet në një URL të re bazë. Futni përsëri çelësin nëse ky server kërkon një çelës."</string>
-    <!-- the saved offer -->
-    <string name="the_saved_offer" formatted="false">"oferta e ruajtur"</string>
     <!-- The score counts how reliably software reads your resume. It doesn't predict whether you'll be shortlisted. -->
     <string name="the_score_counts_how_reliably_software_reads_your_resume_it_doesn_t_predict_whether_you_ll_be_shortl" formatted="false">"Rezultati llogarit se sa me besueshmëri softueri e lexon CV-në tuaj. Nuk parashikon nëse do të jeni në listën e ngushtë."</string>
     <!-- The score reflects how reliably text is extracted, not your chances. -->
@@ -6962,8 +6869,6 @@
     <string name="this_pdf_is_a_scanned_image_there_s_no_text_to_read_try_the_word_version_or_start_blank_and_paste_se" formatted="false">"Ky PDF është një imazh i skanuar. Nuk ka tekst për të lexuar. Provoni versionin Word ose filloni bosh dhe ngjitni seksionet në të."</string>
     <!-- This PDF is password protected. Save an unprotected copy and try again. -->
     <string name="this_pdf_is_password_protected_save_an_unprotected_copy_and_try_again" formatted="false">"Ky PDF është i mbrojtur me fjalëkalim. Ruani një kopje të pambrojtur dhe provoni përsëri."</string>
-    <!-- this posting -->
-    <string name="this_posting" formatted="false">"ky njoftim"</string>
     <!-- This question couldn't be asked. Send a new message to continue. -->
     <string name="this_question_couldn_t_be_asked_send_a_new_message_to_continue" formatted="false">"Kjo pyetje nuk mundi të bëhej. Dërgo një mesazh të re për të vazhduar."</string>
     <!-- This question didn't finish. -->
@@ -7398,8 +7303,8 @@
     <string name="use_url">"Përdorni %1$s"</string>
     <!-- Use web access? -->
     <string name="use_web_access" formatted="false">"Të përdoret aksesi në web?"</string>
-    <!-- Use your browser’s Share action to send one posting URL or selected text to Reactive Resume. Receiving shares requires the latest store build; URL and paste import remain available. -->
-    <string name="use_your_browsers_share_action_to_send_one_posting_url_or_selected_text_to_reactive_resume_receiving" formatted="false">"Përdor veprimin Share të shfletuesit tënd për t\'i dërguar Reactive Resume një URL njoftimi ose teksti të përzgjedhur. Marrja e ndarjeve kërkon versionin më të re nga dyqani; importimi me URL dhe me tekst të ngjitur mbetet i disponueshëm."</string>
+    <!-- Use your browser’s Share action to send one posting URL or selected text to Lebenslauf2. Receiving shares requires the latest store build; URL and paste import remain available. -->
+    <string name="use_your_browsers_share_action_to_send_one_posting_url_or_selected_text_to_lebenslauf2_receiving_sha" formatted="false">"Përdor veprimin Share të shfletuesit tënd për t\'i dërguar Lebenslauf2 një URL njoftimi ose teksti të përzgjedhur. Marrja e ndarjeve kërkon versionin më të re nga dyqani; importimi me URL dhe me tekst të ngjitur mbetet i disponueshëm."</string>
     <!-- Use your editor's normal bullet list, so stray glyphs do not land mid-sentence. -->
     <string name="use_your_editor_s_normal_bullet_list_so_stray_glyphs_do_not_land_mid_sentence" formatted="false">"Përdorni listën normale me pika të redaktuesit tuaj, që shenja të rastësishme të mos bien në mes të fjalisë."</string>
     <!-- Used: {summary} -->
@@ -7629,9 +7534,6 @@
     <string name="when_would_you_start" formatted="false">"Kur do të filloje?"</string>
     <!-- When you're done, the browser closes and you come back here. -->
     <string name="when_you_re_done_the_browser_closes_and_you_come_back_here" formatted="false">"Kur të keni mbaruar, shfletuesi mbyllet dhe ju ktheheni këtu."</string>
-    <!-- When you tap send, {list} go to your {connection}. -->
-    <!-- Arguments: %1$s = {list}, %2$s = {connection} -->
-    <string name="when_you_tap_send_list_go_to_your_connection">"Kur prekni dërgo, %1$s shkojnë te %2$s."</string>
     <!-- Where applications come from -->
     <string name="where_applications_come_from" formatted="false">"Nga vijnë aplikimet"</string>
     <!-- Where you want to work -->
@@ -7660,8 +7562,6 @@
     <string name="width" formatted="false">"Gjerësia"</string>
     <!-- Willing to relocate -->
     <string name="willing_to_relocate" formatted="false">"I gatshëm për t\'u zhvendosur"</string>
-    <!-- With Knowledge off, nothing you write is remembered. -->
-    <string name="with_knowledge_off_nothing_you_write_is_remembered" formatted="false">"Kur Njohuritë janë të çaktivizuara, asgjë që shkruan nuk kujtohet."</string>
     <!-- Within your office-day limit. -->
     <string name="within_your_office_day_limit" formatted="false">"Brenda kufirit tuaj të ditëve në zyrë."</string>
     <!-- Without a fact, the coach and practice can't use this story. -->
@@ -7842,8 +7742,6 @@
     <string name="your_changes_on_this_device_will_be_replaced_by_the_saved_version" formatted="false">"Ndryshimet tuaja në këtë pajisje do të zëvendësohen nga versioni i ruajtur."</string>
     <!-- Your contact details are not on the first page. -->
     <string name="your_contact_details_are_not_on_the_first_page" formatted="false">"Detajet tuaja të kontaktit nuk janë në faqen e parë."</string>
-    <!-- your contacts -->
-    <string name="your_contacts" formatted="false">"kontaktet e tua"</string>
     <!-- Your data -->
     <string name="your_data" formatted="false">"Të dhënat tuaja"</string>
     <!-- Your dates are written several different ways. -->
@@ -7864,22 +7762,18 @@
     <string name="your_facts_stories_and_preferences_editing_knowledge_sends_nothing_to_an_ai_connection" formatted="false">"Faktet, historitë dhe preferencat tuaja. Redaktimi i Njohurive nuk dërgon asgjë në një lidhje AI."</string>
     <!-- Your focus -->
     <string name="your_focus" formatted="false">"Fokusi juaj"</string>
-    <!-- your form answers -->
-    <string name="your_form_answers" formatted="false">"përgjigjet e tua të formularit"</string>
     <!-- Your headings look the same as your body text. -->
     <string name="your_headings_look_the_same_as_your_body_text" formatted="false">"Titujt tuaj duken njësoj si teksti kryesor."</string>
     <!-- Your job search starts here -->
     <string name="your_job_search_starts_here" formatted="false">"Kërkimi yt i punës fillon këtu"</string>
     <!-- your Knowledge -->
     <string name="your_knowledge" formatted="false">"Njohuritë tuaja"</string>
-    <!-- Your language is saved. Restart Reactive Resume to apply the new left-to-right or right-to-left layout. -->
-    <string name="your_language_is_saved_restart_reactive_resume_to_apply_the_new_left_to_right_or_right_to_left_layou" formatted="false">"Gjuha juaj është ruajtur. Rinisni Reactive Resume për të aplikuar paraqitjen e re nga e majta në të djathtë ose nga e djathta në të majtë."</string>
+    <!-- Your language is saved. Restart Lebenslauf2 to apply the new left-to-right or right-to-left layout. -->
+    <string name="your_language_is_saved_restart_lebenslauf2_to_apply_the_new_left_to_right_or_right_to_left_layout" formatted="false">"Gjuha juaj është ruajtur. Rinisni Lebenslauf2 për të aplikuar paraqitjen e re nga e majta në të djathtë ose nga e djathta në të majtë."</string>
     <!-- Your lines are packed very tightly. -->
     <string name="your_lines_are_packed_very_tightly" formatted="false">"Linjat tuaja janë të mbushura shumë fort."</string>
     <!-- Your margins are very narrow. -->
     <string name="your_margins_are_very_narrow" formatted="false">"Margjinat tuaja janë shumë të ngushta."</string>
-    <!-- your message -->
-    <string name="your_message" formatted="false">"mesazhi juaj"</string>
     <!-- Your message is kept. -->
     <string name="your_message_is_kept" formatted="false">"Mesazhi yt ruhet."</string>
     <!-- Your name -->
@@ -7910,9 +7804,6 @@
     <string name="your_public_links_begin_with_server">"Lidhjet tuaja publike fillojnë me %1$s/"</string>
     <!-- Your public links will change -->
     <string name="your_public_links_will_change" formatted="false">"Lidhjet e tua publike do të ndryshojnë"</string>
-    <!-- Your recording goes to {transcriberName} after you stop, to be transcribed. Your provider may charge. The server keeps transcripts, never recordings. -->
-    <!-- Arguments: %1$s = {transcriberName} -->
-    <string name="your_recording_goes_to_transcribername_after_you_stop_to_be_transcribed_your_provider_may_charge_the">"Regjistrimi juaj shkon në %1$s pasi të ndaloni, për t\'u transkriptuar. Ofruesi juaj mund të tarifojë. Serveri ruan transkriptet, kurrë regjistrimet."</string>
     <!-- Your request and relevant resume, letter, job posting, application, career information, conversation history, and attachments are sent through your server to this AI provider, according to the feature and context you selected. They can contain personal information. -->
     <string name="your_request_and_relevant_resume_letter_job_posting_application_career_information_conversation_hist" formatted="false">"Kërkesa dhe rezymeja juaj përkatëse, letra, postimi i punës, aplikacioni, informacioni i karrierës, historia e bisedave dhe bashkëngjitjet dërgohen përmes serverit tuaj te ky ofrues i AI, sipas veçorisë dhe kontekstit që keni zgjedhur. Ato mund të përmbajnë informacione personale."</string>
     <!-- Your requirements -->
@@ -7957,8 +7848,6 @@
     <string name="your_short_link_points_to_0_which_isn_t_published">"Lidhja jote e shkurtër çon te „%1$s“, që nuk është publikuar."</string>
     <!-- Your short link says this resume isn't shared until you publish it again. -->
     <string name="your_short_link_says_this_resume_isn_t_shared_until_you_publish_it_again" formatted="false">"Lidhja jote e shkurtër tregon se kjo CV nuk është e ndarë derisa ta publikosh përsëri."</string>
-    <!-- your stories -->
-    <string name="your_stories" formatted="false">"historitë tuaja"</string>
     <!-- Your story couldn't be loaded. -->
     <string name="your_story_couldn_t_be_loaded" formatted="false">"Historia juaj nuk mund të ngarkohej."</string>
     <!-- Your tags -->

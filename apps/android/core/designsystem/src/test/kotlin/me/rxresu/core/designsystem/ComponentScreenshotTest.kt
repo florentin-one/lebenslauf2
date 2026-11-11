@@ -129,11 +129,11 @@ class ComponentScreenshotTest : RrScreenshotTest() {
         Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
             RrSegmentedControl(listOf(RrSegment("Issues", count = "2"), RrSegment("Job match"), RrSegment("Writing")), 1, {})
             RrListGroup {
-                RrListRow("Account", subtitle = "alex@morgan.design", icon = R.drawable.ic_ph_user, onClick = {}, trailing = { RrRowCaret() })
+                RrListRow("Account", subtitle = "beier.laura@mh-hannover.de", icon = R.drawable.ic_ph_user, onClick = {}, trailing = { RrRowCaret() })
                 RrListRow("Theme", icon = R.drawable.ic_ph_moon, onClick = {}, trailing = { RrRowValue("Match system") })
             }
             RrButton("Save interview", {}, size = RrButtonSize.Large)
-            RrTextField("alex@morgan.design", {}, label = "Email", ltr = true)
+            RrTextField("beier.laura@mh-hannover.de", {}, label = "Email", ltr = true)
             RrToast("“Lumen letter” moved to Trash", actionLabel = "Undo", fuse = 0.6f)
         }
     }

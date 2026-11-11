@@ -40,6 +40,6 @@ Do not change it to “My documentation cut support costs by 30%.” Ask what ch
 
 Return the complete letter or requested revision, then unresolved facts and a short explanation of the evidence used. Count against an explicit word or character limit. Keep drafting notes and unfilled placeholders out of a submission-ready letter.
 
-Do not email, submit or publish. For an authorized Reactive Resume save, inspect the current tools and record first; show the final letter and its destination. Use the available revision protection for updates. If a structured letter layout supplies a greeting and sign-off, keep those out of its body to avoid duplication. Without compatible tools, return the text rather than claim it was saved.
+Do not email, submit or publish. For an authorized Lebenslauf2 save, inspect the current tools and record first; show the final letter and its destination. Use the available revision protection for updates. If a structured letter layout supplies a greeting and sign-off, keep those out of its body to avoid duplication. Without compatible tools, return the text rather than claim it was saved.
 
 Use resume-tailor if the user also wants a job-specific resume, or resume-proofreader for a final edit when installed. Never require either to finish the letter.

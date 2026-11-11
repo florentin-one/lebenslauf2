@@ -69,7 +69,7 @@
     <string name="docs_new">New</string>
     <string name="docs_new_intro">Import a resume, start a letter, save a job, copy one for a job, or start blank.</string>
     <string name="docs_import_title">Import a resume</string>
-    <string name="docs_import_subtitle">PDF, Word, LinkedIn export (.zip), Reactive Resume or JSON Resume</string>
+    <string name="docs_import_subtitle">PDF, Word, LinkedIn export (.zip), Lebenslauf2 or JSON Resume</string>
     <string name="docs_blank_title">Start blank</string>
     <string name="docs_blank_subtitle">Opens the editor on your name. Nothing else to fill in first.</string>
     <string name="docs_copy_title">Copy a resume for a job</string>
@@ -136,7 +136,7 @@
     <string name="import_start_blank">Start blank</string>
     <string name="import_word_needs_ai">Word import needs AI. For a local import, export a PDF or JSON file instead.</string>
     <string name="import_set_up_ai">Set up AI</string>
-    <string name="import_wrong_type">This file type can\'t be imported. Use a PDF, Word, Reactive Resume or JSON Resume file, or a LinkedIn export (.zip).</string>
+    <string name="import_wrong_type">This file type can\'t be imported. Use a PDF, Word, Lebenslauf2 or JSON Resume file, or a LinkedIn export (.zip).</string>
     <string name="import_no_preview">This file is imported as it is. Check it in the editor afterwards.</string>
     <string name="import_failed">Couldn\'t import the file. Try again.</string>
     <string name="import_language_title">Resume language</string>

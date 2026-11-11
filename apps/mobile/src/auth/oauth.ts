@@ -8,11 +8,11 @@ import { Platform } from "react-native";
 export const scopes = ["openid", "profile", "email", "offline_access", "api:read", "api:write", "api:delete"];
 
 /** The host the app is associated with (Universal Links, App Links). The OAuth callback lands there for every server. */
-const appHost = "rxresu.me";
+const appHost = "lebenslauf2.me";
 
 /**
  * The OAuth redirect URI, the same for every server (coordinator decision, M3-T1):
- * `https://rxresu.me/auth/native-callback` is the only https URL the app can receive (its associated domain, through
+ * `https://lebenslauf2.florentin-one.de/auth/native-callback` is the only https URL the app can receive (its associated domain, through
  * Universal Links and App Links); a self-hosted host can never be one. DCR on any server accepts a public https
  * redirect. If the hand-off fails and the browser loads that page instead, the code is useless without the PKCE
  * verifier, and the fallback page (SV1) never logs it.
@@ -20,7 +20,7 @@ const appHost = "rxresu.me";
  * no https callback can be verified locally; that server must run with `FLAG_ALLOW_UNSAFE_OAUTH_REDIRECT_URI=true`.
  */
 export function redirectUri(origin: string): string {
-	if (__DEV__ && origin.startsWith("http:")) return "me.rxresu:/auth/native-callback";
+	if (__DEV__ && origin.startsWith("http:")) return "me.lebenslauf2:/auth/native-callback";
 	return `https://${appHost}/auth/native-callback`;
 }
 
@@ -74,7 +74,7 @@ const discoveries = new Map<string, Discovery>();
 const requestTimeout = 10_000;
 
 /**
- * Why a server cannot be used: `unreachable` (no Reactive Resume answered), `outdated` (no app sign-in yet) or
+ * Why a server cannot be used: `unreachable` (no Lebenslauf2 answered), `outdated` (no app sign-in yet) or
  * `mismatch` (its metadata names another origin as issuer or endpoint).
  */
 export class ServerError extends Error {
@@ -102,7 +102,7 @@ export async function discover(origin: string): Promise<Discovery> {
 	if (cached) return cached;
 
 	const metadata = (await getJson(`${origin}/.well-known/oauth-authorization-server`).catch(async () => {
-		// A Reactive Resume server that predates app sign-in still answers its flags.
+		// A Lebenslauf2 server that predates app sign-in still answers its flags.
 		const isReactiveResume = await getJson(`${origin}/api/openapi/flags`).then(
 			() => true,
 			() => false,
@@ -213,7 +213,7 @@ export async function registerClient(origin: string, discovery: Discovery): Prom
 		headers: { "content-type": "application/json", accept: "application/json" },
 		signal: AbortSignal.timeout(requestTimeout),
 		body: JSON.stringify({
-			client_name: Platform.OS === "ios" ? "Reactive Resume for iOS" : "Reactive Resume for Android",
+			client_name: Platform.OS === "ios" ? "Lebenslauf2 for iOS" : "Lebenslauf2 for Android",
 			redirect_uris: [redirectUri(origin)],
 			token_endpoint_auth_method: "none",
 			grant_types: ["authorization_code", "refresh_token"],

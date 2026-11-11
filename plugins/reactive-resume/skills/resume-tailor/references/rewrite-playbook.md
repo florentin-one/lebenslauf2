@@ -102,7 +102,7 @@ Give the user four blocks, in this order:
 3. **Remaining gaps**: rows still at Adjacent or None, with what the user could do (letter line, learning step, or nothing).
 4. **Facts learned**: newly confirmed facts as a block the user can paste into their master resume (SKILL.md step 10).
 
-If the user's resume is Reactive Resume JSON and MCP is not connected, offer either the JSON Patch operations (see mcp-recipes.md for paths and shapes) or the full updated JSON to import.
+If the user's resume is Lebenslauf2 JSON and MCP is not connected, offer either the JSON Patch operations (see mcp-recipes.md for paths and shapes) or the full updated JSON to import.
 
 The final checklist lives in SKILL.md step 8.
 

@@ -260,4 +260,4 @@ Rule: mirror the recipient's last message (greeting, sign-off, length). When in 
 - HR Dive: salary-history ban tracker (April 2026); pay-transparency posting tracker (May 2026); salary discussed earlier (2018).
 - European Commission, EU action on equal pay (Directive 2023/970).
 - Steve Dalton, The 2-Hour Job Search (5-Point Email, 3B7 follow-up routine).
-- Reactive Resume source: `draft_application_message` supports `cover-letter` and `follow-up` only and never sends (`packages/mcp/src/tool-meta.ts`).
+- Lebenslauf2 source: `draft_application_message` supports `cover-letter` and `follow-up` only and never sends (`packages/mcp/src/tool-meta.ts`).

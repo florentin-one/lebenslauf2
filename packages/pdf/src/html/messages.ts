@@ -7,7 +7,7 @@ const ENGLISH = {
 	downloadWord: "Download Word",
 	share: "Share",
 	linkCopied: "Link copied",
-	credit: "Made with Reactive Resume, free and open source",
+	credit: "Made with Lebenslauf2, free and open source",
 	passwordTitle: "This resume is password-protected",
 	passwordHint: "Enter the password the resume owner shared with you.",
 	password: "Password",
@@ -15,7 +15,7 @@ const ENGLISH = {
 	wrongPassword: "That password isn't correct. Check it with the resume owner and try again.",
 	unavailableTitle: "This resume isn't shared right now.",
 	unavailableHint: "If someone sent you this link, ask them for a new one.",
-	home: "Go to Reactive Resume",
+	home: "Go to Lebenslauf2",
 	ownerUnavailableHint: "Only you can see this address. Publish it in Share.",
 	ownerPublish: "Open Share",
 };

@@ -81,14 +81,14 @@ class LayoutMeasurementTest : RrScreenshotTest() {
     @Test fun fieldValuesMeasureEditingAndPickerSlots() {
         setContent {
             Column(Modifier.padding(horizontal = 24.dp)) {
-                RrTextField("alex@example.test", {})
-                RrTextField("Alex Morgan", {})
+                RrTextField("beier.laura@mh-hannover.de", {})
+                RrTextField("Laura Beier", {})
                 RrPickerField("OpenAI", {})
             }
         }
         val elements = dump()
-        assertBox(elements.single("text", "alex@example.test"), 36.0, 11.0, 318.0, 22.0)
-        assertBox(elements.single("text", "Alex Morgan"), 36.0, 55.0, 318.0, 22.0)
+        assertBox(elements.single("text", "beier.laura@mh-hannover.de"), 36.0, 11.0, 318.0, 22.0)
+        assertBox(elements.single("text", "Laura Beier"), 36.0, 55.0, 318.0, 22.0)
         assertBox(elements.single("text", "OpenAI"), 36.0, 99.0, 290.0, 22.0)
     }
 

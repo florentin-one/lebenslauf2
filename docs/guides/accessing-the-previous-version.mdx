@@ -1,15 +1,15 @@
 ---
 title: "Accessing the previous version"
-description: "Your v5 resumes carried over to Reactive Resume v6. Learn how to move resumes from a v5 or v4 copy into v6 by exporting and importing JSON."
+description: "Your v5 resumes carried over to Lebenslauf2 v6. Learn how to move resumes from a v5 or v4 copy into v6 by exporting and importing JSON."
 ---
 
-Reactive Resume v6 replaced v5 on rxresu.me. This page explains what happened to your v5 work, and how to bring resumes
-over from an older copy of Reactive Resume (v5 or v4) that you still have access to.
+Lebenslauf2 v6 replaced v5 on lebenslauf2.me. This page explains what happened to your v5 work, and how to bring resumes
+over from an older copy of Lebenslauf2 (v5 or v4) that you still have access to.
 
 ## Your v5 work is already in v6
 
-If you used v5 on rxresu.me, you don't need to do anything. Your account, resumes, cover letters and applications moved
-to v6 automatically. Sign in at [rxresu.me](https://rxresu.me) as before to find them in **Documents** and
+If you used v5 on lebenslauf2.me, you don't need to do anything. Your account, resumes, cover letters and applications moved
+to v6 automatically. Sign in at [lebenslauf2.me](https://lebenslauf2.florentin-one.de) as before to find them in **Documents** and
 **Applications**.
 
 A few things look different after the move:
@@ -24,7 +24,7 @@ A few things look different after the move:
 There's no hosted copy of v5 that you can count on. If you need a resume exactly as it was in v5, your best option is a
 JSON file you downloaded from v5 earlier, or a v5 copy that you or your organization runs.
 
-People who host Reactive Resume themselves can keep running v5 by pinning the `v5` image tag (for example,
+People who host Lebenslauf2 themselves can keep running v5 by pinning the `v5` image tag (for example,
 `amruthpillai/reactive-resume:v5`) on a database that hasn't been upgraded. v5 isn't meant to run on a database that v6
 has already upgraded, so back up the database first. Server owners should read
 [Migrating from v5](/self-hosting/upgrading-to-v6) before they update.
@@ -38,12 +38,13 @@ If you have access to a v5 copy, export each resume there and import it into v6.
     In v5, open the resume and download it as **JSON**. Repeat for each resume you want to keep.
   </Step>
   <Step title="Open the New dialog in v6">
-    Sign in at [rxresu.me](https://rxresu.me) (or your own address) and select **New** in the sidebar, or press
+    Sign in at [lebenslauf2.me](https://lebenslauf2.florentin-one.de) (or your own address) and select **New** in the
+    sidebar, or press
     <kbd>N</kbd>.
   </Step>
   <Step title="Import the file">
-    Select **Import a resume** and choose the JSON file. Reactive Resume recognizes the format and shows how many
-    sections and entries it found. Select **Open in editor**.
+    Select **Import a resume** and choose the JSON file. Lebenslauf2 recognizes the format and shows how many sections
+    and entries it found. Select **Open in editor**.
   </Step>
   <Step title="Review what came in">
     The editor tells you what it imported, including any dates to check. If the resume contained a cover letter, it's
@@ -57,7 +58,7 @@ either. For more on importing, including other file types, see [Importing resume
 ## Resumes from v4
 
 Version 4 is two versions old. At the time of writing, a copy may still be reachable at
-[v4.rxresu.me](https://v4.rxresu.me), but its availability isn't guaranteed. If you can sign in there, open each resume,
+[v4.lebenslauf2.me](https://v4.lebenslauf2.me), but its availability isn't guaranteed. If you can sign in there, open each resume,
 export it as JSON, and import it into v6 as described above. v6 recognizes v4 files automatically.
 
 Server owners moving a self-hosted v4 installation should follow [Migrating from v4](/self-hosting/migration)

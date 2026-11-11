@@ -186,7 +186,7 @@ function MessagesPanel() {
 					<b className="font-semibold text-ink">{t`From`}</b> {t`Sam, Fieldnote`}
 				</span>
 				<span>
-					<b className="font-semibold text-ink">{t`Subject`}</b> {t`Re: Senior Product Designer`}
+					<b className="font-semibold text-ink">{t`Subject`}</b> {t`Re: Fachärztin für Psychiatrie und Psychotherapie`}
 				</span>
 			</div>
 			<p className="font-display text-[1.25em] leading-[1.45] text-pretty text-ink">

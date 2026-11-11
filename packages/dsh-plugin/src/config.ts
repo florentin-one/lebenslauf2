@@ -7,7 +7,7 @@ const SERVER_NAME_PATTERN = /^[A-Za-z0-9_-]{1,32}$/;
 export interface Config {
 	/** API key minted at `<url>/dashboard/settings/api-keys`. */
 	apiKey: string;
-	/** Reactive Resume origin, no trailing slash. */
+	/** Lebenslauf2 origin, no trailing slash. */
 	url: string;
 	/** Tool namespace: tools reach the model as `mcp__<serverName>__<rawName>`. */
 	serverName: string;
@@ -23,8 +23,8 @@ export const Config: z<{ [K in keyof Config]?: Config[K] | null } & Record<strin
 	apiKey: z.string().default("").description("API key from <url>/dashboard/settings/api-keys."),
 	url: z
 		.string()
-		.default("https://rxresu.me")
-		.description("Reactive Resume origin. Set this for a self-hosted instance."),
+		.default("https://lebenslauf2.florentin-one.de")
+		.description("Lebenslauf2 origin. Set this for a self-hosted instance."),
 	serverName: z
 		.string()
 		.pattern(SERVER_NAME_PATTERN)

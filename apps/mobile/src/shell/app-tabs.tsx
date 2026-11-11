@@ -407,12 +407,12 @@ export function AppSidebar(props: BottomTabBarProps) {
 		>
 			<Text
 				variant="heading"
-				accessibilityLabel="Reactive Resume"
+				accessibilityLabel="Lebenslauf2"
 				align={compact ? "center" : undefined}
 				numberOfLines={1}
 				style={{ paddingHorizontal: compact ? 0 : space.s3, paddingBottom: space.s3 }}
 			>
-				{compact ? "Rx" : "Reactive Resume"}
+				{compact ? "Rx" : "Lebenslauf2"}
 			</Text>
 			{compact ? (
 				<View style={{ alignItems: "center" }}>

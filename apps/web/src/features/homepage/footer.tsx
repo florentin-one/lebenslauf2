@@ -26,7 +26,7 @@ const getColumns = (story: boolean): { id: string; title: string; links: FooterL
 		title: t`Product`,
 		links: [
 			{ label: t`Templates`, to: "/resume-templates" },
-			{ label: t`Features`, href: story ? "#write" : "https://rxresu.me/#write" },
+			{ label: t`Features`, href: story ? "#write" : "https://lebenslauf2.florentin-one.de/#write" },
 			{ label: t`ATS checker`, to: "/ats-checker" },
 			{ label: t`Get started`, to: "/auth/register" },
 			{ label: t`Sign in`, to: "/auth/login" },
@@ -36,11 +36,11 @@ const getColumns = (story: boolean): { id: string; title: string; links: FooterL
 		id: "resources",
 		title: t`Resources`,
 		links: [
-			{ label: t`About`, href: "https://docs.rxresu.me/getting-started" },
-			{ label: t`Documentation`, href: "https://docs.rxresu.me" },
-			{ label: t`Changelog`, href: "https://docs.rxresu.me/changelog" },
+			{ label: t`About`, href: "https://docs.lebenslauf2.me/getting-started" },
+			{ label: t`Documentation`, href: "https://docs.lebenslauf2.me" },
+			{ label: t`Changelog`, href: "https://docs.lebenslauf2.me/changelog" },
 			{ label: t`Source code`, href: githubUrl },
-			{ label: t`Self-hosting`, href: "https://docs.rxresu.me/self-hosting/docker" },
+			{ label: t`Self-hosting`, href: "https://docs.lebenslauf2.me/self-hosting/docker" },
 		],
 	},
 	{
@@ -48,10 +48,10 @@ const getColumns = (story: boolean): { id: string; title: string; links: FooterL
 		title: t`Community`,
 		links: [
 			{ label: t`Join Discord`, href: "https://discord.gg/jSVSJyWd2k" },
-			{ label: t`Subreddit`, href: "https://reddit.com/r/reactiveresume" },
-			{ label: t`Translations`, href: "https://crowdin.com/project/reactive-resume" },
-			{ label: t`Contact`, href: "mailto:amruth@rxresu.me" },
-			{ label: "LinkedIn", href: "https://www.linkedin.com/company/reactive-resume" },
+			{ label: t`Subreddit`, href: "https://reddit.com/r/lebenslauf2" },
+			{ label: t`Translations`, href: "https://crowdin.com/project/lebenslauf2" },
+			{ label: t`Contact`, href: "mailto:amruth@lebenslauf2.me" },
+			{ label: "LinkedIn", href: "https://www.linkedin.com/company/lebenslauf2" },
 			{ label: "Amruth Pillai · X", href: "https://x.com/KingOKings" },
 			{ label: t`Report a bug`, href: `${githubUrl}/issues` },
 		],
@@ -60,7 +60,7 @@ const getColumns = (story: boolean): { id: string; title: string; links: FooterL
 		id: "legal",
 		title: t`Legal`,
 		links: [
-			{ label: t`Privacy policy`, href: "https://docs.rxresu.me/legal/privacy-policy" },
+			{ label: t`Privacy policy`, href: "https://docs.lebenslauf2.me/legal/privacy-policy" },
 			{ label: t`MIT License`, href: licenseUrl },
 		],
 	},
@@ -101,7 +101,7 @@ export function LandingFooter({ story = true }: LandingFooterProps) {
 					<img
 						loading="lazy"
 						src="/logo/light.svg"
-						alt="Reactive Resume"
+						alt="Lebenslauf2"
 						width={140}
 						height={140}
 						className="-ms-[18px] -mt-[22px] -mb-[22px] size-[140px] dark:hidden"
@@ -109,7 +109,7 @@ export function LandingFooter({ story = true }: LandingFooterProps) {
 					<img
 						loading="lazy"
 						src="/logo/dark.svg"
-						alt="Reactive Resume"
+						alt="Lebenslauf2"
 						width={140}
 						height={140}
 						className="-ms-[18px] -mt-[22px] -mb-[22px] hidden size-[140px] dark:block"

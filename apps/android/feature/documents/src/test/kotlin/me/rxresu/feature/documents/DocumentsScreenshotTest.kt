@@ -102,8 +102,8 @@ class DocumentsScreenshotTest : RrScreenshotTest() {
         }
     }
     private fun import(dark: Boolean) = captureScreen("D4-Import", dark, wrap = provide(importRepos())) {
-        ImportScreen(ImportUiState(file = PickedFile("alex-morgan-cv.pdf", 182L * 1024, "application/pdf", ByteArray(16), pages = 2), format = ImportFormat.Pdf, aiProvider = "Work OpenAI", progress = 3,
-            summary = ImportSummary("Alex Morgan", "Product designer", "Lisbon", 4, 2, 12, 3, 1)), ImportCallbacks())
+        ImportScreen(ImportUiState(file = PickedFile("laura-beier-cv.pdf", 182L * 1024, "application/pdf", ByteArray(16), pages = 2), format = ImportFormat.Pdf, aiProvider = "Work OpenAI", progress = 3,
+            summary = ImportSummary("Laura Beier", "Product designer", "Lisbon", 4, 2, 12, 3, 1)), ImportCallbacks())
     }
     private fun trash(dark: Boolean) = captureScreen("D6-Trash", dark, wrap = provide(trashRepos())) { Trash(confirm = false) }
 
@@ -121,7 +121,7 @@ private fun warm(r: RrRepositories) = runBlocking {
     for (doc in docs) for (px in listOf(348, 80)) Thumbnails.load(r.pages, doc.pageSource(), px)
 }
 
-/** The PDF reader answers with the storyboard resume (Alex Morgan). */
+/** The PDF reader answers with the storyboard resume (Laura Beier). */
 private fun importRepos(): RrRepositories {
     val controls = FakeControls()
     val r = FakeRepositories(controls)

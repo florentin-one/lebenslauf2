@@ -26,10 +26,10 @@ class BuilderLogicTest {
 
     /** The sample page's text as the PDF draws it, one run per line. */
     private val runs = listOf(
-        run("Alex Morgan", 0.05f), run("Senior product designer", 0.09f), run("Lisbon, Portugal alex@morgan.design", 0.12f),
-        run("Summary", 0.165f), run("Product designer with eight years in onboarding", 0.19f),
+        run("Laura Beier", 0.05f), run("Fachärztin für Psychiatrie und Psychotherapie", 0.09f), run("Hanover, Germany beier.laura@mh-hannover.de", 0.12f),
+        run("Summary", 0.165f), run("Klinik für Psychiatrie, Sozialpsychiatrie und Psychotherapie", 0.19f),
         run("Experience", 0.25f),
-        run("Northwind Labs", 0.28f), run("Mar 2022 – Present", 0.28f, left = 0.75f, right = 0.93f), run("Senior product designer · Lisbon", 0.297f), run("Led the redesign of onboarding", 0.32f),
+        run("Northwind Labs", 0.28f), run("Mar 2022 – Present", 0.28f, left = 0.75f, right = 0.93f), run("Fachärztin für Psychiatrie und Psychotherapie · Lisbon", 0.297f), run("Led the redesign of onboarding", 0.32f),
         run("Harbour Studio", 0.385f), run("Product designer · Porto", 0.402f),
         run("Education", 0.46f), run("University of Porto", 0.49f),
     )
@@ -237,7 +237,7 @@ class BuilderLogicTest {
     }
 
     @Test fun emailHintsMatchTheWeb() {
-        assertNull(emailProblem("alex@morgan.design"))
+        assertNull(emailProblem("beier.laura@mh-hannover.de"))
         assertEquals(me.rxresu.core.strings.R.string.add_an_and_the_domain_like_name_example_com, emailProblem("alex")?.first)
         assertEquals("alex", emailProblem("alex@")?.second)
         assertEquals("morgan", emailProblem("alex@morgan")?.second)

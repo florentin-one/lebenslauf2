@@ -1,9 +1,9 @@
 ---
 title: "Self-hosting with Kubernetes"
-description: "Deploy Reactive Resume on Kubernetes with plain manifests: PostgreSQL, a Secret, persistent uploads, health probes, Ingress, scaling and updates."
+description: "Deploy Lebenslauf2 on Kubernetes with plain manifests: PostgreSQL, a Secret, persistent uploads, health probes, Ingress, scaling and updates."
 ---
 
-This guide deploys Reactive Resume to a Kubernetes cluster with plain manifests. The result matches the
+This guide deploys Lebenslauf2 to a Kubernetes cluster with plain manifests. The result matches the
 [Docker setup](/self-hosting/docker): one app Deployment serving everything on port `3000`, a separate PostgreSQL
 database, and persistent storage for uploads. Adapt the storage class and Ingress settings to your cluster.
 
@@ -40,7 +40,7 @@ metadata:
 type: Opaque
 stringData:
   # The public HTTPS address people use. Must match the Ingress host.
-  APP_URL: "https://resume.example.com"
+  APP_URL: "https://lebenslauf2.florentin-one.de"
   # "postgres" is the Service name from postgres.yaml.
   DATABASE_URL: "postgresql://postgres:REPLACE_WITH_DATABASE_PASSWORD@postgres:5432/postgres"
   # Read by the example PostgreSQL Deployment. Same password as in DATABASE_URL.
@@ -370,8 +370,8 @@ A community-maintained Helm chart is available from HelmForge:
 - Documentation: [helmforge.dev](https://helmforge.dev/docs/charts/reactive-resume)
 
 <Warning>
-  The Helm chart is maintained outside the Reactive Resume project. Report chart problems in the HelmForge repository.
-  Check that it supports v6 before using it; the manifests above work without it.
+  The Helm chart is maintained outside the Lebenslauf2 project. Report chart problems in the HelmForge repository. Check
+  that it supports v6 before using it; the manifests above work without it.
 </Warning>
 
 ## Troubleshooting

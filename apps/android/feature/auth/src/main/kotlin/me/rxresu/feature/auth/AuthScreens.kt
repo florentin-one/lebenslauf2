@@ -120,7 +120,7 @@ internal fun WelcomeScreen(
             ) {
                 RrLogo(size = 28.dp, contentDescription = null)
                 RrText(
-                    "Reactive Resume",
+                    "Lebenslauf2",
                     style =
                         RrType.rowTitle.copy(
                             fontWeight = androidx.compose.ui.text.font.FontWeight.SemiBold,
@@ -209,7 +209,7 @@ internal fun WelcomeScreen(
                     s.server,
                     { v ->
                         edit {
-                            it.copy(server = v, ownServer = v != "https://rxresu.me", info = null)
+                            it.copy(server = v, ownServer = v != "https://lebenslauf2.florentin-one.de", info = null)
                         }
                     },
                     label = stringResource(CR.string.server),

@@ -92,7 +92,7 @@ class BuilderViewModelTest {
         vm.edit { it.set(name, JsonPrimitive("A")) as JsonObject }
         settle()
         vm.undo(); settle()
-        assertEquals("Alex Morgan", vm.state.value.resume!!.data.basics.name)
+        assertEquals("Laura Beier", vm.state.value.resume!!.data.basics.name)
         vm.redo(); settle()
         assertEquals("A", vm.state.value.resume!!.data.basics.name)
     }
@@ -205,7 +205,7 @@ class BuilderViewModelTest {
         assertEquals("Agent Alex", vm.state.value.resume!!.data.basics.name)
         vm.undo(); settle()
         assertNull(vm.state.value.outsideChange)
-        assertEquals("Alex Morgan", vm.state.value.resume!!.data.basics.name)
+        assertEquals("Laura Beier", vm.state.value.resume!!.data.basics.name)
     }
 
     @Test fun linkingAnApplicationTakesTheNewRevisionAndMatchesItsPosting() = runTest {

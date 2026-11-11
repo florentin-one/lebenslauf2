@@ -18,7 +18,7 @@ const { movedResponse } = await import("./resume-page");
 
 describe("a moved public resume", () => {
 	it("redirects a previous slug permanently to the document's address", () => {
-		const response = movedResponse(new Request("https://rxresu.me/tess/old-address?preview=x"), {
+		const response = movedResponse(new Request("https://lebenslauf2.florentin-one.de/tess/old-address?preview=x"), {
 			username: "tess",
 			slug: "new-address",
 			isPrimary: false,
@@ -30,7 +30,7 @@ describe("a moved public resume", () => {
 	});
 
 	it("redirects a previous username temporarily, without caching", () => {
-		const response = movedResponse(new Request("https://rxresu.me/old-name/game-dev"), {
+		const response = movedResponse(new Request("https://lebenslauf2.florentin-one.de/old-name/game-dev"), {
 			username: "tess",
 			slug: "game-dev",
 			isPrimary: false,
@@ -43,7 +43,7 @@ describe("a moved public resume", () => {
 	});
 
 	it("sends an old username's primary short link to the account's current short link", () => {
-		const response = movedResponse(new Request("https://rxresu.me/old-name"), {
+		const response = movedResponse(new Request("https://lebenslauf2.florentin-one.de/old-name"), {
 			username: "tess",
 			slug: "game-dev",
 			isPrimary: true,
@@ -70,7 +70,7 @@ it("authorizes only the fixed application script, even if rendered content conta
 	} as never);
 	const { serveResumePage } = await import("./resume-page");
 	const response = await serveResumePage(
-		new Request("https://rxresu.me/ada/resume"),
+		new Request("https://lebenslauf2.florentin-one.de/ada/resume"),
 		{ username: "ada", slug: "resume" },
 		"test",
 	);

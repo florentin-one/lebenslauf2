@@ -2,7 +2,7 @@
 
 ## Supported Versions
 
-Reactive Resume provides security updates for version `5.0.x` and newer.
+Lebenslauf2 provides security updates for version `5.0.x` and newer.
 Earlier major versions are no longer supported.
 
 | Version | Supported          |
@@ -19,8 +19,8 @@ privately instead of opening a public issue.
 Preferred reporting channels:
 
 - Use GitHub's private vulnerability reporting for this repository.
-- If that is unavailable, email `amruth@rxresu.me` with the subject
-  `Security Vulnerability: Reactive Resume`.
+- If that is unavailable, email `amruth@lebenslauf2.me` with the subject
+  `Security Vulnerability: Lebenslauf2`.
 
 Please include as much detail as possible, including:
 

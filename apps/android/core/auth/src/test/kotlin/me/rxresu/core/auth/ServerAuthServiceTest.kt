@@ -74,16 +74,16 @@ class ServerAuthServiceTest {
                         }
                         "/api/auth/sign-in/email" -> {
                             val body = Json.parseToJsonElement(request.body!!.utf8()).jsonObject
-                            assertEquals("alex@example.com", body.text("email"))
+                            assertEquals("beier.laura@mh-hannover.de", body.text("email"))
                             assertEquals(signedQuery, body.text("oauth_query"))
                             MockResponse.Builder().body("""{"url":"$origin/auth/consent?$signedQuery","redirect":true}""")
                                 .addHeader("Set-Cookie", "better-auth.session_token=native; Path=/; HttpOnly").build()
                         }
-                        "/api/auth/oauth2/public-client-prelogin" -> response("""{"client_id":"client-a","client_name":"Reactive Resume for Android"}""")
+                        "/api/auth/oauth2/public-client-prelogin" -> response("""{"client_id":"client-a","client_name":"Lebenslauf2 for Android"}""")
                         "/api/auth/oauth2/consent" -> {
                             assertTrue(request.headers["Cookie"].orEmpty().contains("better-auth.session_token=native"))
                             assertEquals(origin, request.headers["Origin"])
-                            val urlToApp = "me.rxresu:/auth/native-callback?code=one-use&state=${authorize!!.queryParameter("state")}&iss=${Uri.encode("$origin/api/auth")}"
+                            val urlToApp = "me.lebenslauf2:/auth/native-callback?code=one-use&state=${authorize!!.queryParameter("state")}&iss=${Uri.encode("$origin/api/auth")}"
                             response(buildJsonObject { put("url", urlToApp); put("redirect", true) }.toString())
                         }
                         "/token" -> {
@@ -98,7 +98,7 @@ class ServerAuthServiceTest {
             }
             val store = MemoryAuthStorage()
             val auth = service(store, OkHttpClient(), true, { 1000 })
-            val result = auth.signInWithPassword(origin, " Alex@Example.com ", "password")
+            val result = auth.signInWithPassword(origin, " beier.laura@mh-hannover.de ", "password")
             assertTrue(result.toString(), result is AuthResult.ConsentRequired)
             assertEquals(SessionState.SignedOut, auth.state.value)
             assertEquals(AuthResult.Success, auth.consent((result as AuthResult.ConsentRequired).request, true))
@@ -184,7 +184,7 @@ class ServerAuthServiceTest {
 
     @Test fun callbackStateIssuerAndExpiryAreCheckedBeforeTokenEndpoint() = runBlocking {
         val store = MemoryAuthStorage()
-        val p = Pending("https://example.org", "client", "verifier", "state", "https://rxresu.me/auth/native-callback", "https://example.org/api/auth", true, 1000)
+        val p = Pending("https://example.org", "client", "verifier", "state", "https://lebenslauf2.florentin-one.de/auth/native-callback", "https://example.org/api/auth", true, 1000)
         store.entries["pending"] = json.encodeToString(p)
         val auth = service(store, OkHttpClient(), false, { 1001 })
         fun callback(query: String) = Uri.parse("${p.redirect}?$query")

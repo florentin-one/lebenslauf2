@@ -52,7 +52,7 @@
     <string name="v2_continue_provider">"Continue with %1$s"</string>
     <string name="v2_enter_code">"Enter the code"</string>
     <string name="v2_authenticator">"From your authenticator app."</string>
-    <string name="v2_allow_title">"Allow %1$s to use your Reactive Resume?"</string>
+    <string name="v2_allow_title">"Allow %1$s to use your Lebenslauf2?"</string>
     <string name="v2_signed_in">"%1$s · signed in as %2$s"</string>
     <string name="v2_able_to">"It will be able to"</string>
     <string name="v2_see_documents">"See your resumes, letters and applications"</string>

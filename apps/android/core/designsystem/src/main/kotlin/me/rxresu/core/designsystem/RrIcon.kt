@@ -57,7 +57,7 @@ fun RrIcon(
     )
 }
 
-/** The Reactive Resume logo mark: the light file on light grounds, the dark file on dark grounds. Never tinted. */
+/** The Lebenslauf2 logo mark: the light file on light grounds, the dark file on dark grounds. Never tinted. */
 @Composable
 fun RrLogo(modifier: Modifier = Modifier, size: Dp = 32.dp, contentDescription: String? = androidx.compose.ui.res.stringResource(R.string.ds_app_name)) {
     Image(

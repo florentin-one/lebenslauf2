@@ -126,12 +126,12 @@ function legacyOperationIds() {
 export async function generateOpenApiSpec({ appUrl, version }: GenerateOpenApiSpecOptions) {
 	const spec = await openAPIGenerator.generate(openAPIRouter, {
 		info: {
-			title: "Reactive Resume",
+			title: "Lebenslauf2",
 			version,
 			description:
-				"Reactive Resume API. Mutations do not support Idempotency-Key. Do not automatically retry POST, PUT, PATCH or DELETE requests after a timeout: first read the resource to determine whether the operation succeeded. Existing enum values and response shapes are retained for compatibility.",
+				"Lebenslauf2 API. Mutations do not support Idempotency-Key. Do not automatically retry POST, PUT, PATCH or DELETE requests after a timeout: first read the resource to determine whether the operation succeeded. Existing enum values and response shapes are retained for compatibility.",
 			license: { name: "MIT", url: "https://github.com/reactive-resume/reactive-resume/blob/main/LICENSE" },
-			contact: { name: "Amruth Pillai", email: "amruth@rxresu.me", url: "https://amruthpillai.com" },
+			contact: { name: "Amruth Pillai", email: "amruth@lebenslauf2.me", url: "https://amruthpillai.com" },
 		},
 		servers: [{ url: `${appUrl}/api/openapi` }],
 		paths: {
@@ -156,7 +156,7 @@ export async function generateOpenApiSpec({ appUrl, version }: GenerateOpenApiSp
 				},
 			},
 		},
-		externalDocs: { url: "https://docs.rxresu.me", description: "Reactive Resume Documentation" },
+		externalDocs: { url: "https://docs.lebenslauf2.me", description: "Lebenslauf2 Documentation" },
 		commonSchemas: {
 			ResumeData: { schema: writableResumeDataSchema, strategy: "input" },
 		},

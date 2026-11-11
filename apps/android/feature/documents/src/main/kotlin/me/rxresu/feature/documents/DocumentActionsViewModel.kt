@@ -120,7 +120,7 @@ class DocumentActionsViewModel(private val repos: RrRepositories, private val id
     }
 
     companion object {
-        /** "Lumen · Senior product designer", or "Product designer (copy)" without a job. */
+        /** "Lumen · Fachärztin für Psychiatrie und Psychotherapie", or "Product designer (copy)" without a job. */
         fun suggestedName(source: DocumentSummary?, company: String?, role: String?): String = when {
             !company.isNullOrBlank() && !role.isNullOrBlank() -> "${company.trim()} · ${role.trim()}"
             !company.isNullOrBlank() -> "${source?.name.orEmpty()} · ${company.trim()}".trimStart(' ', '·')

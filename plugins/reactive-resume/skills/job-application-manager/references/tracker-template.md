@@ -1,6 +1,6 @@
 # Plain tracker: Markdown or CSV, no app needed
 
-How to run the pipeline with nothing but conversation and, where the agent can write files, a CSV. The same columns move into Reactive Resume later with `import_applications`.
+How to run the pipeline with nothing but conversation and, where the agent can write files, a CSV. The same columns move into Lebenslauf2 later with `import_applications`.
 
 ## Contents
 
@@ -10,7 +10,7 @@ How to run the pipeline with nothing but conversation and, where the agent can w
 4. Stage log
 5. Starting from a pile (worked example)
 6. Spreadsheet formulas for the review
-7. Moving into Reactive Resume
+7. Moving into Lebenslauf2
 
 ## 1. Where the tracker lives
 
@@ -48,7 +48,7 @@ Keep the posting text itself in a separate file per job (`job-search/postings/7-
 
 **Search brief.** Five lines at the top of the Markdown tracker, or in `job-search/brief.md`: target roles; locations or remote; pay floor with currency and period; deal-breakers; hours per week for the search. Leave out what the user doesn't know.
 
-**Networking contacts** (no posting yet): `job-search/contacts.csv` with `name, company, role, relationship, last_contact_on, next_step, follow_up_on, notes`. The weekly review lists rows whose `follow_up_on` is due. In Reactive Resume these become `saved` records tagged `target-company` (mcp-recipes.md §9).
+**Networking contacts** (no posting yet): `job-search/contacts.csv` with `name, company, role, relationship, last_contact_on, next_step, follow_up_on, notes`. The weekly review lists rows whose `follow_up_on` is due. In Lebenslauf2 these become `saved` records tagged `target-company` (mcp-recipes.md §9).
 
 ## 3. Example
 
@@ -129,9 +129,9 @@ With the column order in §2 (A `id` … L `applied_on`, M `last_contact_on`, N 
 
 Open-ended ranges such as `J2:J` are Google Sheets syntax; in Excel use a fixed range such as `J2:J1000`. Sent counts by `furthest_stage`, so rows with an unknown applied date still count. Report counts below about 30 (weekly-review.md §2).
 
-## 7. Moving into Reactive Resume
+## 7. Moving into Lebenslauf2
 
-When the user connects the Reactive Resume MCP server, offer to import. Show the first three mapped rows and get a yes first; the server doesn't check for duplicates, so list existing applications and skip matches.
+When the user connects the Lebenslauf2 MCP server, offer to import. Show the first three mapped rows and get a yes first; the server doesn't check for duplicates, so list existing applications and skip matches.
 
 | Tracker column                               | `import_applications` item field                                                      |
 | -------------------------------------------- | ------------------------------------------------------------------------------------- |

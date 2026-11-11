@@ -65,12 +65,12 @@ beforeEach(() => {
 	api.providers.mockRejectedValue(new Error("Provider lookup offline"));
 	api.importResume.mockResolvedValue("imported-resume");
 	api.readPdfSource.mockResolvedValue({
-		lines: ["Alex Morgan", "Customer research", "Patents", "US 11,234,567 · Accessible payment validation"],
+		lines: ["Laura Beier", "Customer research", "Patents", "US 11,234,567 · Accessible payment validation"],
 		links: [],
 	});
 	api.readPdfResume.mockResolvedValue(
 		parseResumeText(
-			["Alex Morgan", "alex@example.test", "Product Manager", "Experience", "Customer research"].join("\n"),
+			["Laura Beier", "beier.laura@mh-hannover.de", "Product Manager", "Experience", "Customer research"].join("\n"),
 		),
 	);
 });
@@ -110,7 +110,7 @@ it("imports a PDF through the local text reader when AI connection lookup fails"
 		{
 			aiOperationIds: [],
 			data: expect.objectContaining({
-				basics: expect.objectContaining({ name: "Alex Morgan" }),
+				basics: expect.objectContaining({ name: "Laura Beier" }),
 				// The unplaced line is kept, as the user chose by default.
 				customSections: [expect.objectContaining({ title: "More from your file" })],
 			}),
@@ -126,7 +126,7 @@ it.each([false, true])("describes partial PDF comparison honestly when readable 
 	api.providers.mockResolvedValue([
 		{ id: "fictional-provider", label: "Fictional provider", model: "fixture", enabled: true, testStatus: "success" },
 	]);
-	api.parsePdf.mockResolvedValue(parseResumeText("Alex Morgan\nalex@example.test"));
+	api.parsePdf.mockResolvedValue(parseResumeText("Laura Beier\nbeier.laura@mh-hannover.de"));
 	api.readPdfSource.mockResolvedValue({
 		lines: readable ? ["Fictional omitted paragraph"] : [],
 		links: [],
@@ -160,7 +160,7 @@ it.each([
 	api.parsePdf.mockImplementation(async () => {
 		if (scenario === "changed during parse") setAccountScope("different-owner");
 		return {
-			...parseResumeText("Alex Morgan\nalex@example.test"),
+			...parseResumeText("Laura Beier\nbeier.laura@mh-hannover.de"),
 			...(scenario !== "older server" ? { aiOperationIds: ["actual-operation"] } : {}),
 		};
 	});

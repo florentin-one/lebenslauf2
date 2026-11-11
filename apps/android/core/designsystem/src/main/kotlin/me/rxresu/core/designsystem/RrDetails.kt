@@ -63,6 +63,6 @@ internal fun RrDetailsPreview() = RrPreviewSurface {
     RrNumberTag(1)
     RrBoardCard {
         RrText("Lumen", style = RrType.rowTitle.copy(fontWeight = FontWeight.SemiBold))
-        RrText("Senior product designer", style = RrType.ui, color = RrTheme.colors.ink3)
+        RrText("Fachärztin für Psychiatrie und Psychotherapie", style = RrType.ui, color = RrTheme.colors.ink3)
     }
 }

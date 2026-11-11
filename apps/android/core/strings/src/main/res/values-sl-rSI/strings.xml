@@ -4,8 +4,8 @@
     <!-- A: {answer} -->
     <!-- Arguments: %1$s = {answer} -->
     <string name="a_answer">"O: %1$s"</string>
-    <!-- A backup of this letter. Imports back into Reactive Resume as a letter. -->
-    <string name="a_backup_of_this_letter_imports_back_into_reactive_resume_as_a_letter" formatted="false">"Varnostna kopija tega pisma. Uvozi nazaj v Reactive Resume kot pismo."</string>
+    <!-- A backup of this letter. Imports back into Lebenslauf2 as a letter. -->
+    <string name="a_backup_of_this_letter_imports_back_into_lebenslauf2_as_a_letter" formatted="false">"Varnostna kopija tega pisma. Uvozi nazaj v Lebenslauf2 kot pismo."</string>
     <!-- A city and country let roles be matched to where you are. -->
     <string name="a_city_and_country_let_roles_be_matched_to_where_you_are" formatted="false">"Mesto in država omogočata, da se vloge ujemajo s tem, kje ste."</string>
     <!-- A comfortable length, and it fits on one page. -->
@@ -370,8 +370,6 @@
     <string name="ai_providers_couldn_t_be_loaded_reload_to_try_again" formatted="false">"Ponudnikov AI ni bilo mogoče naložiti. Ponovno naložite, da poskusite znova."</string>
     <!-- AI providers couldn't be loaded. Retry or fill the details manually. -->
     <string name="ai_providers_couldn_t_be_loaded_retry_or_fill_the_details_manually" formatted="false">"Ponudnikov AI ni bilo mogoče naložiti. Poskusite znova ali podrobnosti izpolnite ročno."</string>
-    <!-- AI reads pasted text only when you ask. Links can use the page’s own job data without AI. -->
-    <string name="ai_reads_pasted_text_only_when_you_ask_links_can_use_the_pages_own_job_data_without_ai" formatted="false">"AI prebere prilepljeno besedilo le, ko vprašate. Povezave lahko uporabljajo lastne podatke o delu strani brez AI."</string>
     <!-- AI request attempts: {0} -->
     <!-- Arguments: %1$s = {0} -->
     <string name="ai_request_attempts_0">"Poskusi zahtev AI: %1$s"</string>
@@ -379,8 +377,6 @@
     <string name="ai_request_history_unavailable_for_this_result" formatted="false">"Zgodovina zahtev AI za ta rezultat ni na voljo."</string>
     <!-- AI settings -->
     <string name="ai_settings" formatted="false">"Nastavitve AI"</string>
-    <!-- AI suggestions, not verified qualifications or hiring predictions. Sources below are your statements. -->
-    <string name="ai_suggestions_not_verified_qualifications_or_hiring_predictions_sources_below_are_your_statements" formatted="false">"Predlogi AI, ne preverjene kvalifikacije ali napovedi zaposlitve. Spodnji viri so vaše izjave."</string>
     <!-- AI usage couldn't be loaded. Try refreshing. Older servers may need an update. -->
     <string name="ai_usage_couldn_t_be_loaded_try_refreshing_older_servers_may_need_an_update" formatted="false">"Uporabe AI ni bilo mogoče naložiti. Osvežite prikaz. Starejši strežniki morda potrebujejo posodobitev."</string>
     <!-- AI usage this week -->
@@ -442,8 +438,6 @@
     <string name="always_appears_in_today_email_requires_a_verified_address_and_server_mail_setup_no_push_notification" formatted="false">"Vedno se prikaže v Danes. E-pošta zahteva preverjen naslov in nastavljeno strežniško pošto. Potisna obvestila se ne pošiljajo."</string>
     <!-- Amharic -->
     <string name="amharic" formatted="false">"Amharščina"</string>
-    <!-- An AI reading to help you edit, not a prediction of how an employer or screening system will respond. -->
-    <string name="an_ai_reading_to_help_you_edit_not_a_prediction_of_how_an_employer_or_screening_system_will_respond" formatted="false">"Branje AI kot pomoč pri urejanju, ne napoved, kako se bo odzval delodajalec ali sistem za pregled kandidatov."</string>
     <!-- An edit addresses it -->
     <string name="an_edit_addresses_it" formatted="false">"Sprememba to rešuje"</string>
     <!-- An embedded font could not be read. -->
@@ -640,9 +634,9 @@
     <string name="assistant" formatted="false">"Pomočnik"</string>
     <!-- Assistant conversations -->
     <string name="assistant_conversations" formatted="false">"Pogovori s pomočnikom"</string>
-    <!-- {at} · {providerLabel}. Sends this application and your Knowledge; your provider may charge. -->
+    <!-- {at} · {providerLabel} -->
     <!-- Arguments: %1$s = {at}, %2$s = {providerLabel} -->
-    <string name="at_providerlabel_sends_this_application_and_your_knowledge_your_provider_may_charge">"%1$s · %2$s. Pošlje to prijavo in vaše Znanje; ponudnik lahko zaračuna uporabo."</string>
+    <string name="at_providerlabel">"%1$s · %2$s"</string>
     <!-- ATS checker -->
     <string name="ats_checker" formatted="false">"Kontrolnik ATS"</string>
     <!-- ATS-safe -->
@@ -1141,8 +1135,8 @@
     <!-- Complete {0} before saving. -->
     <!-- Arguments: %1$s = {0} -->
     <string name="complete_0_before_saving">"Pred shranjevanjem izpolnite %1$s."</string>
-    <!-- Complete data backup. Imports back into Reactive Resume. -->
-    <string name="complete_data_backup_imports_back_into_reactive_resume" formatted="false">"Popolna varnostna kopija podatkov. Uvozi se nazaj v Reactive Resume."</string>
+    <!-- Complete data backup. Imports back into Lebenslauf2. -->
+    <string name="complete_data_backup_imports_back_into_lebenslauf2" formatted="false">"Popolna varnostna kopija podatkov. Uvozi se nazaj v Lebenslauf2."</string>
     <!-- Complete the employer form manually in your browser using reviewed answers and approved PDFs. -->
     <string name="complete_the_employer_form_manually_in_your_browser_using_reviewed_answers_and_approved_pdfs" formatted="false">"Obrazec delodajalca izpolnite ročno v brskalniku s pregledanimi odgovori in odobrenimi datotekami PDF."</string>
     <!-- {completed, plural, one {# document updated} other {# documents updated}} -->
@@ -1456,8 +1450,8 @@
     <!-- Couldn't propose these edits: {0} -->
     <!-- Arguments: %1$s = {0} -->
     <string name="couldn_t_propose_these_edits_0">"Teh sprememb ni bilo mogoče predlagati: %1$s"</string>
-    <!-- Couldn't reach Reactive Resume. Check your internet connection, then try again. -->
-    <string name="couldn_t_reach_reactive_resume_check_your_internet_connection_then_try_again" formatted="false">"Povezave z Reactive Resume ni bilo mogoče vzpostaviti. Preverite internetno povezavo in poskusite znova."</string>
+    <!-- Couldn't reach Lebenslauf2. Check your internet connection, then try again. -->
+    <string name="couldn_t_reach_lebenslauf2_check_your_internet_connection_then_try_again" formatted="false">"Povezave z Lebenslauf2 ni bilo mogoče vzpostaviti. Preverite internetno povezavo in poskusite znova."</string>
     <!-- Couldn't reach your AI provider. Try again or check its key in AI settings. -->
     <string name="couldn_t_reach_your_ai_provider_try_again_or_check_its_key_in_ai_settings" formatted="false">"Vašega ponudnika AI ni bilo mogoče doseči. Poskusite znova ali preverite njegov ključ v nastavitvah AI."</string>
     <!-- Couldn't read {name}'s answer. Try again, or switch the default provider in AI settings. -->
@@ -2086,8 +2080,6 @@
     <string name="earlier_discovery_result_search_query_and_posting_check_time_unknown" formatted="false">"Prejšnji rezultat odkrivanja. Iskalna poizvedba in čas preverjanja oglasa nista znana."</string>
     <!-- Earlier messages and attachments in this conversation will be sent to this destination when you send again. -->
     <string name="earlier_messages_and_attachments_in_this_conversation_will_be_sent_to_this_destination_when_you_send" formatted="false">"Prejšnja sporočila in priloge v tem pogovoru bodo ob naslednjem pošiljanju poslani na ta cilj."</string>
-    <!-- earlier messages in this chat -->
-    <string name="earlier_messages_in_this_chat" formatted="false">"prejšnja sporočila v tem klepetu"</string>
     <!-- Edit -->
     <string name="edit" formatted="false">"Uredi"</string>
     <!-- Edit {0} -->
@@ -2110,8 +2102,8 @@
     <string name="edit_first" formatted="false">"Najprej uredi"</string>
     <!-- Edit interview -->
     <string name="edit_interview" formatted="false">"Uredi intervju"</string>
-    <!-- Edit it in Reactive Resume -->
-    <string name="edit_it_in_reactive_resume" formatted="false">"Uredite ga v Reactive Resume"</string>
+    <!-- Edit it in Lebenslauf2 -->
+    <string name="edit_it_in_lebenslauf2" formatted="false">"Uredite ga v Lebenslauf2"</string>
     <!-- Edit link -->
     <string name="edit_link" formatted="false">"Uredi povezavo"</string>
     <!-- Edit note -->
@@ -2179,8 +2171,6 @@
     <string name="empty_trash" formatted="false">"Izprazni smetnjak"</string>
     <!-- Empty Trash? -->
     <string name="empty_trash_ab0a72a70c" formatted="false">"Želite izprazniti smetnjak?"</string>
-    <!-- enabled Knowledge -->
-    <string name="enabled_knowledge" formatted="false">"vklopljeno Znanje"</string>
     <!-- End -->
     <string name="end" formatted="false">"Konec"</string>
     <!-- English -->
@@ -2229,8 +2219,8 @@
     <string name="enter_any_model_id_supported_by_your_endpoint" formatted="false">"Vnesite poljuben ID modela, ki ga podpira vaša končna točka."</string>
     <!-- Enter terms yourself. No AI request is made. Leave unknown amounts blank. -->
     <string name="enter_terms_yourself_no_ai_request_is_made_leave_unknown_amounts_blank" formatted="false">"Pogoje vnesite sami. Zahteva se ne pošlje umetni inteligenci. Neznane zneske pustite prazne."</string>
-    <!-- Enter the address you open Reactive Resume at in a browser. The app checks it's a Reactive Resume server that allows app sign-in before you continue. -->
-    <string name="enter_the_address_you_open_reactive_resume_at_in_a_browser_the_app_checks_it_s_a_reactive_resume_ser" formatted="false">"Vnesite naslov, na katerem odprete Reactive Resume v brskalniku. Aplikacija preveri, ali gre za strežnik Reactive Resume, ki omogoča prijavo v aplikacijo, preden nadaljujete."</string>
+    <!-- Enter the address you open Lebenslauf2 at in a browser. The app checks it's a Lebenslauf2 server that allows app sign-in before you continue. -->
+    <string name="enter_the_address_you_open_lebenslauf2_at_in_a_browser_the_app_checks_it_s_a_lebenslauf2_server_that" formatted="false">"Vnesite naslov, na katerem odprete Lebenslauf2 v brskalniku. Aplikacija preveri, ali gre za strežnik Lebenslauf2, ki omogoča prijavo v aplikacijo, preden nadaljujete."</string>
     <!-- Enter the API base URL of your service and test again. -->
     <string name="enter_the_api_base_url_of_your_service_and_test_again" formatted="false">"Vnesite osnovni URL API vaše storitve in znova preizkusite."</string>
     <!-- Enter your details below. Choosing a resume replaces them and links its design. -->
@@ -2502,11 +2492,11 @@
     <!-- Found for “{0}”. Posting checked {1}. -->
     <!-- Arguments: %1$s = {0}, %2$s = {1} -->
     <string name="found_for_0_posting_checked_1">"Najdeno za »%1$s«. Oglas preverjen %2$s."</string>
-    <!-- Found posting links are read by Reactive Resume and the sites being read. -->
-    <string name="found_posting_links_are_read_by_reactive_resume_and_the_sites_being_read" formatted="false">"Najdene povezave do oglasov berejo Reactive Resume in brana spletna mesta."</string>
-    <!-- Found posting links are read by Reactive Resume and, when needed, {reader} and the sites being read. The reader may charge. -->
+    <!-- Found posting links are read by Lebenslauf2 and the sites being read. -->
+    <string name="found_posting_links_are_read_by_lebenslauf2_and_the_sites_being_read" formatted="false">"Najdene povezave do oglasov berejo Lebenslauf2 in brana spletna mesta."</string>
+    <!-- Found posting links are read by Lebenslauf2 and, when needed, {reader} and the sites being read. The reader may charge. -->
     <!-- Arguments: %1$s = {reader} -->
-    <string name="found_posting_links_are_read_by_reactive_resume_and_when_needed_reader_and_the_sites_being_read_the">"Najdene povezave do oglasov berejo Reactive Resume in po potrebi %1$s ter brana spletna mesta. Bralnik lahko zaračuna."</string>
+    <string name="found_posting_links_are_read_by_lebenslauf2_and_when_needed_reader_and_the_sites_being_read_the_read">"Najdene povezave do oglasov berejo Lebenslauf2 in po potrebi %1$s ter brana spletna mesta. Bralnik lahko zaračuna."</string>
     <!-- Free-form -->
     <string name="free_form" formatted="false">"Prosta oblika"</string>
     <!-- French -->
@@ -2903,8 +2893,6 @@
     <!-- Its own design ({summary}). -->
     <!-- Arguments: %1$s = {summary} -->
     <string name="its_own_design_summary">"Lasten dizajn (%1$s)."</string>
-    <!-- its requirements -->
-    <string name="its_requirements" formatted="false">"njegove zahteve"</string>
     <!-- Its saved key is deleted. Conversations using it need another provider. -->
     <string name="its_saved_key_is_deleted_conversations_using_it_need_another_provider" formatted="false">"Njegov shranjeni ključ je izbrisan. Pogovori, ki ga uporabljajo, potrebujejo drugega ponudnika."</string>
     <!-- Japanese -->
@@ -3100,6 +3088,8 @@
     <string name="leave_out" formatted="false">"Pusti ven"</string>
     <!-- Leave without keeping the draft? -->
     <string name="leave_without_keeping_the_draft" formatted="false">"Želite oditi, ne da bi ohranili osnutek?"</string>
+    <!-- Lebenslauf2 -->
+    <string name="lebenslauf2" formatted="false">"Lebenslauf2"</string>
     <!-- Left -->
     <string name="left" formatted="false">"levo"</string>
     <!-- Left blank. Add it later only if you can support it. -->
@@ -3354,8 +3344,6 @@
     <string name="managed_by_server" formatted="false">"Upravlja strežnik"</string>
     <!-- Managed by your server -->
     <string name="managed_by_your_server" formatted="false">"Upravlja ga vaš strežnik"</string>
-    <!-- Manual roles and preferences work without AI. Suggestions never search or schedule anything. -->
-    <string name="manual_roles_and_preferences_work_without_ai_suggestions_never_search_or_schedule_anything" formatted="false">"Ročna delovna mesta in nastavitve delujejo brez AI. Predlogi nikoli ničesar ne iščejo ali načrtujejo."</string>
     <!-- Many bullets start with the same phrase. -->
     <string name="many_bullets_start_with_the_same_phrase" formatted="false">"Mnoge alineje se začnejo z isto besedno zvezo."</string>
     <!-- Mar 2022 -->
@@ -3587,14 +3575,6 @@
         <item quantity="one">"Zajete ključne besede iz oglasa: %2$s od %1$s"</item>
         <item quantity="other">"Zajete ključne besede iz oglasa: %3$s od %1$s"</item>
         <item quantity="two">"Zajete ključne besede iz oglasa: %3$s od %1$s"</item>
-    </plurals>
-    <!-- {0, plural, one {Also sends {1}.} other {Also sends # files: {2}.}} -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1}, %3$s = {2} -->
-    <plurals name="message_0_plural_one_also_sends_1_other_also_sends_files_2">
-        <item quantity="few">"Pošlje tudi %1$s datoteke: %3$s."</item>
-        <item quantity="one">"Pošlje tudi %2$s."</item>
-        <item quantity="other">"Pošlje tudi %1$s datotek: %3$s."</item>
-        <item quantity="two">"Pošlje tudi %1$s datoteki: %3$s."</item>
     </plurals>
     <!-- {0, plural, one {# answer} other {# answers}} -->
     <!-- Arguments: %1$s = {0} -->
@@ -4136,8 +4116,6 @@
     <string name="message_the_assistant" formatted="false">"Pošlji pomočniku sporočilo"</string>
     <!-- Messages -->
     <string name="messages" formatted="false">"Sporočila"</string>
-    <!-- Messages from before Knowledge changed aren't sent. -->
-    <string name="messages_from_before_knowledge_changed_aren_t_sent" formatted="false">"Sporočila iz časa pred spremembo Znanja se ne pošljejo."</string>
     <!-- Messages from before Knowledge changed aren't sent to the AI anymore, so it won't remember them. Start a new conversation to keep context together. -->
     <string name="messages_from_before_knowledge_changed_aren_t_sent_to_the_ai_anymore_so_it_won_t_remember_them_start" formatted="false">"Sporočila iz časa pred spremembo Znanja se ne pošiljajo več AI, zato si jih ne bo zapomnil. Začnite nov pogovor, da ohranite kontekst skupaj."</string>
     <!-- Minimum base salary -->
@@ -4481,6 +4459,8 @@
     <string name="no_keys_yet" formatted="false">"Ni še ključev."</string>
     <!-- No language matches. -->
     <string name="no_language_matches" formatted="false">"Ni jezikovnih ujemanj."</string>
+    <!-- No Lebenslauf2 server answered at this address. Check the spelling, or ask your administrator whether the server allows app sign-in. -->
+    <string name="no_lebenslauf2_server_answered_at_this_address_check_the_spelling_or_ask_your_administrator_whether" formatted="false">"Na tem naslovu ni odgovoril noben strežnik Lebenslauf2. Preverite črkovanje ali vprašajte skrbnika, ali strežnik dovoljuje prijavo v aplikacijo."</string>
     <!-- No lines look like a job title paired with an employer. -->
     <string name="no_lines_look_like_a_job_title_paired_with_an_employer" formatted="false">"Nobena vrstica ni videti kot naziv delovnega mesta v paru z delodajalcem."</string>
     <!-- No linked application -->
@@ -4513,8 +4493,6 @@
     <string name="no_photo_most_ats_ignore_photos_some_regions_expect_one" formatted="false">"Brez fotografije. Večina ATS ignorira fotografije; nekatere regije ga pričakujejo."</string>
     <!-- No postings found. Try different keywords. -->
     <string name="no_postings_found_try_different_keywords" formatted="false">"Ni oglasov za delo. Poskusite z različnimi ključnimi besedami."</string>
-    <!-- No Reactive Resume server answered at this address. Check the spelling, or ask your administrator whether the server allows app sign-in. -->
-    <string name="no_reactive_resume_server_answered_at_this_address_check_the_spelling_or_ask_your_administrator_whet" formatted="false">"Na tem naslovu ni odgovoril noben strežnik Reactive Resume. Preverite črkovanje ali vprašajte skrbnika, ali strežnik dovoljuje prijavo v aplikacijo."</string>
     <!-- No recognizable terms in this posting. -->
     <string name="no_recognizable_terms_in_this_posting" formatted="false">"V tej objavi ni prepoznavnih izrazov."</string>
     <!-- No recorded answers are available. -->
@@ -4637,8 +4615,6 @@
     <string name="nothing_in_your_library_yet" formatted="false">"V vaši knjižnici še ni ničesar"</string>
     <!-- Nothing is applied for or created until you choose. -->
     <string name="nothing_is_applied_for_or_created_until_you_choose" formatted="false">"Dokler se ne odločite, se ne odda nobena prijava in nič se ne ustvari."</string>
-    <!-- Nothing is sent until you choose a connection for this conversation. -->
-    <string name="nothing_is_sent_until_you_choose_a_connection_for_this_conversation" formatted="false">"Nič ni poslano, dokler ne izberete povezave za ta pogovor."</string>
     <!-- Nothing marks a role as ongoing. -->
     <string name="nothing_marks_a_role_as_ongoing" formatted="false">"Nič ne označuje, da vloga še traja."</string>
     <!-- Nothing on this day. -->
@@ -4712,8 +4688,8 @@
     <string name="on" formatted="false">"Vklopljeno"</string>
     <!-- On. Anyone with the link can see your web page. -->
     <string name="on_anyone_with_the_link_can_see_your_web_page" formatted="false">"Vklopljeno. Vsakdo s povezavo si lahko ogleda vašo spletno stran."</string>
-    <!-- On iOS, choose Keep for review, then reopen app in the Share extension. Reopen Reactive Resume yourself within 15 minutes. Sign in here before sharing. -->
-    <string name="on_ios_choose_keep_for_review_then_reopen_app_in_the_share_extension_reopen_reactive_resume_yourself" formatted="false">"V iOS izberite Obdrži za pregled, nato znova odprite aplikacijo v razširitvi za deljenje. Reactive Resume znova odprite sami v 15 minutah. Pred deljenjem se prijavite tukaj."</string>
+    <!-- On iOS, choose Keep for review, then reopen app in the Share extension. Reopen Lebenslauf2 yourself within 15 minutes. Sign in here before sharing. -->
+    <string name="on_ios_choose_keep_for_review_then_reopen_app_in_the_share_extension_reopen_lebenslauf2_yourself_wit" formatted="false">"V iOS izberite Obdrži za pregled, nato znova odprite aplikacijo v razširitvi za deljenje. Lebenslauf2 znova odprite sami v 15 minutah. Pred deljenjem se prijavite tukaj."</string>
     <!-- On. Visitors need the link and password to see your web page. -->
     <string name="on_visitors_need_the_link_and_password_to_see_your_web_page" formatted="false">"Vklopljeno. Obiskovalci za ogled vaše spletne strani potrebujejo povezavo in geslo."</string>
     <!-- Once a round is scheduled, Interview prep builds a timed plan, your opening and the questions to ask. -->
@@ -4974,14 +4950,14 @@
     <string name="pdf_check_canceled_retry_when_ready" formatted="false">"Preverjanje PDF preklicano. Poskusite znova, ko boste pripravljeni."</string>
     <!-- PDF import -->
     <string name="pdf_import" formatted="false">"Uvoz PDF"</string>
-    <!-- PDF only · up to 10 MB each. Linking a Reactive Resume enables a fit check against each requirement and tailoring. -->
-    <string name="pdf_only_up_to_10_mb_each_linking_a_reactive_resume_enables_a_fit_check_against_each_requirement_and" formatted="false">"Samo PDF · do 10 MB vsak. Povezava življenjepisa Reactive Resume omogoči preverjanje ujemanja z vsako zahtevo in prilagajanje."</string>
-    <!-- PDF reads its text layer on your server by default, without AI. Turn on the AI switch to send it to your provider. Word (.docx) needs an AI provider. Current and v4 Reactive Resume JSON, cover letters, JSON Resume and LinkedIn exports (.zip) are supported. Up to 10 MB. -->
-    <string name="pdf_reads_its_text_layer_on_your_server_by_default_without_ai_turn_on_the_ai_switch_to_send_it_to_yo" formatted="false">"PDF privzeto prebere svojo besedilno plast na vašem strežniku, brez AI. Vklopite stikalo AI, da ga pošljete svojemu ponudniku. Word (.docx) potrebuje ponudnika AI. Podprti so trenutni JSON in JSON v4 Reactive Resume, spremna pisma, JSON Resume in izvozi iz LinkedIna (.zip). Do 10 MB."</string>
+    <!-- PDF only · up to 10 MB each. Linking a Lebenslauf2 enables a fit check against each requirement and tailoring. -->
+    <string name="pdf_only_up_to_10_mb_each_linking_a_lebenslauf2_enables_a_fit_check_against_each_requirement_and_tai" formatted="false">"Samo PDF · do 10 MB vsak. Povezava življenjepisa Lebenslauf2 omogoči preverjanje ujemanja z vsako zahtevo in prilagajanje."</string>
+    <!-- PDF reads its text layer on your server by default, without AI. Turn on the AI switch to send it to your provider. Word (.docx) needs an AI provider. Current and v4 Lebenslauf2 JSON, cover letters, JSON Resume and LinkedIn exports (.zip) are supported. Up to 10 MB. -->
+    <string name="pdf_reads_its_text_layer_on_your_server_by_default_without_ai_turn_on_the_ai_switch_to_send_it_to_yo" formatted="false">"PDF privzeto prebere svojo besedilno plast na vašem strežniku, brez AI. Vklopite stikalo AI, da ga pošljete svojemu ponudniku. Word (.docx) potrebuje ponudnika AI. Podprti so trenutni JSON in JSON v4 Lebenslauf2, spremna pisma, JSON Resume in izvozi iz LinkedIna (.zip). Do 10 MB."</string>
     <!-- PDF styles support a subset of CSS. Rotation, dashed and dotted borders, and some layout properties are ignored. -->
     <string name="pdf_styles_support_a_subset_of_css_rotation_dashed_and_dotted_borders_and_some_layout_properties_are" formatted="false">"Slogi PDF podpirajo podnabor CSS. Vrtenje, črtkane in pikčaste obrobe ter nekatere lastnosti postavitve so prezrte."</string>
-    <!-- PDF, Word, Reactive Resume, JSON Resume or LinkedIn export. -->
-    <string name="pdf_word_reactive_resume_json_resume_or_linkedin_export" formatted="false">"Izvoz PDF, Word, Reactive Resume, JSON Resume ali LinkedIn."</string>
+    <!-- PDF, Word, Lebenslauf2, JSON Resume or LinkedIn export. -->
+    <string name="pdf_word_lebenslauf2_json_resume_or_linkedin_export" formatted="false">"Izvoz PDF, Word, Lebenslauf2, JSON Resume ali LinkedIn."</string>
     <!-- {pending, plural, one {# proposed edit on this page · nothing changes until you accept} other {# proposed edits on this page · nothing changes until you accept}} -->
     <!-- Arguments: %1$s = {pending} -->
     <plurals name="pending_plural_one_proposed_edit_on_this_page_nothing_changes_until_you_accept_other_proposed_edits">
@@ -5099,8 +5075,6 @@
     <!-- Practice in {company}’s workspace -->
     <!-- Arguments: %1$s = {company} -->
     <string name="practice_in_company_s_workspace">"Vadite v delovnem prostoru podjetja %1$s"</string>
-    <!-- Practice priorities, not conclusions about why an employer decided anything. -->
-    <string name="practice_priorities_not_conclusions_about_why_an_employer_decided_anything" formatted="false">"Prednostne naloge za vadbo, ne sklepi o tem, zakaj se je delodajalec za kar koli odločil."</string>
     <!-- Practice priority: -->
     <string name="practice_priority" formatted="false">"Prednost pri vadbi:"</string>
     <!-- Practice without an application -->
@@ -5313,8 +5287,6 @@
     <string name="re_export_with_fonts_embedded_and_check_the_text_copies_out_cleanly" formatted="false">"Izvozite znova z vdelanimi pisavami in preverite, da se besedilo kopira brez napak."</string>
     <!-- Re-export with fonts embedded, then open the file and check that the text copies out cleanly. -->
     <string name="re_export_with_fonts_embedded_then_open_the_file_and_check_that_the_text_copies_out_cleanly" formatted="false">"Izvozite znova z vdelanimi pisavami, nato odprite datoteko in preverite, da se besedilo kopira brez napak."</string>
-    <!-- Reactive Resume -->
-    <string name="reactive_resume" formatted="false">"Reactive Resume"</string>
     <!-- Read briefing -->
     <string name="read_briefing" formatted="false">"Preberi povzetek"</string>
     <!-- Read, change and delete documents and applications (legacy connection). -->
@@ -6052,8 +6024,6 @@
     <string name="search_or_run" formatted="false">"Išči ali zaženi ..."</string>
     <!-- Search saved answers -->
     <string name="search_saved_answers" formatted="false">"Iskanje po shranjenih odgovorih"</string>
-    <!-- Search terms go to your web search service. -->
-    <string name="search_terms_go_to_your_web_search_service" formatted="false">"Iskalni izrazi se pošljejo vaši storitvi spletnega iskanja."</string>
     <!-- Search the web -->
     <string name="search_the_web" formatted="false">"Išči po spletu"</string>
     <!-- Search timezones -->
@@ -6133,51 +6103,8 @@
     <string name="sender_details_copied_into_the_letter" formatted="false">"Podatki o pošiljatelju so kopirani v pismo"</string>
     <!-- Sending… -->
     <string name="sending" formatted="false">"Pošiljanje ..."</string>
-    <!-- Sends {0} to {label}. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {label} -->
-    <string name="sends_0_to_label">"Pošlje %1$s ponudniku %2$s."</string>
-    <!-- Sends only your selected resume and up to 20 active shared facts to this connection. No application profile, saved answers or private application facts. Your provider may charge. -->
-    <string name="sends_only_your_selected_resume_and_up_to_20_active_shared_facts_to_this_connection_no_application_p" formatted="false">"Tej povezavi pošlje samo izbrani življenjepis in do 20 aktivnih deljenih dejstev. Brez profila za prijave, shranjenih odgovorov ali zasebnih dejstev prijav. Vaš ponudnik lahko zaračuna."</string>
-    <!-- Sends the {0} posting to {1} · {2} to draft the body. Your provider may charge. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1}, %3$s = {2} -->
-    <string name="sends_the_0_posting_to_1_2_to_draft_the_body_your_provider_may_charge">"Pošlje oglas %1$s v %2$s · %3$s za osnutek besedila. Vaš ponudnik lahko zaračuna."</string>
-    <!-- Sends the posting text to {0} to read it. -->
-    <!-- Arguments: %1$s = {0} -->
-    <string name="sends_the_posting_text_to_0_to_read_it">"Pošlje besedilo oglasa ponudniku %1$s, da ga prebere."</string>
     <!-- Sends this application and enabled Knowledge to this connection. Your provider may charge. Scheduled work never switches to another connection automatically. -->
     <string name="sends_this_application_and_enabled_knowledge_to_this_connection_your_provider_may_charge_scheduled_w" formatted="false">"Tej povezavi pošlje to prijavo in omogočeno Znanje. Vaš ponudnik lahko zaračuna. Načrtovano delo nikoli samodejno ne preklopi na drugo povezavo."</string>
-    <!-- Sends this letter's resume and the {0} posting to {1} · {2} to draft the body. Your provider may charge. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1}, %3$s = {2} -->
-    <string name="sends_this_letter_s_resume_and_the_0_posting_to_1_2_to_draft_the_body_your_provider_may_charge">"Pošlje življenjepis tega pisma in oglas %1$s v %2$s · %3$s za osnutek besedila. Vaš ponudnik lahko zaračuna."</string>
-    <!-- Sends this letter's resume to {0} · {1} to draft the body. Your provider may charge. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1} -->
-    <string name="sends_this_letter_s_resume_to_0_1_to_draft_the_body_your_provider_may_charge">"Pošlje življenjepis tega pisma v %1$s · %2$s za osnutek besedila. Vaš ponudnik lahko zaračuna."</string>
-    <!-- Sends this line, surrounding field text and your instructions to {0} · {1}. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1} -->
-    <string name="sends_this_line_surrounding_field_text_and_your_instructions_to_0_1">"Pošlje to vrstico, okoliško besedilo polja in vaša navodila v %1$s · %2$s."</string>
-    <!-- Sends this paragraph, the rest of the letter and your instructions to {0} · {1}. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1} -->
-    <string name="sends_this_paragraph_the_rest_of_the_letter_and_your_instructions_to_0_1">"Pošlje ta odstavek, preostanek pisma in vaša navodila v %1$s · %2$s."</string>
-    <!-- Sends this paragraph, the rest of the letter, the linked job posting and your instructions to {0} · {1}. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1} -->
-    <string name="sends_this_paragraph_the_rest_of_the_letter_the_linked_job_posting_and_your_instructions_to_0_1">"Pošlje ta odstavek, preostanek pisma, povezani oglas za zaposlitev in vaša navodila v %1$s · %2$s."</string>
-    <!-- Sends this PDF to your configured AI provider instead of reading its text layer. -->
-    <string name="sends_this_pdf_to_your_configured_ai_provider_instead_of_reading_its_text_layer" formatted="false">"Pošlje ta PDF vašemu konfiguriranemu ponudniku AI, namesto da bi prebral njegovo besedilno plast."</string>
-    <!-- Sends your message and this application (posting, notes, documents, your form answers, the saved offer and recent messages) to {label}. -->
-    <!-- Arguments: %1$s = {label} -->
-    <string name="sends_your_message_and_this_application_posting_notes_documents_your_form_answers_the_saved_offer_an">"Pošlje vaše sporočilo in to prijavo (oglas, opombe, dokumente, vaše odgovore za obrazce, shranjeno ponudbo in nedavna sporočila) ponudniku %1$s."</string>
-    <!-- Sends your message, earlier messages and this application (posting, notes, documents, your form answers, the saved offer and recent messages) to {label}. -->
-    <!-- Arguments: %1$s = {label} -->
-    <string name="sends_your_message_earlier_messages_and_this_application_posting_notes_documents_your_form_answers_t">"Pošlje vaše sporočilo, prejšnja sporočila in to prijavo (oglas, opombe, dokumente, vaše odgovore za obrazce, shranjeno ponudbo in nedavna sporočila) ponudniku %1$s."</string>
-    <!-- Sends your message, earlier messages here, this application (posting, notes, documents, your form answers, the saved offer and recent messages) and Knowledge that's switched on, to {label}. -->
-    <!-- Arguments: %1$s = {label} -->
-    <string name="sends_your_message_earlier_messages_here_this_application_posting_notes_documents_your_form_answers">"Pošlje vaše sporočilo, prejšnja sporočila tukaj, to prijavo (oglas, zapiske, dokumente, vaše odgovore v obrazcih, shranjeno ponudbo in nedavna sporočila) ter vklopljeno Znanje ponudniku %1$s."</string>
-    <!-- Sends your message, this application (posting, notes, documents, your form answers, the saved offer and recent messages) and Knowledge that's switched on, to {label}. -->
-    <!-- Arguments: %1$s = {label} -->
-    <string name="sends_your_message_this_application_posting_notes_documents_your_form_answers_the_saved_offer_and_re">"Pošlje vaše sporočilo, to prijavo (oglas, zapiske, dokumente, vaše odgovore v obrazcih, shranjeno ponudbo in nedavna sporočila) ter vklopljeno Znanje ponudniku %1$s."</string>
-    <!-- Sends your resume's text only to {0} · {1}, with your key. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1} -->
-    <string name="sends_your_resume_s_text_only_to_0_1_with_your_key">"Pošlje besedilo vašega življenjepisa samo na %1$s · %2$s, z vašim ključem."</string>
     <!-- Sent -->
     <string name="sent" formatted="false">"Poslano"</string>
     <!-- Sent: {0} -->
@@ -6327,8 +6254,8 @@
     <string name="show_less" formatted="false">"Prikaži manj"</string>
     <!-- Show link in title -->
     <string name="show_link_in_title" formatted="false">"Pokaži povezavo v naslovu"</string>
-    <!-- Show “Made with Reactive Resume” -->
-    <string name="show_made_with_reactive_resume" formatted="false">"Prikaži „Narejeno z Reactive Resume“"</string>
+    <!-- Show “Made with Lebenslauf2” -->
+    <string name="show_made_with_lebenslauf2" formatted="false">"Prikaži „Narejeno z Lebenslauf2“"</string>
     <!-- Show more -->
     <string name="show_more" formatted="false">"Pokaži več"</string>
     <!-- Show on page -->
@@ -6864,20 +6791,14 @@
     <string name="the_built_in_reader_remains_active" formatted="false">"Vgrajeni čitalnik ostane aktiven."</string>
     <!-- The checks are mechanical. This asks a language model how a reader might react to your bullets and suggests rewrites. It isn't part of the score. -->
     <string name="the_checks_are_mechanical_this_asks_a_language_model_how_a_reader_might_react_to_your_bullets_and_su" formatted="false">"Čeki so mehanski. To vpraša jezikovni model, kako bi se lahko bralec odzval na vaše vnose na seznamu, in predlaga prepise. To ni del ocene."</string>
-    <!-- The coach asks before remembering facts you state. -->
-    <string name="the_coach_asks_before_remembering_facts_you_state" formatted="false">"Svetovalec vpraša, preden si zapomni dejstva, ki jih navedete."</string>
     <!-- The coach doesn't remember anything from your messages. -->
     <string name="the_coach_doesn_t_remember_anything_from_your_messages" formatted="false">"Svetovalec si iz vaših sporočil ne zapomni ničesar."</string>
-    <!-- The coach doesn't remember anything you write. -->
-    <string name="the_coach_doesn_t_remember_anything_you_write" formatted="false">"Svetovalec si ne zapomni ničesar, kar napišete."</string>
     <!-- The coach isn't set up on this server. Whoever runs it needs to set ENCRYPTION_SECRET. -->
     <string name="the_coach_isn_t_set_up_on_this_server_whoever_runs_it_needs_to_set_encryption_secret" formatted="false">"Svetovalec na tem strežniku ni nastavljen. Skrbnik strežnika mora nastaviti ENCRYPTION_SECRET."</string>
     <!-- The coach isn't set up on this server. Whoever runs it needs to set ENCRYPTION_SECRET. Knowledge, Offers and your applications work without it. -->
     <string name="the_coach_isn_t_set_up_on_this_server_whoever_runs_it_needs_to_set_encryption_secret_knowledge_offer" formatted="false">"Svetovalec na tem strežniku ni nastavljen. Kdor ga upravlja, mora nastaviti ENCRYPTION_SECRET. Znanje, Ponudbe in vaše prijave delujejo tudi brez tega."</string>
     <!-- The coach proposes each fact in the chat. Nothing is saved until you agree. -->
     <string name="the_coach_proposes_each_fact_in_the_chat_nothing_is_saved_until_you_agree" formatted="false">"Svetovalec vsako dejstvo predlaga v klepetu. Dokler se ne strinjate, se nič ne shrani."</string>
-    <!-- The coach remembers facts you state, and tells you. -->
-    <string name="the_coach_remembers_facts_you_state_and_tells_you" formatted="false">"Svetovalec si zapomni dejstva, ki jih navedete, in vam to pove."</string>
     <!-- The coach saves facts you state, and tells you. You can undo. -->
     <string name="the_coach_saves_facts_you_state_and_tells_you_you_can_undo" formatted="false">"Svetovalec shrani dejstva, ki jih navedete, in vam to sporoči. Lahko razveljavite."</string>
     <!-- The connection couldn't be loaded or saved. Try again. -->
@@ -6888,8 +6809,6 @@
     <string name="the_connection_works_turn_on_use_this_provider_to_use_it" formatted="false">"Povezava deluje. Vklopite Uporabi tega ponudnika, da jo uporabite."</string>
     <!-- The copy gets the job's posting and keeps this resume as it is for other jobs. -->
     <string name="the_copy_gets_the_job_s_posting_and_keeps_this_resume_as_it_is_for_other_jobs" formatted="false">"Kopija dobi oglas za zaposlitev, ta življenjepis pa ostane nespremenjen za druge zaposlitve."</string>
-    <!-- the cover letter for this job -->
-    <string name="the_cover_letter_for_this_job" formatted="false">"spremno pismo za to zaposlitev"</string>
     <!-- The current state will be saved as “Before restore” first. -->
     <string name="the_current_state_will_be_saved_as_before_restore_first" formatted="false">"Trenutno stanje bo najprej shranjeno kot »Pred obnovitvijo«."</string>
     <!-- the document -->
@@ -6898,24 +6817,18 @@
     <string name="the_editor_opens_on_check_which_checks_the_imported_resume_again" formatted="false">"Urejevalnik se odpre v Preverjanju, ki znova preveri uvoženi življenjepis."</string>
     <!-- The employer may have changed it since. -->
     <string name="the_employer_may_have_changed_it_since" formatted="false">"Delodajalec je od takrat morda spremenil oglas."</string>
-    <!-- the employer's message -->
-    <string name="the_employer_s_message" formatted="false">"sporočilo delodajalca"</string>
     <!-- The end date is before the start date. Check both dates. -->
     <string name="the_end_date_is_before_the_start_date_check_both_dates" formatted="false">"Končni datum je pred začetnim. Preverite oba datuma."</string>
     <!-- The follow-up is saved. To get a reminder, allow notifications in your device settings. -->
     <string name="the_follow_up_is_saved_to_get_a_reminder_allow_notifications_in_your_device_settings" formatted="false">"Ponovni stik je shranjen. Za opomnik dovolite obvestila v nastavitvah naprave."</string>
     <!-- The greeting follows the name. -->
     <string name="the_greeting_follows_the_name" formatted="false">"Pozdrav sledi imenu."</string>
-    <!-- the interview details -->
-    <string name="the_interview_details" formatted="false">"podrobnosti razgovora"</string>
     <!-- The interview is saved. To get a reminder, allow notifications in your device settings. -->
     <string name="the_interview_is_saved_to_get_a_reminder_allow_notifications_in_your_device_settings" formatted="false">"Intervju je shranjen. Če želite prejeti opomnik, dovolite obvestila v nastavitvah naprave."</string>
     <!-- The key is encrypted on the server and never shown again. Saving tests the connection. -->
     <string name="the_key_is_encrypted_on_the_server_and_never_shown_again_saving_tests_the_connection" formatted="false">"Ključ je šifriran na strežniku in nikoli več ni prikazan. Shranjevanje preizkusi povezavo."</string>
     <!-- The key was rejected. Check the key and test again. -->
     <string name="the_key_was_rejected_check_the_key_and_test_again" formatted="false">"Ključ je bil zavrnjen. Preverite ključ in znova preizkusite."</string>
-    <!-- the last messages -->
-    <string name="the_last_messages" formatted="false">"zadnja sporočila"</string>
     <!-- The lead time has passed. Saving runs the briefing now. -->
     <string name="the_lead_time_has_passed_saving_runs_the_briefing_now" formatted="false">"Čas priprave je potekel. Shranjevanje takoj zažene pripravo povzetka."</string>
     <!-- The letter as it is -->
@@ -6958,10 +6871,6 @@
     <string name="the_provider_limited_this_request_wait_and_try_again_check_your_account_quota" formatted="false">"Ponudnik je omejil to zahtevo. Počakajte in poskusite znova; preverite kvoto svojega računa."</string>
     <!-- The provider reported a server error. Try again later. -->
     <string name="the_provider_reported_a_server_error_try_again_later" formatted="false">"Ponudnik je sporočil napako strežnika. Poskusite znova pozneje."</string>
-    <!-- the question and what you said -->
-    <string name="the_question_and_what_you_said" formatted="false">"vprašanje in kaj ste rekli"</string>
-    <!-- the question and your answer -->
-    <string name="the_question_and_your_answer" formatted="false">"vprašanje in vaš odgovor"</string>
     <!-- The reason is kept for Insights. Linked documents aren't touched. -->
     <string name="the_reason_is_kept_for_insights_linked_documents_aren_t_touched" formatted="false">"Razlog se hrani za Insights. Povezani dokumenti se ne dotikajo."</string>
     <!-- The records aren't visible yet. Check again later. -->
@@ -6970,8 +6879,6 @@
     <string name="the_rest_of_the_file_isn_t_in_this_report" formatted="false">"Preostanek datoteke ni v tem poročilu."</string>
     <!-- The resume as it is -->
     <string name="the_resume_as_it_is" formatted="false">"Življenjepis, kot je"</string>
-    <!-- the resume for this job -->
-    <string name="the_resume_for_this_job" formatted="false">"življenjepis za to zaposlitev"</string>
     <!-- The reviewer sees each one's stage and dates. Notes, contacts and pay stay private. -->
     <string name="the_reviewer_sees_each_one_s_stage_and_dates_notes_contacts_and_pay_stay_private" formatted="false">"Pregledovalec vidi stopnjo in datume vsake. Opombe, kontakti in plača ostanejo zasebni."</string>
     <!-- The same line repeats on every page. -->
@@ -6980,8 +6887,6 @@
     <string name="the_saved_key_isn_t_sent_to_a_new_base_url_enter_it_again" formatted="false">"Shranjeni ključ ni poslan na nov osnovni URL. Ponovno vnesite ključ."</string>
     <!-- The saved key isn't sent to a new base URL. Enter it again if this server needs one. -->
     <string name="the_saved_key_isn_t_sent_to_a_new_base_url_enter_it_again_if_this_server_needs_one" formatted="false">"Shranjeni ključ ni poslan na nov osnovni URL. Znova vnesite ključ, če ta strežnik zahteva ključ."</string>
-    <!-- the saved offer -->
-    <string name="the_saved_offer" formatted="false">"shranjeno ponudbo"</string>
     <!-- The score counts how reliably software reads your resume. It doesn't predict whether you'll be shortlisted. -->
     <string name="the_score_counts_how_reliably_software_reads_your_resume_it_doesn_t_predict_whether_you_ll_be_shortl" formatted="false">"Rezultat šteje, kako zanesljivo programska oprema bere vaš življenjepis. Ne napoveduje, ali boste prišli v ožji izbor."</string>
     <!-- The score reflects how reliably text is extracted, not your chances. -->
@@ -7167,8 +7072,6 @@
     <string name="this_pdf_is_a_scanned_image_there_s_no_text_to_read_try_the_word_version_or_start_blank_and_paste_se" formatted="false">"Ta PDF je skenirana slika. Ni besedila za branje. Preizkusite različico Word ali začnite prazno in prilepite razdelke."</string>
     <!-- This PDF is password protected. Save an unprotected copy and try again. -->
     <string name="this_pdf_is_password_protected_save_an_unprotected_copy_and_try_again" formatted="false">"Ta PDF je zaščiten z geslom. Shranite nezaščiteno kopijo in poskusite znova."</string>
-    <!-- this posting -->
-    <string name="this_posting" formatted="false">"ta oglas"</string>
     <!-- This question couldn't be asked. Send a new message to continue. -->
     <string name="this_question_couldn_t_be_asked_send_a_new_message_to_continue" formatted="false">"Tega vprašanja ni bilo mogoče zastaviti. Za nadaljevanje pošljite novo sporočilo."</string>
     <!-- This question didn't finish. -->
@@ -7615,8 +7518,8 @@
     <string name="use_url">"Uporabite %1$s"</string>
     <!-- Use web access? -->
     <string name="use_web_access" formatted="false">"Želite uporabiti spletni dostop?"</string>
-    <!-- Use your browser’s Share action to send one posting URL or selected text to Reactive Resume. Receiving shares requires the latest store build; URL and paste import remain available. -->
-    <string name="use_your_browsers_share_action_to_send_one_posting_url_or_selected_text_to_reactive_resume_receiving" formatted="false">"Z dejanjem Deli v brskalniku pošljite en URL oglasa ali izbrano besedilo v Reactive Resume. Prejemanje deljenih vsebin zahteva najnovejšo različico iz trgovine; uvoz URL in prilepljenega besedila ostaja na voljo."</string>
+    <!-- Use your browser’s Share action to send one posting URL or selected text to Lebenslauf2. Receiving shares requires the latest store build; URL and paste import remain available. -->
+    <string name="use_your_browsers_share_action_to_send_one_posting_url_or_selected_text_to_lebenslauf2_receiving_sha" formatted="false">"Z dejanjem Deli v brskalniku pošljite en URL oglasa ali izbrano besedilo v Lebenslauf2. Prejemanje deljenih vsebin zahteva najnovejšo različico iz trgovine; uvoz URL in prilepljenega besedila ostaja na voljo."</string>
     <!-- Use your editor's normal bullet list, so stray glyphs do not land mid-sentence. -->
     <string name="use_your_editor_s_normal_bullet_list_so_stray_glyphs_do_not_land_mid_sentence" formatted="false">"Uporabite navaden alinejni seznam svojega urejevalnika, da se naključni znaki ne znajdejo sredi stavka."</string>
     <!-- Used: {summary} -->
@@ -7846,9 +7749,6 @@
     <string name="when_would_you_start" formatted="false">"Kdaj bi začeli?"</string>
     <!-- When you're done, the browser closes and you come back here. -->
     <string name="when_you_re_done_the_browser_closes_and_you_come_back_here" formatted="false">"Ko končate, se brskalnik zapre in vrnete se sem."</string>
-    <!-- When you tap send, {list} go to your {connection}. -->
-    <!-- Arguments: %1$s = {list}, %2$s = {connection} -->
-    <string name="when_you_tap_send_list_go_to_your_connection">"Ko tapnete pošlji, gre %1$s k %2$s."</string>
     <!-- Where applications come from -->
     <string name="where_applications_come_from" formatted="false">"Od kod prihajajo prijave"</string>
     <!-- Where you want to work -->
@@ -7877,8 +7777,6 @@
     <string name="width" formatted="false">"širina"</string>
     <!-- Willing to relocate -->
     <string name="willing_to_relocate" formatted="false">"Pripravljen na selitev"</string>
-    <!-- With Knowledge off, nothing you write is remembered. -->
-    <string name="with_knowledge_off_nothing_you_write_is_remembered" formatted="false">"Ko je Znanje izklopljeno, se nič, kar napišete, ne zapomni."</string>
     <!-- Within your office-day limit. -->
     <string name="within_your_office_day_limit" formatted="false">"Znotraj vaše omejitve dni v pisarni."</string>
     <!-- Without a fact, the coach and practice can't use this story. -->
@@ -8061,8 +7959,6 @@
     <string name="your_changes_on_this_device_will_be_replaced_by_the_saved_version" formatted="false">"Vaše spremembe v tej napravi bodo nadomeščene s shranjeno različico."</string>
     <!-- Your contact details are not on the first page. -->
     <string name="your_contact_details_are_not_on_the_first_page" formatted="false">"Vaši kontaktni podatki niso na prvi strani."</string>
-    <!-- your contacts -->
-    <string name="your_contacts" formatted="false">"vaše kontakte"</string>
     <!-- Your data -->
     <string name="your_data" formatted="false">"Vaši podatki"</string>
     <!-- Your dates are written several different ways. -->
@@ -8083,22 +7979,18 @@
     <string name="your_facts_stories_and_preferences_editing_knowledge_sends_nothing_to_an_ai_connection" formatted="false">"Vaša dejstva, zgodbe in preference. Urejanje Znanja ničesar ne pošlje povezavi AI."</string>
     <!-- Your focus -->
     <string name="your_focus" formatted="false">"Vaš fokus"</string>
-    <!-- your form answers -->
-    <string name="your_form_answers" formatted="false">"vaše odgovore za obrazce"</string>
     <!-- Your headings look the same as your body text. -->
     <string name="your_headings_look_the_same_as_your_body_text" formatted="false">"Vaši naslovi so videti enako kot osnovno besedilo."</string>
     <!-- Your job search starts here -->
     <string name="your_job_search_starts_here" formatted="false">"Vaše iskanje zaposlitve se začne tukaj"</string>
     <!-- your Knowledge -->
     <string name="your_knowledge" formatted="false">"vaše Znanje"</string>
-    <!-- Your language is saved. Restart Reactive Resume to apply the new left-to-right or right-to-left layout. -->
-    <string name="your_language_is_saved_restart_reactive_resume_to_apply_the_new_left_to_right_or_right_to_left_layou" formatted="false">"Vaš jezik je shranjen. Znova zaženite Reactive Resume, da uporabite novo postavitev od leve proti desni ali od desne proti levi."</string>
+    <!-- Your language is saved. Restart Lebenslauf2 to apply the new left-to-right or right-to-left layout. -->
+    <string name="your_language_is_saved_restart_lebenslauf2_to_apply_the_new_left_to_right_or_right_to_left_layout" formatted="false">"Vaš jezik je shranjen. Znova zaženite Lebenslauf2, da uporabite novo postavitev od leve proti desni ali od desne proti levi."</string>
     <!-- Your lines are packed very tightly. -->
     <string name="your_lines_are_packed_very_tightly" formatted="false">"Vaše vrstice so zelo natrpane."</string>
     <!-- Your margins are very narrow. -->
     <string name="your_margins_are_very_narrow" formatted="false">"Vaši robovi so zelo ozki."</string>
-    <!-- your message -->
-    <string name="your_message" formatted="false">"vaše sporočilo"</string>
     <!-- Your message is kept. -->
     <string name="your_message_is_kept" formatted="false">"Vaše sporočilo je ohranjeno."</string>
     <!-- Your name -->
@@ -8129,9 +8021,6 @@
     <string name="your_public_links_begin_with_server">"Vaše javne povezave se začnejo z %1$s/"</string>
     <!-- Your public links will change -->
     <string name="your_public_links_will_change" formatted="false">"Vaše javne povezave se bodo spremenile"</string>
-    <!-- Your recording goes to {transcriberName} after you stop, to be transcribed. Your provider may charge. The server keeps transcripts, never recordings. -->
-    <!-- Arguments: %1$s = {transcriberName} -->
-    <string name="your_recording_goes_to_transcribername_after_you_stop_to_be_transcribed_your_provider_may_charge_the">"Vaš posnetek gre po tem, ko se ustavite, v %1$s, da se prepiše. Vaš ponudnik vam lahko zaračuna. Strežnik hrani prepise, nikoli posnetkov."</string>
     <!-- Your request and relevant resume, letter, job posting, application, career information, conversation history, and attachments are sent through your server to this AI provider, according to the feature and context you selected. They can contain personal information. -->
     <string name="your_request_and_relevant_resume_letter_job_posting_application_career_information_conversation_hist" formatted="false">"Vaša zahteva in ustrezen življenjepis, pismo, objava za delo, prijava, informacije o karieri, zgodovina pogovorov in priloge se prek vašega strežnika pošljejo temu ponudniku umetne inteligence glede na izbrano funkcijo in kontekst. Lahko vsebujejo osebne podatke."</string>
     <!-- Your requirements -->
@@ -8176,8 +8065,6 @@
     <string name="your_short_link_points_to_0_which_isn_t_published">"Vaša kratka povezava kaže na »%1$s«, ki ni objavljen."</string>
     <!-- Your short link says this resume isn't shared until you publish it again. -->
     <string name="your_short_link_says_this_resume_isn_t_shared_until_you_publish_it_again" formatted="false">"Vaša kratka povezava sporoča, da ta življenjepis ni deljen, dokler ga znova ne objavite."</string>
-    <!-- your stories -->
-    <string name="your_stories" formatted="false">"vaše zgodbe"</string>
     <!-- Your story couldn't be loaded. -->
     <string name="your_story_couldn_t_be_loaded" formatted="false">"Vaše zgodbe ni bilo mogoče naložiti."</string>
     <!-- Your tags -->

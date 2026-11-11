@@ -1004,8 +1004,8 @@ msgid "90 days"
 msgstr "90 dni"
 
 #: src/features/letters/share.tsx
-msgid "A backup of this letter. Imports back into Reactive Resume as a letter."
-msgstr "Varnostna kopija tega pisma. Uvozi nazaj v Reactive Resume kot pismo."
+msgid "A backup of this letter. Imports back into Lebenslauf2 as a letter."
+msgstr "Varnostna kopija tega pisma. Uvozi nazaj v Lebenslauf2 kot pismo."
 
 #: src/features/check/issues.ts
 msgid "A city and country let roles be matched to where you are."
@@ -3244,8 +3244,8 @@ msgid "Complete {0} before saving."
 msgstr "Pred shranjevanjem izpolnite {0}."
 
 #: src/features/share/download.tsx
-msgid "Complete data backup. Imports back into Reactive Resume."
-msgstr "Popolna varnostna kopija podatkov. Uvozi se nazaj v Reactive Resume."
+msgid "Complete data backup. Imports back into Lebenslauf2."
+msgstr "Popolna varnostna kopija podatkov. Uvozi se nazaj v Lebenslauf2."
 
 #: src/features/workspace/application-packet.tsx
 msgid "Complete the employer form manually in your browser using reviewed answers and approved PDFs."
@@ -3871,8 +3871,8 @@ msgid "Couldn't propose these edits: {0}"
 msgstr "Teh sprememb ni bilo mogoče predlagati: {0}"
 
 #: src/features/write/improve.tsx
-msgid "Couldn't reach Reactive Resume. Check your internet connection, then try again."
-msgstr "Povezave z Reactive Resume ni bilo mogoče vzpostaviti. Preverite internetno povezavo in poskusite znova."
+msgid "Couldn't reach Lebenslauf2. Check your internet connection, then try again."
+msgstr "Povezave z Lebenslauf2 ni bilo mogoče vzpostaviti. Preverite internetno povezavo in poskusite znova."
 
 #: src/features/check/writing.tsx
 msgid "Couldn't reach your AI provider. Try again or check its key in AI settings."
@@ -5098,8 +5098,8 @@ msgid "Edit interview"
 msgstr "Uredi intervju"
 
 #: src/features/ats-checker/checker.tsx
-msgid "Edit it in Reactive Resume"
-msgstr "Uredite ga v Reactive Resume"
+msgid "Edit it in Lebenslauf2"
+msgstr "Uredite ga v Lebenslauf2"
 
 #: src/features/write/basics-screen.tsx
 msgid "Edit link"
@@ -5318,8 +5318,8 @@ msgid "Enter terms yourself. No AI request is made. Leave unknown amounts blank.
 msgstr "Pogoje vnesite sami. Zahteva se ne pošlje umetni inteligenci. Neznane zneske pustite prazne."
 
 #: app/(auth)/server.tsx
-msgid "Enter the address you open Reactive Resume at in a browser. The app checks it's a Reactive Resume server that allows app sign-in before you continue."
-msgstr "Vnesite naslov, na katerem odprete Reactive Resume v brskalniku. Aplikacija preveri, ali gre za strežnik Reactive Resume, ki omogoča prijavo v aplikacijo, preden nadaljujete."
+msgid "Enter the address you open Lebenslauf2 at in a browser. The app checks it's a Lebenslauf2 server that allows app sign-in before you continue."
+msgstr "Vnesite naslov, na katerem odprete Lebenslauf2 v brskalniku. Aplikacija preveri, ali gre za strežnik Lebenslauf2, ki omogoča prijavo v aplikacijo, preden nadaljujete."
 
 #: src/features/ai/error.ts
 msgid "Enter the API base URL of your service and test again."
@@ -5791,13 +5791,13 @@ msgstr "Najdeno za »{0}«. Oglas preverjen {1}."
 
 #: src/api/ai-consent.ts
 #: src/features/career/schedule-sheet.tsx
-msgid "Found posting links are read by Reactive Resume and the sites being read."
-msgstr "Najdene povezave do oglasov berejo Reactive Resume in brana spletna mesta."
+msgid "Found posting links are read by Lebenslauf2 and the sites being read."
+msgstr "Najdene povezave do oglasov berejo Lebenslauf2 in brana spletna mesta."
 
 #: src/api/ai-consent.ts
 #: src/features/career/schedule-sheet.tsx
-msgid "Found posting links are read by Reactive Resume and, when needed, {reader} and the sites being read. The reader may charge."
-msgstr "Najdene povezave do oglasov berejo Reactive Resume in po potrebi {reader} ter brana spletna mesta. Bralnik lahko zaračuna."
+msgid "Found posting links are read by Lebenslauf2 and, when needed, {reader} and the sites being read. The reader may charge."
+msgstr "Najdene povezave do oglasov berejo Lebenslauf2 in po potrebi {reader} ter brana spletna mesta. Bralnik lahko zaračuna."
 
 #: src/features/design/style-groups.tsx
 #: src/features/letters/design.tsx
@@ -6924,6 +6924,10 @@ msgstr "Pusti ven"
 #: app/letter/[id]/_layout.tsx
 msgid "Leave without keeping the draft?"
 msgstr "Želite oditi, ne da bi ohranili osnutek?"
+
+#: src/auth/auth-header.tsx
+msgid "Lebenslauf2"
+msgstr "Lebenslauf2"
 
 #: src/features/design/template-group.tsx
 msgid "Left"
@@ -8267,6 +8271,10 @@ msgstr "Ni še ključev."
 msgid "No language matches."
 msgstr "Ni jezikovnih ujemanj."
 
+#: src/auth/messages.ts
+msgid "No Lebenslauf2 server answered at this address. Check the spelling, or ask your administrator whether the server allows app sign-in."
+msgstr "Na tem naslovu ni odgovoril noben strežnik Lebenslauf2. Preverite črkovanje ali vprašajte skrbnika, ali strežnik dovoljuje prijavo v aplikacijo."
+
 #: src/features/ats-checker/messages.ts
 msgid "No lines look like a job title paired with an employer."
 msgstr "Nobena vrstica ni videti kot naziv delovnega mesta v paru z delodajalcem."
@@ -8333,10 +8341,6 @@ msgstr "Brez fotografije. Večina ATS ignorira fotografije; nekatere regije ga p
 #: src/features/applications/add-sheet.tsx
 msgid "No postings found. Try different keywords."
 msgstr "Ni oglasov za delo. Poskusite z različnimi ključnimi besedami."
-
-#: src/auth/messages.ts
-msgid "No Reactive Resume server answered at this address. Check the spelling, or ask your administrator whether the server allows app sign-in."
-msgstr "Na tem naslovu ni odgovoril noben strežnik Reactive Resume. Preverite črkovanje ali vprašajte skrbnika, ali strežnik dovoljuje prijavo v aplikacijo."
 
 #: src/features/check/job-match.tsx
 msgid "No recognizable terms in this posting."
@@ -8753,8 +8757,8 @@ msgid "On"
 msgstr "Vklopljeno"
 
 #: src/features/applications/add-sheet.tsx
-msgid "On iOS, choose Keep for review, then reopen app in the Share extension. Reopen Reactive Resume yourself within 15 minutes. Sign in here before sharing."
-msgstr "V iOS izberite Obdrži za pregled, nato znova odprite aplikacijo v razširitvi za deljenje. Reactive Resume znova odprite sami v 15 minutah. Pred deljenjem se prijavite tukaj."
+msgid "On iOS, choose Keep for review, then reopen app in the Share extension. Reopen Lebenslauf2 yourself within 15 minutes. Sign in here before sharing."
+msgstr "V iOS izberite Obdrži za pregled, nato znova odprite aplikacijo v razširitvi za deljenje. Lebenslauf2 znova odprite sami v 15 minutah. Pred deljenjem se prijavite tukaj."
 
 #: src/features/share/link.tsx
 msgid "On. Anyone with the link can see your web page."
@@ -9293,20 +9297,20 @@ msgid "PDF import"
 msgstr "Uvoz PDF"
 
 #: src/features/application-detail/sections.tsx
-msgid "PDF only · up to 10 MB each. Linking a Reactive Resume enables a fit check against each requirement and tailoring."
-msgstr "Samo PDF · do 10 MB vsak. Povezava življenjepisa Reactive Resume omogoči preverjanje ujemanja z vsako zahtevo in prilagajanje."
+msgid "PDF only · up to 10 MB each. Linking a Lebenslauf2 enables a fit check against each requirement and tailoring."
+msgstr "Samo PDF · do 10 MB vsak. Povezava življenjepisa Lebenslauf2 omogoči preverjanje ujemanja z vsako zahtevo in prilagajanje."
 
 #: src/features/documents/new-document.tsx
-msgid "PDF reads its text layer on your server by default, without AI. Turn on the AI switch to send it to your provider. Word (.docx) needs an AI provider. Current and v4 Reactive Resume JSON, cover letters, JSON Resume and LinkedIn exports (.zip) are supported. Up to 10 MB."
-msgstr "PDF privzeto prebere svojo besedilno plast na vašem strežniku, brez AI. Vklopite stikalo AI, da ga pošljete svojemu ponudniku. Word (.docx) potrebuje ponudnika AI. Podprti so trenutni JSON in JSON v4 Reactive Resume, spremna pisma, JSON Resume in izvozi iz LinkedIna (.zip). Do 10 MB."
+msgid "PDF reads its text layer on your server by default, without AI. Turn on the AI switch to send it to your provider. Word (.docx) needs an AI provider. Current and v4 Lebenslauf2 JSON, cover letters, JSON Resume and LinkedIn exports (.zip) are supported. Up to 10 MB."
+msgstr "PDF privzeto prebere svojo besedilno plast na vašem strežniku, brez AI. Vklopite stikalo AI, da ga pošljete svojemu ponudniku. Word (.docx) potrebuje ponudnika AI. Podprti so trenutni JSON in JSON v4 Lebenslauf2, spremna pisma, JSON Resume in izvozi iz LinkedIna (.zip). Do 10 MB."
 
 #: src/features/design/advanced.tsx
 msgid "PDF styles support a subset of CSS. Rotation, dashed and dotted borders, and some layout properties are ignored."
 msgstr "Slogi PDF podpirajo podnabor CSS. Vrtenje, črtkane in pikčaste obrobe ter nekatere lastnosti postavitve so prezrte."
 
 #: src/features/documents/new-document.tsx
-msgid "PDF, Word, Reactive Resume, JSON Resume or LinkedIn export."
-msgstr "Izvoz PDF, Word, Reactive Resume, JSON Resume ali LinkedIn."
+msgid "PDF, Word, Lebenslauf2, JSON Resume or LinkedIn export."
+msgstr "Izvoz PDF, Word, Lebenslauf2, JSON Resume ali LinkedIn."
 
 #: src/features/workspace/tabs/messages.tsx
 msgid "per hour"
@@ -9937,10 +9941,6 @@ msgstr "Izvozite znova z vdelanimi pisavami in preverite, da se besedilo kopira 
 #: src/features/ats-checker/messages.ts
 msgid "Re-export with fonts embedded, then open the file and check that the text copies out cleanly."
 msgstr "Izvozite znova z vdelanimi pisavami, nato odprite datoteko in preverite, da se besedilo kopira brez napak."
-
-#: src/auth/auth-header.tsx
-msgid "Reactive Resume"
-msgstr "Reactive Resume"
 
 #: src/features/application-detail/sheets.tsx
 #: src/features/applications/add-sheet.tsx
@@ -11872,8 +11872,8 @@ msgid "Show"
 msgstr "Prikaži"
 
 #: src/features/share/web-page.tsx
-msgid "Show “Made with Reactive Resume”"
-msgstr "Prikaži „Narejeno z Reactive Resume“"
+msgid "Show “Made with Lebenslauf2”"
+msgstr "Prikaži „Narejeno z Lebenslauf2“"
 
 #. placeholder {0}: i18n.number(Math.min(remaining, COLUMN_PAGE_SIZE))
 #: src/features/applications-board/board-screen.tsx
@@ -14378,8 +14378,8 @@ msgid "Use web access?"
 msgstr "Želite uporabiti spletni dostop?"
 
 #: src/features/applications/add-sheet.tsx
-msgid "Use your browser’s Share action to send one posting URL or selected text to Reactive Resume. Receiving shares requires the latest store build; URL and paste import remain available."
-msgstr "Z dejanjem Deli v brskalniku pošljite en URL oglasa ali izbrano besedilo v Reactive Resume. Prejemanje deljenih vsebin zahteva najnovejšo različico iz trgovine; uvoz URL in prilepljenega besedila ostaja na voljo."
+msgid "Use your browser’s Share action to send one posting URL or selected text to Lebenslauf2. Receiving shares requires the latest store build; URL and paste import remain available."
+msgstr "Z dejanjem Deli v brskalniku pošljite en URL oglasa ali izbrano besedilo v Lebenslauf2. Prejemanje deljenih vsebin zahteva najnovejšo različico iz trgovine; uvoz URL in prilepljenega besedila ostaja na voljo."
 
 #: src/features/ats-checker/messages.ts
 msgid "Use your editor's normal bullet list, so stray glyphs do not land mid-sentence."
@@ -15244,8 +15244,8 @@ msgstr "vaše Znanje"
 
 #: app/_layout.tsx
 #: app/(tabs)/settings/preferences.tsx
-msgid "Your language is saved. Restart Reactive Resume to apply the new left-to-right or right-to-left layout."
-msgstr "Vaš jezik je shranjen. Znova zaženite Reactive Resume, da uporabite novo postavitev od leve proti desni ali od desne proti levi."
+msgid "Your language is saved. Restart Lebenslauf2 to apply the new left-to-right or right-to-left layout."
+msgstr "Vaš jezik je shranjen. Znova zaženite Lebenslauf2, da uporabite novo postavitev od leve proti desni ali od desne proti levi."
 
 #: src/features/ats-checker/messages.ts
 msgid "Your lines are packed very tightly."

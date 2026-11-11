@@ -1,9 +1,9 @@
 ---
 title: "Self-hosting on Cloudflare"
-description: "Run Reactive Resume on Workers with Static Assets, private R2 storage, Durable Objects, and PostgreSQL through Hyperdrive."
+description: "Run Lebenslauf2 on Workers with Static Assets, private R2 storage, Durable Objects, and PostgreSQL through Hyperdrive."
 ---
 
-Reactive Resume runs on **Cloudflare Workers**, with the web app served by **Workers Static Assets**, files in a private **R2** bucket, and shared coordination in **SQLite-backed Durable Objects**. PDF exports use WebAssembly inside Workers; no container, browser service, Redis server, or Cloudflare Images subscription is required.
+Lebenslauf2 runs on **Cloudflare Workers**, with the web app served by **Workers Static Assets**, files in a private **R2** bucket, and shared coordination in **SQLite-backed Durable Objects**. PDF exports use WebAssembly inside Workers; no container, browser service, Redis server, or Cloudflare Images subscription is required.
 
 <Note>
   This is the first Cloudflare runtime milestone. Application data still lives in PostgreSQL, connected through
@@ -65,7 +65,7 @@ Keep `AUTH_SECRET` and `ENCRYPTION_SECRET` across deployments. Changing them inv
 3. Edit root `wrangler.jsonc`:
 
    - Replace the all-zero `hyperdrive[0].id` with your Hyperdrive ID.
-   - Set `vars.APP_URL` to your final HTTPS origin, for example `https://reactive-resume.<your-subdomain>.workers.dev` or `https://resume.example.com`.
+   - Set `vars.APP_URL` to your final HTTPS origin, for example `https://reactive-resume.<your-subdomain>.workers.dev` or `https://lebenslauf2.florentin-one.de`.
    - If you chose another bucket name, update `r2_buckets[0].bucket_name`.
    - Keep `CLOUDFLARE=1`, `STORAGE_BACKEND=r2`, and `FLAG_DISABLE_IMAGE_PROCESSING=true`.
    - Keep both compatibility flags. `global_fetch_strictly_public` is part of the external image/page reader's private-network protection.

@@ -4,8 +4,8 @@
     <!-- A: {answer} -->
     <!-- Arguments: %1$s = {answer} -->
     <string name="a_answer">"J: %1$s"</string>
-    <!-- A backup of this letter. Imports back into Reactive Resume as a letter. -->
-    <string name="a_backup_of_this_letter_imports_back_into_reactive_resume_as_a_letter" formatted="false">"Sandaran surat ini. Import semula ke Reactive Resume sebagai surat."</string>
+    <!-- A backup of this letter. Imports back into Lebenslauf2 as a letter. -->
+    <string name="a_backup_of_this_letter_imports_back_into_lebenslauf2_as_a_letter" formatted="false">"Sandaran surat ini. Import semula ke Lebenslauf2 sebagai surat."</string>
     <!-- A city and country let roles be matched to where you are. -->
     <string name="a_city_and_country_let_roles_be_matched_to_where_you_are" formatted="false">"Sebuah bandar dan negara membolehkan peranan dipadankan dengan tempat anda berada."</string>
     <!-- A comfortable length, and it fits on one page. -->
@@ -367,8 +367,6 @@
     <string name="ai_providers_couldn_t_be_loaded_reload_to_try_again" formatted="false">"Pembekal AI tidak dapat dimuatkan. Muat semula untuk mencuba lagi."</string>
     <!-- AI providers couldn't be loaded. Retry or fill the details manually. -->
     <string name="ai_providers_couldn_t_be_loaded_retry_or_fill_the_details_manually" formatted="false">"Pembekal AI tidak dapat dimuatkan. Cuba semula atau isi butiran secara manual."</string>
-    <!-- AI reads pasted text only when you ask. Links can use the page’s own job data without AI. -->
-    <string name="ai_reads_pasted_text_only_when_you_ask_links_can_use_the_pages_own_job_data_without_ai" formatted="false">"AI membaca teks yang ditampal hanya apabila anda bertanya. Pautan boleh menggunakan data kerja halaman itu sendiri tanpa AI."</string>
     <!-- AI request attempts: {0} -->
     <!-- Arguments: %1$s = {0} -->
     <string name="ai_request_attempts_0">"Cubaan permintaan AI: %1$s"</string>
@@ -376,8 +374,6 @@
     <string name="ai_request_history_unavailable_for_this_result" formatted="false">"Sejarah permintaan AI tidak tersedia untuk hasil ini."</string>
     <!-- AI settings -->
     <string name="ai_settings" formatted="false">"Tetapan AI"</string>
-    <!-- AI suggestions, not verified qualifications or hiring predictions. Sources below are your statements. -->
-    <string name="ai_suggestions_not_verified_qualifications_or_hiring_predictions_sources_below_are_your_statements" formatted="false">"Cadangan AI, bukan kelayakan yang disahkan atau ramalan pengambilan pekerja. Sumber di bawah ialah kenyataan anda."</string>
     <!-- AI usage couldn't be loaded. Try refreshing. Older servers may need an update. -->
     <string name="ai_usage_couldn_t_be_loaded_try_refreshing_older_servers_may_need_an_update" formatted="false">"Penggunaan AI tidak dapat dimuatkan. Cuba segarkan. Pelayan lama mungkin perlu dikemas kini."</string>
     <!-- AI usage this week -->
@@ -439,8 +435,6 @@
     <string name="always_appears_in_today_email_requires_a_verified_address_and_server_mail_setup_no_push_notification" formatted="false">"Sentiasa muncul di Hari ini. E-mel memerlukan alamat yang disahkan dan persediaan mel pelayan. Tiada pemberitahuan tolak dihantar."</string>
     <!-- Amharic -->
     <string name="amharic" formatted="false">"Amharic"</string>
-    <!-- An AI reading to help you edit, not a prediction of how an employer or screening system will respond. -->
-    <string name="an_ai_reading_to_help_you_edit_not_a_prediction_of_how_an_employer_or_screening_system_will_respond" formatted="false">"Bacaan AI untuk membantu anda menyunting, bukan ramalan bagaimana majikan atau sistem saringan akan bertindak balas."</string>
     <!-- An edit addresses it -->
     <string name="an_edit_addresses_it" formatted="false">"Suntingan menangani ia"</string>
     <!-- An embedded font could not be read. -->
@@ -634,9 +628,9 @@
     <string name="assistant" formatted="false">"Penolong"</string>
     <!-- Assistant conversations -->
     <string name="assistant_conversations" formatted="false">"Perbualan pembantu"</string>
-    <!-- {at} · {providerLabel}. Sends this application and your Knowledge; your provider may charge. -->
+    <!-- {at} · {providerLabel} -->
     <!-- Arguments: %1$s = {at}, %2$s = {providerLabel} -->
-    <string name="at_providerlabel_sends_this_application_and_your_knowledge_your_provider_may_charge">"%1$s · %2$s. Menghantar permohonan ini dan Pengetahuan anda; pembekal anda mungkin mengenakan bayaran."</string>
+    <string name="at_providerlabel">"%1$s · %2$s"</string>
     <!-- ATS checker -->
     <string name="ats_checker" formatted="false">"Penyemak ATS"</string>
     <!-- ATS-safe -->
@@ -1126,8 +1120,8 @@
     <!-- Complete {0} before saving. -->
     <!-- Arguments: %1$s = {0} -->
     <string name="complete_0_before_saving">"Lengkapkan %1$s sebelum menyimpan."</string>
-    <!-- Complete data backup. Imports back into Reactive Resume. -->
-    <string name="complete_data_backup_imports_back_into_reactive_resume" formatted="false">"Sandaran data lengkap. Boleh diimport semula ke dalam Reactive Resume."</string>
+    <!-- Complete data backup. Imports back into Lebenslauf2. -->
+    <string name="complete_data_backup_imports_back_into_lebenslauf2" formatted="false">"Sandaran data lengkap. Boleh diimport semula ke dalam Lebenslauf2."</string>
     <!-- Complete the employer form manually in your browser using reviewed answers and approved PDFs. -->
     <string name="complete_the_employer_form_manually_in_your_browser_using_reviewed_answers_and_approved_pdfs" formatted="false">"Lengkapkan borang majikan secara manual dalam pelayar anda menggunakan jawapan disemak dan PDF yang diluluskan."</string>
     <!-- {completed, plural, one {# document updated} other {# documents updated}} -->
@@ -1435,8 +1429,8 @@
     <!-- Couldn't propose these edits: {0} -->
     <!-- Arguments: %1$s = {0} -->
     <string name="couldn_t_propose_these_edits_0">"Tidak dapat mencadangkan suntingan ini: %1$s"</string>
-    <!-- Couldn't reach Reactive Resume. Check your internet connection, then try again. -->
-    <string name="couldn_t_reach_reactive_resume_check_your_internet_connection_then_try_again" formatted="false">"Reactive Resume tidak dapat dihubungi. Semak sambungan internet anda, kemudian cuba lagi."</string>
+    <!-- Couldn't reach Lebenslauf2. Check your internet connection, then try again. -->
+    <string name="couldn_t_reach_lebenslauf2_check_your_internet_connection_then_try_again" formatted="false">"Lebenslauf2 tidak dapat dihubungi. Semak sambungan internet anda, kemudian cuba lagi."</string>
     <!-- Couldn't reach your AI provider. Try again or check its key in AI settings. -->
     <string name="couldn_t_reach_your_ai_provider_try_again_or_check_its_key_in_ai_settings" formatted="false">"Tidak dapat menghubungi pembekal AI anda. Cuba lagi atau semak kuncinya dalam tetapan AI."</string>
     <!-- Couldn't read {name}'s answer. Try again, or switch the default provider in AI settings. -->
@@ -2041,8 +2035,6 @@
     <string name="earlier_discovery_result_search_query_and_posting_check_time_unknown" formatted="false">"Hasil penemuan terdahulu. Pertanyaan carian dan masa semakan siaran tidak diketahui."</string>
     <!-- Earlier messages and attachments in this conversation will be sent to this destination when you send again. -->
     <string name="earlier_messages_and_attachments_in_this_conversation_will_be_sent_to_this_destination_when_you_send" formatted="false">"Mesej dan lampiran terdahulu dalam perbualan ini akan dihantar ke destinasi ini apabila anda menghantar semula."</string>
-    <!-- earlier messages in this chat -->
-    <string name="earlier_messages_in_this_chat" formatted="false">"mesej terdahulu dalam sembang ini"</string>
     <!-- Edit -->
     <string name="edit" formatted="false">"Sunting"</string>
     <!-- Edit {0} -->
@@ -2065,8 +2057,8 @@
     <string name="edit_first" formatted="false">"Sunting dahulu"</string>
     <!-- Edit interview -->
     <string name="edit_interview" formatted="false">"Edit wawancara"</string>
-    <!-- Edit it in Reactive Resume -->
-    <string name="edit_it_in_reactive_resume" formatted="false">"Suntingnya dalam Reactive Resume"</string>
+    <!-- Edit it in Lebenslauf2 -->
+    <string name="edit_it_in_lebenslauf2" formatted="false">"Suntingnya dalam Lebenslauf2"</string>
     <!-- Edit link -->
     <string name="edit_link" formatted="false">"Edit pautan"</string>
     <!-- Edit note -->
@@ -2134,8 +2126,6 @@
     <string name="empty_trash" formatted="false">"Kosongkan Sampah"</string>
     <!-- Empty Trash? -->
     <string name="empty_trash_ab0a72a70c" formatted="false">"Kosongkan Sampah?"</string>
-    <!-- enabled Knowledge -->
-    <string name="enabled_knowledge" formatted="false">"Pengetahuan yang diaktifkan"</string>
     <!-- End -->
     <string name="end" formatted="false">"tamat"</string>
     <!-- English -->
@@ -2184,8 +2174,8 @@
     <string name="enter_any_model_id_supported_by_your_endpoint" formatted="false">"Masukkan sebarang ID model yang disokong oleh titik akhir anda."</string>
     <!-- Enter terms yourself. No AI request is made. Leave unknown amounts blank. -->
     <string name="enter_terms_yourself_no_ai_request_is_made_leave_unknown_amounts_blank" formatted="false">"Masukkan terma sendiri. Tiada permintaan AI dihantar. Biarkan jumlah yang tidak diketahui kosong."</string>
-    <!-- Enter the address you open Reactive Resume at in a browser. The app checks it's a Reactive Resume server that allows app sign-in before you continue. -->
-    <string name="enter_the_address_you_open_reactive_resume_at_in_a_browser_the_app_checks_it_s_a_reactive_resume_ser" formatted="false">"Masukkan alamat yang anda buka Reactive Resume dalam penyemak imbas. Apl itu menyemak ia adalah pelayan Reactive Resume yang membenarkan log masuk apl sebelum anda meneruskan."</string>
+    <!-- Enter the address you open Lebenslauf2 at in a browser. The app checks it's a Lebenslauf2 server that allows app sign-in before you continue. -->
+    <string name="enter_the_address_you_open_lebenslauf2_at_in_a_browser_the_app_checks_it_s_a_lebenslauf2_server_that" formatted="false">"Masukkan alamat yang anda buka Lebenslauf2 dalam penyemak imbas. Apl itu menyemak ia adalah pelayan Lebenslauf2 yang membenarkan log masuk apl sebelum anda meneruskan."</string>
     <!-- Enter the API base URL of your service and test again. -->
     <string name="enter_the_api_base_url_of_your_service_and_test_again" formatted="false">"Masukkan URL asas API perkhidmatan anda dan cuba semula."</string>
     <!-- Enter your details below. Choosing a resume replaces them and links its design. -->
@@ -2448,11 +2438,11 @@
     <!-- Found for “{0}”. Posting checked {1}. -->
     <!-- Arguments: %1$s = {0}, %2$s = {1} -->
     <string name="found_for_0_posting_checked_1">"Ditemui untuk “%1$s”. Siaran disemak %2$s."</string>
-    <!-- Found posting links are read by Reactive Resume and the sites being read. -->
-    <string name="found_posting_links_are_read_by_reactive_resume_and_the_sites_being_read" formatted="false">"Pautan siaran yang ditemui akan dibaca oleh Reactive Resume dan tapak yang dibaca."</string>
-    <!-- Found posting links are read by Reactive Resume and, when needed, {reader} and the sites being read. The reader may charge. -->
+    <!-- Found posting links are read by Lebenslauf2 and the sites being read. -->
+    <string name="found_posting_links_are_read_by_lebenslauf2_and_the_sites_being_read" formatted="false">"Pautan siaran yang ditemui akan dibaca oleh Lebenslauf2 dan tapak yang dibaca."</string>
+    <!-- Found posting links are read by Lebenslauf2 and, when needed, {reader} and the sites being read. The reader may charge. -->
     <!-- Arguments: %1$s = {reader} -->
-    <string name="found_posting_links_are_read_by_reactive_resume_and_when_needed_reader_and_the_sites_being_read_the">"Pautan siaran yang ditemui akan dibaca oleh Reactive Resume dan, apabila diperlukan, %1$s serta tapak yang dibaca. Pembaca mungkin mengenakan caj."</string>
+    <string name="found_posting_links_are_read_by_lebenslauf2_and_when_needed_reader_and_the_sites_being_read_the_read">"Pautan siaran yang ditemui akan dibaca oleh Lebenslauf2 dan, apabila diperlukan, %1$s serta tapak yang dibaca. Pembaca mungkin mengenakan caj."</string>
     <!-- Free-form -->
     <string name="free_form" formatted="false">"Bentuk bebas"</string>
     <!-- French -->
@@ -2837,8 +2827,6 @@
     <!-- Its own design ({summary}). -->
     <!-- Arguments: %1$s = {summary} -->
     <string name="its_own_design_summary">"Reka bentuknya sendiri (%1$s)."</string>
-    <!-- its requirements -->
-    <string name="its_requirements" formatted="false">"keperluannya"</string>
     <!-- Its saved key is deleted. Conversations using it need another provider. -->
     <string name="its_saved_key_is_deleted_conversations_using_it_need_another_provider" formatted="false">"Kuncinya yang disimpan dipadamkan. Perbualan yang menggunakannya memerlukan penyedia lain."</string>
     <!-- Japanese -->
@@ -3031,6 +3019,8 @@
     <string name="leave_out" formatted="false">"tinggalkan"</string>
     <!-- Leave without keeping the draft? -->
     <string name="leave_without_keeping_the_draft" formatted="false">"Pergi tanpa menyimpan draf?"</string>
+    <!-- Lebenslauf2 -->
+    <string name="lebenslauf2" formatted="false">"Lebenslauf2"</string>
     <!-- Left -->
     <string name="left" formatted="false">"kiri"</string>
     <!-- Left blank. Add it later only if you can support it. -->
@@ -3285,8 +3275,6 @@
     <string name="managed_by_server" formatted="false">"Diuruskan oleh pelayan"</string>
     <!-- Managed by your server -->
     <string name="managed_by_your_server" formatted="false">"Diuruskan oleh pelayan anda"</string>
-    <!-- Manual roles and preferences work without AI. Suggestions never search or schedule anything. -->
-    <string name="manual_roles_and_preferences_work_without_ai_suggestions_never_search_or_schedule_anything" formatted="false">"Jawatan dan keutamaan manual berfungsi tanpa AI. Cadangan tidak pernah mencari atau menjadualkan apa-apa."</string>
     <!-- Many bullets start with the same phrase. -->
     <string name="many_bullets_start_with_the_same_phrase" formatted="false">"Banyak bulet bermula dengan frasa yang sama."</string>
     <!-- Mar 2022 -->
@@ -3498,11 +3486,6 @@
     <!-- Arguments: %1$s = {0}, %2$s = {1}, %3$s = {2} -->
     <plurals name="message_0_plural_one_1_of_posting_term_covered_other_2_of_posting_terms_covered">
         <item quantity="other">"%3$s daripada %1$s istilah iklan kerja ditemui"</item>
-    </plurals>
-    <!-- {0, plural, one {Also sends {1}.} other {Also sends # files: {2}.}} -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1}, %3$s = {2} -->
-    <plurals name="message_0_plural_one_also_sends_1_other_also_sends_files_2">
-        <item quantity="other">"Turut menghantar %1$s fail: %3$s."</item>
     </plurals>
     <!-- {0, plural, one {# answer} other {# answers}} -->
     <!-- Arguments: %1$s = {0} -->
@@ -3864,8 +3847,6 @@
     <string name="message_the_assistant" formatted="false">"Mesej pembantu"</string>
     <!-- Messages -->
     <string name="messages" formatted="false">"Mesej"</string>
-    <!-- Messages from before Knowledge changed aren't sent. -->
-    <string name="messages_from_before_knowledge_changed_aren_t_sent" formatted="false">"Mesej dari sebelum Pengetahuan berubah tidak dihantar."</string>
     <!-- Messages from before Knowledge changed aren't sent to the AI anymore, so it won't remember them. Start a new conversation to keep context together. -->
     <string name="messages_from_before_knowledge_changed_aren_t_sent_to_the_ai_anymore_so_it_won_t_remember_them_start" formatted="false">"Mesej dari sebelum Pengetahuan berubah tidak lagi dihantar kepada AI, jadi ia tidak akan mengingatinya. Mulakan perbualan baharu untuk mengekalkan konteks bersama-sama."</string>
     <!-- Minimum base salary -->
@@ -4200,6 +4181,8 @@
     <string name="no_keys_yet" formatted="false">"Tiada kunci lagi."</string>
     <!-- No language matches. -->
     <string name="no_language_matches" formatted="false">"Tiada padanan bahasa."</string>
+    <!-- No Lebenslauf2 server answered at this address. Check the spelling, or ask your administrator whether the server allows app sign-in. -->
+    <string name="no_lebenslauf2_server_answered_at_this_address_check_the_spelling_or_ask_your_administrator_whether" formatted="false">"Tiada pelayan Lebenslauf2 menjawab di alamat ini. Sahkan ejaan atau tanya pentadbir anda sama ada pelayan membenarkan log masuk apl."</string>
     <!-- No lines look like a job title paired with an employer. -->
     <string name="no_lines_look_like_a_job_title_paired_with_an_employer" formatted="false">"Tiada baris yang kelihatan seperti jawatan yang dipasangkan dengan majikan."</string>
     <!-- No linked application -->
@@ -4232,8 +4215,6 @@
     <string name="no_photo_most_ats_ignore_photos_some_regions_expect_one" formatted="false">"Tiada foto. Kebanyakan ATS mengabaikan foto; sesetengah wilayah mengharapkan satu."</string>
     <!-- No postings found. Try different keywords. -->
     <string name="no_postings_found_try_different_keywords" formatted="false">"Tiada siaran pekerjaan ditemui. Cuba kata kunci yang berbeza."</string>
-    <!-- No Reactive Resume server answered at this address. Check the spelling, or ask your administrator whether the server allows app sign-in. -->
-    <string name="no_reactive_resume_server_answered_at_this_address_check_the_spelling_or_ask_your_administrator_whet" formatted="false">"Tiada pelayan Reactive Resume menjawab di alamat ini. Sahkan ejaan atau tanya pentadbir anda sama ada pelayan membenarkan log masuk apl."</string>
     <!-- No recognizable terms in this posting. -->
     <string name="no_recognizable_terms_in_this_posting" formatted="false">"Tiada istilah yang dikenali dalam siaran kerja ini."</string>
     <!-- No recorded answers are available. -->
@@ -4356,8 +4337,6 @@
     <string name="nothing_in_your_library_yet" formatted="false">"Pustaka anda masih kosong"</string>
     <!-- Nothing is applied for or created until you choose. -->
     <string name="nothing_is_applied_for_or_created_until_you_choose" formatted="false">"Tiada apa-apa dimohon atau dicipta sehingga anda memilih."</string>
-    <!-- Nothing is sent until you choose a connection for this conversation. -->
-    <string name="nothing_is_sent_until_you_choose_a_connection_for_this_conversation" formatted="false">"Tiada apa dihantar sehingga anda memilih sambungan untuk perbualan ini."</string>
     <!-- Nothing marks a role as ongoing. -->
     <string name="nothing_marks_a_role_as_ongoing" formatted="false">"Tiada apa-apa menandakan peranan sebagai sedang berjalan."</string>
     <!-- Nothing on this day. -->
@@ -4431,8 +4410,8 @@
     <string name="on" formatted="false">"hidup"</string>
     <!-- On. Anyone with the link can see your web page. -->
     <string name="on_anyone_with_the_link_can_see_your_web_page" formatted="false">"Dihidupkan. Sesiapa yang mempunyai pautan boleh melihat halaman web anda."</string>
-    <!-- On iOS, choose Keep for review, then reopen app in the Share extension. Reopen Reactive Resume yourself within 15 minutes. Sign in here before sharing. -->
-    <string name="on_ios_choose_keep_for_review_then_reopen_app_in_the_share_extension_reopen_reactive_resume_yourself" formatted="false">"Di iOS, pilih Kekalkan untuk semakan, kemudian buka semula aplikasi dalam sambungan Kongsi. Buka semula Reactive Resume sendiri dalam masa 15 minit. Log masuk di sini sebelum berkongsi."</string>
+    <!-- On iOS, choose Keep for review, then reopen app in the Share extension. Reopen Lebenslauf2 yourself within 15 minutes. Sign in here before sharing. -->
+    <string name="on_ios_choose_keep_for_review_then_reopen_app_in_the_share_extension_reopen_lebenslauf2_yourself_wit" formatted="false">"Di iOS, pilih Kekalkan untuk semakan, kemudian buka semula aplikasi dalam sambungan Kongsi. Buka semula Lebenslauf2 sendiri dalam masa 15 minit. Log masuk di sini sebelum berkongsi."</string>
     <!-- On. Visitors need the link and password to see your web page. -->
     <string name="on_visitors_need_the_link_and_password_to_see_your_web_page" formatted="false">"Aktif. Pelawat memerlukan pautan dan kata laluan untuk melihat halaman web anda."</string>
     <!-- Once a round is scheduled, Interview prep builds a timed plan, your opening and the questions to ask. -->
@@ -4693,14 +4672,14 @@
     <string name="pdf_check_canceled_retry_when_ready" formatted="false">"Semakan PDF dibatalkan. Cuba semula apabila bersedia."</string>
     <!-- PDF import -->
     <string name="pdf_import" formatted="false">"Import PDF"</string>
-    <!-- PDF only · up to 10 MB each. Linking a Reactive Resume enables a fit check against each requirement and tailoring. -->
-    <string name="pdf_only_up_to_10_mb_each_linking_a_reactive_resume_enables_a_fit_check_against_each_requirement_and" formatted="false">"PDF sahaja · sehingga 10 MB setiap satu. Memautkan Reactive Resume membolehkan semakan kesesuaian terhadap setiap keperluan dan penyesuaian."</string>
-    <!-- PDF reads its text layer on your server by default, without AI. Turn on the AI switch to send it to your provider. Word (.docx) needs an AI provider. Current and v4 Reactive Resume JSON, cover letters, JSON Resume and LinkedIn exports (.zip) are supported. Up to 10 MB. -->
-    <string name="pdf_reads_its_text_layer_on_your_server_by_default_without_ai_turn_on_the_ai_switch_to_send_it_to_yo" formatted="false">"PDF membaca lapisan teksnya pada pelayan anda secara lalai, tanpa AI. Hidupkan suis AI untuk menghantarnya kepada penyedia anda. Word (.docx) memerlukan penyedia AI. JSON Reactive Resume semasa dan v4, surat iringan, JSON Resume serta eksport LinkedIn (.zip) disokong. Sehingga 10 MB."</string>
+    <!-- PDF only · up to 10 MB each. Linking a Lebenslauf2 enables a fit check against each requirement and tailoring. -->
+    <string name="pdf_only_up_to_10_mb_each_linking_a_lebenslauf2_enables_a_fit_check_against_each_requirement_and_tai" formatted="false">"PDF sahaja · sehingga 10 MB setiap satu. Memautkan Lebenslauf2 membolehkan semakan kesesuaian terhadap setiap keperluan dan penyesuaian."</string>
+    <!-- PDF reads its text layer on your server by default, without AI. Turn on the AI switch to send it to your provider. Word (.docx) needs an AI provider. Current and v4 Lebenslauf2 JSON, cover letters, JSON Resume and LinkedIn exports (.zip) are supported. Up to 10 MB. -->
+    <string name="pdf_reads_its_text_layer_on_your_server_by_default_without_ai_turn_on_the_ai_switch_to_send_it_to_yo" formatted="false">"PDF membaca lapisan teksnya pada pelayan anda secara lalai, tanpa AI. Hidupkan suis AI untuk menghantarnya kepada penyedia anda. Word (.docx) memerlukan penyedia AI. JSON Lebenslauf2 semasa dan v4, surat iringan, JSON Resume serta eksport LinkedIn (.zip) disokong. Sehingga 10 MB."</string>
     <!-- PDF styles support a subset of CSS. Rotation, dashed and dotted borders, and some layout properties are ignored. -->
     <string name="pdf_styles_support_a_subset_of_css_rotation_dashed_and_dotted_borders_and_some_layout_properties_are" formatted="false">"Gaya PDF menyokong subset CSS. Putaran, sempadan putus-putus dan bertitik serta beberapa sifat reka letak diabaikan."</string>
-    <!-- PDF, Word, Reactive Resume, JSON Resume or LinkedIn export. -->
-    <string name="pdf_word_reactive_resume_json_resume_or_linkedin_export" formatted="false">"Eksport PDF, Word, Reactive Resume, JSON Resume atau LinkedIn."</string>
+    <!-- PDF, Word, Lebenslauf2, JSON Resume or LinkedIn export. -->
+    <string name="pdf_word_lebenslauf2_json_resume_or_linkedin_export" formatted="false">"Eksport PDF, Word, Lebenslauf2, JSON Resume atau LinkedIn."</string>
     <!-- {pending, plural, one {# proposed edit on this page · nothing changes until you accept} other {# proposed edits on this page · nothing changes until you accept}} -->
     <!-- Arguments: %1$s = {pending} -->
     <plurals name="pending_plural_one_proposed_edit_on_this_page_nothing_changes_until_you_accept_other_proposed_edits">
@@ -4815,8 +4794,6 @@
     <!-- Practice in {company}’s workspace -->
     <!-- Arguments: %1$s = {company} -->
     <string name="practice_in_company_s_workspace">"Berlatih dalam ruang kerja %1$s"</string>
-    <!-- Practice priorities, not conclusions about why an employer decided anything. -->
-    <string name="practice_priorities_not_conclusions_about_why_an_employer_decided_anything" formatted="false">"Keutamaan latihan, bukan kesimpulan tentang sebab majikan membuat sebarang keputusan."</string>
     <!-- Practice priority: -->
     <string name="practice_priority" formatted="false">"Keutamaan latihan:"</string>
     <!-- Practice without an application -->
@@ -5023,8 +5000,6 @@
     <string name="re_export_with_fonts_embedded_and_check_the_text_copies_out_cleanly" formatted="false">"Eksport semula dengan fon dibenamkan, dan semak teks disalin keluar dengan bersih."</string>
     <!-- Re-export with fonts embedded, then open the file and check that the text copies out cleanly. -->
     <string name="re_export_with_fonts_embedded_then_open_the_file_and_check_that_the_text_copies_out_cleanly" formatted="false">"Eksport semula dengan fon dibenamkan, kemudian buka fail dan semak teks disalin keluar dengan bersih."</string>
-    <!-- Reactive Resume -->
-    <string name="reactive_resume" formatted="false">"Reactive Resume"</string>
     <!-- Read briefing -->
     <string name="read_briefing" formatted="false">"Baca taklimat"</string>
     <!-- Read, change and delete documents and applications (legacy connection). -->
@@ -5756,8 +5731,6 @@
     <string name="search_or_run" formatted="false">"Cari atau jalankan…"</string>
     <!-- Search saved answers -->
     <string name="search_saved_answers" formatted="false">"Cari jawapan tersimpan"</string>
-    <!-- Search terms go to your web search service. -->
-    <string name="search_terms_go_to_your_web_search_service" formatted="false">"Istilah carian dihantar ke perkhidmatan carian web anda."</string>
     <!-- Search the web -->
     <string name="search_the_web" formatted="false">"Cari di web"</string>
     <!-- Search timezones -->
@@ -5834,51 +5807,8 @@
     <string name="sender_details_copied_into_the_letter" formatted="false">"Butiran pengirim disalin ke dalam surat"</string>
     <!-- Sending… -->
     <string name="sending" formatted="false">"Menghantar…"</string>
-    <!-- Sends {0} to {label}. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {label} -->
-    <string name="sends_0_to_label">"Menghantar %1$s kepada %2$s."</string>
-    <!-- Sends only your selected resume and up to 20 active shared facts to this connection. No application profile, saved answers or private application facts. Your provider may charge. -->
-    <string name="sends_only_your_selected_resume_and_up_to_20_active_shared_facts_to_this_connection_no_application_p" formatted="false">"Menghantar hanya resume pilihan anda dan sehingga 20 fakta berkongsi yang aktif kepada sambungan ini. Tiada profil permohonan, jawapan tersimpan atau fakta permohonan peribadi. Penyedia anda mungkin mengenakan caj."</string>
-    <!-- Sends the {0} posting to {1} · {2} to draft the body. Your provider may charge. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1}, %3$s = {2} -->
-    <string name="sends_the_0_posting_to_1_2_to_draft_the_body_your_provider_may_charge">"Menghantar siaran %1$s kepada %2$s · %3$s untuk mendrafkan kandungan. Penyedia anda mungkin mengenakan caj."</string>
-    <!-- Sends the posting text to {0} to read it. -->
-    <!-- Arguments: %1$s = {0} -->
-    <string name="sends_the_posting_text_to_0_to_read_it">"Menghantar teks siaran kepada %1$s untuk membacanya."</string>
     <!-- Sends this application and enabled Knowledge to this connection. Your provider may charge. Scheduled work never switches to another connection automatically. -->
     <string name="sends_this_application_and_enabled_knowledge_to_this_connection_your_provider_may_charge_scheduled_w" formatted="false">"Menghantar permohonan ini dan Pengetahuan yang diaktifkan kepada sambungan ini. Penyedia anda mungkin mengenakan caj. Kerja berjadual tidak pernah bertukar ke sambungan lain secara automatik."</string>
-    <!-- Sends this letter's resume and the {0} posting to {1} · {2} to draft the body. Your provider may charge. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1}, %3$s = {2} -->
-    <string name="sends_this_letter_s_resume_and_the_0_posting_to_1_2_to_draft_the_body_your_provider_may_charge">"Menghantar resume surat ini dan siaran %1$s kepada %2$s · %3$s untuk mendrafkan kandungan. Penyedia anda mungkin mengenakan caj."</string>
-    <!-- Sends this letter's resume to {0} · {1} to draft the body. Your provider may charge. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1} -->
-    <string name="sends_this_letter_s_resume_to_0_1_to_draft_the_body_your_provider_may_charge">"Menghantar resume surat ini kepada %1$s · %2$s untuk mendrafkan kandungan. Penyedia anda mungkin mengenakan caj."</string>
-    <!-- Sends this line, surrounding field text and your instructions to {0} · {1}. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1} -->
-    <string name="sends_this_line_surrounding_field_text_and_your_instructions_to_0_1">"Menghantar baris ini, teks medan sekeliling dan arahan anda kepada %1$s · %2$s."</string>
-    <!-- Sends this paragraph, the rest of the letter and your instructions to {0} · {1}. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1} -->
-    <string name="sends_this_paragraph_the_rest_of_the_letter_and_your_instructions_to_0_1">"Menghantar perenggan ini, baki surat dan arahan anda kepada %1$s · %2$s."</string>
-    <!-- Sends this paragraph, the rest of the letter, the linked job posting and your instructions to {0} · {1}. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1} -->
-    <string name="sends_this_paragraph_the_rest_of_the_letter_the_linked_job_posting_and_your_instructions_to_0_1">"Menghantar perenggan ini, baki surat, iklan kerja yang dipautkan dan arahan anda kepada %1$s · %2$s."</string>
-    <!-- Sends this PDF to your configured AI provider instead of reading its text layer. -->
-    <string name="sends_this_pdf_to_your_configured_ai_provider_instead_of_reading_its_text_layer" formatted="false">"Menghantar PDF ini kepada pembekal AI anda yang dikonfigurasikan dan bukannya membaca lapisan teksnya."</string>
-    <!-- Sends your message and this application (posting, notes, documents, your form answers, the saved offer and recent messages) to {label}. -->
-    <!-- Arguments: %1$s = {label} -->
-    <string name="sends_your_message_and_this_application_posting_notes_documents_your_form_answers_the_saved_offer_an">"Menghantar mesej anda dan permohonan ini (siaran, nota, dokumen, jawapan borang anda, tawaran tersimpan dan mesej terkini) kepada %1$s."</string>
-    <!-- Sends your message, earlier messages and this application (posting, notes, documents, your form answers, the saved offer and recent messages) to {label}. -->
-    <!-- Arguments: %1$s = {label} -->
-    <string name="sends_your_message_earlier_messages_and_this_application_posting_notes_documents_your_form_answers_t">"Menghantar mesej anda, mesej terdahulu dan permohonan ini (siaran, nota, dokumen, jawapan borang anda, tawaran tersimpan dan mesej terkini) kepada %1$s."</string>
-    <!-- Sends your message, earlier messages here, this application (posting, notes, documents, your form answers, the saved offer and recent messages) and Knowledge that's switched on, to {label}. -->
-    <!-- Arguments: %1$s = {label} -->
-    <string name="sends_your_message_earlier_messages_here_this_application_posting_notes_documents_your_form_answers">"Menghantar mesej anda, mesej terdahulu di sini, permohonan ini (iklan kerja, nota, dokumen, jawapan borang anda, tawaran tersimpan dan mesej terkini) serta Pengetahuan yang diaktifkan kepada %1$s."</string>
-    <!-- Sends your message, this application (posting, notes, documents, your form answers, the saved offer and recent messages) and Knowledge that's switched on, to {label}. -->
-    <!-- Arguments: %1$s = {label} -->
-    <string name="sends_your_message_this_application_posting_notes_documents_your_form_answers_the_saved_offer_and_re">"Menghantar mesej anda, permohonan ini (iklan kerja, nota, dokumen, jawapan borang anda, tawaran tersimpan dan mesej terkini) serta Pengetahuan yang diaktifkan kepada %1$s."</string>
-    <!-- Sends your resume's text only to {0} · {1}, with your key. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1} -->
-    <string name="sends_your_resume_s_text_only_to_0_1_with_your_key">"Menghantar teks resume anda hanya kepada %1$s · %2$s, dengan kunci anda."</string>
     <!-- Sent -->
     <string name="sent" formatted="false">"Dihantar"</string>
     <!-- Sent: {0} -->
@@ -6028,8 +5958,8 @@
     <string name="show_less" formatted="false">"Tunjuk kurang"</string>
     <!-- Show link in title -->
     <string name="show_link_in_title" formatted="false">"Tunjukkan pautan dalam tajuk"</string>
-    <!-- Show “Made with Reactive Resume” -->
-    <string name="show_made_with_reactive_resume" formatted="false">"Tunjukkan “Dibuat dengan Reactive Resume”"</string>
+    <!-- Show “Made with Lebenslauf2” -->
+    <string name="show_made_with_lebenslauf2" formatted="false">"Tunjukkan “Dibuat dengan Lebenslauf2”"</string>
     <!-- Show more -->
     <string name="show_more" formatted="false">"Tunjukkan lagi"</string>
     <!-- Show on page -->
@@ -6556,20 +6486,14 @@
     <string name="the_built_in_reader_remains_active" formatted="false">"Pembaca terbina dalam kekal aktif."</string>
     <!-- The checks are mechanical. This asks a language model how a reader might react to your bullets and suggests rewrites. It isn't part of the score. -->
     <string name="the_checks_are_mechanical_this_asks_a_language_model_how_a_reader_might_react_to_your_bullets_and_su" formatted="false">"Pemeriksaan adalah mekanikal. Ini menanyakan model bahasa bagaimana pembaca mungkin bertindak balas terhadap entri senarai anda dan mencadangkan penulisan semula. Ia bukan sebahagian daripada markah."</string>
-    <!-- The coach asks before remembering facts you state. -->
-    <string name="the_coach_asks_before_remembering_facts_you_state" formatted="false">"Jurulatih bertanya dahulu sebelum mengingati fakta yang anda nyatakan."</string>
     <!-- The coach doesn't remember anything from your messages. -->
     <string name="the_coach_doesn_t_remember_anything_from_your_messages" formatted="false">"Jurulatih tidak mengingati apa-apa daripada mesej anda."</string>
-    <!-- The coach doesn't remember anything you write. -->
-    <string name="the_coach_doesn_t_remember_anything_you_write" formatted="false">"Jurulatih tidak mengingati apa yang anda tulis."</string>
     <!-- The coach isn't set up on this server. Whoever runs it needs to set ENCRYPTION_SECRET. -->
     <string name="the_coach_isn_t_set_up_on_this_server_whoever_runs_it_needs_to_set_encryption_secret" formatted="false">"Jurulatih belum disediakan pada pelayan ini. Pentadbir pelayan perlu menetapkan ENCRYPTION_SECRET."</string>
     <!-- The coach isn't set up on this server. Whoever runs it needs to set ENCRYPTION_SECRET. Knowledge, Offers and your applications work without it. -->
     <string name="the_coach_isn_t_set_up_on_this_server_whoever_runs_it_needs_to_set_encryption_secret_knowledge_offer" formatted="false">"Jurulatih tidak disediakan pada pelayan ini. Pengendali pelayan perlu menetapkan ENCRYPTION_SECRET. Pengetahuan, Tawaran dan permohonan anda berfungsi tanpanya."</string>
     <!-- The coach proposes each fact in the chat. Nothing is saved until you agree. -->
     <string name="the_coach_proposes_each_fact_in_the_chat_nothing_is_saved_until_you_agree" formatted="false">"Jurulatih mencadangkan setiap fakta dalam sembang. Tiada apa-apa disimpan sehingga anda bersetuju."</string>
-    <!-- The coach remembers facts you state, and tells you. -->
-    <string name="the_coach_remembers_facts_you_state_and_tells_you" formatted="false">"Jurulatih mengingati fakta yang anda nyatakan, dan memberitahu anda."</string>
     <!-- The coach saves facts you state, and tells you. You can undo. -->
     <string name="the_coach_saves_facts_you_state_and_tells_you_you_can_undo" formatted="false">"Jurulatih menyimpan fakta yang anda nyatakan, dan memberitahu anda. Anda boleh membuat asal."</string>
     <!-- The connection couldn't be loaded or saved. Try again. -->
@@ -6580,8 +6504,6 @@
     <string name="the_connection_works_turn_on_use_this_provider_to_use_it" formatted="false">"Sambungan berfungsi. Hidupkan Guna penyedia ini untuk menggunakannya."</string>
     <!-- The copy gets the job's posting and keeps this resume as it is for other jobs. -->
     <string name="the_copy_gets_the_job_s_posting_and_keeps_this_resume_as_it_is_for_other_jobs" formatted="false">"Salinan itu mendapat siaran kerja itu dan mengekalkan resume ini seperti asal bagi kerja lain."</string>
-    <!-- the cover letter for this job -->
-    <string name="the_cover_letter_for_this_job" formatted="false">"surat iringan untuk kerja ini"</string>
     <!-- The current state will be saved as “Before restore” first. -->
     <string name="the_current_state_will_be_saved_as_before_restore_first" formatted="false">"Keadaan semasa akan disimpan sebagai “Sebelum dipulihkan” terlebih dahulu."</string>
     <!-- the document -->
@@ -6590,24 +6512,18 @@
     <string name="the_editor_opens_on_check_which_checks_the_imported_resume_again" formatted="false">"Editor dibuka pada Semakan, yang menyemak semula resume yang diimport."</string>
     <!-- The employer may have changed it since. -->
     <string name="the_employer_may_have_changed_it_since" formatted="false">"Majikan mungkin telah mengubahnya sejak itu."</string>
-    <!-- the employer's message -->
-    <string name="the_employer_s_message" formatted="false">"mesej majikan"</string>
     <!-- The end date is before the start date. Check both dates. -->
     <string name="the_end_date_is_before_the_start_date_check_both_dates" formatted="false">"Tarikh tamat adalah sebelum tarikh mula. Semak kedua-dua tarikh."</string>
     <!-- The follow-up is saved. To get a reminder, allow notifications in your device settings. -->
     <string name="the_follow_up_is_saved_to_get_a_reminder_allow_notifications_in_your_device_settings" formatted="false">"Susulan disimpan. Untuk mendapatkan peringatan, benarkan pemberitahuan dalam tetapan peranti anda."</string>
     <!-- The greeting follows the name. -->
     <string name="the_greeting_follows_the_name" formatted="false">"Ucapan itu mengikut nama."</string>
-    <!-- the interview details -->
-    <string name="the_interview_details" formatted="false">"butiran temu duga"</string>
     <!-- The interview is saved. To get a reminder, allow notifications in your device settings. -->
     <string name="the_interview_is_saved_to_get_a_reminder_allow_notifications_in_your_device_settings" formatted="false">"Temu bual telah disimpan. Untuk mendapatkan peringatan, benarkan pemberitahuan dalam tetapan peranti anda."</string>
     <!-- The key is encrypted on the server and never shown again. Saving tests the connection. -->
     <string name="the_key_is_encrypted_on_the_server_and_never_shown_again_saving_tests_the_connection" formatted="false">"Kunci disulitkan pada pelayan dan tidak pernah ditunjukkan lagi. Menyimpan menguji sambungan."</string>
     <!-- The key was rejected. Check the key and test again. -->
     <string name="the_key_was_rejected_check_the_key_and_test_again" formatted="false">"Kunci ditolak. Semak kunci dan cuba semula."</string>
-    <!-- the last messages -->
-    <string name="the_last_messages" formatted="false">"mesej terakhir"</string>
     <!-- The lead time has passed. Saving runs the briefing now. -->
     <string name="the_lead_time_has_passed_saving_runs_the_briefing_now" formatted="false">"Masa persediaan telah berlalu. Menyimpan akan menjalankan taklimat sekarang."</string>
     <!-- The letter as it is -->
@@ -6650,10 +6566,6 @@
     <string name="the_provider_limited_this_request_wait_and_try_again_check_your_account_quota" formatted="false">"Penyedia mengehadkan permintaan ini. Tunggu dan cuba lagi; semak kuota akaun anda."</string>
     <!-- The provider reported a server error. Try again later. -->
     <string name="the_provider_reported_a_server_error_try_again_later" formatted="false">"Penyedia melaporkan ralat pelayan. Cuba lagi kemudian."</string>
-    <!-- the question and what you said -->
-    <string name="the_question_and_what_you_said" formatted="false">"soalan dan apa yang anda katakan"</string>
-    <!-- the question and your answer -->
-    <string name="the_question_and_your_answer" formatted="false">"soalan dan jawapan anda"</string>
     <!-- The reason is kept for Insights. Linked documents aren't touched. -->
     <string name="the_reason_is_kept_for_insights_linked_documents_aren_t_touched" formatted="false">"Sebabnya disimpan untuk Insights. Dokumen yang dipautkan tidak disentuh."</string>
     <!-- The records aren't visible yet. Check again later. -->
@@ -6662,8 +6574,6 @@
     <string name="the_rest_of_the_file_isn_t_in_this_report" formatted="false">"Selebihnya fail tiada dalam laporan ini."</string>
     <!-- The resume as it is -->
     <string name="the_resume_as_it_is" formatted="false">"Resume yang ada"</string>
-    <!-- the resume for this job -->
-    <string name="the_resume_for_this_job" formatted="false">"resume untuk kerja ini"</string>
     <!-- The reviewer sees each one's stage and dates. Notes, contacts and pay stay private. -->
     <string name="the_reviewer_sees_each_one_s_stage_and_dates_notes_contacts_and_pay_stay_private" formatted="false">"Pengulas melihat peringkat dan tarikh setiap satu. Nota, hubungan dan gaji kekal peribadi."</string>
     <!-- The same line repeats on every page. -->
@@ -6672,8 +6582,6 @@
     <string name="the_saved_key_isn_t_sent_to_a_new_base_url_enter_it_again" formatted="false">"Kunci yang disimpan tidak dihantar ke URL asas baharu. Masukkan kunci sekali lagi."</string>
     <!-- The saved key isn't sent to a new base URL. Enter it again if this server needs one. -->
     <string name="the_saved_key_isn_t_sent_to_a_new_base_url_enter_it_again_if_this_server_needs_one" formatted="false">"Kunci yang disimpan tidak dihantar ke URL asas baharu. Masukkan kunci sekali lagi jika pelayan ini memerlukan kunci."</string>
-    <!-- the saved offer -->
-    <string name="the_saved_offer" formatted="false">"tawaran tersimpan"</string>
     <!-- The score counts how reliably software reads your resume. It doesn't predict whether you'll be shortlisted. -->
     <string name="the_score_counts_how_reliably_software_reads_your_resume_it_doesn_t_predict_whether_you_ll_be_shortl" formatted="false">"Skor mengira sejauh mana perisian boleh dipercayai membaca resume anda. Ia tidak meramalkan sama ada anda akan disenarai pendek."</string>
     <!-- The score reflects how reliably text is extracted, not your chances. -->
@@ -6859,8 +6767,6 @@
     <string name="this_pdf_is_a_scanned_image_there_s_no_text_to_read_try_the_word_version_or_start_blank_and_paste_se" formatted="false">"PDF ini ialah imej yang diimbas. Tiada teks untuk dibaca. Cuba versi Word, atau mulakan kosong dan tampal bahagian dalam."</string>
     <!-- This PDF is password protected. Save an unprotected copy and try again. -->
     <string name="this_pdf_is_password_protected_save_an_unprotected_copy_and_try_again" formatted="false">"PDF ini dilindungi kata laluan. Simpan salinan tidak dilindungi dan cuba lagi."</string>
-    <!-- this posting -->
-    <string name="this_posting" formatted="false">"siaran ini"</string>
     <!-- This question couldn't be asked. Send a new message to continue. -->
     <string name="this_question_couldn_t_be_asked_send_a_new_message_to_continue" formatted="false">"Soalan ini tidak dapat ditanya. Hantar mesej baharu untuk meneruskan."</string>
     <!-- This question didn't finish. -->
@@ -7289,8 +7195,8 @@
     <string name="use_url">"Gunakan %1$s"</string>
     <!-- Use web access? -->
     <string name="use_web_access" formatted="false">"Guna akses web?"</string>
-    <!-- Use your browser’s Share action to send one posting URL or selected text to Reactive Resume. Receiving shares requires the latest store build; URL and paste import remain available. -->
-    <string name="use_your_browsers_share_action_to_send_one_posting_url_or_selected_text_to_reactive_resume_receiving" formatted="false">"Guna tindakan Kongsi pelayar anda untuk menghantar satu URL siaran atau teks terpilih kepada Reactive Resume. Menerima perkongsian memerlukan binaan gedung terbaharu; import URL dan tampalan kekal tersedia."</string>
+    <!-- Use your browser’s Share action to send one posting URL or selected text to Lebenslauf2. Receiving shares requires the latest store build; URL and paste import remain available. -->
+    <string name="use_your_browsers_share_action_to_send_one_posting_url_or_selected_text_to_lebenslauf2_receiving_sha" formatted="false">"Guna tindakan Kongsi pelayar anda untuk menghantar satu URL siaran atau teks terpilih kepada Lebenslauf2. Menerima perkongsian memerlukan binaan gedung terbaharu; import URL dan tampalan kekal tersedia."</string>
     <!-- Use your editor's normal bullet list, so stray glyphs do not land mid-sentence. -->
     <string name="use_your_editor_s_normal_bullet_list_so_stray_glyphs_do_not_land_mid_sentence" formatted="false">"Gunakan senarai bulet biasa penyunting anda, supaya glif sesat tidak jatuh di tengah ayat."</string>
     <!-- Used: {summary} -->
@@ -7520,9 +7426,6 @@
     <string name="when_would_you_start" formatted="false">"Bila anda akan mula?"</string>
     <!-- When you're done, the browser closes and you come back here. -->
     <string name="when_you_re_done_the_browser_closes_and_you_come_back_here" formatted="false">"Apabila anda selesai, penyemak imbas ditutup dan anda kembali ke sini."</string>
-    <!-- When you tap send, {list} go to your {connection}. -->
-    <!-- Arguments: %1$s = {list}, %2$s = {connection} -->
-    <string name="when_you_tap_send_list_go_to_your_connection">"Apabila anda mengetik hantar, %1$s dihantar ke %2$s."</string>
     <!-- Where applications come from -->
     <string name="where_applications_come_from" formatted="false">"Dari mana permohonan datang"</string>
     <!-- Where you want to work -->
@@ -7551,8 +7454,6 @@
     <string name="width" formatted="false">"Lebar"</string>
     <!-- Willing to relocate -->
     <string name="willing_to_relocate" formatted="false">"Bersedia untuk berpindah"</string>
-    <!-- With Knowledge off, nothing you write is remembered. -->
-    <string name="with_knowledge_off_nothing_you_write_is_remembered" formatted="false">"Dengan Pengetahuan dimatikan, apa yang anda tulis tidak diingati."</string>
     <!-- Within your office-day limit. -->
     <string name="within_your_office_day_limit" formatted="false">"Dalam had hari di pejabat anda."</string>
     <!-- Without a fact, the coach and practice can't use this story. -->
@@ -7732,8 +7633,6 @@
     <string name="your_changes_on_this_device_will_be_replaced_by_the_saved_version" formatted="false">"Perubahan anda pada peranti ini akan digantikan dengan versi yang disimpan."</string>
     <!-- Your contact details are not on the first page. -->
     <string name="your_contact_details_are_not_on_the_first_page" formatted="false">"Butiran hubungan anda tiada pada halaman pertama."</string>
-    <!-- your contacts -->
-    <string name="your_contacts" formatted="false">"hubungan anda"</string>
     <!-- Your data -->
     <string name="your_data" formatted="false">"Data anda"</string>
     <!-- Your dates are written several different ways. -->
@@ -7754,22 +7653,18 @@
     <string name="your_facts_stories_and_preferences_editing_knowledge_sends_nothing_to_an_ai_connection" formatted="false">"Fakta, cerita dan pilihan anda. Mengedit Pengetahuan tidak menghantar apa-apa kepada sambungan AI."</string>
     <!-- Your focus -->
     <string name="your_focus" formatted="false">"Fokus anda"</string>
-    <!-- your form answers -->
-    <string name="your_form_answers" formatted="false">"jawapan borang anda"</string>
     <!-- Your headings look the same as your body text. -->
     <string name="your_headings_look_the_same_as_your_body_text" formatted="false">"Tajuk anda kelihatan sama seperti teks badan anda."</string>
     <!-- Your job search starts here -->
     <string name="your_job_search_starts_here" formatted="false">"Pencarian kerja anda bermula di sini"</string>
     <!-- your Knowledge -->
     <string name="your_knowledge" formatted="false">"Pengetahuan anda"</string>
-    <!-- Your language is saved. Restart Reactive Resume to apply the new left-to-right or right-to-left layout. -->
-    <string name="your_language_is_saved_restart_reactive_resume_to_apply_the_new_left_to_right_or_right_to_left_layou" formatted="false">"Bahasa anda disimpan. Mulakan semula Reactive Resume untuk menggunakan reka letak kiri-ke-kanan atau kanan-ke-kiri baharu."</string>
+    <!-- Your language is saved. Restart Lebenslauf2 to apply the new left-to-right or right-to-left layout. -->
+    <string name="your_language_is_saved_restart_lebenslauf2_to_apply_the_new_left_to_right_or_right_to_left_layout" formatted="false">"Bahasa anda disimpan. Mulakan semula Lebenslauf2 untuk menggunakan reka letak kiri-ke-kanan atau kanan-ke-kiri baharu."</string>
     <!-- Your lines are packed very tightly. -->
     <string name="your_lines_are_packed_very_tightly" formatted="false">"Talian anda padat dengan sangat ketat."</string>
     <!-- Your margins are very narrow. -->
     <string name="your_margins_are_very_narrow" formatted="false">"Jidar anda sangat sempit."</string>
-    <!-- your message -->
-    <string name="your_message" formatted="false">"mesej anda"</string>
     <!-- Your message is kept. -->
     <string name="your_message_is_kept" formatted="false">"Mesej anda disimpan."</string>
     <!-- Your name -->
@@ -7800,9 +7695,6 @@
     <string name="your_public_links_begin_with_server">"Pautan awam anda bermula dengan %1$s/"</string>
     <!-- Your public links will change -->
     <string name="your_public_links_will_change" formatted="false">"Pautan awam anda akan berubah"</string>
-    <!-- Your recording goes to {transcriberName} after you stop, to be transcribed. Your provider may charge. The server keeps transcripts, never recordings. -->
-    <!-- Arguments: %1$s = {transcriberName} -->
-    <string name="your_recording_goes_to_transcribername_after_you_stop_to_be_transcribed_your_provider_may_charge_the">"Selepas anda berhenti, rakaman dihantar ke %1$s untuk ditranskripsi. Pembekal anda mungkin mengenakan bayaran. Pelayan menyimpan transkrip, bukan rakaman."</string>
     <!-- Your request and relevant resume, letter, job posting, application, career information, conversation history, and attachments are sent through your server to this AI provider, according to the feature and context you selected. They can contain personal information. -->
     <string name="your_request_and_relevant_resume_letter_job_posting_application_career_information_conversation_hist" formatted="false">"Permintaan anda dan resume yang berkaitan, surat, siaran kerja, permohonan, maklumat kerjaya, sejarah perbualan dan lampiran dihantar melalui pelayan anda kepada pembekal AI ini, mengikut ciri dan konteks yang anda pilih. Mereka boleh mengandungi maklumat peribadi."</string>
     <!-- Your requirements -->
@@ -7847,8 +7739,6 @@
     <string name="your_short_link_points_to_0_which_isn_t_published">"Pautan pendek anda merujuk kepada “%1$s”, yang tidak diterbitkan."</string>
     <!-- Your short link says this resume isn't shared until you publish it again. -->
     <string name="your_short_link_says_this_resume_isn_t_shared_until_you_publish_it_again" formatted="false">"Pautan pendek anda mengatakan resume ini tidak dikongsi sehingga anda menerbitkannya semula."</string>
-    <!-- your stories -->
-    <string name="your_stories" formatted="false">"cerita anda"</string>
     <!-- Your story couldn't be loaded. -->
     <string name="your_story_couldn_t_be_loaded" formatted="false">"Cerita anda tidak dapat dimuatkan."</string>
     <!-- Your tags -->

@@ -101,14 +101,14 @@ class DocumentsViewModelTest {
     @Test fun copyForJobLinksAnExistingApplication() = runTest {
         val r = FakeRepositories()
         val vm = DocumentActionsViewModel(r, StoryboardIds.resume)
-        val id = vm.copyForJob(StoryboardIds.resume, JobChoice.Existing(StoryboardIds.kiln), "Kiln Studio · Senior product designer")
+        val id = vm.copyForJob(StoryboardIds.resume, JobChoice.Existing(StoryboardIds.kiln), "Kiln Studio · Fachärztin für Psychiatrie und Psychotherapie")
         val copy = r.documents.listDocuments().first { it.id == id }
-        assertEquals("Kiln Studio · Senior product designer", copy.name)
+        assertEquals("Kiln Studio · Fachärztin für Psychiatrie und Psychotherapie", copy.name)
         assertEquals(StoryboardIds.kiln, copy.application?.id)
     }
 
     @Test fun suggestedCopyNames() {
-        assertEquals("Lumen · Senior product designer", DocumentActionsViewModel.suggestedName(null, " Lumen ", "Senior product designer"))
+        assertEquals("Lumen · Fachärztin für Psychiatrie und Psychotherapie", DocumentActionsViewModel.suggestedName(null, " Lumen ", "Fachärztin für Psychiatrie und Psychotherapie"))
         assertEquals("", DocumentActionsViewModel.suggestedName(null, null, null))
     }
 

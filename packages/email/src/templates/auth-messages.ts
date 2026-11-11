@@ -12,7 +12,7 @@ const ENGLISH = {
 	resetDetails:
 		"The link works for 1 hour. Resetting signs you out on every device and removes your passkeys, API keys and connected apps. If you didn't ask for this, ignore this email; your password stays the same.",
 	resetAction: "Create new password",
-	resetOutro: "For security, only use links from emails sent by Reactive Resume.",
+	resetOutro: "For security, only use links from emails sent by Lebenslauf2.",
 	verifySubject: "Verify your email",
 	verifyPreview: "Verify your email for {appName}",
 	verifyIntro: "Confirm this is your email address for {appName}. The link works for 1 hour.",

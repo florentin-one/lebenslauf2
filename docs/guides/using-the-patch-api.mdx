@@ -1,6 +1,6 @@
 ---
 title: "Using the patch API"
-description: "Change individual fields of a Reactive Resume with JSON Patch (RFC 6902): add, remove, replace and move items, set dates and avoid overwriting edits."
+description: "Change individual fields of a Lebenslauf2 with JSON Patch (RFC 6902): add, remove, replace and move items, set dates and avoid overwriting edits."
 ---
 
 The patch endpoint lets you make small, targeted changes to a resume's content without sending the whole document. You send a list of [JSON Patch (RFC 6902)](https://datatracker.ietf.org/doc/html/rfc6902) operations, and the server applies them together and returns the updated resume. This is the same mechanism the MCP server's `apply_resume_patch` tool uses.
@@ -9,7 +9,7 @@ The patch endpoint lets you make small, targeted changes to a resume's content w
 
 - Create an API key and try a first request, as described in [Using the API](/guides/using-the-api).
 - Find the resume's ID with `GET /api/openapi/resumes`, then fetch its current content with `GET /api/openapi/resumes/{id}`. Paths in your operations point into the `data` object of that response.
-- Keep the [Reactive Resume JSON schema](/guides/json-resume-schema) at hand. It lists every field, its type and which fields a new item needs.
+- Keep the [Lebenslauf2 JSON schema](/guides/json-resume-schema) at hand. It lists every field, its type and which fields a new item needs.
 
 ## Choose PATCH or PUT
 
@@ -61,7 +61,7 @@ A successful patch returns `200` with the full updated resume, including its new
 ### Replace basic fields
 
 ```bash
-curl -X PATCH "https://rxresu.me/api/openapi/resumes/YOUR_RESUME_ID" \
+curl -X PATCH "https://lebenslauf2.florentin-one.de/api/openapi/resumes/YOUR_RESUME_ID" \
   -H "x-api-key: YOUR_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{
@@ -77,7 +77,7 @@ curl -X PATCH "https://rxresu.me/api/openapi/resumes/YOUR_RESUME_ID" \
 A new entry must be a complete item: include every required field of that item type, a unique `id` (a UUID) and `"hidden": false`. Set its dates in `dates` and leave `period` empty; the server fills it in.
 
 ```bash
-curl -X PATCH "https://rxresu.me/api/openapi/resumes/YOUR_RESUME_ID" \
+curl -X PATCH "https://lebenslauf2.florentin-one.de/api/openapi/resumes/YOUR_RESUME_ID" \
   -H "x-api-key: YOUR_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{
@@ -222,5 +222,5 @@ If the resume has moved on, you get `409` with the code `RESUME_VERSION_CONFLICT
 ## Related guides
 
 - [Using the API](/guides/using-the-api): keys, authentication and the other endpoints.
-- [Reactive Resume JSON schema](/guides/json-resume-schema): every path and value type you can patch.
+- [Lebenslauf2 JSON schema](/guides/json-resume-schema): every path and value type you can patch.
 - [Using the MCP server](/guides/using-the-mcp-server): let an AI client write these patches for you.

@@ -1,6 +1,6 @@
 ---
 name: resume-bullet-writer
-description: Turns resume duties into truthful impact bullets, asking for real evidence and preserving estimates. Use for rewriting bullets, quantifying achievements or improving an experience section, including work without numeric outcomes. With Reactive Resume MCP, edits descriptions after approval. Use accomplishment-inventory for a reusable evidence bank, resume-writer for a complete text draft or summary, resume-content-guide for what belongs, resume-tailor for one posting and resume-builder for JSON.
+description: Turns resume duties into truthful impact bullets, asking for real evidence and preserving estimates. Use for rewriting bullets, quantifying achievements or improving an experience section, including work without numeric outcomes. With Lebenslauf2 MCP, edits descriptions after approval. Use accomplishment-inventory for a reusable evidence bank, resume-writer for a complete text draft or summary, resume-content-guide for what belongs, resume-tailor for one posting and resume-builder for JSON.
 ---
 
 # Resume Bullet Writer
@@ -28,7 +28,7 @@ A number the user states as fact is their claim; still run the defensibility tes
 | Pastes bullets and wants speed ("just rewrite these", "no time for questions")        | **Fast path.**                                                                                                                             |
 | One bullet or line                                                                    | **One bullet.**                                                                                                                            |
 | "Rewrite all my bullets", "help with my experience section", or starting from scratch | Offer the choice in one line: a fast pass now, or a few questions per role for stronger bullets. Use full mining if they don't mind which. |
-| Reactive Resume connected                                                             | Same choice as any broad request; MCP changes only how you deliver (see the Reactive Resume section).                                      |
+| Lebenslauf2 connected                                                                 | Same choice as any broad request; MCP changes only how you deliver (see the Lebenslauf2 section).                                          |
 
 **Steps per pace**
 
@@ -182,7 +182,7 @@ Lint every draft before showing it:
 ### 9. Deliver
 
 - **Chat:** the final bullets per role, clean and in order, then any open questions. Offer the next role.
-- **Reactive Resume connected:** follow the section below.
+- **Lebenslauf2 connected:** follow the section below.
 - **Homework:** for each Still needed item, say where the number usually lives ("Instagram Insights → Followers, last 12 months"; "the service's Datadog or Grafana dashboard"; "the unit quality board or your nurse manager"; "your last performance review"). Close with "Paste these when you have them and I'll finish the bullets."
 - **Ledger:** end with the facts ledger as one block, so a later session can pick up from it:
 
@@ -253,9 +253,9 @@ Read [references/examples.md](references/examples.md) only when unsure what a fi
 
 Read [references/evidence.md](references/evidence.md) when the user asks why, challenges a rule, quotes a statistic, or wants sources.
 
-## Reactive Resume (MCP)
+## Lebenslauf2 (MCP)
 
-Skip this section unless Reactive Resume tools such as `read_resume` are available.
+Skip this section unless Lebenslauf2 tools such as `read_resume` are available.
 
 1. **Find the resume.** Call `list_resumes` (ask which one if there are several; note `isPublic` and `isLocked`), then `read_resume {id}`. Keep `updatedAt` from the structured result to send as `expectedUpdatedAt`.
 2. **Map the targets.** Descriptions are HTML strings:
@@ -307,7 +307,7 @@ Sibling skills may not be installed; when one is missing, do the light version y
 - **resume-content-guide:** which sections and details belong, what to leave off, whether to include a summary or headline, job titles, length and country norms.
 - **resume-tailor:** fitting the resume to one posting, including a job-specific copy.
 - **interview-prep** and **mock-interview:** confirmed achievements become five-part stories (Situation, Task, Action, Result, Reflection); pass along the facts ledger and flag the 2–3 bullets most likely to draw interview questions. Leave Result blank where the user couldn't support an outcome.
-- **resume-builder:** building a whole resume from scratch as Reactive Resume JSON.
+- **resume-builder:** building a whole resume from scratch as Lebenslauf2 JSON.
 
 ## References
 

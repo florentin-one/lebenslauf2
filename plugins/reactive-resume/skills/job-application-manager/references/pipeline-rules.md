@@ -53,7 +53,7 @@ Defaults the user can change. Business days skip weekends; ask about public holi
 
 | Stage and silence                       | Action                                                                                                                                            | Why                                                                                                                |
 | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| applied, day 10                         | With a named contact, draft one follow-up. Without one, don't message the ATS.                                                                    | Reactive Resume flags "No reply in n days" at 10 days. A note through an ATS adds little.                          |
+| applied, day 10                         | With a named contact, draft one follow-up. Without one, don't message the ATS.                                                                    | Lebenslauf2 flags "No reply in n days" at 10 days. A note through an ATS adds little.                              |
 | applied, day 21, tier A                 | Second channel: hiring manager or an employee intro.                                                                                              | Referred and sourced candidates are far more likely to reach interview.                                            |
 | applied, day 45                         | Propose `closed` / `no-response`; it reopens if they reply.                                                                                       | Median time to first interview was about 23 days in 2025 tracker data; the 75th percentile was more than 2 months. |
 | screening or interview, past their date | Status check 2 business days after their date.                                                                                                    | Practitioner convention anchored to typical decision times.                                                        |
@@ -139,7 +139,7 @@ Verify each before quoting it to a user; this is a 2026 snapshot.
 
 ## 8. Sources
 
-- Reactive Resume source: application stages and closed reasons (`packages/schema/src/applications/data.ts`); "No reply in n days" after 10 days (`apps/web/src/features/applications/next-step.ts`).
+- Lebenslauf2 source: application stages and closed reasons (`packages/schema/src/applications/data.ts`); "No reply in n days" after 10 days (`apps/web/src/features/applications/next-step.ts`).
 - Ashby Talent Trends: EMEA and AMER recruiter productivity; startup hiring; offer acceptance rates; candidate experience surveys.
 - Huntr, 2025 annual job search trends report (self-reported tracker data and a December 2025 survey, n=1,049).
 - Greenhouse newsroom, May 2026, AI interviews.

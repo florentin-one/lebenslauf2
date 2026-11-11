@@ -1,6 +1,6 @@
 ---
 name: resume-writer
-description: Writes or rewrites a complete resume as copy-ready text from work history, notes or an existing draft. Also writes standalone headlines and summaries. Use for a general resume draft without a specific job posting; use resume-builder for Reactive Resume JSON and resume-tailor for one posting.
+description: Writes or rewrites a complete resume as copy-ready text from work history, notes or an existing draft. Also writes standalone headlines and summaries. Use for a general resume draft without a specific job posting; use resume-builder for Lebenslauf2 JSON and resume-tailor for one posting.
 ---
 
 # Resume Writer

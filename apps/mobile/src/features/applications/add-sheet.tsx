@@ -456,9 +456,9 @@ export function AddApplicationSheet({ onClose, initialCapture, onAdded }: AddApp
 					)}
 					{!review ? (
 						<>
-							<Text color="ink2">{t`Use your browser’s Share action to send one posting URL or selected text to Reactive Resume. Receiving shares requires the latest store build; URL and paste import remain available.`}</Text>
+							<Text color="ink2">{t`Use your browser’s Share action to send one posting URL or selected text to Lebenslauf2. Receiving shares requires the latest store build; URL and paste import remain available.`}</Text>
 							{Platform.OS === "ios" && (
-								<Text color="ink2">{t`On iOS, choose Keep for review, then reopen app in the Share extension. Reopen Reactive Resume yourself within 15 minutes. Sign in here before sharing.`}</Text>
+								<Text color="ink2">{t`On iOS, choose Keep for review, then reopen app in the Share extension. Reopen Lebenslauf2 yourself within 15 minutes. Sign in here before sharing.`}</Text>
 							)}
 
 							<Text color="ink2">{t`Paste a job link or posting, then check the role and company. Nothing is saved until you choose Save job.`}</Text>

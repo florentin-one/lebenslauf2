@@ -1,4 +1,4 @@
-# Reactive Resume MCP recipes for interview prep
+# Lebenslauf2 MCP recipes for interview prep
 
 Contents
 

@@ -10,12 +10,12 @@ import kotlinx.coroutines.flow.StateFlow
 /** Network-free auth for previews. Configure [nextResult] for error, two-step and consent screen fixtures. */
 class FakeAuthService(private val context: Context) : AuthService {
     private val mutableState = MutableStateFlow<SessionState>(SessionState.SignedOut)
-    private val mutableOrigin = MutableStateFlow("https://rxresu.me")
+    private val mutableOrigin = MutableStateFlow("https://lebenslauf2.florentin-one.de")
     override val state: StateFlow<SessionState> = mutableState
     override val origin: StateFlow<String> = mutableOrigin
     var nextResult: AuthResult = AuthResult.Success
     override suspend fun restore() = Unit
-    override suspend fun checkServer(input: String): ServerInfo = ServerInfo(toOrigin(input) ?: "https://rxresu.me", "6.1.0", true, true,
+    override suspend fun checkServer(input: String): ServerInfo = ServerInfo(toOrigin(input) ?: "https://lebenslauf2.florentin-one.de", "6.1.0", true, true,
         linkedMapOf("apple" to "Apple", "google" to "Google", "github" to "GitHub", "linkedin" to "LinkedIn"), false, false)
     override suspend fun signInWithPassword(server: String, identifier: String, password: String) = finish(server)
     override suspend fun verifyTwoStep(code: String, backup: Boolean) = finish(origin.value)

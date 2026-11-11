@@ -163,7 +163,7 @@ function guessEmployerAndPlace(posting: string): string[] {
  * them from ordinary words ("Data" of "Data Systems").
  */
 function excludedPhrases(posting: string, options: JdMatchOptions): string[][] {
-	// The title with and without its level: "Senior Product Designer" is also "Product Designer".
+	// The title with and without its level: "Fachärztin für Psychiatrie und Psychotherapie" is also "Product Designer".
 	const role = options.role?.replace(/\(.*?\)/g, "").trim() ?? "";
 	const unleveled = role.replace(/^(?:senior|sr\.?|junior|jr\.?|lead|staff|principal|associate|head of)\s+/i, "");
 	const sources = [

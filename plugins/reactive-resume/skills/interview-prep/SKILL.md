@@ -1,11 +1,11 @@
 ---
 name: interview-prep
-description: Prepares the user for a specific interview from their real experience. Builds a story bank in Situation/Task/Action/Result/Reflection form mapped to the competencies the role and company test (such as Amazon's Leadership Principles), writes a cited company and role brief from public sources, predicts questions per round, drafts opener, why-us, weakness and salary answers, prepares questions to ask and a logistics checklist, and runs a post-interview debrief. Use when the user says "help me prepare for my interview", "I have an interview tomorrow" or "in 2 hours", "build my story bank", "STAR stories", "interviewing as a career changer", "what will they ask me", "how do I answer tell me about yourself", "questions to ask the interviewer", "research the company" or "debrief my interview". Uses Reactive Resume MCP tools when connected. For scored role-play practice, mock-interview; for thank-you notes and tracking, job-application-manager; for a salary number, offers or negotiation, offer-negotiation.
+description: Prepares the user for a specific interview from their real experience. Builds a story bank in Situation/Task/Action/Result/Reflection form mapped to the competencies the role and company test (such as Amazon's Leadership Principles), writes a cited company and role brief from public sources, predicts questions per round, drafts opener, why-us, weakness and salary answers, prepares questions to ask and a logistics checklist, and runs a post-interview debrief. Use when the user says "help me prepare for my interview", "I have an interview tomorrow" or "in 2 hours", "build my story bank", "STAR stories", "interviewing as a career changer", "what will they ask me", "how do I answer tell me about yourself", "questions to ask the interviewer", "research the company" or "debrief my interview". Uses Lebenslauf2 MCP tools when connected. For scored role-play practice, mock-interview; for thank-you notes and tracking, job-application-manager; for a salary number, offers or negotiation, offer-negotiation.
 ---
 
 # Interview Prep
 
-Prepare the user for one specific interview using only their real experience. The deliverable is a **prep pack**: what the round scores, stories mapped to those competencies, a cited brief on the company and role, likely questions with a story for each, opening answers, questions to ask and a logistics checklist. After the interview, run a debrief that feeds the next round. Everything works in plain conversation; when the Reactive Resume MCP server is connected, read the application from it and save stories, questions and the debrief back.
+Prepare the user for one specific interview using only their real experience. The deliverable is a **prep pack**: what the round scores, stories mapped to those competencies, a cited brief on the company and role, likely questions with a story for each, opening answers, questions to ask and a logistics checklist. After the interview, run a debrief that feeds the next round. Everything works in plain conversation; when the Lebenslauf2 MCP server is connected, read the application from it and save stories, questions and the debrief back.
 
 Why this shape: many employers, especially large ones, use structured interviews, meaning the same competency questions for every candidate, a scoring rubric and planned follow-up probes. What wins is real evidence for each competency that holds up two layers into the follow-ups, not a polished script.
 
@@ -120,7 +120,7 @@ Generic core: ownership, influence without authority, collaboration, conflict, a
 
 ### 4. Build the story bank
 
-Store each story once in five parts (Situation, Task, Action, Result, Reflection) and render it in whatever shape a question needs. Reflection answers the standard closing probe, "what would you do differently?", and turns a failure into evidence of growth. The same five fields are what Reactive Resume stores for a story.
+Store each story once in five parts (Situation, Task, Action, Result, Reflection) and render it in whatever shape a question needs. Reflection answers the standard closing probe, "what would you do differently?", and turns a failure into evidence of growth. The same five fields are what Lebenslauf2 stores for a story.
 
 **Mine** one role at a time (most recent or most relevant first). In Full mode ask one question at a time; in Standard and Bank only, send a numbered batch of up to 5 prompts with "skip" allowed; in Triage, see Triage. Fast path: "Paste your resume and any reviews or brag notes, or brain-dump your last 3 years in a few paragraphs. I'll draft skeleton cards with gaps marked, then ask only the 5 questions that fill the most rows." Skeleton cards hold only what the user wrote; every missing action, decision or result is a `needs …` mark, not a guess. Prompts:
 
@@ -159,7 +159,7 @@ Runtime: 90–120 s spoken
 - **One home.** At most 3 primary competency tags per story, framework tags included, so each story has a clear purpose.
 - **No open placeholders.** A `[month]` or `[N]` is a question for the user; resolve it or drop the detail before the card is saved or rehearsed.
 
-**Cover the competencies.** Build a matrix of competencies (rows) against stories (columns). Aim for at least 2 stories per must-have competency and at least one each of: a failure or mistake, a conflict, leading without authority, ambiguity or prioritisation, a result the user drove, learning something fast, and customer focus. Senior candidates add hiring or developing others, a strategic bet and cross-organisation influence. Keep no more than half the stories from one project, at least 2 from the last 18 months, and at least one with a bad outcome. Size the bank by coverage, not a fixed count. An empty row becomes a question to the user, never an invented story. Without MCP, deliver the cards as Markdown the user can keep (Reactive Resume users can paste them into Career → Knowledge → Stories).
+**Cover the competencies.** Build a matrix of competencies (rows) against stories (columns). Aim for at least 2 stories per must-have competency and at least one each of: a failure or mistake, a conflict, leading without authority, ambiguity or prioritisation, a result the user drove, learning something fast, and customer focus. Senior candidates add hiring or developing others, a strategic bet and cross-organisation influence. Keep no more than half the stories from one project, at least 2 from the last 18 months, and at least one with a bad outcome. Size the bank by coverage, not a fixed count. An empty row becomes a question to the user, never an invented story. Without MCP, deliver the cards as Markdown the user can keep (Lebenslauf2 users can paste them into Career → Knowledge → Stories).
 
 Read [references/story-bank.md](references/story-bank.md) before mining when the user is changing careers, early-career or returning from a gap, and otherwise when mining stalls: full prompt bank, probe ladder, render formats (45-second, written 250-word, consulting depth) and senior stories.
 
@@ -319,7 +319,7 @@ Probe layer: how the plan and runbook were structured (ask) | what caused the do
 
 **One story, several questions** (same facts, different spotlight): hard deadline → the plan, the runbook and the date; failure → the double charges, opening with the user's own part (ask what it was before writing it); attention to detail → the reconciliation report; what you'd do differently → finance at planning. The agent did not add a payment metric, a month, a method (such as phasing) or a cause of the double charges that the user didn't give. Those stay as questions in the probe layer, and the refunds stay the team's work because the user said "we refunded".
 
-## Reactive Resume MCP (skip if not connected)
+## Lebenslauf2 MCP (skip if not connected)
 
 Use these only when the server is connected. Read in this order, then ask only for what's missing:
 
@@ -353,4 +353,4 @@ Before passing on common interview advice ("they decide in 90 seconds", 7-38-55 
 - [references/company-brief.md](references/company-brief.md): read before researching a company or its interviewers.
 - [references/answers.md](references/answers.md): read before drafting the opener, why us, weakness, failure, conflict, gap, why-leaving or salary answers, and for the myths table.
 - [references/logistics-and-rights.md](references/logistics-and-rights.md): read for the full day-of checklist, accommodation requests, unlawful questions and nerves.
-- [references/mcp-recipes.md](references/mcp-recipes.md): read before the first Reactive Resume write in a session.
+- [references/mcp-recipes.md](references/mcp-recipes.md): read before the first Lebenslauf2 write in a session.

@@ -24,7 +24,7 @@ internal fun fakeExport(format: String,text: String,json: String):BinaryFile {
         "odt" -> zip("mimetype" to "application/vnd.oasis.opendocument.text","content.xml" to "<office:document-content xmlns:office=\"urn:oasis:names:tc:opendocument:xmlns:office:1.0\" xmlns:text=\"urn:oasis:names:tc:opendocument:xmlns:text:1.0\" office:version=\"1.2\"><office:body><office:text><text:p>$safe</text:p></office:text></office:body></office:document-content>") to "application/vnd.oasis.opendocument.text"
         else -> previewPdf(text) to "application/pdf"
     }
-    return BinaryFile(bytes,mime,"attachment; filename=\"Alex Morgan Resume.$format\"")
+    return BinaryFile(bytes,mime,"attachment; filename=\"Laura Beier Resume.$format\"")
 }
 private fun previewPdf(text: String):ByteArray {
     val body="BT /F1 12 Tf 40 800 Td ("+text.take(100).map { if(it.code in 32..126) it else ' ' }.joinToString("").replace("\\","\\\\").replace("(","\\(").replace(")","\\)")+") Tj ET\n"

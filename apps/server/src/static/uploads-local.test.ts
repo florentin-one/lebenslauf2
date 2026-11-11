@@ -4,7 +4,7 @@ import { join } from "node:path";
 import { afterAll, beforeAll, expect, it, vi } from "vite-plus/test";
 
 const envMock = vi.hoisted(() => ({
-	APP_URL: "https://resume.example.com",
+	APP_URL: "https://lebenslauf2.florentin-one.de",
 	STORAGE_BACKEND: "local",
 	LOCAL_STORAGE_PATH: "",
 }));

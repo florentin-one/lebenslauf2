@@ -85,7 +85,7 @@ in navigation tests and the final report.
 ### Newly reproduced measurement contradiction
 
 Scaled paper text retains unscaled computed CSS line metrics in the supplied `textBox` data.
-For B1's Alex Morgan, source paper uses `transform:scale(.475)`: outer text box is 11.5 dp tall,
+For B1's Laura Beier, source paper uses `transform:scale(.475)`: outer text box is 11.5 dp tall,
 but `textBox.h` is 24 dp and its y is 220 rather than the scaled line position. B6 repeats this
 with a 10 dp outer box and a 24 dp textBox. App-native measured bounds cannot simultaneously follow
 both those numbers and the PNG's scaled line box. Raster fixtures also need honest PDF/image text

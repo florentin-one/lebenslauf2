@@ -50,8 +50,8 @@ const visibilityIcons: IconName[] = ["globe-hemisphere-west", "lock", "eye-slash
  */
 export function Share() {
 	const origin = useShareOrigin();
-	const host = origin ? new URL(origin).host : "rxresu.me";
-	const address = `${host}/alex-morgan`;
+	const host = origin ? new URL(origin).host : "lebenslauf2.me";
+	const address = `${host}/laura-beier`;
 	const active = useLanding((state) => state.activeScene === SCENE.share);
 	const ready = useLanding((state) => state.shareReady);
 	const [visibility, setVisibility] = useState(0);

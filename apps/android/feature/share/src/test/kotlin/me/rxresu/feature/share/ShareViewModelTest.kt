@@ -25,9 +25,9 @@ class ShareViewModelTest {
         assertEquals("https://example.invalid/alex", state.shortUrl); assertEquals(60L, state.views); assertEquals(30L, state.downloads)
     }
     @Test fun aliasOnlyChangesShortLinkNotFullDocumentAddress() {
-        val state = ShareState(username = "alex", origin = "https://server.example", aliasUrl = "https://rx.cv")
+        val state = ShareState(username = "alex", origin = "https://server.example", aliasUrl = "https://cv2.florentin-one.de")
         assertEquals("https://server.example/alex/", state.url)
-        assertEquals("https://rx.cv/alex", state.shortUrl)
+        assertEquals("https://cv2.florentin-one.de/alex", state.shortUrl)
     }
     @Test fun slugValidation() { assertTrue(validSlug("product-designer")); listOf("a--b", "-a", "a-", "A", "a/b", "", "a".repeat(65)).forEach { assertFalse(it, validSlug(it)) } }
     @Test fun fileNameCannotEscapeExportDirectory() { assertFalse(safeFileName("../../x\\y").contains('/')); assertFalse(safeFileName("../../x\\y").contains('\\')); assertEquals("Document", safeFileName("..")) }

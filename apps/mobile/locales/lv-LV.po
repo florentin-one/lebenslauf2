@@ -1004,8 +1004,8 @@ msgid "90 days"
 msgstr "90 dienas"
 
 #: src/features/letters/share.tsx
-msgid "A backup of this letter. Imports back into Reactive Resume as a letter."
-msgstr "Šīs vēstules dublējums. Importē atpakaļ Reactive Resume kā vēstuli."
+msgid "A backup of this letter. Imports back into Lebenslauf2 as a letter."
+msgstr "Šīs vēstules dublējums. Importē atpakaļ Lebenslauf2 kā vēstuli."
 
 #: src/features/check/issues.ts
 msgid "A city and country let roles be matched to where you are."
@@ -3244,8 +3244,8 @@ msgid "Complete {0} before saving."
 msgstr "Pirms saglabāšanas aizpildiet {0}."
 
 #: src/features/share/download.tsx
-msgid "Complete data backup. Imports back into Reactive Resume."
-msgstr "Pilnīgs datu dublējums. Importē atpakaļ Reactive Resume."
+msgid "Complete data backup. Imports back into Lebenslauf2."
+msgstr "Pilnīgs datu dublējums. Importē atpakaļ Lebenslauf2."
 
 #: src/features/workspace/application-packet.tsx
 msgid "Complete the employer form manually in your browser using reviewed answers and approved PDFs."
@@ -3871,8 +3871,8 @@ msgid "Couldn't propose these edits: {0}"
 msgstr "Nevarēja piedāvāt šos labojumus: {0}"
 
 #: src/features/write/improve.tsx
-msgid "Couldn't reach Reactive Resume. Check your internet connection, then try again."
-msgstr "Nevarēja sazināties ar Reactive Resume. Pārbaudiet interneta savienojumu un mēģiniet vēlreiz."
+msgid "Couldn't reach Lebenslauf2. Check your internet connection, then try again."
+msgstr "Nevarēja sazināties ar Lebenslauf2. Pārbaudiet interneta savienojumu un mēģiniet vēlreiz."
 
 #: src/features/check/writing.tsx
 msgid "Couldn't reach your AI provider. Try again or check its key in AI settings."
@@ -5098,8 +5098,8 @@ msgid "Edit interview"
 msgstr "Rediģēt interviju"
 
 #: src/features/ats-checker/checker.tsx
-msgid "Edit it in Reactive Resume"
-msgstr "Labojiet to Reactive Resume"
+msgid "Edit it in Lebenslauf2"
+msgstr "Labojiet to Lebenslauf2"
 
 #: src/features/write/basics-screen.tsx
 msgid "Edit link"
@@ -5318,8 +5318,8 @@ msgid "Enter terms yourself. No AI request is made. Leave unknown amounts blank.
 msgstr "Ievadiet nosacījumus pats. MI pieprasījums netiks nosūtīts. Nezināmās summas atstājiet tukšas."
 
 #: app/(auth)/server.tsx
-msgid "Enter the address you open Reactive Resume at in a browser. The app checks it's a Reactive Resume server that allows app sign-in before you continue."
-msgstr "Ievadiet adresi, kuru izmantojat, lai pārlūkprogrammā atvērtu Reactive Resume. Pirms turpināt, mobilā lietotne pārbauda, vai tas ir Reactive Resume serveris ar iespējotu mobilo pierakstīšanos."
+msgid "Enter the address you open Lebenslauf2 at in a browser. The app checks it's a Lebenslauf2 server that allows app sign-in before you continue."
+msgstr "Ievadiet adresi, kuru izmantojat, lai pārlūkprogrammā atvērtu Lebenslauf2. Pirms turpināt, mobilā lietotne pārbauda, vai tas ir Lebenslauf2 serveris ar iespējotu mobilo pierakstīšanos."
 
 #: src/features/ai/error.ts
 msgid "Enter the API base URL of your service and test again."
@@ -5791,13 +5791,13 @@ msgstr "Atrasts vaicājumam “{0}”. Sludinājums pārbaudīts {1}."
 
 #: src/api/ai-consent.ts
 #: src/features/career/schedule-sheet.tsx
-msgid "Found posting links are read by Reactive Resume and the sites being read."
-msgstr "Atrastās sludinājumu saites izlasa Reactive Resume un vietnes, kuras tiek lasītas."
+msgid "Found posting links are read by Lebenslauf2 and the sites being read."
+msgstr "Atrastās sludinājumu saites izlasa Lebenslauf2 un vietnes, kuras tiek lasītas."
 
 #: src/api/ai-consent.ts
 #: src/features/career/schedule-sheet.tsx
-msgid "Found posting links are read by Reactive Resume and, when needed, {reader} and the sites being read. The reader may charge."
-msgstr "Atrastās sludinājumu saites izlasa Reactive Resume un, ja nepieciešams, {reader}, kā arī vietnes, kuras tiek lasītas. Lasītājs var iekasēt maksu."
+msgid "Found posting links are read by Lebenslauf2 and, when needed, {reader} and the sites being read. The reader may charge."
+msgstr "Atrastās sludinājumu saites izlasa Lebenslauf2 un, ja nepieciešams, {reader}, kā arī vietnes, kuras tiek lasītas. Lasītājs var iekasēt maksu."
 
 #: src/features/design/style-groups.tsx
 #: src/features/letters/design.tsx
@@ -6924,6 +6924,10 @@ msgstr "Atstāj ārā"
 #: app/letter/[id]/_layout.tsx
 msgid "Leave without keeping the draft?"
 msgstr "Aiziet, nesaglabājot melnrakstu?"
+
+#: src/auth/auth-header.tsx
+msgid "Lebenslauf2"
+msgstr "Lebenslauf2"
 
 #: src/features/design/template-group.tsx
 msgid "Left"
@@ -8267,6 +8271,10 @@ msgstr "Vēl nav atslēgu."
 msgid "No language matches."
 msgstr "Neviena valoda neatbilst."
 
+#: src/auth/messages.ts
+msgid "No Lebenslauf2 server answered at this address. Check the spelling, or ask your administrator whether the server allows app sign-in."
+msgstr "Uz šo adresi neatbildēja neviens Lebenslauf2 serveris. Pārbaudiet pareizrakstību vai jautājiet savam administratoram, vai serveris atļauj pierakstīties lietotnē."
+
 #: src/features/ats-checker/messages.ts
 msgid "No lines look like a job title paired with an employer."
 msgstr "Neviena rinda neizskatās pēc amata nosaukuma kopā ar darba devēju."
@@ -8333,10 +8341,6 @@ msgstr "Foto nav. Lielākā daļa ATS ignorē fotoattēlus; daži reģioni to sa
 #: src/features/applications/add-sheet.tsx
 msgid "No postings found. Try different keywords."
 msgstr "Nav atrasts neviens darba sludinājums. Izmēģiniet dažādus atslēgvārdus."
-
-#: src/auth/messages.ts
-msgid "No Reactive Resume server answered at this address. Check the spelling, or ask your administrator whether the server allows app sign-in."
-msgstr "Uz šo adresi neatbildēja neviens Reactive Resume serveris. Pārbaudiet pareizrakstību vai jautājiet savam administratoram, vai serveris atļauj pierakstīties lietotnē."
 
 #: src/features/check/job-match.tsx
 msgid "No recognizable terms in this posting."
@@ -8753,8 +8757,8 @@ msgid "On"
 msgstr "Ieslēgts"
 
 #: src/features/applications/add-sheet.tsx
-msgid "On iOS, choose Keep for review, then reopen app in the Share extension. Reopen Reactive Resume yourself within 15 minutes. Sign in here before sharing."
-msgstr "iOS izvēlieties “Paturēt pārskatīšanai”, pēc tam atveriet lietotni Kopīgošanas paplašinājumā. Pats atveriet Reactive Resume atkārtoti 15 minūšu laikā. Pirms kopīgošanas šeit piesakieties."
+msgid "On iOS, choose Keep for review, then reopen app in the Share extension. Reopen Lebenslauf2 yourself within 15 minutes. Sign in here before sharing."
+msgstr "iOS izvēlieties “Paturēt pārskatīšanai”, pēc tam atveriet lietotni Kopīgošanas paplašinājumā. Pats atveriet Lebenslauf2 atkārtoti 15 minūšu laikā. Pirms kopīgošanas šeit piesakieties."
 
 #: src/features/share/link.tsx
 msgid "On. Anyone with the link can see your web page."
@@ -9293,20 +9297,20 @@ msgid "PDF import"
 msgstr "PDF importēšana"
 
 #: src/features/application-detail/sections.tsx
-msgid "PDF only · up to 10 MB each. Linking a Reactive Resume enables a fit check against each requirement and tailoring."
+msgid "PDF only · up to 10 MB each. Linking a Lebenslauf2 enables a fit check against each requirement and tailoring."
 msgstr "Tikai PDF · līdz 10 MB katrs. CV piesaistīšana ieslēdz atbilstības pārbaudi katrai prasībai un pielāgošanu."
 
 #: src/features/documents/new-document.tsx
-msgid "PDF reads its text layer on your server by default, without AI. Turn on the AI switch to send it to your provider. Word (.docx) needs an AI provider. Current and v4 Reactive Resume JSON, cover letters, JSON Resume and LinkedIn exports (.zip) are supported. Up to 10 MB."
-msgstr "PDF teksta slāni pēc noklusējuma nolasa jūsu serveris bez AI. Ieslēdziet AI slēdzi, lai to nosūtītu savam pakalpojumu sniedzējam. Word (.docx) failam nepieciešams AI pakalpojumu sniedzējs. Tiek atbalstīti pašreizējais un v4 Reactive Resume JSON, motivācijas vēstules, JSON Resume un LinkedIn eksporti (.zip). Līdz 10 MB."
+msgid "PDF reads its text layer on your server by default, without AI. Turn on the AI switch to send it to your provider. Word (.docx) needs an AI provider. Current and v4 Lebenslauf2 JSON, cover letters, JSON Resume and LinkedIn exports (.zip) are supported. Up to 10 MB."
+msgstr "PDF teksta slāni pēc noklusējuma nolasa jūsu serveris bez AI. Ieslēdziet AI slēdzi, lai to nosūtītu savam pakalpojumu sniedzējam. Word (.docx) failam nepieciešams AI pakalpojumu sniedzējs. Tiek atbalstīti pašreizējais un v4 Lebenslauf2 JSON, motivācijas vēstules, JSON Resume un LinkedIn eksporti (.zip). Līdz 10 MB."
 
 #: src/features/design/advanced.tsx
 msgid "PDF styles support a subset of CSS. Rotation, dashed and dotted borders, and some layout properties are ignored."
 msgstr "PDF stili atbalsta CSS apakškopu. Rotācija, punktētās un punktētās apmales un daži izkārtojuma rekvizīti tiek ignorēti."
 
 #: src/features/documents/new-document.tsx
-msgid "PDF, Word, Reactive Resume, JSON Resume or LinkedIn export."
-msgstr "PDF, Word, Reactive Resume, JSON Resume vai LinkedIn eksports."
+msgid "PDF, Word, Lebenslauf2, JSON Resume or LinkedIn export."
+msgstr "PDF, Word, Lebenslauf2, JSON Resume vai LinkedIn eksports."
 
 #: src/features/workspace/tabs/messages.tsx
 msgid "per hour"
@@ -9937,10 +9941,6 @@ msgstr "Eksportējiet atkārtoti ar iegultiem fontiem un pārbaudiet, vai teksts
 #: src/features/ats-checker/messages.ts
 msgid "Re-export with fonts embedded, then open the file and check that the text copies out cleanly."
 msgstr "Eksportējiet atkārtoti ar iegultiem fontiem, pēc tam atveriet failu un pārbaudiet, vai teksts kopējas tīri."
-
-#: src/auth/auth-header.tsx
-msgid "Reactive Resume"
-msgstr "Reactive Resume"
 
 #: src/features/application-detail/sheets.tsx
 #: src/features/applications/add-sheet.tsx
@@ -11872,8 +11872,8 @@ msgid "Show"
 msgstr "Rādīt"
 
 #: src/features/share/web-page.tsx
-msgid "Show “Made with Reactive Resume”"
-msgstr "Rādīt “Izveidots ar Reactive Resume”"
+msgid "Show “Made with Lebenslauf2”"
+msgstr "Rādīt “Izveidots ar Lebenslauf2”"
 
 #. placeholder {0}: i18n.number(Math.min(remaining, COLUMN_PAGE_SIZE))
 #: src/features/applications-board/board-screen.tsx
@@ -14378,8 +14378,8 @@ msgid "Use web access?"
 msgstr "Izmantot tīmekļa piekļuvi?"
 
 #: src/features/applications/add-sheet.tsx
-msgid "Use your browser’s Share action to send one posting URL or selected text to Reactive Resume. Receiving shares requires the latest store build; URL and paste import remain available."
-msgstr "Izmantojiet pārlūka darbību Kopīgot, lai nosūtītu vienu sludinājuma URL vai atlasīto tekstu uz Reactive Resume. Kopīgojumu saņemšanai nepieciešama jaunākā veikala versija; URL un ielīmēšanas imports paliek pieejams."
+msgid "Use your browser’s Share action to send one posting URL or selected text to Lebenslauf2. Receiving shares requires the latest store build; URL and paste import remain available."
+msgstr "Izmantojiet pārlūka darbību Kopīgot, lai nosūtītu vienu sludinājuma URL vai atlasīto tekstu uz Lebenslauf2. Kopīgojumu saņemšanai nepieciešama jaunākā veikala versija; URL un ielīmēšanas imports paliek pieejams."
 
 #: src/features/ats-checker/messages.ts
 msgid "Use your editor's normal bullet list, so stray glyphs do not land mid-sentence."
@@ -15244,8 +15244,8 @@ msgstr "jūsu Zināšanas"
 
 #: app/_layout.tsx
 #: app/(tabs)/settings/preferences.tsx
-msgid "Your language is saved. Restart Reactive Resume to apply the new left-to-right or right-to-left layout."
-msgstr "Jūsu valoda ir saglabāta. Restartējiet Reactive Resume, lai lietotu jauno izkārtojumu no kreisās uz labo vai no labās uz kreiso."
+msgid "Your language is saved. Restart Lebenslauf2 to apply the new left-to-right or right-to-left layout."
+msgstr "Jūsu valoda ir saglabāta. Restartējiet Lebenslauf2, lai lietotu jauno izkārtojumu no kreisās uz labo vai no labās uz kreiso."
 
 #: src/features/ats-checker/messages.ts
 msgid "Your lines are packed very tightly."

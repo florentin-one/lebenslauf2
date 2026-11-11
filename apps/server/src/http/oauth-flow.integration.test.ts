@@ -237,7 +237,7 @@ describe.skipIf(!databaseURL)("MCP OAuth flow with PostgreSQL", () => {
 		const { handleAuth } = await import("./auth");
 		const { verifyOAuthToken } = await import("@reactive-resume/auth/config");
 		const origin = process.env.APP_URL;
-		const appCallback = "https://rxresu.me/auth/native-callback";
+		const appCallback = "https://lebenslauf2.florentin-one.de/auth/native-callback";
 		const post = (path: string, body: object, cookie = "") =>
 			handleAuth(
 				new Request(`${origin}/api/auth/${path}`, {
@@ -248,7 +248,7 @@ describe.skipIf(!databaseURL)("MCP OAuth flow with PostgreSQL", () => {
 			);
 		const register = async (redirect_uris: string[]) => {
 			const response = await post("oauth2/register", {
-				client_name: "Reactive Resume for Android",
+				client_name: "Lebenslauf2 for Android",
 				redirect_uris,
 				token_endpoint_auth_method: "none",
 				application_type: "native",

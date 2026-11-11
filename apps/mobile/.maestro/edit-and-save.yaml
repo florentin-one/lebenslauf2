@@ -1,9 +1,9 @@
-appId: me.rxresu
+appId: me.lebenslauf2
 name: Edit private resume notes and save
 ---
 # Signed in, unlocked disposable RESUME_ID with empty notes. Exercises real shared draft owner through private notes.
 - launchApp
-- openLink: me.rxresu://builder/${RESUME_ID}/share
+- openLink: me.lebenslauf2://builder/${RESUME_ID}/share
 - extendedWaitUntil:
     visible: Document options
     timeout: 30000
@@ -26,7 +26,7 @@ name: Edit private resume notes and save
 # Reopen after process restart; unsaved local drafts no longer satisfy the Saved check above.
 - stopApp
 - launchApp
-- openLink: me.rxresu://builder/${RESUME_ID}/share
+- openLink: me.lebenslauf2://builder/${RESUME_ID}/share
 - tapOn: Document options
 - tapOn: Notes
 - assertVisible: .*Store readiness saved note.*

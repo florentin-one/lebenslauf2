@@ -37,8 +37,8 @@ class SheetScreenshotTest : RrScreenshotTest() {
     private fun lumenPosting() = FakeControls().apply {
         responses.value = mapOf(
             "createPostingParse" to buildJsonObject {
-                put("company", "Lumen"); put("role", "Senior product designer"); put("location", "Lisbon · Hybrid"); put("salary", "")
-                put("filledBy", "page"); put("jobDescription", "Senior product designer. Grow our design system across teams.")
+                put("company", "Lumen"); put("role", "Fachärztin für Psychiatrie und Psychotherapie"); put("location", "Lisbon · Hybrid"); put("salary", "")
+                put("filledBy", "page"); put("jobDescription", "Fachärztin für Psychiatrie und Psychotherapie. Grow our design system across teams.")
                 put("sourceUrl", "https://lumen.jobs/roles/senior-product-designer")
                 put("requirements", buildJsonArray { repeat(12) { add(JsonPrimitive("Requirement ${it + 1}")) } })
                 put("postingSource", buildJsonObject { put("completeness", "unknown"); put("format", "text"); put("method", "builtin"); put("truncated", false) })

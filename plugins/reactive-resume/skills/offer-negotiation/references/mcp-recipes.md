@@ -1,4 +1,4 @@
-# Reactive Resume MCP recipes for offer negotiation
+# Lebenslauf2 MCP recipes for offer negotiation
 
 Contents
 

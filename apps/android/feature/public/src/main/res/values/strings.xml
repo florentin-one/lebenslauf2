@@ -165,7 +165,7 @@
   <string name="public_view_resume_e59ef3">View resume</string>
   <string name="public_retry_9f5cd8">Retry</string>
   <string name="public_open_in_browser_052269">Open in browser</string>
-  <string name="public_made_with_reactive_resume_21751a">Made with Reactive Resume</string>
+  <string name="public_made_with_reactive_resume_21751a">Made with Lebenslauf2</string>
   <string name="public_word_44363c">Word</string>
   <string name="public_download_pdf_98e5ef">Download PDF</string>
   <string name="public_this_link_was_turned_off_9fc1f6">This link was turned off</string>
@@ -198,7 +198,7 @@
   <string name="public_choose_a_pdf_4d98a4">Choose a PDF</string>
   <string name="public_try_a_sample_file_417ea1">Try a sample file</string>
   <string name="public_paste_the_posting_to_see_which_of_its_terms_your_resume_alre_43dbfe">Paste the posting to see which of its terms your resume already has.</string>
-  <string name="public_when_you_choose_check_pdf_this_pdf_and_the_optional_posting__37b75e">When you choose Check PDF, this PDF and the optional posting are uploaded to your Reactive Resume server. No AI provider is used. The server stores nothing.</string>
+  <string name="public_when_you_choose_check_pdf_this_pdf_and_the_optional_posting__37b75e">When you choose Check PDF, this PDF and the optional posting are uploaded to your Lebenslauf2 server. No AI provider is used. The server stores nothing.</string>
   <string name="public_check_pdf_15983a">Check PDF</string>
   <string name="public_check_locally_in_your_browser_c70c55">Check locally in your browser</string>
   <string name="public_start_a_blank_resume_7b6d49">Start a blank resume</string>
@@ -213,7 +213,7 @@
   <string name="public_posting_terms_bf4a60">Posting terms</string>
   <string name="public_matched_terms_822688">Matched terms</string>
   <string name="public_missing_terms_e30eec">Missing terms</string>
-  <string name="public_edit_it_in_reactive_resume_de0fbf">Edit it in Reactive Resume</string>
+  <string name="public_edit_it_in_reactive_resume_de0fbf">Edit it in Lebenslauf2</string>
   <string name="public_couldn_t_save_try_again_292c60">Couldn\'t save. Try again.</string>
   <string name="public_comment_sent_to_1_s_f3c2b2">Comment sent to %1$s</string>
     <string name="public_import_word">Import a Word file instead</string>

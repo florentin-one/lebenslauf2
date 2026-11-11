@@ -23,8 +23,8 @@ class OAuthProtocolTest {
         assertFalse(isAllowedServer("http://example.org", true))
         assertFalse(isAllowedServer("http://localhost:8080"))
         for (host in listOf("localhost", "127.0.0.1", "10.0.2.2")) assertTrue(isAllowedServer("http://$host:8080", true))
-        assertEquals("https://rxresu.me/auth/native-callback", redirectUri("https://example.org", true))
-        assertEquals("me.rxresu:/auth/native-callback", redirectUri("http://localhost:8080", true))
+        assertEquals("https://lebenslauf2.florentin-one.de/auth/native-callback", redirectUri("https://example.org", true))
+        assertEquals("me.lebenslauf2:/auth/native-callback", redirectUri("http://localhost:8080", true))
     }
 
     @Test fun pkceRfc7636Vector() {
@@ -32,9 +32,9 @@ class OAuthProtocolTest {
     }
 
     @Test fun redirectRejectsAmbiguity() {
-        assertEquals("hello world", parseAuthorizationResponse("https://rxresu.me/auth/native-callback?code=hello+world&state=s")["code"])
+        assertEquals("hello world", parseAuthorizationResponse("https://lebenslauf2.florentin-one.de/auth/native-callback?code=hello+world&state=s")["code"])
         for (query in listOf("?code=a&code=b", "?%63ode=a&code=b", "?code=a#iss=bad", "?code=a#%73tate=bad", "?code=%xy")) {
-            assertThrows(AuthFailure::class.java) { parseAuthorizationResponse("https://rxresu.me/auth/native-callback$query") }
+            assertThrows(AuthFailure::class.java) { parseAuthorizationResponse("https://lebenslauf2.florentin-one.de/auth/native-callback$query") }
         }
     }
 

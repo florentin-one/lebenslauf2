@@ -69,7 +69,7 @@ function RouteComponent() {
 					))}
 				</div>
 				<p className="mt-auto px-2.5 text-xs leading-[18px] text-ink-3 max-lg:hidden">
-					<Trans>Reactive Resume {__APP_VERSION__} · MIT</Trans>
+					<Trans>Lebenslauf2 {__APP_VERSION__} · MIT</Trans>
 					<br />
 					{getProjectLinks().map((link, index) => (
 						<Fragment key={link.href}>

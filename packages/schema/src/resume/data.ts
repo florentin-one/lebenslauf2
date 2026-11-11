@@ -790,7 +790,7 @@ export const metadataSchema = z.object({
 			showCredit: z
 				.boolean()
 				.catch(true)
-				.describe("Whether the web page shows the small 'Made with Reactive Resume' footer."),
+				.describe("Whether the web page shows the small 'Made with Lebenslauf2' footer."),
 		})
 		.optional()
 		.catch(undefined)

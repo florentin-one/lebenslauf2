@@ -89,7 +89,7 @@ describe("readJobPosting", () => {
 				{ "@type": "Organization", name: "Ignore" },
 				{
 					"@type": "JobPosting",
-					title: "Senior Product Designer",
+					title: "Fachärztin für Psychiatrie und Psychotherapie",
 					hiringOrganization: { name: "Lumen Health" },
 					jobLocation: {
 						address: { addressLocality: "Berlin", addressCountry: "DE" },
@@ -100,7 +100,7 @@ describe("readJobPosting", () => {
 		})}</script>`;
 
 		expect(readJobPosting(html)).toEqual({
-			role: "Senior Product Designer",
+			role: "Fachärztin für Psychiatrie und Psychotherapie",
 			company: "Lumen Health",
 			location: "Berlin, DE",
 			description: "Design calm tools.\nFigma",

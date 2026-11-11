@@ -114,4 +114,4 @@ Decline in one sentence, then offer the truthful alternative in the same message
 - Greenhouse, Unsuccessful resume parse (abbreviated titles and other parse failures).
 - Mohawk College, resume profile guidance (claims must be backed further down).
 - Hidden Workers, HBS and Accenture, 2021 (gap filters).
-- Reactive Resume assistant and coach rules: never invent metrics, ownership, dates or qualifications; ask instead.
+- Lebenslauf2 assistant and coach rules: never invent metrics, ownership, dates or qualifications; ask instead.

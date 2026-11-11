@@ -1004,8 +1004,8 @@ msgid "90 days"
 msgstr "90 ଦିନ"
 
 #: src/features/letters/share.tsx
-msgid "A backup of this letter. Imports back into Reactive Resume as a letter."
-msgstr "ଏହି ଚିଠିର ଏକ ନକଲ ସଂରକ୍ଷଣ | ଏକ ଅକ୍ଷର ଭାବରେ Reactive Resume କୁ ପୁନର୍ବାର ଆମଦାନୀ କରନ୍ତୁ |"
+msgid "A backup of this letter. Imports back into Lebenslauf2 as a letter."
+msgstr "ଏହି ଚିଠିର ଏକ ନକଲ ସଂରକ୍ଷଣ | ଏକ ଅକ୍ଷର ଭାବରେ Lebenslauf2 କୁ ପୁନର୍ବାର ଆମଦାନୀ କରନ୍ତୁ |"
 
 #: src/features/check/issues.ts
 msgid "A city and country let roles be matched to where you are."
@@ -3249,8 +3249,8 @@ msgid "Complete {0} before saving."
 msgstr "ସେଭ୍ କରିବା ପୂର୍ବରୁ {0} ପୂରଣ କରନ୍ତୁ।"
 
 #: src/features/share/download.tsx
-msgid "Complete data backup. Imports back into Reactive Resume."
-msgstr "ସମ୍ପୂର୍ଣ୍ଣ ତଥ୍ୟ ବ୍ୟାକଅପ୍। Reactive Resume ରେ ପୁଣି ଆଟାତ ହେବ।"
+msgid "Complete data backup. Imports back into Lebenslauf2."
+msgstr "ସମ୍ପୂର୍ଣ୍ଣ ତଥ୍ୟ ବ୍ୟାକଅପ୍। Lebenslauf2 ରେ ପୁଣି ଆଟାତ ହେବ।"
 
 #: src/features/workspace/application-packet.tsx
 msgid "Complete the employer form manually in your browser using reviewed answers and approved PDFs."
@@ -3878,8 +3878,8 @@ msgid "Couldn't propose these edits: {0}"
 msgstr "ଏହି ସମ୍ପାଦନାଗୁଡିକ ପ୍ରସ୍ତାବ ଦେଇ ପାରିଲା ନାହିଁ: {0} |"
 
 #: src/features/write/improve.tsx
-msgid "Couldn't reach Reactive Resume. Check your internet connection, then try again."
-msgstr "Reactive Resume ସହ ସଂଯୋଗ ହୋଇପାରିଲା ନାହିଁ। ଆପଣଙ୍କ ଇଣ୍ଟରନେଟ୍ ସଂଯୋଗ ଯାଞ୍ଚ କରନ୍ତୁ, ତା’ପରେ ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ।"
+msgid "Couldn't reach Lebenslauf2. Check your internet connection, then try again."
+msgstr "Lebenslauf2 ସହ ସଂଯୋଗ ହୋଇପାରିଲା ନାହିଁ। ଆପଣଙ୍କ ଇଣ୍ଟରନେଟ୍ ସଂଯୋଗ ଯାଞ୍ଚ କରନ୍ତୁ, ତା’ପରେ ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ।"
 
 #: src/features/check/writing.tsx
 msgid "Couldn't reach your AI provider. Try again or check its key in AI settings."
@@ -5111,8 +5111,8 @@ msgid "Edit interview"
 msgstr "ସାକ୍ଷାତକାର ସଂପାଦନ କରନ୍ତୁ |"
 
 #: src/features/ats-checker/checker.tsx
-msgid "Edit it in Reactive Resume"
-msgstr "ଏହାକୁ Reactive Resume ରେ ସମ୍ପାଦନ କରନ୍ତୁ"
+msgid "Edit it in Lebenslauf2"
+msgstr "ଏହାକୁ Lebenslauf2 ରେ ସମ୍ପାଦନ କରନ୍ତୁ"
 
 #: src/features/write/basics-screen.tsx
 msgid "Edit link"
@@ -5331,8 +5331,8 @@ msgid "Enter terms yourself. No AI request is made. Leave unknown amounts blank.
 msgstr "ସର୍ତ୍ତଗୁଡ଼ିକ ନିଜେ ଲେଖନ୍ତୁ। କୌଣସି AI ଅନୁରୋଧ ପଠାଯାଏ ନାହିଁ। ଅଜଣା ରାଶିଗୁଡ଼ିକ ଖାଲି ରଖନ୍ତୁ।"
 
 #: app/(auth)/server.tsx
-msgid "Enter the address you open Reactive Resume at in a browser. The app checks it's a Reactive Resume server that allows app sign-in before you continue."
-msgstr "ବ୍ରାଉଜର୍‌ରେ Reactive Resume ଖୋଲୁଥିବା ଠିକଣା ଦିଅନ୍ତୁ। ଜାରି ରଖିବା ପୂର୍ବରୁ ଆପ୍ ଏହା ଆପ୍ ସାଇନ୍ ଇନ୍ ଅନୁମତି ଦେଉଥିବା Reactive Resume ସର୍ଭର୍ କି ନାହିଁ ଯାଞ୍ଚ କରେ।"
+msgid "Enter the address you open Lebenslauf2 at in a browser. The app checks it's a Lebenslauf2 server that allows app sign-in before you continue."
+msgstr "ବ୍ରାଉଜର୍‌ରେ Lebenslauf2 ଖୋଲୁଥିବା ଠିକଣା ଦିଅନ୍ତୁ। ଜାରି ରଖିବା ପୂର୍ବରୁ ଆପ୍ ଏହା ଆପ୍ ସାଇନ୍ ଇନ୍ ଅନୁମତି ଦେଉଥିବା Lebenslauf2 ସର୍ଭର୍ କି ନାହିଁ ଯାଞ୍ଚ କରେ।"
 
 #: src/features/ai/error.ts
 msgid "Enter the API base URL of your service and test again."
@@ -5805,13 +5805,13 @@ msgstr "“{0}” ପାଇଁ ମିଳିଛି। ବିଜ୍ଞାପନ {1
 
 #: src/api/ai-consent.ts
 #: src/features/career/schedule-sheet.tsx
-msgid "Found posting links are read by Reactive Resume and the sites being read."
-msgstr "ମିଳିଥିବା ବିଜ୍ଞାପନ ଲିଙ୍କ୍‌ଗୁଡ଼ିକୁ Reactive Resume ଏବଂ ପଢ଼ାଯାଉଥିବା ସାଇଟ୍‌ଗୁଡ଼ିକ ପଢ଼ନ୍ତି।"
+msgid "Found posting links are read by Lebenslauf2 and the sites being read."
+msgstr "ମିଳିଥିବା ବିଜ୍ଞାପନ ଲିଙ୍କ୍‌ଗୁଡ଼ିକୁ Lebenslauf2 ଏବଂ ପଢ଼ାଯାଉଥିବା ସାଇଟ୍‌ଗୁଡ଼ିକ ପଢ଼ନ୍ତି।"
 
 #: src/api/ai-consent.ts
 #: src/features/career/schedule-sheet.tsx
-msgid "Found posting links are read by Reactive Resume and, when needed, {reader} and the sites being read. The reader may charge."
-msgstr "ମିଳିଥିବା ବିଜ୍ଞାପନ ଲିଙ୍କ୍‌ଗୁଡ଼ିକୁ Reactive Resume ଏବଂ, ଆବଶ୍ୟକ ହେଲେ, {reader} ଏବଂ ପଢ଼ାଯାଉଥିବା ସାଇଟ୍‌ଗୁଡ଼ିକ ପଢ଼ନ୍ତି। ପାଠକ ଦର ମାଗିପାରେ।"
+msgid "Found posting links are read by Lebenslauf2 and, when needed, {reader} and the sites being read. The reader may charge."
+msgstr "ମିଳିଥିବା ବିଜ୍ଞାପନ ଲିଙ୍କ୍‌ଗୁଡ଼ିକୁ Lebenslauf2 ଏବଂ, ଆବଶ୍ୟକ ହେଲେ, {reader} ଏବଂ ପଢ଼ାଯାଉଥିବା ସାଇଟ୍‌ଗୁଡ଼ିକ ପଢ଼ନ୍ତି। ପାଠକ ଦର ମାଗିପାରେ।"
 
 #: src/features/design/style-groups.tsx
 #: src/features/letters/design.tsx
@@ -6941,6 +6941,10 @@ msgstr "ଛାଡିଦିଅ |"
 #: app/letter/[id]/_layout.tsx
 msgid "Leave without keeping the draft?"
 msgstr "ଡ୍ରାଫ୍ଟ ନ ରଖି ଛାଡ଼ିଦେବେ କି?"
+
+#: src/auth/auth-header.tsx
+msgid "Lebenslauf2"
+msgstr "Lebenslauf2"
 
 #: src/features/design/template-group.tsx
 msgid "Left"
@@ -8286,6 +8290,10 @@ msgstr "ଏପର୍ଯ୍ୟନ୍ତ କ keys ଣସି ଚାବି ନାହ
 msgid "No language matches."
 msgstr "କୌଣସି ଭାଷା ମେଳ ଖାଉନାହିଁ।"
 
+#: src/auth/messages.ts
+msgid "No Lebenslauf2 server answered at this address. Check the spelling, or ask your administrator whether the server allows app sign-in."
+msgstr "ଏହି ଠିକଣାରେ କୌଣସି Lebenslauf2 ସର୍ଭର୍ ଉତ୍ତର ଦେଲାନାହିଁ। ବନାନ ଯାଞ୍ଚ କରନ୍ତୁ କିମ୍ବା ଆପ୍‌ରୁ ସାଇନ୍ ଇନ୍ ଅନୁମତି ବିଷୟରେ ପ୍ରଶାସକଙ୍କୁ ପଚାରନ୍ତୁ।"
+
 #: src/features/ats-checker/messages.ts
 msgid "No lines look like a job title paired with an employer."
 msgstr "କୌଣସି ଧାଡ଼ି ଏକ ନିଯୁକ୍ତିଦାତା ସହିତ ଯୋଡ଼ାହୋଇଥିବା ଚାକିରି ପଦବୀ ପରି ଦେଖାଯାଏ ନାହିଁ।"
@@ -8352,10 +8360,6 @@ msgstr "କ photo ଣସି ଫଟୋ ନାହିଁ | ଅଧିକାଂଶ AT
 #: src/features/applications/add-sheet.tsx
 msgid "No postings found. Try different keywords."
 msgstr "କୌଣସି ଚାକିରି ବିଜ୍ଞାପନ ମିଳିଲା ନାହିଁ। ଭିନ୍ନ କୀୱାର୍ଡ ଚେଷ୍ଟା କରନ୍ତୁ।"
-
-#: src/auth/messages.ts
-msgid "No Reactive Resume server answered at this address. Check the spelling, or ask your administrator whether the server allows app sign-in."
-msgstr "ଏହି ଠିକଣାରେ କୌଣସି Reactive Resume ସର୍ଭର୍ ଉତ୍ତର ଦେଲାନାହିଁ। ବନାନ ଯାଞ୍ଚ କରନ୍ତୁ କିମ୍ବା ଆପ୍‌ରୁ ସାଇନ୍ ଇନ୍ ଅନୁମତି ବିଷୟରେ ପ୍ରଶାସକଙ୍କୁ ପଚାରନ୍ତୁ।"
 
 #: src/features/check/job-match.tsx
 msgid "No recognizable terms in this posting."
@@ -8772,8 +8776,8 @@ msgid "On"
 msgstr "ଚାଲୁ"
 
 #: src/features/applications/add-sheet.tsx
-msgid "On iOS, choose Keep for review, then reopen app in the Share extension. Reopen Reactive Resume yourself within 15 minutes. Sign in here before sharing."
-msgstr "iOS ରେ, “ରଖନ୍ତୁ” ଯାଞ୍ଚ ପାଇଁ ବାଛନ୍ତୁ, ତା’ପରେ Share ଏକ୍ସଟେନ୍ସନ୍‌ରେ ଆପ୍ ପୁଣି ଖୋଲନ୍ତୁ। 15 ମିନିଟ୍ ମଧ୍ୟରେ ନିଜେ Reactive Resume ପୁଣି ଖୋଲନ୍ତୁ। ସହଭାଗ କରିବା ପୂର୍ବରୁ ଏଠାରେ ସାଇନ୍ ଇନ୍ କରନ୍ତୁ।"
+msgid "On iOS, choose Keep for review, then reopen app in the Share extension. Reopen Lebenslauf2 yourself within 15 minutes. Sign in here before sharing."
+msgstr "iOS ରେ, “ରଖନ୍ତୁ” ଯାଞ୍ଚ ପାଇଁ ବାଛନ୍ତୁ, ତା’ପରେ Share ଏକ୍ସଟେନ୍ସନ୍‌ରେ ଆପ୍ ପୁଣି ଖୋଲନ୍ତୁ। 15 ମିନିଟ୍ ମଧ୍ୟରେ ନିଜେ Lebenslauf2 ପୁଣି ଖୋଲନ୍ତୁ। ସହଭାଗ କରିବା ପୂର୍ବରୁ ଏଠାରେ ସାଇନ୍ ଇନ୍ କରନ୍ତୁ।"
 
 #: src/features/share/link.tsx
 msgid "On. Anyone with the link can see your web page."
@@ -9314,20 +9318,20 @@ msgid "PDF import"
 msgstr "PDF ଆମଦାନି"
 
 #: src/features/application-detail/sections.tsx
-msgid "PDF only · up to 10 MB each. Linking a Reactive Resume enables a fit check against each requirement and tailoring."
+msgid "PDF only · up to 10 MB each. Linking a Lebenslauf2 enables a fit check against each requirement and tailoring."
 msgstr "କେବଳ PDF · ପ୍ରତ୍ୟେକ 10 MB ପର୍ଯ୍ୟନ୍ତ। ଏକ ରେଜ୍ୟୁମେ ଲିଙ୍କ୍ କଲେ ପ୍ରତ୍ୟେକ ଆବଶ୍ୟକତା ବିରୁଦ୍ଧରେ ଉପଯୁକ୍ତତା ଯାଞ୍ଚ ଏବଂ ବିଶେଷ ସମ୍ପାଦନ ମିଳେ।"
 
 #: src/features/documents/new-document.tsx
-msgid "PDF reads its text layer on your server by default, without AI. Turn on the AI switch to send it to your provider. Word (.docx) needs an AI provider. Current and v4 Reactive Resume JSON, cover letters, JSON Resume and LinkedIn exports (.zip) are supported. Up to 10 MB."
-msgstr "PDF AI ବିନା ଡିଫଲ୍ଟ ଭାବରେ ଆପଣଙ୍କ ସର୍ଭରରେ ଏହାର ପାଠ୍ୟ ଲେୟାର ପଢ଼େ। ଏହାକୁ ଆପଣଙ୍କ ପ୍ରଦାନକାରୀ ପାଖକୁ ପଠାଇବାକୁ AI ସ୍ୱିଚ୍ ଚାଲୁ କରନ୍ତୁ। Word (.docx) ପାଇଁ ଏକ AI ପ୍ରଦାନକାରୀ ଆବଶ୍ୟକ। ପ୍ରଚଳିତ ଏବଂ v4 Reactive Resume JSON, କଭର୍ ଚିଠି, JSON Resume ଏବଂ LinkedIn ନିର୍ଯ୍ୟାତ (.zip) ସମର୍ଥିତ। 10 MB ପର୍ଯ୍ୟନ୍ତ।"
+msgid "PDF reads its text layer on your server by default, without AI. Turn on the AI switch to send it to your provider. Word (.docx) needs an AI provider. Current and v4 Lebenslauf2 JSON, cover letters, JSON Resume and LinkedIn exports (.zip) are supported. Up to 10 MB."
+msgstr "PDF AI ବିନା ଡିଫଲ୍ଟ ଭାବରେ ଆପଣଙ୍କ ସର୍ଭରରେ ଏହାର ପାଠ୍ୟ ଲେୟାର ପଢ଼େ। ଏହାକୁ ଆପଣଙ୍କ ପ୍ରଦାନକାରୀ ପାଖକୁ ପଠାଇବାକୁ AI ସ୍ୱିଚ୍ ଚାଲୁ କରନ୍ତୁ। Word (.docx) ପାଇଁ ଏକ AI ପ୍ରଦାନକାରୀ ଆବଶ୍ୟକ। ପ୍ରଚଳିତ ଏବଂ v4 Lebenslauf2 JSON, କଭର୍ ଚିଠି, JSON Resume ଏବଂ LinkedIn ନିର୍ଯ୍ୟାତ (.zip) ସମର୍ଥିତ। 10 MB ପର୍ଯ୍ୟନ୍ତ।"
 
 #: src/features/design/advanced.tsx
 msgid "PDF styles support a subset of CSS. Rotation, dashed and dotted borders, and some layout properties are ignored."
 msgstr "PDF ଶ yles ଳୀ CSS ର ଏକ ଉପସେଟକୁ ସମର୍ଥନ କରେ | ଘୂର୍ଣ୍ଣନ, ଡ୍ୟାଶ୍ ଏବଂ ବିନ୍ଦୁ ସୀମା, ଏବଂ କିଛି ଲେଆଉଟ୍ ଗୁଣକୁ ଅଣଦେଖା କରାଯାଏ |"
 
 #: src/features/documents/new-document.tsx
-msgid "PDF, Word, Reactive Resume, JSON Resume or LinkedIn export."
-msgstr "PDF, Word, Reactive Resume, JSON Resume କିମ୍ବା LinkedIn ରପ୍ତାନି।"
+msgid "PDF, Word, Lebenslauf2, JSON Resume or LinkedIn export."
+msgstr "PDF, Word, Lebenslauf2, JSON Resume କିମ୍ବା LinkedIn ରପ୍ତାନି।"
 
 #: src/features/workspace/tabs/messages.tsx
 msgid "per hour"
@@ -9963,10 +9967,6 @@ msgstr "ଫଣ୍ଟଗୁଡ଼ିକ ଏମ୍ବେଡ୍ କରି ପୁନ
 #: src/features/ats-checker/messages.ts
 msgid "Re-export with fonts embedded, then open the file and check that the text copies out cleanly."
 msgstr "ଫଣ୍ଟଗୁଡ଼ିକ ଏମ୍ବେଡ୍ କରି ପୁନଃ-ରପ୍ତାନି କରନ୍ତୁ, ତାପରେ ଫାଇଲ୍ ଖୋଲି ଟେକ୍ସଟ୍ ସଠିକ୍ ଭାବରେ କପି ହୁଏ କି ଯାଞ୍ଚ କରନ୍ତୁ।"
-
-#: src/auth/auth-header.tsx
-msgid "Reactive Resume"
-msgstr "Reactive Resume"
 
 #: src/features/application-detail/sheets.tsx
 #: src/features/applications/add-sheet.tsx
@@ -11908,8 +11908,8 @@ msgid "Show"
 msgstr "ଦେଖାନ୍ତୁ"
 
 #: src/features/share/web-page.tsx
-msgid "Show “Made with Reactive Resume”"
-msgstr "“Reactive Resume ସହିତ ନିର୍ମିତ” ଦେଖାନ୍ତୁ"
+msgid "Show “Made with Lebenslauf2”"
+msgstr "“Lebenslauf2 ସହିତ ନିର୍ମିତ” ଦେଖାନ୍ତୁ"
 
 #. placeholder {0}: i18n.number(Math.min(remaining, COLUMN_PAGE_SIZE))
 #: src/features/applications-board/board-screen.tsx
@@ -14420,8 +14420,8 @@ msgid "Use web access?"
 msgstr "ୱେବ୍ ପ୍ରବେଶ ବ୍ୟବହାର କରିବେ କି?"
 
 #: src/features/applications/add-sheet.tsx
-msgid "Use your browser’s Share action to send one posting URL or selected text to Reactive Resume. Receiving shares requires the latest store build; URL and paste import remain available."
-msgstr "ଗୋଟିଏ ବିଜ୍ଞାପନ URL ବା ବଛା ପାଠ୍ୟ Reactive Resume କୁ ପଠାଇବାକୁ ଆପଣଙ୍କ ବ୍ରାଉଜରର Share କାର୍ଯ୍ୟ ବ୍ୟବହାର କରନ୍ତୁ। ସହଭାଗ ଗ୍ରହଣ ପାଇଁ ନୂତନ ଷ୍ଟୋର ବିଲ୍ଡ ଆବଶ୍ୟକ; URL ଏବଂ ପେଷ୍ଟ ଆଟାତ ରହିବ।"
+msgid "Use your browser’s Share action to send one posting URL or selected text to Lebenslauf2. Receiving shares requires the latest store build; URL and paste import remain available."
+msgstr "ଗୋଟିଏ ବିଜ୍ଞାପନ URL ବା ବଛା ପାଠ୍ୟ Lebenslauf2 କୁ ପଠାଇବାକୁ ଆପଣଙ୍କ ବ୍ରାଉଜରର Share କାର୍ଯ୍ୟ ବ୍ୟବହାର କରନ୍ତୁ। ସହଭାଗ ଗ୍ରହଣ ପାଇଁ ନୂତନ ଷ୍ଟୋର ବିଲ୍ଡ ଆବଶ୍ୟକ; URL ଏବଂ ପେଷ୍ଟ ଆଟାତ ରହିବ।"
 
 #: src/features/ats-checker/messages.ts
 msgid "Use your editor's normal bullet list, so stray glyphs do not land mid-sentence."
@@ -15289,8 +15289,8 @@ msgstr "ଆପଣଙ୍କ ଜ୍ଞାନ"
 
 #: app/_layout.tsx
 #: app/(tabs)/settings/preferences.tsx
-msgid "Your language is saved. Restart Reactive Resume to apply the new left-to-right or right-to-left layout."
-msgstr "ଭାଷା ସେଭ୍ ହେଲା। ନୂଆ ବାମରୁ ଡାହାଣ ବା ଡାହାଣରୁ ବାମ ଲେଆଉଟ୍ ପାଇଁ Reactive Resume ପୁଣି ଆରମ୍ଭ କରନ୍ତୁ।"
+msgid "Your language is saved. Restart Lebenslauf2 to apply the new left-to-right or right-to-left layout."
+msgstr "ଭାଷା ସେଭ୍ ହେଲା। ନୂଆ ବାମରୁ ଡାହାଣ ବା ଡାହାଣରୁ ବାମ ଲେଆଉଟ୍ ପାଇଁ Lebenslauf2 ପୁଣି ଆରମ୍ଭ କରନ୍ତୁ।"
 
 #: src/features/ats-checker/messages.ts
 msgid "Your lines are packed very tightly."

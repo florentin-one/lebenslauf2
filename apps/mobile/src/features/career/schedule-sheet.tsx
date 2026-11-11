@@ -239,8 +239,8 @@ function ScheduleForm({
 						<Text color="ink3">{t`Uses web search set up in Settings. Only this query and search countries are sent; your resume and Knowledge are not sent to search. The service may charge. Results wait in Today; applications and documents are never created for you.`}</Text>
 						<Text color="ink3">
 							{reader
-								? t`Found posting links are read by Reactive Resume and, when needed, ${reader} and the sites being read. The reader may charge.`
-								: t`Found posting links are read by Reactive Resume and the sites being read.`}
+								? t`Found posting links are read by Lebenslauf2 and, when needed, ${reader} and the sites being read. The reader may charge.`
+								: t`Found posting links are read by Lebenslauf2 and the sites being read.`}
 						</Text>
 						<Text color="ink3">{t`AI is optional. Review target roles in Knowledge, wait for Saved, then create a new schedule. Existing schedules keep this query until you edit and save it.`}</Text>
 						<Text color="ink3">{t`Repeats at this local time in the displayed timezone across clock changes. A skipped clock time moves forward. Missed runs combine into one search. Results and failures appear in Today; delivery depends on the server runner.`}</Text>

@@ -73,7 +73,7 @@ test("session expiry removes private exports and repeated unauthorized responses
 test("export cleanup failure still expires and retires credentials", async () => {
 	let failCleanup = false;
 	const { session, store } = previewSession(
-		[["tokens:https://rxresu.me", JSON.stringify({ accessToken: "real-token" })]],
+		[["tokens:https://lebenslauf2.florentin-one.de", JSON.stringify({ accessToken: "real-token" })]],
 		true,
 		() => {
 			if (failCleanup) throw new Error("Disk unavailable");
@@ -85,7 +85,7 @@ test("export cleanup failure still expires and retires credentials", async () =>
 	await assert.rejects(session.rejectCredentials(credentials), /Disk unavailable/);
 	assert.equal(session.getSession().status, "expired");
 	assert.equal(await session.getAccessToken(), null);
-	assert.equal(store.has("tokens:https://rxresu.me"), false);
+	assert.equal(store.has("tokens:https://lebenslauf2.florentin-one.de"), false);
 });
 
 test("a development fixture changes disk and memory together and rejects remote origins", async () => {

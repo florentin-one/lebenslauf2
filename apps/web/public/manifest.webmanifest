@@ -1,6 +1,6 @@
 {
-	"name": "Reactive Resume",
-	"short_name": "Reactive Resume",
+	"name": "Lebenslauf2",
+	"short_name": "Lebenslauf2",
 	"description": "A free and open-source resume builder.",
 	"id": "/?source=pwa",
 	"start_url": "/dashboard",

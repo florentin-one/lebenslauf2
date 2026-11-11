@@ -7,8 +7,8 @@
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <data android:scheme="https" android:host="rxresu.me" android:pathPrefix="/builder/" />
-                <data android:scheme="https" android:host="rxresu.me" android:pathPrefix="/feedback/" />
+                <data android:scheme="https" android:host="lebenslauf2.me" android:pathPrefix="/builder/" />
+                <data android:scheme="https" android:host="lebenslauf2.me" android:pathPrefix="/feedback/" />
             </intent-filter>
         </activity>
         <activity-alias android:name="me.rxresu.feature.system.SaveJob" android:targetActivity="me.rxresu.MainActivity" android:label="@string/system_savejob" android:exported="true">
@@ -38,7 +38,7 @@
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <data android:scheme="https" android:host="rxresu.me" />
+                <data android:scheme="https" android:host="lebenslauf2.me" />
                 <uri-relative-filter-group android:allow="false"><data android:path="/auth" /></uri-relative-filter-group>
                 <uri-relative-filter-group android:allow="false"><data android:pathPrefix="/auth/" /></uri-relative-filter-group>
                 <uri-relative-filter-group android:allow="false"><data android:path="/api" /></uri-relative-filter-group>

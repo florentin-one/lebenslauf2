@@ -1,11 +1,11 @@
 ---
 name: offer-negotiation
-description: Evaluates and negotiates job offers. Decodes base, bonus, equity, sign-on, level and terms with unknowns kept unknown and each offer in its own currency, benchmarks against checkable pay data, finds true leverage, drafts one counter as email and call script, role-plays the recruiter, and handles the salary-expectations number, deadlines and extensions, "best and final", competing offers, counteroffers and written acceptance or decline. Country-aware (India CTC, 13th-month pay, public-sector scales). Use when the user says "I got an offer of...", "is this offer good", "should I negotiate", "how do I counter", "compare my offers", "what is my equity worth", "they asked my salary expectations", "they want an answer by Friday", "can I ask for more time", "should I accept" or "practice the negotiation call". Uses Reactive Resume MCP tools when connected. For logging the offer, its deadline and withdrawal notes, job-application-manager; for other interview answers, interview-prep.
+description: Evaluates and negotiates job offers. Decodes base, bonus, equity, sign-on, level and terms with unknowns kept unknown and each offer in its own currency, benchmarks against checkable pay data, finds true leverage, drafts one counter as email and call script, role-plays the recruiter, and handles the salary-expectations number, deadlines and extensions, "best and final", competing offers, counteroffers and written acceptance or decline. Country-aware (India CTC, 13th-month pay, public-sector scales). Use when the user says "I got an offer of...", "is this offer good", "should I negotiate", "how do I counter", "compare my offers", "what is my equity worth", "they asked my salary expectations", "they want an answer by Friday", "can I ask for more time", "should I accept" or "practice the negotiation call". Uses Lebenslauf2 MCP tools when connected. For logging the offer, its deadline and withdrawal notes, job-application-manager; for other interview answers, interview-prep.
 ---
 
 # Offer Negotiation
 
-Help the user decide on a job offer and ask for a better one honestly. The deliverables are a **decoded offer** (every term with its basis, unknowns listed as questions), a **position** (target, walk-away point, real leverage), **one consolidated counter** as an email and a call script, a **rehearsal** with you playing the recruiter, and the **written close**: acceptance or decline. Everything works in plain conversation; when the Reactive Resume MCP server is connected, read the offer-stage applications and saved offer terms from it, set the follow-up for the response deadline and log each negotiation step.
+Help the user decide on a job offer and ask for a better one honestly. The deliverables are a **decoded offer** (every term with its basis, unknowns listed as questions), a **position** (target, walk-away point, real leverage), **one consolidated counter** as an email and a call script, a **rehearsal** with you playing the recruiter, and the **written close**: acceptance or decline. Everything works in plain conversation; when the Lebenslauf2 MCP server is connected, read the offer-stage applications and saved offer terms from it, set the follow-up for the response deadline and log each negotiation step.
 
 Why this shape: first offers anchor outcomes, but the anchor weakens when the receiver focuses on their own target and alternatives (Galinsky & Mussweiler, 2001). Reasons, real alternatives and several equivalent packages move offers without souring the relationship. Bluffs, invented precision and drip-fed asks do the opposite.
 
@@ -241,9 +241,9 @@ Unknowns      bonus cap · bonus payout history · refreshers · sign-on · 401(
 
 Position: fallback is staying at $170k plus the February vest; leverage is the documented $30k forfeiture and the data; no competing offer, so none is mentioned. Plan (confirmed by the user): base $200,000 (the upper half of the 190–205k verified entries; a round figure because the data gives no percentile) or package B, base $192,000 plus a $30,000 sign-on to cover the forfeited vest. With 7 days left, the bonus and refresher questions go out today in their own email (scripts.md §3); the counter call is Tuesday 13 Oct, with a recap email the same day, 3 days before the deadline. The draft follows step 6 with those figures and reasons (scripts.md §5 shows it in full). Not done: no extension request (time is enough), no invented offer, no claim that the bonus "usually pays 100%".
 
-## Reactive Resume MCP (skip if not connected)
+## Lebenslauf2 MCP (skip if not connected)
 
-Use these only when the server is connected. Read before writing, show the exact text, and get a yes before any write. Read [references/mcp-recipes.md](references/mcp-recipes.md) before the first Reactive Resume call in a session for payloads, field shapes, ordering traps and errors.
+Use these only when the server is connected. Read before writing, show the exact text, and get a yes before any write. Read [references/mcp-recipes.md](references/mcp-recipes.md) before the first Lebenslauf2 call in a session for payloads, field shapes, ordering traps and errors.
 
 **Read:**
 
@@ -267,4 +267,4 @@ Before quoting any negotiation statistic, check [references/evidence.md](referen
 - [references/scripts.md](references/scripts.md): read before drafting any message or call script other than the counter in step 6.
 - [references/role-play.md](references/role-play.md): read before the first role-play turn.
 - [references/evidence.md](references/evidence.md): read when the user asks why, repeats a statistic, or wants market data sources and their limits.
-- [references/mcp-recipes.md](references/mcp-recipes.md): read before the first Reactive Resume call in a session.
+- [references/mcp-recipes.md](references/mcp-recipes.md): read before the first Lebenslauf2 call in a session.

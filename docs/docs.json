@@ -1,7 +1,7 @@
 {
 	"$schema": "https://mintlify.com/docs.json",
 	"theme": "mint",
-	"name": "Reactive Resume",
+	"name": "Lebenslauf2",
 	"favicon": "/favicon.svg",
 	"description": "A privacy-minded resume builder that is customizable, portable, open-source, and free to use.",
 	"redirects": [
@@ -41,8 +41,8 @@
 	"seo": {
 		"indexing": "navigable",
 		"metatags": {
-			"canonical": "https://docs.rxresu.me",
-			"og:image": "https://rxresu.me/opengraph/banner.jpg"
+			"canonical": "https://docs.lebenslauf2.me",
+			"og:image": "https://lebenslauf2.florentin-one.de/opengraph/banner.jpg"
 		}
 	},
 	"fonts": {
@@ -287,8 +287,8 @@
 			"anchors": [
 				{
 					"icon": "link",
-					"anchor": "Reactive Resume",
-					"href": "https://rxresu.me"
+					"anchor": "Lebenslauf2",
+					"href": "https://lebenslauf2.florentin-one.de"
 				},
 				{
 					"icon": "github",
@@ -301,13 +301,13 @@
 	"logo": {
 		"light": "/logo/light.svg",
 		"dark": "/logo/dark.svg",
-		"href": "https://rxresu.me"
+		"href": "https://lebenslauf2.florentin-one.de"
 	},
 	"navbar": {
 		"links": [
 			{
 				"label": "Resume templates",
-				"href": "https://rxresu.me/resume-templates"
+				"href": "https://lebenslauf2.florentin-one.de/resume-templates"
 			},
 			{
 				"label": "Support",
@@ -317,7 +317,7 @@
 		"primary": {
 			"type": "button",
 			"label": "Build your resume",
-			"href": "https://rxresu.me/auth/register"
+			"href": "https://lebenslauf2.florentin-one.de/auth/register"
 		}
 	},
 	"contextual": {
@@ -325,7 +325,7 @@
 	},
 	"footer": {
 		"socials": {
-			"website": "https://rxresu.me",
+			"website": "https://lebenslauf2.florentin-one.de",
 			"github": "https://github.com/reactive-resume/reactive-resume"
 		}
 	},

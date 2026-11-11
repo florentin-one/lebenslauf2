@@ -3,7 +3,7 @@ import { describe, expect, it, vi } from "vite-plus/test";
 const mocks = vi.hoisted(() => ({
 	auth: {},
 	env: {
-		APP_URL: "https://rxresu.me",
+		APP_URL: "https://lebenslauf2.florentin-one.de",
 	},
 }));
 
@@ -35,8 +35,8 @@ describe("handleOAuthProtectedResource", () => {
 		const response = await handleOAuthProtectedResource();
 
 		await expect(response.json()).resolves.toMatchObject({
-			resource: "https://rxresu.me",
-			authorization_servers: ["https://rxresu.me/api/auth"],
+			resource: "https://lebenslauf2.florentin-one.de",
+			authorization_servers: ["https://lebenslauf2.florentin-one.de/api/auth"],
 		});
 	});
 });
@@ -48,8 +48,8 @@ describe("handleMcpServerCard", () => {
 		const response = handleMcpServerCard();
 
 		await expect(response.json()).resolves.toMatchObject({
-			url: "https://rxresu.me/mcp",
-			authentication: { type: "oauth2", authorization_server: "https://rxresu.me/api/auth" },
+			url: "https://lebenslauf2.florentin-one.de/mcp",
+			authentication: { type: "oauth2", authorization_server: "https://lebenslauf2.florentin-one.de/api/auth" },
 		});
 	});
 });
@@ -64,14 +64,14 @@ describe("handleIntegrations", () => {
 		expect(response.headers.get("Content-Type")).toBe("application/json");
 		expect(response.headers.get("Cache-Control")).toBe("public, max-age=3600");
 		expect(document).toMatchObject({ version: 3 });
-		expect(document.credentials.oauth.setup).toContain("resource=https://rxresu.me");
+		expect(document.credentials.oauth.setup).toContain("resource=https://lebenslauf2.florentin-one.de");
 		expect(document.credentials.oauth.setup).toContain("invalid_target");
 		expect(document.surfaces.map((surface: { type: string; url: string }) => [surface.type, surface.url])).toEqual([
-			["http", "https://rxresu.me/api/openapi"],
-			["mcp", "https://rxresu.me/mcp"],
+			["http", "https://lebenslauf2.florentin-one.de/api/openapi"],
+			["mcp", "https://lebenslauf2.florentin-one.de/mcp"],
 		]);
 
-		const source = "https://rxresu.me/.well-known/integrations.json";
+		const source = "https://lebenslauf2.florentin-one.de/.well-known/integrations.json";
 		for (const surface of document.surfaces) {
 			expect(surface.basis).toEqual({ via: "declared", source });
 			for (const entry of surface.auth.entries) {
@@ -91,10 +91,10 @@ describe("handleApiCatalog", () => {
 
 		expect(response.headers.get("Content-Type")).toContain("application/linkset+json");
 		expect(catalog.linkset.map((link: { anchor: string }) => link.anchor)).toEqual([
-			"https://rxresu.me/api/openapi",
-			"https://rxresu.me/mcp",
+			"https://lebenslauf2.florentin-one.de/api/openapi",
+			"https://lebenslauf2.florentin-one.de/mcp",
 		]);
-		expect(catalog.linkset[0]["service-desc"][0].href).toBe("https://rxresu.me/openapi.json");
+		expect(catalog.linkset[0]["service-desc"][0].href).toBe("https://lebenslauf2.florentin-one.de/openapi.json");
 	});
 });
 
@@ -112,9 +112,9 @@ describe("handleAgentCatalog", () => {
 		expect(catalog.entries).toHaveLength(1);
 		const [entry] = catalog.entries;
 		expect(entry).toMatchObject({
-			identifier: "urn:air:rxresu.me:mcp:reactive-resume",
+			identifier: "urn:air:lebenslauf2.me:mcp:reactive-resume",
 			type: "application/mcp-server-card+json",
-			url: "https://rxresu.me/.well-known/mcp/server-card.json",
+			url: "https://lebenslauf2.florentin-one.de/.well-known/mcp/server-card.json",
 		});
 		expect(entry).not.toHaveProperty("data");
 		expect(entry.representativeQueries.length).toBeGreaterThanOrEqual(2);

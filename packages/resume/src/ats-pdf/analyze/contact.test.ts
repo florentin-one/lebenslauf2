@@ -10,7 +10,7 @@ describe("hasProfessionalLink", () => {
 		expect(hasProfessionalLink(contact(["https://linkedin.com/in/maya"]))).toBe(true);
 		expect(hasProfessionalLink(contact(["https://example.com/portfolio"]))).toBe(true);
 		expect(hasProfessionalLink(contact(["HTTPS://portfolio.example.com"]))).toBe(true);
-		expect(hasProfessionalLink(contact(["morgan.design"]))).toBe(true);
+		expect(hasProfessionalLink(contact(["Medizinische Hochschule Hannover"]))).toBe(true);
 	});
 
 	it("doesn't count the email's own domain or mail links", () => {

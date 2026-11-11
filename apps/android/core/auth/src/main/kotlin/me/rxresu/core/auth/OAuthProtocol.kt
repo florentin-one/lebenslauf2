@@ -42,7 +42,7 @@ fun isAllowedServer(origin: String, debug: Boolean = false): Boolean {
 }
 
 internal fun redirectUri(origin: String, debug: Boolean) =
-    if (debug && origin.startsWith("http:")) "me.rxresu:/auth/native-callback" else "https://rxresu.me/auth/native-callback"
+    if (debug && origin.startsWith("http:")) "me.lebenslauf2:/auth/native-callback" else "https://lebenslauf2.florentin-one.de/auth/native-callback"
 
 internal data class Discovery(
     val issuer: String, val authorize: String, val token: String, val register: String,

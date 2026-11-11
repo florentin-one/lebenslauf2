@@ -85,7 +85,7 @@ export function SettingsRoot() {
 
 			{/* The desktop footer's links, as rows: each opens outside the app. */}
 			<nav
-				aria-label={t`About Reactive Resume`}
+				aria-label={t`About Lebenslauf2`}
 				className="divide-y divide-line overflow-hidden rounded-lg border border-line bg-surface"
 			>
 				{getProjectLinks().map((link) => (
@@ -97,7 +97,7 @@ export function SettingsRoot() {
 				))}
 			</nav>
 			<p className="text-center text-xs text-ink-3">
-				<Trans>Reactive Resume {__APP_VERSION__} · MIT</Trans>
+				<Trans>Lebenslauf2 {__APP_VERSION__} · MIT</Trans>
 			</p>
 			<SignOutButton />
 		</div>

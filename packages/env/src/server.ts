@@ -99,7 +99,7 @@ export const env = createEnv({
 			.transform((value) => value || undefined)
 			.optional(),
 		// A second domain serving the same public pages as APP_URL (resumes, /<username>, the home page), e.g.
-		// https://rx.cv. Sign-in and the editor stay on APP_URL. When set, it's the address shown and shared.
+		// https://cv2.florentin-one.de. Sign-in and the editor stay on APP_URL. When set, it's the address shown and shared.
 		APP_ALIAS_URL: z.url({ protocol: /^https?$/ }).optional(),
 		// The host custom domains point a CNAME at, e.g. domains.rx.cv. Unset turns custom domains off.
 		CUSTOM_DOMAIN_TARGET: z

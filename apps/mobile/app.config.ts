@@ -1,15 +1,15 @@
 import type { ExpoConfig } from "expo/config";
 
 // The official host. Universal Links, App Links and the OAuth callback (`/auth/native-callback`) verify against it.
-const host = "rxresu.me";
-const microphonePermission = "Reactive Resume records your answers when you practise for an interview.";
+const host = "lebenslauf2.me";
+const microphonePermission = "Lebenslauf2 records your answers when you practise for an interview.";
 
 const config: ExpoConfig = {
-	name: "Reactive Resume",
-	slug: "reactive-resume",
+	name: "Lebenslauf2",
+	slug: "lebenslauf2",
 	platforms: process.env.EXPO_MOBILE_WEB_PREVIEW === "1" ? ["ios", "android", "web"] : ["ios", "android"],
-	scheme: "me.rxresu",
-	owner: "reactive-resume",
+	scheme: "me.lebenslauf2",
+	owner: "lebenslauf2",
 	version: "1.0.1",
 	runtimeVersion: { policy: "fingerprint" },
 	updates: {
@@ -27,7 +27,7 @@ const config: ExpoConfig = {
 			light: "./assets/icon.png",
 			dark: "./assets/icon-dark.png",
 		},
-		bundleIdentifier: "me.rxresu",
+		bundleIdentifier: "me.lebenslauf2",
 		appleTeamId: "654ASRW868",
 		deploymentTarget: "17.4",
 		supportsTablet: true,
@@ -60,7 +60,7 @@ const config: ExpoConfig = {
 	},
 	android: {
 		versionCode: Number(process.env.MOBILE_BUILD_NUMBER ?? "1"),
-		package: "me.rxresu",
+		package: "me.lebenslauf2",
 		predictiveBackGestureEnabled: false,
 		adaptiveIcon: {
 			foregroundImage: "./assets/adaptive-foreground.png",
@@ -143,8 +143,8 @@ const config: ExpoConfig = {
 		[
 			"expo-image-picker",
 			{
-				photosPermission: "Reactive Resume uses your photos to set the picture on your resume.",
-				cameraPermission: "Reactive Resume uses your camera to take a profile photo.",
+				photosPermission: "Lebenslauf2 uses your photos to set the picture on your resume.",
+				cameraPermission: "Lebenslauf2 uses your camera to take a profile photo.",
 				microphonePermission,
 			},
 		],

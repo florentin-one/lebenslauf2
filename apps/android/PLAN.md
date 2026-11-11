@@ -1,6 +1,6 @@
 # Android app build plan
 
-Native Android app for Reactive Resume (Kotlin, Jetpack Compose), built from the mobile storyboard in
+Native Android app for Lebenslauf2 (Kotlin, Jetpack Compose), built from the mobile storyboard in
 `/Users/amruth/Projects/reactive-resume/.agents/handoff/android-app/` (HANDOFF.md, SCREENS.md, boards, screens,
 reference/Tokens.kt, icons). Branch `feat/android-app`; nothing is pushed.
 

@@ -10,8 +10,8 @@ Host renders the unchanged sample with all 17 templates through `@reactive-resum
 
 Launch the dev build on a dedicated device with Metro on 8086, then open:
 
-- iOS: `me.rxresu://builder/preview-sample/page?parity=http%3A%2F%2F127.0.0.1%3A18086`
-- Android: `me.rxresu://builder/preview-sample/page?parity=http%3A%2F%2F127.0.0.1%3A18086`
+- iOS: `me.lebenslauf2://builder/preview-sample/page?parity=http%3A%2F%2F127.0.0.1%3A18086`
+- Android: `me.lebenslauf2://builder/preview-sample/page?parity=http%3A%2F%2F127.0.0.1%3A18086`
 
 The host binds only `127.0.0.1:18086`. On Android, use your own emulator serial: `adb -s <serial> reverse tcp:18086 tcp:18086` (and reverse Metro 8086 too).
 

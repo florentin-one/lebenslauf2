@@ -1014,8 +1014,8 @@ msgid "{skipped, plural, one {# row had no company or role and was skipped.} oth
 msgstr "{skipped, plural, other {# 列沒有公司或職位，已略過。}}"
 
 #: src/features/homepage/header.tsx
-msgid "{stars, plural, one {Star Reactive Resume on GitHub, # star} other {Star Reactive Resume on GitHub, # stars}}"
-msgstr "{stars, plural, other {在 GitHub 上為 Reactive Resume 加星，# 顆星}}"
+msgid "{stars, plural, one {Star Lebenslauf2 on GitHub, # star} other {Star Lebenslauf2 on GitHub, # stars}}"
+msgstr "{stars, plural, other {在 GitHub 上為 Lebenslauf2 加星，# 顆星}}"
 
 #: src/features/documents/page-navigation.tsx
 msgid "{start}–{end} of {total}"
@@ -1248,8 +1248,8 @@ msgid "A accepts and R rejects the focused edit. ↑ and ↓ move between edits.
 msgstr "A 接受而 R 拒絕焦點編輯。 ↑ 和 ↓ 在編輯之間移動。"
 
 #: src/routes/builder/letter/-components/download-sheet.tsx
-msgid "A backup of this letter. Imports back into Reactive Resume as a letter."
-msgstr "這封信的備份。作為信件導入回 Reactive Resume。"
+msgid "A backup of this letter. Imports back into Lebenslauf2 as a letter."
+msgstr "這封信的備份。作為信件導入回 Lebenslauf2。"
 
 #: src/features/resume/editor/check/issues.ts
 msgid "A city and country let roles be matched to where you are."
@@ -1442,8 +1442,8 @@ msgid "About 90 seconds when spoken"
 msgstr "說出來大約 90 秒"
 
 #: src/features/settings/root.tsx
-msgid "About Reactive Resume"
-msgstr "關於 Reactive Resume"
+msgid "About Lebenslauf2"
+msgstr "關於 Lebenslauf2"
 
 #: src/features/resume/editor/design/entries-group.tsx
 msgid "Accent"
@@ -2183,11 +2183,6 @@ msgstr "AI 輔助草稿"
 msgid "Albanian"
 msgstr "阿爾巴尼亞語"
 
-#: src/features/homepage/check.tsx
-#: src/features/homepage/sheet.tsx
-msgid "Alex Morgan"
-msgstr "Alex Morgan"
-
 #: src/features/resume/editor/write/rich-text-editor-field.tsx
 msgid "Align center"
 msgstr "置中對齊"
@@ -2638,7 +2633,7 @@ msgstr "核准並建立應徵資料包"
 msgid "Approve change"
 msgstr "核准變更"
 
-#. Email preview text. appName: Reactive Resume
+#. Email preview text. appName: Lebenslauf2
 #: src/features/auth/email-text.ts
 msgid "Approve changing your {appName} email address"
 msgstr "核准變更您的 {appName} 電子郵件地址"
@@ -4028,8 +4023,8 @@ msgid "Complete {0} before saving."
 msgstr "儲存前請先填寫{0}。"
 
 #: src/features/resume/share/download-tab.tsx
-msgid "Complete data backup. Imports back into Reactive Resume."
-msgstr "完整資料備份。可重新匯入 Reactive Resume。"
+msgid "Complete data backup. Imports back into Lebenslauf2."
+msgstr "完整資料備份。可重新匯入 Lebenslauf2。"
 
 #: src/features/ats-checker/messages.ts
 msgid "Compress or remove large images to keep uploads quick."
@@ -4071,17 +4066,17 @@ msgstr "新增面試前，請先與 {contact} 確認時間。"
 msgid "Confirm the time, link and who you'll meet. Glance at the resume and letter you sent."
 msgstr "確認時間、連結和面試官。瀏覽一下您寄出的履歷和求職信。"
 
-#. Email sent to a new address to finish an email change. appName: Reactive Resume
+#. Email sent to a new address to finish an email change. appName: Lebenslauf2
 #: src/features/auth/email-text.ts
 msgid "Confirm this address to finish changing your {appName} email. The link works for 1 hour."
 msgstr "確認此地址以完成變更您的 {appName} 電子郵件。連結在 1 小時內有效。"
 
-#. Verification email. appName: Reactive Resume
+#. Verification email. appName: Lebenslauf2
 #: src/features/auth/email-text.ts
 msgid "Confirm this is your email address for {appName}. The link works for 1 hour."
 msgstr "確認這是您用於 {appName} 的電子郵件地址。連結在 1 小時內有效。"
 
-#. Email preview text. appName: Reactive Resume
+#. Email preview text. appName: Lebenslauf2
 #: src/features/auth/email-text.ts
 msgid "Confirm your new {appName} email address"
 msgstr "確認您新的 {appName} 電子郵件地址"
@@ -4833,8 +4828,8 @@ msgid "Couldn't propose these edits: {0}"
 msgstr "無法提出這些編輯：{0}"
 
 #: src/libs/error-message.ts
-msgid "Couldn't reach Reactive Resume. Check your internet connection, then try again."
-msgstr "無法連線至 Reactive Resume。請檢查網路連線後再試一次。"
+msgid "Couldn't reach Lebenslauf2. Check your internet connection, then try again."
+msgstr "無法連線至 Lebenslauf2。請檢查網路連線後再試一次。"
 
 #: src/features/documents/new-document-dialog.tsx
 msgid "Couldn't reach the AI provider. Try again in a moment."
@@ -6232,8 +6227,8 @@ msgid "Drag to reposition and use the slider to zoom before uploading."
 msgstr "拖曳即可重新定位，上傳前可使用滑桿進行縮放。"
 
 #: src/features/documents/new-document-dialog.tsx
-msgid "Drop a file here or browse. PDF, Word (needs AI), Reactive Resume, JSON Resume or a LinkedIn export (.zip). Sections come in ready to edit. For a PDF or Word file, anything that couldn't be placed is listed before you create the resume."
-msgstr "將檔案拖放到這裡或瀏覽檔案。支援 PDF、Word（需要 AI）、Reactive Resume、JSON Resume 或 LinkedIn 匯出檔（.zip）。各區段匯入後即可編輯。若是 PDF 或 Word 檔案，無法放入的內容會在您建立履歷前列出。"
+msgid "Drop a file here or browse. PDF, Word (needs AI), Lebenslauf2, JSON Resume or a LinkedIn export (.zip). Sections come in ready to edit. For a PDF or Word file, anything that couldn't be placed is listed before you create the resume."
+msgstr "將檔案拖放到這裡或瀏覽檔案。支援 PDF、Word（需要 AI）、Lebenslauf2、JSON Resume 或 LinkedIn 匯出檔（.zip）。各區段匯入後即可編輯。若是 PDF 或 Word 檔案，無法放入的內容會在您建立履歷前列出。"
 
 #: src/features/ats-checker/messages.ts
 msgid "Drop the pronouns and start from the verb. That is the convention in most markets."
@@ -6371,8 +6366,8 @@ msgid "Edit interview…"
 msgstr "編輯訪談..."
 
 #: src/features/ats-checker/checker.tsx
-msgid "Edit it in Reactive Resume"
-msgstr "在 Reactive Resume 中編輯"
+msgid "Edit it in Lebenslauf2"
+msgstr "在 Lebenslauf2 中編輯"
 
 #: src/components/input/chip-input.tsx
 msgid "Edit keyword"
@@ -6772,8 +6767,8 @@ msgid "Exact form URL"
 msgstr "確切的表單 URL"
 
 #: src/features/homepage/sections.tsx
-msgid "Exchange resume feedback, ask questions, and help shape Reactive Resume with the community."
-msgstr "與社群交流履歷回饋、提出問題，並一起打造 Reactive Resume。"
+msgid "Exchange resume feedback, ask questions, and help shape Lebenslauf2 with the community."
+msgstr "與社群交流履歷回饋、提出問題，並一起打造 Lebenslauf2。"
 
 #: src/features/resume/stylesheet/toolbar.tsx
 msgid "Exit focus mode"
@@ -7232,8 +7227,8 @@ msgid "For portals or recruiters who ask for Word. Layout is simplified."
 msgstr "對於要求 Word 的入口網站或招募人員。佈局被簡化。"
 
 #: src/features/auth/email-text.ts
-msgid "For security, only use links from emails sent by Reactive Resume."
-msgstr "為了安全起見，請只使用 Reactive Resume 寄出的電子郵件中的連結。"
+msgid "For security, only use links from emails sent by Lebenslauf2."
+msgstr "為了安全起見，請只使用 Lebenslauf2 寄出的電子郵件中的連結。"
 
 #: src/features/career/workspace/debrief.tsx
 msgid "For the next round:"
@@ -7307,17 +7302,17 @@ msgstr "透過「{0}」找到。職缺公告檢查於 {1}。"
 
 #: src/features/career/schedule-sheet.tsx
 #: src/libs/orpc/ai-consent.ts
-msgid "Found posting links are read by Reactive Resume and the sites being read."
-msgstr "找到的職缺公告連結會由 Reactive Resume 和所讀取的網站讀取。"
+msgid "Found posting links are read by Lebenslauf2 and the sites being read."
+msgstr "找到的職缺公告連結會由 Lebenslauf2 和所讀取的網站讀取。"
 
 #. placeholder {0}: webAccess.provider
 #: src/features/career/schedule-sheet.tsx
-msgid "Found posting links are read by Reactive Resume and, when needed, {0} and the sites being read. The reader may charge."
-msgstr "找到的職缺公告連結會由 Reactive Resume、所讀取的網站，以及在需要時由 {0} 讀取。讀取服務可能會收費。"
+msgid "Found posting links are read by Lebenslauf2 and, when needed, {0} and the sites being read. The reader may charge."
+msgstr "找到的職缺公告連結會由 Lebenslauf2、所讀取的網站，以及在需要時由 {0} 讀取。讀取服務可能會收費。"
 
 #: src/libs/orpc/ai-consent.ts
-msgid "Found posting links are read by Reactive Resume and, when needed, {reader} and the sites being read. The reader may charge."
-msgstr "找到的職缺公告連結會由 Reactive Resume、所讀取的網站，以及在需要時由 {reader} 讀取。讀取服務可能會收費。"
+msgid "Found posting links are read by Lebenslauf2 and, when needed, {reader} and the sites being read. The reader may charge."
+msgstr "找到的職缺公告連結會由 Lebenslauf2、所讀取的網站，以及在需要時由 {reader} 讀取。讀取服務可能會收費。"
 
 #: src/features/applications/components/add-application-dialog.tsx
 msgid "Found the role and company on the page. Review the details before saving."
@@ -7544,8 +7539,8 @@ msgstr "前往表單回答"
 
 #: src/features/feedback/review-page.tsx
 #: src/features/resume/share/web-page-text.ts
-msgid "Go to Reactive Resume"
-msgstr "前往 Reactive Resume"
+msgid "Go to Lebenslauf2"
+msgstr "前往 Lebenslauf2"
 
 #: src/features/command-palette/pages/navigation.tsx
 msgid "Go to…"
@@ -7557,8 +7552,8 @@ msgid "Goes live at {0} when you publish."
 msgstr "發布後將在 {0} 上線。"
 
 #: src/features/resume/share/download-tab.tsx
-msgid "Good luck out there. Reactive Resume stays free because people chip in."
-msgstr "祝你好運。 Reactive Resume 保持免費，因為有人捐款。"
+msgid "Good luck out there. Lebenslauf2 stays free because people chip in."
+msgstr "祝你好運。 Lebenslauf2 保持免費，因為有人捐款。"
 
 #. Authentication provider display name in account settings
 #. Brand name label for Google social sign-in button
@@ -7973,8 +7968,8 @@ msgid "If you didn't ask for this, you can ignore this email."
 msgstr "如果這不是您提出的要求，可以忽略這封電子郵件。"
 
 #: src/features/auth/pages/verify-2fa.tsx
-msgid "If you never verified your email address, a password reset turns two-step verification off. Otherwise a reset keeps it on, so ask the person who runs this Reactive Resume server to turn it off for your account. Then sign in with your password and turn it on again with a new authenticator."
-msgstr "如果您從未驗證過電子郵件地址，重設密碼會關閉兩步驟驗證。否則重設後仍會保持開啟，請聯絡管理此 Reactive Resume 伺服器的人員為您的帳戶關閉。接著使用密碼登入，再以新的驗證器應用程式重新開啟。"
+msgid "If you never verified your email address, a password reset turns two-step verification off. Otherwise a reset keeps it on, so ask the person who runs this Lebenslauf2 server to turn it off for your account. Then sign in with your password and turn it on again with a new authenticator."
+msgstr "如果您從未驗證過電子郵件地址，重設密碼會關閉兩步驟驗證。否則重設後仍會保持開啟，請聯絡管理此 Lebenslauf2 伺服器的人員為您的帳戶關閉。接著使用密碼登入，再以新的驗證器應用程式重新開啟。"
 
 #: src/features/resume/editor/check/check-panel.tsx
 msgid "Ignore"
@@ -8036,12 +8031,12 @@ msgid "Import the one you have, or start blank."
 msgstr "匯入您現有的文件，或從空白開始。"
 
 #: src/features/ats-checker/checker.tsx
-msgid "Import this file into a free Reactive Resume to keep editing it, with Check reading it as you go."
-msgstr "將此檔案匯入免費的 Reactive Resume 以繼續編輯，「檢查」會在您編輯時同步讀取。"
+msgid "Import this file into a free Lebenslauf2 to keep editing it, with Check reading it as you go."
+msgstr "將此檔案匯入免費的 Lebenslauf2 以繼續編輯，「檢查」會在您編輯時同步讀取。"
 
 #: src/features/ats-checker/checker.tsx
-msgid "Import this file into a free Reactive Resume, then keep checking it in Check as you edit. Check reads the resume you're editing, so its findings can differ from this file's."
-msgstr "將此檔案匯入免費的 Reactive Resume，然後在編輯時持續於「檢查」中檢查。「檢查」讀取的是您正在編輯的履歷，因此結果可能與此檔案不同。"
+msgid "Import this file into a free Lebenslauf2, then keep checking it in Check as you edit. Check reads the resume you're editing, so its findings can differ from this file's."
+msgstr "將此檔案匯入免費的 Lebenslauf2，然後在編輯時持續於「檢查」中檢查。「檢查」讀取的是您正在編輯的履歷，因此結果可能與此檔案不同。"
 
 #: src/features/career/workspace/application-packet.tsx
 msgid "Import this file into the browser helper, review the destination and fill report. Unsupported forms use exact PDF downloads and copyable answers below. Native browser integration requires its own verified build."
@@ -8262,8 +8257,8 @@ msgid "Is equity part of the offer?"
 msgstr "錄取條件中包含股權嗎？"
 
 #: src/features/homepage/faq.tsx
-msgid "Is Reactive Resume really free?"
-msgstr "Reactive Resume真的免費嗎？"
+msgid "Is Lebenslauf2 really free?"
+msgstr "Lebenslauf2真的免費嗎？"
 
 #: src/features/career/offers.tsx
 msgid "Is there a bonus, and what does it depend on?"
@@ -8780,6 +8775,11 @@ msgstr "最新"
 msgid "Latvian"
 msgstr "拉脫維亞語"
 
+#: src/features/homepage/check.tsx
+#: src/features/homepage/sheet.tsx
+msgid "Laura Beier"
+msgstr ""
+
 #: src/features/ats-checker/messages.ts
 msgid "Lay the text out horizontally. Rotated runs are often dropped or misplaced."
 msgstr "將文字水平排列。旋轉的文字段落常常會遺失或錯位。"
@@ -8848,6 +8848,15 @@ msgstr "留空則使用原始標題。"
 #: src/features/applications/components/import-applications-sheet.tsx
 msgid "Leave out"
 msgstr "省略"
+
+#: src/features/settings/root.tsx
+#: src/routes/dashboard/settings/route.tsx
+msgid "Lebenslauf2 {__APP_VERSION__} · MIT"
+msgstr "Lebenslauf2 {__APP_VERSION__} · MIT"
+
+#: src/features/homepage/sections.tsx
+msgid "Lebenslauf2 is open source under the MIT License. Amruth Pillai and a community of contributors keep it running, and donations pay for hosting and development. There’s no paid tier."
+msgstr "Lebenslauf2 以 MIT 授權開源。Amruth Pillai 和貢獻者社群維持它的運作，捐款用於支付託管和開發費用。沒有付費方案。"
 
 #: src/features/homepage/sheet.tsx
 msgid "Led <0>user research</0> for the onboarding redesign; activation rose from 31% to 44%."
@@ -9047,12 +9056,12 @@ msgid "Link a fact to practice this story"
 msgstr "連結一項事實以練習此故事"
 
 #: src/features/applications/components/application-form-sheet.tsx
-msgid "Link a Reactive Resume (recommended)"
-msgstr "連結 Reactive Resume（建議）"
+msgid "Link a Lebenslauf2 (recommended)"
+msgstr "連結 Lebenslauf2（建議）"
 
 #: src/features/applications/components/application-form-sheet.tsx
-msgid "Link a Reactive Resume to use a fit check against each requirement and tailoring."
-msgstr "連結一份 Reactive Resume 履歷，即可逐項檢查各項要求的契合度並調整履歷。"
+msgid "Link a Lebenslauf2 to use a fit check against each requirement and tailoring."
+msgstr "連結一份 Lebenslauf2 履歷，即可逐項檢查各項要求的契合度並調整履歷。"
 
 #: src/features/resume/editor/write/basics-card.tsx
 #: src/features/resume/editor/write/rich-text-editor-field.tsx
@@ -9399,8 +9408,8 @@ msgid "Lower the design sheet"
 msgstr "降低設計表"
 
 #: src/features/resume/share/web-page-text.ts
-msgid "Made with Reactive Resume, free and open source"
-msgstr "使用Reactive Resume製作，免費開源"
+msgid "Made with Lebenslauf2, free and open source"
+msgstr "使用Lebenslauf2製作，免費開源"
 
 #. Layout editor column label for the primary content area
 #: src/routes/builder/$resumeId/-sidebar/right/sections/layout/pages.tsx
@@ -10574,7 +10583,7 @@ msgstr "未找到工作經歷部分。"
 msgid "No. {number} · {name}"
 msgstr "編號：{number}·{name}"
 
-#. Receipt line amount for something Reactive Resume doesn't have, e.g. ads.
+#. Receipt line amount for something Lebenslauf2 doesn't have, e.g. ads.
 #: src/features/assistant/tool-approvals.tsx
 #: src/features/homepage/sections.tsx
 msgid "none"
@@ -11203,13 +11212,13 @@ msgstr "開啟故事"
 msgid "Open the exported file and confirm you can select and copy every part of it."
 msgstr "開啟匯出的檔案，確認您可以選取並複製其中的每一部分。"
 
+#: src/routes/auth/native-callback.tsx
+msgid "Open the Lebenslauf2 app"
+msgstr "開啟Lebenslauf2應用程式"
+
 #: src/features/applications/components/detail/sent-documents.tsx
 msgid "Open the letter version sent"
 msgstr "開啟已傳送的求職信版本"
-
-#: src/routes/auth/native-callback.tsx
-msgid "Open the Reactive Resume app"
-msgstr "開啟Reactive Resume應用程式"
 
 #: src/features/applications/components/detail/sent-documents.tsx
 msgid "Open the resume version sent"
@@ -11682,8 +11691,8 @@ msgid "PDF styles support a subset of CSS. Rotation, dashed and dotted borders, 
 msgstr "PDF 樣式支援 CSS 的子集。旋轉、虛線和點線邊框以及某些佈局屬性將被忽略。"
 
 #: src/features/homepage/faq.tsx
-msgid "PDF, Word (DOCX), Markdown and JSON. The JSON export imports back into any Reactive Resume, including one you host yourself, so your data is never locked in."
-msgstr "PDF, Word （DOCX), Markdown 和 JSON。這 JSON 出口進口回到任何 Reactive Resume，包括您自己託管的數據，因此您的數據永遠不會被鎖定。"
+msgid "PDF, Word (DOCX), Markdown and JSON. The JSON export imports back into any Lebenslauf2, including one you host yourself, so your data is never locked in."
+msgstr "PDF, Word （DOCX), Markdown 和 JSON。這 JSON 出口進口回到任何 Lebenslauf2，包括您自己託管的數據，因此您的數據永遠不會被鎖定。"
 
 #: src/features/documents/documents-page.tsx
 msgid "PDF, Word or JSON. We'll build a resume from it."
@@ -12449,15 +12458,6 @@ msgstr "重新匯出並嵌入字體，然後開啟檔案檢查文字複製出來
 #: src/features/homepage/prepare.tsx
 msgid "Re: Senior Product Designer"
 msgstr "Re: 高級產品設計師"
-
-#: src/features/settings/root.tsx
-#: src/routes/dashboard/settings/route.tsx
-msgid "Reactive Resume {__APP_VERSION__} · MIT"
-msgstr "Reactive Resume {__APP_VERSION__} · MIT"
-
-#: src/features/homepage/sections.tsx
-msgid "Reactive Resume is open source under the MIT License. Amruth Pillai and a community of contributors keep it running, and donations pay for hosting and development. There’s no paid tier."
-msgstr "Reactive Resume 以 MIT 授權開源。Amruth Pillai 和貢獻者社群維持它的運作，捐款用於支付託管和開發費用。沒有付費方案。"
 
 #: src/features/applications/components/add-application-dialog.tsx
 #: src/features/applications/components/application-detail-sheet.tsx
@@ -13233,7 +13233,7 @@ msgstr "重設設計預設值"
 msgid "Reset password"
 msgstr "重設密碼"
 
-#. Email preview text. appName: Reactive Resume
+#. Email preview text. appName: Lebenslauf2
 #: src/features/auth/email-text.ts
 msgid "Reset your {appName} password"
 msgstr "重設您的 {appName} 密碼"
@@ -14694,8 +14694,8 @@ msgid "Show"
 msgstr "顯示"
 
 #: src/features/resume/share/share-panel.tsx
-msgid "Show “Made with Reactive Resume”"
-msgstr "顯示「使用 Reactive Resume 製作」"
+msgid "Show “Made with Lebenslauf2”"
+msgstr "顯示「使用 Lebenslauf2 製作」"
 
 #. placeholder {0}: i18n.number(Math.min(remaining, COLUMN_PAGE_SIZE))
 #. placeholder {0}: i18n.number(visible.length - shown.length)
@@ -15136,7 +15136,7 @@ msgstr "有些文字被旋轉了。"
 msgid "Some uploaded files were skipped. Check upload-manifest.json in the archive."
 msgstr "部分上傳的檔案已略過。請查看壓縮檔中的 upload-manifest.json。"
 
-#. Email change approval. appName: Reactive Resume; previousEmail and newEmail are email addresses
+#. Email change approval. appName: Lebenslauf2; previousEmail and newEmail are email addresses
 #: src/features/auth/email-text.ts
 msgid "Someone asked to change your {appName} email from {previousEmail} to {newEmail}."
 msgstr "有人要求將您的 {appName} 電子郵件從 {previousEmail} 變更為 {newEmail}。"
@@ -15288,8 +15288,8 @@ msgid "Standard section headings"
 msgstr "標準章節標題"
 
 #: src/features/homepage/header.tsx
-msgid "Star Reactive Resume on GitHub"
-msgstr "GitHub 上的明星 Reactive Resume"
+msgid "Star Lebenslauf2 on GitHub"
+msgstr "GitHub 上的明星 Lebenslauf2"
 
 #: src/features/homepage/sections.tsx
 msgid "Stars on GitHub"
@@ -16601,8 +16601,8 @@ msgid "This file isn't a readable image. Choose a PNG, JPEG, WebP or GIF photo."
 msgstr "此檔案不是可讀取的圖片。請選擇 PNG、JPEG、WebP 或 GIF 相片。"
 
 #: src/features/documents/new-document-dialog.tsx
-msgid "This file type can't be imported. Use a PDF, Word, Reactive Resume or JSON Resume file, or a LinkedIn export (.zip)."
-msgstr "無法匯入此文件類型。使用 PDF、Word、Reactive Resume 或 JSON Resume 文件，或 LinkedIn 匯出 (.zip)。"
+msgid "This file type can't be imported. Use a PDF, Word, Lebenslauf2 or JSON Resume file, or a LinkedIn export (.zip)."
+msgstr "無法匯入此文件類型。使用 PDF、Word、Lebenslauf2 或 JSON Resume 文件，或 LinkedIn 匯出 (.zip)。"
 
 #: src/features/ats-checker/messages.ts
 msgid "This file uses a lot of different fonts."
@@ -16638,8 +16638,8 @@ msgid "This is not a common resume page size."
 msgstr "這不是履歷常用的頁面尺寸。"
 
 #: src/features/documents/new-document-dialog.tsx
-msgid "This JSON isn't a Reactive Resume or JSON Resume file."
-msgstr "此 JSON 不是 Reactive Resume 或 JSON Resume 檔案。"
+msgid "This JSON isn't a Lebenslauf2 or JSON Resume file."
+msgstr "此 JSON 不是 Lebenslauf2 或 JSON Resume 檔案。"
 
 #: src/routes/builder/letter/-components/download-sheet.tsx
 msgid "This letter and “{resumeName}” as two PDFs, named to match."
@@ -17848,7 +17848,7 @@ msgstr "使用備份代碼驗證"
 msgid "Verify your email"
 msgstr "驗證您的電子郵件"
 
-#. Email preview text. appName: Reactive Resume
+#. Email preview text. appName: Lebenslauf2
 #: src/features/auth/email-text.ts
 msgid "Verify your email for {appName}"
 msgstr "驗證您用於 {appName} 的電子郵件"
@@ -18015,7 +18015,7 @@ msgstr "原本：{0}"
 msgid "WCAG 2.1 AA"
 msgstr "WCAG 2.1 AA"
 
-#. Password reset email. appName: Reactive Resume
+#. Password reset email. appName: Lebenslauf2
 #: src/features/auth/email-text.ts
 msgid "We received a request to reset your {appName} password."
 msgstr "我們收到了重設您 {appName} 密碼的請求。"
@@ -18592,12 +18592,12 @@ msgid "Yes. Every job you track gets its own workspace: check your fit against t
 msgstr "可以。您追蹤的每個職缺都有自己的工作區：對照職缺公告檢查契合度，用寫過一次的故事擬定回答，在面試前取得簡短計畫，大聲練習並獲得回饋，事後進行回顧。收到錄取通知時，可以並排比較。輔導使用您自己的 AI 金鑰；比較功能則不需要。"
 
 #: src/features/homepage/faq.tsx
-msgid "Yes. Import a PDF, a LinkedIn data export, a JSON Resume file or a Reactive Resume export, then pick up where it left off. With an AI provider set up, Word documents work too."
-msgstr "是的。匯入 PDF、LinkedIn 資料匯出、JSON Resume 檔案或 Reactive Resume 匯出，然後從中斷繼續。設定 AI 提供者後，Word 文件也可以運作。"
+msgid "Yes. Import a PDF, a LinkedIn data export, a JSON Resume file or a Lebenslauf2 export, then pick up where it left off. With an AI provider set up, Word documents work too."
+msgstr "是的。匯入 PDF、LinkedIn 資料匯出、JSON Resume 檔案或 Lebenslauf2 匯出，然後從中斷繼續。設定 AI 提供者後，Word 文件也可以運作。"
 
 #: src/features/homepage/faq.tsx
-msgid "Yes. Reactive Resume is open source under the MIT License and ships as a Docker image, so it runs on your own server with your own database and storage."
-msgstr "是的。 Reactive Resume 在 MIT License 下開源，並作為 Docker 映像提供，因此它可以在您自己的伺服器上運行，並具有您自己的資料庫和儲存。"
+msgid "Yes. Lebenslauf2 is open source under the MIT License and ships as a Docker image, so it runs on your own server with your own database and storage."
+msgstr "是的。 Lebenslauf2 在 MIT License 下開源，並作為 Docker 映像提供，因此它可以在您自己的伺服器上運行，並具有您自己的資料庫和儲存。"
 
 #: src/features/career/coach-thread.tsx
 msgid "Yesterday"

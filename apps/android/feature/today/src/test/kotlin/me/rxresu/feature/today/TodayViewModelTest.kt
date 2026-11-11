@@ -31,7 +31,7 @@ class TodayViewModelTest {
         val state = vm.state.first { it.needsYou.isNotEmpty() && it.initials.isNotEmpty() }
         val briefing = state.needsYou.first()
         assertEquals(TodayKind.Briefing, briefing.item.kind)
-        assertEquals("Senior product designer", briefing.role)
+        assertEquals("Fachärztin für Psychiatrie und Psychotherapie", briefing.role)
         assertEquals(StoryboardIds.interview, briefing.interview?.id)
         assertEquals("AM", state.initials)
         assertFalse(state.newAccount)
@@ -76,7 +76,7 @@ class TodayViewModelTest {
     }
 
     @Test fun initials() {
-        assertEquals("AM", TodayViewModel.initials("Alex Morgan"))
+        assertEquals("AM", TodayViewModel.initials("Laura Beier"))
         assertEquals("AR", TodayViewModel.initials(" Ana Maria  Rosa "))
         assertEquals("P", TodayViewModel.initials("Priya"))
         assertEquals("", TodayViewModel.initials(""))

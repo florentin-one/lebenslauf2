@@ -5,9 +5,9 @@
     <!-- Arguments: %1$s = {answer} -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="a_answer" tools:ignore="MissingTranslation">"A: %1$s"</string>
-    <!-- A backup of this letter. Imports back into Reactive Resume as a letter. -->
+    <!-- A backup of this letter. Imports back into Lebenslauf2 as a letter. -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
-    <string name="a_backup_of_this_letter_imports_back_into_reactive_resume_as_a_letter" formatted="false" tools:ignore="MissingTranslation">"A backup of this letter. Imports back into Reactive Resume as a letter."</string>
+    <string name="a_backup_of_this_letter_imports_back_into_lebenslauf2_as_a_letter" formatted="false" tools:ignore="MissingTranslation">"A backup of this letter. Imports back into Lebenslauf2 as a letter."</string>
     <!-- A city and country let roles be matched to where you are. -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="a_city_and_country_let_roles_be_matched_to_where_you_are" formatted="false" tools:ignore="MissingTranslation">"A city and country let roles be matched to where you are."</string>
@@ -543,9 +543,6 @@
     <!-- AI providers couldn't be loaded. Retry or fill the details manually. -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="ai_providers_couldn_t_be_loaded_retry_or_fill_the_details_manually" formatted="false" tools:ignore="MissingTranslation">"AI providers couldn\'t be loaded. Retry or fill the details manually."</string>
-    <!-- AI reads pasted text only when you ask. Links can use the page’s own job data without AI. -->
-    <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
-    <string name="ai_reads_pasted_text_only_when_you_ask_links_can_use_the_pages_own_job_data_without_ai" formatted="false" tools:ignore="MissingTranslation">"AI reads pasted text only when you ask. Links can use the page’s own job data without AI."</string>
     <!-- AI request attempts: {0} -->
     <!-- Arguments: %1$s = {0} -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
@@ -556,9 +553,6 @@
     <!-- AI settings -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="ai_settings" formatted="false" tools:ignore="MissingTranslation">"AI settings"</string>
-    <!-- AI suggestions, not verified qualifications or hiring predictions. Sources below are your statements. -->
-    <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
-    <string name="ai_suggestions_not_verified_qualifications_or_hiring_predictions_sources_below_are_your_statements" formatted="false" tools:ignore="MissingTranslation">"AI suggestions, not verified qualifications or hiring predictions. Sources below are your statements."</string>
     <!-- AI usage couldn't be loaded. Try refreshing. Older servers may need an update. -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="ai_usage_couldn_t_be_loaded_try_refreshing_older_servers_may_need_an_update" formatted="false" tools:ignore="MissingTranslation">"AI usage couldn\'t be loaded. Try refreshing. Older servers may need an update."</string>
@@ -648,9 +642,6 @@
     <!-- Amharic -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="amharic" formatted="false" tools:ignore="MissingTranslation">"Amharic"</string>
-    <!-- An AI reading to help you edit, not a prediction of how an employer or screening system will respond. -->
-    <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
-    <string name="an_ai_reading_to_help_you_edit_not_a_prediction_of_how_an_employer_or_screening_system_will_respond" formatted="false" tools:ignore="MissingTranslation">"An AI reading to help you edit, not a prediction of how an employer or screening system will respond."</string>
     <!-- An edit addresses it -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="an_edit_addresses_it" formatted="false" tools:ignore="MissingTranslation">"An edit addresses it"</string>
@@ -936,10 +927,9 @@
     <!-- Assistant conversations -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="assistant_conversations" formatted="false" tools:ignore="MissingTranslation">"Assistant conversations"</string>
-    <!-- {at} · {providerLabel}. Sends this application and your Knowledge; your provider may charge. -->
+    <!-- {at} · {providerLabel} -->
     <!-- Arguments: %1$s = {at}, %2$s = {providerLabel} -->
-    <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
-    <string name="at_providerlabel_sends_this_application_and_your_knowledge_your_provider_may_charge" tools:ignore="MissingTranslation">"%1$s · %2$s. Sends this application and your Knowledge; your provider may charge."</string>
+    <string name="at_providerlabel">"%1$s · %2$s"</string>
     <!-- ATS checker -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="ats_checker" formatted="false" tools:ignore="MissingTranslation">"ATS checker"</string>
@@ -1655,9 +1645,9 @@
     <!-- Arguments: %1$s = {0} -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="complete_0_before_saving" tools:ignore="MissingTranslation">"Complete %1$s before saving."</string>
-    <!-- Complete data backup. Imports back into Reactive Resume. -->
+    <!-- Complete data backup. Imports back into Lebenslauf2. -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
-    <string name="complete_data_backup_imports_back_into_reactive_resume" formatted="false" tools:ignore="MissingTranslation">"Complete data backup. Imports back into Reactive Resume."</string>
+    <string name="complete_data_backup_imports_back_into_lebenslauf2" formatted="false" tools:ignore="MissingTranslation">"Complete data backup. Imports back into Lebenslauf2."</string>
     <!-- Complete the employer form manually in your browser using reviewed answers and approved PDFs. -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="complete_the_employer_form_manually_in_your_browser_using_reviewed_answers_and_approved_pdfs" formatted="false" tools:ignore="MissingTranslation">"Complete the employer form manually in your browser using reviewed answers and approved PDFs."</string>
@@ -2109,9 +2099,9 @@
     <!-- Arguments: %1$s = {0} -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="couldn_t_propose_these_edits_0" tools:ignore="MissingTranslation">"Couldn\'t propose these edits: %1$s"</string>
-    <!-- Couldn't reach Reactive Resume. Check your internet connection, then try again. -->
+    <!-- Couldn't reach Lebenslauf2. Check your internet connection, then try again. -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
-    <string name="couldn_t_reach_reactive_resume_check_your_internet_connection_then_try_again" formatted="false" tools:ignore="MissingTranslation">"Couldn\'t reach Reactive Resume. Check your internet connection, then try again."</string>
+    <string name="couldn_t_reach_lebenslauf2_check_your_internet_connection_then_try_again" formatted="false" tools:ignore="MissingTranslation">"Couldn\'t reach Lebenslauf2. Check your internet connection, then try again."</string>
     <!-- Couldn't reach your AI provider. Try again or check its key in AI settings. -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="couldn_t_reach_your_ai_provider_try_again_or_check_its_key_in_ai_settings" formatted="false" tools:ignore="MissingTranslation">"Couldn\'t reach your AI provider. Try again or check its key in AI settings."</string>
@@ -2997,9 +2987,6 @@
     <!-- Earlier messages and attachments in this conversation will be sent to this destination when you send again. -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="earlier_messages_and_attachments_in_this_conversation_will_be_sent_to_this_destination_when_you_send" formatted="false" tools:ignore="MissingTranslation">"Earlier messages and attachments in this conversation will be sent to this destination when you send again."</string>
-    <!-- earlier messages in this chat -->
-    <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
-    <string name="earlier_messages_in_this_chat" formatted="false" tools:ignore="MissingTranslation">"earlier messages in this chat"</string>
     <!-- Edit -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="edit" formatted="false" tools:ignore="MissingTranslation">"Edit"</string>
@@ -3032,9 +3019,9 @@
     <!-- Edit interview -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="edit_interview" formatted="false" tools:ignore="MissingTranslation">"Edit interview"</string>
-    <!-- Edit it in Reactive Resume -->
+    <!-- Edit it in Lebenslauf2 -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
-    <string name="edit_it_in_reactive_resume" formatted="false" tools:ignore="MissingTranslation">"Edit it in Reactive Resume"</string>
+    <string name="edit_it_in_lebenslauf2" formatted="false" tools:ignore="MissingTranslation">"Edit it in Lebenslauf2"</string>
     <!-- Edit link -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="edit_link" formatted="false" tools:ignore="MissingTranslation">"Edit link"</string>
@@ -3134,9 +3121,6 @@
     <!-- Empty Trash? -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="empty_trash_ab0a72a70c" formatted="false" tools:ignore="MissingTranslation">"Empty Trash?"</string>
-    <!-- enabled Knowledge -->
-    <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
-    <string name="enabled_knowledge" formatted="false" tools:ignore="MissingTranslation">"enabled Knowledge"</string>
     <!-- End -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="end" formatted="false" tools:ignore="MissingTranslation">"End"</string>
@@ -3205,9 +3189,9 @@
     <!-- Enter terms yourself. No AI request is made. Leave unknown amounts blank. -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="enter_terms_yourself_no_ai_request_is_made_leave_unknown_amounts_blank" formatted="false" tools:ignore="MissingTranslation">"Enter terms yourself. No AI request is made. Leave unknown amounts blank."</string>
-    <!-- Enter the address you open Reactive Resume at in a browser. The app checks it's a Reactive Resume server that allows app sign-in before you continue. -->
+    <!-- Enter the address you open Lebenslauf2 at in a browser. The app checks it's a Lebenslauf2 server that allows app sign-in before you continue. -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
-    <string name="enter_the_address_you_open_reactive_resume_at_in_a_browser_the_app_checks_it_s_a_reactive_resume_ser" formatted="false" tools:ignore="MissingTranslation">"Enter the address you open Reactive Resume at in a browser. The app checks it\'s a Reactive Resume server that allows app sign-in before you continue."</string>
+    <string name="enter_the_address_you_open_lebenslauf2_at_in_a_browser_the_app_checks_it_s_a_lebenslauf2_server_that" formatted="false" tools:ignore="MissingTranslation">"Enter the address you open Lebenslauf2 at in a browser. The app checks it\'s a Lebenslauf2 server that allows app sign-in before you continue."</string>
     <!-- Enter the API base URL of your service and test again. -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="enter_the_api_base_url_of_your_service_and_test_again" formatted="false" tools:ignore="MissingTranslation">"Enter the API base URL of your service and test again."</string>
@@ -3591,13 +3575,13 @@
     <!-- Arguments: %1$s = {0}, %2$s = {1} -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="found_for_0_posting_checked_1" tools:ignore="MissingTranslation">"Found for “%1$s”. Posting checked %2$s."</string>
-    <!-- Found posting links are read by Reactive Resume and the sites being read. -->
+    <!-- Found posting links are read by Lebenslauf2 and the sites being read. -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
-    <string name="found_posting_links_are_read_by_reactive_resume_and_the_sites_being_read" formatted="false" tools:ignore="MissingTranslation">"Found posting links are read by Reactive Resume and the sites being read."</string>
-    <!-- Found posting links are read by Reactive Resume and, when needed, {reader} and the sites being read. The reader may charge. -->
+    <string name="found_posting_links_are_read_by_lebenslauf2_and_the_sites_being_read" formatted="false" tools:ignore="MissingTranslation">"Found posting links are read by Lebenslauf2 and the sites being read."</string>
+    <!-- Found posting links are read by Lebenslauf2 and, when needed, {reader} and the sites being read. The reader may charge. -->
     <!-- Arguments: %1$s = {reader} -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
-    <string name="found_posting_links_are_read_by_reactive_resume_and_when_needed_reader_and_the_sites_being_read_the" tools:ignore="MissingTranslation">"Found posting links are read by Reactive Resume and, when needed, %1$s and the sites being read. The reader may charge."</string>
+    <string name="found_posting_links_are_read_by_lebenslauf2_and_when_needed_reader_and_the_sites_being_read_the_read" tools:ignore="MissingTranslation">"Found posting links are read by Lebenslauf2 and, when needed, %1$s and the sites being read. The reader may charge."</string>
     <!-- Free-form -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="free_form" formatted="false" tools:ignore="MissingTranslation">"Free-form"</string>
@@ -4160,9 +4144,6 @@
     <!-- Arguments: %1$s = {summary} -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="its_own_design_summary" tools:ignore="MissingTranslation">"Its own design (%1$s)."</string>
-    <!-- its requirements -->
-    <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
-    <string name="its_requirements" formatted="false" tools:ignore="MissingTranslation">"its requirements"</string>
     <!-- Its saved key is deleted. Conversations using it need another provider. -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="its_saved_key_is_deleted_conversations_using_it_need_another_provider" formatted="false" tools:ignore="MissingTranslation">"Its saved key is deleted. Conversations using it need another provider."</string>
@@ -4446,6 +4427,9 @@
     <!-- Leave without keeping the draft? -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="leave_without_keeping_the_draft" formatted="false" tools:ignore="MissingTranslation">"Leave without keeping the draft?"</string>
+    <!-- Lebenslauf2 -->
+    <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
+    <string name="lebenslauf2" formatted="false" tools:ignore="MissingTranslation">"Lebenslauf2"</string>
     <!-- Left -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="left" formatted="false" tools:ignore="MissingTranslation">"Left"</string>
@@ -4823,9 +4807,6 @@
     <!-- Managed by your server -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="managed_by_your_server" formatted="false" tools:ignore="MissingTranslation">"Managed by your server"</string>
-    <!-- Manual roles and preferences work without AI. Suggestions never search or schedule anything. -->
-    <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
-    <string name="manual_roles_and_preferences_work_without_ai_suggestions_never_search_or_schedule_anything" formatted="false" tools:ignore="MissingTranslation">"Manual roles and preferences work without AI. Suggestions never search or schedule anything."</string>
     <!-- Many bullets start with the same phrase. -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="many_bullets_start_with_the_same_phrase" formatted="false" tools:ignore="MissingTranslation">"Many bullets start with the same phrase."</string>
@@ -5120,13 +5101,6 @@
     <plurals name="message_0_plural_one_1_of_posting_term_covered_other_2_of_posting_terms_covered" tools:ignore="MissingTranslation">
         <item quantity="one">"%2$s of %1$s posting term covered"</item>
         <item quantity="other">"%3$s of %1$s posting terms covered"</item>
-    </plurals>
-    <!-- {0, plural, one {Also sends {1}.} other {Also sends # files: {2}.}} -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1}, %3$s = {2} -->
-    <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
-    <plurals name="message_0_plural_one_also_sends_1_other_also_sends_files_2" tools:ignore="MissingTranslation">
-        <item quantity="one">"Also sends %2$s."</item>
-        <item quantity="other">"Also sends %1$s files: %3$s."</item>
     </plurals>
     <!-- {0, plural, one {# answer} other {# answers}} -->
     <!-- Arguments: %1$s = {0} -->
@@ -5636,9 +5610,6 @@
     <!-- Messages -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="messages" formatted="false" tools:ignore="MissingTranslation">"Messages"</string>
-    <!-- Messages from before Knowledge changed aren't sent. -->
-    <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
-    <string name="messages_from_before_knowledge_changed_aren_t_sent" formatted="false" tools:ignore="MissingTranslation">"Messages from before Knowledge changed aren\'t sent."</string>
     <!-- Messages from before Knowledge changed aren't sent to the AI anymore, so it won't remember them. Start a new conversation to keep context together. -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="messages_from_before_knowledge_changed_aren_t_sent_to_the_ai_anymore_so_it_won_t_remember_them_start" formatted="false" tools:ignore="MissingTranslation">"Messages from before Knowledge changed aren\'t sent to the AI anymore, so it won\'t remember them. Start a new conversation to keep context together."</string>
@@ -6121,6 +6092,9 @@
     <!-- No language matches. -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="no_language_matches" formatted="false" tools:ignore="MissingTranslation">"No language matches."</string>
+    <!-- No Lebenslauf2 server answered at this address. Check the spelling, or ask your administrator whether the server allows app sign-in. -->
+    <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
+    <string name="no_lebenslauf2_server_answered_at_this_address_check_the_spelling_or_ask_your_administrator_whether" formatted="false" tools:ignore="MissingTranslation">"No Lebenslauf2 server answered at this address. Check the spelling, or ask your administrator whether the server allows app sign-in."</string>
     <!-- No lines look like a job title paired with an employer. -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="no_lines_look_like_a_job_title_paired_with_an_employer" formatted="false" tools:ignore="MissingTranslation">"No lines look like a job title paired with an employer."</string>
@@ -6168,9 +6142,6 @@
     <!-- No postings found. Try different keywords. -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="no_postings_found_try_different_keywords" formatted="false" tools:ignore="MissingTranslation">"No postings found. Try different keywords."</string>
-    <!-- No Reactive Resume server answered at this address. Check the spelling, or ask your administrator whether the server allows app sign-in. -->
-    <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
-    <string name="no_reactive_resume_server_answered_at_this_address_check_the_spelling_or_ask_your_administrator_whet" formatted="false" tools:ignore="MissingTranslation">"No Reactive Resume server answered at this address. Check the spelling, or ask your administrator whether the server allows app sign-in."</string>
     <!-- No recognizable terms in this posting. -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="no_recognizable_terms_in_this_posting" formatted="false" tools:ignore="MissingTranslation">"No recognizable terms in this posting."</string>
@@ -6352,9 +6323,6 @@
     <!-- Nothing is applied for or created until you choose. -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="nothing_is_applied_for_or_created_until_you_choose" formatted="false" tools:ignore="MissingTranslation">"Nothing is applied for or created until you choose."</string>
-    <!-- Nothing is sent until you choose a connection for this conversation. -->
-    <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
-    <string name="nothing_is_sent_until_you_choose_a_connection_for_this_conversation" formatted="false" tools:ignore="MissingTranslation">"Nothing is sent until you choose a connection for this conversation."</string>
     <!-- Nothing marks a role as ongoing. -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="nothing_marks_a_role_as_ongoing" formatted="false" tools:ignore="MissingTranslation">"Nothing marks a role as ongoing."</string>
@@ -6464,9 +6432,9 @@
     <!-- On. Anyone with the link can see your web page. -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="on_anyone_with_the_link_can_see_your_web_page" formatted="false" tools:ignore="MissingTranslation">"On. Anyone with the link can see your web page."</string>
-    <!-- On iOS, choose Keep for review, then reopen app in the Share extension. Reopen Reactive Resume yourself within 15 minutes. Sign in here before sharing. -->
+    <!-- On iOS, choose Keep for review, then reopen app in the Share extension. Reopen Lebenslauf2 yourself within 15 minutes. Sign in here before sharing. -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
-    <string name="on_ios_choose_keep_for_review_then_reopen_app_in_the_share_extension_reopen_reactive_resume_yourself" formatted="false" tools:ignore="MissingTranslation">"On iOS, choose Keep for review, then reopen app in the Share extension. Reopen Reactive Resume yourself within 15 minutes. Sign in here before sharing."</string>
+    <string name="on_ios_choose_keep_for_review_then_reopen_app_in_the_share_extension_reopen_lebenslauf2_yourself_wit" formatted="false" tools:ignore="MissingTranslation">"On iOS, choose Keep for review, then reopen app in the Share extension. Reopen Lebenslauf2 yourself within 15 minutes. Sign in here before sharing."</string>
     <!-- On. Visitors need the link and password to see your web page. -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="on_visitors_need_the_link_and_password_to_see_your_web_page" formatted="false" tools:ignore="MissingTranslation">"On. Visitors need the link and password to see your web page."</string>
@@ -6846,18 +6814,18 @@
     <!-- PDF import -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="pdf_import" formatted="false" tools:ignore="MissingTranslation">"PDF import"</string>
-    <!-- PDF only · up to 10 MB each. Linking a Reactive Resume enables a fit check against each requirement and tailoring. -->
+    <!-- PDF only · up to 10 MB each. Linking a Lebenslauf2 enables a fit check against each requirement and tailoring. -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
-    <string name="pdf_only_up_to_10_mb_each_linking_a_reactive_resume_enables_a_fit_check_against_each_requirement_and" formatted="false" tools:ignore="MissingTranslation">"PDF only · up to 10 MB each. Linking a Reactive Resume enables a fit check against each requirement and tailoring."</string>
-    <!-- PDF reads its text layer on your server by default, without AI. Turn on the AI switch to send it to your provider. Word (.docx) needs an AI provider. Current and v4 Reactive Resume JSON, cover letters, JSON Resume and LinkedIn exports (.zip) are supported. Up to 10 MB. -->
+    <string name="pdf_only_up_to_10_mb_each_linking_a_lebenslauf2_enables_a_fit_check_against_each_requirement_and_tai" formatted="false" tools:ignore="MissingTranslation">"PDF only · up to 10 MB each. Linking a Lebenslauf2 enables a fit check against each requirement and tailoring."</string>
+    <!-- PDF reads its text layer on your server by default, without AI. Turn on the AI switch to send it to your provider. Word (.docx) needs an AI provider. Current and v4 Lebenslauf2 JSON, cover letters, JSON Resume and LinkedIn exports (.zip) are supported. Up to 10 MB. -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
-    <string name="pdf_reads_its_text_layer_on_your_server_by_default_without_ai_turn_on_the_ai_switch_to_send_it_to_yo" formatted="false" tools:ignore="MissingTranslation">"PDF reads its text layer on your server by default, without AI. Turn on the AI switch to send it to your provider. Word (.docx) needs an AI provider. Current and v4 Reactive Resume JSON, cover letters, JSON Resume and LinkedIn exports (.zip) are supported. Up to 10 MB."</string>
+    <string name="pdf_reads_its_text_layer_on_your_server_by_default_without_ai_turn_on_the_ai_switch_to_send_it_to_yo" formatted="false" tools:ignore="MissingTranslation">"PDF reads its text layer on your server by default, without AI. Turn on the AI switch to send it to your provider. Word (.docx) needs an AI provider. Current and v4 Lebenslauf2 JSON, cover letters, JSON Resume and LinkedIn exports (.zip) are supported. Up to 10 MB."</string>
     <!-- PDF styles support a subset of CSS. Rotation, dashed and dotted borders, and some layout properties are ignored. -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="pdf_styles_support_a_subset_of_css_rotation_dashed_and_dotted_borders_and_some_layout_properties_are" formatted="false" tools:ignore="MissingTranslation">"PDF styles support a subset of CSS. Rotation, dashed and dotted borders, and some layout properties are ignored."</string>
-    <!-- PDF, Word, Reactive Resume, JSON Resume or LinkedIn export. -->
+    <!-- PDF, Word, Lebenslauf2, JSON Resume or LinkedIn export. -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
-    <string name="pdf_word_reactive_resume_json_resume_or_linkedin_export" formatted="false" tools:ignore="MissingTranslation">"PDF, Word, Reactive Resume, JSON Resume or LinkedIn export."</string>
+    <string name="pdf_word_lebenslauf2_json_resume_or_linkedin_export" formatted="false" tools:ignore="MissingTranslation">"PDF, Word, Lebenslauf2, JSON Resume or LinkedIn export."</string>
     <!-- {pending, plural, one {# proposed edit on this page · nothing changes until you accept} other {# proposed edits on this page · nothing changes until you accept}} -->
     <!-- Arguments: %1$s = {pending} -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
@@ -7025,9 +6993,6 @@
     <!-- Arguments: %1$s = {company} -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="practice_in_company_s_workspace" tools:ignore="MissingTranslation">"Practice in %1$s’s workspace"</string>
-    <!-- Practice priorities, not conclusions about why an employer decided anything. -->
-    <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
-    <string name="practice_priorities_not_conclusions_about_why_an_employer_decided_anything" formatted="false" tools:ignore="MissingTranslation">"Practice priorities, not conclusions about why an employer decided anything."</string>
     <!-- Practice priority: -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="practice_priority" formatted="false" tools:ignore="MissingTranslation">"Practice priority:"</string>
@@ -7330,9 +7295,6 @@
     <!-- Re-export with fonts embedded, then open the file and check that the text copies out cleanly. -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="re_export_with_fonts_embedded_then_open_the_file_and_check_that_the_text_copies_out_cleanly" formatted="false" tools:ignore="MissingTranslation">"Re-export with fonts embedded, then open the file and check that the text copies out cleanly."</string>
-    <!-- Reactive Resume -->
-    <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
-    <string name="reactive_resume" formatted="false" tools:ignore="MissingTranslation">"Reactive Resume"</string>
     <!-- Read briefing -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="read_briefing" formatted="false" tools:ignore="MissingTranslation">"Read briefing"</string>
@@ -8406,9 +8368,6 @@
     <!-- Search saved answers -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="search_saved_answers" formatted="false" tools:ignore="MissingTranslation">"Search saved answers"</string>
-    <!-- Search terms go to your web search service. -->
-    <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
-    <string name="search_terms_go_to_your_web_search_service" formatted="false" tools:ignore="MissingTranslation">"Search terms go to your web search service."</string>
     <!-- Search the web -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="search_the_web" formatted="false" tools:ignore="MissingTranslation">"Search the web"</string>
@@ -8520,67 +8479,9 @@
     <!-- Sending… -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="sending" formatted="false" tools:ignore="MissingTranslation">"Sending…"</string>
-    <!-- Sends {0} to {label}. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {label} -->
-    <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
-    <string name="sends_0_to_label" tools:ignore="MissingTranslation">"Sends %1$s to %2$s."</string>
-    <!-- Sends only your selected resume and up to 20 active shared facts to this connection. No application profile, saved answers or private application facts. Your provider may charge. -->
-    <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
-    <string name="sends_only_your_selected_resume_and_up_to_20_active_shared_facts_to_this_connection_no_application_p" formatted="false" tools:ignore="MissingTranslation">"Sends only your selected resume and up to 20 active shared facts to this connection. No application profile, saved answers or private application facts. Your provider may charge."</string>
-    <!-- Sends the {0} posting to {1} · {2} to draft the body. Your provider may charge. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1}, %3$s = {2} -->
-    <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
-    <string name="sends_the_0_posting_to_1_2_to_draft_the_body_your_provider_may_charge" tools:ignore="MissingTranslation">"Sends the %1$s posting to %2$s · %3$s to draft the body. Your provider may charge."</string>
-    <!-- Sends the posting text to {0} to read it. -->
-    <!-- Arguments: %1$s = {0} -->
-    <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
-    <string name="sends_the_posting_text_to_0_to_read_it" tools:ignore="MissingTranslation">"Sends the posting text to %1$s to read it."</string>
     <!-- Sends this application and enabled Knowledge to this connection. Your provider may charge. Scheduled work never switches to another connection automatically. -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="sends_this_application_and_enabled_knowledge_to_this_connection_your_provider_may_charge_scheduled_w" formatted="false" tools:ignore="MissingTranslation">"Sends this application and enabled Knowledge to this connection. Your provider may charge. Scheduled work never switches to another connection automatically."</string>
-    <!-- Sends this letter's resume and the {0} posting to {1} · {2} to draft the body. Your provider may charge. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1}, %3$s = {2} -->
-    <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
-    <string name="sends_this_letter_s_resume_and_the_0_posting_to_1_2_to_draft_the_body_your_provider_may_charge" tools:ignore="MissingTranslation">"Sends this letter\'s resume and the %1$s posting to %2$s · %3$s to draft the body. Your provider may charge."</string>
-    <!-- Sends this letter's resume to {0} · {1} to draft the body. Your provider may charge. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1} -->
-    <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
-    <string name="sends_this_letter_s_resume_to_0_1_to_draft_the_body_your_provider_may_charge" tools:ignore="MissingTranslation">"Sends this letter\'s resume to %1$s · %2$s to draft the body. Your provider may charge."</string>
-    <!-- Sends this line, surrounding field text and your instructions to {0} · {1}. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1} -->
-    <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
-    <string name="sends_this_line_surrounding_field_text_and_your_instructions_to_0_1" tools:ignore="MissingTranslation">"Sends this line, surrounding field text and your instructions to %1$s · %2$s."</string>
-    <!-- Sends this paragraph, the rest of the letter and your instructions to {0} · {1}. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1} -->
-    <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
-    <string name="sends_this_paragraph_the_rest_of_the_letter_and_your_instructions_to_0_1" tools:ignore="MissingTranslation">"Sends this paragraph, the rest of the letter and your instructions to %1$s · %2$s."</string>
-    <!-- Sends this paragraph, the rest of the letter, the linked job posting and your instructions to {0} · {1}. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1} -->
-    <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
-    <string name="sends_this_paragraph_the_rest_of_the_letter_the_linked_job_posting_and_your_instructions_to_0_1" tools:ignore="MissingTranslation">"Sends this paragraph, the rest of the letter, the linked job posting and your instructions to %1$s · %2$s."</string>
-    <!-- Sends this PDF to your configured AI provider instead of reading its text layer. -->
-    <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
-    <string name="sends_this_pdf_to_your_configured_ai_provider_instead_of_reading_its_text_layer" formatted="false" tools:ignore="MissingTranslation">"Sends this PDF to your configured AI provider instead of reading its text layer."</string>
-    <!-- Sends your message and this application (posting, notes, documents, your form answers, the saved offer and recent messages) to {label}. -->
-    <!-- Arguments: %1$s = {label} -->
-    <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
-    <string name="sends_your_message_and_this_application_posting_notes_documents_your_form_answers_the_saved_offer_an" tools:ignore="MissingTranslation">"Sends your message and this application (posting, notes, documents, your form answers, the saved offer and recent messages) to %1$s."</string>
-    <!-- Sends your message, earlier messages and this application (posting, notes, documents, your form answers, the saved offer and recent messages) to {label}. -->
-    <!-- Arguments: %1$s = {label} -->
-    <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
-    <string name="sends_your_message_earlier_messages_and_this_application_posting_notes_documents_your_form_answers_t" tools:ignore="MissingTranslation">"Sends your message, earlier messages and this application (posting, notes, documents, your form answers, the saved offer and recent messages) to %1$s."</string>
-    <!-- Sends your message, earlier messages here, this application (posting, notes, documents, your form answers, the saved offer and recent messages) and Knowledge that's switched on, to {label}. -->
-    <!-- Arguments: %1$s = {label} -->
-    <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
-    <string name="sends_your_message_earlier_messages_here_this_application_posting_notes_documents_your_form_answers" tools:ignore="MissingTranslation">"Sends your message, earlier messages here, this application (posting, notes, documents, your form answers, the saved offer and recent messages) and Knowledge that\'s switched on, to %1$s."</string>
-    <!-- Sends your message, this application (posting, notes, documents, your form answers, the saved offer and recent messages) and Knowledge that's switched on, to {label}. -->
-    <!-- Arguments: %1$s = {label} -->
-    <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
-    <string name="sends_your_message_this_application_posting_notes_documents_your_form_answers_the_saved_offer_and_re" tools:ignore="MissingTranslation">"Sends your message, this application (posting, notes, documents, your form answers, the saved offer and recent messages) and Knowledge that\'s switched on, to %1$s."</string>
-    <!-- Sends your resume's text only to {0} · {1}, with your key. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1} -->
-    <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
-    <string name="sends_your_resume_s_text_only_to_0_1_with_your_key" tools:ignore="MissingTranslation">"Sends your resume\'s text only to %1$s · %2$s, with your key."</string>
     <!-- Sent -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="sent" formatted="false" tools:ignore="MissingTranslation">"Sent"</string>
@@ -8800,9 +8701,9 @@
     <!-- Show link in title -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="show_link_in_title" formatted="false" tools:ignore="MissingTranslation">"Show link in title"</string>
-    <!-- Show “Made with Reactive Resume” -->
+    <!-- Show “Made with Lebenslauf2” -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
-    <string name="show_made_with_reactive_resume" formatted="false" tools:ignore="MissingTranslation">"Show “Made with Reactive Resume”"</string>
+    <string name="show_made_with_lebenslauf2" formatted="false" tools:ignore="MissingTranslation">"Show “Made with Lebenslauf2”"</string>
     <!-- Show more -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="show_more" formatted="false" tools:ignore="MissingTranslation">"Show more"</string>
@@ -9572,15 +9473,9 @@
     <!-- The checks are mechanical. This asks a language model how a reader might react to your bullets and suggests rewrites. It isn't part of the score. -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="the_checks_are_mechanical_this_asks_a_language_model_how_a_reader_might_react_to_your_bullets_and_su" formatted="false" tools:ignore="MissingTranslation">"The checks are mechanical. This asks a language model how a reader might react to your bullets and suggests rewrites. It isn\'t part of the score."</string>
-    <!-- The coach asks before remembering facts you state. -->
-    <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
-    <string name="the_coach_asks_before_remembering_facts_you_state" formatted="false" tools:ignore="MissingTranslation">"The coach asks before remembering facts you state."</string>
     <!-- The coach doesn't remember anything from your messages. -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="the_coach_doesn_t_remember_anything_from_your_messages" formatted="false" tools:ignore="MissingTranslation">"The coach doesn\'t remember anything from your messages."</string>
-    <!-- The coach doesn't remember anything you write. -->
-    <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
-    <string name="the_coach_doesn_t_remember_anything_you_write" formatted="false" tools:ignore="MissingTranslation">"The coach doesn\'t remember anything you write."</string>
     <!-- The coach isn't set up on this server. Whoever runs it needs to set ENCRYPTION_SECRET. -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="the_coach_isn_t_set_up_on_this_server_whoever_runs_it_needs_to_set_encryption_secret" formatted="false" tools:ignore="MissingTranslation">"The coach isn\'t set up on this server. Whoever runs it needs to set ENCRYPTION_SECRET."</string>
@@ -9590,9 +9485,6 @@
     <!-- The coach proposes each fact in the chat. Nothing is saved until you agree. -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="the_coach_proposes_each_fact_in_the_chat_nothing_is_saved_until_you_agree" formatted="false" tools:ignore="MissingTranslation">"The coach proposes each fact in the chat. Nothing is saved until you agree."</string>
-    <!-- The coach remembers facts you state, and tells you. -->
-    <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
-    <string name="the_coach_remembers_facts_you_state_and_tells_you" formatted="false" tools:ignore="MissingTranslation">"The coach remembers facts you state, and tells you."</string>
     <!-- The coach saves facts you state, and tells you. You can undo. -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="the_coach_saves_facts_you_state_and_tells_you_you_can_undo" formatted="false" tools:ignore="MissingTranslation">"The coach saves facts you state, and tells you. You can undo."</string>
@@ -9608,9 +9500,6 @@
     <!-- The copy gets the job's posting and keeps this resume as it is for other jobs. -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="the_copy_gets_the_job_s_posting_and_keeps_this_resume_as_it_is_for_other_jobs" formatted="false" tools:ignore="MissingTranslation">"The copy gets the job\'s posting and keeps this resume as it is for other jobs."</string>
-    <!-- the cover letter for this job -->
-    <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
-    <string name="the_cover_letter_for_this_job" formatted="false" tools:ignore="MissingTranslation">"the cover letter for this job"</string>
     <!-- The current state will be saved as “Before restore” first. -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="the_current_state_will_be_saved_as_before_restore_first" formatted="false" tools:ignore="MissingTranslation">"The current state will be saved as “Before restore” first."</string>
@@ -9623,9 +9512,6 @@
     <!-- The employer may have changed it since. -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="the_employer_may_have_changed_it_since" formatted="false" tools:ignore="MissingTranslation">"The employer may have changed it since."</string>
-    <!-- the employer's message -->
-    <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
-    <string name="the_employer_s_message" formatted="false" tools:ignore="MissingTranslation">"the employer\'s message"</string>
     <!-- The end date is before the start date. Check both dates. -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="the_end_date_is_before_the_start_date_check_both_dates" formatted="false" tools:ignore="MissingTranslation">"The end date is before the start date. Check both dates."</string>
@@ -9635,9 +9521,6 @@
     <!-- The greeting follows the name. -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="the_greeting_follows_the_name" formatted="false" tools:ignore="MissingTranslation">"The greeting follows the name."</string>
-    <!-- the interview details -->
-    <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
-    <string name="the_interview_details" formatted="false" tools:ignore="MissingTranslation">"the interview details"</string>
     <!-- The interview is saved. To get a reminder, allow notifications in your device settings. -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="the_interview_is_saved_to_get_a_reminder_allow_notifications_in_your_device_settings" formatted="false" tools:ignore="MissingTranslation">"The interview is saved. To get a reminder, allow notifications in your device settings."</string>
@@ -9647,9 +9530,6 @@
     <!-- The key was rejected. Check the key and test again. -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="the_key_was_rejected_check_the_key_and_test_again" formatted="false" tools:ignore="MissingTranslation">"The key was rejected. Check the key and test again."</string>
-    <!-- the last messages -->
-    <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
-    <string name="the_last_messages" formatted="false" tools:ignore="MissingTranslation">"the last messages"</string>
     <!-- The lead time has passed. Saving runs the briefing now. -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="the_lead_time_has_passed_saving_runs_the_briefing_now" formatted="false" tools:ignore="MissingTranslation">"The lead time has passed. Saving runs the briefing now."</string>
@@ -9713,12 +9593,6 @@
     <!-- The provider reported a server error. Try again later. -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="the_provider_reported_a_server_error_try_again_later" formatted="false" tools:ignore="MissingTranslation">"The provider reported a server error. Try again later."</string>
-    <!-- the question and what you said -->
-    <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
-    <string name="the_question_and_what_you_said" formatted="false" tools:ignore="MissingTranslation">"the question and what you said"</string>
-    <!-- the question and your answer -->
-    <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
-    <string name="the_question_and_your_answer" formatted="false" tools:ignore="MissingTranslation">"the question and your answer"</string>
     <!-- The reason is kept for Insights. Linked documents aren't touched. -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="the_reason_is_kept_for_insights_linked_documents_aren_t_touched" formatted="false" tools:ignore="MissingTranslation">"The reason is kept for Insights. Linked documents aren\'t touched."</string>
@@ -9731,9 +9605,6 @@
     <!-- The resume as it is -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="the_resume_as_it_is" formatted="false" tools:ignore="MissingTranslation">"The resume as it is"</string>
-    <!-- the resume for this job -->
-    <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
-    <string name="the_resume_for_this_job" formatted="false" tools:ignore="MissingTranslation">"the resume for this job"</string>
     <!-- The reviewer sees each one's stage and dates. Notes, contacts and pay stay private. -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="the_reviewer_sees_each_one_s_stage_and_dates_notes_contacts_and_pay_stay_private" formatted="false" tools:ignore="MissingTranslation">"The reviewer sees each one\'s stage and dates. Notes, contacts and pay stay private."</string>
@@ -9746,9 +9617,6 @@
     <!-- The saved key isn't sent to a new base URL. Enter it again if this server needs one. -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="the_saved_key_isn_t_sent_to_a_new_base_url_enter_it_again_if_this_server_needs_one" formatted="false" tools:ignore="MissingTranslation">"The saved key isn\'t sent to a new base URL. Enter it again if this server needs one."</string>
-    <!-- the saved offer -->
-    <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
-    <string name="the_saved_offer" formatted="false" tools:ignore="MissingTranslation">"the saved offer"</string>
     <!-- The score counts how reliably software reads your resume. It doesn't predict whether you'll be shortlisted. -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="the_score_counts_how_reliably_software_reads_your_resume_it_doesn_t_predict_whether_you_ll_be_shortl" formatted="false" tools:ignore="MissingTranslation">"The score counts how reliably software reads your resume. It doesn\'t predict whether you\'ll be shortlisted."</string>
@@ -10025,9 +9893,6 @@
     <!-- This PDF is password protected. Save an unprotected copy and try again. -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="this_pdf_is_password_protected_save_an_unprotected_copy_and_try_again" formatted="false" tools:ignore="MissingTranslation">"This PDF is password protected. Save an unprotected copy and try again."</string>
-    <!-- this posting -->
-    <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
-    <string name="this_posting" formatted="false" tools:ignore="MissingTranslation">"this posting"</string>
     <!-- This question couldn't be asked. Send a new message to continue. -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="this_question_couldn_t_be_asked_send_a_new_message_to_continue" formatted="false" tools:ignore="MissingTranslation">"This question couldn\'t be asked. Send a new message to continue."</string>
@@ -10656,9 +10521,9 @@
     <!-- Use web access? -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="use_web_access" formatted="false" tools:ignore="MissingTranslation">"Use web access?"</string>
-    <!-- Use your browser’s Share action to send one posting URL or selected text to Reactive Resume. Receiving shares requires the latest store build; URL and paste import remain available. -->
+    <!-- Use your browser’s Share action to send one posting URL or selected text to Lebenslauf2. Receiving shares requires the latest store build; URL and paste import remain available. -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
-    <string name="use_your_browsers_share_action_to_send_one_posting_url_or_selected_text_to_reactive_resume_receiving" formatted="false" tools:ignore="MissingTranslation">"Use your browser’s Share action to send one posting URL or selected text to Reactive Resume. Receiving shares requires the latest store build; URL and paste import remain available."</string>
+    <string name="use_your_browsers_share_action_to_send_one_posting_url_or_selected_text_to_lebenslauf2_receiving_sha" formatted="false" tools:ignore="MissingTranslation">"Use your browser’s Share action to send one posting URL or selected text to Lebenslauf2. Receiving shares requires the latest store build; URL and paste import remain available."</string>
     <!-- Use your editor's normal bullet list, so stray glyphs do not land mid-sentence. -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="use_your_editor_s_normal_bullet_list_so_stray_glyphs_do_not_land_mid_sentence" formatted="false" tools:ignore="MissingTranslation">"Use your editor\'s normal bullet list, so stray glyphs do not land mid-sentence."</string>
@@ -10994,10 +10859,6 @@
     <!-- When you're done, the browser closes and you come back here. -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="when_you_re_done_the_browser_closes_and_you_come_back_here" formatted="false" tools:ignore="MissingTranslation">"When you\'re done, the browser closes and you come back here."</string>
-    <!-- When you tap send, {list} go to your {connection}. -->
-    <!-- Arguments: %1$s = {list}, %2$s = {connection} -->
-    <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
-    <string name="when_you_tap_send_list_go_to_your_connection" tools:ignore="MissingTranslation">"When you tap send, %1$s go to your %2$s."</string>
     <!-- Where applications come from -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="where_applications_come_from" formatted="false" tools:ignore="MissingTranslation">"Where applications come from"</string>
@@ -11039,9 +10900,6 @@
     <!-- Willing to relocate -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="willing_to_relocate" formatted="false" tools:ignore="MissingTranslation">"Willing to relocate"</string>
-    <!-- With Knowledge off, nothing you write is remembered. -->
-    <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
-    <string name="with_knowledge_off_nothing_you_write_is_remembered" formatted="false" tools:ignore="MissingTranslation">"With Knowledge off, nothing you write is remembered."</string>
     <!-- Within your office-day limit. -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="within_your_office_day_limit" formatted="false" tools:ignore="MissingTranslation">"Within your office-day limit."</string>
@@ -11305,9 +11163,6 @@
     <!-- Your contact details are not on the first page. -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="your_contact_details_are_not_on_the_first_page" formatted="false" tools:ignore="MissingTranslation">"Your contact details are not on the first page."</string>
-    <!-- your contacts -->
-    <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
-    <string name="your_contacts" formatted="false" tools:ignore="MissingTranslation">"your contacts"</string>
     <!-- Your data -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="your_data" formatted="false" tools:ignore="MissingTranslation">"Your data"</string>
@@ -11338,9 +11193,6 @@
     <!-- Your focus -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="your_focus" formatted="false" tools:ignore="MissingTranslation">"Your focus"</string>
-    <!-- your form answers -->
-    <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
-    <string name="your_form_answers" formatted="false" tools:ignore="MissingTranslation">"your form answers"</string>
     <!-- Your headings look the same as your body text. -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="your_headings_look_the_same_as_your_body_text" formatted="false" tools:ignore="MissingTranslation">"Your headings look the same as your body text."</string>
@@ -11350,18 +11202,15 @@
     <!-- your Knowledge -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="your_knowledge" formatted="false" tools:ignore="MissingTranslation">"your Knowledge"</string>
-    <!-- Your language is saved. Restart Reactive Resume to apply the new left-to-right or right-to-left layout. -->
+    <!-- Your language is saved. Restart Lebenslauf2 to apply the new left-to-right or right-to-left layout. -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
-    <string name="your_language_is_saved_restart_reactive_resume_to_apply_the_new_left_to_right_or_right_to_left_layou" formatted="false" tools:ignore="MissingTranslation">"Your language is saved. Restart Reactive Resume to apply the new left-to-right or right-to-left layout."</string>
+    <string name="your_language_is_saved_restart_lebenslauf2_to_apply_the_new_left_to_right_or_right_to_left_layout" formatted="false" tools:ignore="MissingTranslation">"Your language is saved. Restart Lebenslauf2 to apply the new left-to-right or right-to-left layout."</string>
     <!-- Your lines are packed very tightly. -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="your_lines_are_packed_very_tightly" formatted="false" tools:ignore="MissingTranslation">"Your lines are packed very tightly."</string>
     <!-- Your margins are very narrow. -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="your_margins_are_very_narrow" formatted="false" tools:ignore="MissingTranslation">"Your margins are very narrow."</string>
-    <!-- your message -->
-    <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
-    <string name="your_message" formatted="false" tools:ignore="MissingTranslation">"your message"</string>
     <!-- Your message is kept. -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="your_message_is_kept" formatted="false" tools:ignore="MissingTranslation">"Your message is kept."</string>
@@ -11405,10 +11254,6 @@
     <!-- Your public links will change -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="your_public_links_will_change" formatted="false" tools:ignore="MissingTranslation">"Your public links will change"</string>
-    <!-- Your recording goes to {transcriberName} after you stop, to be transcribed. Your provider may charge. The server keeps transcripts, never recordings. -->
-    <!-- Arguments: %1$s = {transcriberName} -->
-    <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
-    <string name="your_recording_goes_to_transcribername_after_you_stop_to_be_transcribed_your_provider_may_charge_the" tools:ignore="MissingTranslation">"Your recording goes to %1$s after you stop, to be transcribed. Your provider may charge. The server keeps transcripts, never recordings."</string>
     <!-- Your request and relevant resume, letter, job posting, application, career information, conversation history, and attachments are sent through your server to this AI provider, according to the feature and context you selected. They can contain personal information. -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="your_request_and_relevant_resume_letter_job_posting_application_career_information_conversation_hist" formatted="false" tools:ignore="MissingTranslation">"Your request and relevant resume, letter, job posting, application, career information, conversation history, and attachments are sent through your server to this AI provider, according to the feature and context you selected. They can contain personal information."</string>
@@ -11472,9 +11317,6 @@
     <!-- Your short link says this resume isn't shared until you publish it again. -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="your_short_link_says_this_resume_isn_t_shared_until_you_publish_it_again" formatted="false" tools:ignore="MissingTranslation">"Your short link says this resume isn\'t shared until you publish it again."</string>
-    <!-- your stories -->
-    <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
-    <string name="your_stories" formatted="false" tools:ignore="MissingTranslation">"your stories"</string>
     <!-- Your story couldn't be loaded. -->
     <!-- MissingTranslation: empty catalog translations intentionally fall back to English. -->
     <string name="your_story_couldn_t_be_loaded" formatted="false" tools:ignore="MissingTranslation">"Your story couldn\'t be loaded."</string>

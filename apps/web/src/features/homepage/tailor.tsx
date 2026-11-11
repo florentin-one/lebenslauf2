@@ -117,7 +117,7 @@ export function Tailor() {
 								F
 							</span>
 							<div className="flex flex-col">
-								<b className="text-[15px] font-semibold">{t`Senior Product Designer`}</b>
+								<b className="text-[15px] font-semibold">{t`Fachärztin für Psychiatrie und Psychotherapie`}</b>
 								<span className="text-[12.5px] text-ink-3">{t`Fieldnote · Remote, EU`}</span>
 							</div>
 							<span className={cn(labelClass, "ms-auto text-[10px] tracking-[.06em] text-ink-3")}>{t`Posting`}</span>

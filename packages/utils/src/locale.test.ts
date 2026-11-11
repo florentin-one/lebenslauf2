@@ -26,20 +26,24 @@ it("keeps the testing catalog valid without counting it as a supported translati
 	expect(localeSchema.options).toContain("zu-ZA");
 	expect(supportedLocales).not.toContain("zu-ZA");
 	expect(supportedLocales).toContain("de-DE");
-	expect(getLocaleAlternates("https://rxresu.me/")).toHaveLength(supportedLocales.length + 1);
+	expect(getLocaleAlternates("https://lebenslauf2.florentin-one.de/")).toHaveLength(supportedLocales.length + 1);
 });
 
 describe("locale URLs", () => {
 	it("keeps the default locale on the plain address and puts others in the locale parameter", () => {
-		expect(localizedUrl("https://rxresu.me/?locale=de-DE", "en-US")).toBe("https://rxresu.me/");
-		expect(localizedUrl("https://rxresu.me/", "de-DE")).toBe("https://rxresu.me/?locale=de-DE");
+		expect(localizedUrl("https://lebenslauf2.florentin-one.de/?locale=de-DE", "en-US")).toBe(
+			"https://lebenslauf2.florentin-one.de/",
+		);
+		expect(localizedUrl("https://lebenslauf2.florentin-one.de/", "de-DE")).toBe(
+			"https://lebenslauf2.florentin-one.de/?locale=de-DE",
+		);
 	});
 
 	it("lists valid hreflang alternates without the pseudo-locale", () => {
-		const alternates = getLocaleAlternates("https://rxresu.me/");
+		const alternates = getLocaleAlternates("https://lebenslauf2.florentin-one.de/");
 
-		expect(alternates).toContainEqual({ hreflang: "x-default", href: "https://rxresu.me/" });
-		expect(alternates).toContainEqual({ hreflang: "sr", href: "https://rxresu.me/?locale=sr-SP" });
+		expect(alternates).toContainEqual({ hreflang: "x-default", href: "https://lebenslauf2.florentin-one.de/" });
+		expect(alternates).toContainEqual({ hreflang: "sr", href: "https://lebenslauf2.florentin-one.de/?locale=sr-SP" });
 		expect(alternates.map((alternate) => alternate.hreflang)).not.toContain("zu-ZA");
 	});
 });

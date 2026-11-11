@@ -4,8 +4,8 @@
     <!-- A: {answer} -->
     <!-- Arguments: %1$s = {answer} -->
     <string name="a_answer">"V: %1$s"</string>
-    <!-- A backup of this letter. Imports back into Reactive Resume as a letter. -->
-    <string name="a_backup_of_this_letter_imports_back_into_reactive_resume_as_a_letter" formatted="false">"A levél biztonsági másolata. Levélként importálja vissza a Reactive Resume-ba."</string>
+    <!-- A backup of this letter. Imports back into Lebenslauf2 as a letter. -->
+    <string name="a_backup_of_this_letter_imports_back_into_lebenslauf2_as_a_letter" formatted="false">"A levél biztonsági másolata. Levélként importálja vissza a Lebenslauf2-ba."</string>
     <!-- A city and country let roles be matched to where you are. -->
     <string name="a_city_and_country_let_roles_be_matched_to_where_you_are" formatted="false">"A város és az ország lehetővé teszi, hogy a szerepeket az Ön tartózkodási helyéhez illessze."</string>
     <!-- A comfortable length, and it fits on one page. -->
@@ -368,8 +368,6 @@
     <string name="ai_providers_couldn_t_be_loaded_reload_to_try_again" formatted="false">"Az AI-szolgáltatókat nem sikerült betölteni. Töltse be újra az újrapróbálkozáshoz."</string>
     <!-- AI providers couldn't be loaded. Retry or fill the details manually. -->
     <string name="ai_providers_couldn_t_be_loaded_retry_or_fill_the_details_manually" formatted="false">"Nem sikerült betölteni az AI-szolgáltatókat. Próbáld újra, vagy add meg kézzel az adatokat."</string>
-    <!-- AI reads pasted text only when you ask. Links can use the page’s own job data without AI. -->
-    <string name="ai_reads_pasted_text_only_when_you_ask_links_can_use_the_pages_own_job_data_without_ai" formatted="false">"A mesterséges intelligencia csak akkor olvassa el a beillesztett szöveget, ha Ön kéri. A linkek használhatják az oldal saját munkaadatait mesterséges intelligencia nélkül."</string>
     <!-- AI request attempts: {0} -->
     <!-- Arguments: %1$s = {0} -->
     <string name="ai_request_attempts_0">"MI-kéréskísérletek: %1$s"</string>
@@ -377,8 +375,6 @@
     <string name="ai_request_history_unavailable_for_this_result" formatted="false">"Ehhez az eredményhez nem érhető el MI-kéréselőzmény."</string>
     <!-- AI settings -->
     <string name="ai_settings" formatted="false">"AI-beállítások"</string>
-    <!-- AI suggestions, not verified qualifications or hiring predictions. Sources below are your statements. -->
-    <string name="ai_suggestions_not_verified_qualifications_or_hiring_predictions_sources_below_are_your_statements" formatted="false">"AI-javaslatok, nem ellenőrzött végzettségek vagy felvételi előrejelzések. Az alábbi források a te megállapításaid."</string>
     <!-- AI usage couldn't be loaded. Try refreshing. Older servers may need an update. -->
     <string name="ai_usage_couldn_t_be_loaded_try_refreshing_older_servers_may_need_an_update" formatted="false">"Az MI-használat nem tölthető be. Frissítsd a nézetet. Régebbi szerverek frissítést igényelhetnek."</string>
     <!-- AI usage this week -->
@@ -440,8 +436,6 @@
     <string name="always_appears_in_today_email_requires_a_verified_address_and_server_mail_setup_no_push_notification" formatted="false">"Mindig megjelenik a következőben: Ma. Az e-mailhez igazolt címre és a szerver levelezési beállítására van szükség. Nem küldenek push értesítéseket."</string>
     <!-- Amharic -->
     <string name="amharic" formatted="false">"amhara"</string>
-    <!-- An AI reading to help you edit, not a prediction of how an employer or screening system will respond. -->
-    <string name="an_ai_reading_to_help_you_edit_not_a_prediction_of_how_an_employer_or_screening_system_will_respond" formatted="false">"AI-értelmezés a szerkesztéshez – nem jósolja meg, hogyan reagál a munkáltató vagy egy szűrőrendszer."</string>
     <!-- An edit addresses it -->
     <string name="an_edit_addresses_it" formatted="false">"Egy szerkesztés kezeli"</string>
     <!-- An embedded font could not be read. -->
@@ -636,9 +630,9 @@
     <string name="assistant" formatted="false">"Helyettes"</string>
     <!-- Assistant conversations -->
     <string name="assistant_conversations" formatted="false">"Asszisztensi beszélgetések"</string>
-    <!-- {at} · {providerLabel}. Sends this application and your Knowledge; your provider may charge. -->
+    <!-- {at} · {providerLabel} -->
     <!-- Arguments: %1$s = {at}, %2$s = {providerLabel} -->
-    <string name="at_providerlabel_sends_this_application_and_your_knowledge_your_provider_may_charge">"%1$s · %2$s. Elküldi ezt a jelentkezést és a Tudástár tartalmát; a szolgáltató díjat számíthat fel."</string>
+    <string name="at_providerlabel">"%1$s · %2$s"</string>
     <!-- ATS checker -->
     <string name="ats_checker" formatted="false">"ATS ellenőrző"</string>
     <!-- ATS-safe -->
@@ -1131,8 +1125,8 @@
     <!-- Complete {0} before saving. -->
     <!-- Arguments: %1$s = {0} -->
     <string name="complete_0_before_saving">"Mentés előtt töltsd ki ezt: %1$s."</string>
-    <!-- Complete data backup. Imports back into Reactive Resume. -->
-    <string name="complete_data_backup_imports_back_into_reactive_resume" formatted="false">"Teljes adatmentés. Visszaimportálható a Reactive Resume-ba."</string>
+    <!-- Complete data backup. Imports back into Lebenslauf2. -->
+    <string name="complete_data_backup_imports_back_into_lebenslauf2" formatted="false">"Teljes adatmentés. Visszaimportálható a Lebenslauf2-ba."</string>
     <!-- Complete the employer form manually in your browser using reviewed answers and approved PDFs. -->
     <string name="complete_the_employer_form_manually_in_your_browser_using_reviewed_answers_and_approved_pdfs" formatted="false">"Töltsd ki kézzel a munkáltatói űrlapot a böngésződben az átnézett válaszokkal és a jóváhagyott PDF-ekkel."</string>
     <!-- {completed, plural, one {# document updated} other {# documents updated}} -->
@@ -1442,8 +1436,8 @@
     <!-- Couldn't propose these edits: {0} -->
     <!-- Arguments: %1$s = {0} -->
     <string name="couldn_t_propose_these_edits_0">"Nem sikerült javasolni ezeket a módosításokat: %1$s"</string>
-    <!-- Couldn't reach Reactive Resume. Check your internet connection, then try again. -->
-    <string name="couldn_t_reach_reactive_resume_check_your_internet_connection_then_try_again" formatted="false">"A Reactive Resume nem elérhető. Ellenőrizd az internetkapcsolatot, majd próbáld újra."</string>
+    <!-- Couldn't reach Lebenslauf2. Check your internet connection, then try again. -->
+    <string name="couldn_t_reach_lebenslauf2_check_your_internet_connection_then_try_again" formatted="false">"A Lebenslauf2 nem elérhető. Ellenőrizd az internetkapcsolatot, majd próbáld újra."</string>
     <!-- Couldn't reach your AI provider. Try again or check its key in AI settings. -->
     <string name="couldn_t_reach_your_ai_provider_try_again_or_check_its_key_in_ai_settings" formatted="false">"Nem sikerült elérni az AI-szolgáltatót. Próbálja újra, vagy ellenőrizze a kulcsát az AI-beállításokban."</string>
     <!-- Couldn't read {name}'s answer. Try again, or switch the default provider in AI settings. -->
@@ -2056,8 +2050,6 @@
     <string name="earlier_discovery_result_search_query_and_posting_check_time_unknown" formatted="false">"Korábbi felderítési eredmény. A keresési kifejezés és a hirdetés-ellenőrzés időpontja ismeretlen."</string>
     <!-- Earlier messages and attachments in this conversation will be sent to this destination when you send again. -->
     <string name="earlier_messages_and_attachments_in_this_conversation_will_be_sent_to_this_destination_when_you_send" formatted="false">"A beszélgetés korábbi üzenetei és csatolmányai el lesznek küldve erre a célra, amikor legközelebb küldesz."</string>
-    <!-- earlier messages in this chat -->
-    <string name="earlier_messages_in_this_chat" formatted="false">"a csevegés korábbi üzenetei"</string>
     <!-- Edit -->
     <string name="edit" formatted="false">"Szerkesztés"</string>
     <!-- Edit {0} -->
@@ -2080,8 +2072,8 @@
     <string name="edit_first" formatted="false">"Előbb szerkeszd"</string>
     <!-- Edit interview -->
     <string name="edit_interview" formatted="false">"Interjú szerkesztése"</string>
-    <!-- Edit it in Reactive Resume -->
-    <string name="edit_it_in_reactive_resume" formatted="false">"Szerkeszd meg a Reactive Resume-ban"</string>
+    <!-- Edit it in Lebenslauf2 -->
+    <string name="edit_it_in_lebenslauf2" formatted="false">"Szerkeszd meg a Lebenslauf2-ban"</string>
     <!-- Edit link -->
     <string name="edit_link" formatted="false">"Link szerkesztése"</string>
     <!-- Edit note -->
@@ -2149,8 +2141,6 @@
     <string name="empty_trash" formatted="false">"Kuka ürítése"</string>
     <!-- Empty Trash? -->
     <string name="empty_trash_ab0a72a70c" formatted="false">"Kiüríted a Kukát?"</string>
-    <!-- enabled Knowledge -->
-    <string name="enabled_knowledge" formatted="false">"bekapcsolt Tudás"</string>
     <!-- End -->
     <string name="end" formatted="false">"Vége"</string>
     <!-- English -->
@@ -2199,8 +2189,8 @@
     <string name="enter_any_model_id_supported_by_your_endpoint" formatted="false">"Adja meg a végpont által támogatott bármely modell azonosítóját."</string>
     <!-- Enter terms yourself. No AI request is made. Leave unknown amounts blank. -->
     <string name="enter_terms_yourself_no_ai_request_is_made_leave_unknown_amounts_blank" formatted="false">"Add meg magad a feltételeket. Nem küldünk MI-kérést. Az ismeretlen összegeket hagyd üresen."</string>
-    <!-- Enter the address you open Reactive Resume at in a browser. The app checks it's a Reactive Resume server that allows app sign-in before you continue. -->
-    <string name="enter_the_address_you_open_reactive_resume_at_in_a_browser_the_app_checks_it_s_a_reactive_resume_ser" formatted="false">"Adja meg a címet, ahol a Reactive Resume-ot böngészőben megnyitja. Folytatás előtt az alkalmazás ellenőrzi, hogy ez egy Reactive Resume-szerver, amely engedi az alkalmazásból történő bejelentkezést."</string>
+    <!-- Enter the address you open Lebenslauf2 at in a browser. The app checks it's a Lebenslauf2 server that allows app sign-in before you continue. -->
+    <string name="enter_the_address_you_open_lebenslauf2_at_in_a_browser_the_app_checks_it_s_a_lebenslauf2_server_that" formatted="false">"Adja meg a címet, ahol a Lebenslauf2-ot böngészőben megnyitja. Folytatás előtt az alkalmazás ellenőrzi, hogy ez egy Lebenslauf2-szerver, amely engedi az alkalmazásból történő bejelentkezést."</string>
     <!-- Enter the API base URL of your service and test again. -->
     <string name="enter_the_api_base_url_of_your_service_and_test_again" formatted="false">"Add meg a szolgáltatásod API-alap URL-jét, és teszteld újra."</string>
     <!-- Enter your details below. Choosing a resume replaces them and links its design. -->
@@ -2466,11 +2456,11 @@
     <!-- Found for “{0}”. Posting checked {1}. -->
     <!-- Arguments: %1$s = {0}, %2$s = {1} -->
     <string name="found_for_0_posting_checked_1">"Találat erre: „%1$s”. A hirdetés ellenőrizve: %2$s."</string>
-    <!-- Found posting links are read by Reactive Resume and the sites being read. -->
-    <string name="found_posting_links_are_read_by_reactive_resume_and_the_sites_being_read" formatted="false">"A talált hirdetés-linkek elolvasásra kerülnek a Reactive Resume és az olvasott oldalak által."</string>
-    <!-- Found posting links are read by Reactive Resume and, when needed, {reader} and the sites being read. The reader may charge. -->
+    <!-- Found posting links are read by Lebenslauf2 and the sites being read. -->
+    <string name="found_posting_links_are_read_by_lebenslauf2_and_the_sites_being_read" formatted="false">"A talált hirdetés-linkek elolvasásra kerülnek a Lebenslauf2 és az olvasott oldalak által."</string>
+    <!-- Found posting links are read by Lebenslauf2 and, when needed, {reader} and the sites being read. The reader may charge. -->
     <!-- Arguments: %1$s = {reader} -->
-    <string name="found_posting_links_are_read_by_reactive_resume_and_when_needed_reader_and_the_sites_being_read_the">"A talált hirdetés-linkek elolvasásra kerülnek a Reactive Resume és szükség esetén a(z) %1$s és az olvasott oldalak által. Az olvasás díjköteles lehet."</string>
+    <string name="found_posting_links_are_read_by_lebenslauf2_and_when_needed_reader_and_the_sites_being_read_the_read">"A talált hirdetés-linkek elolvasásra kerülnek a Lebenslauf2 és szükség esetén a(z) %1$s és az olvasott oldalak által. Az olvasás díjköteles lehet."</string>
     <!-- Free-form -->
     <string name="free_form" formatted="false">"Szabad formátumú"</string>
     <!-- French -->
@@ -2859,8 +2849,6 @@
     <!-- Its own design ({summary}). -->
     <!-- Arguments: %1$s = {summary} -->
     <string name="its_own_design_summary">"Saját tervezésű (%1$s)."</string>
-    <!-- its requirements -->
-    <string name="its_requirements" formatted="false">"a hirdetés követelményei"</string>
     <!-- Its saved key is deleted. Conversations using it need another provider. -->
     <string name="its_saved_key_is_deleted_conversations_using_it_need_another_provider" formatted="false">"A mentett kulcs törlődik. Az ezt használó beszélgetésekhez másik szolgáltatóra van szükség."</string>
     <!-- Japanese -->
@@ -3054,6 +3042,8 @@
     <string name="leave_out" formatted="false">"Hagyd ki"</string>
     <!-- Leave without keeping the draft? -->
     <string name="leave_without_keeping_the_draft" formatted="false">"Kilépsz a piszkozat megtartása nélkül?"</string>
+    <!-- Lebenslauf2 -->
+    <string name="lebenslauf2" formatted="false">"Lebenslauf2"</string>
     <!-- Left -->
     <string name="left" formatted="false">"Balra"</string>
     <!-- Left blank. Add it later only if you can support it. -->
@@ -3308,8 +3298,6 @@
     <string name="managed_by_server" formatted="false">"Szerver által kezelt"</string>
     <!-- Managed by your server -->
     <string name="managed_by_your_server" formatted="false">"Az Ön szervere kezeli"</string>
-    <!-- Manual roles and preferences work without AI. Suggestions never search or schedule anything. -->
-    <string name="manual_roles_and_preferences_work_without_ai_suggestions_never_search_or_schedule_anything" formatted="false">"A kézi pozíciók és preferenciák AI nélkül is működnek. A javaslatok sosem keresnek és nem ütemeznek semmit."</string>
     <!-- Many bullets start with the same phrase. -->
     <string name="many_bullets_start_with_the_same_phrase" formatted="false">"Sok felsoroláspont ugyanazzal a kifejezéssel kezdődik."</string>
     <!-- Mar 2022 -->
@@ -3527,12 +3515,6 @@
     <plurals name="message_0_plural_one_1_of_posting_term_covered_other_2_of_posting_terms_covered">
         <item quantity="one">"Az álláshirdetés %1$s kifejezéséből %2$s szerepel"</item>
         <item quantity="other">"Az álláshirdetés %1$s kifejezéséből %3$s szerepel"</item>
-    </plurals>
-    <!-- {0, plural, one {Also sends {1}.} other {Also sends # files: {2}.}} -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1}, %3$s = {2} -->
-    <plurals name="message_0_plural_one_also_sends_1_other_also_sends_files_2">
-        <item quantity="one">"Ezt is elküldi: %2$s."</item>
-        <item quantity="other">"%1$s fájlt is elküld: %3$s."</item>
     </plurals>
     <!-- {0, plural, one {# answer} other {# answers}} -->
     <!-- Arguments: %1$s = {0} -->
@@ -3955,8 +3937,6 @@
     <string name="message_the_assistant" formatted="false">"Üzenet az asszisztensnek"</string>
     <!-- Messages -->
     <string name="messages" formatted="false">"Üzenetek"</string>
-    <!-- Messages from before Knowledge changed aren't sent. -->
-    <string name="messages_from_before_knowledge_changed_aren_t_sent" formatted="false">"A Tudástár megváltozása előtti üzenetek nem kerülnek elküldésre."</string>
     <!-- Messages from before Knowledge changed aren't sent to the AI anymore, so it won't remember them. Start a new conversation to keep context together. -->
     <string name="messages_from_before_knowledge_changed_aren_t_sent_to_the_ai_anymore_so_it_won_t_remember_them_start" formatted="false">"A Tudástár megváltozása előtti üzenetek többé nem kerülnek az AI-hoz, így nem fog emlékezni rájuk. Indíts új beszélgetést, hogy a kontextus egyben maradjon."</string>
     <!-- Minimum base salary -->
@@ -4294,6 +4274,8 @@
     <string name="no_keys_yet" formatted="false">"Még nincsenek kulcsok."</string>
     <!-- No language matches. -->
     <string name="no_language_matches" formatted="false">"Egyetlen nyelv sem egyezik."</string>
+    <!-- No Lebenslauf2 server answered at this address. Check the spelling, or ask your administrator whether the server allows app sign-in. -->
+    <string name="no_lebenslauf2_server_answered_at_this_address_check_the_spelling_or_ask_your_administrator_whether" formatted="false">"Ezen a címen nem válaszolt a Lebenslauf2 szerver. Ellenőrizze a helyesírást, vagy kérdezze meg rendszergazdáját, hogy a szerver engedélyezi-e az alkalmazásbejelentkezést."</string>
     <!-- No lines look like a job title paired with an employer. -->
     <string name="no_lines_look_like_a_job_title_paired_with_an_employer" formatted="false">"Egyetlen sor sem hasonlít munkakör és munkáltató párosítására."</string>
     <!-- No linked application -->
@@ -4326,8 +4308,6 @@
     <string name="no_photo_most_ats_ignore_photos_some_regions_expect_one" formatted="false">"Nincs fénykép. A legtöbb ATS figyelmen kívül hagyja a fényképeket; egyes régiók erre számítanak."</string>
     <!-- No postings found. Try different keywords. -->
     <string name="no_postings_found_try_different_keywords" formatted="false">"Nem található álláshirdetés. Próbáljon ki különböző kulcsszavakat."</string>
-    <!-- No Reactive Resume server answered at this address. Check the spelling, or ask your administrator whether the server allows app sign-in. -->
-    <string name="no_reactive_resume_server_answered_at_this_address_check_the_spelling_or_ask_your_administrator_whet" formatted="false">"Ezen a címen nem válaszolt a Reactive Resume szerver. Ellenőrizze a helyesírást, vagy kérdezze meg rendszergazdáját, hogy a szerver engedélyezi-e az alkalmazásbejelentkezést."</string>
     <!-- No recognizable terms in this posting. -->
     <string name="no_recognizable_terms_in_this_posting" formatted="false">"Ebben az álláshirdetésben nincsenek felismerhető kifejezések."</string>
     <!-- No recorded answers are available. -->
@@ -4450,8 +4430,6 @@
     <string name="nothing_in_your_library_yet" formatted="false">"Még nincs semmi a könyvtáradban"</string>
     <!-- Nothing is applied for or created until you choose. -->
     <string name="nothing_is_applied_for_or_created_until_you_choose" formatted="false">"Semmilyen jelentkezés vagy létrehozás nem történik, amíg nem döntesz."</string>
-    <!-- Nothing is sent until you choose a connection for this conversation. -->
-    <string name="nothing_is_sent_until_you_choose_a_connection_for_this_conversation" formatted="false">"Semmi nem kerül elküldésre, amíg nem választasz kapcsolatot ehhez a beszélgetéshez."</string>
     <!-- Nothing marks a role as ongoing. -->
     <string name="nothing_marks_a_role_as_ongoing" formatted="false">"Semmi nem jelzi, hogy egy pozíció folyamatban van."</string>
     <!-- Nothing on this day. -->
@@ -4525,8 +4503,8 @@
     <string name="on" formatted="false">"Bekapcsolva"</string>
     <!-- On. Anyone with the link can see your web page. -->
     <string name="on_anyone_with_the_link_can_see_your_web_page" formatted="false">"Be. Bárki, akinek megvan a link, láthatja a weboldaladat."</string>
-    <!-- On iOS, choose Keep for review, then reopen app in the Share extension. Reopen Reactive Resume yourself within 15 minutes. Sign in here before sharing. -->
-    <string name="on_ios_choose_keep_for_review_then_reopen_app_in_the_share_extension_reopen_reactive_resume_yourself" formatted="false">"iOS-en válaszd a Megtartás felülvizsgálathoz opciót, majd nyisd meg újra az alkalmazást a Megosztás bővítményben. Nyisd meg magad a Reactive Resume-ot 15 percen belül. Megosztás előtt jelentkezz be itt."</string>
+    <!-- On iOS, choose Keep for review, then reopen app in the Share extension. Reopen Lebenslauf2 yourself within 15 minutes. Sign in here before sharing. -->
+    <string name="on_ios_choose_keep_for_review_then_reopen_app_in_the_share_extension_reopen_lebenslauf2_yourself_wit" formatted="false">"iOS-en válaszd a Megtartás felülvizsgálathoz opciót, majd nyisd meg újra az alkalmazást a Megosztás bővítményben. Nyisd meg magad a Lebenslauf2-ot 15 percen belül. Megosztás előtt jelentkezz be itt."</string>
     <!-- On. Visitors need the link and password to see your web page. -->
     <string name="on_visitors_need_the_link_and_password_to_see_your_web_page" formatted="false">"Bekapcsolva. A látogatóknak a hivatkozásra és a jelszóra is szükségük van a weboldalad megtekintéséhez."</string>
     <!-- Once a round is scheduled, Interview prep builds a timed plan, your opening and the questions to ask. -->
@@ -4787,14 +4765,14 @@
     <string name="pdf_check_canceled_retry_when_ready" formatted="false">"PDF-ellenőrzés megszakítva. Próbáld újra, ha készen állsz."</string>
     <!-- PDF import -->
     <string name="pdf_import" formatted="false">"PDF-importálás"</string>
-    <!-- PDF only · up to 10 MB each. Linking a Reactive Resume enables a fit check against each requirement and tailoring. -->
-    <string name="pdf_only_up_to_10_mb_each_linking_a_reactive_resume_enables_a_fit_check_against_each_requirement_and" formatted="false">"Csak PDF · darabonként legfeljebb 10 MB. Egy Reactive Resume önéletrajz csatolása lehetővé teszi az egyes követelményekkel szembeni illeszkedés-ellenőrzést és a testreszabást."</string>
-    <!-- PDF reads its text layer on your server by default, without AI. Turn on the AI switch to send it to your provider. Word (.docx) needs an AI provider. Current and v4 Reactive Resume JSON, cover letters, JSON Resume and LinkedIn exports (.zip) are supported. Up to 10 MB. -->
-    <string name="pdf_reads_its_text_layer_on_your_server_by_default_without_ai_turn_on_the_ai_switch_to_send_it_to_yo" formatted="false">"A PDF alapértelmezés szerint a szövegrétegét a szervereden olvassa, AI nélkül. Kapcsold be az AI kapcsolót, hogy a szolgáltatódhoz küldd. A Word (.docx) AI-szolgáltatót igényel. Támogatott: a jelenlegi és a v4 Reactive Resume JSON, motivációs levelek, JSON Resume és LinkedIn-export (.zip). Legfeljebb 10 MB."</string>
+    <!-- PDF only · up to 10 MB each. Linking a Lebenslauf2 enables a fit check against each requirement and tailoring. -->
+    <string name="pdf_only_up_to_10_mb_each_linking_a_lebenslauf2_enables_a_fit_check_against_each_requirement_and_tai" formatted="false">"Csak PDF · darabonként legfeljebb 10 MB. Egy Lebenslauf2 önéletrajz csatolása lehetővé teszi az egyes követelményekkel szembeni illeszkedés-ellenőrzést és a testreszabást."</string>
+    <!-- PDF reads its text layer on your server by default, without AI. Turn on the AI switch to send it to your provider. Word (.docx) needs an AI provider. Current and v4 Lebenslauf2 JSON, cover letters, JSON Resume and LinkedIn exports (.zip) are supported. Up to 10 MB. -->
+    <string name="pdf_reads_its_text_layer_on_your_server_by_default_without_ai_turn_on_the_ai_switch_to_send_it_to_yo" formatted="false">"A PDF alapértelmezés szerint a szövegrétegét a szervereden olvassa, AI nélkül. Kapcsold be az AI kapcsolót, hogy a szolgáltatódhoz küldd. A Word (.docx) AI-szolgáltatót igényel. Támogatott: a jelenlegi és a v4 Lebenslauf2 JSON, motivációs levelek, JSON Resume és LinkedIn-export (.zip). Legfeljebb 10 MB."</string>
     <!-- PDF styles support a subset of CSS. Rotation, dashed and dotted borders, and some layout properties are ignored. -->
     <string name="pdf_styles_support_a_subset_of_css_rotation_dashed_and_dotted_borders_and_some_layout_properties_are" formatted="false">"A PDF stílusok támogatják a CSS egy részhalmazát. A rendszer figyelmen kívül hagyja az elforgatást, a szaggatott és pontozott szegélyeket, valamint egyes elrendezési tulajdonságokat."</string>
-    <!-- PDF, Word, Reactive Resume, JSON Resume or LinkedIn export. -->
-    <string name="pdf_word_reactive_resume_json_resume_or_linkedin_export" formatted="false">"PDF, Word, Reactive Resume, JSON Resume vagy LinkedIn-export."</string>
+    <!-- PDF, Word, Lebenslauf2, JSON Resume or LinkedIn export. -->
+    <string name="pdf_word_lebenslauf2_json_resume_or_linkedin_export" formatted="false">"PDF, Word, Lebenslauf2, JSON Resume vagy LinkedIn-export."</string>
     <!-- {pending, plural, one {# proposed edit on this page · nothing changes until you accept} other {# proposed edits on this page · nothing changes until you accept}} -->
     <!-- Arguments: %1$s = {pending} -->
     <plurals name="pending_plural_one_proposed_edit_on_this_page_nothing_changes_until_you_accept_other_proposed_edits">
@@ -4910,8 +4888,6 @@
     <!-- Practice in {company}’s workspace -->
     <!-- Arguments: %1$s = {company} -->
     <string name="practice_in_company_s_workspace">"Gyakorlás a(z) %1$s munkaterületén"</string>
-    <!-- Practice priorities, not conclusions about why an employer decided anything. -->
-    <string name="practice_priorities_not_conclusions_about_why_an_employer_decided_anything" formatted="false">"Gyakorlási prioritások, nem következtetések arról, miért döntött bárhogy egy munkáltató."</string>
     <!-- Practice priority: -->
     <string name="practice_priority" formatted="false">"Gyakorlási prioritás:"</string>
     <!-- Practice without an application -->
@@ -5121,8 +5097,6 @@
     <string name="re_export_with_fonts_embedded_and_check_the_text_copies_out_cleanly" formatted="false">"Exportáld újra beágyazott betűtípusokkal, és ellenőrizd, hogy a szöveg tisztán másolható-e."</string>
     <!-- Re-export with fonts embedded, then open the file and check that the text copies out cleanly. -->
     <string name="re_export_with_fonts_embedded_then_open_the_file_and_check_that_the_text_copies_out_cleanly" formatted="false">"Exportáld újra beágyazott betűtípusokkal, majd nyisd meg a fájlt, és ellenőrizd, hogy a szöveg tisztán másolható-e."</string>
-    <!-- Reactive Resume -->
-    <string name="reactive_resume" formatted="false">"Reactive Resume"</string>
     <!-- Read briefing -->
     <string name="read_briefing" formatted="false">"Eligazítás elolvasása"</string>
     <!-- Read, change and delete documents and applications (legacy connection). -->
@@ -5856,8 +5830,6 @@
     <string name="search_or_run" formatted="false">"Keress vagy fuss…"</string>
     <!-- Search saved answers -->
     <string name="search_saved_answers" formatted="false">"Mentett válaszok keresése"</string>
-    <!-- Search terms go to your web search service. -->
-    <string name="search_terms_go_to_your_web_search_service" formatted="false">"A keresési kifejezések a webes keresőszolgáltatásodhoz kerülnek."</string>
     <!-- Search the web -->
     <string name="search_the_web" formatted="false">"Keresés a weben"</string>
     <!-- Search timezones -->
@@ -5935,51 +5907,8 @@
     <string name="sender_details_copied_into_the_letter" formatted="false">"A feladó adatai a levélbe másolva"</string>
     <!-- Sending… -->
     <string name="sending" formatted="false">"Küldés…"</string>
-    <!-- Sends {0} to {label}. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {label} -->
-    <string name="sends_0_to_label">"Elküldi a(z) %2$s szolgáltatónak: %1$s."</string>
-    <!-- Sends only your selected resume and up to 20 active shared facts to this connection. No application profile, saved answers or private application facts. Your provider may charge. -->
-    <string name="sends_only_your_selected_resume_and_up_to_20_active_shared_facts_to_this_connection_no_application_p" formatted="false">"Csak a kiválasztott önéletrajzod és legfeljebb 20 aktív megosztott tény kerül ehhez a kapcsolathoz. Jelentkezési profil, mentett válaszok vagy privát jelentkezési tények nem. Előfordulhat, hogy a szolgáltatód díjat számít fel."</string>
-    <!-- Sends the {0} posting to {1} · {2} to draft the body. Your provider may charge. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1}, %3$s = {2} -->
-    <string name="sends_the_0_posting_to_1_2_to_draft_the_body_your_provider_may_charge">"A(z) %1$s hirdetést elküldi ide: %2$s · %3$s, hogy megírja a szövegtörzset. Előfordulhat, hogy a szolgáltatód díjat számít fel."</string>
-    <!-- Sends the posting text to {0} to read it. -->
-    <!-- Arguments: %1$s = {0} -->
-    <string name="sends_the_posting_text_to_0_to_read_it">"A hirdetés szövegét elküldi ide: %1$s, hogy elolvassa."</string>
     <!-- Sends this application and enabled Knowledge to this connection. Your provider may charge. Scheduled work never switches to another connection automatically. -->
     <string name="sends_this_application_and_enabled_knowledge_to_this_connection_your_provider_may_charge_scheduled_w" formatted="false">"Elküldi ezt a jelentkezést és a bekapcsolt Tudástárat ehhez a kapcsolathoz. Előfordulhat, hogy a szolgáltatód díjat számít fel. Az ütemezett munka sosem vált magától másik kapcsolatra."</string>
-    <!-- Sends this letter's resume and the {0} posting to {1} · {2} to draft the body. Your provider may charge. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1}, %3$s = {2} -->
-    <string name="sends_this_letter_s_resume_and_the_0_posting_to_1_2_to_draft_the_body_your_provider_may_charge">"Elküldi a levélhez tartozó önéletrajzot és a(z) %1$s hirdetést ide: %2$s · %3$s, hogy megírja a szövegtörzset. Előfordulhat, hogy a szolgáltatód díjat számít fel."</string>
-    <!-- Sends this letter's resume to {0} · {1} to draft the body. Your provider may charge. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1} -->
-    <string name="sends_this_letter_s_resume_to_0_1_to_draft_the_body_your_provider_may_charge">"Elküldi a levélhez tartozó önéletrajzot ide: %1$s · %2$s, hogy megírja a szövegtörzset. Előfordulhat, hogy a szolgáltatód díjat számít fel."</string>
-    <!-- Sends this line, surrounding field text and your instructions to {0} · {1}. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1} -->
-    <string name="sends_this_line_surrounding_field_text_and_your_instructions_to_0_1">"Elküldi ezt a sort, a környező mezőszöveget és az utasításaidat ide: %1$s · %2$s."</string>
-    <!-- Sends this paragraph, the rest of the letter and your instructions to {0} · {1}. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1} -->
-    <string name="sends_this_paragraph_the_rest_of_the_letter_and_your_instructions_to_0_1">"Elküldi ezt a bekezdést, a levél többi részét és az utasításait ide: %1$s · %2$s."</string>
-    <!-- Sends this paragraph, the rest of the letter, the linked job posting and your instructions to {0} · {1}. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1} -->
-    <string name="sends_this_paragraph_the_rest_of_the_letter_the_linked_job_posting_and_your_instructions_to_0_1">"Elküldi ezt a bekezdést, a levél többi részét, a kapcsolt álláshirdetést és az utasításait ide: %1$s · %2$s."</string>
-    <!-- Sends this PDF to your configured AI provider instead of reading its text layer. -->
-    <string name="sends_this_pdf_to_your_configured_ai_provider_instead_of_reading_its_text_layer" formatted="false">"Ezt a PDF üzenetet elküldi a beállított AI-szolgáltatónak, ahelyett, hogy a szövegrétegét olvasná."</string>
-    <!-- Sends your message and this application (posting, notes, documents, your form answers, the saved offer and recent messages) to {label}. -->
-    <!-- Arguments: %1$s = {label} -->
-    <string name="sends_your_message_and_this_application_posting_notes_documents_your_form_answers_the_saved_offer_an">"Elküldi az üzenetedet és ezt a jelentkezést (hirdetés, jegyzetek, dokumentumok, űrlapválaszaid, a mentett ajánlat és a legutóbbi üzenetek) ide: %1$s."</string>
-    <!-- Sends your message, earlier messages and this application (posting, notes, documents, your form answers, the saved offer and recent messages) to {label}. -->
-    <!-- Arguments: %1$s = {label} -->
-    <string name="sends_your_message_earlier_messages_and_this_application_posting_notes_documents_your_form_answers_t">"Elküldi az üzenetedet, a korábbi üzeneteket és ezt a jelentkezést (hirdetés, jegyzetek, dokumentumok, űrlapválaszaid, a mentett ajánlat és a legutóbbi üzenetek) ide: %1$s."</string>
-    <!-- Sends your message, earlier messages here, this application (posting, notes, documents, your form answers, the saved offer and recent messages) and Knowledge that's switched on, to {label}. -->
-    <!-- Arguments: %1$s = {label} -->
-    <string name="sends_your_message_earlier_messages_here_this_application_posting_notes_documents_your_form_answers">"Elküldi az üzenetedet, az itteni korábbi üzeneteket, ezt a jelentkezést (álláshirdetés, jegyzetek, dokumentumok, űrlapválaszaid, a mentett ajánlat és a legutóbbi üzenetek) és a bekapcsolt Tudást a következőnek: %1$s."</string>
-    <!-- Sends your message, this application (posting, notes, documents, your form answers, the saved offer and recent messages) and Knowledge that's switched on, to {label}. -->
-    <!-- Arguments: %1$s = {label} -->
-    <string name="sends_your_message_this_application_posting_notes_documents_your_form_answers_the_saved_offer_and_re">"Elküldi az üzenetedet, ezt a jelentkezést (álláshirdetés, jegyzetek, dokumentumok, űrlapválaszaid, a mentett ajánlat és a legutóbbi üzenetek) és a bekapcsolt Tudást a következőnek: %1$s."</string>
-    <!-- Sends your resume's text only to {0} · {1}, with your key. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1} -->
-    <string name="sends_your_resume_s_text_only_to_0_1_with_your_key">"Az önéletrajz szövegét csak a %1$s · %2$s címre küldi, a kulcsával együtt."</string>
     <!-- Sent -->
     <string name="sent" formatted="false">"Küldött"</string>
     <!-- Sent: {0} -->
@@ -6129,8 +6058,8 @@
     <string name="show_less" formatted="false">"Kevesebb megjelenítése"</string>
     <!-- Show link in title -->
     <string name="show_link_in_title" formatted="false">"Link megjelenítése a címben"</string>
-    <!-- Show “Made with Reactive Resume” -->
-    <string name="show_made_with_reactive_resume" formatted="false">"„Reactive Resume-val készült” megjelenítése"</string>
+    <!-- Show “Made with Lebenslauf2” -->
+    <string name="show_made_with_lebenslauf2" formatted="false">"„Lebenslauf2-val készült” megjelenítése"</string>
     <!-- Show more -->
     <string name="show_more" formatted="false">"Mutass többet"</string>
     <!-- Show on page -->
@@ -6660,20 +6589,14 @@
     <string name="the_built_in_reader_remains_active" formatted="false">"A beépített olvasó aktív marad."</string>
     <!-- The checks are mechanical. This asks a language model how a reader might react to your bullets and suggests rewrites. It isn't part of the score. -->
     <string name="the_checks_are_mechanical_this_asks_a_language_model_how_a_reader_might_react_to_your_bullets_and_su" formatted="false">"Az ellenőrzések mechanikusak. Ez megkérdezi a nyelvi modellt, hogyan reagálhat az olvasó a listabejegyzésekre, és átírásokat javasol. Ez nem része a pontszámnak."</string>
-    <!-- The coach asks before remembering facts you state. -->
-    <string name="the_coach_asks_before_remembering_facts_you_state" formatted="false">"A coach rákérdez, mielőtt megjegyzi az általad elmondott tényeket."</string>
     <!-- The coach doesn't remember anything from your messages. -->
     <string name="the_coach_doesn_t_remember_anything_from_your_messages" formatted="false">"A coach semmit sem jegyez meg az üzeneteidből."</string>
-    <!-- The coach doesn't remember anything you write. -->
-    <string name="the_coach_doesn_t_remember_anything_you_write" formatted="false">"A coach semmit nem jegyez meg abból, amit írsz."</string>
     <!-- The coach isn't set up on this server. Whoever runs it needs to set ENCRYPTION_SECRET. -->
     <string name="the_coach_isn_t_set_up_on_this_server_whoever_runs_it_needs_to_set_encryption_secret" formatted="false">"A karriertanácsadó nincs beállítva ezen a szerveren. A szerver üzemeltetőjének meg kell adnia az ENCRYPTION_SECRET értékét."</string>
     <!-- The coach isn't set up on this server. Whoever runs it needs to set ENCRYPTION_SECRET. Knowledge, Offers and your applications work without it. -->
     <string name="the_coach_isn_t_set_up_on_this_server_whoever_runs_it_needs_to_set_encryption_secret_knowledge_offer" formatted="false">"A coach nincs beállítva ezen a szerveren. Az üzemeltetőnek be kell állítania az ENCRYPTION_SECRET értéket. A Tudástár, az Ajánlatok és a jelentkezéseid nélküle is működnek."</string>
     <!-- The coach proposes each fact in the chat. Nothing is saved until you agree. -->
     <string name="the_coach_proposes_each_fact_in_the_chat_nothing_is_saved_until_you_agree" formatted="false">"A coach minden tényt felajánl a csevegésben. Semmi sem kerül mentésre, amíg bele nem egyezel."</string>
-    <!-- The coach remembers facts you state, and tells you. -->
-    <string name="the_coach_remembers_facts_you_state_and_tells_you" formatted="false">"A coach megjegyzi az elmondott tényeidet, és szól róla."</string>
     <!-- The coach saves facts you state, and tells you. You can undo. -->
     <string name="the_coach_saves_facts_you_state_and_tells_you_you_can_undo" formatted="false">"A coach elmenti az általad közölt tényeket, és szól róla. Visszavonhatod."</string>
     <!-- The connection couldn't be loaded or saved. Try again. -->
@@ -6684,8 +6607,6 @@
     <string name="the_connection_works_turn_on_use_this_provider_to_use_it" formatted="false">"A kapcsolat működik. Kapcsold be a Szolgáltató használata opciót a használatához."</string>
     <!-- The copy gets the job's posting and keeps this resume as it is for other jobs. -->
     <string name="the_copy_gets_the_job_s_posting_and_keeps_this_resume_as_it_is_for_other_jobs" formatted="false">"A másolat megkapja az állás hirdetését, és ez az önéletrajz más állásoknál így marad."</string>
-    <!-- the cover letter for this job -->
-    <string name="the_cover_letter_for_this_job" formatted="false">"az állás motivációs levele"</string>
     <!-- The current state will be saved as “Before restore” first. -->
     <string name="the_current_state_will_be_saved_as_before_restore_first" formatted="false">"A jelenlegi állapot először „Visszaállítás előtt” néven lesz mentve."</string>
     <!-- the document -->
@@ -6694,24 +6615,18 @@
     <string name="the_editor_opens_on_check_which_checks_the_imported_resume_again" formatted="false">"A szerkesztő az Ellenőrzés lapon nyílik meg, amely újra ellenőrzi az importált önéletrajzot."</string>
     <!-- The employer may have changed it since. -->
     <string name="the_employer_may_have_changed_it_since" formatted="false">"A munkáltató azóta módosíthatta a hirdetést."</string>
-    <!-- the employer's message -->
-    <string name="the_employer_s_message" formatted="false">"a munkáltató üzenete"</string>
     <!-- The end date is before the start date. Check both dates. -->
     <string name="the_end_date_is_before_the_start_date_check_both_dates" formatted="false">"A záró dátum korábbi, mint a kezdő. Ellenőrizd mindkettőt."</string>
     <!-- The follow-up is saved. To get a reminder, allow notifications in your device settings. -->
     <string name="the_follow_up_is_saved_to_get_a_reminder_allow_notifications_in_your_device_settings" formatted="false">"A nyomon követés mentésre kerül. Ha emlékeztetőt szeretne kapni, engedélyezze az értesítéseket az eszköz beállításaiban."</string>
     <!-- The greeting follows the name. -->
     <string name="the_greeting_follows_the_name" formatted="false">"Az üdvözlés a név után következik."</string>
-    <!-- the interview details -->
-    <string name="the_interview_details" formatted="false">"az interjú részletei"</string>
     <!-- The interview is saved. To get a reminder, allow notifications in your device settings. -->
     <string name="the_interview_is_saved_to_get_a_reminder_allow_notifications_in_your_device_settings" formatted="false">"Az interjú mentésre került. Ha emlékeztetőt szeretne kapni, engedélyezze az értesítéseket az eszköz beállításaiban."</string>
     <!-- The key is encrypted on the server and never shown again. Saving tests the connection. -->
     <string name="the_key_is_encrypted_on_the_server_and_never_shown_again_saving_tests_the_connection" formatted="false">"A kulcs titkosítva van a szerveren, és soha többé nem jelenik meg. A mentés teszteli a kapcsolatot."</string>
     <!-- The key was rejected. Check the key and test again. -->
     <string name="the_key_was_rejected_check_the_key_and_test_again" formatted="false">"A kulcs elutasítva. Ellenőrizd a kulcsot, és teszteld újra."</string>
-    <!-- the last messages -->
-    <string name="the_last_messages" formatted="false">"az utolsó üzenetek"</string>
     <!-- The lead time has passed. Saving runs the briefing now. -->
     <string name="the_lead_time_has_passed_saving_runs_the_briefing_now" formatted="false">"Az előzetes indítás ideje már elmúlt. Mentéskor a tájékoztató most fut le."</string>
     <!-- The letter as it is -->
@@ -6754,10 +6669,6 @@
     <string name="the_provider_limited_this_request_wait_and_try_again_check_your_account_quota" formatted="false">"A szolgáltató korlátozta ezt a kérést. Várj, és próbáld újra; ellenőrizd a fiókod kvótáját."</string>
     <!-- The provider reported a server error. Try again later. -->
     <string name="the_provider_reported_a_server_error_try_again_later" formatted="false">"A szolgáltató szerverhibát jelzett. Próbáld újra később."</string>
-    <!-- the question and what you said -->
-    <string name="the_question_and_what_you_said" formatted="false">"a kérdés és amit mondtál"</string>
-    <!-- the question and your answer -->
-    <string name="the_question_and_your_answer" formatted="false">"a kérdés és a válaszod"</string>
     <!-- The reason is kept for Insights. Linked documents aren't touched. -->
     <string name="the_reason_is_kept_for_insights_linked_documents_aren_t_touched" formatted="false">"Az ok az Insights számára megmarad. A linkelt dokumentumokhoz nem nyúlnak hozzá."</string>
     <!-- The records aren't visible yet. Check again later. -->
@@ -6766,8 +6677,6 @@
     <string name="the_rest_of_the_file_isn_t_in_this_report" formatted="false">"A fájl többi része nem szerepel ebben a jelentésben."</string>
     <!-- The resume as it is -->
     <string name="the_resume_as_it_is" formatted="false">"Az önéletrajz úgy ahogy van"</string>
-    <!-- the resume for this job -->
-    <string name="the_resume_for_this_job" formatted="false">"az álláshoz tartozó önéletrajz"</string>
     <!-- The reviewer sees each one's stage and dates. Notes, contacts and pay stay private. -->
     <string name="the_reviewer_sees_each_one_s_stage_and_dates_notes_contacts_and_pay_stay_private" formatted="false">"Az átnéző az egyes jelentkezések szakaszát és dátumait látja. A jegyzetek, kapcsolattartók és a fizetés privátok maradnak."</string>
     <!-- The same line repeats on every page. -->
@@ -6776,8 +6685,6 @@
     <string name="the_saved_key_isn_t_sent_to_a_new_base_url_enter_it_again" formatted="false">"A mentett kulcsot nem küldi el új alap URL-re. Írja be újra a kulcsot."</string>
     <!-- The saved key isn't sent to a new base URL. Enter it again if this server needs one. -->
     <string name="the_saved_key_isn_t_sent_to_a_new_base_url_enter_it_again_if_this_server_needs_one" formatted="false">"A mentett kulcsot nem küldi el új alap URL-re. Adja meg újra a kulcsot, ha a szervernek kulcsra van szüksége."</string>
-    <!-- the saved offer -->
-    <string name="the_saved_offer" formatted="false">"a mentett ajánlat"</string>
     <!-- The score counts how reliably software reads your resume. It doesn't predict whether you'll be shortlisted. -->
     <string name="the_score_counts_how_reliably_software_reads_your_resume_it_doesn_t_predict_whether_you_ll_be_shortl" formatted="false">"A pontszám azt számolja, hogy a szoftver mennyire megbízhatóan olvassa be az önéletrajzát. Nem jósolja meg, hogy bekerülsz-e a rövidlistára."</string>
     <!-- The score reflects how reliably text is extracted, not your chances. -->
@@ -6963,8 +6870,6 @@
     <string name="this_pdf_is_a_scanned_image_there_s_no_text_to_read_try_the_word_version_or_start_blank_and_paste_se" formatted="false">"Ez a PDF egy beszkennelt kép. Nincs olvasnivaló szöveg. Próbálja ki a Word verziót, vagy kezdje üresen, és illessze be a szakaszokat."</string>
     <!-- This PDF is password protected. Save an unprotected copy and try again. -->
     <string name="this_pdf_is_password_protected_save_an_unprotected_copy_and_try_again" formatted="false">"Ez a PDF jelszóval védett. Mentsd el egy nem védett másolatként, és próbáld újra."</string>
-    <!-- this posting -->
-    <string name="this_posting" formatted="false">"ez a hirdetés"</string>
     <!-- This question couldn't be asked. Send a new message to continue. -->
     <string name="this_question_couldn_t_be_asked_send_a_new_message_to_continue" formatted="false">"Ezt a kérdést nem sikerült feltenni. A folytatáshoz küldj új üzenetet."</string>
     <!-- This question didn't finish. -->
@@ -7399,8 +7304,8 @@
     <string name="use_url">"Használja a %1$s-t"</string>
     <!-- Use web access? -->
     <string name="use_web_access" formatted="false">"Webes hozzáférés használata?"</string>
-    <!-- Use your browser’s Share action to send one posting URL or selected text to Reactive Resume. Receiving shares requires the latest store build; URL and paste import remain available. -->
-    <string name="use_your_browsers_share_action_to_send_one_posting_url_or_selected_text_to_reactive_resume_receiving" formatted="false">"A böngésző Megosztás funkciójával küldj el egy hirdetés URL-jét vagy kijelölt szövegét a Reactive Resume-nak. A megosztások fogadásához a legfrissebb áruházi build kell; az URL- és beillesztéses import továbbra is elérhető."</string>
+    <!-- Use your browser’s Share action to send one posting URL or selected text to Lebenslauf2. Receiving shares requires the latest store build; URL and paste import remain available. -->
+    <string name="use_your_browsers_share_action_to_send_one_posting_url_or_selected_text_to_lebenslauf2_receiving_sha" formatted="false">"A böngésző Megosztás funkciójával küldj el egy hirdetés URL-jét vagy kijelölt szövegét a Lebenslauf2-nak. A megosztások fogadásához a legfrissebb áruházi build kell; az URL- és beillesztéses import továbbra is elérhető."</string>
     <!-- Use your editor's normal bullet list, so stray glyphs do not land mid-sentence. -->
     <string name="use_your_editor_s_normal_bullet_list_so_stray_glyphs_do_not_land_mid_sentence" formatted="false">"Használd a szerkesztőd normál felsorolásfunkcióját, hogy elkóborolt karakterjelek ne kerüljenek mondat közepére."</string>
     <!-- Used: {summary} -->
@@ -7630,9 +7535,6 @@
     <string name="when_would_you_start" formatted="false">"Mikor tudnál kezdeni?"</string>
     <!-- When you're done, the browser closes and you come back here. -->
     <string name="when_you_re_done_the_browser_closes_and_you_come_back_here" formatted="false">"Ha végzett, a böngésző bezárul, és visszatér ide."</string>
-    <!-- When you tap send, {list} go to your {connection}. -->
-    <!-- Arguments: %1$s = {list}, %2$s = {connection} -->
-    <string name="when_you_tap_send_list_go_to_your_connection">"Ha a küldésre koppintasz, ezek a(z) %2$s kapcsolathoz kerülnek: %1$s."</string>
     <!-- Where applications come from -->
     <string name="where_applications_come_from" formatted="false">"Honnan érkeznek a jelentkezések"</string>
     <!-- Where you want to work -->
@@ -7661,8 +7563,6 @@
     <string name="width" formatted="false">"Szélesség"</string>
     <!-- Willing to relocate -->
     <string name="willing_to_relocate" formatted="false">"Nyitott az átköltözésre"</string>
-    <!-- With Knowledge off, nothing you write is remembered. -->
-    <string name="with_knowledge_off_nothing_you_write_is_remembered" formatted="false">"Kikapcsolt Tudástárral semmi nem marad meg abból, amit írsz."</string>
     <!-- Within your office-day limit. -->
     <string name="within_your_office_day_limit" formatted="false">"Az irodai munkanapon belül."</string>
     <!-- Without a fact, the coach and practice can't use this story. -->
@@ -7843,8 +7743,6 @@
     <string name="your_changes_on_this_device_will_be_replaced_by_the_saved_version" formatted="false">"Az ezen az eszközön végzett módosítások helyébe a mentett verzió lép."</string>
     <!-- Your contact details are not on the first page. -->
     <string name="your_contact_details_are_not_on_the_first_page" formatted="false">"Az elérhetőségeid nem az első oldalon vannak."</string>
-    <!-- your contacts -->
-    <string name="your_contacts" formatted="false">"a kapcsolattartóid"</string>
     <!-- Your data -->
     <string name="your_data" formatted="false">"Az Ön adatai"</string>
     <!-- Your dates are written several different ways. -->
@@ -7865,22 +7763,18 @@
     <string name="your_facts_stories_and_preferences_editing_knowledge_sends_nothing_to_an_ai_connection" formatted="false">"Az Ön tényei, történetei és preferenciái. A Tudástár szerkesztése nem küld semmit az AI-kapcsolatnak."</string>
     <!-- Your focus -->
     <string name="your_focus" formatted="false">"A fókuszod"</string>
-    <!-- your form answers -->
-    <string name="your_form_answers" formatted="false">"az űrlapválaszaid"</string>
     <!-- Your headings look the same as your body text. -->
     <string name="your_headings_look_the_same_as_your_body_text" formatted="false">"A címsoraid ugyanúgy néznek ki, mint a törzsszöveged."</string>
     <!-- Your job search starts here -->
     <string name="your_job_search_starts_here" formatted="false">"Az álláskeresésed itt indul"</string>
     <!-- your Knowledge -->
     <string name="your_knowledge" formatted="false">"a Tudástárad"</string>
-    <!-- Your language is saved. Restart Reactive Resume to apply the new left-to-right or right-to-left layout. -->
-    <string name="your_language_is_saved_restart_reactive_resume_to_apply_the_new_left_to_right_or_right_to_left_layou" formatted="false">"Nyelve elmentve. Indítsa újra a(z) Reactive Resume programot az új balról jobbra vagy jobbról balra elrendezés alkalmazásához."</string>
+    <!-- Your language is saved. Restart Lebenslauf2 to apply the new left-to-right or right-to-left layout. -->
+    <string name="your_language_is_saved_restart_lebenslauf2_to_apply_the_new_left_to_right_or_right_to_left_layout" formatted="false">"Nyelve elmentve. Indítsa újra a(z) Lebenslauf2 programot az új balról jobbra vagy jobbról balra elrendezés alkalmazásához."</string>
     <!-- Your lines are packed very tightly. -->
     <string name="your_lines_are_packed_very_tightly" formatted="false">"A soraid nagyon szorosan vannak csomagolva."</string>
     <!-- Your margins are very narrow. -->
     <string name="your_margins_are_very_narrow" formatted="false">"A margóid nagyon keskenyek."</string>
-    <!-- your message -->
-    <string name="your_message" formatted="false">"az üzeneted"</string>
     <!-- Your message is kept. -->
     <string name="your_message_is_kept" formatted="false">"Az üzeneted megmaradt."</string>
     <!-- Your name -->
@@ -7911,9 +7805,6 @@
     <string name="your_public_links_begin_with_server">"Nyilvános linkjei a következővel kezdődnek: %1$s/"</string>
     <!-- Your public links will change -->
     <string name="your_public_links_will_change" formatted="false">"A nyilvános linkeid meg fognak változni"</string>
-    <!-- Your recording goes to {transcriberName} after you stop, to be transcribed. Your provider may charge. The server keeps transcripts, never recordings. -->
-    <!-- Arguments: %1$s = {transcriberName} -->
-    <string name="your_recording_goes_to_transcribername_after_you_stop_to_be_transcribed_your_provider_may_charge_the">"A felvétel leállítása után a következő helyre kerül: %1$s, hogy átírják. A szolgáltató díjat számíthat fel. A szerver megőrzi az átiratokat, nem rögzít felvételeket."</string>
     <!-- Your request and relevant resume, letter, job posting, application, career information, conversation history, and attachments are sent through your server to this AI provider, according to the feature and context you selected. They can contain personal information. -->
     <string name="your_request_and_relevant_resume_letter_job_posting_application_career_information_conversation_hist" formatted="false">"Kérelmét és releváns önéletrajzát, levelét, álláshirdetését, jelentkezését, karrierinformációit, beszélgetési előzményeit és mellékleteit az Ön szerverén keresztül küldjük el ennek a mesterségesintelligencia-szolgáltatónak, a kiválasztott funkciónak és kontextusnak megfelelően. Személyes adatokat tartalmazhatnak."</string>
     <!-- Your requirements -->
@@ -7958,8 +7849,6 @@
     <string name="your_short_link_points_to_0_which_isn_t_published">"A rövid linked ezt mutatja: „%1$s”, ami nincs közzétéve."</string>
     <!-- Your short link says this resume isn't shared until you publish it again. -->
     <string name="your_short_link_says_this_resume_isn_t_shared_until_you_publish_it_again" formatted="false">"A rövid linked szerint ez az önéletrajz nincs megosztva, amíg újra nem teszed közzé."</string>
-    <!-- your stories -->
-    <string name="your_stories" formatted="false">"a történeteid"</string>
     <!-- Your story couldn't be loaded. -->
     <string name="your_story_couldn_t_be_loaded" formatted="false">"A történetedet nem sikerült betölteni."</string>
     <!-- Your tags -->

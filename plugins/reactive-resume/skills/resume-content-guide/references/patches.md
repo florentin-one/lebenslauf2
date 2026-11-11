@@ -1,4 +1,4 @@
-# Reactive Resume patch recipes
+# Lebenslauf2 patch recipes
 
 Contents:
 

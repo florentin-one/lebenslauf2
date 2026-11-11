@@ -101,7 +101,7 @@ class SettingsViewModelTest {
         assertTrue(
             validProfile(
                 ProfileData(
-                    email = JsonPrimitive("alex@example.invalid"),
+                    email = JsonPrimitive("beier.laura@mh-hannover.de"),
                     requestedSalary = Salary(70000.0, "EUR", CreateCareerOfferRequestPeriod.Year),
                 )
             )

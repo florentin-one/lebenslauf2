@@ -71,7 +71,7 @@ function LetterDownloadTab() {
 			: []),
 		...others.map((option) =>
 			option.id === "json"
-				? { ...option, description: t`A backup of this letter. Imports back into Reactive Resume as a letter.` }
+				? { ...option, description: t`A backup of this letter. Imports back into Lebenslauf2 as a letter.` }
 				: option.id === "md"
 					? // A letter has no headings.
 						{ ...option, description: t`Plain text. Paste into application forms and emails.` }

@@ -149,4 +149,4 @@ Reply with the numbers to act on. I change nothing until then.
 - CareerPlug, Recruiting metrics and KPIs (2025 report).
 - van Hooft et al. (2021), Journal of Applied Psychology, doi:10.1037/apl0000675.
 - Liu, Huang & Wang (2014), Psychological Bulletin, job-search intervention meta-analysis.
-- Reactive Resume source: `get_application_stats` output shape (`packages/api/src/dto/application.ts`).
+- Lebenslauf2 source: `get_application_stats` output shape (`packages/api/src/dto/application.ts`).

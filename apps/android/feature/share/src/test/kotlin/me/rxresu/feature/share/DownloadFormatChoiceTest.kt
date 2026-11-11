@@ -24,7 +24,7 @@ class DownloadFormatChoiceTest : RrScreenshotTest() {
         rule.setContent {
             RrTheme(reducedMotion = true) {
                 Box(Modifier.fillMaxSize()) {
-                    DownloadContent(ExportState(name = "Alex Morgan Resume", format = format), DocumentKind.Resume, { format = it }, {})
+                    DownloadContent(ExportState(name = "Laura Beier Resume", format = format), DocumentKind.Resume, { format = it }, {})
                 }
             }
         }

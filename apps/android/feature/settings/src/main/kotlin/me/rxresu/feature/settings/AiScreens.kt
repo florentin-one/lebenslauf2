@@ -27,7 +27,7 @@ internal fun AiScreen(
     edit: (String?) -> Unit = {},
     reload: () -> Unit = {},
     browser: (String) -> Unit = {},
-    server: String = "https://rxresu.me",
+    server: String = "https://lebenslauf2.florentin-one.de",
     nextSteps: @Composable () -> Unit = {},
     developer: (String) -> Unit = {},
 ) {

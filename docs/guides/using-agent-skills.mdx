@@ -3,13 +3,13 @@ title: "Using agent skills"
 description: "Install 32 resume and career skills in Claude, Codex, Cursor and other AI agents, including writing workflows and guides for fourteen professions."
 ---
 
-Reactive Resume publishes 32 agent skills for resume writing and the job search. They cover complete text drafts, importable resumes, evidence gathering, proofreading, career changes, academic CVs, fourteen role families, cover letters, LinkedIn profiles, portfolios, applications, interviews and offers. This guide explains how to install them and choose the right workflow.
+Lebenslauf2 publishes 32 agent skills for resume writing and the job search. They cover complete text drafts, importable resumes, evidence gathering, proofreading, career changes, academic CVs, fourteen role families, cover letters, LinkedIn profiles, portfolios, applications, interviews and offers. This guide explains how to install them and choose the right workflow.
 
 Start with [writing and career situations](#writing-and-career-situations), [resumes by role](#resumes-by-role), or [supporting application content](#supporting-application-content). The original building, tailoring and job-search workflows remain available below.
 
 <CardGroup cols={2}>
   <Card title="resume-builder" icon="file-plus" href="#resume-builder">
-    Builds a new resume as Reactive Resume JSON you can import.
+    Builds a new resume as Lebenslauf2 JSON you can import.
   </Card>
   <Card title="resume-content-guide" icon="list-checks" href="#resume-content-guide">
     Decides what goes on your resume and audits the one you have.
@@ -42,31 +42,31 @@ Skills, the [MCP server](/guides/using-the-mcp-server) and the in-app [assistant
 
 |                                       | Agent skills                                                    | MCP server                                                                 | In-app assistant                                |
 | ------------------------------------- | --------------------------------------------------------------- | -------------------------------------------------------------------------- | ----------------------------------------------- |
-| What it is                            | Instructions for a workflow                                     | Tools that read and change your Reactive Resume data                       | A chat panel beside your document in the editor |
-| Where it runs                         | Your agent: Claude Code, the Claude apps, Codex, Cursor, others | Any MCP client                                                             | Reactive Resume                                 |
-| Needs a Reactive Resume account       | No                                                              | Yes                                                                        | Yes                                             |
-| Which AI does the work                | Your agent's model                                              | Your client's model; a few tools use the AI provider you set up in the app | The AI provider you connect in Reactive Resume  |
+| What it is                            | Instructions for a workflow                                     | Tools that read and change your Lebenslauf2 data                           | A chat panel beside your document in the editor |
+| Where it runs                         | Your agent: Claude Code, the Claude apps, Codex, Cursor, others | Any MCP client                                                             | Lebenslauf2                                     |
+| Needs a Lebenslauf2 account           | No                                                              | Yes                                                                        | Yes                                             |
+| Which AI does the work                | Your agent's model                                              | Your client's model; a few tools use the AI provider you set up in the app | The AI provider you connect in Lebenslauf2      |
 | How it changes your resume or tracker | Through MCP tools, after you approve                            | When the client calls a write tool                                         | Only the edits you accept                       |
 
-Skills work on their own: paste your resume or a job posting and you get text, a table or a JSON file back. When your agent is also connected to the MCP server, the skills use its tools to read your resumes and applications and, after you say yes, write changes back. The skills ask before using a Reactive Resume tool that sends your data to your AI provider, such as match scores, the AI-tailored summary and drafted letters.
+Skills work on their own: paste your resume or a job posting and you get text, a table or a JSON file back. When your agent is also connected to the MCP server, the skills use its tools to read your resumes and applications and, after you say yes, write changes back. The skills ask before using a Lebenslauf2 tool that sends your data to your AI provider, such as match scores, the AI-tailored summary and drafted letters.
 
 ## Install the skills
 
-The skills live in the [`plugins/reactive-resume/skills` folder](https://github.com/reactive-resume/reactive-resume/tree/main/plugins/reactive-resume/skills) of the Reactive Resume repository, one folder per skill. Install the collection or choose the skills you need. Each works independently; related skills can help with the next task when installed.
+The skills live in the [`plugins/reactive-resume/skills` folder](https://github.com/reactive-resume/lebenslauf2/tree/main/plugins/reactive-resume/skills) of the Lebenslauf2 repository, one folder per skill. Install the collection or choose the skills you need. Each works independently; related skills can help with the next task when installed.
 
 <Note>Keep each skill's folder whole. The `references` folder inside it holds detail the skill reads on demand.</Note>
 
 ### As a plugin (Claude Code and Codex)
 
-The Reactive Resume plugin installs all 32 skills and connects the [MCP server](/guides/using-the-mcp-server) in one step. Your agent asks you to sign in to Reactive Resume the first time a skill needs your data.
+The Lebenslauf2 plugin installs all 32 skills and connects the [MCP server](/guides/using-the-mcp-server) in one step. Your agent asks you to sign in to Lebenslauf2 the first time a skill needs your data.
 
 <Tabs>
   <Tab title="Claude Code">
     ```sh
-    claude plugin install reactive-resume --marketplace reactive-resume/reactive-resume
+    claude plugin install lebenslauf2 --marketplace reactive-resume/lebenslauf2
     ```
 
-    Or, inside a session, run `/plugin marketplace add reactive-resume/reactive-resume`, then `/plugin install reactive-resume@reactive-resume`. Plugin skills are namespaced, so you call one directly as `/reactive-resume:resume-tailor`. Run `/mcp` to sign in to the server.
+    Or, inside a session, run `/plugin marketplace add reactive-resume/lebenslauf2, then /plugin install reactive-resume@lebenslauf2`. Plugin skills are namespaced, so you call one directly as `/reactive-resume:resume-tailor`. Run `/mcp` to sign in to the server.
 
   </Tab>
   <Tab title="Codex">
@@ -81,7 +81,7 @@ The Reactive Resume plugin installs all 32 skills and connects the [MCP server](
   </Tab>
 </Tabs>
 
-The plugin connects to the hosted instance at `https://rxresu.me/mcp`. If you self-host, install the skills on their own (below) and connect your own instance with `npx add-mcp <your-app-url>/mcp --name reactive-resume`.
+The plugin connects to the hosted instance at `https://lebenslauf2go.de/mcp`. If you self-host, install the skills on their own (below) and connect your own instance with `npx add-mcp <your-app-url>/mcp --name reactive-resume`.
 
 ### With the skills CLI
 
@@ -172,8 +172,8 @@ Menu names can change. If yours differ, follow Anthropic's [Using skills in Clau
 
 Copy the skill folders into one of these folders, or use the skills CLI with the matching `-a` value.
 
-| Agent          | For all your projects                             | For one project                                        | How skills start                                                    |
-| -------------- | ------------------------------------------------- | ------------------------------------------------------ | ------------------------------------------------------------------- |
+| Agent          | For all your projects                           | For one project                                      | How skills start                                                    |
+| -------------- | ----------------------------------------------- | ---------------------------------------------------- | ------------------------------------------------------------------- |
 | Codex          | `~/.trae/skills`                                | `.trae/skills`                                       | Automatically, or with `$skill-name`; restart if one doesn't appear |
 | Cursor         | `~/.cursor/skills` or `~/.trae/skills`          | `.cursor/skills` or `.trae/skills`                   | Automatically, or with `/skill-name`                                |
 | GitHub Copilot | `~/.copilot/skills` or `~/.trae/skills`         | `.github/skills`, `.trae/skills` or `.claude/skills` | Automatically, or with `/skill-name`                                |
@@ -190,10 +190,10 @@ gemini skills install https://github.com/reactive-resume/reactive-resume.git --p
 
 ### Connect the MCP server (optional)
 
-To let the skills read and update your resumes and applications, connect your agent to the Reactive Resume MCP server:
+To let the skills read and update your resumes and applications, connect your agent to the Lebenslauf2 MCP server:
 
 ```sh
-npx add-mcp https://rxresu.me/mcp --name reactive-resume
+npx add-mcp https://lebenslauf2go.de/mcp --name reactive-resume
 ```
 
 If you self-host, use your own instance's `/mcp` address. Then sign in from your agent; [Using the MCP server](/guides/using-the-mcp-server) has the steps for each client. Without the server, the skills work from what you paste into the chat.
@@ -213,7 +213,7 @@ These skills produce text you can review and paste into your resume. They ask fo
 | `career-change-resume`     | Moving between professions, military-to-civilian transitions and return-to-work pivots. | “Help me move from teaching into workplace learning without overstating my experience.” |
 | `academic-cv`              | Research, postdoctoral, faculty and teaching appointments.                              | “Organize my publications, teaching and grants into an academic CV.”                    |
 
-Use resume-content-guide when deciding what belongs or asking about country conventions. Use resume-bullet-writer when individual bullets need stronger evidence. Resume-builder handles the Reactive Resume JSON structure after the content is ready.
+Use resume-content-guide when deciding what belongs or asking about country conventions. Use resume-bullet-writer when individual bullets need stronger evidence. Resume-builder handles the Lebenslauf2 JSON structure after the content is ready.
 
 ### Resumes by role
 
@@ -251,18 +251,18 @@ These skills draft content; they do not submit forms, send messages or publish p
 
 ### resume-builder
 
-Builds a complete resume from scratch as Reactive Resume JSON. It asks for your contact details, then each section you want (experience, education, skills, projects and others), then a template and page size (A4 or Letter). It asks for anything missing instead of inventing it, and produces valid JSON with structured dates and formatted descriptions.
+Builds a complete resume from scratch as Lebenslauf2 JSON. It asks for your contact details, then each section you want (experience, education, skills, projects and others), then a template and page size (A4 or Letter). It asks for anything missing instead of inventing it, and produces valid JSON with structured dates and formatted descriptions.
 
-- **Use it when** you're starting from nothing, want your work history turned into Reactive Resume JSON, or have a question about the resume schema, sections, templates or layout.
-- **You get** a JSON file you can [import](/guides/importing-resumes) into Reactive Resume.
+- **Use it when** you're starting from nothing, want your work history turned into Lebenslauf2 JSON, or have a question about the resume schema, sections, templates or layout.
+- **You get** a JSON file you can [import](/guides/importing-resumes) into Lebenslauf2.
 - **It needs** your real details: names, dates, employers and what you did.
 - **With MCP** it offers to create the resume in your account directly, after you approve.
 
 Try:
 
 - "Build me a resume from scratch. I'm an ICU nurse with six years' experience."
-- "Turn this work history into Reactive Resume JSON I can import."
-- "How do I add a custom section in Reactive Resume JSON?"
+- "Turn this work history into Lebenslauf2 JSON I can import."
+- "How do I add a custom section in Lebenslauf2 JSON?"
 
 ### resume-content-guide
 
@@ -348,7 +348,7 @@ Plays the interviewer for one specific job. Choose the round (recruiter screen, 
 - **Use it when** you say "mock interview me", "interview me for this job", "practice interview", "grill me for this role", "run a behavioral round", "quick recruiter screen" or "system design mock".
 - **You get** practice plus a report: scores per competency with quotes, one priority for next time, and a model answer for your weakest question rebuilt only from what you said. Scores are coaching signals, not a prediction of an offer.
 - **It needs** the job description, or at least the role, level and company. Your resume and a question you dread are optional.
-- **With MCP** it loads the application, the resume version you sent, your stories and any briefing, and after the session offers to log a note and save improved stories. It needs no AI provider in Reactive Resume.
+- **With MCP** it loads the application, the resume version you sent, your stories and any briefing, and after the session offers to log a note and save improved stories. It needs no AI provider in Lebenslauf2.
 
 Try:
 
@@ -378,8 +378,8 @@ Your agent picks a skill from your words, so similar requests can go to differen
 | You say                                                               | Skill that runs         | Then                                                                                           |
 | --------------------------------------------------------------------- | ----------------------- | ---------------------------------------------------------------------------------------------- |
 | "Write a resume from these notes."                                    | resume-writer           | A role skill for professional emphasis; resume-proofreader for a final edit                    |
-| "Build an importable Reactive Resume JSON file."                      | resume-builder          | resume-content-guide to check what belongs                                                     |
-| "How do I add a custom section in Reactive Resume JSON?"              | resume-builder          |                                                                                                |
+| "Build an importable Lebenslauf2 JSON file."                          | resume-builder          | resume-content-guide to check what belongs                                                     |
+| "How do I add a custom section in Lebenslauf2 JSON?"                  | resume-builder          |                                                                                                |
 | "Review my resume." / "Audit my resume." (no particular job)          | resume-content-guide    | resume-bullet-writer for the bullets it flags                                                  |
 | "Rewrite my summary." / "Fix my headline." (no particular job)        | resume-writer           | With a posting, resume-tailor rewrites both for that job                                       |
 | "Should I put my photo on my CV for a job in Germany?"                | resume-content-guide    |                                                                                                |
@@ -431,7 +431,7 @@ Here is how the skills hand off across one search. Each skill suggests the next 
 <Steps>
   <Step title="Build">
     "Write a resume from my work history." resume-writer or a role skill drafts the content. If you need importable
-    JSON, resume-builder structures it for Reactive Resume. With MCP and your approval, it creates the resume in your
+    JSON, resume-builder structures it for Lebenslauf2. With MCP and your approval, it creates the resume in your
     account.
   </Step>
   <Step title="Check the content">
@@ -466,7 +466,7 @@ Here is how the skills hand off across one search. Each skill suggests the next 
   </Step>
 </Steps>
 
-With the MCP server connected, this context carries over through your Reactive Resume account: the resume copies, the application and its timeline, and the stories and facts you chose to save. Without it, each skill gives you a block of text (a facts ledger, story cards, a tracker table) to paste into your next conversation.
+With the MCP server connected, this context carries over through your Lebenslauf2 account: the resume copies, the application and its timeline, and the stories and facts you chose to save. Without it, each skill gives you a block of text (a facts ledger, story cards, a tracker table) to paste into your next conversation.
 
 ## What every skill does
 

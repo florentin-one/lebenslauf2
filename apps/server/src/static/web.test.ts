@@ -3,7 +3,7 @@ import fs from "node:fs/promises";
 import { beforeEach, describe, expect, it, vi } from "vite-plus/test";
 
 const mocks = vi.hoisted(() => ({
-	env: { APP_URL: "https://rxresu.me", FONT_MIRROR_URL: undefined as string | undefined },
+	env: { APP_URL: "https://lebenslauf2.florentin-one.de", FONT_MIRROR_URL: undefined as string | undefined },
 	serveStatic: vi.fn(() => vi.fn()),
 }));
 
@@ -41,7 +41,7 @@ it("builds font-src with the application and configured mirror origins", () => {
 });
 
 const searchLink =
-	'<https://context7.com/api/v2/ask?siteKey=ask_b3fd9335a63f1b21b1a814ac>; rel="search"; type="text/plain"; title="Search rxresu.me"';
+	'<https://context7.com/api/v2/ask?siteKey=ask_b3fd9335a63f1b21b1a814ac>; rel="search"; type="text/plain"; title="Search lebenslauf2.me"';
 
 describe("web app fallback classification", () => {
 	beforeEach(() => {
@@ -51,12 +51,12 @@ describe("web app fallback classification", () => {
 
 	it.each(["/", "/dashboard"])("advertises Context7 Ask in server-rendered %s and its HEAD response", async (path) => {
 		vi.mocked(fs.readFile).mockResolvedValue('<html><head></head><body><div id="app"></div></body></html>');
-		const response = await handleWebApp(new Request(`https://rxresu.me${path}`));
+		const response = await handleWebApp(new Request(`https://lebenslauf2.florentin-one.de${path}`));
 		const html = await response.text();
 		expect(html).toContain('<meta name="context7-site-verification" content="ask_b3fd9335a63f1b21b1a814ac"></head>');
 		expect(html).toContain('</blockquote><div id="app"></div>');
 		expect(response.headers.get("Link")).toBe(searchLink);
-		const head = await handleWebApp(new Request(`https://rxresu.me${path}`, { method: "HEAD" }));
+		const head = await handleWebApp(new Request(`https://lebenslauf2.florentin-one.de${path}`, { method: "HEAD" }));
 		expect(head.headers.get("Link")).toBe(searchLink);
 		expect(await head.text()).toBe("");
 	});
@@ -66,10 +66,10 @@ describe("web app fallback classification", () => {
 			<!doctype html>
 			<html>
 				<head>
-					<title>Reactive Resume — A free and open-source resume builder</title>
+					<title>Lebenslauf2 — A free and open-source resume builder</title>
 					<meta
 						name="description"
-						content="Reactive Resume is a free and open-source resume builder that makes it easy to create, update, and share your resume."
+						content="Lebenslauf2 is a free and open-source resume builder that makes it easy to create, update, and share your resume."
 					>
 				</head>
 				<body><div id="app"></div></body>
@@ -79,13 +79,13 @@ describe("web app fallback classification", () => {
 		const response = await handleWebApp(new Request("http://server.internal/?utm_source=search"));
 		const html = await response.text();
 
-		expect(html).toContain('<link rel="canonical" href="https://rxresu.me/">');
-		expect(html).toContain('<meta property="og:url" content="https://rxresu.me/">');
+		expect(html).toContain('<link rel="canonical" href="https://lebenslauf2.florentin-one.de/">');
+		expect(html).toContain('<meta property="og:url" content="https://lebenslauf2.florentin-one.de/">');
 		expect(html).toContain('<script type="application/ld+json">');
 		expect(html).toContain(
-			'<meta property="og:description" content="Reactive Resume is a free and open-source resume builder that makes it easy to create, update, and share your resume.">',
+			'<meta property="og:description" content="Lebenslauf2 is a free and open-source resume builder that makes it easy to create, update, and share your resume.">',
 		);
-		expect(html).toContain('"contactType":"support","email":"amruth@rxresu.me"');
+		expect(html).toContain('"contactType":"support","email":"amruth@lebenslauf2.me"');
 		expect(html).not.toContain("utm_source");
 
 		const dashboardResponse = await handleWebApp(new Request("https://example.com/dashboard"));
@@ -114,14 +114,14 @@ describe("web app fallback classification", () => {
 		const german = await handleWebApp(new Request("https://example.com/?locale=de-DE"));
 		const html = await german.text();
 		expect(html).toContain('<div id="app">de-DE</div>');
-		expect(html).toContain('<link rel="canonical" href="https://rxresu.me/?locale=de-DE">');
-		expect(html).toContain('<link rel="alternate" hreflang="x-default" href="https://rxresu.me/">');
+		expect(html).toContain('<link rel="canonical" href="https://lebenslauf2.florentin-one.de/?locale=de-DE">');
+		expect(html).toContain('<link rel="alternate" hreflang="x-default" href="https://lebenslauf2.florentin-one.de/">');
 		expect(german.headers.get("Vary")).toBe("Cookie");
 
 		const saved = new Request("https://example.com/", { headers: { cookie: "theme=dark; locale=ar-SA" } });
 		const savedHtml = await (await handleWebApp(saved)).text();
 		expect(savedHtml).toContain('<div id="app">ar-SA</div>');
-		expect(savedHtml).toContain('<link rel="canonical" href="https://rxresu.me/">');
+		expect(savedHtml).toContain('<link rel="canonical" href="https://lebenslauf2.florentin-one.de/">');
 
 		// Only known locales name a file, so the parameter can't point anywhere else.
 		const unknown = await handleWebApp(new Request("https://example.com/?locale=../../index"));
@@ -147,8 +147,12 @@ describe("web app fallback classification", () => {
 		vi.mocked(fs.readFile).mockImplementation((path) =>
 			Promise.resolve(`<html><head></head><body>${String(path)}</body></html>`),
 		);
-		const german = await handleWebApp(new Request("https://rxresu.me/", { headers: { "accept-language": "de-DE" } }));
-		const french = await handleWebApp(new Request("https://rxresu.me/", { headers: { "accept-language": "fr-FR" } }));
+		const german = await handleWebApp(
+			new Request("https://lebenslauf2.florentin-one.de/", { headers: { "accept-language": "de-DE" } }),
+		);
+		const french = await handleWebApp(
+			new Request("https://lebenslauf2.florentin-one.de/", { headers: { "accept-language": "fr-FR" } }),
+		);
 		const body = await german.text();
 		expect(body).toContain("home/en-US.html");
 		expect(await french.text()).toBe(body);
@@ -169,7 +173,7 @@ describe("web app fallback classification", () => {
 		expect(html).toContain('href="/?locale=de-DE&amp;campaign=independent&amp;tag=a&amp;tag=b&amp;empty=#languages"');
 		expect(html).toContain('href="/?locale=en-US&amp;campaign=independent&amp;tag=a&amp;tag=b&amp;empty=#languages"');
 		expect(html).toContain('<a href="/auth/login">Sign in</a>');
-		expect(html).toContain('<link rel="canonical" href="https://rxresu.me/?locale=ar-SA">');
+		expect(html).toContain('<link rel="canonical" href="https://lebenslauf2.florentin-one.de/?locale=ar-SA">');
 		expect(response.headers.get("Vary")).toBe("Cookie");
 	});
 
@@ -198,7 +202,7 @@ describe("web app fallback classification", () => {
 		"serves the %s page as an indexable shell rather than a 404",
 		async (path) => {
 			vi.mocked(fs.readFile).mockResolvedValue(
-				`<html><head><title>Reactive Resume — A free and open-source resume builder</title><meta name="description" content="Marketing copy."></head><body></body></html>`,
+				`<html><head><title>Lebenslauf2 — A free and open-source resume builder</title><meta name="description" content="Marketing copy."></head><body></body></html>`,
 			);
 
 			const response = await handleWebApp(new Request(`https://example.com/${path}`));
@@ -221,7 +225,9 @@ describe("web app fallback classification", () => {
 		const html = await (await handleWebApp(new Request("https://example.com/ats-checker?locale=de-DE"))).text();
 
 		expect(html).toContain('<div id="app">de-DE</div>');
-		expect(html).toContain('<link rel="canonical" href="https://rxresu.me/ats-checker?locale=de-DE">');
+		expect(html).toContain(
+			'<link rel="canonical" href="https://lebenslauf2.florentin-one.de/ats-checker?locale=de-DE">',
+		);
 		expect(html).toContain('<meta property="og:title" content="ATS-Prüfung &amp; mehr">');
 		expect(html).toContain('<meta property="og:locale" content="de_DE">');
 	});

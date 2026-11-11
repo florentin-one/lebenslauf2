@@ -61,7 +61,7 @@ export function LandingHeader({ story = true }: LandingHeaderProps) {
 					className={cn("hidden size-[30px] dark:block", night && "block")}
 				/>
 				{/* The wordmark stays in the DOM for screen readers and crawlers; the logomark is what shows. */}
-				<span className="sr-only">Reactive Resume</span>
+				<span className="sr-only">Lebenslauf2</span>
 			</a>
 
 			{story && (
@@ -142,10 +142,10 @@ function GithubLink() {
 
 	const label =
 		stars == null
-			? t`Star Reactive Resume on GitHub`
+			? t`Star Lebenslauf2 on GitHub`
 			: plural(stars, {
-					one: "Star Reactive Resume on GitHub, # star",
-					other: "Star Reactive Resume on GitHub, # stars",
+					one: "Star Lebenslauf2 on GitHub, # star",
+					other: "Star Lebenslauf2 on GitHub, # stars",
 				});
 
 	return (

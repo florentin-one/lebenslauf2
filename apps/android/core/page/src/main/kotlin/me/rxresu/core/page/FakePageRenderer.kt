@@ -6,7 +6,7 @@ import java.io.File
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 
-/** Bundled, fictional Alex Morgan A4 page for previews and screenshots; no server or real resume data. */
+/** Bundled, fictional Laura Beier A4 page for previews and screenshots; no server or real resume data. */
 class FakePageRenderer(private val context: Context) : PageRenderer {
     /** Copy sample PDF into app cache, useful for preview sharing as well as page images. */
     override suspend fun render(source: PageSource): RenderedDocument = withContext(Dispatchers.IO) {

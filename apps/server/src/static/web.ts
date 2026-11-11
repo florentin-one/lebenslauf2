@@ -105,7 +105,7 @@ export function contentSecurityPolicy(html = "") {
 }
 
 export const BASE_SECURITY_HEADERS = {
-	Link: `<${CONTEXT7_ASK_URL}>; rel="search"; type="text/plain"; title="Search rxresu.me"`,
+	Link: `<${CONTEXT7_ASK_URL}>; rel="search"; type="text/plain"; title="Search lebenslauf2.me"`,
 	"X-Frame-Options": "DENY",
 	"X-Content-Type-Options": "nosniff",
 	"Referrer-Policy": "strict-origin-when-cross-origin",
@@ -155,26 +155,26 @@ function htmlResponse(html: string, headers: Record<string, string>, template = 
 const githubUrl = "https://github.com/reactive-resume/reactive-resume";
 // The English copy, for a build without prerendered pages; a prerendered page carries its own locale's title and
 // description, and the social cards reuse them.
-const ROOT_TITLE = "Free resume builder with PDF &amp; Word downloads | Reactive Resume";
+const ROOT_TITLE = "Free resume builder with PDF &amp; Word downloads | Lebenslauf2";
 const ROOT_DESCRIPTION =
 	"Free, open-source resume builder. Create, update, and share your resume, with PDF and Word downloads, no ads and no paywall.";
-const ATS_CHECKER_TITLE = "Free ATS resume checker | Reactive Resume";
+const ATS_CHECKER_TITLE = "Free ATS resume checker | Lebenslauf2";
 const ATS_CHECKER_DESCRIPTION =
 	"Check whether software can read your resume PDF. Runs entirely in your browser, so your file is never uploaded.";
-const TEMPLATES_TITLE = "Free resume templates with PDF examples | Reactive Resume";
+const TEMPLATES_TITLE = "Free resume templates with PDF examples | Lebenslauf2";
 const TEMPLATES_DESCRIPTION =
 	"Browse free resume templates, compare one-column and two-column layouts, and download sample PDFs. Customize your resume and export to PDF or Word.";
 
 type StructuredData = Record<string, unknown>;
 
-/** Who makes Reactive Resume, referenced by id from every page's structured data. */
+/** Who makes Lebenslauf2, referenced by id from every page's structured data. */
 function organization(origin: string): StructuredData {
 	return {
 		"@type": "Organization",
 		"@id": `${origin}/#organization`,
-		name: "Reactive Resume",
+		name: "Lebenslauf2",
 		url: `${origin}/`,
-		contactPoint: { "@type": "ContactPoint", contactType: "support", email: "amruth@rxresu.me" },
+		contactPoint: { "@type": "ContactPoint", contactType: "support", email: "amruth@lebenslauf2.me" },
 		logo: { "@type": "ImageObject", url: `${origin}/pwa-512x512.png`, width: 512, height: 512 },
 		sameAs: [
 			githubUrl,
@@ -210,7 +210,7 @@ const decodeHtml = (value: string) =>
 		.replace(/&gt;/g, ">")
 		.replace(/&amp;/g, "&");
 
-// "ATS Checker | Reactive Resume" → "ATS Checker": the page's name without the site's.
+// "ATS Checker | Lebenslauf2" → "ATS Checker": the page's name without the site's.
 const pageName = (title: string) => decodeHtml(title).split(" | ")[0]?.trim() || decodeHtml(title);
 
 function homepageStructuredData(origin: string, text: PageText): StructuredData {
@@ -222,13 +222,13 @@ function homepageStructuredData(origin: string, text: PageText): StructuredData 
 			{
 				"@type": "WebSite",
 				"@id": `${origin}/#website`,
-				name: "Reactive Resume",
+				name: "Lebenslauf2",
 				url: rootUrl,
 				publisher: { "@id": `${origin}/#organization` },
 			},
 			{
 				"@type": ["SoftwareApplication", "WebApplication"],
-				name: "Reactive Resume",
+				name: "Lebenslauf2",
 				url: rootUrl,
 				description: decodeHtml(text.description),
 				inLanguage: languageTag(text.locale),
@@ -260,7 +260,7 @@ function atsCheckerStructuredData(origin: string, text: PageText): StructuredDat
 				operatingSystem: "Web",
 				isAccessibleForFree: true,
 				offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
-				isPartOf: { "@type": "WebSite", "@id": `${origin}/#website`, name: "Reactive Resume", url: `${origin}/` },
+				isPartOf: { "@type": "WebSite", "@id": `${origin}/#website`, name: "Lebenslauf2", url: `${origin}/` },
 				provider: { "@id": `${origin}/#organization` },
 			},
 		],

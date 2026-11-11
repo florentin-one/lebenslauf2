@@ -26,7 +26,7 @@ class SettingsInteractionTest {
             RrTheme {
                 SettingsScreen(
                     SettingsState(loading = false),
-                    "https://rxresu.me",
+                    "https://lebenslauf2.florentin-one.de",
                     "1.0 (1)",
                     close = { closed = true },
                 )
@@ -45,7 +45,7 @@ class SettingsInteractionTest {
             RrTheme {
                 SettingsScreen(
                     SettingsState(loading = false),
-                    "https://rxresu.me",
+                    "https://lebenslauf2.florentin-one.de",
                     "1.0 (1)",
                     close = { closed = true },
                 )
@@ -226,14 +226,14 @@ class SettingsInteractionTest {
             RrTheme(reducedMotion = true) {
                 SettingsScreen(
                     SettingsState(loading = false, pendingEdits = true),
-                    "https://rxresu.me",
+                    "https://lebenslauf2.florentin-one.de",
                     "6.1.0",
                     signOut = { signOuts++ },
                 )
             }
         }
         compose.onNodeWithText("Sign out").performScrollTo().performClick()
-        compose.onNodeWithText("Sign out of rxresu.me?").assertIsDisplayed()
+        compose.onNodeWithText("Sign out of lebenslauf2.me?").assertIsDisplayed()
         compose.runOnIdle { assertEquals(0, signOuts) }
         compose.onAllNodesWithText("Sign out").onLast().performClick()
         compose.runOnIdle { assertEquals(1, signOuts) }
@@ -254,7 +254,7 @@ class SettingsInteractionTest {
             RrTheme(reducedMotion = true) {
                 AccountScreen(
                     SettingsState(account = account, loading = false),
-                    "https://rxresu.me",
+                    "https://lebenslauf2.florentin-one.de",
                     update = { savedName = it.name },
                     photo = { photos++ },
                 )

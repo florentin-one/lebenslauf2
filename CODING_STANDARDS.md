@@ -1,6 +1,6 @@
 # Coding standards
 
-Review rules for Reactive Resume changes. Mechanical rules are enforced by tools, so a reviewer only confirms they ran:
+Review rules for Lebenslauf2 changes. Mechanical rules are enforced by tools, so a reviewer only confirms they ran:
 `pnpm check:affected` (typecheck, tests, package boundaries, lint, format), `pnpm lingui:check`, `pnpm locales:diff`,
 `pnpm check:agent-docs`. Everything below needs judgement. Apply every rule to the diff and report each violation with
 its file and line.

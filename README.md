@@ -1,32 +1,32 @@
 <div align="center">
-  <a href="https://rxresu.me">
-    <img src="apps/web/public/opengraph/banner.jpg" alt="Reactive Resume" />
+  <a href="https://lebenslauf2.florentin-one.de">
+    <img src="apps/web/public/opengraph/banner.jpg" alt="Lebenslauf2" />
   </a>
 
-  <h1>Reactive Resume</h1>
+  <h1>Lebenslauf2</h1>
 
-  <p>Reactive Resume is a free and open-source resume builder for writing resumes and cover letters, checking your work, and tracking job applications.</p>
+  <p>Lebenslauf2 is a free and open-source resume builder for writing resumes and cover letters, checking your work, and tracking job applications.</p>
 
   <p>
-    <a href="https://rxresu.me"><strong>Get Started</strong></a>
+    <a href="https://lebenslauf2.florentin-one.de"><strong>Get Started</strong></a>
     ·
-    <a href="https://docs.rxresu.me"><strong>Learn More</strong></a>
+    <a href="https://docs.lebenslauf2.me"><strong>Learn More</strong></a>
   </p>
 
   <p>
-    <a href="https://go.rx.cv/ios"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" height="40" /></a>
-    <a href="https://go.rx.cv/android"><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play" height="40" /></a>
+    <a href="https://go.cv2.florentin-one.de/ios"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" height="40" /></a>
+    <a href="https://go.cv2.florentin-one.de/android"><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play" height="40" /></a>
   </p>
 
   <p>
-    <img src="https://img.shields.io/github/package-json/v/reactive-resume/reactive-resume?style=flat-square" alt="Reactive Resume Version">
+    <img src="https://img.shields.io/github/package-json/v/reactive-resume/reactive-resume?style=flat-square" alt="Lebenslauf2 Version">
     <img src="https://img.shields.io/github/stars/reactive-resume/reactive-resume?style=flat-square" alt="GitHub Stars">
     <img src="https://img.shields.io/github/license/reactive-resume/reactive-resume?style=flat-square" alt="License" />
     <img src="https://img.shields.io/docker/pulls/amruthpillai/reactive-resume?style=flat-square" alt="Docker Pulls" />
     <a href="https://discord.gg/u9pAd3za9t"><img src="https://img.shields.io/discord/1173518977851473940?style=flat-square&label=discord" alt="Discord" /></a>
     <a href="https://crowdin.com/project/reactive-resume"><img src="https://badges.crowdin.net/reactive-resume/localized.svg?style=flat-square" alt="Crowdin" /></a>
-    <a href="https://github.com/sponsors/AmruthPillai"><img src="https://img.shields.io/github/sponsors/AmruthPillai?style=flat-square&label=sponsors" alt="Sponsors" /></a>
-    <a href="https://opencollective.com/reactive-resume/donate"><img src="https://img.shields.io/opencollective/backers/reactive-resume?style=flat-square&label=donations" alt="Donations" /></a>
+    <a href="https://opencollective.com/elster-1/donate"><img src="https://img.shields.io/github/sponsors/AmruthPillai?style=flat-square&label=sponsors" alt="Sponsors" /></a>
+    <a href="https://opencollective.com/elster-1/donate"><img src="https://img.shields.io/opencollective/backers/reactive-resume?style=flat-square&label=donations" alt="Donations" /></a>
   </p>
 
   <p><sub>Sponsored by</sub></p>
@@ -72,15 +72,15 @@ Create a free account, import an existing resume or start fresh, and see the fin
 
 You own your data. The codebase is open source under the MIT license, with no tracking, no ads, and no paid tier. Optional AI features use a provider you connect; hosting and provider usage may have their own costs.
 
-![Reactive Resume v6 editor with Write, Design, and Check modes and a live PDF preview](docs/images/getting-started/editor-overview.webp)
+![Lebenslauf2 v6 editor with Write, Design, and Check modes and a live PDF preview](docs/images/getting-started/editor-overview.webp)
 
 ## Build a better resume, together
 
-[Join the Reactive Resume community on Discord](https://discord.gg/u9pAd3za9t) to exchange resume feedback, get help using or self-hosting the app, and share ideas with other users and contributors.
+[Join the Lebenslauf2 community on Discord](https://discord.gg/u9pAd3za9t) to exchange resume feedback, get help using or self-hosting the app, and share ideas with other users and contributors.
 
 - **Resume feedback:** post a redacted resume and one specific question, or help someone improve theirs.
 - **Help:** find troubleshooting discussions and ask questions in dedicated forum threads.
-- **Contribute:** discuss ideas, translations, and code with the people building Reactive Resume.
+- **Contribute:** discuss ideas, translations, and code with the people building Lebenslauf2.
 
 Feedback comes from fellow community members. Remove contact details and other private information before posting.
 
@@ -107,7 +107,7 @@ Feedback comes from fellow community members. Remove contact details and other p
 - Readability checks with findings pinned to the relevant lines
 - Job-posting keyword matching and a view of the text hiring software reads
 - Checks on the exported PDF, plus an optional AI writing review
-- A public [ATS checker](https://rxresu.me/ats-checker) that reads PDFs in your browser without an account
+- A public [ATS checker](https://lebenslauf2.florentin-one.de/ats-checker) that reads PDFs in your browser without an account
 
 **Documents and Cover Letters**
 
@@ -135,7 +135,7 @@ Feedback comes from fellow community members. Remove contact details and other p
 
 **Import, Export, and Sharing**
 
-- Import Reactive Resume JSON, JSON Resume, LinkedIn data exports, PDF, and Word files
+- Import Lebenslauf2 JSON, JSON Resume, LinkedIn data exports, PDF, and Word files
 - JSON, LinkedIn, and readable PDF imports work without AI; Word imports require a connected provider
 - Export resumes and letters as PDF, Word (DOCX), Markdown, or JSON
 - Share resumes through public links with optional password protection and view/download statistics
@@ -235,7 +235,7 @@ Feedback comes from fellow community members. Remove contact details and other p
 
 ## Quick Start
 
-Use the [hosted app](https://rxresu.me) to start writing, or build this checkout locally with Docker and Docker Compose:
+Use the [hosted app](https://lebenslauf2.florentin-one.de) to start writing, or build this checkout locally with Docker and Docker Compose:
 
 ```bash
 # Clone the repository
@@ -253,7 +253,7 @@ docker compose up -d --build
 # Open http://localhost:3000 in your browser
 ```
 
-This builds the checked-out source. For a deployment using published images, follow the [Docker guide](https://docs.rxresu.me/self-hosting/docker). For source development, see the [development setup guide](https://docs.rxresu.me/contributing/development).
+This builds the checked-out source. For a deployment using published images, follow the [Docker guide](https://docs.lebenslauf2.me/self-hosting/docker). For source development, see the [development setup guide](https://docs.lebenslauf2.me/contributing/development).
 
 ## Tech Stack
 
@@ -275,56 +275,56 @@ This builds the checked-out source. For a deployment using published images, fol
 
 ## Documentation
 
-The full documentation lives at [docs.rxresu.me](https://docs.rxresu.me):
+The full documentation lives at [docs.lebenslauf2.me](https://docs.lebenslauf2.me):
 
-| Guide                                                                                                            | Description                                                     |
-| ---------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
-| [Getting started](https://docs.rxresu.me/getting-started)                                                        | First-time setup and basic usage                                |
-| [What's new in v6](https://docs.rxresu.me/guides/whats-new-in-v6)                                                | Changes and where familiar features moved                       |
-| [Checking your resume](https://docs.rxresu.me/guides/checking-your-resume)                                       | Readability, job match, and writing reviews                     |
-| [Using the assistant](https://docs.rxresu.me/guides/using-the-assistant)                                         | Ask for changes and review proposed edits                       |
-| [Resume and career agent skills](plugins/reactive-resume/README.md)                                              | 32 skills for resume writing, specific roles and the job search |
-| [Writing a cover letter](https://docs.rxresu.me/guides/writing-a-cover-letter)                                   | Create a letter and link it to a resume                         |
-| [Tracking job applications](https://docs.rxresu.me/guides/tracking-job-applications)                             | Saved jobs, stages, interviews, and insights                    |
-| [Exporting your resume](https://docs.rxresu.me/guides/exporting-your-resume)                                     | PDF, Word, Markdown, and JSON downloads                         |
-| [API](https://docs.rxresu.me/guides/using-the-api) and [MCP](https://docs.rxresu.me/guides/using-the-mcp-server) | Connect scripts and external assistants                         |
-| [Self-hosting](https://docs.rxresu.me/self-hosting/docker)                                                       | Deploy on your own infrastructure                               |
-| [Migrating from v5](https://docs.rxresu.me/self-hosting/upgrading-to-v6)                                         | Migrations and integration changes                              |
-| [Development setup](https://docs.rxresu.me/contributing/development)                                             | Local development environment                                   |
-| [Project architecture](https://docs.rxresu.me/contributing/architecture)                                         | Codebase structure and package boundaries                       |
+| Guide                                                                                                                      | Description                                                     |
+| -------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
+| [Getting started](https://docs.lebenslauf2.me/getting-started)                                                             | First-time setup and basic usage                                |
+| [What's new in v6](https://docs.lebenslauf2.me/guides/whats-new-in-v6)                                                     | Changes and where familiar features moved                       |
+| [Checking your resume](https://docs.lebenslauf2.me/guides/checking-your-resume)                                            | Readability, job match, and writing reviews                     |
+| [Using the assistant](https://docs.lebenslauf2.me/guides/using-the-assistant)                                              | Ask for changes and review proposed edits                       |
+| [Resume and career agent skills](plugins/reactive-resume/README.md)                                                        | 32 skills for resume writing, specific roles and the job search |
+| [Writing a cover letter](https://docs.lebenslauf2.me/guides/writing-a-cover-letter)                                        | Create a letter and link it to a resume                         |
+| [Tracking job applications](https://docs.lebenslauf2.me/guides/tracking-job-applications)                                  | Saved jobs, stages, interviews, and insights                    |
+| [Exporting your resume](https://docs.lebenslauf2.me/guides/exporting-your-resume)                                          | PDF, Word, Markdown, and JSON downloads                         |
+| [API](https://docs.lebenslauf2.me/guides/using-the-api) and [MCP](https://docs.lebenslauf2.me/guides/using-the-mcp-server) | Connect scripts and external assistants                         |
+| [Self-hosting](https://docs.lebenslauf2.me/self-hosting/docker)                                                            | Deploy on your own infrastructure                               |
+| [Migrating from v5](https://docs.lebenslauf2.me/self-hosting/upgrading-to-v6)                                              | Migrations and integration changes                              |
+| [Development setup](https://docs.lebenslauf2.me/contributing/development)                                                  | Local development environment                                   |
+| [Project architecture](https://docs.lebenslauf2.me/contributing/architecture)                                              | Codebase structure and package boundaries                       |
 
 ## Self-Hosting
 
-Reactive Resume runs the same application everywhere: PostgreSQL for data, plus storage for uploads. Pick the option that fits how much you want to manage.
+Lebenslauf2 runs the same application everywhere: PostgreSQL for data, plus storage for uploads. Pick the option that fits how much you want to manage.
 
-| Option                                          | Best for                                      | Guide                                                                                                               |
-| ----------------------------------------------- | --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
-| [Hostinger](#hostinger)                         | A ready-made VPS with no setup                | [Hostinger guide](https://docs.rxresu.me/self-hosting/hostinger)                                                    |
-| [Vercel](#vercel)                               | Serverless, with managed database and storage | [Vercel guide](https://docs.rxresu.me/self-hosting/vercel)                                                          |
-| [Cloudflare Workers](#cloudflare-workers)       | Workers, R2 and your own PostgreSQL           | [Cloudflare guide](https://docs.rxresu.me/self-hosting/cloudflare)                                                  |
-| [Docker and Kubernetes](#docker-and-kubernetes) | Your own server, homelab or cluster           | [Docker](https://docs.rxresu.me/self-hosting/docker) · [Kubernetes](https://docs.rxresu.me/self-hosting/kubernetes) |
+| Option                                          | Best for                                      | Guide                                                                                                                         |
+| ----------------------------------------------- | --------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| [Hostinger](#hostinger)                         | A ready-made VPS with no setup                | [Hostinger guide](https://docs.lebenslauf2.me/self-hosting/hostinger)                                                         |
+| [Vercel](#vercel)                               | Serverless, with managed database and storage | [Vercel guide](https://docs.lebenslauf2.me/self-hosting/vercel)                                                               |
+| [Cloudflare Workers](#cloudflare-workers)       | Workers, R2 and your own PostgreSQL           | [Cloudflare guide](https://docs.lebenslauf2.me/self-hosting/cloudflare)                                                       |
+| [Docker and Kubernetes](#docker-and-kubernetes) | Your own server, homelab or cluster           | [Docker](https://docs.lebenslauf2.me/self-hosting/docker) · [Kubernetes](https://docs.lebenslauf2.me/self-hosting/kubernetes) |
 
 > **PDF generation in v6** uses Forme in the browser and on the server. No Browserless, Chromium, or external print service is needed. Legacy `PRINTER_*` and `BROWSERLESS_*` environment variables can be removed.
 
 ### Hostinger
 
-The quickest way to get going is a 1-click deploy on Hostinger, starting at $6.49/month. Their VPS plans include a ready-made Reactive Resume template that provisions the Docker environment and brings the app up for you, with weekly backups and a Docker manager UI included — so you can skip the setup entirely.
+The quickest way to get going is a 1-click deploy on Hostinger, starting at $6.49/month. Their VPS plans include a ready-made Lebenslauf2 template that provisions the Docker environment and brings the app up for you, with weekly backups and a Docker manager UI included — so you can skip the setup entirely.
 
 <a href="https://www.hostg.xyz/aff_c?offer_id=48&amp;aff_id=232413&amp;url_id=6857">
   <img src="https://assets.hostinger.com/vps/deploy.svg" alt="Deploy on Hostinger" width="148" height="32" />
 </a>
 
-See the [Hostinger guide](https://docs.rxresu.me/self-hosting/hostinger) for what the template sets up and what to configure afterwards, such as email, your own domain, and turning off sign-ups.
+See the [Hostinger guide](https://docs.lebenslauf2.me/self-hosting/hostinger) for what the template sets up and what to configure afterwards, such as email, your own domain, and turning off sign-ups.
 
 ### Vercel
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Freactive-resume%2Freactive-resume&project-name=reactive-resume&repository-name=reactive-resume&env=AUTH_SECRET%2CENCRYPTION_SECRET&envDescription=Generate+two+independent+secrets+with+openssl+rand+-hex+32.+Keep+these+values+across+deployments.&envLink=https%3A%2F%2Fdocs.rxresu.me%2Fself-hosting%2Fvercel&stores=%5B%7B%22type%22%3A%22integration%22%2C%22protocol%22%3A%22storage%22%2C%22integrationSlug%22%3A%22neon%22%2C%22productSlug%22%3A%22neon%22%7D%2C%7B%22type%22%3A%22integration%22%2C%22protocol%22%3A%22storage%22%2C%22integrationSlug%22%3A%22upstash%22%2C%22productSlug%22%3A%22upstash-kv%22%7D%2C%7B%22type%22%3A%22blob%22%2C%22access%22%3A%22private%22%7D%5D)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Freactive-resume%2Freactive-resume&project-name=reactive-resume&repository-name=reactive-resume&env=AUTH_SECRET%2CENCRYPTION_SECRET&envDescription=Generate+two+independent+secrets+with+openssl+rand+-hex+32.+Keep+these+values+across+deployments.&envLink=https%3A%2F%2Fdocs.lebenslauf2.me%2Fself-hosting%2Fvercel&stores=%5B%7B%22type%22%3A%22integration%22%2C%22protocol%22%3A%22storage%22%2C%22integrationSlug%22%3A%22neon%22%2C%22productSlug%22%3A%22neon%22%7D%2C%7B%22type%22%3A%22integration%22%2C%22protocol%22%3A%22storage%22%2C%22integrationSlug%22%3A%22upstash%22%2C%22productSlug%22%3A%22upstash-kv%22%7D%2C%7B%22type%22%3A%22blob%22%2C%22access%22%3A%22private%22%7D%5D)
 
-Vercel provisions Neon PostgreSQL, private Blob storage, and Upstash Redis through its deployment wizard. Supply two persistent secrets and use the **Services** framework preset. Static assets run in the frontend service, and Hono serves the application routes and APIs from the backend service. See the [Vercel guide](https://docs.rxresu.me/self-hosting/vercel) for setup, limits, and optional SMTP/OAuth configuration.
+Vercel provisions Neon PostgreSQL, private Blob storage, and Upstash Redis through its deployment wizard. Supply two persistent secrets and use the **Services** framework preset. Static assets run in the frontend service, and Hono serves the application routes and APIs from the backend service. See the [Vercel guide](https://docs.lebenslauf2.me/self-hosting/vercel) for setup, limits, and optional SMTP/OAuth configuration.
 
 ### Cloudflare Workers
 
-Cloudflare deployment requires **Workers Paid** and uses Static Assets, private R2 storage, SQLite Durable Objects, and PostgreSQL through Hyperdrive. Supply an existing PostgreSQL database and apply migrations before deployment. See the [Cloudflare guide](https://docs.rxresu.me/self-hosting/cloudflare) for setup and runtime limits.
+Cloudflare deployment requires **Workers Paid** and uses Static Assets, private R2 storage, SQLite Durable Objects, and PostgreSQL through Hyperdrive. Supply an existing PostgreSQL database and apply migrations before deployment. See the [Cloudflare guide](https://docs.lebenslauf2.me/self-hosting/cloudflare) for setup and runtime limits.
 
 ### Docker and Kubernetes
 
@@ -345,25 +345,25 @@ docker pull amruthpillai/reactive-resume:latest
 docker pull ghcr.io/reactive-resume/reactive-resume:latest
 ```
 
-See the [Docker guide](https://docs.rxresu.me/self-hosting/docker) or [Kubernetes guide](https://docs.rxresu.me/self-hosting/kubernetes) for complete instructions. Running on a NAS? See the [Synology and UGREEN guides](https://docs.rxresu.me/self-hosting/nas).
+See the [Docker guide](https://docs.lebenslauf2.me/self-hosting/docker) or [Kubernetes guide](https://docs.lebenslauf2.me/self-hosting/kubernetes) for complete instructions. Running on a NAS? See the [Synology and UGREEN guides](https://docs.lebenslauf2.me/self-hosting/nas).
 
 ### Configuration
 
-Every setting is listed in the [environment variables reference](https://docs.rxresu.me/self-hosting/environment-variables). Self-hosters can also configure [shared AI and job-search services](https://docs.rxresu.me/self-hosting/job-search-and-ai) and [single sign-on](https://docs.rxresu.me/self-hosting/sso).
+Every setting is listed in the [environment variables reference](https://docs.lebenslauf2.me/self-hosting/environment-variables). Self-hosters can also configure [shared AI and job-search services](https://docs.lebenslauf2.me/self-hosting/job-search-and-ai) and [single sign-on](https://docs.lebenslauf2.me/self-hosting/sso).
 
 ### Upgrading from v5
 
-Back up your database and uploads and stop all v5 instances before applying v6 migrations. Old visual style rules require a manual conversion; API and MCP integrations also have changes. Follow [Migrating from v5](https://docs.rxresu.me/self-hosting/upgrading-to-v6).
+Back up your database and uploads and stop all v5 instances before applying v6 migrations. Old visual style rules require a manual conversion; API and MCP integrations also have changes. Follow [Migrating from v5](https://docs.lebenslauf2.me/self-hosting/upgrading-to-v6).
 
 ## Support
 
-Reactive Resume is and always will be free and open source. If it has helped you land a job or saved you time, please consider supporting continued development:
+Lebenslauf2 is and always will be free and open source. If it has helped you land a job or saved you time, please consider supporting continued development:
 
 <p>
-  <a href="https://github.com/sponsors/AmruthPillai">
+  <a href="https://opencollective.com/elster-1/donate">
     <img src="https://img.shields.io/badge/GitHub%20Sponsors-Support-ea4aaa?style=flat-square&logo=github-sponsors" alt="GitHub Sponsors" />
   </a>
-  <a href="https://opencollective.com/reactive-resume/donate">
+  <a href="https://opencollective.com/elster-1/donate">
     <img src="https://img.shields.io/badge/Open%20Collective-Contribute-7FADF2?style=flat-square&logo=open-collective" alt="Open Collective" />
   </a>
 </p>
@@ -400,7 +400,7 @@ Every contribution helps, whether it is a typo fix or a new feature.
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-See the [development setup guide](https://docs.rxresu.me/contributing/development) for how to run the project locally.
+See the [development setup guide](https://docs.lebenslauf2.me/contributing/development) for how to run the project locally.
 
 Maintainers review the [`status: needs triage` queue](https://github.com/reactive-resume/reactive-resume/issues?q=is%3Aissue+is%3Aopen+label%3A%22status%3A+needs+triage%22)
 weekly. Triaged bugs become `status: confirmed`; feature proposals become `status: accepted`; reports that need details become

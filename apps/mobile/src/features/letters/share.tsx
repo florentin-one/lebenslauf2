@@ -141,7 +141,7 @@ function LetterDownload({ letter, offline }: { letter: LetterDocument; offline: 
 			id: "json",
 			label: t`JSON`,
 			extension: ".json",
-			description: t`A backup of this letter. Imports back into Reactive Resume as a letter.`,
+			description: t`A backup of this letter. Imports back into Lebenslauf2 as a letter.`,
 		},
 	];
 	const selected = formats.find((item) => item.id === format) ?? formats[0];

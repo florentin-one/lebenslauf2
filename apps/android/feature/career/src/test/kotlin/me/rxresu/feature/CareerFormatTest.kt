@@ -77,7 +77,7 @@ class CareerFormatTest {
     }
 
     @Test fun lookForTermsRoundTripThroughOneQuery() {
-        assertEquals(listOf("Senior product designer", "Lisbon"), queryTerms(" Senior product designer, Lisbon,, Lisbon "))
+        assertEquals(listOf("Fachärztin für Psychiatrie und Psychotherapie", "Lisbon"), queryTerms(" Fachärztin für Psychiatrie und Psychotherapie, Lisbon,, Lisbon "))
         assertTrue(queryTerms("").isEmpty())
     }
 

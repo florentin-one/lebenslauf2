@@ -21,7 +21,7 @@ Contents:
 17. Length
 18. Sources
 
-Each entry covers what to include, what to leave off, the contested calls and the Reactive Resume field. Evidence tags are defined in SKILL.md: `official`, `study`, `survey`, `convention`.
+Each entry covers what to include, what to leave off, the contested calls and the Lebenslauf2 field. Evidence tags are defined in SKILL.md: `official`, `study`, `survey`, `convention`.
 
 ## 1. Contact and header
 

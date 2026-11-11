@@ -2,7 +2,7 @@
 
 Contents
 
-1. Mapping rounds to Reactive Resume interview fields
+1. Mapping rounds to Lebenslauf2 interview fields
 2. Round-by-round table
 3. Recruiter screen checklist
 4. Structured shapes for technical, design, product and case rounds
@@ -13,7 +13,7 @@ Contents
 
 Evidence tags: **[O]** official employer, government or legal page; **[V]** vendor or practitioner blog (useful, often self-interested); **[C]** practitioner consensus without research behind it; **[U]** reported but not confirmed. Confirm format details with the recruiter, because they change by company, team and sometimes interviewer.
 
-## 1. Mapping rounds to Reactive Resume interview fields
+## 1. Mapping rounds to Lebenslauf2 interview fields
 
 `kind` is one of `screening`, `technical`, `behavioral`, `onsite`, `other`; `audience` is one of `recruiter`, `hiring-manager`, `practitioner`, `panel`, `other`.
 

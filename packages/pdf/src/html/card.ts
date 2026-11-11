@@ -3,7 +3,7 @@ import { escapeHtml } from "@reactive-resume/utils/string";
 export type ResumeCardInput = {
 	name: string;
 	headline: string;
-	/** Where the page lives, as people read it: `rx.cv/john`, `john.dev`. */
+	/** Where the page lives, as people read it: `cv2.florentin-one.de/john`, `john.dev`. */
 	address: string;
 	/** The resume's primary colour (any CSS colour the SVG renderer reads). */
 	color: string;

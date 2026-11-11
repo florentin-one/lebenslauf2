@@ -191,7 +191,7 @@ assert.equal(
 );
 assert.match(dialog.message, /Only the search query/);
 assert.match(dialog.message, /tavily/);
-assert.match(dialog.message, /Found posting links are read by Reactive Resume/);
+assert.match(dialog.message, /Found posting links are read by Lebenslauf2/);
 assert.match(dialog.message, /links.*tavily[\s\S]*reader may charge/);
 assert.deepEqual(sent(), []);
 dialog.buttons[1].onPress();

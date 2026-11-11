@@ -71,7 +71,7 @@ class ImportNavigationCallbacksTest : ProductionNavigationTest() {
             mapOf(
                 "[Content_Types].xml" to """<Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types"><Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/><Override PartName="/word/document.xml" ContentType="application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml"/></Types>""",
                 "_rels/.rels" to """<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="word/document.xml"/></Relationships>""",
-                "word/document.xml" to """<w:document xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"><w:body><w:p><w:r><w:t>Alex Morgan, product designer</w:t></w:r></w:p></w:body></w:document>""",
+                "word/document.xml" to """<w:document xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"><w:body><w:p><w:r><w:t>Laura Beier, product designer</w:t></w:r></w:p></w:body></w:document>""",
             ).forEach { (name, xml) ->
                 zip.putNextEntry(ZipEntry(name))
                 zip.write(xml.toByteArray())

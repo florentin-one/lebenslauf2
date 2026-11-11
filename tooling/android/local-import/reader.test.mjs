@@ -223,7 +223,7 @@ test("PDF JavaScript actions and imported HTML never execute", async () => {
 	);
 });
 
-test("JSON Resume, account-envelope Reactive Resume and LinkedIn ZIP use shared local converters", async () => {
+test("JSON Resume, account-envelope Lebenslauf2 and LinkedIn ZIP use shared local converters", async () => {
 	const json = await read(
 		"resume.json",
 		Buffer.from(

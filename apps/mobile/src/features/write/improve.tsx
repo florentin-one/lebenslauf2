@@ -76,7 +76,7 @@ export function ImprovePanel({ line, where, context, letter, onClose, onReplace 
 	const pick = (action: Action) => (action === "result" ? setAsking("result") : run(action));
 
 	const error = isNetworkError(improve.error)
-		? t`Couldn't reach Reactive Resume. Check your internet connection, then try again.`
+		? t`Couldn't reach Lebenslauf2. Check your internet connection, then try again.`
 		: improve.error instanceof ORPCError && improve.error.message
 			? improve.error.message
 			: t`Couldn't get a suggestion. Nothing changed.`;

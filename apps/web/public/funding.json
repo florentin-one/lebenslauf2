@@ -5,19 +5,19 @@
 		"type": "individual",
 		"role": "maintainer",
 		"name": "Amruth Pillai",
-		"email": "amruth@rxresu.me",
+		"email": "amruth@lebenslauf2.me",
 		"description": "Software Engineer",
 		"webpageUrl": {
-			"url": "https://rxresu.me/funding.json"
+			"url": "https://lebenslauf2.florentin-one.de/funding.json"
 		}
 	},
 	"projects": [
 		{
 			"guid": "reactive-resume",
-			"name": "Reactive Resume",
+			"name": "Lebenslauf2",
 			"description": "A free and open-source resume builder that makes it easy to create, update, and share your resume.",
 			"webpageUrl": {
-				"url": "https://rxresu.me"
+				"url": "https://lebenslauf2.florentin-one.de"
 			},
 			"repositoryUrl": {
 				"url": "https://github.com/reactive-resume/reactive-resume",
@@ -55,13 +55,13 @@
 				"guid": "github",
 				"type": "payment-provider",
 				"description": "GitHub Sponsors",
-				"address": "https://github.com/sponsors/AmruthPillai"
+				"address": "https://opencollective.com/elster-1/donate"
 			},
 			{
 				"guid": "open-collective",
 				"type": "payment-provider",
 				"description": "Open Collective",
-				"address": "https://opencollective.com/reactive-resume/donate"
+				"address": "https://opencollective.com/elster-1/donate"
 			}
 		]
 	}

@@ -150,7 +150,7 @@ class AuthViewModelTest {
         runTest(dispatcher) {
             val auth = fake()
             val vm = AuthViewModel(auth)
-            vm.edit { it.copy(email = "alex@example.invalid") }
+            vm.edit { it.copy(email = "beier.laura@mh-hannover.de") }
             vm.forgot()
             advanceUntilIdle()
             assertTrue(vm.state.value.sent)
@@ -185,7 +185,7 @@ class AuthViewModelTest {
                 it.copy(
                     name = "Alex",
                     username = "alex",
-                    email = "alex@example.invalid",
+                    email = "beier.laura@mh-hannover.de",
                     password = "secret",
                     code = "123456",
                 )
@@ -210,7 +210,7 @@ class AuthViewModelTest {
                     }
                 )
             vm.edit {
-                it.copy(email = "alex@example.invalid", password = "secret", code = "123456")
+                it.copy(email = "beier.laura@mh-hannover.de", password = "secret", code = "123456")
             }
             vm.cancel()
             advanceUntilIdle()

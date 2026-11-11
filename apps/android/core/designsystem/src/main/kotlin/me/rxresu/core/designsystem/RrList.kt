@@ -300,7 +300,7 @@ fun RrKeyValue(key: String, value: String, modifier: Modifier = Modifier, mono: 
 internal fun RrListPreview() = RrPreviewSurface {
     RrSectionHeader("Needs you", count = "3", modifier = Modifier.padding(0.dp))
     RrListGroup {
-        RrListRow("Account", subtitle = "alex@morgan.design", icon = R.drawable.ic_ph_user, onClick = {}, trailing = { RrRowCaret() })
+        RrListRow("Account", subtitle = "beier.laura@mh-hannover.de", icon = R.drawable.ic_ph_user, onClick = {}, trailing = { RrRowCaret() })
         RrListRow("Theme", icon = R.drawable.ic_ph_moon, onClick = {}, trailing = { RrRowValue("Match system") })
         RrSwitchRow("Notifications", checked = true, onCheckedChange = {}, icon = R.drawable.ic_ph_bell_simple)
         RrListRow("Sign out", icon = R.drawable.ic_ph_sign_out, onClick = {}, danger = true)
@@ -308,7 +308,7 @@ internal fun RrListPreview() = RrPreviewSurface {
     RrListGroup {
         RrListRow(
             "Import a resume",
-            subtitle = "PDF, Word, LinkedIn export (.zip), Reactive Resume or JSON Resume",
+            subtitle = "PDF, Word, LinkedIn export (.zip), Lebenslauf2 or JSON Resume",
             tile = R.drawable.ic_ph_file_arrow_up,
             onClick = {},
         )

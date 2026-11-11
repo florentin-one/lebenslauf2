@@ -71,7 +71,7 @@ class DocumentNavigationCallbacksTest : ProductionNavigationTest() {
                 visit(Builder(id, mode = BuilderMode.Check))
                 ready("Issues")
                 rule.onNode(hasText("Job match") and isSelectable()).performClick().assertIsSelected()
-                ready("Lumen · Senior product designer")
+                ready("Lumen · Fachärztin für Psychiatrie und Psychotherapie")
             },
             "B10 Issues → B9" to {
                 visit(Builder(id, mode = BuilderMode.Check, check = CheckTab.JobMatch))
@@ -80,12 +80,12 @@ class DocumentNavigationCallbacksTest : ProductionNavigationTest() {
             },
             "B10 Change keeps the application picker" to {
                 visit(Builder(id, mode = BuilderMode.Check, check = CheckTab.JobMatch))
-                ready("Lumen · Senior product designer")
+                ready("Lumen · Fachärztin für Psychiatrie und Psychotherapie")
                 click("Change", scroll = true)
                 ready("Unlink this application")
                 expect(Builder(id, mode = BuilderMode.Check, check = CheckTab.JobMatch))
             },
-            edge(Builder(id, mode = BuilderMode.Check, check = CheckTab.JobMatch), "Lumen · Senior product designer", me.rxresu.core.navigation.Application(StoryboardIds.lumen), loaded = "Issues", scroll = true),
+            edge(Builder(id, mode = BuilderMode.Check, check = CheckTab.JobMatch), "Lumen · Fachärztin für Psychiatrie und Psychotherapie", me.rxresu.core.navigation.Application(StoryboardIds.lumen), loaded = "Issues", scroll = true),
         ))
     }
 

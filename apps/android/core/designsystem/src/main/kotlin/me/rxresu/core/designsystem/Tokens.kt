@@ -1,4 +1,4 @@
-// Design tokens, copied from the handoff reference (reference/Tokens.kt, generated from the Reactive Resume design
+// Design tokens, copied from the handoff reference (reference/Tokens.kt, generated from the Lebenslauf2 design
 // system). Colours: oklch converted to sRGB. Type: CSS px = sp; spacing and radii: CSS px = dp. Paper never inverts.
 package me.rxresu.core.designsystem
 

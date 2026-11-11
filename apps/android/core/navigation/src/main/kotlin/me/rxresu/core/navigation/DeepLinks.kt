@@ -3,7 +3,7 @@ package me.rxresu.core.navigation
 import java.net.URI
 
 /** Hosts whose links the app opens: the main app and its alias for public pages. */
-val AppLinkHosts = setOf("rxresu.me", "rx.cv")
+val AppLinkHosts = setOf("lebenslauf2.me", "rx.cv")
 
 // First path segments on the app host that are app sections or files, never a username.
 private val reservedSegments = setOf(

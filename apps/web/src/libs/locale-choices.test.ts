@@ -18,7 +18,7 @@ describe.each([false, true])("locale choices with development=%s", (development)
 		const reload = vi.fn();
 		const state = { key: "page" };
 		vi.stubGlobal("window", {
-			location: { href: "https://rxresu.me/?locale=zu-ZA&filter=one#section", reload },
+			location: { href: "https://lebenslauf2.florentin-one.de/?locale=zu-ZA&filter=one#section", reload },
 			history: { state, replaceState },
 		});
 
@@ -32,7 +32,9 @@ describe.each([false, true])("locale choices with development=%s", (development)
 		expect(replaceState).toHaveBeenCalledWith(
 			state,
 			"",
-			development ? "https://rxresu.me/?locale=zu-ZA&filter=one#section" : "https://rxresu.me/?filter=one#section",
+			development
+				? "https://lebenslauf2.florentin-one.de/?locale=zu-ZA&filter=one#section"
+				: "https://lebenslauf2.florentin-one.de/?filter=one#section",
 		);
 		expect(reload).toHaveBeenCalledOnce();
 	});

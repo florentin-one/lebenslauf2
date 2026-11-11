@@ -116,13 +116,13 @@ private fun TypeAndTokens(dark: Boolean) {
         RrText("Sheet title 22 · Share resume", style = RrType.sheetTitle)
         RrText("Heading 20 · Experience", style = RrType.heading)
         RrText("Section 17 · Work history", style = RrType.sectionHeading)
-        RrText("Label 15 · Senior product designer", style = RrType.label)
+        RrText("Label 15 · Fachärztin für Psychiatrie und Psychotherapie", style = RrType.label)
         RrText("Body 15/24 · Edits save as you type.", style = RrType.body)
         RrText("UI 14/20 · Duplicate · Rename", style = RrType.ui)
         RrText("Small 13 · Updated 2 minutes ago", style = RrType.small, color = c.ink2)
         RrText("Caption 12 · Draft", style = RrType.caption, color = c.ink2)
         RrText("Eyebrow 12 · Recent", style = RrType.eyebrow, color = c.ink3)
-        RrText("rxresu.me/alex/fieldnote", style = RrType.mono, color = c.ink2)
+        RrText("lebenslauf2.me/alex/fieldnote", style = RrType.mono, color = c.ink2)
     }
     KitTitle("Surfaces and ink", "tokens.color")
     val swatches = listOf(
@@ -227,8 +227,8 @@ private fun ButtonsAndControls() {
         withFrameNanos { }
         focus.emit(FocusInteraction.Focus())
     }
-    val roleWidth = androidx.compose.ui.text.rememberTextMeasurer().measure("Senior product designer", style = RrType.input).size.width
-    RrTextField("Senior product designer", {}, label = "Role", interactionSource = focus, modifier = Modifier.drawWithContent {
+    val roleWidth = androidx.compose.ui.text.rememberTextMeasurer().measure("Fachärztin für Psychiatrie und Psychotherapie", style = RrType.input).size.width
+    RrTextField("Fachärztin für Psychiatrie und Psychotherapie", {}, label = "Role", interactionSource = focus, modifier = Modifier.drawWithContent {
         drawContent()
         val x = 20.dp.toPx() + roleWidth
         drawLine(c.accent, androidx.compose.ui.geometry.Offset(x, 38.dp.toPx()), androidx.compose.ui.geometry.Offset(x, 58.dp.toPx()), 1.dp.toPx())

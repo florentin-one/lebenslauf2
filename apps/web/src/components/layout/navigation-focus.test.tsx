@@ -102,7 +102,7 @@ it.each([undefined, "low", "high"] as const)(
 		}
 		await act(() => router.navigate({ to: "/two" }));
 		await waitFor(() => expect(screen.getByRole("heading", { name: "Two" })).toHaveFocus());
-		expect(document.title).toBe("Two | Reactive Resume");
+		expect(document.title).toBe("Two | Lebenslauf2");
 		const field = screen.getByRole("textbox", { name: "Search" });
 		field.focus();
 		await act(() => router.navigate({ to: "/two", search: { q: "retained" } }));

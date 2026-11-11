@@ -7,7 +7,7 @@ description: Writes LinkedIn headlines, About sections and experience descriptio
 
 Use the user's evidence, never facts or numbers from worked examples. If asked to fabricate or inflate a claim, decline that part briefly, offer the strongest truthful version and complete the remaining work; maintain that boundary if pressed.
 
-Adapt career evidence for a public professional profile. Draft text only unless the user separately authorizes a specific profile update. Do not require LinkedIn access or a Reactive Resume account.
+Adapt career evidence for a public professional profile. Draft text only unless the user separately authorizes a specific profile update. Do not require LinkedIn access or a Lebenslauf2 account.
 
 ## Set the public brief
 

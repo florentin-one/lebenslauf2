@@ -4,8 +4,8 @@
     <!-- A: {answer} -->
     <!-- Arguments: %1$s = {answer} -->
     <string name="a_answer">"A: %1$s"</string>
-    <!-- A backup of this letter. Imports back into Reactive Resume as a letter. -->
-    <string name="a_backup_of_this_letter_imports_back_into_reactive_resume_as_a_letter" formatted="false">"इस पत्र का बैकअप. एक पत्र के रूप में Reactive Resume में वापस आयात करता है।"</string>
+    <!-- A backup of this letter. Imports back into Lebenslauf2 as a letter. -->
+    <string name="a_backup_of_this_letter_imports_back_into_lebenslauf2_as_a_letter" formatted="false">"इस पत्र का बैकअप. एक पत्र के रूप में Lebenslauf2 में वापस आयात करता है।"</string>
     <!-- A city and country let roles be matched to where you are. -->
     <string name="a_city_and_country_let_roles_be_matched_to_where_you_are" formatted="false">"एक शहर और देश की भूमिकाएं आपकी स्थिति से मेल खाती हैं।"</string>
     <!-- A comfortable length, and it fits on one page. -->
@@ -368,8 +368,6 @@
     <string name="ai_providers_couldn_t_be_loaded_reload_to_try_again" formatted="false">"AI प्रदाताओं को लोड नहीं किया जा सका. पुनः प्रयास करने के लिए पुनः लोड करें।"</string>
     <!-- AI providers couldn't be loaded. Retry or fill the details manually. -->
     <string name="ai_providers_couldn_t_be_loaded_retry_or_fill_the_details_manually" formatted="false">"AI प्रदाताओं को लोड नहीं किया जा सका। पुनः प्रयास करें या विवरण मैन्युअल रूप से भरें।"</string>
-    <!-- AI reads pasted text only when you ask. Links can use the page’s own job data without AI. -->
-    <string name="ai_reads_pasted_text_only_when_you_ask_links_can_use_the_pages_own_job_data_without_ai" formatted="false">"AI चिपकाए गए टेक्स्ट को केवल तभी पढ़ता है जब आप पूछते हैं। लिंक AI के बिना पृष्ठ के स्वयं के कार्य डेटा का उपयोग कर सकते हैं।"</string>
     <!-- AI request attempts: {0} -->
     <!-- Arguments: %1$s = {0} -->
     <string name="ai_request_attempts_0">"AI अनुरोध प्रयास: %1$s"</string>
@@ -377,8 +375,6 @@
     <string name="ai_request_history_unavailable_for_this_result" formatted="false">"इस परिणाम के लिए AI अनुरोध इतिहास उपलब्ध नहीं है।"</string>
     <!-- AI settings -->
     <string name="ai_settings" formatted="false">"AI सेटिंग्स"</string>
-    <!-- AI suggestions, not verified qualifications or hiring predictions. Sources below are your statements. -->
-    <string name="ai_suggestions_not_verified_qualifications_or_hiring_predictions_sources_below_are_your_statements" formatted="false">"AI सुझाव हैं, सत्यापित योग्यताएँ या भर्ती की भविष्यवाणियाँ नहीं। नीचे दिए स्रोत आपके कथन हैं।"</string>
     <!-- AI usage couldn't be loaded. Try refreshing. Older servers may need an update. -->
     <string name="ai_usage_couldn_t_be_loaded_try_refreshing_older_servers_may_need_an_update" formatted="false">"AI उपयोग लोड नहीं हो सका। रीफ़्रेश करें। पुराने सर्वर को अपडेट की ज़रूरत हो सकती है।"</string>
     <!-- AI usage this week -->
@@ -440,8 +436,6 @@
     <string name="always_appears_in_today_email_requires_a_verified_address_and_server_mail_setup_no_push_notification" formatted="false">"हमेशा आज में दिखाई देता है. ईमेल के लिए एक सत्यापित पता और सर्वर मेल सेटअप की आवश्यकता होती है। कोई पुश सूचना नहीं भेजी जाती."</string>
     <!-- Amharic -->
     <string name="amharic" formatted="false">"अमहारी"</string>
-    <!-- An AI reading to help you edit, not a prediction of how an employer or screening system will respond. -->
-    <string name="an_ai_reading_to_help_you_edit_not_a_prediction_of_how_an_employer_or_screening_system_will_respond" formatted="false">"संपादन में मदद के लिए एक AI पठन, यह भविष्यवाणी नहीं कि नियोक्ता या स्क्रीनिंग सिस्टम कैसा जवाब देगा।"</string>
     <!-- An edit addresses it -->
     <string name="an_edit_addresses_it" formatted="false">"एक संपादन इसे दूर करता है"</string>
     <!-- An embedded font could not be read. -->
@@ -636,9 +630,9 @@
     <string name="assistant" formatted="false">"सहायक"</string>
     <!-- Assistant conversations -->
     <string name="assistant_conversations" formatted="false">"सहायक वार्तालाप"</string>
-    <!-- {at} · {providerLabel}. Sends this application and your Knowledge; your provider may charge. -->
+    <!-- {at} · {providerLabel} -->
     <!-- Arguments: %1$s = {at}, %2$s = {providerLabel} -->
-    <string name="at_providerlabel_sends_this_application_and_your_knowledge_your_provider_may_charge">"%1$s · %2$s. यह आवेदन और आपका ज्ञानकोश भेजता है; आपका प्रदाता शुल्क ले सकता है."</string>
+    <string name="at_providerlabel">"%1$s · %2$s"</string>
     <!-- ATS checker -->
     <string name="ats_checker" formatted="false">"ATS चेकर"</string>
     <!-- ATS-safe -->
@@ -1131,8 +1125,8 @@
     <!-- Complete {0} before saving. -->
     <!-- Arguments: %1$s = {0} -->
     <string name="complete_0_before_saving">"सहेजने से पहले %1$s पूरा करें।"</string>
-    <!-- Complete data backup. Imports back into Reactive Resume. -->
-    <string name="complete_data_backup_imports_back_into_reactive_resume" formatted="false">"पूर्ण डेटा बैकअप। Reactive Resume में वापस इंपोर्ट किया जा सकता है।"</string>
+    <!-- Complete data backup. Imports back into Lebenslauf2. -->
+    <string name="complete_data_backup_imports_back_into_lebenslauf2" formatted="false">"पूर्ण डेटा बैकअप। Lebenslauf2 में वापस इंपोर्ट किया जा सकता है।"</string>
     <!-- Complete the employer form manually in your browser using reviewed answers and approved PDFs. -->
     <string name="complete_the_employer_form_manually_in_your_browser_using_reviewed_answers_and_approved_pdfs" formatted="false">"समीक्षित उत्तरों और स्वीकृत PDF का उपयोग करके नियोक्ता का फ़ॉर्म अपने ब्राउज़र में स्वयं भरें।"</string>
     <!-- {completed, plural, one {# document updated} other {# documents updated}} -->
@@ -1442,8 +1436,8 @@
     <!-- Couldn't propose these edits: {0} -->
     <!-- Arguments: %1$s = {0} -->
     <string name="couldn_t_propose_these_edits_0">"इन संपादनों का प्रस्ताव नहीं किया जा सका: %1$s"</string>
-    <!-- Couldn't reach Reactive Resume. Check your internet connection, then try again. -->
-    <string name="couldn_t_reach_reactive_resume_check_your_internet_connection_then_try_again" formatted="false">"Reactive Resume से संपर्क नहीं हो सका। अपना इंटरनेट कनेक्शन जाँचें, फिर दोबारा कोशिश करें।"</string>
+    <!-- Couldn't reach Lebenslauf2. Check your internet connection, then try again. -->
+    <string name="couldn_t_reach_lebenslauf2_check_your_internet_connection_then_try_again" formatted="false">"Lebenslauf2 से संपर्क नहीं हो सका। अपना इंटरनेट कनेक्शन जाँचें, फिर दोबारा कोशिश करें।"</string>
     <!-- Couldn't reach your AI provider. Try again or check its key in AI settings. -->
     <string name="couldn_t_reach_your_ai_provider_try_again_or_check_its_key_in_ai_settings" formatted="false">"आपके AI प्रदाता तक नहीं पहुंच सका. पुनः प्रयास करें या AI सेटिंग में इसकी कुंजी जाँचें।"</string>
     <!-- Couldn't read {name}'s answer. Try again, or switch the default provider in AI settings. -->
@@ -2056,8 +2050,6 @@
     <string name="earlier_discovery_result_search_query_and_posting_check_time_unknown" formatted="false">"पहले का खोज परिणाम। खोज प्रश्न और विज्ञापन जाँच का समय अज्ञात है।"</string>
     <!-- Earlier messages and attachments in this conversation will be sent to this destination when you send again. -->
     <string name="earlier_messages_and_attachments_in_this_conversation_will_be_sent_to_this_destination_when_you_send" formatted="false">"दोबारा भेजने पर इस बातचीत के पुराने संदेश और अनुलग्नक इस गंतव्य को भेजे जाएँगे।"</string>
-    <!-- earlier messages in this chat -->
-    <string name="earlier_messages_in_this_chat" formatted="false">"इस चैट के पिछले संदेश"</string>
     <!-- Edit -->
     <string name="edit" formatted="false">"संपादन करना"</string>
     <!-- Edit {0} -->
@@ -2080,8 +2072,8 @@
     <string name="edit_first" formatted="false">"पहले संपादित करें"</string>
     <!-- Edit interview -->
     <string name="edit_interview" formatted="false">"साक्षात्कार संपादित करें"</string>
-    <!-- Edit it in Reactive Resume -->
-    <string name="edit_it_in_reactive_resume" formatted="false">"इसे Reactive Resume में संपादित करें"</string>
+    <!-- Edit it in Lebenslauf2 -->
+    <string name="edit_it_in_lebenslauf2" formatted="false">"इसे Lebenslauf2 में संपादित करें"</string>
     <!-- Edit link -->
     <string name="edit_link" formatted="false">"लिंक संपादित करें"</string>
     <!-- Edit note -->
@@ -2149,8 +2141,6 @@
     <string name="empty_trash" formatted="false">"ट्रैश खाली करें"</string>
     <!-- Empty Trash? -->
     <string name="empty_trash_ab0a72a70c" formatted="false">"ट्रैश खाली करें?"</string>
-    <!-- enabled Knowledge -->
-    <string name="enabled_knowledge" formatted="false">"चालू किया गया ज्ञान"</string>
     <!-- End -->
     <string name="end" formatted="false">"अंत"</string>
     <!-- English -->
@@ -2199,8 +2189,8 @@
     <string name="enter_any_model_id_supported_by_your_endpoint" formatted="false">"अपने एंडपॉइंट द्वारा समर्थित कोई भी मॉडल ID दर्ज करें।"</string>
     <!-- Enter terms yourself. No AI request is made. Leave unknown amounts blank. -->
     <string name="enter_terms_yourself_no_ai_request_is_made_leave_unknown_amounts_blank" formatted="false">"शर्तें स्वयं दर्ज करें। एआई को कोई अनुरोध नहीं भेजा जाएगा। अज्ञात राशियाँ खाली छोड़ें।"</string>
-    <!-- Enter the address you open Reactive Resume at in a browser. The app checks it's a Reactive Resume server that allows app sign-in before you continue. -->
-    <string name="enter_the_address_you_open_reactive_resume_at_in_a_browser_the_app_checks_it_s_a_reactive_resume_ser" formatted="false">"वह पता दर्ज करें जिसे आपने ब्राउज़र में Reactive Resume खोला है। ऐप जाँचता है कि यह एक Reactive Resume सर्वर है जो आपके जारी रखने से पहले ऐप साइन-इन की अनुमति देता है।"</string>
+    <!-- Enter the address you open Lebenslauf2 at in a browser. The app checks it's a Lebenslauf2 server that allows app sign-in before you continue. -->
+    <string name="enter_the_address_you_open_lebenslauf2_at_in_a_browser_the_app_checks_it_s_a_lebenslauf2_server_that" formatted="false">"वह पता दर्ज करें जिसे आपने ब्राउज़र में Lebenslauf2 खोला है। ऐप जाँचता है कि यह एक Lebenslauf2 सर्वर है जो आपके जारी रखने से पहले ऐप साइन-इन की अनुमति देता है।"</string>
     <!-- Enter the API base URL of your service and test again. -->
     <string name="enter_the_api_base_url_of_your_service_and_test_again" formatted="false">"अपनी सेवा का API बेस URL डालें और दोबारा टेस्ट करें।"</string>
     <!-- Enter your details below. Choosing a resume replaces them and links its design. -->
@@ -2466,11 +2456,11 @@
     <!-- Found for “{0}”. Posting checked {1}. -->
     <!-- Arguments: %1$s = {0}, %2$s = {1} -->
     <string name="found_for_0_posting_checked_1">"“%1$s” के लिए मिला। विज्ञापन %2$s को जाँचा गया।"</string>
-    <!-- Found posting links are read by Reactive Resume and the sites being read. -->
-    <string name="found_posting_links_are_read_by_reactive_resume_and_the_sites_being_read" formatted="false">"मिले विज्ञापन लिंक Reactive Resume द्वारा और जिन साइटों को पढ़ा जा रहा है उनके द्वारा पढ़े जाते हैं।"</string>
-    <!-- Found posting links are read by Reactive Resume and, when needed, {reader} and the sites being read. The reader may charge. -->
+    <!-- Found posting links are read by Lebenslauf2 and the sites being read. -->
+    <string name="found_posting_links_are_read_by_lebenslauf2_and_the_sites_being_read" formatted="false">"मिले विज्ञापन लिंक Lebenslauf2 द्वारा और जिन साइटों को पढ़ा जा रहा है उनके द्वारा पढ़े जाते हैं।"</string>
+    <!-- Found posting links are read by Lebenslauf2 and, when needed, {reader} and the sites being read. The reader may charge. -->
     <!-- Arguments: %1$s = {reader} -->
-    <string name="found_posting_links_are_read_by_reactive_resume_and_when_needed_reader_and_the_sites_being_read_the">"मिले विज्ञापन लिंक Reactive Resume द्वारा और, ज़रूरत पड़ने पर, %1$s तथा पढ़ी जा रही साइटों द्वारा पढ़े जाते हैं। पढ़ने वाला शुल्क ले सकता है।"</string>
+    <string name="found_posting_links_are_read_by_lebenslauf2_and_when_needed_reader_and_the_sites_being_read_the_read">"मिले विज्ञापन लिंक Lebenslauf2 द्वारा और, ज़रूरत पड़ने पर, %1$s तथा पढ़ी जा रही साइटों द्वारा पढ़े जाते हैं। पढ़ने वाला शुल्क ले सकता है।"</string>
     <!-- Free-form -->
     <string name="free_form" formatted="false">"मुफ्त फॉर्म"</string>
     <!-- French -->
@@ -2859,8 +2849,6 @@
     <!-- Its own design ({summary}). -->
     <!-- Arguments: %1$s = {summary} -->
     <string name="its_own_design_summary">"इसका अपना डिज़ाइन (%1$s) है।"</string>
-    <!-- its requirements -->
-    <string name="its_requirements" formatted="false">"उसकी आवश्यकताएँ"</string>
     <!-- Its saved key is deleted. Conversations using it need another provider. -->
     <string name="its_saved_key_is_deleted_conversations_using_it_need_another_provider" formatted="false">"इसकी सहेजी गई कुंजी हटा दी गई है. इसका उपयोग करने वाले वार्तालापों को किसी अन्य प्रदाता की आवश्यकता होती है।"</string>
     <!-- Japanese -->
@@ -3054,6 +3042,8 @@
     <string name="leave_out" formatted="false">"चोर दिया"</string>
     <!-- Leave without keeping the draft? -->
     <string name="leave_without_keeping_the_draft" formatted="false">"ड्राफ़्ट रखे बिना छोड़ें?"</string>
+    <!-- Lebenslauf2 -->
+    <string name="lebenslauf2" formatted="false">"Lebenslauf2"</string>
     <!-- Left -->
     <string name="left" formatted="false">"बाएं"</string>
     <!-- Left blank. Add it later only if you can support it. -->
@@ -3308,8 +3298,6 @@
     <string name="managed_by_server" formatted="false">"सर्वर द्वारा प्रबंधित"</string>
     <!-- Managed by your server -->
     <string name="managed_by_your_server" formatted="false">"आपके सर्वर द्वारा प्रबंधित"</string>
-    <!-- Manual roles and preferences work without AI. Suggestions never search or schedule anything. -->
-    <string name="manual_roles_and_preferences_work_without_ai_suggestions_never_search_or_schedule_anything" formatted="false">"भूमिकाएँ और प्राथमिकताएँ मैन्युअल रूप से बिना AI के काम करती हैं। सुझाव कभी कुछ भी नहीं खोजते या शेड्यूल नहीं करते।"</string>
     <!-- Many bullets start with the same phrase. -->
     <string name="many_bullets_start_with_the_same_phrase" formatted="false">"कई बुलेट एक ही वाक्यांश से शुरू होते हैं।"</string>
     <!-- Mar 2022 -->
@@ -3527,12 +3515,6 @@
     <plurals name="message_0_plural_one_1_of_posting_term_covered_other_2_of_posting_terms_covered">
         <item quantity="one">"विज्ञापन के %1$s शब्द में से %2$s शामिल"</item>
         <item quantity="other">"विज्ञापन के %1$s शब्दों में से %3$s शामिल"</item>
-    </plurals>
-    <!-- {0, plural, one {Also sends {1}.} other {Also sends # files: {2}.}} -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1}, %3$s = {2} -->
-    <plurals name="message_0_plural_one_also_sends_1_other_also_sends_files_2">
-        <item quantity="one">"यह %2$s भी भेजता है।"</item>
-        <item quantity="other">"यह %1$s फ़ाइलें भी भेजता है: %3$s।"</item>
     </plurals>
     <!-- {0, plural, one {# answer} other {# answers}} -->
     <!-- Arguments: %1$s = {0} -->
@@ -3955,8 +3937,6 @@
     <string name="message_the_assistant" formatted="false">"सहायक को संदेश भेजें"</string>
     <!-- Messages -->
     <string name="messages" formatted="false">"संदेश"</string>
-    <!-- Messages from before Knowledge changed aren't sent. -->
-    <string name="messages_from_before_knowledge_changed_aren_t_sent" formatted="false">"ज्ञानकोश बद�ने से पहले के संदेश नहीं भेजे जाते।"</string>
     <!-- Messages from before Knowledge changed aren't sent to the AI anymore, so it won't remember them. Start a new conversation to keep context together. -->
     <string name="messages_from_before_knowledge_changed_aren_t_sent_to_the_ai_anymore_so_it_won_t_remember_them_start" formatted="false">"ज्ञानकोश बदलने से पहले के संदेश अब AI को नहीं भेजे जाते, इसलिए वह उन्हें याद नहीं रखेगा। संदर्भ साथ रखने के लिए नई बातचीत शुरू करें।"</string>
     <!-- Minimum base salary -->
@@ -4294,6 +4274,8 @@
     <string name="no_keys_yet" formatted="false">"अभी तक कोई चाबी नहीं."</string>
     <!-- No language matches. -->
     <string name="no_language_matches" formatted="false">"कोई भाषा मेल नहीं खाती."</string>
+    <!-- No Lebenslauf2 server answered at this address. Check the spelling, or ask your administrator whether the server allows app sign-in. -->
+    <string name="no_lebenslauf2_server_answered_at_this_address_check_the_spelling_or_ask_your_administrator_whether" formatted="false">"इस पते पर किसी भी Lebenslauf2 सर्वर ने उत्तर नहीं दिया. वर्तनी सत्यापित करें, या अपने व्यवस्थापक से पूछें कि क्या सर्वर ऐप साइन-इन की अनुमति देता है।"</string>
     <!-- No lines look like a job title paired with an employer. -->
     <string name="no_lines_look_like_a_job_title_paired_with_an_employer" formatted="false">"कोई पंक्ति नौकरी के शीर्षक और नियोक्ता के जोड़े जैसी नहीं दिखती।"</string>
     <!-- No linked application -->
@@ -4326,8 +4308,6 @@
     <string name="no_photo_most_ats_ignore_photos_some_regions_expect_one" formatted="false">"कोई फोटो नहीं। अधिकांश ATS फ़ोटो को अनदेखा करते हैं; कुछ क्षेत्र इसकी अपेक्षा करते हैं।"</string>
     <!-- No postings found. Try different keywords. -->
     <string name="no_postings_found_try_different_keywords" formatted="false">"कोई नौकरी पोस्टिंग नहीं मिली. अलग-अलग कीवर्ड आज़माएं."</string>
-    <!-- No Reactive Resume server answered at this address. Check the spelling, or ask your administrator whether the server allows app sign-in. -->
-    <string name="no_reactive_resume_server_answered_at_this_address_check_the_spelling_or_ask_your_administrator_whet" formatted="false">"इस पते पर किसी भी Reactive Resume सर्वर ने उत्तर नहीं दिया. वर्तनी सत्यापित करें, या अपने व्यवस्थापक से पूछें कि क्या सर्वर ऐप साइन-इन की अनुमति देता है।"</string>
     <!-- No recognizable terms in this posting. -->
     <string name="no_recognizable_terms_in_this_posting" formatted="false">"इस नौकरी पोस्टिंग में कोई पहचानने योग्य शब्द नहीं है।"</string>
     <!-- No recorded answers are available. -->
@@ -4450,8 +4430,6 @@
     <string name="nothing_in_your_library_yet" formatted="false">"आपकी लाइब्रेरी में अभी कुछ नहीं है"</string>
     <!-- Nothing is applied for or created until you choose. -->
     <string name="nothing_is_applied_for_or_created_until_you_choose" formatted="false">"जब तक आप न चुनें, न कोई आवेदन किया जाता है, न कुछ बनाया जाता है।"</string>
-    <!-- Nothing is sent until you choose a connection for this conversation. -->
-    <string name="nothing_is_sent_until_you_choose_a_connection_for_this_conversation" formatted="false">"जब तक आप इस बातचीत के लिए कनेक्शन नहीं चुनते, कुछ भी नहीं भेजा जाता।"</string>
     <!-- Nothing marks a role as ongoing. -->
     <string name="nothing_marks_a_role_as_ongoing" formatted="false">"कुछ भी किसी भूमिका को जारी नहीं दिखाता।"</string>
     <!-- Nothing on this day. -->
@@ -4525,8 +4503,8 @@
     <string name="on" formatted="false">"पर"</string>
     <!-- On. Anyone with the link can see your web page. -->
     <string name="on_anyone_with_the_link_can_see_your_web_page" formatted="false">"चालू। लिंक वाला कोई भी व्यक्ति आपका वेब पेज देख सकता है।"</string>
-    <!-- On iOS, choose Keep for review, then reopen app in the Share extension. Reopen Reactive Resume yourself within 15 minutes. Sign in here before sharing. -->
-    <string name="on_ios_choose_keep_for_review_then_reopen_app_in_the_share_extension_reopen_reactive_resume_yourself" formatted="false">"iOS पर, समीक्षा के लिए Keep चुनें, फिर Share एक्सटेंशन में ऐप दोबारा खोलें। 15 मिनट के भीतर Reactive Resume स्वयं दोबारा खोलें। साझा करने से पहले यहाँ साइन इन करें।"</string>
+    <!-- On iOS, choose Keep for review, then reopen app in the Share extension. Reopen Lebenslauf2 yourself within 15 minutes. Sign in here before sharing. -->
+    <string name="on_ios_choose_keep_for_review_then_reopen_app_in_the_share_extension_reopen_lebenslauf2_yourself_wit" formatted="false">"iOS पर, समीक्षा के लिए Keep चुनें, फिर Share एक्सटेंशन में ऐप दोबारा खोलें। 15 मिनट के भीतर Lebenslauf2 स्वयं दोबारा खोलें। साझा करने से पहले यहाँ साइन इन करें।"</string>
     <!-- On. Visitors need the link and password to see your web page. -->
     <string name="on_visitors_need_the_link_and_password_to_see_your_web_page" formatted="false">"चालू। आपका वेब पेज देखने के लिए आगंतुकों को लिंक और पासवर्ड दोनों चाहिए।"</string>
     <!-- Once a round is scheduled, Interview prep builds a timed plan, your opening and the questions to ask. -->
@@ -4787,14 +4765,14 @@
     <string name="pdf_check_canceled_retry_when_ready" formatted="false">"PDF जाँच रद्द कर दी गई। तैयार होने पर पुनः प्रयास करें।"</string>
     <!-- PDF import -->
     <string name="pdf_import" formatted="false">"PDF आयात"</string>
-    <!-- PDF only · up to 10 MB each. Linking a Reactive Resume enables a fit check against each requirement and tailoring. -->
-    <string name="pdf_only_up_to_10_mb_each_linking_a_reactive_resume_enables_a_fit_check_against_each_requirement_and" formatted="false">"केवल PDF · प्रत्येक 10 MB तक। Reactive Resume लिंक करने से हर आवश्यकता पर फ़िट जाँच और ढालना सक्रिय होता है।"</string>
-    <!-- PDF reads its text layer on your server by default, without AI. Turn on the AI switch to send it to your provider. Word (.docx) needs an AI provider. Current and v4 Reactive Resume JSON, cover letters, JSON Resume and LinkedIn exports (.zip) are supported. Up to 10 MB. -->
-    <string name="pdf_reads_its_text_layer_on_your_server_by_default_without_ai_turn_on_the_ai_switch_to_send_it_to_yo" formatted="false">"PDF डिफ़ॉल्ट रूप से अपनी टेक्स्ट परत आपके सर्वर पर, AI के बिना पढ़ता है। इसे अपने प्रोवाइडर को भेजने के लिए AI स्विच चालू करें। Word (.docx) के लिए AI प्रोवाइडर चाहिए। वर्तमान और v4 Reactive Resume JSON, कवर लेटर, JSON Resume और LinkedIn एक्सपोर्ट (.zip) समर्थित हैं। 10 MB तक।"</string>
+    <!-- PDF only · up to 10 MB each. Linking a Lebenslauf2 enables a fit check against each requirement and tailoring. -->
+    <string name="pdf_only_up_to_10_mb_each_linking_a_lebenslauf2_enables_a_fit_check_against_each_requirement_and_tai" formatted="false">"केवल PDF · प्रत्येक 10 MB तक। Lebenslauf2 लिंक करने से हर आवश्यकता पर फ़िट जाँच और ढालना सक्रिय होता है।"</string>
+    <!-- PDF reads its text layer on your server by default, without AI. Turn on the AI switch to send it to your provider. Word (.docx) needs an AI provider. Current and v4 Lebenslauf2 JSON, cover letters, JSON Resume and LinkedIn exports (.zip) are supported. Up to 10 MB. -->
+    <string name="pdf_reads_its_text_layer_on_your_server_by_default_without_ai_turn_on_the_ai_switch_to_send_it_to_yo" formatted="false">"PDF डिफ़ॉल्ट रूप से अपनी टेक्स्ट परत आपके सर्वर पर, AI के बिना पढ़ता है। इसे अपने प्रोवाइडर को भेजने के लिए AI स्विच चालू करें। Word (.docx) के लिए AI प्रोवाइडर चाहिए। वर्तमान और v4 Lebenslauf2 JSON, कवर लेटर, JSON Resume और LinkedIn एक्सपोर्ट (.zip) समर्थित हैं। 10 MB तक।"</string>
     <!-- PDF styles support a subset of CSS. Rotation, dashed and dotted borders, and some layout properties are ignored. -->
     <string name="pdf_styles_support_a_subset_of_css_rotation_dashed_and_dotted_borders_and_some_layout_properties_are" formatted="false">"PDF शैलियाँ CSS के सबसेट का समर्थन करती हैं। रोटेशन, धराशायी और बिंदीदार बॉर्डर और कुछ लेआउट गुणों को नजरअंदाज कर दिया जाता है।"</string>
-    <!-- PDF, Word, Reactive Resume, JSON Resume or LinkedIn export. -->
-    <string name="pdf_word_reactive_resume_json_resume_or_linkedin_export" formatted="false">"PDF, Word, Reactive Resume, JSON Resume या LinkedIn निर्यात करें।"</string>
+    <!-- PDF, Word, Lebenslauf2, JSON Resume or LinkedIn export. -->
+    <string name="pdf_word_lebenslauf2_json_resume_or_linkedin_export" formatted="false">"PDF, Word, Lebenslauf2, JSON Resume या LinkedIn निर्यात करें।"</string>
     <!-- {pending, plural, one {# proposed edit on this page · nothing changes until you accept} other {# proposed edits on this page · nothing changes until you accept}} -->
     <!-- Arguments: %1$s = {pending} -->
     <plurals name="pending_plural_one_proposed_edit_on_this_page_nothing_changes_until_you_accept_other_proposed_edits">
@@ -4910,8 +4888,6 @@
     <!-- Practice in {company}’s workspace -->
     <!-- Arguments: %1$s = {company} -->
     <string name="practice_in_company_s_workspace">"%1$s के कार्यक्षेत्र में अभ्यास करें"</string>
-    <!-- Practice priorities, not conclusions about why an employer decided anything. -->
-    <string name="practice_priorities_not_conclusions_about_why_an_employer_decided_anything" formatted="false">"अभ्यास की प्राथमिकताएँ, न कि इस बारे में निष्कर्ष कि किसी नियोक्ता ने कोई फ़ैसला क्यों लिया।"</string>
     <!-- Practice priority: -->
     <string name="practice_priority" formatted="false">"अभ्यास की प्राथमिकता:"</string>
     <!-- Practice without an application -->
@@ -5120,8 +5096,6 @@
     <string name="re_export_with_fonts_embedded_and_check_the_text_copies_out_cleanly" formatted="false">"फ़ॉन्ट एम्बेड करके दोबारा एक्सपोर्ट करें, और जांचें कि टेक्स्ट सही तरह से कॉपी होता है।"</string>
     <!-- Re-export with fonts embedded, then open the file and check that the text copies out cleanly. -->
     <string name="re_export_with_fonts_embedded_then_open_the_file_and_check_that_the_text_copies_out_cleanly" formatted="false">"फ़ॉन्ट एम्बेड करके दोबारा एक्सपोर्ट करें, फिर फ़ाइल खोलें और जांचें कि टेक्स्ट सही तरह से कॉपी होता है।"</string>
-    <!-- Reactive Resume -->
-    <string name="reactive_resume" formatted="false">"Reactive Resume"</string>
     <!-- Read briefing -->
     <string name="read_briefing" formatted="false">"ब्रीफ़िंग पढ़ें"</string>
     <!-- Read, change and delete documents and applications (legacy connection). -->
@@ -5855,8 +5829,6 @@
     <string name="search_or_run" formatted="false">"खोजें या चलाएँ..."</string>
     <!-- Search saved answers -->
     <string name="search_saved_answers" formatted="false">"सहेजे गए उत्तर खोजें"</string>
-    <!-- Search terms go to your web search service. -->
-    <string name="search_terms_go_to_your_web_search_service" formatted="false">"खोज शब्द आपकी वेब खोज सेवा को भेजे जाते हैं।"</string>
     <!-- Search the web -->
     <string name="search_the_web" formatted="false">"वेब पर खोजें"</string>
     <!-- Search timezones -->
@@ -5934,51 +5906,8 @@
     <string name="sender_details_copied_into_the_letter" formatted="false">"प्रेषक का विवरण पत्र में कॉपी किया गया"</string>
     <!-- Sending… -->
     <string name="sending" formatted="false">"भेजा जा रहा है..."</string>
-    <!-- Sends {0} to {label}. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {label} -->
-    <string name="sends_0_to_label">"%2$s को %1$s भेजता है।"</string>
-    <!-- Sends only your selected resume and up to 20 active shared facts to this connection. No application profile, saved answers or private application facts. Your provider may charge. -->
-    <string name="sends_only_your_selected_resume_and_up_to_20_active_shared_facts_to_this_connection_no_application_p" formatted="false">"इस कनेक्शन को केवल आपका चुना हुआ रेज़्यूमे और 20 तक सक्रिय साझा तथ्य भेजता है। कोई आवेदन प्रोफ़ाइल, सहेजे गए उत्तर या निजी आवेदन तथ्य नहीं। आपका प्रोवाइडर शुल्क ले सकता है।"</string>
-    <!-- Sends the {0} posting to {1} · {2} to draft the body. Your provider may charge. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1}, %3$s = {2} -->
-    <string name="sends_the_0_posting_to_1_2_to_draft_the_body_your_provider_may_charge">"मुख्य भाग का ड्राफ़्ट बनाने के लिए %2$s · %3$s को %1$s का विज्ञापन भेजता है। आपका प्रोवाइडर शुल्क ले सकता है।"</string>
-    <!-- Sends the posting text to {0} to read it. -->
-    <!-- Arguments: %1$s = {0} -->
-    <string name="sends_the_posting_text_to_0_to_read_it">"उसे पढ़ने के लिए %1$s को विज्ञापन का पाठ भेजता है।"</string>
     <!-- Sends this application and enabled Knowledge to this connection. Your provider may charge. Scheduled work never switches to another connection automatically. -->
     <string name="sends_this_application_and_enabled_knowledge_to_this_connection_your_provider_may_charge_scheduled_w" formatted="false">"यह आवेदन और सक्रिय ज्ञानकोश इस कनेक्शन को भेजता है। आपका प्रोवाइडर शुल्क ले सकता है। नियोजित कार्य कभी अपने आप दूसरे कनेक्शन पर नहीं जाता।"</string>
-    <!-- Sends this letter's resume and the {0} posting to {1} · {2} to draft the body. Your provider may charge. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1}, %3$s = {2} -->
-    <string name="sends_this_letter_s_resume_and_the_0_posting_to_1_2_to_draft_the_body_your_provider_may_charge">"मुख्य भाग का ड्राफ़्ट बनाने के लिए %2$s · %3$s को इस कवर लेटर का रेज़्यूमे और %1$s का विज्ञापन भेजता है। आपका प्रोवाइडर शुल्क ले सकता है।"</string>
-    <!-- Sends this letter's resume to {0} · {1} to draft the body. Your provider may charge. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1} -->
-    <string name="sends_this_letter_s_resume_to_0_1_to_draft_the_body_your_provider_may_charge">"मुख्य भाग का ड्राफ़्ट बनाने के लिए %1$s · %2$s को इस कवर लेटर का रेज़्यूमे भेजता है। आपका प्रोवाइडर शुल्क ले सकता है।"</string>
-    <!-- Sends this line, surrounding field text and your instructions to {0} · {1}. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1} -->
-    <string name="sends_this_line_surrounding_field_text_and_your_instructions_to_0_1">"यह पंक्ति, आसपास का फ़ील्ड पाठ और आपके निर्देश %1$s · %2$s को भेजता है।"</string>
-    <!-- Sends this paragraph, the rest of the letter and your instructions to {0} · {1}. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1} -->
-    <string name="sends_this_paragraph_the_rest_of_the_letter_and_your_instructions_to_0_1">"यह अनुच्छेद, पत्र का बाकी हिस्सा और आपके निर्देश %1$s · %2$s को भेजता है।"</string>
-    <!-- Sends this paragraph, the rest of the letter, the linked job posting and your instructions to {0} · {1}. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1} -->
-    <string name="sends_this_paragraph_the_rest_of_the_letter_the_linked_job_posting_and_your_instructions_to_0_1">"यह अनुच्छेद, पत्र का बाकी हिस्सा, लिंक किया गया नौकरी का विज्ञापन और आपके निर्देश %1$s · %2$s को भेजता है।"</string>
-    <!-- Sends this PDF to your configured AI provider instead of reading its text layer. -->
-    <string name="sends_this_pdf_to_your_configured_ai_provider_instead_of_reading_its_text_layer" formatted="false">"इसकी टेक्स्ट परत को पढ़ने के बजाय इस PDF को आपके कॉन्फ़िगर किए गए AI प्रदाता को भेजता है।"</string>
-    <!-- Sends your message and this application (posting, notes, documents, your form answers, the saved offer and recent messages) to {label}. -->
-    <!-- Arguments: %1$s = {label} -->
-    <string name="sends_your_message_and_this_application_posting_notes_documents_your_form_answers_the_saved_offer_an">"आपका संदेश और यह आवेदन (विज्ञापन, टिप्पणियाँ, दस्तावेज़, आपके फ़ॉर्म उत्तर, सहेजा गया ऑफ़र और हाल के संदेश) %1$s को भेजता है।"</string>
-    <!-- Sends your message, earlier messages and this application (posting, notes, documents, your form answers, the saved offer and recent messages) to {label}. -->
-    <!-- Arguments: %1$s = {label} -->
-    <string name="sends_your_message_earlier_messages_and_this_application_posting_notes_documents_your_form_answers_t">"आपका संदेश, पुराने संदेश और यह आवेदन (विज्ञापन, टिप्पणियाँ, दस्तावेज़, आपके फ़ॉर्म उत्तर, सहेजा गया ऑफ़र और हाल के संदेश) %1$s को भेजता है।"</string>
-    <!-- Sends your message, earlier messages here, this application (posting, notes, documents, your form answers, the saved offer and recent messages) and Knowledge that's switched on, to {label}. -->
-    <!-- Arguments: %1$s = {label} -->
-    <string name="sends_your_message_earlier_messages_here_this_application_posting_notes_documents_your_form_answers">"आपका संदेश, यहाँ के पिछले संदेश, यह आवेदन (नौकरी का विज्ञापन, नोट्स, दस्तावेज़, फ़ॉर्म में आपके जवाब, सहेजा गया प्रस्ताव और हाल के संदेश) और चालू किया गया ज्ञान %1$s को भेजता है।"</string>
-    <!-- Sends your message, this application (posting, notes, documents, your form answers, the saved offer and recent messages) and Knowledge that's switched on, to {label}. -->
-    <!-- Arguments: %1$s = {label} -->
-    <string name="sends_your_message_this_application_posting_notes_documents_your_form_answers_the_saved_offer_and_re">"आपका संदेश, यह आवेदन (नौकरी का विज्ञापन, नोट्स, दस्तावेज़, फ़ॉर्म में आपके जवाब, सहेजा गया प्रस्ताव और हाल के संदेश) और चालू किया गया ज्ञान %1$s को भेजता है।"</string>
-    <!-- Sends your resume's text only to {0} · {1}, with your key. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1} -->
-    <string name="sends_your_resume_s_text_only_to_0_1_with_your_key">"आपकी कुंजी के साथ, आपके बायोडाटा का टेक्स्ट केवल %1$s · %2$s पर भेजता है।"</string>
     <!-- Sent -->
     <string name="sent" formatted="false">"भेजा"</string>
     <!-- Sent: {0} -->
@@ -6128,8 +6057,8 @@
     <string name="show_less" formatted="false">"कम दिखाएँ"</string>
     <!-- Show link in title -->
     <string name="show_link_in_title" formatted="false">"शीर्षक में लिंक दिखाएं"</string>
-    <!-- Show “Made with Reactive Resume” -->
-    <string name="show_made_with_reactive_resume" formatted="false">"“Reactive Resume से बनाया गया” दिखाएँ"</string>
+    <!-- Show “Made with Lebenslauf2” -->
+    <string name="show_made_with_lebenslauf2" formatted="false">"“Lebenslauf2 से बनाया गया” दिखाएँ"</string>
     <!-- Show more -->
     <string name="show_more" formatted="false">"और दिखाएँ"</string>
     <!-- Show on page -->
@@ -6659,20 +6588,14 @@
     <string name="the_built_in_reader_remains_active" formatted="false">"अंतर्निहित रीडर सक्रिय रहता है."</string>
     <!-- The checks are mechanical. This asks a language model how a reader might react to your bullets and suggests rewrites. It isn't part of the score. -->
     <string name="the_checks_are_mechanical_this_asks_a_language_model_how_a_reader_might_react_to_your_bullets_and_su" formatted="false">"जाँचें यांत्रिक हैं. यह एक भाषा मॉडल से पूछता है कि एक पाठक आपकी सूची प्रविष्टियों पर कैसे प्रतिक्रिया दे सकता है और फिर से लिखने का सुझाव देता है। यह स्कोर का हिस्सा नहीं है."</string>
-    <!-- The coach asks before remembering facts you state. -->
-    <string name="the_coach_asks_before_remembering_facts_you_state" formatted="false">"कोच आपके बताए तथ्य याद रखने से पहले पूछता है।"</string>
     <!-- The coach doesn't remember anything from your messages. -->
     <string name="the_coach_doesn_t_remember_anything_from_your_messages" formatted="false">"कोच आपके संदेशों से कुछ भी याद नहीं रखता।"</string>
-    <!-- The coach doesn't remember anything you write. -->
-    <string name="the_coach_doesn_t_remember_anything_you_write" formatted="false">"कोच आपकी लिखी किसी भी बात को याद नहीं रखता।"</string>
     <!-- The coach isn't set up on this server. Whoever runs it needs to set ENCRYPTION_SECRET. -->
     <string name="the_coach_isn_t_set_up_on_this_server_whoever_runs_it_needs_to_set_encryption_secret" formatted="false">"इस सर्वर पर कोच सेट अप नहीं है। सर्वर चलाने वाले व्यक्ति को ENCRYPTION_SECRET सेट करना होगा।"</string>
     <!-- The coach isn't set up on this server. Whoever runs it needs to set ENCRYPTION_SECRET. Knowledge, Offers and your applications work without it. -->
     <string name="the_coach_isn_t_set_up_on_this_server_whoever_runs_it_needs_to_set_encryption_secret_knowledge_offer" formatted="false">"इस सर्वर पर कोच सेट नहीं है। इसे चलाने वाले को ENCRYPTION_SECRET सेट करना होगा। ज्ञानकोश, ऑफ़र और आपके आवेदन इसके बिना भी काम करते हैं।"</string>
     <!-- The coach proposes each fact in the chat. Nothing is saved until you agree. -->
     <string name="the_coach_proposes_each_fact_in_the_chat_nothing_is_saved_until_you_agree" formatted="false">"कोच चैट में हर तथ्य का प्रस्ताव देता है। आपकी सहमति के बिना कुछ भी सहेजा नहीं जाता।"</string>
-    <!-- The coach remembers facts you state, and tells you. -->
-    <string name="the_coach_remembers_facts_you_state_and_tells_you" formatted="false">"कोच आपके बताए तथ्य याद रखता है, और आपको बताता भी है।"</string>
     <!-- The coach saves facts you state, and tells you. You can undo. -->
     <string name="the_coach_saves_facts_you_state_and_tells_you_you_can_undo" formatted="false">"कोच आपके बताए तथ्य सहेजता है, और आपको बताता है। आप इसे पूर्ववत कर सकते हैं।"</string>
     <!-- The connection couldn't be loaded or saved. Try again. -->
@@ -6683,8 +6606,6 @@
     <string name="the_connection_works_turn_on_use_this_provider_to_use_it" formatted="false">"कनेक्शन काम कर रहा है। उपयोग करने के लिए “इस प्रोवाइडर का उपयोग करें” चालू करें।"</string>
     <!-- The copy gets the job's posting and keeps this resume as it is for other jobs. -->
     <string name="the_copy_gets_the_job_s_posting_and_keeps_this_resume_as_it_is_for_other_jobs" formatted="false">"प्रतिलिपि को नौकरी का विज्ञापन मिलता है और यह रेज़्यूमे अन्य नौकरियों के लिए वैसा ही रहता है।"</string>
-    <!-- the cover letter for this job -->
-    <string name="the_cover_letter_for_this_job" formatted="false">"इस नौकरी के लिए कवर लेटर"</string>
     <!-- The current state will be saved as “Before restore” first. -->
     <string name="the_current_state_will_be_saved_as_before_restore_first" formatted="false">"वर्तमान स्थिति को पहले “पुनर्स्थापन करने से पहले” के रूप में सहेजा जाएगा।"</string>
     <!-- the document -->
@@ -6693,24 +6614,18 @@
     <string name="the_editor_opens_on_check_which_checks_the_imported_resume_again" formatted="false">"संपादक जाँच पर खुलता है, जो आयातित रेज़्यूमे की दोबारा जाँच करता है।"</string>
     <!-- The employer may have changed it since. -->
     <string name="the_employer_may_have_changed_it_since" formatted="false">"नियोक्ता ने उसके बाद विज्ञापन बदल दिया हो सकता है।"</string>
-    <!-- the employer's message -->
-    <string name="the_employer_s_message" formatted="false">"नियोक्ता का संदेश"</string>
     <!-- The end date is before the start date. Check both dates. -->
     <string name="the_end_date_is_before_the_start_date_check_both_dates" formatted="false">"समाप्ति तिथि शुरुआती तिथि से पहले है। दोनों तिथियाँ जाँचें।"</string>
     <!-- The follow-up is saved. To get a reminder, allow notifications in your device settings. -->
     <string name="the_follow_up_is_saved_to_get_a_reminder_allow_notifications_in_your_device_settings" formatted="false">"अनुवर्ती सहेजा गया है. अनुस्मारक प्राप्त करने के लिए, अपनी डिवाइस सेटिंग में सूचनाओं की अनुमति दें।"</string>
     <!-- The greeting follows the name. -->
     <string name="the_greeting_follows_the_name" formatted="false">"अभिवादन नाम के अनुसार होता है।"</string>
-    <!-- the interview details -->
-    <string name="the_interview_details" formatted="false">"साक्षात्कार के विवरण"</string>
     <!-- The interview is saved. To get a reminder, allow notifications in your device settings. -->
     <string name="the_interview_is_saved_to_get_a_reminder_allow_notifications_in_your_device_settings" formatted="false">"साक्षात्कार सहेजा गया है. अनुस्मारक प्राप्त करने के लिए, अपनी डिवाइस सेटिंग में सूचनाओं की अनुमति दें।"</string>
     <!-- The key is encrypted on the server and never shown again. Saving tests the connection. -->
     <string name="the_key_is_encrypted_on_the_server_and_never_shown_again_saving_tests_the_connection" formatted="false">"कुंजी सर्वर पर एन्क्रिप्ट की गई है और दोबारा कभी नहीं दिखाई जाएगी। सहेजा जा रहा है कनेक्शन का परीक्षण करता है."</string>
     <!-- The key was rejected. Check the key and test again. -->
     <string name="the_key_was_rejected_check_the_key_and_test_again" formatted="false">"कुंजी अस्वीकार कर दी गई। कुंजी जाँचकर दोबारा टेस्ट करें।"</string>
-    <!-- the last messages -->
-    <string name="the_last_messages" formatted="false">"आख़िरी संदेश"</string>
     <!-- The lead time has passed. Saving runs the briefing now. -->
     <string name="the_lead_time_has_passed_saving_runs_the_briefing_now" formatted="false">"तय तैयारी समय बीत चुका है। सहेजने पर ब्रीफ़िंग अभी चलेगी।"</string>
     <!-- The letter as it is -->
@@ -6753,10 +6668,6 @@
     <string name="the_provider_limited_this_request_wait_and_try_again_check_your_account_quota" formatted="false">"प्रोवाइडर ने इस अनुरोध पर पाबंदी लगाई। रुककर फिर कोशिश करें; अपने खाते का कोटा जाँचें।"</string>
     <!-- The provider reported a server error. Try again later. -->
     <string name="the_provider_reported_a_server_error_try_again_later" formatted="false">"प्रोवाइडर ने सर्वर त्रुटि बताई। बाद में फिर कोशिश करें।"</string>
-    <!-- the question and what you said -->
-    <string name="the_question_and_what_you_said" formatted="false">"प्रश्न और आपने जो कहा"</string>
-    <!-- the question and your answer -->
-    <string name="the_question_and_your_answer" formatted="false">"प्रश्न और आपका उत्तर"</string>
     <!-- The reason is kept for Insights. Linked documents aren't touched. -->
     <string name="the_reason_is_kept_for_insights_linked_documents_aren_t_touched" formatted="false">"इसका कारण इनसाइट्स रखा गया है। लिंक किए गए दस्तावेज़ों को छुआ नहीं गया है."</string>
     <!-- The records aren't visible yet. Check again later. -->
@@ -6765,8 +6676,6 @@
     <string name="the_rest_of_the_file_isn_t_in_this_report" formatted="false">"बाकी फ़ाइल इस रिपोर्ट में नहीं है."</string>
     <!-- The resume as it is -->
     <string name="the_resume_as_it_is" formatted="false">"बायोडाटा ज्यों का त्यों है"</string>
-    <!-- the resume for this job -->
-    <string name="the_resume_for_this_job" formatted="false">"इस नौकरी के लिए रेज़्यूमे"</string>
     <!-- The reviewer sees each one's stage and dates. Notes, contacts and pay stay private. -->
     <string name="the_reviewer_sees_each_one_s_stage_and_dates_notes_contacts_and_pay_stay_private" formatted="false">"समीक्षक को हर एक का चरण और तिथियाँ दिखती हैं। टिप्पणियाँ, संपर्क और वेतन निजी रहते हैं।"</string>
     <!-- The same line repeats on every page. -->
@@ -6775,8 +6684,6 @@
     <string name="the_saved_key_isn_t_sent_to_a_new_base_url_enter_it_again" formatted="false">"सहेजी गई कुंजी नए आधार URL पर नहीं भेजी जाती है. कुंजी फिर से दर्ज करें."</string>
     <!-- The saved key isn't sent to a new base URL. Enter it again if this server needs one. -->
     <string name="the_saved_key_isn_t_sent_to_a_new_base_url_enter_it_again_if_this_server_needs_one" formatted="false">"सहेजी गई कुंजी नए आधार URL पर नहीं भेजी जाती है. यदि इस सर्वर को कुंजी की आवश्यकता है तो कुंजी दोबारा दर्ज करें।"</string>
-    <!-- the saved offer -->
-    <string name="the_saved_offer" formatted="false">"सहेजा गया ऑफ़र"</string>
     <!-- The score counts how reliably software reads your resume. It doesn't predict whether you'll be shortlisted. -->
     <string name="the_score_counts_how_reliably_software_reads_your_resume_it_doesn_t_predict_whether_you_ll_be_shortl" formatted="false">"स्कोर यह मायने रखता है कि सॉफ़्टवेयर आपके बायोडाटा को कितनी विश्वसनीय ढंग से पढ़ता है। यह भविष्यवाणी नहीं करता कि आपको शॉर्टलिस्ट किया जाएगा या नहीं।"</string>
     <!-- The score reflects how reliably text is extracted, not your chances. -->
@@ -6962,8 +6869,6 @@
     <string name="this_pdf_is_a_scanned_image_there_s_no_text_to_read_try_the_word_version_or_start_blank_and_paste_se" formatted="false">"यह PDF एक स्कैन की गई छवि है। पढ़ने के लिए कोई पाठ नहीं है. Word संस्करण आज़माएँ, या रिक्त प्रारंभ करें और अनुभागों को चिपकाएँ।"</string>
     <!-- This PDF is password protected. Save an unprotected copy and try again. -->
     <string name="this_pdf_is_password_protected_save_an_unprotected_copy_and_try_again" formatted="false">"यह PDF पासवर्ड से सुरक्षित है। एक असुरक्षित प्रति सहेजें और फिर कोशिश करें।"</string>
-    <!-- this posting -->
-    <string name="this_posting" formatted="false">"यह विज्ञापन"</string>
     <!-- This question couldn't be asked. Send a new message to continue. -->
     <string name="this_question_couldn_t_be_asked_send_a_new_message_to_continue" formatted="false">"यह प्रश्न नहीं पूछा जा सका। जारी रखने के लिए नया संदेश भेजें।"</string>
     <!-- This question didn't finish. -->
@@ -7398,8 +7303,8 @@
     <string name="use_url">"%1$s का प्रयोग करें"</string>
     <!-- Use web access? -->
     <string name="use_web_access" formatted="false">"वेब एक्सेस उपयोग करें?"</string>
-    <!-- Use your browser’s Share action to send one posting URL or selected text to Reactive Resume. Receiving shares requires the latest store build; URL and paste import remain available. -->
-    <string name="use_your_browsers_share_action_to_send_one_posting_url_or_selected_text_to_reactive_resume_receiving" formatted="false">"एक विज्ञापन URL या चुने हुए पाठ को Reactive Resume को भेजने के लिए अपने ब्राउज़र की शेयर क्रिया उपयोग करें। शेयर पाने के लिए नवीनतम स्टोर बिल्ड चाहिए; URL और पेस्ट इंपोर्ट उपलब्ध रहते हैं।"</string>
+    <!-- Use your browser’s Share action to send one posting URL or selected text to Lebenslauf2. Receiving shares requires the latest store build; URL and paste import remain available. -->
+    <string name="use_your_browsers_share_action_to_send_one_posting_url_or_selected_text_to_lebenslauf2_receiving_sha" formatted="false">"एक विज्ञापन URL या चुने हुए पाठ को Lebenslauf2 को भेजने के लिए अपने ब्राउज़र की शेयर क्रिया उपयोग करें। शेयर पाने के लिए नवीनतम स्टोर बिल्ड चाहिए; URL और पेस्ट इंपोर्ट उपलब्ध रहते हैं।"</string>
     <!-- Use your editor's normal bullet list, so stray glyphs do not land mid-sentence. -->
     <string name="use_your_editor_s_normal_bullet_list_so_stray_glyphs_do_not_land_mid_sentence" formatted="false">"अपने एडिटर की सामान्य बुलेट सूची इस्तेमाल करें, ताकि आवारा ग्लिफ़ बीच वाक्य में न आएँ।"</string>
     <!-- Used: {summary} -->
@@ -7629,9 +7534,6 @@
     <string name="when_would_you_start" formatted="false">"आप कब शुरू करेंगे?"</string>
     <!-- When you're done, the browser closes and you come back here. -->
     <string name="when_you_re_done_the_browser_closes_and_you_come_back_here" formatted="false">"जब आपका काम पूरा हो जाए, तो ब्राउज़र बंद हो जाता है और आप यहां वापस आ जाते हैं।"</string>
-    <!-- When you tap send, {list} go to your {connection}. -->
-    <!-- Arguments: %1$s = {list}, %2$s = {connection} -->
-    <string name="when_you_tap_send_list_go_to_your_connection">"भेजें पर टैप करने पर, %1$s %2$s पर भेजे जाते हैं।"</string>
     <!-- Where applications come from -->
     <string name="where_applications_come_from" formatted="false">"आवेदन कहाँ से आते हैं"</string>
     <!-- Where you want to work -->
@@ -7660,8 +7562,6 @@
     <string name="width" formatted="false">"चौड़ाई"</string>
     <!-- Willing to relocate -->
     <string name="willing_to_relocate" formatted="false">"स्थानांतरण के लिए तैयार"</string>
-    <!-- With Knowledge off, nothing you write is remembered. -->
-    <string name="with_knowledge_off_nothing_you_write_is_remembered" formatted="false">"ज्ञानकोश बंद होने पर आपकी लिखी कोई भी बात याद नहीं रहती।"</string>
     <!-- Within your office-day limit. -->
     <string name="within_your_office_day_limit" formatted="false">"ऑफ़िस जाने के दिनों की सीमा के भीतर।"</string>
     <!-- Without a fact, the coach and practice can't use this story. -->
@@ -7842,8 +7742,6 @@
     <string name="your_changes_on_this_device_will_be_replaced_by_the_saved_version" formatted="false">"इस डिवाइस पर आपके परिवर्तन सहेजे गए संस्करण से बदल दिए जाएंगे।"</string>
     <!-- Your contact details are not on the first page. -->
     <string name="your_contact_details_are_not_on_the_first_page" formatted="false">"आपके संपर्क विवरण पहले पेज पर नहीं हैं।"</string>
-    <!-- your contacts -->
-    <string name="your_contacts" formatted="false">"आपके संपर्क"</string>
     <!-- Your data -->
     <string name="your_data" formatted="false">"आपका डेटा"</string>
     <!-- Your dates are written several different ways. -->
@@ -7864,22 +7762,18 @@
     <string name="your_facts_stories_and_preferences_editing_knowledge_sends_nothing_to_an_ai_connection" formatted="false">"आपके तथ्य, कहानियाँ और प्राथमिकताएँ। ज्ञानकोश संपादित करने पर किसी AI कनेक्शन को कुछ नहीं भेजा जाता।"</string>
     <!-- Your focus -->
     <string name="your_focus" formatted="false">"आपका फ़ोकस"</string>
-    <!-- your form answers -->
-    <string name="your_form_answers" formatted="false">"आपके फ़ॉर्म उत्तर"</string>
     <!-- Your headings look the same as your body text. -->
     <string name="your_headings_look_the_same_as_your_body_text" formatted="false">"आपके शीर्षक आपके मुख्य टेक्स्ट जैसे ही दिखते हैं।"</string>
     <!-- Your job search starts here -->
     <string name="your_job_search_starts_here" formatted="false">"आपकी नौकरी खोज यहीं से शुरू होती है"</string>
     <!-- your Knowledge -->
     <string name="your_knowledge" formatted="false">"आपका ज्ञानकोश"</string>
-    <!-- Your language is saved. Restart Reactive Resume to apply the new left-to-right or right-to-left layout. -->
-    <string name="your_language_is_saved_restart_reactive_resume_to_apply_the_new_left_to_right_or_right_to_left_layou" formatted="false">"आपकी भाषा सुरक्षित है. नया बाएँ-से-दाएँ या दाएँ-से-बाएँ लेआउट लागू करने के लिए Reactive Resume को पुनरारंभ करें।"</string>
+    <!-- Your language is saved. Restart Lebenslauf2 to apply the new left-to-right or right-to-left layout. -->
+    <string name="your_language_is_saved_restart_lebenslauf2_to_apply_the_new_left_to_right_or_right_to_left_layout" formatted="false">"आपकी भाषा सुरक्षित है. नया बाएँ-से-दाएँ या दाएँ-से-बाएँ लेआउट लागू करने के लिए Lebenslauf2 को पुनरारंभ करें।"</string>
     <!-- Your lines are packed very tightly. -->
     <string name="your_lines_are_packed_very_tightly" formatted="false">"आपकी पंक्तियाँ बहुत कसकर भरी हुई हैं।"</string>
     <!-- Your margins are very narrow. -->
     <string name="your_margins_are_very_narrow" formatted="false">"आपके मार्जिन बहुत संकीर्ण हैं।"</string>
-    <!-- your message -->
-    <string name="your_message" formatted="false">"आपका संदेश"</string>
     <!-- Your message is kept. -->
     <string name="your_message_is_kept" formatted="false">"आपका संदेश रख लिया गया है।"</string>
     <!-- Your name -->
@@ -7910,9 +7804,6 @@
     <string name="your_public_links_begin_with_server">"आपके सार्वजनिक लिंक %1$s/ से शुरू होते हैं"</string>
     <!-- Your public links will change -->
     <string name="your_public_links_will_change" formatted="false">"आपके सार्वजनिक लिंक बदलेंगे"</string>
-    <!-- Your recording goes to {transcriberName} after you stop, to be transcribed. Your provider may charge. The server keeps transcripts, never recordings. -->
-    <!-- Arguments: %1$s = {transcriberName} -->
-    <string name="your_recording_goes_to_transcribername_after_you_stop_to_be_transcribed_your_provider_may_charge_the">"आपके रुकने के बाद आपकी रिकॉर्डिंग ट्रांसक्राइब होने के लिए %1$s पर चली जाती है। आपका प्रदाता शुल्क ले सकता है. सर्वर ट्रांसक्रिप्ट रखता है, रिकॉर्डिंग कभी नहीं।"</string>
     <!-- Your request and relevant resume, letter, job posting, application, career information, conversation history, and attachments are sent through your server to this AI provider, according to the feature and context you selected. They can contain personal information. -->
     <string name="your_request_and_relevant_resume_letter_job_posting_application_career_information_conversation_hist" formatted="false">"आपका अनुरोध और प्रासंगिक बायोडाटा, पत्र, नौकरी पोस्टिंग, आवेदन, कैरियर की जानकारी, बातचीत का इतिहास और संलग्नक आपके सर्वर के माध्यम से इस एआई प्रदाता को आपके द्वारा चयनित सुविधा और संदर्भ के अनुसार भेजे जाते हैं। उनमें व्यक्तिगत जानकारी हो सकती है."</string>
     <!-- Your requirements -->
@@ -7957,8 +7848,6 @@
     <string name="your_short_link_points_to_0_which_isn_t_published">"आपका शॉर्ट लिंक “%1$s” पर इशारा करता है, जो प्रकाशित नहीं है।"</string>
     <!-- Your short link says this resume isn't shared until you publish it again. -->
     <string name="your_short_link_says_this_resume_isn_t_shared_until_you_publish_it_again" formatted="false">"आपके शॉर्ट लिंक के अनुसार यह रेज़्यूमे तब तक साझा नहीं है जब तक आप इसे दोबारा प्रकाशित न करें।"</string>
-    <!-- your stories -->
-    <string name="your_stories" formatted="false">"आपकी कहानियाँ"</string>
     <!-- Your story couldn't be loaded. -->
     <string name="your_story_couldn_t_be_loaded" formatted="false">"आपकी कहानी लोड नहीं हो सकी।"</string>
     <!-- Your tags -->

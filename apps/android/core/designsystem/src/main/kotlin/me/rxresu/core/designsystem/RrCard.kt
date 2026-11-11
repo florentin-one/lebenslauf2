@@ -64,7 +64,7 @@ fun RrCard(
 @Composable
 internal fun RrCardPreview() = RrPreviewSurface {
     RrCard(onClick = {}, focused = true) {
-        RrText("Senior product designer · Kiln Studio", style = RrType.label)
+        RrText("Fachärztin für Psychiatrie und Psychotherapie · Kiln Studio", style = RrType.label)
         RrText("Lisbon · Hybrid · Found today", style = RrType.small, color = RrTheme.colors.ink3)
     }
 }

@@ -3,7 +3,7 @@ import { createServer } from "node:http";
 import { afterAll, beforeAll, beforeEach, expect, it, vi } from "vite-plus/test";
 
 const envMock = vi.hoisted(() => ({
-	APP_URL: "https://resume.example.com",
+	APP_URL: "https://lebenslauf2.florentin-one.de",
 	S3_ACCESS_KEY_ID: "test-access-key",
 	S3_SECRET_ACCESS_KEY: "test-secret-key",
 	S3_REGION: "us-east-1",

@@ -4,8 +4,8 @@
     <!-- A: {answer} -->
     <!-- Arguments: %1$s = {answer} -->
     <string name="a_answer">"答：%1$s"</string>
-    <!-- A backup of this letter. Imports back into Reactive Resume as a letter. -->
-    <string name="a_backup_of_this_letter_imports_back_into_reactive_resume_as_a_letter" formatted="false">"這封信的備份。作為信件導入回 Reactive Resume。"</string>
+    <!-- A backup of this letter. Imports back into Lebenslauf2 as a letter. -->
+    <string name="a_backup_of_this_letter_imports_back_into_lebenslauf2_as_a_letter" formatted="false">"這封信的備份。作為信件導入回 Lebenslauf2。"</string>
     <!-- A city and country let roles be matched to where you are. -->
     <string name="a_city_and_country_let_roles_be_matched_to_where_you_are" formatted="false">"城市和國家讓角色與您所在的位置相符。"</string>
     <!-- A comfortable length, and it fits on one page. -->
@@ -367,8 +367,6 @@
     <string name="ai_providers_couldn_t_be_loaded_reload_to_try_again" formatted="false">"無法載入 AI 提供者。重新加載再試一次。"</string>
     <!-- AI providers couldn't be loaded. Retry or fill the details manually. -->
     <string name="ai_providers_couldn_t_be_loaded_retry_or_fill_the_details_manually" formatted="false">"無法載入 AI 提供者。請再試一次，或手動填寫詳細資料。"</string>
-    <!-- AI reads pasted text only when you ask. Links can use the page’s own job data without AI. -->
-    <string name="ai_reads_pasted_text_only_when_you_ask_links_can_use_the_pages_own_job_data_without_ai" formatted="false">"AI 只會在您要求時讀取貼上的文字。連結可使用網頁自帶的職缺資料，不必使用 AI。"</string>
     <!-- AI request attempts: {0} -->
     <!-- Arguments: %1$s = {0} -->
     <string name="ai_request_attempts_0">"AI 請求嘗試次數：%1$s"</string>
@@ -376,8 +374,6 @@
     <string name="ai_request_history_unavailable_for_this_result" formatted="false">"此結果沒有可用的 AI 請求歷史。"</string>
     <!-- AI settings -->
     <string name="ai_settings" formatted="false">"AI 設定"</string>
-    <!-- AI suggestions, not verified qualifications or hiring predictions. Sources below are your statements. -->
-    <string name="ai_suggestions_not_verified_qualifications_or_hiring_predictions_sources_below_are_your_statements" formatted="false">"這些是 AI 建議，並非經過驗證的資格或錄取預測。下方來源是您自己的陳述。"</string>
     <!-- AI usage couldn't be loaded. Try refreshing. Older servers may need an update. -->
     <string name="ai_usage_couldn_t_be_loaded_try_refreshing_older_servers_may_need_an_update" formatted="false">"無法載入 AI 使用情況。請重新整理。舊版伺服器可能需要更新。"</string>
     <!-- AI usage this week -->
@@ -439,8 +435,6 @@
     <string name="always_appears_in_today_email_requires_a_verified_address_and_server_mail_setup_no_push_notification" formatted="false">"一律顯示於今天。電子郵件需有已驗證的地址及伺服器郵件設定。不會傳送推播通知。"</string>
     <!-- Amharic -->
     <string name="amharic" formatted="false">"阿姆哈拉語"</string>
-    <!-- An AI reading to help you edit, not a prediction of how an employer or screening system will respond. -->
-    <string name="an_ai_reading_to_help_you_edit_not_a_prediction_of_how_an_employer_or_screening_system_will_respond" formatted="false">"這是協助您編輯的 AI 解讀，並非預測雇主或篩選系統會如何回應。"</string>
     <!-- An edit addresses it -->
     <string name="an_edit_addresses_it" formatted="false">"有編輯處理了這項"</string>
     <!-- An embedded font could not be read. -->
@@ -634,9 +628,9 @@
     <string name="assistant" formatted="false">"助理"</string>
     <!-- Assistant conversations -->
     <string name="assistant_conversations" formatted="false">"助理對話"</string>
-    <!-- {at} · {providerLabel}. Sends this application and your Knowledge; your provider may charge. -->
+    <!-- {at} · {providerLabel} -->
     <!-- Arguments: %1$s = {at}, %2$s = {providerLabel} -->
-    <string name="at_providerlabel_sends_this_application_and_your_knowledge_your_provider_may_charge">"%1$s · %2$s。將此應徵紀錄和知識庫傳送給供應商；供應商可能收費。"</string>
+    <string name="at_providerlabel">"%1$s · %2$s"</string>
     <!-- ATS checker -->
     <string name="ats_checker" formatted="false">"ATS檢查器"</string>
     <!-- ATS-safe -->
@@ -1126,8 +1120,8 @@
     <!-- Complete {0} before saving. -->
     <!-- Arguments: %1$s = {0} -->
     <string name="complete_0_before_saving">"儲存前請先填寫%1$s。"</string>
-    <!-- Complete data backup. Imports back into Reactive Resume. -->
-    <string name="complete_data_backup_imports_back_into_reactive_resume" formatted="false">"完整資料備份。可重新匯入 Reactive Resume。"</string>
+    <!-- Complete data backup. Imports back into Lebenslauf2. -->
+    <string name="complete_data_backup_imports_back_into_lebenslauf2" formatted="false">"完整資料備份。可重新匯入 Lebenslauf2。"</string>
     <!-- Complete the employer form manually in your browser using reviewed answers and approved PDFs. -->
     <string name="complete_the_employer_form_manually_in_your_browser_using_reviewed_answers_and_approved_pdfs" formatted="false">"使用審閱過的回答和已核准的 PDF，在瀏覽器中手動完成雇主表單。"</string>
     <!-- {completed, plural, one {# document updated} other {# documents updated}} -->
@@ -1435,8 +1429,8 @@
     <!-- Couldn't propose these edits: {0} -->
     <!-- Arguments: %1$s = {0} -->
     <string name="couldn_t_propose_these_edits_0">"無法提出這些編輯：%1$s"</string>
-    <!-- Couldn't reach Reactive Resume. Check your internet connection, then try again. -->
-    <string name="couldn_t_reach_reactive_resume_check_your_internet_connection_then_try_again" formatted="false">"無法連線至 Reactive Resume。請檢查網路連線後再試一次。"</string>
+    <!-- Couldn't reach Lebenslauf2. Check your internet connection, then try again. -->
+    <string name="couldn_t_reach_lebenslauf2_check_your_internet_connection_then_try_again" formatted="false">"無法連線至 Lebenslauf2。請檢查網路連線後再試一次。"</string>
     <!-- Couldn't reach your AI provider. Try again or check its key in AI settings. -->
     <string name="couldn_t_reach_your_ai_provider_try_again_or_check_its_key_in_ai_settings" formatted="false">"無法聯絡您的 AI 供應商。請重試或檢查 AI 設定中的金鑰。"</string>
     <!-- Couldn't read {name}'s answer. Try again, or switch the default provider in AI settings. -->
@@ -2041,8 +2035,6 @@
     <string name="earlier_discovery_result_search_query_and_posting_check_time_unknown" formatted="false">"先前的探索結果。搜尋查詢和職缺公告檢查時間不明。"</string>
     <!-- Earlier messages and attachments in this conversation will be sent to this destination when you send again. -->
     <string name="earlier_messages_and_attachments_in_this_conversation_will_be_sent_to_this_destination_when_you_send" formatted="false">"當您再次傳送時，此對話中先前的訊息和附件都會傳送到此目的地。"</string>
-    <!-- earlier messages in this chat -->
-    <string name="earlier_messages_in_this_chat" formatted="false">"此聊天中較早的訊息"</string>
     <!-- Edit -->
     <string name="edit" formatted="false">"編輯"</string>
     <!-- Edit {0} -->
@@ -2065,8 +2057,8 @@
     <string name="edit_first" formatted="false">"先編輯"</string>
     <!-- Edit interview -->
     <string name="edit_interview" formatted="false">"編輯採訪"</string>
-    <!-- Edit it in Reactive Resume -->
-    <string name="edit_it_in_reactive_resume" formatted="false">"在 Reactive Resume 中編輯"</string>
+    <!-- Edit it in Lebenslauf2 -->
+    <string name="edit_it_in_lebenslauf2" formatted="false">"在 Lebenslauf2 中編輯"</string>
     <!-- Edit link -->
     <string name="edit_link" formatted="false">"編輯連結"</string>
     <!-- Edit note -->
@@ -2134,8 +2126,6 @@
     <string name="empty_trash" formatted="false">"清空垃圾箱"</string>
     <!-- Empty Trash? -->
     <string name="empty_trash_ab0a72a70c" formatted="false">"要清空垃圾箱嗎？"</string>
-    <!-- enabled Knowledge -->
-    <string name="enabled_knowledge" formatted="false">"已啟用的知識"</string>
     <!-- End -->
     <string name="end" formatted="false">"結尾"</string>
     <!-- English -->
@@ -2184,8 +2174,8 @@
     <string name="enter_any_model_id_supported_by_your_endpoint" formatted="false">"輸入端點支援的任意模型 ID。"</string>
     <!-- Enter terms yourself. No AI request is made. Leave unknown amounts blank. -->
     <string name="enter_terms_yourself_no_ai_request_is_made_leave_unknown_amounts_blank" formatted="false">"自行輸入條件。系統不會向 AI 發出請求。未知的金額請留白。"</string>
-    <!-- Enter the address you open Reactive Resume at in a browser. The app checks it's a Reactive Resume server that allows app sign-in before you continue. -->
-    <string name="enter_the_address_you_open_reactive_resume_at_in_a_browser_the_app_checks_it_s_a_reactive_resume_ser" formatted="false">"請輸入您在瀏覽器中開啟 Reactive Resume 的地址。繼續前，應用程式會確認這是允許應用程式登入的 Reactive Resume 伺服器。"</string>
+    <!-- Enter the address you open Lebenslauf2 at in a browser. The app checks it's a Lebenslauf2 server that allows app sign-in before you continue. -->
+    <string name="enter_the_address_you_open_lebenslauf2_at_in_a_browser_the_app_checks_it_s_a_lebenslauf2_server_that" formatted="false">"請輸入您在瀏覽器中開啟 Lebenslauf2 的地址。繼續前，應用程式會確認這是允許應用程式登入的 Lebenslauf2 伺服器。"</string>
     <!-- Enter the API base URL of your service and test again. -->
     <string name="enter_the_api_base_url_of_your_service_and_test_again" formatted="false">"請輸入服務的 API 基礎 URL 後再測試一次。"</string>
     <!-- Enter your details below. Choosing a resume replaces them and links its design. -->
@@ -2448,11 +2438,11 @@
     <!-- Found for “{0}”. Posting checked {1}. -->
     <!-- Arguments: %1$s = {0}, %2$s = {1} -->
     <string name="found_for_0_posting_checked_1">"透過「%1$s」找到。職缺公告檢查於 %2$s。"</string>
-    <!-- Found posting links are read by Reactive Resume and the sites being read. -->
-    <string name="found_posting_links_are_read_by_reactive_resume_and_the_sites_being_read" formatted="false">"找到的職缺公告連結會由 Reactive Resume 和所讀取的網站讀取。"</string>
-    <!-- Found posting links are read by Reactive Resume and, when needed, {reader} and the sites being read. The reader may charge. -->
+    <!-- Found posting links are read by Lebenslauf2 and the sites being read. -->
+    <string name="found_posting_links_are_read_by_lebenslauf2_and_the_sites_being_read" formatted="false">"找到的職缺公告連結會由 Lebenslauf2 和所讀取的網站讀取。"</string>
+    <!-- Found posting links are read by Lebenslauf2 and, when needed, {reader} and the sites being read. The reader may charge. -->
     <!-- Arguments: %1$s = {reader} -->
-    <string name="found_posting_links_are_read_by_reactive_resume_and_when_needed_reader_and_the_sites_being_read_the">"找到的職缺公告連結會由 Reactive Resume、所讀取的網站，以及在需要時由 %1$s 讀取。讀取服務可能會收費。"</string>
+    <string name="found_posting_links_are_read_by_lebenslauf2_and_when_needed_reader_and_the_sites_being_read_the_read">"找到的職缺公告連結會由 Lebenslauf2、所讀取的網站，以及在需要時由 %1$s 讀取。讀取服務可能會收費。"</string>
     <!-- Free-form -->
     <string name="free_form" formatted="false">"自由形式"</string>
     <!-- French -->
@@ -2837,8 +2827,6 @@
     <!-- Its own design ({summary}). -->
     <!-- Arguments: %1$s = {summary} -->
     <string name="its_own_design_summary">"它自己的設計（%1$s）。"</string>
-    <!-- its requirements -->
-    <string name="its_requirements" formatted="false">"其要求"</string>
     <!-- Its saved key is deleted. Conversations using it need another provider. -->
     <string name="its_saved_key_is_deleted_conversations_using_it_need_another_provider" formatted="false">"其保存的密鑰被刪除。使用它的對話需要另一個提供者。"</string>
     <!-- Japanese -->
@@ -3031,6 +3019,8 @@
     <string name="leave_out" formatted="false">"省略"</string>
     <!-- Leave without keeping the draft? -->
     <string name="leave_without_keeping_the_draft" formatted="false">"要不保留草稿就離開嗎？"</string>
+    <!-- Lebenslauf2 -->
+    <string name="lebenslauf2" formatted="false">"Lebenslauf2"</string>
     <!-- Left -->
     <string name="left" formatted="false">"左邊"</string>
     <!-- Left blank. Add it later only if you can support it. -->
@@ -3285,8 +3275,6 @@
     <string name="managed_by_server" formatted="false">"由伺服器管理"</string>
     <!-- Managed by your server -->
     <string name="managed_by_your_server" formatted="false">"由您的伺服器管理"</string>
-    <!-- Manual roles and preferences work without AI. Suggestions never search or schedule anything. -->
-    <string name="manual_roles_and_preferences_work_without_ai_suggestions_never_search_or_schedule_anything" formatted="false">"手動輸入的職位和偏好不需要 AI。建議功能絕不會進行搜尋或排程。"</string>
     <!-- Many bullets start with the same phrase. -->
     <string name="many_bullets_start_with_the_same_phrase" formatted="false">"很多重點都以相同的詞句開頭。"</string>
     <!-- Mar 2022 -->
@@ -3498,11 +3486,6 @@
     <!-- Arguments: %1$s = {0}, %2$s = {1}, %3$s = {2} -->
     <plurals name="message_0_plural_one_1_of_posting_term_covered_other_2_of_posting_terms_covered">
         <item quantity="other">"已涵蓋職缺說明中 %1$s 個關鍵字的 %3$s 個"</item>
-    </plurals>
-    <!-- {0, plural, one {Also sends {1}.} other {Also sends # files: {2}.}} -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1}, %3$s = {2} -->
-    <plurals name="message_0_plural_one_also_sends_1_other_also_sends_files_2">
-        <item quantity="other">"也會傳送 %1$s 個檔案：%3$s。"</item>
     </plurals>
     <!-- {0, plural, one {# answer} other {# answers}} -->
     <!-- Arguments: %1$s = {0} -->
@@ -3864,8 +3847,6 @@
     <string name="message_the_assistant" formatted="false">"給助理留言"</string>
     <!-- Messages -->
     <string name="messages" formatted="false">"訊息"</string>
-    <!-- Messages from before Knowledge changed aren't sent. -->
-    <string name="messages_from_before_knowledge_changed_aren_t_sent" formatted="false">"知識庫變更前的訊息不會傳送。"</string>
     <!-- Messages from before Knowledge changed aren't sent to the AI anymore, so it won't remember them. Start a new conversation to keep context together. -->
     <string name="messages_from_before_knowledge_changed_aren_t_sent_to_the_ai_anymore_so_it_won_t_remember_them_start" formatted="false">"知識庫變更前的訊息不會再傳送給 AI，因此它不會記得這些內容。請開始新的對話，讓上下文保持一致。"</string>
     <!-- Minimum base salary -->
@@ -4200,6 +4181,8 @@
     <string name="no_keys_yet" formatted="false">"還沒有鑰匙。"</string>
     <!-- No language matches. -->
     <string name="no_language_matches" formatted="false">"沒有語言匹配。"</string>
+    <!-- No Lebenslauf2 server answered at this address. Check the spelling, or ask your administrator whether the server allows app sign-in. -->
+    <string name="no_lebenslauf2_server_answered_at_this_address_check_the_spelling_or_ask_your_administrator_whether" formatted="false">"沒有Lebenslauf2伺服器在此位址應答。檢查拼寫，或詢問管理員伺服器是否允許應用程式登入。"</string>
     <!-- No lines look like a job title paired with an employer. -->
     <string name="no_lines_look_like_a_job_title_paired_with_an_employer" formatted="false">"沒有看起來像「職稱 + 雇主」這種搭配的行。"</string>
     <!-- No linked application -->
@@ -4232,8 +4215,6 @@
     <string name="no_photo_most_ats_ignore_photos_some_regions_expect_one" formatted="false">"沒有照片。大多數ATS忽略照片；有些地區預計會出現這種情況。"</string>
     <!-- No postings found. Try different keywords. -->
     <string name="no_postings_found_try_different_keywords" formatted="false">"沒有找到招聘資訊。嘗試不同的關鍵字。"</string>
-    <!-- No Reactive Resume server answered at this address. Check the spelling, or ask your administrator whether the server allows app sign-in. -->
-    <string name="no_reactive_resume_server_answered_at_this_address_check_the_spelling_or_ask_your_administrator_whet" formatted="false">"沒有Reactive Resume伺服器在此位址應答。檢查拼寫，或詢問管理員伺服器是否允許應用程式登入。"</string>
     <!-- No recognizable terms in this posting. -->
     <string name="no_recognizable_terms_in_this_posting" formatted="false">"此職缺公告中沒有可識別的術語。"</string>
     <!-- No recorded answers are available. -->
@@ -4356,8 +4337,6 @@
     <string name="nothing_in_your_library_yet" formatted="false">"您的收藏庫中還沒有任何內容"</string>
     <!-- Nothing is applied for or created until you choose. -->
     <string name="nothing_is_applied_for_or_created_until_you_choose" formatted="false">"在您做出選擇之前，不會應徵任何職缺，也不會建立任何內容。"</string>
-    <!-- Nothing is sent until you choose a connection for this conversation. -->
-    <string name="nothing_is_sent_until_you_choose_a_connection_for_this_conversation" formatted="false">"在您為此對話選擇連線之前，不會傳送任何內容。"</string>
     <!-- Nothing marks a role as ongoing. -->
     <string name="nothing_marks_a_role_as_ongoing" formatted="false">"沒有任何標記表明某段經歷仍在進行中。"</string>
     <!-- Nothing on this day. -->
@@ -4431,8 +4410,8 @@
     <string name="on" formatted="false">"開"</string>
     <!-- On. Anyone with the link can see your web page. -->
     <string name="on_anyone_with_the_link_can_see_your_web_page" formatted="false">"已開啟。任何擁有連結的人都能查看您的網頁。"</string>
-    <!-- On iOS, choose Keep for review, then reopen app in the Share extension. Reopen Reactive Resume yourself within 15 minutes. Sign in here before sharing. -->
-    <string name="on_ios_choose_keep_for_review_then_reopen_app_in_the_share_extension_reopen_reactive_resume_yourself" formatted="false">"在 iOS 上，請選擇「保留以供審閱」，然後在分享延伸功能中重新開啟應用程式。請在 15 分鐘內自行重新開啟 Reactive Resume。分享前請先在這裡登入。"</string>
+    <!-- On iOS, choose Keep for review, then reopen app in the Share extension. Reopen Lebenslauf2 yourself within 15 minutes. Sign in here before sharing. -->
+    <string name="on_ios_choose_keep_for_review_then_reopen_app_in_the_share_extension_reopen_lebenslauf2_yourself_wit" formatted="false">"在 iOS 上，請選擇「保留以供審閱」，然後在分享延伸功能中重新開啟應用程式。請在 15 分鐘內自行重新開啟 Lebenslauf2。分享前請先在這裡登入。"</string>
     <!-- On. Visitors need the link and password to see your web page. -->
     <string name="on_visitors_need_the_link_and_password_to_see_your_web_page" formatted="false">"已開啟。訪客需要連結和密碼才能查看你的網頁。"</string>
     <!-- Once a round is scheduled, Interview prep builds a timed plan, your opening and the questions to ask. -->
@@ -4693,14 +4672,14 @@
     <string name="pdf_check_canceled_retry_when_ready" formatted="false">"PDF 檢查已取消。準備好後請再試一次。"</string>
     <!-- PDF import -->
     <string name="pdf_import" formatted="false">"匯入 PDF"</string>
-    <!-- PDF only · up to 10 MB each. Linking a Reactive Resume enables a fit check against each requirement and tailoring. -->
-    <string name="pdf_only_up_to_10_mb_each_linking_a_reactive_resume_enables_a_fit_check_against_each_requirement_and" formatted="false">"僅限 PDF · 每個最大 10 MB。連結一份 Reactive Resume 履歷，即可逐項檢查各項要求的契合度並調整履歷。"</string>
-    <!-- PDF reads its text layer on your server by default, without AI. Turn on the AI switch to send it to your provider. Word (.docx) needs an AI provider. Current and v4 Reactive Resume JSON, cover letters, JSON Resume and LinkedIn exports (.zip) are supported. Up to 10 MB. -->
-    <string name="pdf_reads_its_text_layer_on_your_server_by_default_without_ai_turn_on_the_ai_switch_to_send_it_to_yo" formatted="false">"PDF 預設會在您的伺服器上讀取其文字層，不使用 AI。開啟 AI 開關即可將其傳送給您的服務提供者。Word（.docx）需要 AI 服務提供者。支援目前版本和 v4 的 Reactive Resume JSON、求職信、JSON Resume 及 LinkedIn 匯出檔（.zip）。最大 10 MB。"</string>
+    <!-- PDF only · up to 10 MB each. Linking a Lebenslauf2 enables a fit check against each requirement and tailoring. -->
+    <string name="pdf_only_up_to_10_mb_each_linking_a_lebenslauf2_enables_a_fit_check_against_each_requirement_and_tai" formatted="false">"僅限 PDF · 每個最大 10 MB。連結一份 Lebenslauf2 履歷，即可逐項檢查各項要求的契合度並調整履歷。"</string>
+    <!-- PDF reads its text layer on your server by default, without AI. Turn on the AI switch to send it to your provider. Word (.docx) needs an AI provider. Current and v4 Lebenslauf2 JSON, cover letters, JSON Resume and LinkedIn exports (.zip) are supported. Up to 10 MB. -->
+    <string name="pdf_reads_its_text_layer_on_your_server_by_default_without_ai_turn_on_the_ai_switch_to_send_it_to_yo" formatted="false">"PDF 預設會在您的伺服器上讀取其文字層，不使用 AI。開啟 AI 開關即可將其傳送給您的服務提供者。Word（.docx）需要 AI 服務提供者。支援目前版本和 v4 的 Lebenslauf2 JSON、求職信、JSON Resume 及 LinkedIn 匯出檔（.zip）。最大 10 MB。"</string>
     <!-- PDF styles support a subset of CSS. Rotation, dashed and dotted borders, and some layout properties are ignored. -->
     <string name="pdf_styles_support_a_subset_of_css_rotation_dashed_and_dotted_borders_and_some_layout_properties_are" formatted="false">"PDF 樣式支援 CSS 的子集。旋轉、虛線和點線邊框以及某些佈局屬性將被忽略。"</string>
-    <!-- PDF, Word, Reactive Resume, JSON Resume or LinkedIn export. -->
-    <string name="pdf_word_reactive_resume_json_resume_or_linkedin_export" formatted="false">"PDF、Word、Reactive Resume、JSON Resume 或 LinkedIn 匯出檔。"</string>
+    <!-- PDF, Word, Lebenslauf2, JSON Resume or LinkedIn export. -->
+    <string name="pdf_word_lebenslauf2_json_resume_or_linkedin_export" formatted="false">"PDF、Word、Lebenslauf2、JSON Resume 或 LinkedIn 匯出檔。"</string>
     <!-- {pending, plural, one {# proposed edit on this page · nothing changes until you accept} other {# proposed edits on this page · nothing changes until you accept}} -->
     <!-- Arguments: %1$s = {pending} -->
     <plurals name="pending_plural_one_proposed_edit_on_this_page_nothing_changes_until_you_accept_other_proposed_edits">
@@ -4815,8 +4794,6 @@
     <!-- Practice in {company}’s workspace -->
     <!-- Arguments: %1$s = {company} -->
     <string name="practice_in_company_s_workspace">"在 %1$s 的工作區練習"</string>
-    <!-- Practice priorities, not conclusions about why an employer decided anything. -->
-    <string name="practice_priorities_not_conclusions_about_why_an_employer_decided_anything" formatted="false">"這是練習重點，而非對雇主決策原因的結論。"</string>
     <!-- Practice priority: -->
     <string name="practice_priority" formatted="false">"練習重點："</string>
     <!-- Practice without an application -->
@@ -5023,8 +5000,6 @@
     <string name="re_export_with_fonts_embedded_and_check_the_text_copies_out_cleanly" formatted="false">"重新匯出並嵌入字體，然後檢查文字複製出來是否乾淨無誤。"</string>
     <!-- Re-export with fonts embedded, then open the file and check that the text copies out cleanly. -->
     <string name="re_export_with_fonts_embedded_then_open_the_file_and_check_that_the_text_copies_out_cleanly" formatted="false">"重新匯出並嵌入字體，然後開啟檔案檢查文字複製出來是否乾淨無誤。"</string>
-    <!-- Reactive Resume -->
-    <string name="reactive_resume" formatted="false">"Reactive Resume"</string>
     <!-- Read briefing -->
     <string name="read_briefing" formatted="false">"閱讀簡報"</string>
     <!-- Read, change and delete documents and applications (legacy connection). -->
@@ -5756,8 +5731,6 @@
     <string name="search_or_run" formatted="false">"搜尋或運行..."</string>
     <!-- Search saved answers -->
     <string name="search_saved_answers" formatted="false">"搜尋已儲存的回答"</string>
-    <!-- Search terms go to your web search service. -->
-    <string name="search_terms_go_to_your_web_search_service" formatted="false">"搜尋字詞會傳送到您的網路搜尋服務。"</string>
     <!-- Search the web -->
     <string name="search_the_web" formatted="false">"搜尋網頁"</string>
     <!-- Search timezones -->
@@ -5834,51 +5807,8 @@
     <string name="sender_details_copied_into_the_letter" formatted="false">"寄件者詳細資料複製到信件中"</string>
     <!-- Sending… -->
     <string name="sending" formatted="false">"正在發送..."</string>
-    <!-- Sends {0} to {label}. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {label} -->
-    <string name="sends_0_to_label">"將 %1$s 傳送到 %2$s。"</string>
-    <!-- Sends only your selected resume and up to 20 active shared facts to this connection. No application profile, saved answers or private application facts. Your provider may charge. -->
-    <string name="sends_only_your_selected_resume_and_up_to_20_active_shared_facts_to_this_connection_no_application_p" formatted="false">"只會將您選取的履歷和最多 20 項啟用中的共享事實傳送到此連線。不包含應徵個人資料、已儲存的回答或私人的應徵事實。您的服務提供者可能會收費。"</string>
-    <!-- Sends the {0} posting to {1} · {2} to draft the body. Your provider may charge. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1}, %3$s = {2} -->
-    <string name="sends_the_0_posting_to_1_2_to_draft_the_body_your_provider_may_charge">"將 %1$s 的職缺公告傳送到 %2$s · %3$s 以起草內文。您的服務提供者可能會收費。"</string>
-    <!-- Sends the posting text to {0} to read it. -->
-    <!-- Arguments: %1$s = {0} -->
-    <string name="sends_the_posting_text_to_0_to_read_it">"將職缺公告文字傳送到 %1$s 進行讀取。"</string>
     <!-- Sends this application and enabled Knowledge to this connection. Your provider may charge. Scheduled work never switches to another connection automatically. -->
     <string name="sends_this_application_and_enabled_knowledge_to_this_connection_your_provider_may_charge_scheduled_w" formatted="false">"將此應徵和已啟用的知識庫內容傳送到此連線。您的服務提供者可能會收費。排程工作絕不會自動切換到其他連線。"</string>
-    <!-- Sends this letter's resume and the {0} posting to {1} · {2} to draft the body. Your provider may charge. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1}, %3$s = {2} -->
-    <string name="sends_this_letter_s_resume_and_the_0_posting_to_1_2_to_draft_the_body_your_provider_may_charge">"將此求職信的履歷和 %1$s 的職缺公告傳送到 %2$s · %3$s 以起草內文。您的服務提供者可能會收費。"</string>
-    <!-- Sends this letter's resume to {0} · {1} to draft the body. Your provider may charge. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1} -->
-    <string name="sends_this_letter_s_resume_to_0_1_to_draft_the_body_your_provider_may_charge">"將此求職信的履歷傳送到 %1$s · %2$s 以起草內文。您的服務提供者可能會收費。"</string>
-    <!-- Sends this line, surrounding field text and your instructions to {0} · {1}. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1} -->
-    <string name="sends_this_line_surrounding_field_text_and_your_instructions_to_0_1">"將這一行、周圍欄位的文字和您的指示傳送到 %1$s · %2$s。"</string>
-    <!-- Sends this paragraph, the rest of the letter and your instructions to {0} · {1}. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1} -->
-    <string name="sends_this_paragraph_the_rest_of_the_letter_and_your_instructions_to_0_1">"將此段落、信件其餘內容和您的指示傳送至 %1$s · %2$s。"</string>
-    <!-- Sends this paragraph, the rest of the letter, the linked job posting and your instructions to {0} · {1}. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1} -->
-    <string name="sends_this_paragraph_the_rest_of_the_letter_the_linked_job_posting_and_your_instructions_to_0_1">"將此段落、信件其餘內容、連結的職缺資訊和您的指示傳送至 %1$s · %2$s。"</string>
-    <!-- Sends this PDF to your configured AI provider instead of reading its text layer. -->
-    <string name="sends_this_pdf_to_your_configured_ai_provider_instead_of_reading_its_text_layer" formatted="false">"將此 PDF 傳送至您設定的 AI 供應商，而非讀取文字圖層。"</string>
-    <!-- Sends your message and this application (posting, notes, documents, your form answers, the saved offer and recent messages) to {label}. -->
-    <!-- Arguments: %1$s = {label} -->
-    <string name="sends_your_message_and_this_application_posting_notes_documents_your_form_answers_the_saved_offer_an">"將您的訊息和此應徵（職缺公告、筆記、文件、您的表單回答、已儲存的錄取條件和最近的訊息）傳送到 %1$s。"</string>
-    <!-- Sends your message, earlier messages and this application (posting, notes, documents, your form answers, the saved offer and recent messages) to {label}. -->
-    <!-- Arguments: %1$s = {label} -->
-    <string name="sends_your_message_earlier_messages_and_this_application_posting_notes_documents_your_form_answers_t">"將您的訊息、先前的訊息和此應徵（職缺公告、筆記、文件、您的表單回答、已儲存的錄取條件和最近的訊息）傳送到 %1$s。"</string>
-    <!-- Sends your message, earlier messages here, this application (posting, notes, documents, your form answers, the saved offer and recent messages) and Knowledge that's switched on, to {label}. -->
-    <!-- Arguments: %1$s = {label} -->
-    <string name="sends_your_message_earlier_messages_here_this_application_posting_notes_documents_your_form_answers">"將你的訊息、此處先前的訊息、此次申請的資訊（職缺、筆記、文件、你的表單回答、已儲存的錄用邀約及最近的訊息）和已啟用的知識傳送至 %1$s。"</string>
-    <!-- Sends your message, this application (posting, notes, documents, your form answers, the saved offer and recent messages) and Knowledge that's switched on, to {label}. -->
-    <!-- Arguments: %1$s = {label} -->
-    <string name="sends_your_message_this_application_posting_notes_documents_your_form_answers_the_saved_offer_and_re">"將你的訊息、此次申請的資訊（職缺、筆記、文件、你的表單回答、已儲存的錄用邀約及最近的訊息）和已啟用的知識傳送至 %1$s。"</string>
-    <!-- Sends your resume's text only to {0} · {1}, with your key. -->
-    <!-- Arguments: %1$s = {0}, %2$s = {1} -->
-    <string name="sends_your_resume_s_text_only_to_0_1_with_your_key">"使用您的金鑰將您的履歷文字僅發送至 %1$s · %2$s。"</string>
     <!-- Sent -->
     <string name="sent" formatted="false">"傳送"</string>
     <!-- Sent: {0} -->
@@ -6028,8 +5958,8 @@
     <string name="show_less" formatted="false">"顯示較少"</string>
     <!-- Show link in title -->
     <string name="show_link_in_title" formatted="false">"在標題中顯示連結"</string>
-    <!-- Show “Made with Reactive Resume” -->
-    <string name="show_made_with_reactive_resume" formatted="false">"顯示「使用 Reactive Resume 製作」"</string>
+    <!-- Show “Made with Lebenslauf2” -->
+    <string name="show_made_with_lebenslauf2" formatted="false">"顯示「使用 Lebenslauf2 製作」"</string>
     <!-- Show more -->
     <string name="show_more" formatted="false">"顯示更多"</string>
     <!-- Show on page -->
@@ -6556,20 +6486,14 @@
     <string name="the_built_in_reader_remains_active" formatted="false">"內建閱讀器保持活動狀態。"</string>
     <!-- The checks are mechanical. This asks a language model how a reader might react to your bullets and suggests rewrites. It isn't part of the score. -->
     <string name="the_checks_are_mechanical_this_asks_a_language_model_how_a_reader_might_react_to_your_bullets_and_su" formatted="false">"檢查是機械的。這會詢問語言模型讀者對您的清單條目有何反應並建議重寫。它不是分數的一部分。"</string>
-    <!-- The coach asks before remembering facts you state. -->
-    <string name="the_coach_asks_before_remembering_facts_you_state" formatted="false">"教練在記住您陳述的事實前會先詢問您。"</string>
     <!-- The coach doesn't remember anything from your messages. -->
     <string name="the_coach_doesn_t_remember_anything_from_your_messages" formatted="false">"教練不會從您的訊息中記住任何內容。"</string>
-    <!-- The coach doesn't remember anything you write. -->
-    <string name="the_coach_doesn_t_remember_anything_you_write" formatted="false">"教練不會記住您寫的任何內容。"</string>
     <!-- The coach isn't set up on this server. Whoever runs it needs to set ENCRYPTION_SECRET. -->
     <string name="the_coach_isn_t_set_up_on_this_server_whoever_runs_it_needs_to_set_encryption_secret" formatted="false">"此伺服器尚未設定教練。伺服器管理員需要設定 ENCRYPTION_SECRET。"</string>
     <!-- The coach isn't set up on this server. Whoever runs it needs to set ENCRYPTION_SECRET. Knowledge, Offers and your applications work without it. -->
     <string name="the_coach_isn_t_set_up_on_this_server_whoever_runs_it_needs_to_set_encryption_secret_knowledge_offer" formatted="false">"此伺服器尚未設定教練。伺服器管理員需要設定 ENCRYPTION_SECRET。知識庫、錄取通知和您的應徵紀錄不需要它也能使用。"</string>
     <!-- The coach proposes each fact in the chat. Nothing is saved until you agree. -->
     <string name="the_coach_proposes_each_fact_in_the_chat_nothing_is_saved_until_you_agree" formatted="false">"教練會在聊天中逐條提出事實。在您同意之前不會儲存任何內容。"</string>
-    <!-- The coach remembers facts you state, and tells you. -->
-    <string name="the_coach_remembers_facts_you_state_and_tells_you" formatted="false">"教練會記住您陳述的事實，並告知您。"</string>
     <!-- The coach saves facts you state, and tells you. You can undo. -->
     <string name="the_coach_saves_facts_you_state_and_tells_you_you_can_undo" formatted="false">"教練會儲存您陳述的事實，並告訴您。您可以撤銷。"</string>
     <!-- The connection couldn't be loaded or saved. Try again. -->
@@ -6580,8 +6504,6 @@
     <string name="the_connection_works_turn_on_use_this_provider_to_use_it" formatted="false">"連線正常。開啟「使用此服務提供者」即可使用。"</string>
     <!-- The copy gets the job's posting and keeps this resume as it is for other jobs. -->
     <string name="the_copy_gets_the_job_s_posting_and_keeps_this_resume_as_it_is_for_other_jobs" formatted="false">"副本會取得該職缺的職缺公告，並讓這份履歷在其他職缺中維持原樣。"</string>
-    <!-- the cover letter for this job -->
-    <string name="the_cover_letter_for_this_job" formatted="false">"此職缺的求職信"</string>
     <!-- The current state will be saved as “Before restore” first. -->
     <string name="the_current_state_will_be_saved_as_before_restore_first" formatted="false">"目前狀態會先儲存為「還原前」。"</string>
     <!-- the document -->
@@ -6590,24 +6512,18 @@
     <string name="the_editor_opens_on_check_which_checks_the_imported_resume_again" formatted="false">"編輯器會開啟檢查，再次檢查匯入的履歷。"</string>
     <!-- The employer may have changed it since. -->
     <string name="the_employer_may_have_changed_it_since" formatted="false">"雇主可能已在此後修改了職缺資訊。"</string>
-    <!-- the employer's message -->
-    <string name="the_employer_s_message" formatted="false">"雇主的訊息"</string>
     <!-- The end date is before the start date. Check both dates. -->
     <string name="the_end_date_is_before_the_start_date_check_both_dates" formatted="false">"結束日期早於開始日期。請檢查兩個日期。"</string>
     <!-- The follow-up is saved. To get a reminder, allow notifications in your device settings. -->
     <string name="the_follow_up_is_saved_to_get_a_reminder_allow_notifications_in_your_device_settings" formatted="false">"已儲存後續聯繫。若要收到提醒，請在裝置設定中允許通知。"</string>
     <!-- The greeting follows the name. -->
     <string name="the_greeting_follows_the_name" formatted="false">"問候語跟在名字之後。"</string>
-    <!-- the interview details -->
-    <string name="the_interview_details" formatted="false">"面試詳細資料"</string>
     <!-- The interview is saved. To get a reminder, allow notifications in your device settings. -->
     <string name="the_interview_is_saved_to_get_a_reminder_allow_notifications_in_your_device_settings" formatted="false">"已儲存面試。若要收到提醒，請在裝置設定中允許通知。"</string>
     <!-- The key is encrypted on the server and never shown again. Saving tests the connection. -->
     <string name="the_key_is_encrypted_on_the_server_and_never_shown_again_saving_tests_the_connection" formatted="false">"密鑰在伺服器上加密並且不會再次顯示。儲存測試連線。"</string>
     <!-- The key was rejected. Check the key and test again. -->
     <string name="the_key_was_rejected_check_the_key_and_test_again" formatted="false">"金鑰遭到拒絕。請檢查金鑰後再測試一次。"</string>
-    <!-- the last messages -->
-    <string name="the_last_messages" formatted="false">"最近的訊息"</string>
     <!-- The lead time has passed. Saving runs the briefing now. -->
     <string name="the_lead_time_has_passed_saving_runs_the_briefing_now" formatted="false">"提前準備時間已過。儲存後會立即執行簡報準備。"</string>
     <!-- The letter as it is -->
@@ -6650,10 +6566,6 @@
     <string name="the_provider_limited_this_request_wait_and_try_again_check_your_account_quota" formatted="false">"服務提供者限制了此請求。請稍候再試，並檢查您的帳戶配額。"</string>
     <!-- The provider reported a server error. Try again later. -->
     <string name="the_provider_reported_a_server_error_try_again_later" formatted="false">"服務提供者回報伺服器錯誤。請稍後再試。"</string>
-    <!-- the question and what you said -->
-    <string name="the_question_and_what_you_said" formatted="false">"問題和您說的內容"</string>
-    <!-- the question and your answer -->
-    <string name="the_question_and_your_answer" formatted="false">"問題和您的回答"</string>
     <!-- The reason is kept for Insights. Linked documents aren't touched. -->
     <string name="the_reason_is_kept_for_insights_linked_documents_aren_t_touched" formatted="false">"原因保留為 Insights。連結的文檔不會受到影響。"</string>
     <!-- The records aren't visible yet. Check again later. -->
@@ -6662,8 +6574,6 @@
     <string name="the_rest_of_the_file_isn_t_in_this_report" formatted="false">"此報告未包含檔案的其餘部分。"</string>
     <!-- The resume as it is -->
     <string name="the_resume_as_it_is" formatted="false">"履歷原樣"</string>
-    <!-- the resume for this job -->
-    <string name="the_resume_for_this_job" formatted="false">"此職缺的履歷"</string>
     <!-- The reviewer sees each one's stage and dates. Notes, contacts and pay stay private. -->
     <string name="the_reviewer_sees_each_one_s_stage_and_dates_notes_contacts_and_pay_stay_private" formatted="false">"審閱者會看到每份應徵的階段和日期。筆記、聯絡人和薪資保持私密。"</string>
     <!-- The same line repeats on every page. -->
@@ -6672,8 +6582,6 @@
     <string name="the_saved_key_isn_t_sent_to_a_new_base_url_enter_it_again" formatted="false">"儲存的密鑰不會傳送到新的基本 URL。再次輸入密鑰。"</string>
     <!-- The saved key isn't sent to a new base URL. Enter it again if this server needs one. -->
     <string name="the_saved_key_isn_t_sent_to_a_new_base_url_enter_it_again_if_this_server_needs_one" formatted="false">"儲存的密鑰不會傳送到新的基本 URL。如果該伺服器需要密鑰，請再次輸入密鑰。"</string>
-    <!-- the saved offer -->
-    <string name="the_saved_offer" formatted="false">"已儲存的錄取條件"</string>
     <!-- The score counts how reliably software reads your resume. It doesn't predict whether you'll be shortlisted. -->
     <string name="the_score_counts_how_reliably_software_reads_your_resume_it_doesn_t_predict_whether_you_ll_be_shortl" formatted="false">"此分數計算軟體讀取您的履歷的可靠性。它不會預測您是否會入圍。"</string>
     <!-- The score reflects how reliably text is extracted, not your chances. -->
@@ -6859,8 +6767,6 @@
     <string name="this_pdf_is_a_scanned_image_there_s_no_text_to_read_try_the_word_version_or_start_blank_and_paste_se" formatted="false">"此 PDF 是掃描影像。沒有文字可讀。嘗試 Word 版本，或開始空白並貼上部分。"</string>
     <!-- This PDF is password protected. Save an unprotected copy and try again. -->
     <string name="this_pdf_is_password_protected_save_an_unprotected_copy_and_try_again" formatted="false">"此 PDF 受密碼保護。請儲存一份不受保護的副本後重試。"</string>
-    <!-- this posting -->
-    <string name="this_posting" formatted="false">"這則職缺公告"</string>
     <!-- This question couldn't be asked. Send a new message to continue. -->
     <string name="this_question_couldn_t_be_asked_send_a_new_message_to_continue" formatted="false">"無法提出這個問題。請傳送新的訊息以繼續。"</string>
     <!-- This question didn't finish. -->
@@ -7289,8 +7195,8 @@
     <string name="use_url">"使用%1$s"</string>
     <!-- Use web access? -->
     <string name="use_web_access" formatted="false">"要使用網路存取嗎？"</string>
-    <!-- Use your browser’s Share action to send one posting URL or selected text to Reactive Resume. Receiving shares requires the latest store build; URL and paste import remain available. -->
-    <string name="use_your_browsers_share_action_to_send_one_posting_url_or_selected_text_to_reactive_resume_receiving" formatted="false">"使用瀏覽器的「分享」功能，將一個職缺公告網址或選取的文字傳送到 Reactive Resume。接收分享需要商店中的最新版本；網址和貼上匯入仍可使用。"</string>
+    <!-- Use your browser’s Share action to send one posting URL or selected text to Lebenslauf2. Receiving shares requires the latest store build; URL and paste import remain available. -->
+    <string name="use_your_browsers_share_action_to_send_one_posting_url_or_selected_text_to_lebenslauf2_receiving_sha" formatted="false">"使用瀏覽器的「分享」功能，將一個職缺公告網址或選取的文字傳送到 Lebenslauf2。接收分享需要商店中的最新版本；網址和貼上匯入仍可使用。"</string>
     <!-- Use your editor's normal bullet list, so stray glyphs do not land mid-sentence. -->
     <string name="use_your_editor_s_normal_bullet_list_so_stray_glyphs_do_not_land_mid_sentence" formatted="false">"使用編輯器自帶的一般項目符號清單功能，避免出現落在句子中間的雜散符號。"</string>
     <!-- Used: {summary} -->
@@ -7520,9 +7426,6 @@
     <string name="when_would_you_start" formatted="false">"您什麼時候可以到職？"</string>
     <!-- When you're done, the browser closes and you come back here. -->
     <string name="when_you_re_done_the_browser_closes_and_you_come_back_here" formatted="false">"完成後，瀏覽器會關閉並返回此處。"</string>
-    <!-- When you tap send, {list} go to your {connection}. -->
-    <!-- Arguments: %1$s = {list}, %2$s = {connection} -->
-    <string name="when_you_tap_send_list_go_to_your_connection">"點按傳送後，%1$s 會傳送至 %2$s。"</string>
     <!-- Where applications come from -->
     <string name="where_applications_come_from" formatted="false">"應徵來源"</string>
     <!-- Where you want to work -->
@@ -7551,8 +7454,6 @@
     <string name="width" formatted="false">"寬度"</string>
     <!-- Willing to relocate -->
     <string name="willing_to_relocate" formatted="false">"願意搬遷"</string>
-    <!-- With Knowledge off, nothing you write is remembered. -->
-    <string name="with_knowledge_off_nothing_you_write_is_remembered" formatted="false">"關閉知識庫時，您寫的任何內容都不會被記住。"</string>
     <!-- Within your office-day limit. -->
     <string name="within_your_office_day_limit" formatted="false">"符合您設定的每週到辦公室天數上限。"</string>
     <!-- Without a fact, the coach and practice can't use this story. -->
@@ -7732,8 +7633,6 @@
     <string name="your_changes_on_this_device_will_be_replaced_by_the_saved_version" formatted="false">"此裝置上的變更將由已儲存的版本取代。"</string>
     <!-- Your contact details are not on the first page. -->
     <string name="your_contact_details_are_not_on_the_first_page" formatted="false">"您的聯絡資訊不在第一頁。"</string>
-    <!-- your contacts -->
-    <string name="your_contacts" formatted="false">"您的聯絡人"</string>
     <!-- Your data -->
     <string name="your_data" formatted="false">"您的數據"</string>
     <!-- Your dates are written several different ways. -->
@@ -7754,22 +7653,18 @@
     <string name="your_facts_stories_and_preferences_editing_knowledge_sends_nothing_to_an_ai_connection" formatted="false">"您的事實、故事和偏好設定。編輯知識庫不會傳送任何內容至 AI 連線。"</string>
     <!-- Your focus -->
     <string name="your_focus" formatted="false">"您的重點"</string>
-    <!-- your form answers -->
-    <string name="your_form_answers" formatted="false">"您的表單回答"</string>
     <!-- Your headings look the same as your body text. -->
     <string name="your_headings_look_the_same_as_your_body_text" formatted="false">"您的標題看起來和內文一模一樣。"</string>
     <!-- Your job search starts here -->
     <string name="your_job_search_starts_here" formatted="false">"您的求職之路從這裡開始"</string>
     <!-- your Knowledge -->
     <string name="your_knowledge" formatted="false">"您的知識庫"</string>
-    <!-- Your language is saved. Restart Reactive Resume to apply the new left-to-right or right-to-left layout. -->
-    <string name="your_language_is_saved_restart_reactive_resume_to_apply_the_new_left_to_right_or_right_to_left_layou" formatted="false">"語言已儲存。請重新啟動 Reactive Resume，以套用由左至右或由右至左的新配置。"</string>
+    <!-- Your language is saved. Restart Lebenslauf2 to apply the new left-to-right or right-to-left layout. -->
+    <string name="your_language_is_saved_restart_lebenslauf2_to_apply_the_new_left_to_right_or_right_to_left_layout" formatted="false">"語言已儲存。請重新啟動 Lebenslauf2，以套用由左至右或由右至左的新配置。"</string>
     <!-- Your lines are packed very tightly. -->
     <string name="your_lines_are_packed_very_tightly" formatted="false">"你的線路排得很緊。"</string>
     <!-- Your margins are very narrow. -->
     <string name="your_margins_are_very_narrow" formatted="false">"您的頁邊界非常窄。"</string>
-    <!-- your message -->
-    <string name="your_message" formatted="false">"您的訊息"</string>
     <!-- Your message is kept. -->
     <string name="your_message_is_kept" formatted="false">"您的訊息已保留。"</string>
     <!-- Your name -->
@@ -7800,9 +7695,6 @@
     <string name="your_public_links_begin_with_server">"您的公開連結以 %1$s/ 開頭"</string>
     <!-- Your public links will change -->
     <string name="your_public_links_will_change" formatted="false">"您的公開連結將會變更"</string>
-    <!-- Your recording goes to {transcriberName} after you stop, to be transcribed. Your provider may charge. The server keeps transcripts, never recordings. -->
-    <!-- Arguments: %1$s = {transcriberName} -->
-    <string name="your_recording_goes_to_transcribername_after_you_stop_to_be_transcribed_your_provider_may_charge_the">"停止錄音後，錄音會傳送至 %1$s 進行轉錄。供應商可能收費。伺服器僅保留逐字稿，不保留錄音。"</string>
     <!-- Your request and relevant resume, letter, job posting, application, career information, conversation history, and attachments are sent through your server to this AI provider, according to the feature and context you selected. They can contain personal information. -->
     <string name="your_request_and_relevant_resume_letter_job_posting_application_career_information_conversation_hist" formatted="false">"根據您選擇的功能和上下文，您的請求和相關簡歷、信件、職位發布、申請、職業資訊、對話歷史記錄和附件將透過您的伺服器發送到該人工智慧提供者。它们可以包含个人信息。"</string>
     <!-- Your requirements -->
@@ -7847,8 +7739,6 @@
     <string name="your_short_link_points_to_0_which_isn_t_published">"您的短連結指向尚未發布的「%1$s」。"</string>
     <!-- Your short link says this resume isn't shared until you publish it again. -->
     <string name="your_short_link_says_this_resume_isn_t_shared_until_you_publish_it_again" formatted="false">"在您重新發布前，您的短連結會顯示這份履歷未分享。"</string>
-    <!-- your stories -->
-    <string name="your_stories" formatted="false">"您的故事"</string>
     <!-- Your story couldn't be loaded. -->
     <string name="your_story_couldn_t_be_loaded" formatted="false">"無法載入您的故事。"</string>
     <!-- Your tags -->

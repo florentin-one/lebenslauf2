@@ -124,7 +124,7 @@ class DashboardNavigationTest : ProductionNavigationTest() {
                 visit(Search())
                 rule.onNode(hasSetTextAction()).performTextReplacement("Lumen")
                 ready("Lumen")
-                rule.onNode(hasText("Lumen") and hasText("Senior product designer", substring = true) and hasClickAction()).performScrollTo().performClick()
+                rule.onNode(hasText("Lumen") and hasText("Fachärztin für Psychiatrie und Psychotherapie", substring = true) and hasClickAction()).performScrollTo().performClick()
                 expect(ApplicationRoute(StoryboardIds.lumen))
             },
             "D5 resume" to {

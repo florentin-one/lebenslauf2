@@ -11,8 +11,8 @@ vi.mock("@reactive-resume/db/client", () => ({
 }));
 vi.mock("@reactive-resume/env/server", () => ({
 	env: {
-		APP_URL: "https://rxresu.me",
-		APP_ALIAS_URL: "https://rx.cv",
+		APP_URL: "https://lebenslauf2.florentin-one.de",
+		APP_ALIAS_URL: "https://cv2.florentin-one.de",
 		CUSTOM_DOMAIN_TARGET: "domains.rx.cv",
 		CUSTOM_DOMAIN_PROVIDER_SECRET: "x".repeat(32),
 	},
@@ -23,7 +23,7 @@ const { normalizeHostname, traefikConfiguration } = await import("./service");
 describe("normalizeHostname", () => {
 	it.each([
 		["resume.example.com", "resume.example.com"],
-		["  https://Resume.Example.com/path?x=1  ", "resume.example.com"],
+		["  https://lebenslauf2.florentin-one.de/path?x=1  ", "resume.example.com"],
 		["example.com.", "example.com"],
 		["example.com:8443", "example.com"],
 		["bücher.example", "xn--bcher-kva.example"],
@@ -35,8 +35,8 @@ describe("normalizeHostname", () => {
 		"localhost",
 		"192.168.0.1",
 		"[::1]",
-		"rxresu.me",
-		"evil.rxresu.me",
+		"lebenslauf2.me",
+		"evil.lebenslauf2.me",
 		"rx.cv",
 		"jane.rx.cv",
 		"domains.rx.cv",

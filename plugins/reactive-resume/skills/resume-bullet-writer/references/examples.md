@@ -74,7 +74,7 @@ Notes: bullet 2 says "the unit", not "reduced CLABSI", because the user said it 
 
 ## 3. Walkthrough: rewriting a whole experience section over MCP
 
-**User:** "Rewrite all the bullets in my experience section." (Software engineer, Reactive Resume connected.)
+**User:** "Rewrite all the bullets in my experience section." (Software engineer, Lebenslauf2 connected.)
 
 1. `list_resumes` returns one resume; it is public and unlocked. `read_resume {id}` shows three experience items:
    - `items/0`: Globex, with `roles/0` Senior Software Engineer (current) and `roles/1` Software Engineer. Each role has its own description; the item's own description is empty.

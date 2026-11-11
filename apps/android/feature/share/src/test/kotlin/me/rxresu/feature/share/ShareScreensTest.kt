@@ -29,7 +29,7 @@ class ShareScreensTest : RrScreenshotTest() {
                     ResumeVersionSummary(timestamp(java.time.LocalDate.of(2026, 11, 3), 14, 20), "sent", GetResumeVersionResponseKind.Sent, "Sent to Lumen"),
                     ResumeVersionSummary(timestamp(java.time.LocalDate.of(2026, 10, 28), 10, 0), "import", GetResumeVersionResponseKind.Import),
                 )
-                ShareState(thumbnail = repositories.pages.page(pdf, 0, 144).asImageBitmap(), draft = DraftState(resume.copy(isPublic = !private, showDownloadButtons = true, allowWordDownload = false)), loading = false, primaryLoaded = true, username = "alex", origin = "https://rxresu.me", aliasUrl = "https://rx.cv", slug = resume.slug,
+                ShareState(thumbnail = repositories.pages.page(pdf, 0, 144).asImageBitmap(), draft = DraftState(resume.copy(isPublic = !private, showDownloadButtons = true, allowWordDownload = false)), loading = false, primaryLoaded = true, username = "alex", origin = "https://lebenslauf2.florentin-one.de", aliasUrl = "https://cv2.florentin-one.de", slug = resume.slug,
                     daily = repositories.resumes.getResumeDailyStatistics(resume.id, 30), links = repositories.resumes.listFeedbackLinks(resume.id), versions = versions)
             }
             captureScreen(id, dark, fontScale = font, wrap = { content -> CompositionLocalProvider(LocalRepositories provides repositories) { content() } }) {
@@ -38,9 +38,9 @@ class ShareScreensTest : RrScreenshotTest() {
                     "B19-Notes" -> PrivateNotesScreen("Follow up after the portfolio review.", false, false, {}, {})
                     "B12-WebPage" -> WebPageScreen(state, {}, {}, {}, { _, _ -> }, {}, {}, {})
                     "B13-Visitors" -> VisitorsScreen(state, {}, {}, {}, {})
-                    "L2-LetterExport" -> DownloadSheet(ExportState(name = "Alex Morgan Cover Letter", paired = true, format = FileFormat.Pair), DocumentKind.Letter, {}, {}, {}, {}, {})
-                    "L2-LetterOnlyExport" -> DownloadSheet(ExportState(name = "Alex Morgan Cover Letter", paired = true), DocumentKind.Letter, {}, {}, {}, {}, {})
-                    "B14-Download" -> { RrTopBar(onBack = {}); DownloadSheet(ExportState(name = "Alex Morgan Resume"), DocumentKind.Resume, {}, {}, {}, {}, {}) }
+                    "L2-LetterExport" -> DownloadSheet(ExportState(name = "Laura Beier Cover Letter", paired = true, format = FileFormat.Pair), DocumentKind.Letter, {}, {}, {}, {}, {})
+                    "L2-LetterOnlyExport" -> DownloadSheet(ExportState(name = "Laura Beier Cover Letter", paired = true), DocumentKind.Letter, {}, {}, {}, {}, {})
+                    "B14-Download" -> { RrTopBar(onBack = {}); DownloadSheet(ExportState(name = "Laura Beier Resume"), DocumentKind.Resume, {}, {}, {}, {}, {}) }
                     "B15-Versions" -> VersionsScreen(state, null, {}, {}, {}, {}, {})
                     "B19-More" -> {
                         val locked = state.copy(draft = DraftState(state.resume!!.copy(isLocked = true, createdAt = "2026-10-28T10:00:00Z", updatedAt = repositories.time.now().minusSeconds(12 * 60).toString(), tags = listOf("Design"), data = state.resume!!.data.copy(metadata = state.resume!!.data.metadata.copy(page = state.resume!!.data.metadata.page.copy(locale = "en-GB")))), locked = true))

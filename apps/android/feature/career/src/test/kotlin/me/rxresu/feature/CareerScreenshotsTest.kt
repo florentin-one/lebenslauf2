@@ -58,7 +58,7 @@ class CareerScreenshotsTest : RrScreenshotTest() {
     }
 
     private fun preferences(dark: Boolean, fontScale: Float = screenshotScale) = capture("C5-Preferences", dark, fontScale) { fakes ->
-        val p = runBlocking { fakes.career.getCareerProfile() }.copy(targetRoles = listOf("Senior product designer", "design lead"), locations = listOf("Lisbon", "remote in the EU"), minBase = SaveCareerProfileRequestMinBase(65000.0, "EUR", CreateCareerOfferRequestPeriod.Year), priorities = "Gambling, defence")
+        val p = runBlocking { fakes.career.getCareerProfile() }.copy(targetRoles = listOf("Fachärztin für Psychiatrie und Psychotherapie", "design lead"), locations = listOf("Lisbon", "remote in the EU"), minBase = SaveCareerProfileRequestMinBase(65000.0, "EUR", CreateCareerOfferRequestPeriod.Year), priorities = "Gambling, defence")
         PreferencesScreen(PreferencesState(false, p, schedules = runBlocking { fakes.career.listCareerSchedules() }, scheduling = true), {}, {}, {}, {})
     }
     private fun offers(dark: Boolean, count: Int = 2) = capture(when { count > 2 -> "C6-Offers-three"; count == 1 -> "C6-Offers-requirements"; else -> "C6-Offers" }, dark) { fakes ->
@@ -72,7 +72,7 @@ class CareerScreenshotsTest : RrScreenshotTest() {
         OffersScreen(state, {}, {}, {}, {}, {})
     }
     private fun schedule(dark: Boolean, searchReady: Boolean = true) = capture(if (searchReady) "C7-Schedule" else "C7-Schedule-unconfigured", dark) { fakes ->
-        val state = runBlocking { ScheduleState(false, available = true, providers = fakes.ai.listAiProviders(), profile = fakes.career.getCareerProfile(), email = "alex@morgan.design", emailVerified = true, web = fakes.ai.getWebAccessStatus().copy(search = searchReady)) }
+        val state = runBlocking { ScheduleState(false, available = true, providers = fakes.ai.listAiProviders(), profile = fakes.career.getCareerProfile(), email = "beier.laura@mh-hannover.de", emailVerified = true, web = fakes.ai.getWebAccessStatus().copy(search = searchReady)) }
         Box(Modifier.fillMaxSize()) {
             Column {
                 RrLargeTitleHeader("Career", rememberRrLargeTitleState())

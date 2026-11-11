@@ -1,6 +1,6 @@
 # PDF import regressions
 
-These fictional resumes were exported by Reactive Resume during the October 2026 product audit. Original files came from the audit's evidence set, which is archived outside the repository.
+These fictional resumes were exported by Lebenslauf2 during the October 2026 product audit. Original files came from the audit's evidence set, which is archived outside the repository.
 
 - `senior.pdf`: RX-93's original three-page, single-column source. Ten roles, three wrapped bullets per role. Company/location occupy the first header row; position/dates occupy the second.
 - `freelancer-azurill.pdf`: two-column Azurill export from the same audit. Four roles, three wrapped bullets per role. A full-width contact header precedes Skills/Languages in the sidebar and Summary/Education/Experience in the main column. The last role continues on page two.

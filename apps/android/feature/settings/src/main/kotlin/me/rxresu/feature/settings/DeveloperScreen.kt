@@ -202,7 +202,7 @@ internal fun DeveloperScreen(
                     )
                     RrButton(
                         stringResource(CR.string.setup_guide),
-                        { browser("https://docs.rxresu.me/guides/using-the-mcp-server") },
+                        { browser("https://docs.lebenslauf2.me/guides/using-the-mcp-server") },
                         variant = RrButtonVariant.GhostAccent,
                     )
                 }

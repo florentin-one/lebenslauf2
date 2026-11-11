@@ -20,7 +20,7 @@ import me.rxresu.core.testing.RrScreenshotTest
 import me.rxresu.core.testing.captureScreen
 import org.junit.Test
 
-/** Storyboard data: Alex Morgan's "Product designer" resume and the Lumen copy, on the bundled sample page. */
+/** Storyboard data: Laura Beier's "Product designer" resume and the Lumen copy, on the bundled sample page. */
 internal object Fixtures {
     private val repositories by lazy { FakeRepositories() }
     val resume by lazy { runBlocking { repositories.resumes.getResume(StoryboardIds.resume) } }
@@ -166,7 +166,7 @@ class BuilderScreenshotTest : RrScreenshotTest() {
         Shell(state, BuilderMode.Check) { CheckMode(state, CheckTab.JobMatch, {}, NoBuilderActions, {}, {}, {}, {}, jobMatchChanging = true) }
     }
     @Test fun jobMatchSaveAsJob() = captureScreen("B10-JobMatch-save-job", false) {
-        val state = Fixtures.state().copy(match = lumenMatch("Senior product designer at Lumen. Accessibility audits, Figma, design systems."))
+        val state = Fixtures.state().copy(match = lumenMatch("Fachärztin für Psychiatrie und Psychotherapie at Lumen. Accessibility audits, Figma, design systems."))
         Shell(state, BuilderMode.Check) { CheckMode(state, CheckTab.JobMatch, {}, NoBuilderActions, {}, {}, {}, {}, saveJobOpen = true) }
     }
     @Test fun jobMatchNotLinked() = captureScreen("B10-JobMatch-not-linked", false) {

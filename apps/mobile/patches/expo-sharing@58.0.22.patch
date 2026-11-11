@@ -113,7 +113,7 @@ index 30db9ef48746876a9fdd0801f2138d760ed92091..efd2768f91c4a04e78218c8da6a5ace9
          MainTargetUrlScheme: urlScheme,
          CFBundleDevelopmentRegion: '$(DEVELOPMENT_LANGUAGE)',
 -        CFBundleDisplayName: '$(PRODUCT_NAME)',
-+        CFBundleDisplayName: 'Reactive Resume',
++        CFBundleDisplayName: 'Lebenslauf2',
          CFBundleExecutable: '$(EXECUTABLE_NAME)',
          CFBundleIdentifier: '$(PRODUCT_BUNDLE_IDENTIFIER)',
          CFBundleInfoDictionaryVersion: '6.0',
@@ -163,7 +163,7 @@ index 7cd0d027992cefaee765e7afa7df8827bea374b4..d6b95d8c72980593c506406ebe0d4cd4
      MainTargetUrlScheme: urlScheme,
      CFBundleDevelopmentRegion: '$(DEVELOPMENT_LANGUAGE)',
 -    CFBundleDisplayName: '$(PRODUCT_NAME)',
-+    CFBundleDisplayName: 'Reactive Resume',
++    CFBundleDisplayName: 'Lebenslauf2',
      CFBundleExecutable: '$(EXECUTABLE_NAME)',
      CFBundleIdentifier: '$(PRODUCT_BUNDLE_IDENTIFIER)',
      CFBundleInfoDictionaryVersion: '6.0',
@@ -303,7 +303,7 @@ index 06680594c880f5a1d55a359de63561799768d7d2..73501f8ee7d3e17cfd98ce01855c6f63
 -      for provider in attachments {
 -        if let payload = await parseProvider(provider) {
 -          results.append(payload)
-+// Complete normally; the user explicitly reopens Reactive Resume to review. Never open the containing app here.
++// Complete normally; the user explicitly reopens Lebenslauf2 to review. Never open the containing app here.
 +class ShareIntoViewController: UIViewController {
 +  private var store: PendingPostingStore?
 +  private var selected: PostingShareContext?
@@ -326,8 +326,8 @@ index 06680594c880f5a1d55a359de63561799768d7d2..73501f8ee7d3e17cfd98ce01855c6f63
 +    message.font = .preferredFont(forTextStyle: .body)
 +    message.adjustsFontForContentSizeCategory = true
 +    message.text = selected.map {
-+      "Keep one posting URL or selected text for \($0.server). Then reopen Reactive Resume yourself to review and save. Nothing is saved to your tracker or sent to AI here. Pending text expires after 15 minutes."
-+    } ?? "Open Reactive Resume and sign in to your installation first. Then share the posting again."
++      "Keep one posting URL or selected text for \($0.server). Then reopen Lebenslauf2 yourself to review and save. Nothing is saved to your tracker or sent to AI here. Pending text expires after 15 minutes."
++    } ?? "Open Lebenslauf2 and sign in to your installation first. Then share the posting again."
 +    keep.setTitle("Keep for review, then reopen app", for: .normal)
 +    keep.titleLabel?.numberOfLines = 0
 +    keep.titleLabel?.font = .preferredFont(forTextStyle: .headline)
@@ -459,7 +459,7 @@ index 06680594c880f5a1d55a359de63561799768d7d2..73501f8ee7d3e17cfd98ce01855c6f63
 +        extensionContext?.completeRequest(returningItems: nil)
 +      } else {
 +        processing = false
-+        message.text = "Couldn't keep this share. Share one posting URL or selected text, with no files, and check that Reactive Resume is still signed in to the same installation. You can paste the posting in Applications instead."
++        message.text = "Couldn't keep this share. Share one posting URL or selected text, with no files, and check that Lebenslauf2 is still signed in to the same installation. You can paste the posting in Applications instead."
        }
      }
    }

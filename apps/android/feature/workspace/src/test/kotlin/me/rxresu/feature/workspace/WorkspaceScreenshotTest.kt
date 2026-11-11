@@ -59,7 +59,7 @@ class WorkspaceScreenshotTest : RrScreenshotTest() {
             val fit = item.data as? FitResult ?: return@map item
             val four = fit.requirements.take(4).mapIndexed { i, r -> r.copy(origin = if (i == 3) CreateCareerOfferResponseDataFitRequirementsItemOrigin.Inferred else r.origin,
                 evidence = listOf("Northwind Labs entry", "in Skills only", "", "Harbour Studio entry")[i]) }
-            item.copy(data = fit.copy(requirements = four, summary = "From “Lumen · Senior product designer” and 12 Knowledge facts · checked today 08:40"))
+            item.copy(data = fit.copy(requirements = four, summary = "From “Lumen · Fachärztin für Psychiatrie und Psychotherapie” and 12 Knowledge facts · checked today 08:40"))
         }
         controls.responses.value = mapOf("listCareerSavedItems" to ApiJson.encodeToJsonElement(ListSerializer(SavedItem.serializer()), edited))
         return FakeRepositories(controls)

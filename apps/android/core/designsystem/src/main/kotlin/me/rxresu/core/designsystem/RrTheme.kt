@@ -61,7 +61,7 @@ val LocalRrContentColor = staticCompositionLocalOf { LightRrColors.ink }
 val LocalRrTextStyle = staticCompositionLocalOf { RrType.ui }
 
 /**
- * Reactive Resume theme. Provides the colours, haptics switch, reduced-motion flag, the press-wash indication (never a
+ * Lebenslauf2 theme. Provides the colours, haptics switch, reduced-motion flag, the press-wash indication (never a
  * Material ripple), text selection colours (accent-soft) and the default content colour and text style.
  *
  * @param darkTheme dark palette when true; pass the app's theme preference (Light, Dark or Match system).

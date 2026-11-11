@@ -110,7 +110,7 @@ function RootStack() {
 			<ConfirmDialog
 				open={accountLocale.restart}
 				title={t`Restart to change text direction`}
-				message={t`Your language is saved. Restart Reactive Resume to apply the new left-to-right or right-to-left layout.`}
+				message={t`Your language is saved. Restart Lebenslauf2 to apply the new left-to-right or right-to-left layout.`}
 				confirmLabel={__DEV__ ? t`Reload now` : t`Done`}
 				cancelLabel={t`Later`}
 				onCancel={accountLocale.dismissRestart}

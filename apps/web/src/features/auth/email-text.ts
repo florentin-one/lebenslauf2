@@ -6,41 +6,41 @@ import { msg } from "@lingui/core/macro";
 // in the account's interface language. Keep both lists in step: the generator fails when one of these is missing from
 // the catalog. A translation must keep every {placeholder}, or the email falls back to English.
 msg`Reset your password`;
-msg({ message: "Reset your {appName} password", comment: "Email preview text. appName: Reactive Resume" });
+msg({ message: "Reset your {appName} password", comment: "Email preview text. appName: Lebenslauf2" });
 msg({
 	message: "We received a request to reset your {appName} password.",
-	comment: "Password reset email. appName: Reactive Resume",
+	comment: "Password reset email. appName: Lebenslauf2",
 });
 msg`The link works for 1 hour. Resetting signs you out on every device and removes your passkeys, API keys and connected apps. If you didn't ask for this, ignore this email; your password stays the same.`;
 msg`Create new password`;
-msg`For security, only use links from emails sent by Reactive Resume.`;
+msg`For security, only use links from emails sent by Lebenslauf2.`;
 msg`Verify your email`;
-msg({ message: "Verify your email for {appName}", comment: "Email preview text. appName: Reactive Resume" });
+msg({ message: "Verify your email for {appName}", comment: "Email preview text. appName: Lebenslauf2" });
 msg({
 	message: "Confirm this is your email address for {appName}. The link works for 1 hour.",
-	comment: "Verification email. appName: Reactive Resume",
+	comment: "Verification email. appName: Lebenslauf2",
 });
 msg`This confirms the address belongs to you, which keeps your account secure.`;
 msg`Verify email`;
 msg`If you didn't ask for this, you can ignore this email.`;
 msg`Confirm your new email`;
-msg({ message: "Confirm your new {appName} email address", comment: "Email preview text. appName: Reactive Resume" });
+msg({ message: "Confirm your new {appName} email address", comment: "Email preview text. appName: Lebenslauf2" });
 msg`Confirm your new email address`;
 msg({
 	message: "Confirm this address to finish changing your {appName} email. The link works for 1 hour.",
-	comment: "Email sent to a new address to finish an email change. appName: Reactive Resume",
+	comment: "Email sent to a new address to finish an email change. appName: Lebenslauf2",
 });
 msg`Confirm email`;
 msg`If you didn't ask for this, ignore this email; your account won't change.`;
 msg`Approve your email change`;
 msg({
 	message: "Approve changing your {appName} email address",
-	comment: "Email preview text. appName: Reactive Resume",
+	comment: "Email preview text. appName: Lebenslauf2",
 });
 msg`Approve email change`;
 msg({
 	message: "Someone asked to change your {appName} email from {previousEmail} to {newEmail}.",
-	comment: "Email change approval. appName: Reactive Resume; previousEmail and newEmail are email addresses",
+	comment: "Email change approval. appName: Lebenslauf2; previousEmail and newEmail are email addresses",
 });
 msg({
 	message: "If you approve, we'll send a link to {newEmail} to finish the change.",

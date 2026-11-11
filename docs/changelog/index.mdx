@@ -1,6 +1,6 @@
 ---
 title: "Changelog"
-description: "Release notes for Reactive Resume covering new features, resume builder updates, PDF export fixes, AI Agent changes, and self-hosting news."
+description: "Release notes for Lebenslauf2 covering new features, resume builder updates, PDF export fixes, AI Agent changes, and self-hosting news."
 rss: true
 ---
 
@@ -54,7 +54,7 @@ rss: true
 
 ## Import, Export & PDF
 
-- PDF and Word imports now stop at **Check what was found** before creating a resume. Reactive Resume PDFs import with the correct roles, companies and dates, complete bullet lists and separate Education records. [1693061ce](https://github.com/reactive-resume/reactive-resume/commit/1693061ce), [77b09e241](https://github.com/reactive-resume/reactive-resume/commit/77b09e241), [d772b75de](https://github.com/reactive-resume/reactive-resume/commit/d772b75de), [3398be85e](https://github.com/reactive-resume/reactive-resume/commit/3398be85e)
+- PDF and Word imports now stop at **Check what was found** before creating a resume. Lebenslauf2 PDFs import with the correct roles, companies and dates, complete bullet lists and separate Education records. [1693061ce](https://github.com/reactive-resume/reactive-resume/commit/1693061ce), [77b09e241](https://github.com/reactive-resume/reactive-resume/commit/77b09e241), [d772b75de](https://github.com/reactive-resume/reactive-resume/commit/d772b75de), [3398be85e](https://github.com/reactive-resume/reactive-resume/commit/3398be85e)
 - PDFs now choose Devanagari, Bengali, Tamil and other Indic, Ethiopic and Khmer fonts automatically instead of printing "?", and unsupported characters no longer overlap the next word. [2981bb90f](https://github.com/reactive-resume/reactive-resume/commit/2981bb90f), [8f8f5d871](https://github.com/reactive-resume/reactive-resume/commit/8f8f5d871)
 - Fixed PDFs stranding a single bullet or an entry heading at the bottom of a page, and a crash when automatic hyphenation met a long unbroken word such as a URL. Thanks to @santhiprakash. [8e080c922](https://github.com/reactive-resume/reactive-resume/commit/8e080c922), [c51ff6c0b](https://github.com/reactive-resume/reactive-resume/commit/c51ff6c0b), [c6aecbd5e](https://github.com/reactive-resume/reactive-resume/commit/c6aecbd5e)
 - Owners can allow Word downloads from their public resume page, separately from PDF. Word exports keep editor bullets, and downloads are named after you, such as `Jordan-Long-Resume.pdf`. [148493bb8](https://github.com/reactive-resume/reactive-resume/commit/148493bb8), [d44a101bc](https://github.com/reactive-resume/reactive-resume/commit/d44a101bc), [13438656a](https://github.com/reactive-resume/reactive-resume/commit/13438656a)
@@ -81,7 +81,7 @@ rss: true
 - Desktop MCP clients such as Cursor and VS Code can now complete OAuth sign-in, and MCP and WebMCP errors are clearer. [06f911d5f](https://github.com/reactive-resume/reactive-resume/commit/06f911d5f), [b2be350c8](https://github.com/reactive-resume/reactive-resume/commit/b2be350c8)
 - MCP and REST application letter drafts now return the text for your review instead of saving it: the linked letter starts empty and `reviewRequired` is `true`. The existing `text` and `coverLetterId` fields remain. [d1a558250](https://github.com/reactive-resume/reactive-resume/commit/d1a558250)
 - Added bulk Trash endpoints and MCP tools, and completed API descriptions for AI and application tools. [ddedd46dc](https://github.com/reactive-resume/reactive-resume/commit/ddedd46dc), [d3759ebfd](https://github.com/reactive-resume/reactive-resume/commit/d3759ebfd)
-- Firecrawl requests now identify Reactive Resume and report when a page came from cache. Thanks to @erikengervall. [33920b2e8](https://github.com/reactive-resume/reactive-resume/commit/33920b2e8)
+- Firecrawl requests now identify Lebenslauf2 and report when a page came from cache. Thanks to @erikengervall. [33920b2e8](https://github.com/reactive-resume/reactive-resume/commit/33920b2e8)
 
 ## Self-Hosting & Maintenance
 
@@ -187,7 +187,7 @@ No new database migrations or native mobile changes are included in this patch.
 
 ## Resume Builder & Sharing
 
-- Added matching Share controls to the native apps, with public resume pages opening in a browser and local PDF exports remaining separate. The hosted Share panel copies `rx.cv` links; existing `rxresu.me` public addresses continue to work. [63539ef20](https://github.com/reactive-resume/reactive-resume/commit/63539ef20)
+- Added matching Share controls to the native apps, with public resume pages opening in a browser and local PDF exports remaining separate. The hosted Share panel copies `rx.cv` links; existing `lebenslauf2.me` public addresses continue to work. [63539ef20](https://github.com/reactive-resume/reactive-resume/commit/63539ef20)
 - Added resume link previews in your design's colours, explicit search-engine opt-in, and contact redaction across public pages, PDFs and previews. Private notes and hidden entries stay out of public content. [63539ef20](https://github.com/reactive-resume/reactive-resume/commit/63539ef20)
 - Limited new resume addresses to 64 characters while preserving existing longer addresses and updates that keep them unchanged. Improved address validation, conflict messages and suggestions on web and mobile. Thanks to @iwmywn. [f77121efe](https://github.com/reactive-resume/reactive-resume/commit/f77121efe)
 - Fixed password-protected PDF downloads asking signed-in resume owners for their own share password. Visitors still need the password. Thanks to @iwmywn. [520fdf59d](https://github.com/reactive-resume/reactive-resume/commit/520fdf59d)
@@ -205,7 +205,7 @@ No new database migrations or native mobile changes are included in this patch.
 
 ## Self-Hosting & Maintenance
 
-- Added optional `APP_ALIAS_URL` support for a second public address, plus DNS-verified custom domains backed by a Traefik HTTP provider. **Back up your database before upgrading:** startup adds a custom-domain table and three resume sharing columns. Existing public/private and download settings remain; search indexing, contact hiding and primary-resume status default to off. Domain support needs additional proxy and HTTPS setup; ordinary sharing needs no new variables. See [Sharing domains](https://docs.rxresu.me/self-hosting/sharing-domains). [63539ef20](https://github.com/reactive-resume/reactive-resume/commit/63539ef20)
+- Added optional `APP_ALIAS_URL` support for a second public address, plus DNS-verified custom domains backed by a Traefik HTTP provider. **Back up your database before upgrading:** startup adds a custom-domain table and three resume sharing columns. Existing public/private and download settings remain; search indexing, contact hiding and primary-resume status default to off. Domain support needs additional proxy and HTTPS setup; ordinary sharing needs no new variables. See [Sharing domains](https://docs.lebenslauf2.me/self-hosting/sharing-domains). [63539ef20](https://github.com/reactive-resume/reactive-resume/commit/63539ef20)
 - Changed the manual mobile store-release workflow to upload Android builds to production and submit iOS builds for App Store review. Store approval and publication remain separate from this release; no native store build is created by a Docker release. [a080009d9](https://github.com/reactive-resume/reactive-resume/commit/a080009d9)
 - Updated dependencies. [28fbcb3ea](https://github.com/reactive-resume/reactive-resume/commit/28fbcb3ea)
 
@@ -364,9 +364,9 @@ No new database migrations or native mobile changes are included in this patch.
 
 ## Highlights
 
-- **Bring Reactive Resume into Claude, Codex and ChatGPT.** Eight agent skills now cover the whole job search, from resume content, bullets and tailoring to application tracking, interview prep, mock interviews and offer negotiation. Install them as one plugin that also connects the hosted MCP server, or one by one with the skills CLI. Every skill works from conversation alone, asks before changing your documents, and never invents facts or numbers. [Agent skills guide](/guides/using-agent-skills). [86fc23237](https://github.com/reactive-resume/reactive-resume/commit/86fc23237), [1df97dde5](https://github.com/reactive-resume/reactive-resume/commit/1df97dde5), [369c9bcfe](https://github.com/reactive-resume/reactive-resume/commit/369c9bcfe)
+- **Bring Lebenslauf2 into Claude, Codex and ChatGPT.** Eight agent skills now cover the whole job search, from resume content, bullets and tailoring to application tracking, interview prep, mock interviews and offer negotiation. Install them as one plugin that also connects the hosted MCP server, or one by one with the skills CLI. Every skill works from conversation alone, asks before changing your documents, and never invents facts or numbers. [Agent skills guide](/guides/using-agent-skills). [86fc23237](https://github.com/reactive-resume/reactive-resume/commit/86fc23237), [1df97dde5](https://github.com/reactive-resume/reactive-resume/commit/1df97dde5), [369c9bcfe](https://github.com/reactive-resume/reactive-resume/commit/369c9bcfe)
 - **Write cover letters in your language.** Automatic greetings and sign-offs follow the letter's language instead of always appearing in English. You can now edit the greeting, the sign-off and the full signature, including your name and contact details, or return to the default with one click. Thanks to @EdShedisson for reporting [#3601](https://github.com/reactive-resume/reactive-resume/issues/3601). [b69c6fd5e](https://github.com/reactive-resume/reactive-resume/commit/b69c6fd5e)
-- **Connect AI agents faster.** The MCP tool list is about 80% smaller, so agents load Reactive Resume's tools quicker and leave more of their context for your work. Setting up the MCP server in a coding agent is now one `npx add-mcp` command. [e58934a5d](https://github.com/reactive-resume/reactive-resume/commit/e58934a5d), [74578aef4](https://github.com/reactive-resume/reactive-resume/commit/74578aef4), [2cd21b25c](https://github.com/reactive-resume/reactive-resume/commit/2cd21b25c), [86dd97129](https://github.com/reactive-resume/reactive-resume/commit/86dd97129)
+- **Connect AI agents faster.** The MCP tool list is about 80% smaller, so agents load Lebenslauf2's tools quicker and leave more of their context for your work. Setting up the MCP server in a coding agent is now one `npx add-mcp` command. [e58934a5d](https://github.com/reactive-resume/reactive-resume/commit/e58934a5d), [74578aef4](https://github.com/reactive-resume/reactive-resume/commit/74578aef4), [2cd21b25c](https://github.com/reactive-resume/reactive-resume/commit/2cd21b25c), [86dd97129](https://github.com/reactive-resume/reactive-resume/commit/86dd97129)
 
 ## Sign-in & Accounts
 
@@ -392,7 +392,7 @@ No new database migrations or native mobile changes are included in this patch.
 
 - Stopped authentication email content and raw SMTP errors, which can contain reset links or credentials, from appearing in production logs. Development installations without SMTP still log verification links. Thanks to @iwmywn. [#3602](https://github.com/reactive-resume/reactive-resume/pull/3602)
 - Added the optional `OPENAI_APPS_CHALLENGE_TOKEN`, served at `/.well-known/openai-apps-challenge`, for publishing your own instance's MCP server as a ChatGPT or Codex plugin. [40f4595c6](https://github.com/reactive-resume/reactive-resume/commit/40f4595c6)
-- Changed the project contact address to amruth@rxresu.me across the website, API reference, legal pages and security policy. [#3604](https://github.com/reactive-resume/reactive-resume/pull/3604)
+- Changed the project contact address to amruth@lebenslauf2.me across the website, API reference, legal pages and security policy. [#3604](https://github.com/reactive-resume/reactive-resume/pull/3604)
 
 **Full Changelog**: [v6.0.1...v6.0.2](https://github.com/reactive-resume/reactive-resume/compare/v6.0.1...v6.0.2)
 
@@ -446,7 +446,7 @@ No new database migrations or native mobile changes are included in this patch.
 - **Choose a default AI connection.** A tested, enabled connection can be marked **Default**. AI features without an explicit selection use it, falling back to the most recently used usable connection, then the oldest, when no usable default exists. Connection lists follow the same order and the settings UI shows the default.
 - **Continue conversations after provider removal.** The assistant reconnects conversations whose provider was switched off or deleted to the currently selected fallback, keeping the privacy line aligned with the connection used. Direct OpenAI assistant requests use Responses for reasoning with function tools, independently of native web-search support.
 - **Choose speech and transcription separately.** Voice settings select supported models for reading questions and transcribing answers, independently of the text-feedback connection. OpenAI, Gemini, Mistral, xAI and Vercel AI Gateway support configured speech tasks; Groq is available for transcription. The default speech-capable connection is preferred, then another usable connection, then supported browser speech.
-- **Review your transcript before requesting feedback.** Record for up to two minutes or upload a nonempty WebM, MP4/M4A, MP3, WAV or Ogg file up to 2 MiB. Original and edited provider transcripts remain distinguishable and deletable. Raw recordings are not stored by the Reactive Resume server; successful transcription clears local audio unless you keep it for download, while failures allow retry. Browser dictation and typing provide alternatives where supported. [Voice controls](/guides/career-workspace-reference#voice).
+- **Review your transcript before requesting feedback.** Record for up to two minutes or upload a nonempty WebM, MP4/M4A, MP3, WAV or Ogg file up to 2 MiB. Original and edited provider transcripts remain distinguishable and deletable. Raw recordings are not stored by the Lebenslauf2 server; successful transcription clears local audio unless you keep it for download, while failures allow retry. Browser dictation and typing provide alternatives where supported. [Voice controls](/guides/career-workspace-reference#voice).
 
 ## Resume editing & PDF export
 
@@ -511,7 +511,7 @@ No new database migrations or native mobile changes are included in this patch.
 - **Start assistant conversations for a document.** Replace `/agent/threads/for-resume` with `POST /agent/threads`, passing `resumeId` or `coverLetterId`. Conversation archiving and `/agent/actions/{id}/revert` are removed. The web assistant now proposes edits for review. [6463a9e9c](https://github.com/reactive-resume/reactive-resume/commit/6463a9e9c)
 - **Switch Vercel projects to Services.** Set the project's Framework Preset to **Services** before deploying v6. Static assets use the frontend service; application shells, APIs, authentication, uploads and MCP use the backend service. Include `apps/web/dist-prerender` beside `dist` in custom server deployments to serve the localized marketing HTML. [725be158c](https://github.com/reactive-resume/reactive-resume/commit/725be158c), [b399e289d](https://github.com/reactive-resume/reactive-resume/commit/b399e289d)
 
-Reactive Resume v6 rebuilds the workspace around your documents: one library, a **Write / Design / Check** editor,
+Lebenslauf2 v6 rebuilds the workspace around your documents: one library, a **Write / Design / Check** editor,
 an assistant whose edits you review, standalone cover letters, and an application tracker centered on your next step.
 Forme replaces the PDF engine, with browser rendering shared across previews and downloads.
 
@@ -778,7 +778,7 @@ on **2026-10-02**. For a shorter orientation, read
 - **Use one release migration and rollback script.** Intermediate v6 migrations are consolidated into `20261001042749_v6_release`. It performs v5 data conversions before removing legacy columns; its rollback restores v5-compatible letter sections and application/history fields in one transaction. See [Migrating from v5](/self-hosting/upgrading-to-v6). [bc92b8cf7](https://github.com/reactive-resume/reactive-resume/commit/bc92b8cf7)
 - **Run consistent workspace checks with Oxc.** Standalone Oxlint and Oxfmt replace the previous lint/format configuration. CI checks package boundaries and affected-package types, persists Turbo artifacts, and runs unit suites with one concurrent task. Dependency and translation updates are grouped with these maintenance changes; obsolete design and redesign plan documents are removed. [0bdf8066c](https://github.com/reactive-resume/reactive-resume/commit/0bdf8066c), [fcfb18fe5](https://github.com/reactive-resume/reactive-resume/commit/fcfb18fe5), [3e14ecaab](https://github.com/reactive-resume/reactive-resume/commit/3e14ecaab), [8ab54c8ad](https://github.com/reactive-resume/reactive-resume/commit/8ab54c8ad)
 
-- **Set up job search and AI alongside your instance.** A new [Job search and AI guide](/self-hosting/job-search-and-ai) covers Firecrawl, Tavily and Exa, links official Firecrawl, SearXNG and OpenAI setup instructions, explains shared services and personal keys, and includes container-network and local verification examples. SearXNG supplies JSON search results to self-hosted Firecrawl; Reactive Resume connects separately to Firecrawl and its AI provider. Docker, environment-variable and AI guides link to the setup. [bec152b7e](https://github.com/reactive-resume/reactive-resume/commit/bec152b7e), [3e7849e51](https://github.com/reactive-resume/reactive-resume/commit/3e7849e51)
+- **Set up job search and AI alongside your instance.** A new [Job search and AI guide](/self-hosting/job-search-and-ai) covers Firecrawl, Tavily and Exa, links official Firecrawl, SearXNG and OpenAI setup instructions, explains shared services and personal keys, and includes container-network and local verification examples. SearXNG supplies JSON search results to self-hosted Firecrawl; Lebenslauf2 connects separately to Firecrawl and its AI provider. Docker, environment-variable and AI guides link to the setup. [bec152b7e](https://github.com/reactive-resume/reactive-resume/commit/bec152b7e), [3e7849e51](https://github.com/reactive-resume/reactive-resume/commit/3e7849e51)
 
 - **Create the SeaweedFS bucket reliably in Compose.** The old `minio/mc` image returns `401 Unauthorized`, breaking bucket setup and the Docker publishing workflow. Development and production Compose switch to the AWS CLI, checking for an existing bucket before creating it and retrying failures. [#3544](https://github.com/reactive-resume/reactive-resume/pull/3544)
 - **Compress static assets and HTML on the Node server.** The server serves compressed web files and application shells to reduce transfer size. [e74403e12](https://github.com/reactive-resume/reactive-resume/commit/e74403e12)
@@ -810,7 +810,7 @@ on **2026-10-02**. For a shorter orientation, read
 <Update label="v5.3.2" description="26th September 2026">
 ## Highlights
 
-- **Deploy to Vercel in one click.** Self-host Reactive Resume on Vercel Hobby with the Deploy with Vercel button, which provisions Neon PostgreSQL, Upstash Redis, and private Vercel Blob storage and only asks for two secrets. Database migrations run during the build, and uploads keep their full 10 MB file and 25 MiB attachment limits. Docker remains fully supported. See the [Vercel guide](https://docs.rxresu.me/self-hosting/vercel). [8c4031398](https://github.com/reactive-resume/reactive-resume/commit/8c4031398)
+- **Deploy to Vercel in one click.** Self-host Lebenslauf2 on Vercel Hobby with the Deploy with Vercel button, which provisions Neon PostgreSQL, Upstash Redis, and private Vercel Blob storage and only asks for two secrets. Database migrations run during the build, and uploads keep their full 10 MB file and 25 MiB attachment limits. Docker remains fully supported. See the [Vercel guide](https://docs.lebenslauf2.me/self-hosting/vercel). [8c4031398](https://github.com/reactive-resume/reactive-resume/commit/8c4031398)
 - **Import resumes by drag and drop.** Drop a file anywhere on the import dialog's file area instead of opening the file picker. Thanks to [@s3kfm](https://github.com/s3kfm). [0ac320b0e](https://github.com/reactive-resume/reactive-resume/commit/0ac320b0e)
 
 ## Resume Builder & Import
@@ -847,7 +847,7 @@ on **2026-10-02**. For a shorter orientation, read
 
 ## Integrations & Authentication
 
-- **Changed cover-letter REST endpoints.** REST clients must migrate from `/api/openapi/coverLetters/*` to `/api/openapi/cover-letters` resource paths and the documented HTTP methods; the old URLs now return `404`. Follow the [endpoint migration guide](https://docs.rxresu.me/guides/using-the-api#cover-letter-rest-endpoint-migration) and regenerate SDKs from your instance's OpenAPI spec. Existing `/api/rpc` clients are unaffected. Thanks to [@emanuelet](https://github.com/emanuelet). [fbf1f8fba](https://github.com/reactive-resume/reactive-resume/commit/fbf1f8fba)
+- **Changed cover-letter REST endpoints.** REST clients must migrate from `/api/openapi/coverLetters/*` to `/api/openapi/cover-letters` resource paths and the documented HTTP methods; the old URLs now return `404`. Follow the [endpoint migration guide](https://docs.lebenslauf2.me/guides/using-the-api#cover-letter-rest-endpoint-migration) and regenerate SDKs from your instance's OpenAPI spec. Existing `/api/rpc` clients are unaffected. Thanks to [@emanuelet](https://github.com/emanuelet). [fbf1f8fba](https://github.com/reactive-resume/reactive-resume/commit/fbf1f8fba)
 - Fixed OAuth registration for MCP clients that request client-secret authentication, allowing integrations such as Composio to complete their token exchange. [3fc0896a3](https://github.com/reactive-resume/reactive-resume/commit/3fc0896a3)
 - Improved MCP tool descriptions and action hints so connected clients can identify operations that replace content, change public access, or send data to a configured provider. [81341a107](https://github.com/reactive-resume/reactive-resume/commit/81341a107)
 
@@ -860,7 +860,7 @@ on **2026-10-02**. For a shorter orientation, read
 ## Self-Hosting & Maintenance
 
 - **Moved the repository and GHCR images.** Source code now lives at [reactive-resume/reactive-resume](https://github.com/reactive-resume/reactive-resume). If you pull from GHCR, update your image reference to `ghcr.io/reactive-resume/reactive-resume:latest`; Docker Hub remains `amruthpillai/reactive-resume:latest`. [f89acb436](https://github.com/reactive-resume/reactive-resume/commit/f89acb436), [e3717251c](https://github.com/reactive-resume/reactive-resume/commit/e3717251c)
-- Added a [Kubernetes self-hosting guide](https://docs.rxresu.me/self-hosting/kubernetes) covering PostgreSQL, persistent uploads, secrets, ingress, health checks, and upgrade verification. Thanks to [@PerryLink](https://github.com/PerryLink). [3c5908819](https://github.com/reactive-resume/reactive-resume/commit/3c5908819)
+- Added a [Kubernetes self-hosting guide](https://docs.lebenslauf2.me/self-hosting/kubernetes) covering PostgreSQL, persistent uploads, secrets, ingress, health checks, and upgrade verification. Thanks to [@PerryLink](https://github.com/PerryLink). [3c5908819](https://github.com/reactive-resume/reactive-resume/commit/3c5908819)
 - Published nightly container images for both AMD64 and ARM64 and added anonymous-pull checks for both registries before production deployment. [9699dbf2d](https://github.com/reactive-resume/reactive-resume/commit/9699dbf2d), [30b21fa1e](https://github.com/reactive-resume/reactive-resume/commit/30b21fa1e)
 - Updated dependencies across the application, integrations, and build tooling. [607eafd3e](https://github.com/reactive-resume/reactive-resume/commit/607eafd3e), [dc8f9787a](https://github.com/reactive-resume/reactive-resume/commit/dc8f9787a), [96c7142fb](https://github.com/reactive-resume/reactive-resume/commit/96c7142fb)
 
@@ -954,7 +954,7 @@ on **2026-10-02**. For a shorter orientation, read
 <Update label="v5.2.9" description="27th August 2026">
 ## Highlights
 
-- **A free ATS checker that never uploads your resume.** Drop a PDF on [rxresu.me/ats-checker](https://rxresu.me/ats-checker) and it opens the file the way a parser would, pulls the text out, and reports what survived: whether the file carries real text or a picture of one, whether a multi-column layout scrambles the reading order, and whether your name, email, phone, links and dates come through intact. Everything runs in your browser — the file is never uploaded, nothing is stored, and no account is needed. Paste a job description and it will also tell you which of the posting's terms already appear in your resume. [#3382](https://github.com/reactive-resume/reactive-resume/pull/3382)
+- **A free ATS checker that never uploads your resume.** Drop a PDF on [lebenslauf2.me/ats-checker](https://lebenslauf2.florentin-one.de/ats-checker) and it opens the file the way a parser would, pulls the text out, and reports what survived: whether the file carries real text or a picture of one, whether a multi-column layout scrambles the reading order, and whether your name, email, phone, links and dates come through intact. Everything runs in your browser — the file is never uploaded, nothing is stored, and no account is needed. Paste a job description and it will also tell you which of the posting's terms already appear in your resume. [#3382](https://github.com/reactive-resume/reactive-resume/pull/3382)
 - **A score you can actually audit.** The report gives one number from 0 to 100 across readability, layout, sections, contact details and dates — and shows its working. Every finding cites the text that triggered it and the page it sits on, and the report states how many checks ran and how many were honestly skipped rather than quietly counting them as passes. Employment gaps, writing style and length are reported as unscored tips; they never move the score. [#3382](https://github.com/reactive-resume/reactive-resume/pull/3382)
 - **Resume analysis has been replaced by the ATS check.** The old AI-scored analysis is gone, along with its stored results, its `get_resume_analysis` MCP tool, and the `POST /ai/analyze-resume` endpoint. What replaces it is deterministic and evidence-backed, with an optional AI second opinion on your writing that deliberately returns no score of its own. Self-hosters: read the upgrade note below. [#3382](https://github.com/reactive-resume/reactive-resume/pull/3382)
 - **Bold text finally looks bold.** Most resumes pair Regular with SemiBold, which rendered `<strong>` almost indistinguishably from body text. Bold now resolves to the font family's true Bold face, so emphasis reads as emphasis — existing resumes will export with visibly stronger bold text. Thanks to [@santhiprakash](https://github.com/santhiprakash). [e065a1082](https://github.com/reactive-resume/reactive-resume/commit/e065a1082)
@@ -995,7 +995,7 @@ on **2026-10-02**. For a shorter orientation, read
 
 - **The AI agent now asks before it edits your resume.** Changes arrive as a proposal you approve or reject, so you see what the assistant wants to touch before anything is written. Once you trust a conversation, you can turn the review step off for that thread alone. The agent also survives a server restart mid-reply instead of leaving the thread stuck, and long conversations are trimmed as they grow so they keep working past the point they used to stall. [c8081ac2f](https://github.com/reactive-resume/reactive-resume/commit/c8081ac2f)
 - **Custom Styles can finally reach every item header.** `item-header` used to match only some sections, and on stacked headers only the first row — certifications, awards, projects, publications and references quietly ignored it. It now covers the full header row of every section on every template, and a new `item-header-row` part lets you stop a long title from pushing its trailing date onto a line of its own. [4d53a6d1d](https://github.com/reactive-resume/reactive-resume/commit/4d53a6d1d), [00be67f70](https://github.com/reactive-resume/reactive-resume/commit/00be67f70)
-- **Self-hosters using a custom OAuth provider must update one URL.** The callback path changed from `/api/auth/oauth2/callback/custom` to `/api/auth/callback/custom`. Update the redirect URI registered with your identity provider before upgrading, or custom sign-in will fail. Installs that use `OAUTH_DISCOVERY_URL` need one additional SQL statement — both steps are written up in the [SSO documentation](https://docs.rxresu.me/self-hosting/sso). [bdac806c7](https://github.com/reactive-resume/reactive-resume/commit/bdac806c7)
+- **Self-hosters using a custom OAuth provider must update one URL.** The callback path changed from `/api/auth/oauth2/callback/custom` to `/api/auth/callback/custom`. Update the redirect URI registered with your identity provider before upgrading, or custom sign-in will fail. Installs that use `OAUTH_DISCOVERY_URL` need one additional SQL statement — both steps are written up in the [SSO documentation](https://docs.lebenslauf2.me/self-hosting/sso). [bdac806c7](https://github.com/reactive-resume/reactive-resume/commit/bdac806c7)
 
 ## AI Agent
 
@@ -1074,7 +1074,7 @@ on **2026-10-02**. For a shorter orientation, read
 
 - **Check your resume's ATS parseability as you edit.** The builder now runs a deterministic, private check in your browser for contact details, dates, section structure, reading order, font size, line height, and margins. Findings explain what to change and can jump directly to the affected field. Thanks to [@Syed-Ali-Abbas-Zaidi](https://github.com/Syed-Ali-Abbas-Zaidi). [#3314](https://github.com/reactive-resume/reactive-resume/pull/3314)
 - **Download cover letters through MCP.** AI clients can now request a short-lived PDF download URL for either a resume or its visible cover letter. The selected document is cryptographically bound to the URL, so it cannot be switched after signing. Thanks to [@ignaciocarre](https://github.com/ignaciocarre). [#3304](https://github.com/reactive-resume/reactive-resume/pull/3304)
-- **Clearer JSON imports.** Reactive Resume, Reactive Resume v4, and JSON Resume files are detected and routed to the correct parser, while malformed files now produce concise, readable validation messages instead of raw error dumps. Thanks to [@MrTig-afk](https://github.com/MrTig-afk). [#3296](https://github.com/reactive-resume/reactive-resume/pull/3296)
+- **Clearer JSON imports.** Lebenslauf2, Lebenslauf2 v4, and JSON Resume files are detected and routed to the correct parser, while malformed files now produce concise, readable validation messages instead of raw error dumps. Thanks to [@MrTig-afk](https://github.com/MrTig-afk). [#3296](https://github.com/reactive-resume/reactive-resume/pull/3296)
 - **Semantic CSS is now the standard Custom Styles experience.** New resumes use it by default, the legacy feature flag and banner have been removed, and explicit activation no longer fails on an obsolete legacy-renderer parity check. [3589b534f](https://github.com/reactive-resume/reactive-resume/commit/3589b534f), [#3316](https://github.com/reactive-resume/reactive-resume/pull/3316)
 
 ## Resume Builder & PDF Exports
@@ -1165,7 +1165,7 @@ on **2026-10-02**. For a shorter orientation, read
 ## Documentation & Localization
 
 - Rewrote the Custom Styles guide as **Applying Custom Styles**, covering conversion, selectors, builder variables, pagination, diagnosis, and portability. The JSON Resume schema guide and the resume-builder skill schema reference are now generated from the schema so they stay in sync. [d2ffbf961](https://github.com/reactive-resume/reactive-resume/commit/d2ffbf961)
-- Added 17 comparison pages covering Reactive Resume against mainstream resume builders, AI and ATS tools, design editors, and career and template services. [9d6426b2e](https://github.com/reactive-resume/reactive-resume/commit/9d6426b2e)
+- Added 17 comparison pages covering Lebenslauf2 against mainstream resume builders, AI and ATS tools, design editors, and career and template services. [9d6426b2e](https://github.com/reactive-resume/reactive-resume/commit/9d6426b2e)
 - Canonicalized the getting started routes and fixed the contributing guide's troubleshooting code blocks. [a4897c20d](https://github.com/reactive-resume/reactive-resume/commit/a4897c20d), [e6b4733c5](https://github.com/reactive-resume/reactive-resume/commit/e6b4733c5)
 - Pinned the v4 migration script checkout in the self-hosting migration guide, and aligned the documented pnpm version with the `packageManager` field. [ac9813909](https://github.com/reactive-resume/reactive-resume/commit/ac9813909), [15f8bce98](https://github.com/reactive-resume/reactive-resume/commit/15f8bce98)
 - Synced Crowdin translation catalogs, including strings for the application timeline. [9085a199c](https://github.com/reactive-resume/reactive-resume/commit/9085a199c), [79e4a3ddc](https://github.com/reactive-resume/reactive-resume/commit/79e4a3ddc), [d50948dde](https://github.com/reactive-resume/reactive-resume/commit/d50948dde)
@@ -1185,7 +1185,7 @@ on **2026-10-02**. For a shorter orientation, read
 
 - Added first-class AI SDK support for Mistral AI, Cohere, xAI, Groq, DeepSeek, Together.ai, Fireworks, Cerebras, and Perplexity across saved provider settings and AI service calls.
 - Made AI provider connection tests work with OpenAI-compatible models that do not support structured output, with a clearer error when a model returns too much text during the test.
-- Published Reactive Resume MCP registry metadata so MCP clients and directories can discover the hosted remote server. [73daf22b2](https://github.com/reactive-resume/reactive-resume/commit/73daf22b2)
+- Published Lebenslauf2 MCP registry metadata so MCP clients and directories can discover the hosted remote server. [73daf22b2](https://github.com/reactive-resume/reactive-resume/commit/73daf22b2)
 
 ## Resume Builder & Exports
 
@@ -1217,7 +1217,7 @@ on **2026-10-02**. For a shorter orientation, read
 
 - **Application Tracker REST and MCP parity.** The job application pipeline is now available outside the web app through authenticated REST endpoints and MCP tools, so agents can create records, import rows, move stages, add notes, manage follow-ups, attach sent PDFs, and inspect pipeline health. [2dad27da5](https://github.com/reactive-resume/reactive-resume/commit/2dad27da5), [bf2dc5bbd](https://github.com/reactive-resume/reactive-resume/commit/bf2dc5bbd)
 - **Agent-only application tracking.** MCP clients can now operate the Application Tracker end to end, including Application Copilot actions for job auto-fill, match scoring, tailored resume copies, cover letters, and recruiter follow-ups. [bf2dc5bbd](https://github.com/reactive-resume/reactive-resume/commit/bf2dc5bbd), [93abb1102](https://github.com/reactive-resume/reactive-resume/commit/93abb1102)
-- **New application MCP guide.** The docs now include a dedicated guide with practical prompts for using Reactive Resume MCP to manage applications from an AI client.
+- **New application MCP guide.** The docs now include a dedicated guide with practical prompts for using Lebenslauf2 MCP to manage applications from an AI client.
 
 ## Application Tracker API
 
@@ -1230,7 +1230,7 @@ on **2026-10-02**. For a shorter orientation, read
 
 - Added MCP tools for every Application Tracker workflow available in the app, including create, update, note, import, bulk action, archive, delete, document attachment, document removal, tag, statistics, and Application Copilot tools. [bf2dc5bbd](https://github.com/reactive-resume/reactive-resume/commit/bf2dc5bbd)
 - Improved MCP tool metadata so clients can distinguish safe reads, mutating actions, destructive actions, and AI-powered workflows more reliably. [93abb1102](https://github.com/reactive-resume/reactive-resume/commit/93abb1102)
-- Updated the resume-builder skill instructions so agents are told that Reactive Resume MCP can also manage job applications, not only resumes. [ac8734be3](https://github.com/reactive-resume/reactive-resume/commit/ac8734be3)
+- Updated the resume-builder skill instructions so agents are told that Lebenslauf2 MCP can also manage job applications, not only resumes. [ac8734be3](https://github.com/reactive-resume/reactive-resume/commit/ac8734be3)
 
 ## Documentation & Reliability
 
@@ -1280,7 +1280,7 @@ on **2026-10-02**. For a shorter orientation, read
 ## Self-Hosting & Maintenance
 
 - Added the Better Auth two-factor schema migration. [9f9268f3](https://github.com/reactive-resume/reactive-resume/commit/9f9268f3)
-- Added design-sync inputs and preview files for Reactive Resume UI components. [a28e3baa](https://github.com/reactive-resume/reactive-resume/commit/a28e3baa), [6e7fc680](https://github.com/reactive-resume/reactive-resume/commit/6e7fc680)
+- Added design-sync inputs and preview files for Lebenslauf2 UI components. [a28e3baa](https://github.com/reactive-resume/reactive-resume/commit/a28e3baa), [6e7fc680](https://github.com/reactive-resume/reactive-resume/commit/6e7fc680)
 - Synced translation catalogs for the new Application Tracking and export copy. [e99c1665](https://github.com/reactive-resume/reactive-resume/commit/e99c1665), [0d1bfd4e](https://github.com/reactive-resume/reactive-resume/commit/0d1bfd4e)
 - Addressed React Doctor findings, cleaned up Knip issues, updated dependencies, and refreshed TypeScript native preview versions. [5a1cc658](https://github.com/reactive-resume/reactive-resume/commit/5a1cc658), [5c1845b1](https://github.com/reactive-resume/reactive-resume/commit/5c1845b1), [91b4c1e6](https://github.com/reactive-resume/reactive-resume/commit/91b4c1e6)
 
@@ -1292,7 +1292,7 @@ on **2026-10-02**. For a shorter orientation, read
 ## Highlights
 
 - **Undo and redo across the builder.** Every change — typing, drag-and-drop, template and layout switches — can now be undone and redone with `Cmd/Ctrl+Z` and `Cmd/Ctrl+Shift+Z`, or the new toolbar buttons. Rapid typing collapses into a single step, so undo feels natural. [b044b6cc](https://github.com/reactive-resume/reactive-resume/commit/b044b6cc)
-- **Version history with one-click restore.** Reactive Resume now snapshots your resume at key moments — template switches, imports, AI edits, and periodic saves — and a new clock menu in the builder header lets you restore any earlier version. Restoring is non-destructive: it's just another change you can roll back. [b044b6cc](https://github.com/reactive-resume/reactive-resume/commit/b044b6cc)
+- **Version history with one-click restore.** Lebenslauf2 now snapshots your resume at key moments — template switches, imports, AI edits, and periodic saves — and a new clock menu in the builder header lets you restore any earlier version. Restoring is non-destructive: it's just another change you can roll back. [b044b6cc](https://github.com/reactive-resume/reactive-resume/commit/b044b6cc)
 - **An AI assistant built into the builder.** A new Sparkle button opens the AI assistant as a side panel next to your resume, so you can chat about the resume you're editing and apply changes inline without leaving the builder. Its edits show up live and are captured in version history. [a1562aaa](https://github.com/reactive-resume/reactive-resume/commit/a1562aaa)
 - **A real mobile and tablet builder.** On phones and small tablets the builder now uses a full-screen layout with an Edit / Preview / Design tab bar, instead of a cramped three-panel desktop layout squeezed onto a small screen. [d933624a](https://github.com/reactive-resume/reactive-resume/commit/d933624a)
 - **Preview any template with your own content.** Hovering a template — both the current-template card and every tile in the template gallery — now renders a live preview built from your actual resume data, so you can compare templates with your content before switching. [9d742f78](https://github.com/reactive-resume/reactive-resume/commit/9d742f78)
@@ -1345,7 +1345,7 @@ on **2026-10-02**. For a shorter orientation, read
 
 ## Import & Export
 
-- **File-first import with auto-detection.** Pick a file and Reactive Resume detects the format; AI-based imports check for a configured provider up front. [e586a78e](https://github.com/reactive-resume/reactive-resume/commit/e586a78e)
+- **File-first import with auto-detection.** Pick a file and Lebenslauf2 detects the format; AI-based imports check for a configured provider up front. [e586a78e](https://github.com/reactive-resume/reactive-resume/commit/e586a78e)
 
 ## Reliability & Fixes
 
@@ -1430,7 +1430,7 @@ on **2026-10-02**. For a shorter orientation, read
 <Update label="v5.1.7" description="27th May 2026">
 ## Highlights
 
-- **Custom Styles replaces Custom CSS.** Reactive Resume now has a structured Custom Styles panel in the builder for fine-grained resume styling without raw CSS. Because v5 renders resumes through React PDF instead of browser HTML/CSS, Custom Styles uses safe, semantic rules that work consistently in the live preview, exported PDFs, public resumes, and server-side generation. [b04eef147](https://github.com/reactive-resume/reactive-resume/commit/b04eef147), [c6a654191](https://github.com/reactive-resume/reactive-resume/commit/c6a654191), [16f4d2c07](https://github.com/reactive-resume/reactive-resume/commit/16f4d2c07)
+- **Custom Styles replaces Custom CSS.** Lebenslauf2 now has a structured Custom Styles panel in the builder for fine-grained resume styling without raw CSS. Because v5 renders resumes through React PDF instead of browser HTML/CSS, Custom Styles uses safe, semantic rules that work consistently in the live preview, exported PDFs, public resumes, and server-side generation. [b04eef147](https://github.com/reactive-resume/reactive-resume/commit/b04eef147), [c6a654191](https://github.com/reactive-resume/reactive-resume/commit/c6a654191), [16f4d2c07](https://github.com/reactive-resume/reactive-resume/commit/16f4d2c07)
 
 <img
   src="/images/guides/using-custom-styles/screenshot-1.webp"
@@ -1443,7 +1443,7 @@ on **2026-10-02**. For a shorter orientation, read
 ## Custom Styles
 
 - Added a new **Custom Styles** section to the builder's right sidebar with target scope, style slot, style controls, and applied-rule management. [b04eef147](https://github.com/reactive-resume/reactive-resume/commit/b04eef147), [c6a654191](https://github.com/reactive-resume/reactive-resume/commit/c6a654191)
-- Added style rule metadata to resume data so styling can be saved with the resume and preserved during imports from Reactive Resume v4 JSON. [b04eef147](https://github.com/reactive-resume/reactive-resume/commit/b04eef147)
+- Added style rule metadata to resume data so styling can be saved with the resume and preserved during imports from Lebenslauf2 v4 JSON. [b04eef147](https://github.com/reactive-resume/reactive-resume/commit/b04eef147)
 - Added target scopes for **All sections**, **Section type**, and **Specific section**, allowing broad defaults or precise overrides for duplicate and custom sections. [b04eef147](https://github.com/reactive-resume/reactive-resume/commit/b04eef147)
 - Added semantic style slots for section containers, headings, item containers, primary and secondary text, links, icons, level indicators, rich-text paragraphs, lists, list rows, list content, inline links, bold text, and highlights. [b04eef147](https://github.com/reactive-resume/reactive-resume/commit/b04eef147), [c6a654191](https://github.com/reactive-resume/reactive-resume/commit/c6a654191)
 - Added structured controls for color, typography, spacing, borders, opacity, text decoration, alignment, and transforms, with empty fields falling back to the selected template. [b04eef147](https://github.com/reactive-resume/reactive-resume/commit/b04eef147)
@@ -1516,7 +1516,7 @@ production deployments.
 
 ## Highlights
 
-- **Dedicated Hono server runtime.** Reactive Resume now builds a separate `apps/server` app that mounts auth, RPC, MCP, OpenAPI, uploads, schema JSON, SEO endpoints, health checks, and the built web app from one Node.js process. [ecc1fd9a8](https://github.com/reactive-resume/reactive-resume/commit/ecc1fd9a8), [9033da082](https://github.com/reactive-resume/reactive-resume/commit/9033da082)
+- **Dedicated Hono server runtime.** Lebenslauf2 now builds a separate `apps/server` app that mounts auth, RPC, MCP, OpenAPI, uploads, schema JSON, SEO endpoints, health checks, and the built web app from one Node.js process. [ecc1fd9a8](https://github.com/reactive-resume/reactive-resume/commit/ecc1fd9a8), [9033da082](https://github.com/reactive-resume/reactive-resume/commit/9033da082)
 - **Clearer self-hosting runtime model.** The Docker image now builds both `web` and `server`, runs `node apps/server/dist/index.mjs`, and keeps `/api/health` pointed at the production server port. [ecc1fd9a8](https://github.com/reactive-resume/reactive-resume/commit/ecc1fd9a8)
 - **Safer Agent restore behavior.** Agent edits now store a resume snapshot before applying a patch, so restoring an action can roll the draft back to the exact prior state and mark later agent patches as rolled back. [d961e6535](https://github.com/reactive-resume/reactive-resume/commit/d961e6535)
 
@@ -1611,11 +1611,11 @@ production deployments.
 
 ## Self-Hosting, Docs & Maintenance
 
-- Added a development Dockerfile plus improved Compose development services and health checks for running Reactive Resume with local dependencies. [1294d3354](https://github.com/reactive-resume/reactive-resume/commit/1294d3354)
+- Added a development Dockerfile plus improved Compose development services and health checks for running Lebenslauf2 with local dependencies. [1294d3354](https://github.com/reactive-resume/reactive-resume/commit/1294d3354)
 - Updated self-hosting documentation for Redis, encrypted AI provider credentials, provider-native web research, private Agent attachments, S3 path-style storage, and unsafe AI base URL behavior. [#3062](https://github.com/reactive-resume/reactive-resume/pull/3062), [#3059](https://github.com/reactive-resume/reactive-resume/pull/3059)
 - Added new and refreshed guides for the AI Agent workspace, Agent tools, AI setup, builder dock, dashboard management, importing, exporting, public sharing, and private notes. [#3062](https://github.com/reactive-resume/reactive-resume/pull/3062), [affa1d664](https://github.com/reactive-resume/reactive-resume/commit/affa1d664)
 - Removed a stale Custom CSS documentation link now that custom CSS is no longer part of the v5.1 renderer flow. [#3056](https://github.com/reactive-resume/reactive-resume/pull/3056)
-- Added a Reactive Resume design system reference and updated dependencies across the workspace. [#3062](https://github.com/reactive-resume/reactive-resume/pull/3062)
+- Added a Lebenslauf2 design system reference and updated dependencies across the workspace. [#3062](https://github.com/reactive-resume/reactive-resume/pull/3062)
 
 **Full Changelog**: [v5.1.3...v5.1.4](https://github.com/reactive-resume/reactive-resume/compare/v5.1.3...v5.1.4)
 
@@ -1729,7 +1729,7 @@ production deployments.
 <Note>
   **Self-hosters, please read before upgrading.**
 
-- **No more Browserless / Chromium dependency.** From v5.1.0 onwards, you do **not** need to run a `printer`, Browserless, or headless Chrome service alongside Reactive Resume. PDF generation is now performed entirely in your browser via `@react-pdf/renderer`. The `BROWSERLESS_TOKEN`, `PRINTER_ENDPOINT`, `PRINTER_APP_URL`, and `FLAG_DEBUG_PRINTER` environment variables are no longer read and can be removed from your `.env`.
+- **No more Browserless / Chromium dependency.** From v5.1.0 onwards, you do **not** need to run a `printer`, Browserless, or headless Chrome service alongside Lebenslauf2. PDF generation is now performed entirely in your browser via `@react-pdf/renderer`. The `BROWSERLESS_TOKEN`, `PRINTER_ENDPOINT`, `PRINTER_APP_URL`, and `FLAG_DEBUG_PRINTER` environment variables are no longer read and can be removed from your `.env`.
 - **Database migrations.** This release ships several new schema migrations to bring the resume model up to date. They run automatically on container start, but you should **back up your PostgreSQL database before upgrading** in case rollback is needed.
 - **Custom CSS has been removed.** Because the resume PDF is no longer produced by a headless browser, raw CSS no longer applies to the exported document. A first-class template-customization story is on the roadmap for a future release.
 - **Job Listings has been removed.** The JSearch/RapidAPI-backed job listings feature and its settings were removed in the v5.1.0 transition. The old job-search settings path now redirects to **Integrations**. To tailor a resume, paste a job description into the AI Agent. For the current workflow, see [Tailoring a resume for a job](/guides/tailoring-a-resume-for-a-job).
@@ -1750,7 +1750,7 @@ production deployments.
 
 ## Self-Hosting
 
-- **One-service deployment.** Self-hosted Compose files no longer need a `printer:` service block. The minimum stack is now just Reactive Resume + PostgreSQL (with optional S3-compatible storage and SMTP).
+- **One-service deployment.** Self-hosted Compose files no longer need a `printer:` service block. The minimum stack is now just Lebenslauf2 + PostgreSQL (with optional S3-compatible storage and SMTP).
 - **`/api/health` simplified.** The health endpoint now reports `database` and `storage` only, returning HTTP `503` if either dependency is unhealthy. There is no longer a `printer` field to monitor.
 - **Updated documentation.** The Self-Hosting, Quickstart, Development, Architecture, and Legal pages have all been refreshed to describe the simplified single-service deployment.
 
@@ -1806,7 +1806,7 @@ production deployments.
 
 ## Fixes & Security
 
-- Thank you to [@shaxbozaka](https://github.com/shaxbozaka) for running a security audit on Reactive Resume and helping make the app more secure.
+- Thank you to [@shaxbozaka](https://github.com/shaxbozaka) for running a security audit on Lebenslauf2 and helping make the app more secure.
 - Hardened auth, OAuth, AI URL validation, printer/export endpoints, resume access controls, Browserless configuration, and public route exposure. [a42dbcd4](https://github.com/reactive-resume/reactive-resume/commit/a42dbcd4)
 - Removed the public RPC surface for the printer-only resume fetch endpoint by moving it behind a server function, further shrinking the attack surface for `getByIdForPrinter`, thanks to [@shaxbozaka](https://github.com/shaxbozaka).
 - Corrected Computer Modern Sans italic font file mappings, thanks to [@russellbrenner](https://github.com/russellbrenner). [#2881](https://github.com/reactive-resume/reactive-resume/pull/2881)
@@ -2148,7 +2148,7 @@ production deployments.
 </Update>
 
 <Update label="v5.0.0" description="22th January 2026">
-This release is a major overhaul of Reactive Resume. The app was redesigned and rebuilt from scratch.
+This release is a major overhaul of Lebenslauf2. The app was redesigned and rebuilt from scratch.
 
 **Highlights:**
 
@@ -2168,6 +2168,6 @@ This release is a major overhaul of Reactive Resume. The app was redesigned and 
 - Icon style selector for indicators (stars, circles, custom, etc.)
 - Sidebar width adjustment and full-width page support
 
-That list is not exhaustive. Send feedback via [email](mailto:amruth@rxresu.me) or [GitHub issues](https://github.com/reactive-resume/reactive-resume/issues).
+That list is not exhaustive. Send feedback via [email](mailto:amruth@lebenslauf2.me) or [GitHub issues](https://github.com/reactive-resume/reactive-resume/issues).
 
 </Update>

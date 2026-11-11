@@ -8,7 +8,7 @@
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <data android:scheme="https" android:host="rxresu.me" android:path="/auth/native-callback" />
+                <data android:scheme="https" android:host="lebenslauf2.me" android:path="/auth/native-callback" />
             </intent-filter>
         </activity>
     </application>

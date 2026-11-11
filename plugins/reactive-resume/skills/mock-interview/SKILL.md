@@ -1,6 +1,6 @@
 ---
 name: mock-interview
-description: Runs a mock interview for a specific job description. Plays the interviewer in a chosen round (recruiter screen, hiring manager, behavioral, coding, system design, case, product sense, panel), persona and difficulty; asks one question at a time, probes vague answers, and gives quote-backed rubric scores after each answer (coach mode) or at the end (realistic). Model answers use only the user's real experience. Use when the user says "mock interview me", "interview me for this job", "practice interview", "pretend you're the interviewer", "grill me for this role", "run a behavioral round", "quick recruiter screen", "hiring-manager mock", "system design mock" or "case interview practice". With Reactive Resume MCP it reads the application and stories and logs the session. For a story bank, company brief, questions to ask or a real-interview debrief, interview-prep; for scheduling or thank-you notes, job-application-manager; for fixing the resume, resume-tailor; for negotiation practice, offer-negotiation.
+description: Runs a mock interview for a specific job description. Plays the interviewer in a chosen round (recruiter screen, hiring manager, behavioral, coding, system design, case, product sense, panel), persona and difficulty; asks one question at a time, probes vague answers, and gives quote-backed rubric scores after each answer (coach mode) or at the end (realistic). Model answers use only the user's real experience. Use when the user says "mock interview me", "interview me for this job", "practice interview", "pretend you're the interviewer", "grill me for this role", "run a behavioral round", "quick recruiter screen", "hiring-manager mock", "system design mock" or "case interview practice". With Lebenslauf2 MCP it reads the application and stories and logs the session. For a story bank, company brief, questions to ask or a real-interview debrief, interview-prep; for scheduling or thank-you notes, job-application-manager; for fixing the resume, resume-tailor; for negotiation practice, offer-negotiation.
 ---
 
 # Mock Interview
@@ -65,7 +65,7 @@ Read [references/question-bank.md](references/question-bank.md) for lead questio
 
 Show a one-line session card:
 
-`[Coach] Hiring-manager round · Senior Product Designer at Acme · Persona: hiring manager · Difficulty 2 · Realistic · 5 questions (~45 min). Commands: pause, repeat, hint, skip, retry, feedback, end.`
+`[Coach] Hiring-manager round · Fachärztin für Psychiatrie und Psychotherapie at Acme · Persona: hiring manager · Difficulty 2 · Realistic · 5 questions (~45 min). Commands: pause, repeat, hint, skip, retry, feedback, end.`
 
 If you asked setup questions, end the card with "Ready?" and wait. When nothing was missing, ask the first question in the same message, after "[Coach] Starting now; say pause to change anything." In coach mode, also list the competencies being assessed. In realistic mode keep them hidden unless asked, as in a real loop.
 
@@ -149,7 +149,7 @@ Length norms are practitioner heuristics, not research. Typed answers carry no f
 
 **Where the scorecard lives.** The transcript is the source of truth. In realistic mode, never show scores before the end. Private notes help, but some clients drop earlier reasoning between turns, so at the end re-derive every score from the user's verbatim answers. With a filesystem and the user's agreement, you may keep a session file.
 
-**Coach-mode feedback** after each answer is short and about one fix: one task-focused change is easier to act on than a list, and feedback aimed at the person can make performance worse. The shape mirrors the Practise tab in Reactive Resume:
+**Coach-mode feedback** after each answer is short and about one fix: one task-focused change is easier to act on than a list, and feedback aimed at the person can make performance worse. The shape mirrors the Practise tab in Lebenslauf2:
 
 ```
 [Coach] Structure 2 · Specificity 3 · Ownership 3 · Result 1 · Relevance 3 · Concision 1 → Stakeholder management: Partly shown
@@ -197,7 +197,7 @@ Read [references/feedback.md](references/feedback.md) for the full report, the p
 
 ### 7. Model answers
 
-Write model answers only for the weakest one or two questions, and only from what the user gave you: this session, their resume, their stories. Label each "Rebuilt from your answers, not a script." Keep the user's vocabulary and hedges, give most of the length to actions, and end with the result and a reflection, matching the five-part story (Situation, Task, Action, Result, Reflection) that interview-prep and Reactive Resume use. Mark every gap `[NEED: …]`. In coach mode, show a rebuilt answer only after the user's retry or in the report, never before a retry, so the retry stays a memory exercise. Tell the user to rehearse the points rather than memorise the words, because memorised answers sound generic.
+Write model answers only for the weakest one or two questions, and only from what the user gave you: this session, their resume, their stories. Label each "Rebuilt from your answers, not a script." Keep the user's vocabulary and hedges, give most of the length to actions, and end with the result and a reflection, matching the five-part story (Situation, Task, Action, Result, Reflection) that interview-prep and Lebenslauf2 use. Mark every gap `[NEED: …]`. In coach mode, show a rebuilt answer only after the user's retry or in the report, never before a retry, so the retry stays a memory exercise. Tell the user to rehearse the points rather than memorise the words, because memorised answers sound generic.
 
 ## Worked example (behavioral, coach mode, difficulty 2)
 
@@ -251,7 +251,7 @@ No insults and no hostility: Hard means tougher probes, curveballs, time pressur
 
 **Panel:** 2–3 labelled personas (`[Priya, Hiring Manager]`), one speaking per turn. Each owns different competencies and scores alone; the report shows where they disagree.
 
-## Reactive Resume MCP (skip if not connected)
+## Lebenslauf2 MCP (skip if not connected)
 
 The mock runs in chat and needs no AI provider. Use these tools to load context before the session and to save results after it. Read before writing, show the exact text, and get a yes before any write.
 

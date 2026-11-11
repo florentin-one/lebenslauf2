@@ -1,13 +1,13 @@
 ---
 title: "Using the API"
-description: "Create a Reactive Resume API key, send authenticated REST requests to read and edit your resumes, and revoke keys you no longer need."
+description: "Create a Lebenslauf2 API key, send authenticated REST requests to read and edit your resumes, and revoke keys you no longer need."
 ---
 
-The Reactive Resume REST API lets your own scripts, extensions and automations read and change your documents and job applications. You authenticate with an API key that you create in Settings. This guide walks you through creating a key, making your first request and revoking the key when you're done.
+The Lebenslauf2 REST API lets your own scripts, extensions and automations read and change your documents and job applications. You authenticate with an API key that you create in Settings. This guide walks you through creating a key, making your first request and revoking the key when you're done.
 
 ## Before you start
 
-- You need a Reactive Resume account. The examples use the hosted instance at `https://rxresu.me`. If you self-host, replace it with your own address.
+- You need a Lebenslauf2 account. The examples use the hosted instance at `https://lebenslauf2go.de`. If you self-host, replace it with your own address.
 - An API key acts as you with the access you choose when you create it. A **Read only** key can read your whole account; a **Read, write and delete** key can also change and delete it. Anyone who has a key can use it, so treat it like a password.
 
 ## Create an API key
@@ -35,7 +35,7 @@ The Reactive Resume REST API lets your own scripts, extensions and automations r
     </Frame>
 
     <Warning>
-      Reactive Resume shows the key only once. If you lose it, revoke it and create a new one.
+      Lebenslauf2 shows the key only once. If you lose it, revoke it and create a new one.
     </Warning>
 
   </Step>
@@ -94,7 +94,7 @@ Anyone holding that preview link can open it during its 15-minute lifetime, so k
 The REST API lives under `/api/openapi` on your instance. Send your key in the `x-api-key` header.
 
 ```bash
-curl "https://rxresu.me/api/openapi/resumes" \
+curl "https://lebenslauf2go.de/api/openapi/resumes" \
   -H "x-api-key: YOUR_API_KEY"
 ```
 
@@ -119,14 +119,14 @@ The response is a JSON array of your resumes, without their full content:
 Fetch one resume with its full data, using an ID from the list:
 
 ```bash
-curl "https://rxresu.me/api/openapi/resumes/01a0efa5-6529-745e-950a-521ef5b8afc7" \
+curl "https://lebenslauf2.florentin-one.de/api/openapi/resumes/01a0efa5-6529-745e-950a-521ef5b8afc7" \
   -H "x-api-key: YOUR_API_KEY"
 ```
 
 For request bodies, send JSON with `Content-Type: application/json`. For example, create a resume filled with sample content:
 
 ```bash
-curl -X POST "https://rxresu.me/api/openapi/resumes" \
+curl -X POST "https://lebenslauf2.florentin-one.de/api/openapi/resumes" \
   -H "x-api-key: YOUR_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{ "name": "Product Designer Resume", "tags": ["design"], "withSampleData": true }'
@@ -140,7 +140,7 @@ The response is the new resume's ID as a JSON string.
 
 ## Find the endpoint you need
 
-Every endpoint, with its parameters, request body and responses, is listed in the **API Reference** tab of these docs. Your own instance also serves the machine-readable OpenAPI document at `/api/openapi/spec.json` (for example `https://rxresu.me/api/openapi/spec.json`). Use the spec from the version you run when you generate a client.
+Every endpoint, with its parameters, request body and responses, is listed in the **API Reference** tab of these docs. Your own instance also serves the machine-readable OpenAPI document at `/api/openapi/spec.json` (for example `https://lebenslauf2.florentin-one.de/api/openapi/spec.json`). Use the spec from the version you run when you generate a client.
 
 | Area          | Paths                                   | What you can do                                                                                                                                        |
 | ------------- | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -155,7 +155,7 @@ Additional app workflows have REST endpoints:
 
 | Workflow                                                                                | Endpoint                                                                         |
 | --------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
-| PDF, JSON Resume, Reactive Resume v4/current, LinkedIn imports                          | `POST /resumes/file-imports`                                                     |
+| PDF, JSON Resume, Lebenslauf2 v4/current, LinkedIn imports                              | `POST /resumes/file-imports`                                                     |
 | PDF, Word, OpenDocument, Markdown and JSON exports                                      | `GET /resumes/{id}/exports/{format}`, `GET /cover-letters/{id}/exports/{format}` |
 | Editor content checks and job-term matching                                             | `GET /resumes/{id}/checks`, `POST /resumes/{id}/job-matches`                     |
 | Public PDF readability checker                                                          | `POST /pdf-checks`                                                               |
@@ -172,11 +172,11 @@ Authentication workflows use Better Auth's native HTTP API and its own error con
 File imports accept a multipart form. The format is one of `PDF`, `REACTIVE_RESUME`, `REACTIVE_RESUME_V4`, `JSON_RESUME` or `LINKEDIN`; the maximum file size is 10 MiB. PDF imports read the text layer without AI. AI-assisted PDF and Word parsing remain available under `/ai/pdf-parses` and `/ai/docx-parses`; save the resulting data through `/resumes/imports`.
 
 ```bash
-curl "https://rxresu.me/api/openapi/resumes/file-imports" \
+curl "https://lebenslauf2.florentin-one.de/api/openapi/resumes/file-imports" \
   -H "x-api-key: YOUR_API_KEY" \
   -F "format=JSON_RESUME" -F "file=@resume.json"
 
-curl "https://rxresu.me/api/openapi/resumes/RESUME_ID/exports/docx" \
+curl "https://lebenslauf2.florentin-one.de/api/openapi/resumes/RESUME_ID/exports/docx" \
   -H "x-api-key: YOUR_API_KEY" -o resume.docx
 ```
 
@@ -191,7 +191,7 @@ Applications also expose `GET /applications/summary` for list views. It accepts 
 Set `includeInitialDetails` (0–6) to attach full `initialDetail` objects for the first few applications in the web and mobile default list orders. A value of N includes the union of each client's first N rows, so at most 2N rows receive full details; closed applications are excluded unless explicitly selected with `status`. Omit the parameter to keep the response entirely lightweight.
 
 ```bash
-curl "https://rxresu.me/api/openapi/resumes?limit=20&offset=20" \
+curl "https://lebenslauf2.florentin-one.de/api/openapi/resumes?limit=20&offset=20" \
   -H "x-api-key: YOUR_API_KEY" -i
 ```
 
@@ -217,7 +217,7 @@ The API accepts three kinds of credentials:
 2. `Authorization: Bearer <token>`: an OAuth access token, which MCP clients get when you connect them with OAuth. See [Using the MCP server](/guides/using-the-mcp-server).
 3. The session cookie of a signed-in browser.
 
-OAuth clients must send `resource=<instance origin>` (for example `resource=https://rxresu.me`) on authorization, token exchange and refresh requests. Discover the exact resource at `/.well-known/oauth-protected-resource`. Authorization without `resource` is refused with `invalid_target` before sign-in. The error goes to the client's redirect address when the client is enabled and the address exactly matches its registration; otherwise the server answers `400` directly. Guest accounts must create an account before connecting.
+OAuth clients must send `resource=<instance origin>` (for example `resource=https://lebenslauf2.florentin-one.de`) on authorization, token exchange and refresh requests. Discover the exact resource at `/.well-known/oauth-protected-resource`. Authorization without `resource` is refused with `invalid_target` before sign-in. The error goes to the client's redirect address when the client is enabled and the address exactly matches its registration; otherwise the server answers `400` directly. Guest accounts must create an account before connecting.
 
 Send one credential. When several are present, the server tries API key, bearer token, then session cookie, using the first valid credential. Cookie-authenticated requests with a foreign `Origin` or cross-site fetch metadata are rejected; explicit API keys and bearer tokens do not rely on browser cookies.
 
@@ -300,7 +300,7 @@ Self-hosters upgrading an installation can read [Migrating from v5](/self-hostin
   <Card title="Using the MCP server" href="/guides/using-the-mcp-server">
     Let AI clients such as Claude or Cursor work with your documents.
   </Card>
-  <Card title="Reactive Resume JSON schema" href="/guides/json-resume-schema">
+  <Card title="Lebenslauf2 JSON schema" href="/guides/json-resume-schema">
     The structure of resume data, for validation and code generation.
   </Card>
   <Card title="Large RPC requests" href="/guides/large-rpc-requests">

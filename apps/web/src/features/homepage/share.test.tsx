@@ -9,9 +9,17 @@ afterEach(() => vi.unstubAllGlobals());
 
 describe("landing share address", () => {
 	it.each([
-		{ origin: "https://rxresu.me", aliasUrl: "https://rx.cv", address: "rx.cv/alex-morgan" },
-		{ origin: "https://resume.example.com", aliasUrl: undefined, address: "resume.example.com/alex-morgan" },
-		{ origin: "http://localhost:3000", aliasUrl: undefined, address: "localhost:3000/alex-morgan" },
+		{
+			origin: "https://lebenslauf2.florentin-one.de",
+			aliasUrl: "https://cv2.florentin-one.de",
+			address: "cv2.florentin-one.de/laura-beier",
+		},
+		{
+			origin: "https://lebenslauf2.florentin-one.de",
+			aliasUrl: undefined,
+			address: "lebenslauf2.florentin-one.de/laura-beier",
+		},
+		{ origin: "http://localhost:3000", aliasUrl: undefined, address: "localhost:3000/laura-beier" },
 	])("shows $address", async ({ origin, aliasUrl, address }) => {
 		vi.stubGlobal("window", { location: { origin } });
 		const router = createRouter({
@@ -32,7 +40,7 @@ describe("landing share address", () => {
 		expect(html).toContain(`<span class="sr-only">${address}</span>`);
 	});
 
-	it("falls back to rxresu.me when prerendering without deployment configuration", () => {
+	it("falls back to lebenslauf2.me when prerendering without deployment configuration", () => {
 		const router = createRouter({
 			routeTree: createRootRoute(),
 			history: createMemoryHistory({ initialEntries: ["/"] }),
@@ -47,6 +55,6 @@ describe("landing share address", () => {
 			</RouterContextProvider>,
 		);
 
-		expect(html).toContain('<span class="sr-only">rxresu.me/alex-morgan</span>');
+		expect(html).toContain('<span class="sr-only">lebenslauf2.me/laura-beier</span>');
 	});
 });

@@ -4,7 +4,7 @@ import { templateSchema } from "@reactive-resume/schema/templates";
 import { getLocaleAlternates } from "@reactive-resume/utils/locale";
 import { countAgentSkills } from "./agent-skills";
 
-const DOCS_URL = "https://docs.rxresu.me";
+const DOCS_URL = "https://docs.lebenslauf2.me";
 export const CONTEXT7_ASK_URL = "https://context7.com/api/v2/ask?siteKey=ask_b3fd9335a63f1b21b1a814ac";
 export const CONTEXT7_ASK_DESCRIPTION = `This site has a search endpoint: ${CONTEXT7_ASK_URL}&query=<URL-encoded question>. It returns documentation that answers the question, with a source link for each part. No API key is needed. If nothing matches, it says so.`;
 
@@ -112,9 +112,9 @@ export function handleLlms() {
 	const baseUrl = appUrl();
 	const skillCount = countAgentSkills();
 	const body = [
-		"# Reactive Resume",
+		"# Lebenslauf2",
 		"",
-		`> Reactive Resume is a free and open-source resume builder. Write a resume in an editor beside a live page, pick one of ${templateSchema.options.length} templates, check that applicant tracking systems can read it, tailor it to a job posting, and share it at a public link or download it. No ads, no tracking, no paid tier; it is funded by donations and released under the MIT License.`,
+		`> Lebenslauf2 is a free and open-source resume builder. Write a resume in an editor beside a live page, pick one of ${templateSchema.options.length} templates, check that applicant tracking systems can read it, tailor it to a job posting, and share it at a public link or download it. No ads, no tracking, no paid tier; it is funded by donations and released under the MIT License.`,
 		"",
 		"## Search",
 		"",
@@ -122,7 +122,7 @@ export function handleLlms() {
 		"",
 		"## Product",
 		"",
-		`- [Homepage](${baseUrl}/): what Reactive Resume does, with answers to common questions.`,
+		`- [Homepage](${baseUrl}/): what Lebenslauf2 does, with answers to common questions.`,
 		`- [Resume templates](${baseUrl}/resume-templates): browse all ${templateSchema.options.length} free templates, compare layouts and download sample PDFs.`,
 		`- [ATS checker](${baseUrl}/ats-checker): a free tool that shows the text applicant tracking systems extract from a resume PDF and what to fix. It runs in the browser; the file is never uploaded.`,
 		`- [Get started](${baseUrl}/dashboard): create an account and a first resume.`,
@@ -131,7 +131,7 @@ export function handleLlms() {
 		"",
 		"- Price: free, every feature. Optional donations through GitHub Sponsors and Open Collective.",
 		"- Export: PDF, Word (DOCX), Markdown and JSON.",
-		"- Import: PDF, LinkedIn data export, JSON Resume, Reactive Resume JSON; Word files with an AI provider.",
+		"- Import: PDF, LinkedIn data export, JSON Resume, Lebenslauf2 JSON; Word files with an AI provider.",
 		"- Sharing: private by default; a public link or a password-protected link, changeable at any time.",
 		"- AI: optional, with the user's own API key (OpenAI, Anthropic, Google Gemini, OpenRouter, Ollama and others). Nothing is sent to an AI service without one.",
 		"- Also includes: cover letters, a job application tracker, version history, passkeys and two-factor authentication.",
@@ -140,7 +140,7 @@ export function handleLlms() {
 		"",
 		"## Documentation",
 		"",
-		`- [Documentation](${DOCS_URL}): guides for using and self-hosting Reactive Resume.`,
+		`- [Documentation](${DOCS_URL}): guides for using and self-hosting Lebenslauf2.`,
 		`- [Documentation llms.txt](${DOCS_URL}/llms.txt)`,
 		`- [Self-hosting with Docker](${DOCS_URL}/self-hosting/docker)`,
 		`- [API reference](${DOCS_URL}/api-reference)`,

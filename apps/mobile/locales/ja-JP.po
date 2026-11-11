@@ -1004,8 +1004,8 @@ msgid "90 days"
 msgstr "90日"
 
 #: src/features/letters/share.tsx
-msgid "A backup of this letter. Imports back into Reactive Resume as a letter."
-msgstr "この手紙のバックアップ。 Reactive Resume にレターとしてインポートし直します。"
+msgid "A backup of this letter. Imports back into Lebenslauf2 as a letter."
+msgstr "この手紙のバックアップ。 Lebenslauf2 にレターとしてインポートし直します。"
 
 #: src/features/check/issues.ts
 msgid "A city and country let roles be matched to where you are."
@@ -3244,8 +3244,8 @@ msgid "Complete {0} before saving."
 msgstr "保存する前に「{0}」を入力してください。"
 
 #: src/features/share/download.tsx
-msgid "Complete data backup. Imports back into Reactive Resume."
-msgstr "データの完全なバックアップ。Reactive Resume に再インポートできます。"
+msgid "Complete data backup. Imports back into Lebenslauf2."
+msgstr "データの完全なバックアップ。Lebenslauf2 に再インポートできます。"
 
 #: src/features/workspace/application-packet.tsx
 msgid "Complete the employer form manually in your browser using reviewed answers and approved PDFs."
@@ -3871,8 +3871,8 @@ msgid "Couldn't propose these edits: {0}"
 msgstr "これらの編集を提案できませんでした: {0}"
 
 #: src/features/write/improve.tsx
-msgid "Couldn't reach Reactive Resume. Check your internet connection, then try again."
-msgstr "Reactive Resume に接続できませんでした。インターネット接続を確認してから、もう一度お試しください。"
+msgid "Couldn't reach Lebenslauf2. Check your internet connection, then try again."
+msgstr "Lebenslauf2 に接続できませんでした。インターネット接続を確認してから、もう一度お試しください。"
 
 #: src/features/check/writing.tsx
 msgid "Couldn't reach your AI provider. Try again or check its key in AI settings."
@@ -5098,8 +5098,8 @@ msgid "Edit interview"
 msgstr "インタビューを編集する"
 
 #: src/features/ats-checker/checker.tsx
-msgid "Edit it in Reactive Resume"
-msgstr "Reactive Resume で編集"
+msgid "Edit it in Lebenslauf2"
+msgstr "Lebenslauf2 で編集"
 
 #: src/features/write/basics-screen.tsx
 msgid "Edit link"
@@ -5318,8 +5318,8 @@ msgid "Enter terms yourself. No AI request is made. Leave unknown amounts blank.
 msgstr "条件を自分で入力してください。AIへのリクエストは送信されません。不明な金額は空欄にしてください。"
 
 #: app/(auth)/server.tsx
-msgid "Enter the address you open Reactive Resume at in a browser. The app checks it's a Reactive Resume server that allows app sign-in before you continue."
-msgstr "ブラウザで Reactive Resume を開くアドレスを入力します。アプリは、続行する前に、アプリのサインインを許可する Reactive Resume サーバーであることを確認します。"
+msgid "Enter the address you open Lebenslauf2 at in a browser. The app checks it's a Lebenslauf2 server that allows app sign-in before you continue."
+msgstr "ブラウザで Lebenslauf2 を開くアドレスを入力します。アプリは、続行する前に、アプリのサインインを許可する Lebenslauf2 サーバーであることを確認します。"
 
 #: src/features/ai/error.ts
 msgid "Enter the API base URL of your service and test again."
@@ -5791,13 +5791,13 @@ msgstr "「{0}」で見つかりました。求人情報の確認日時: {1}。"
 
 #: src/api/ai-consent.ts
 #: src/features/career/schedule-sheet.tsx
-msgid "Found posting links are read by Reactive Resume and the sites being read."
-msgstr "見つかった求人情報のリンクは、Reactive Resume と読み取り先のサイトによって読み取られます。"
+msgid "Found posting links are read by Lebenslauf2 and the sites being read."
+msgstr "見つかった求人情報のリンクは、Lebenslauf2 と読み取り先のサイトによって読み取られます。"
 
 #: src/api/ai-consent.ts
 #: src/features/career/schedule-sheet.tsx
-msgid "Found posting links are read by Reactive Resume and, when needed, {reader} and the sites being read. The reader may charge."
-msgstr "見つかった求人情報のリンクは、Reactive Resume、必要に応じて {reader}、および読み取り先のサイトによって読み取られます。リーダーから料金が発生する場合があります。"
+msgid "Found posting links are read by Lebenslauf2 and, when needed, {reader} and the sites being read. The reader may charge."
+msgstr "見つかった求人情報のリンクは、Lebenslauf2、必要に応じて {reader}、および読み取り先のサイトによって読み取られます。リーダーから料金が発生する場合があります。"
 
 #: src/features/design/style-groups.tsx
 #: src/features/letters/design.tsx
@@ -6924,6 +6924,10 @@ msgstr "除外する"
 #: app/letter/[id]/_layout.tsx
 msgid "Leave without keeping the draft?"
 msgstr "下書きを保持せずに離れますか?"
+
+#: src/auth/auth-header.tsx
+msgid "Lebenslauf2"
+msgstr "Lebenslauf2"
 
 #: src/features/design/template-group.tsx
 msgid "Left"
@@ -8267,6 +8271,10 @@ msgstr "まだ鍵がありません。"
 msgid "No language matches."
 msgstr "一致する言語がありません。"
 
+#: src/auth/messages.ts
+msgid "No Lebenslauf2 server answered at this address. Check the spelling, or ask your administrator whether the server allows app sign-in."
+msgstr "このアドレスでは Lebenslauf2 サーバーが応答しませんでした。スペルを確認するか、サーバーがアプリのサインインを許可しているかどうか管理者に問い合わせてください。"
+
 #: src/features/ats-checker/messages.ts
 msgid "No lines look like a job title paired with an employer."
 msgstr "職種名と勤務先が対になっているような行が見つかりません。"
@@ -8333,10 +8341,6 @@ msgstr "写真はありません。ほとんどの ATS は写真を無視しま�
 #: src/features/applications/add-sheet.tsx
 msgid "No postings found. Try different keywords."
 msgstr "求人情報は見つかりませんでした。別のキーワードを試してください。"
-
-#: src/auth/messages.ts
-msgid "No Reactive Resume server answered at this address. Check the spelling, or ask your administrator whether the server allows app sign-in."
-msgstr "このアドレスでは Reactive Resume サーバーが応答しませんでした。スペルを確認するか、サーバーがアプリのサインインを許可しているかどうか管理者に問い合わせてください。"
 
 #: src/features/check/job-match.tsx
 msgid "No recognizable terms in this posting."
@@ -8753,8 +8757,8 @@ msgid "On"
 msgstr "有効"
 
 #: src/features/applications/add-sheet.tsx
-msgid "On iOS, choose Keep for review, then reopen app in the Share extension. Reopen Reactive Resume yourself within 15 minutes. Sign in here before sharing."
-msgstr "iOS では、共有拡張機能で「Keep for review」を選び、続いて「reopen app」を選んでください。15 分以内にご自身で Reactive Resume を開き直してください。共有する前に、ここでサインインしてください。"
+msgid "On iOS, choose Keep for review, then reopen app in the Share extension. Reopen Lebenslauf2 yourself within 15 minutes. Sign in here before sharing."
+msgstr "iOS では、共有拡張機能で「Keep for review」を選び、続いて「reopen app」を選んでください。15 分以内にご自身で Lebenslauf2 を開き直してください。共有する前に、ここでサインインしてください。"
 
 #: src/features/share/link.tsx
 msgid "On. Anyone with the link can see your web page."
@@ -9293,20 +9297,20 @@ msgid "PDF import"
 msgstr "PDF インポート"
 
 #: src/features/application-detail/sections.tsx
-msgid "PDF only · up to 10 MB each. Linking a Reactive Resume enables a fit check against each requirement and tailoring."
-msgstr "PDF のみ · 各 10 MB まで。Reactive Resume のレジュメをリンクすると、要件ごとの適合度チェックとテーラリングを利用できます。"
+msgid "PDF only · up to 10 MB each. Linking a Lebenslauf2 enables a fit check against each requirement and tailoring."
+msgstr "PDF のみ · 各 10 MB まで。Lebenslauf2 のレジュメをリンクすると、要件ごとの適合度チェックとテーラリングを利用できます。"
 
 #: src/features/documents/new-document.tsx
-msgid "PDF reads its text layer on your server by default, without AI. Turn on the AI switch to send it to your provider. Word (.docx) needs an AI provider. Current and v4 Reactive Resume JSON, cover letters, JSON Resume and LinkedIn exports (.zip) are supported. Up to 10 MB."
-msgstr "PDF は既定で、AI を使わずにサーバー上でテキストレイヤーを読み取ります。プロバイダーに送信するには AI スイッチをオンにしてください。Word(.docx)には AI プロバイダーが必要です。現行版と v4 の Reactive Resume JSON、カバーレター、JSON Resume、LinkedIn のエクスポート(.zip)に対応しています。最大 10 MB。"
+msgid "PDF reads its text layer on your server by default, without AI. Turn on the AI switch to send it to your provider. Word (.docx) needs an AI provider. Current and v4 Lebenslauf2 JSON, cover letters, JSON Resume and LinkedIn exports (.zip) are supported. Up to 10 MB."
+msgstr "PDF は既定で、AI を使わずにサーバー上でテキストレイヤーを読み取ります。プロバイダーに送信するには AI スイッチをオンにしてください。Word(.docx)には AI プロバイダーが必要です。現行版と v4 の Lebenslauf2 JSON、カバーレター、JSON Resume、LinkedIn のエクスポート(.zip)に対応しています。最大 10 MB。"
 
 #: src/features/design/advanced.tsx
 msgid "PDF styles support a subset of CSS. Rotation, dashed and dotted borders, and some layout properties are ignored."
 msgstr "PDF スタイルは、CSS のサブセットをサポートします。回転、破線と点線の境界線、および一部のレイアウト プロパティは無視されます。"
 
 #: src/features/documents/new-document.tsx
-msgid "PDF, Word, Reactive Resume, JSON Resume or LinkedIn export."
-msgstr "PDF、Word、Reactive Resume、JSON Resume または LinkedIn エクスポート。"
+msgid "PDF, Word, Lebenslauf2, JSON Resume or LinkedIn export."
+msgstr "PDF、Word、Lebenslauf2、JSON Resume または LinkedIn エクスポート。"
 
 #: src/features/workspace/tabs/messages.tsx
 msgid "per hour"
@@ -9937,10 +9941,6 @@ msgstr "フォントを埋め込んで再エクスポートし、テキストが
 #: src/features/ats-checker/messages.ts
 msgid "Re-export with fonts embedded, then open the file and check that the text copies out cleanly."
 msgstr "フォントを埋め込んで再エクスポートしてからファイルを開き、テキストが正しくコピーできるか確認してください。"
-
-#: src/auth/auth-header.tsx
-msgid "Reactive Resume"
-msgstr "Reactive Resume"
 
 #: src/features/application-detail/sheets.tsx
 #: src/features/applications/add-sheet.tsx
@@ -11872,8 +11872,8 @@ msgid "Show"
 msgstr "表示"
 
 #: src/features/share/web-page.tsx
-msgid "Show “Made with Reactive Resume”"
-msgstr "「Reactive Resume で作成」を表示"
+msgid "Show “Made with Lebenslauf2”"
+msgstr "「Lebenslauf2 で作成」を表示"
 
 #. placeholder {0}: i18n.number(Math.min(remaining, COLUMN_PAGE_SIZE))
 #: src/features/applications-board/board-screen.tsx
@@ -14378,8 +14378,8 @@ msgid "Use web access?"
 msgstr "Web アクセスを使用しますか?"
 
 #: src/features/applications/add-sheet.tsx
-msgid "Use your browser’s Share action to send one posting URL or selected text to Reactive Resume. Receiving shares requires the latest store build; URL and paste import remain available."
-msgstr "ブラウザーの共有機能を使って、求人情報の URL 1 件か選択したテキストを Reactive Resume に送ってください。共有を受け取るには最新のストア版が必要です。URL での取り込みと貼り付けは引き続き利用できます。"
+msgid "Use your browser’s Share action to send one posting URL or selected text to Lebenslauf2. Receiving shares requires the latest store build; URL and paste import remain available."
+msgstr "ブラウザーの共有機能を使って、求人情報の URL 1 件か選択したテキストを Lebenslauf2 に送ってください。共有を受け取るには最新のストア版が必要です。URL での取り込みと貼り付けは引き続き利用できます。"
 
 #: src/features/ats-checker/messages.ts
 msgid "Use your editor's normal bullet list, so stray glyphs do not land mid-sentence."
@@ -15244,8 +15244,8 @@ msgstr "あなたのナレッジ"
 
 #: app/_layout.tsx
 #: app/(tabs)/settings/preferences.tsx
-msgid "Your language is saved. Restart Reactive Resume to apply the new left-to-right or right-to-left layout."
-msgstr "あなたの言語は保存されます。 Reactive Resume を再起動して、新しい左から右または右から左のレイアウトを適用します。"
+msgid "Your language is saved. Restart Lebenslauf2 to apply the new left-to-right or right-to-left layout."
+msgstr "あなたの言語は保存されます。 Lebenslauf2 を再起動して、新しい左から右または右から左のレイアウトを適用します。"
 
 #: src/features/ats-checker/messages.ts
 msgid "Your lines are packed very tightly."

@@ -5,7 +5,7 @@ import { Trans } from "@lingui/react/macro";
 import { Icon } from "@reactive-resume/ui/components/icon";
 
 /*
- * The demo resume page that every scene shows: Alex Morgan's resume, in one of five looks. Everything is sized in
+ * The demo resume page that every scene shows: Laura Beier's resume, in one of five looks. Everything is sized in
  * cqw so a page reads the same at any width. The scenes steer it through inherited CSS variables:
  *   --chk        Check's scan progress; ticks each section heading as the scan passes it.
  *   --dw         Check's date warning; flags the second job's mixed date format.
@@ -216,7 +216,7 @@ function Heading({ template, children, tick }: HeadingProps) {
 
 type SheetProps = { template?: SheetTemplate };
 
-/** Alex Morgan's resume, as a page. Decorative: the scenes' own copy says what it shows. */
+/** Laura Beier's resume, as a page. Decorative: the scenes' own copy says what it shows. */
 export function Sheet({ template = sheetTemplates[0] as SheetTemplate }: SheetProps) {
 	return (
 		<div
@@ -229,18 +229,18 @@ export function Sheet({ template = sheetTemplates[0] as SheetTemplate }: SheetPr
 					style={{ alignItems: template.align, ...template.header }}
 				>
 					<span className="leading-none" style={template.title}>
-						{t`Alex Morgan`}
+						{t`Laura Beier`}
 					</span>
 					<span className="text-[2.3cqw] font-medium" style={{ color: template.subtitleColor }}>
-						{t`Senior Product Designer`}
+						{t`Fachärztin für Psychiatrie und Psychotherapie`}
 					</span>
 					<span
 						className="flex flex-wrap gap-x-[3cqw] gap-y-[.4cqw] text-[1.6cqw] opacity-78"
 						style={{ justifyContent: template.align }}
 					>
-						<span>alex@morgan.design</span>
-						<span>{t`Lisbon, Portugal`}</span>
-						<span>morgan.design</span>
+						<span>beier.laura@mh-hannover.de</span>
+						<span>{t`Hanover, Germany`}</span>
+						<span>Medizinische Hochschule Hannover</span>
 					</span>
 				</header>
 

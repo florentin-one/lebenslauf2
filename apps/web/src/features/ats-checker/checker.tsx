@@ -527,11 +527,11 @@ function Result({ result, file, signedIn, importError, onFix, onReset }: ResultP
 							</b>
 							<span className="text-[13px] leading-[19px] text-ink-2 max-lg:hidden">
 								<Trans>
-									Import this file into a free Reactive Resume to keep editing it, with Check reading it as you go.
+									Import this file into a free Lebenslauf2 to keep editing it, with Check reading it as you go.
 								</Trans>
 							</span>
 							<Button className="h-10" variant="secondary" onClick={onFix}>
-								<Trans>Edit it in Reactive Resume</Trans>
+								<Trans>Edit it in Lebenslauf2</Trans>
 							</Button>
 						</>
 					) : (
@@ -541,8 +541,8 @@ function Result({ result, file, signedIn, importError, onFix, onReset }: ResultP
 							</b>
 							<span className="text-[13px] leading-[19px] text-ink-2 max-lg:hidden">
 								<Trans>
-									Import this file into a free Reactive Resume, then keep checking it in Check as you edit. Check reads
-									the resume you're editing, so its findings can differ from this file's.
+									Import this file into a free Lebenslauf2, then keep checking it in Check as you edit. Check reads the
+									resume you're editing, so its findings can differ from this file's.
 								</Trans>
 							</span>
 							<Button className="h-10" onClick={onFix}>

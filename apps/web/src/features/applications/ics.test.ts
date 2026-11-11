@@ -19,7 +19,7 @@ describe("buildIcs", () => {
 		expect(ics.split("\r\n")).toEqual([
 			"BEGIN:VCALENDAR",
 			"VERSION:2.0",
-			"PRODID:-//Reactive Resume//Applications//EN",
+			"PRODID:-//Lebenslauf2//Applications//EN",
 			"CALSCALE:GREGORIAN",
 			"METHOD:PUBLISH",
 			"BEGIN:VEVENT",

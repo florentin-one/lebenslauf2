@@ -17,8 +17,8 @@ describe("getTrustedOrigins", () => {
 
 	it("does not include localhost when configured with external URL in production", () => {
 		process.env.NODE_ENV = "production";
-		const origins = getTrustedOrigins("https://resume.example.com");
-		expect(origins).toEqual(["https://resume.example.com"]);
+		const origins = getTrustedOrigins("https://lebenslauf2.florentin-one.de");
+		expect(origins).toEqual(["https://lebenslauf2.florentin-one.de"]);
 	});
 
 	it("preserves custom port loopback alias", () => {

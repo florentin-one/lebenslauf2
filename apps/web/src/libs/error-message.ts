@@ -22,7 +22,7 @@ export const isProviderFailure = (error: unknown) =>
 	(error instanceof ORPCError && error.code === "AI_CREDENTIAL_DECRYPTION_FAILED");
 
 export function getReadableErrorMessage(error: unknown, fallback: string): string {
-	if (isNetworkError(error)) return t`Couldn't reach Reactive Resume. Check your internet connection, then try again.`;
+	if (isNetworkError(error)) return t`Couldn't reach Lebenslauf2. Check your internet connection, then try again.`;
 	// A reply's failure, in the server's fixed words: shown in the reader's language.
 	const reply = error instanceof Error && !(error instanceof ORPCError) ? agentReplyError(error.message) : null;
 	if (reply) return replyErrorText(reply);

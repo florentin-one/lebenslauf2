@@ -1,6 +1,6 @@
 # Cloudron package
 
-Installs Reactive Resume on [Cloudron](https://cloudron.io) as a community app. It runs the official image unchanged: on Cloudron (`CLOUDRON=1`), the app reads the PostgreSQL, Redis, email and OpenID Connect addon variables itself, and the image entrypoint generates `AUTH_SECRET` and `ENCRYPTION_SECRET` once in `/app/data`.
+Installs Lebenslauf2 on [Cloudron](https://cloudron.io) as a community app. It runs the official image unchanged: on Cloudron (`CLOUDRON=1`), the app reads the PostgreSQL, Redis, email and OpenID Connect addon variables itself, and the image entrypoint generates `AUTH_SECRET` and `ENCRYPTION_SECRET` once in `/app/data`.
 
 Install it from the Cloudron dashboard under **App Store → Community apps** with this URL:
 

@@ -1,14 +1,19 @@
 import { describe, expect, it } from "vite-plus/test";
 import { matchOpportunity, matchPosting } from "./matching";
 
-const phrases = ["Senior Product Manager", "Product Lead — Onboarding", "Berlin", "Remote within Europe"];
+const phrases = [
+	"Fachärztin für Psychiatrie und Psychotherapie",
+	"Product Lead — Onboarding",
+	"Berlin",
+	"Remote within Europe",
+];
 
 describe("matchOpportunity", () => {
 	it("matches a preference only when all its words appear, in the user's own wording", () => {
 		const posting =
-			"Senior Product Manager – Mosaic Cloud. Lead onboarding and product-led growth. Berlin hybrid; customer discovery.";
+			"Fachärztin für Psychiatrie und Psychotherapie – Medizinische Hochschule Hannover. Lead onboarding and product-led growth. Berlin hybrid; customer discovery.";
 		expect(matchOpportunity(posting, phrases).matches).toEqual([
-			"Senior Product Manager",
+			"Fachärztin für Psychiatrie und Psychotherapie",
 			"Product Lead — Onboarding",
 			"Berlin",
 		]);

@@ -1,6 +1,6 @@
-# Reactive Resume MCP recipes
+# Lebenslauf2 MCP recipes
 
-Exact tool sequences for the workflows in SKILL.md. Use them only when the Reactive Resume MCP server is connected. Every write follows the same pattern: read, show the user the before and after, get a yes, write, then report what changed. Parity tools (`api_*`) build their input schemas at runtime; confirm field names in `tools/list` before the first call in a session.
+Exact tool sequences for the workflows in SKILL.md. Use them only when the Lebenslauf2 MCP server is connected. Every write follows the same pattern: read, show the user the before and after, get a yes, write, then report what changed. Parity tools (`api_*`) build their input schemas at runtime; confirm field names in `tools/list` before the first call in a session.
 
 ## Contents
 

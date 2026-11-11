@@ -7,6 +7,9 @@
     <string name="ai_is_ready" formatted="false">"AI is ready"</string>
     <!-- All models -->
     <string name="all_models" formatted="false">"All models"</string>
+    <!-- {at} · {providerLabel} -->
+    <!-- Arguments: %1$s = {at}, %2$s = {providerLabel} -->
+    <string name="at_providerlabel">"%1$s · %2$s"</string>
     <!-- Base URL (required) -->
     <string name="base_url_required" formatted="false">"Base URL (required)"</string>
     <!-- Choose a resume -->

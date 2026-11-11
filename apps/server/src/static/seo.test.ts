@@ -1,7 +1,7 @@
 import { describe, expect, it, vi } from "vite-plus/test";
 import { supportedLocales } from "@reactive-resume/utils/locale";
 
-vi.mock("@reactive-resume/env/server", () => ({ env: { APP_URL: "https://rxresu.me/" } }));
+vi.mock("@reactive-resume/env/server", () => ({ env: { APP_URL: "https://lebenslauf2.florentin-one.de/" } }));
 vi.mock("@reactive-resume/api/features/resume/web-page", () => ({
 	listIndexableResumes: async () => [
 		{ username: "tess", slug: "game-dev", isPrimary: true, updatedAt: new Date("2026-10-01T00:00:00Z") },
@@ -14,8 +14,8 @@ const { handlePagesSitemap, handleResumesSitemap } = await import("./seo");
 it("lists each indexed resume at its canonical address: the primary at /<username>", async () => {
 	const xml = await (await handleResumesSitemap(1)).text();
 	expect([...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1])).toEqual([
-		"https://rxresu.me/tess",
-		"https://rxresu.me/tess/level-design",
+		"https://lebenslauf2.florentin-one.de/tess",
+		"https://lebenslauf2.florentin-one.de/tess/level-design",
 	]);
 });
 
@@ -37,7 +37,7 @@ describe("localized sitemap", () => {
 		expect(entries).toHaveLength(3 * supportedLocales.length);
 		expect(new Set(locations).size).toBe(entries.length);
 		for (const path of ["/", "/ats-checker", "/resume-templates"]) {
-			const base = `https://rxresu.me${path}`;
+			const base = `https://lebenslauf2.florentin-one.de${path}`;
 			expect(locations).toContain(base);
 			const group = entries.filter((entry) => entry.loc?.split("?")[0] === base);
 			expect(group).toHaveLength(supportedLocales.length);

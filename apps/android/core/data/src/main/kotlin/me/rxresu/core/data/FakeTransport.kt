@@ -174,7 +174,7 @@ internal class FakeTransport(val controls: FakeControls,private val time: TimeSo
                 val comments=(link["comments"] as? JsonArray).orEmpty().map { if(it.jsonObject.text("id")==request.pathParams["commentId"]) it.jsonObject.with("resolvedAt" to if(b.flag("resolved")) JsonPrimitive(now()) else JsonNull) else it }
                 put("feedbackLinks",link.with("comments" to JsonArray(comments)));return patch(sample(op),buildJsonObject { put("resolved",b.flag("resolved")) })
             }
-            "viewFeedbackLink" -> return patch(sample(op),buildJsonObject { put("ownerName","Alex Morgan");put("resumeName","Product designer");put("data",rows("resumes").first().getValue("data"));put("comments",rows("feedbackLinks").first()["comments"] ?: JsonArray(emptyList())) })
+            "viewFeedbackLink" -> return patch(sample(op),buildJsonObject { put("ownerName","Laura Beier");put("resumeName","Product designer");put("data",rows("resumes").first().getValue("data"));put("comments",rows("feedbackLinks").first()["comments"] ?: JsonArray(emptyList())) })
             "commentOnFeedbackLink" -> {
                 val link=rows("feedbackLinks").first()
                 val comment=b.with("id" to JsonPrimitive("comment-${++sequence}"),"linkId" to link["id"],"createdAt" to JsonPrimitive(now()),"resolvedAt" to JsonNull)
@@ -393,7 +393,7 @@ internal class FakeTransport(val controls: FakeControls,private val time: TimeSo
         val table=if(request.path.startsWith("/cover-letters/")) "letters" else "resumes"
         val document=find(table,request.pathParams["id"] ?: rows(table).first().text("id")!!)
         val format=request.pathParams["format"] ?: "pdf"
-        return fakeExport(format,"Alex Morgan · "+document.text("name"),document.toString())
+        return fakeExport(format,"Laura Beier · "+document.text("name"),document.toString())
     }
     override fun events(request: ApiRequest): Flow<ServerEvent> = flow {
         controls.before(request.operation)

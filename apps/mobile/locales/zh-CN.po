@@ -1004,8 +1004,8 @@ msgid "90 days"
 msgstr "90天"
 
 #: src/features/letters/share.tsx
-msgid "A backup of this letter. Imports back into Reactive Resume as a letter."
-msgstr "这封信的备份。作为信件导入回 Reactive Resume。"
+msgid "A backup of this letter. Imports back into Lebenslauf2 as a letter."
+msgstr "这封信的备份。作为信件导入回 Lebenslauf2。"
 
 #: src/features/check/issues.ts
 msgid "A city and country let roles be matched to where you are."
@@ -3244,8 +3244,8 @@ msgid "Complete {0} before saving."
 msgstr "请先填写{0}，再保存。"
 
 #: src/features/share/download.tsx
-msgid "Complete data backup. Imports back into Reactive Resume."
-msgstr "完整数据备份。可重新导入 Reactive Resume。"
+msgid "Complete data backup. Imports back into Lebenslauf2."
+msgstr "完整数据备份。可重新导入 Lebenslauf2。"
 
 #: src/features/workspace/application-packet.tsx
 msgid "Complete the employer form manually in your browser using reviewed answers and approved PDFs."
@@ -3871,8 +3871,8 @@ msgid "Couldn't propose these edits: {0}"
 msgstr "无法提出这些编辑：{0}"
 
 #: src/features/write/improve.tsx
-msgid "Couldn't reach Reactive Resume. Check your internet connection, then try again."
-msgstr "无法连接 Reactive Resume。请检查您的网络连接，然后重试。"
+msgid "Couldn't reach Lebenslauf2. Check your internet connection, then try again."
+msgstr "无法连接 Lebenslauf2。请检查您的网络连接，然后重试。"
 
 #: src/features/check/writing.tsx
 msgid "Couldn't reach your AI provider. Try again or check its key in AI settings."
@@ -5098,8 +5098,8 @@ msgid "Edit interview"
 msgstr "编辑采访"
 
 #: src/features/ats-checker/checker.tsx
-msgid "Edit it in Reactive Resume"
-msgstr "在 Reactive Resume 中编辑"
+msgid "Edit it in Lebenslauf2"
+msgstr "在 Lebenslauf2 中编辑"
 
 #: src/features/write/basics-screen.tsx
 msgid "Edit link"
@@ -5318,8 +5318,8 @@ msgid "Enter terms yourself. No AI request is made. Leave unknown amounts blank.
 msgstr "自行填写条件。不会发送 AI 请求。未知金额请留空。"
 
 #: app/(auth)/server.tsx
-msgid "Enter the address you open Reactive Resume at in a browser. The app checks it's a Reactive Resume server that allows app sign-in before you continue."
-msgstr "输入您在浏览器中打开 Reactive Resume 的地址。在您继续之前，应用会检查其是否是允许应用登录的 Reactive Resume 服务器。"
+msgid "Enter the address you open Lebenslauf2 at in a browser. The app checks it's a Lebenslauf2 server that allows app sign-in before you continue."
+msgstr "输入您在浏览器中打开 Lebenslauf2 的地址。在您继续之前，应用会检查其是否是允许应用登录的 Lebenslauf2 服务器。"
 
 #: src/features/ai/error.ts
 msgid "Enter the API base URL of your service and test again."
@@ -5791,13 +5791,13 @@ msgstr "通过“{0}”找到。职位公告检查于 {1}。"
 
 #: src/api/ai-consent.ts
 #: src/features/career/schedule-sheet.tsx
-msgid "Found posting links are read by Reactive Resume and the sites being read."
-msgstr "找到的职位公告链接由 Reactive Resume 及被读取的网站读取。"
+msgid "Found posting links are read by Lebenslauf2 and the sites being read."
+msgstr "找到的职位公告链接由 Lebenslauf2 及被读取的网站读取。"
 
 #: src/api/ai-consent.ts
 #: src/features/career/schedule-sheet.tsx
-msgid "Found posting links are read by Reactive Resume and, when needed, {reader} and the sites being read. The reader may charge."
-msgstr "找到的职位公告链接由 Reactive Resume 读取，必要时还会由 {reader} 及被读取的网站读取。阅读器可能会收费。"
+msgid "Found posting links are read by Lebenslauf2 and, when needed, {reader} and the sites being read. The reader may charge."
+msgstr "找到的职位公告链接由 Lebenslauf2 读取，必要时还会由 {reader} 及被读取的网站读取。阅读器可能会收费。"
 
 #: src/features/design/style-groups.tsx
 #: src/features/letters/design.tsx
@@ -6924,6 +6924,10 @@ msgstr "省略"
 #: app/letter/[id]/_layout.tsx
 msgid "Leave without keeping the draft?"
 msgstr "不保留草稿就离开？"
+
+#: src/auth/auth-header.tsx
+msgid "Lebenslauf2"
+msgstr "Lebenslauf2"
 
 #: src/features/design/template-group.tsx
 msgid "Left"
@@ -8267,6 +8271,10 @@ msgstr "还没有钥匙。"
 msgid "No language matches."
 msgstr "没有语言匹配。"
 
+#: src/auth/messages.ts
+msgid "No Lebenslauf2 server answered at this address. Check the spelling, or ask your administrator whether the server allows app sign-in."
+msgstr "没有Lebenslauf2服务器在此地址应答。检查拼写，或询问管理员服务器是否允许应用登录。"
+
 #: src/features/ats-checker/messages.ts
 msgid "No lines look like a job title paired with an employer."
 msgstr "没有看起来像“职位 + 雇主”这种搭配的行。"
@@ -8333,10 +8341,6 @@ msgstr "没有照片。大多数ATS忽略照片；一些地区预计会出现这
 #: src/features/applications/add-sheet.tsx
 msgid "No postings found. Try different keywords."
 msgstr "没有找到招聘信息。尝试不同的关键词。"
-
-#: src/auth/messages.ts
-msgid "No Reactive Resume server answered at this address. Check the spelling, or ask your administrator whether the server allows app sign-in."
-msgstr "没有Reactive Resume服务器在此地址应答。检查拼写，或询问管理员服务器是否允许应用登录。"
 
 #: src/features/check/job-match.tsx
 msgid "No recognizable terms in this posting."
@@ -8753,8 +8757,8 @@ msgid "On"
 msgstr "启用"
 
 #: src/features/applications/add-sheet.tsx
-msgid "On iOS, choose Keep for review, then reopen app in the Share extension. Reopen Reactive Resume yourself within 15 minutes. Sign in here before sharing."
-msgstr "在 iOS 上，请在分享扩展中选择“保留以供审阅”，然后重新打开应用。请在 15 分钟内自行重新打开 Reactive Resume。分享前请先在此处登录。"
+msgid "On iOS, choose Keep for review, then reopen app in the Share extension. Reopen Lebenslauf2 yourself within 15 minutes. Sign in here before sharing."
+msgstr "在 iOS 上，请在分享扩展中选择“保留以供审阅”，然后重新打开应用。请在 15 分钟内自行重新打开 Lebenslauf2。分享前请先在此处登录。"
 
 #: src/features/share/link.tsx
 msgid "On. Anyone with the link can see your web page."
@@ -9293,20 +9297,20 @@ msgid "PDF import"
 msgstr "导入 PDF"
 
 #: src/features/application-detail/sections.tsx
-msgid "PDF only · up to 10 MB each. Linking a Reactive Resume enables a fit check against each requirement and tailoring."
-msgstr "仅限 PDF · 每个最大 10 MB。关联一份 Reactive Resume 简历后，即可针对每项要求进行匹配度检查并定制简历。"
+msgid "PDF only · up to 10 MB each. Linking a Lebenslauf2 enables a fit check against each requirement and tailoring."
+msgstr "仅限 PDF · 每个最大 10 MB。关联一份 Lebenslauf2 简历后，即可针对每项要求进行匹配度检查并定制简历。"
 
 #: src/features/documents/new-document.tsx
-msgid "PDF reads its text layer on your server by default, without AI. Turn on the AI switch to send it to your provider. Word (.docx) needs an AI provider. Current and v4 Reactive Resume JSON, cover letters, JSON Resume and LinkedIn exports (.zip) are supported. Up to 10 MB."
-msgstr "默认情况下，PDF 会在您的服务器上读取其文本层，不使用 AI。开启 AI 开关可将其发送给您的服务提供商。Word（.docx）需要 AI 服务提供商。支持当前版本和 v4 的 Reactive Resume JSON、求职信、JSON Resume 以及 LinkedIn 导出文件（.zip）。最大 10 MB。"
+msgid "PDF reads its text layer on your server by default, without AI. Turn on the AI switch to send it to your provider. Word (.docx) needs an AI provider. Current and v4 Lebenslauf2 JSON, cover letters, JSON Resume and LinkedIn exports (.zip) are supported. Up to 10 MB."
+msgstr "默认情况下，PDF 会在您的服务器上读取其文本层，不使用 AI。开启 AI 开关可将其发送给您的服务提供商。Word（.docx）需要 AI 服务提供商。支持当前版本和 v4 的 Lebenslauf2 JSON、求职信、JSON Resume 以及 LinkedIn 导出文件（.zip）。最大 10 MB。"
 
 #: src/features/design/advanced.tsx
 msgid "PDF styles support a subset of CSS. Rotation, dashed and dotted borders, and some layout properties are ignored."
 msgstr "PDF 样式支持 CSS 的子集。旋转、虚线和点线边框以及某些布局属性将被忽略。"
 
 #: src/features/documents/new-document.tsx
-msgid "PDF, Word, Reactive Resume, JSON Resume or LinkedIn export."
-msgstr "PDF、Word、Reactive Resume、JSON Resume 或 LinkedIn 导出。"
+msgid "PDF, Word, Lebenslauf2, JSON Resume or LinkedIn export."
+msgstr "PDF、Word、Lebenslauf2、JSON Resume 或 LinkedIn 导出。"
 
 #: src/features/workspace/tabs/messages.tsx
 msgid "per hour"
@@ -9937,10 +9941,6 @@ msgstr "重新导出并嵌入字体，然后检查文字复制出来是否干净
 #: src/features/ats-checker/messages.ts
 msgid "Re-export with fonts embedded, then open the file and check that the text copies out cleanly."
 msgstr "重新导出并嵌入字体，然后打开文件检查文字复制出来是否干净无误。"
-
-#: src/auth/auth-header.tsx
-msgid "Reactive Resume"
-msgstr "Reactive Resume"
 
 #: src/features/application-detail/sheets.tsx
 #: src/features/applications/add-sheet.tsx
@@ -11872,8 +11872,8 @@ msgid "Show"
 msgstr "展开"
 
 #: src/features/share/web-page.tsx
-msgid "Show “Made with Reactive Resume”"
-msgstr "显示“使用 Reactive Resume 制作”"
+msgid "Show “Made with Lebenslauf2”"
+msgstr "显示“使用 Lebenslauf2 制作”"
 
 #. placeholder {0}: i18n.number(Math.min(remaining, COLUMN_PAGE_SIZE))
 #: src/features/applications-board/board-screen.tsx
@@ -14378,8 +14378,8 @@ msgid "Use web access?"
 msgstr "使用网页访问？"
 
 #: src/features/applications/add-sheet.tsx
-msgid "Use your browser’s Share action to send one posting URL or selected text to Reactive Resume. Receiving shares requires the latest store build; URL and paste import remain available."
-msgstr "使用浏览器的“分享”操作，将一个职位公告 URL 或所选文本发送到 Reactive Resume。接收分享需要最新的应用商店版本；URL 和粘贴导入仍然可用。"
+msgid "Use your browser’s Share action to send one posting URL or selected text to Lebenslauf2. Receiving shares requires the latest store build; URL and paste import remain available."
+msgstr "使用浏览器的“分享”操作，将一个职位公告 URL 或所选文本发送到 Lebenslauf2。接收分享需要最新的应用商店版本；URL 和粘贴导入仍然可用。"
 
 #: src/features/ats-checker/messages.ts
 msgid "Use your editor's normal bullet list, so stray glyphs do not land mid-sentence."
@@ -15244,8 +15244,8 @@ msgstr "您的知识库"
 
 #: app/_layout.tsx
 #: app/(tabs)/settings/preferences.tsx
-msgid "Your language is saved. Restart Reactive Resume to apply the new left-to-right or right-to-left layout."
-msgstr "您的语言已保存。重新启动 Reactive Resume 以应用新的从左到右或从右到左布局。"
+msgid "Your language is saved. Restart Lebenslauf2 to apply the new left-to-right or right-to-left layout."
+msgstr "您的语言已保存。重新启动 Lebenslauf2 以应用新的从左到右或从右到左布局。"
 
 #: src/features/ats-checker/messages.ts
 msgid "Your lines are packed very tightly."

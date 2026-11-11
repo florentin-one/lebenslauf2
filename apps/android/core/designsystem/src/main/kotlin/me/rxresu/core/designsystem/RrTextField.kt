@@ -57,7 +57,7 @@ import androidx.compose.ui.unit.sp
  * @param contentType autofill hint, e.g. `ContentType.EmailAddress`.
  * @param minLines > 1 makes a multiline field (96 dp min, 24 sp lines); [singleLine] is then ignored.
  * @param trailing e.g. an [RrIconButton] (show password) or a static icon.
- * @param prefix fixed ink-3 text before the input, part of the value people see but not of [value] (`rxresu.me/alex/`
+ * @param prefix fixed ink-3 text before the input, part of the value people see but not of [value] (`lebenslauf2.me/alex/`
  *   before a slug, B12). The prefix and the input always run left to right, in every locale.
  */
 @Composable
@@ -275,11 +275,11 @@ private fun FieldBox(focused: Boolean, isError: Boolean, multiline: Boolean, con
 @Composable
 internal fun RrTextFieldPreview() = RrPreviewSurface {
     RrTextField("Lumen", {}, label = "Company")
-    RrTextField("", {}, label = "Role", placeholder = "Senior product designer")
+    RrTextField("", {}, label = "Role", placeholder = "Fachärztin für Psychiatrie und Psychotherapie")
     RrTextField("alex@morgan", {}, label = "Email", error = "Add the domain ending, like morgan.com", ltr = true, contentType = ContentType.EmailAddress)
     RrTextField("Lumen office, Rua do Alecrim 12", {}, label = "Location", leadingIcon = R.drawable.ic_ph_map_pin, helper = "Video link, office address, or phone number")
     RrPickerField("Tue 10 Nov 2026", {}, label = "Date", trailingIcon = R.drawable.ic_ph_calendar_blank)
     RrTextField("Walk through one design system decision and its trade-offs.", {}, label = "What they asked you to prepare", minLines = 3)
     RrSearchField("Lumen", {}, placeholder = "Search")
-    RrTextField("product-designer", {}, label = "Address", prefix = "rxresu.me/alex/", mono = true, helper = "Live at rxresu.me/alex/product-designer")
+    RrTextField("product-designer", {}, label = "Address", prefix = "lebenslauf2.me/alex/", mono = true, helper = "Live at lebenslauf2.me/alex/product-designer")
 }

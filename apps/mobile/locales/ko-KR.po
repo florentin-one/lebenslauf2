@@ -1004,8 +1004,8 @@ msgid "90 days"
 msgstr "90일"
 
 #: src/features/letters/share.tsx
-msgid "A backup of this letter. Imports back into Reactive Resume as a letter."
-msgstr "이 편지의 백업본입니다. 문자로 Reactive Resume에 다시 가져옵니다."
+msgid "A backup of this letter. Imports back into Lebenslauf2 as a letter."
+msgstr "이 편지의 백업본입니다. 문자로 Lebenslauf2에 다시 가져옵니다."
 
 #: src/features/check/issues.ts
 msgid "A city and country let roles be matched to where you are."
@@ -3244,8 +3244,8 @@ msgid "Complete {0} before saving."
 msgstr "저장하기 전에 {0} 항목을 작성하세요."
 
 #: src/features/share/download.tsx
-msgid "Complete data backup. Imports back into Reactive Resume."
-msgstr "전체 데이터 백업. Reactive Resume로 다시 가져올 수 있습니다."
+msgid "Complete data backup. Imports back into Lebenslauf2."
+msgstr "전체 데이터 백업. Lebenslauf2로 다시 가져올 수 있습니다."
 
 #: src/features/workspace/application-packet.tsx
 msgid "Complete the employer form manually in your browser using reviewed answers and approved PDFs."
@@ -3871,8 +3871,8 @@ msgid "Couldn't propose these edits: {0}"
 msgstr "다음 수정사항을 제안할 수 없습니다: {0}"
 
 #: src/features/write/improve.tsx
-msgid "Couldn't reach Reactive Resume. Check your internet connection, then try again."
-msgstr "Reactive Resume에 연결할 수 없습니다. 인터넷 연결을 확인한 후 다시 시도하세요."
+msgid "Couldn't reach Lebenslauf2. Check your internet connection, then try again."
+msgstr "Lebenslauf2에 연결할 수 없습니다. 인터넷 연결을 확인한 후 다시 시도하세요."
 
 #: src/features/check/writing.tsx
 msgid "Couldn't reach your AI provider. Try again or check its key in AI settings."
@@ -5098,8 +5098,8 @@ msgid "Edit interview"
 msgstr "인터뷰 편집"
 
 #: src/features/ats-checker/checker.tsx
-msgid "Edit it in Reactive Resume"
-msgstr "Reactive Resume에서 편집하기"
+msgid "Edit it in Lebenslauf2"
+msgstr "Lebenslauf2에서 편집하기"
 
 #: src/features/write/basics-screen.tsx
 msgid "Edit link"
@@ -5318,8 +5318,8 @@ msgid "Enter terms yourself. No AI request is made. Leave unknown amounts blank.
 msgstr "조건을 직접 입력하세요. AI 요청은 전송되지 않습니다. 모르는 금액은 비워 두세요."
 
 #: app/(auth)/server.tsx
-msgid "Enter the address you open Reactive Resume at in a browser. The app checks it's a Reactive Resume server that allows app sign-in before you continue."
-msgstr "브라우저에서 Reactive Resume를 여는 주소를 입력하세요. 계속하기 전에 앱에서 로그인을 허용하는 Reactive Resume 서버인지 확인합니다."
+msgid "Enter the address you open Lebenslauf2 at in a browser. The app checks it's a Lebenslauf2 server that allows app sign-in before you continue."
+msgstr "브라우저에서 Lebenslauf2를 여는 주소를 입력하세요. 계속하기 전에 앱에서 로그인을 허용하는 Lebenslauf2 서버인지 확인합니다."
 
 #: src/features/ai/error.ts
 msgid "Enter the API base URL of your service and test again."
@@ -5791,13 +5791,13 @@ msgstr "“{0}” 검색으로 찾음. 채용 공고 확인: {1}."
 
 #: src/api/ai-consent.ts
 #: src/features/career/schedule-sheet.tsx
-msgid "Found posting links are read by Reactive Resume and the sites being read."
-msgstr "찾은 채용 공고 링크는 Reactive Resume와 해당 사이트에서 읽습니다."
+msgid "Found posting links are read by Lebenslauf2 and the sites being read."
+msgstr "찾은 채용 공고 링크는 Lebenslauf2와 해당 사이트에서 읽습니다."
 
 #: src/api/ai-consent.ts
 #: src/features/career/schedule-sheet.tsx
-msgid "Found posting links are read by Reactive Resume and, when needed, {reader} and the sites being read. The reader may charge."
-msgstr "찾은 채용 공고 링크는 Reactive Resume와 필요한 경우 {reader}, 그리고 해당 사이트에서 읽습니다. 리더가 요금을 청구할 수 있습니다."
+msgid "Found posting links are read by Lebenslauf2 and, when needed, {reader} and the sites being read. The reader may charge."
+msgstr "찾은 채용 공고 링크는 Lebenslauf2와 필요한 경우 {reader}, 그리고 해당 사이트에서 읽습니다. 리더가 요금을 청구할 수 있습니다."
 
 #: src/features/design/style-groups.tsx
 #: src/features/letters/design.tsx
@@ -6924,6 +6924,10 @@ msgstr "나가다"
 #: app/letter/[id]/_layout.tsx
 msgid "Leave without keeping the draft?"
 msgstr "초안을 보관하지 않고 나갈까요?"
+
+#: src/auth/auth-header.tsx
+msgid "Lebenslauf2"
+msgstr "Lebenslauf2"
 
 #: src/features/design/template-group.tsx
 msgid "Left"
@@ -8267,6 +8271,10 @@ msgstr "아직 열쇠가 없습니다."
 msgid "No language matches."
 msgstr "일치하는 언어가 없습니다."
 
+#: src/auth/messages.ts
+msgid "No Lebenslauf2 server answered at this address. Check the spelling, or ask your administrator whether the server allows app sign-in."
+msgstr "이 주소에서는 Lebenslauf2 서버가 응답하지 않습니다. 철자를 확인하거나 서버에서 앱 로그인을 허용하는지 관리자에게 문의하세요."
+
 #: src/features/ats-checker/messages.ts
 msgid "No lines look like a job title paired with an employer."
 msgstr "직함과 회사명이 함께 있는 줄을 찾을 수 없습니다."
@@ -8333,10 +8341,6 @@ msgstr "사진이 없습니다. 대부분의 ATS는 사진을 무시합니다. �
 #: src/features/applications/add-sheet.tsx
 msgid "No postings found. Try different keywords."
 msgstr "채용공고를 찾을 수 없습니다. 다른 키워드를 사용해 보세요."
-
-#: src/auth/messages.ts
-msgid "No Reactive Resume server answered at this address. Check the spelling, or ask your administrator whether the server allows app sign-in."
-msgstr "이 주소에서는 Reactive Resume 서버가 응답하지 않습니다. 철자를 확인하거나 서버에서 앱 로그인을 허용하는지 관리자에게 문의하세요."
 
 #: src/features/check/job-match.tsx
 msgid "No recognizable terms in this posting."
@@ -8753,8 +8757,8 @@ msgid "On"
 msgstr "켜짐"
 
 #: src/features/applications/add-sheet.tsx
-msgid "On iOS, choose Keep for review, then reopen app in the Share extension. Reopen Reactive Resume yourself within 15 minutes. Sign in here before sharing."
-msgstr "iOS에서는 ‘검토용으로 보관’을 선택한 후 공유 확장 프로그램에서 앱을 다시 여세요. 15분 이내에 Reactive Resume를 직접 다시 여세요. 공유하기 전에 여기에서 로그인하세요."
+msgid "On iOS, choose Keep for review, then reopen app in the Share extension. Reopen Lebenslauf2 yourself within 15 minutes. Sign in here before sharing."
+msgstr "iOS에서는 ‘검토용으로 보관’을 선택한 후 공유 확장 프로그램에서 앱을 다시 여세요. 15분 이내에 Lebenslauf2를 직접 다시 여세요. 공유하기 전에 여기에서 로그인하세요."
 
 #: src/features/share/link.tsx
 msgid "On. Anyone with the link can see your web page."
@@ -9293,20 +9297,20 @@ msgid "PDF import"
 msgstr "PDF 가져오기"
 
 #: src/features/application-detail/sections.tsx
-msgid "PDF only · up to 10 MB each. Linking a Reactive Resume enables a fit check against each requirement and tailoring."
-msgstr "PDF만 가능 · 각 최대 10MB. Reactive Resume 이력서를 연결하면 요건별 적합도 확인과 맞춤화를 사용할 수 있습니다."
+msgid "PDF only · up to 10 MB each. Linking a Lebenslauf2 enables a fit check against each requirement and tailoring."
+msgstr "PDF만 가능 · 각 최대 10MB. Lebenslauf2 이력서를 연결하면 요건별 적합도 확인과 맞춤화를 사용할 수 있습니다."
 
 #: src/features/documents/new-document.tsx
-msgid "PDF reads its text layer on your server by default, without AI. Turn on the AI switch to send it to your provider. Word (.docx) needs an AI provider. Current and v4 Reactive Resume JSON, cover letters, JSON Resume and LinkedIn exports (.zip) are supported. Up to 10 MB."
-msgstr "PDF는 기본적으로 AI 없이 서버에서 텍스트 레이어를 읽습니다. 제공자에게 보내려면 AI 스위치를 켜세요. Word(.docx)에는 AI 제공자가 필요합니다. 현재 및 v4 Reactive Resume JSON, 커버레터, JSON Resume, LinkedIn 내보내기 파일(.zip)을 지원합니다. 최대 10MB."
+msgid "PDF reads its text layer on your server by default, without AI. Turn on the AI switch to send it to your provider. Word (.docx) needs an AI provider. Current and v4 Lebenslauf2 JSON, cover letters, JSON Resume and LinkedIn exports (.zip) are supported. Up to 10 MB."
+msgstr "PDF는 기본적으로 AI 없이 서버에서 텍스트 레이어를 읽습니다. 제공자에게 보내려면 AI 스위치를 켜세요. Word(.docx)에는 AI 제공자가 필요합니다. 현재 및 v4 Lebenslauf2 JSON, 커버레터, JSON Resume, LinkedIn 내보내기 파일(.zip)을 지원합니다. 최대 10MB."
 
 #: src/features/design/advanced.tsx
 msgid "PDF styles support a subset of CSS. Rotation, dashed and dotted borders, and some layout properties are ignored."
 msgstr "PDF 스타일은 CSS의 하위 집합을 지원합니다. 회전, 파선 및 점선 테두리, 일부 레이아웃 속성은 무시됩니다."
 
 #: src/features/documents/new-document.tsx
-msgid "PDF, Word, Reactive Resume, JSON Resume or LinkedIn export."
-msgstr "PDF, Word, Reactive Resume, JSON Resume 또는 LinkedIn 내보내기."
+msgid "PDF, Word, Lebenslauf2, JSON Resume or LinkedIn export."
+msgstr "PDF, Word, Lebenslauf2, JSON Resume 또는 LinkedIn 내보내기."
 
 #: src/features/workspace/tabs/messages.tsx
 msgid "per hour"
@@ -9937,10 +9941,6 @@ msgstr "폰트를 임베드하여 다시 내보낸 뒤, 텍스트가 깔끔하�
 #: src/features/ats-checker/messages.ts
 msgid "Re-export with fonts embedded, then open the file and check that the text copies out cleanly."
 msgstr "폰트를 임베드하여 다시 내보낸 뒤 파일을 열어 텍스트가 깔끔하게 복사되는지 확인하세요."
-
-#: src/auth/auth-header.tsx
-msgid "Reactive Resume"
-msgstr "Reactive Resume"
 
 #: src/features/application-detail/sheets.tsx
 #: src/features/applications/add-sheet.tsx
@@ -11872,8 +11872,8 @@ msgid "Show"
 msgstr "펼치기"
 
 #: src/features/share/web-page.tsx
-msgid "Show “Made with Reactive Resume”"
-msgstr "“Reactive Resume로 제작” 표시"
+msgid "Show “Made with Lebenslauf2”"
+msgstr "“Lebenslauf2로 제작” 표시"
 
 #. placeholder {0}: i18n.number(Math.min(remaining, COLUMN_PAGE_SIZE))
 #: src/features/applications-board/board-screen.tsx
@@ -14378,8 +14378,8 @@ msgid "Use web access?"
 msgstr "웹 액세스를 사용할까요?"
 
 #: src/features/applications/add-sheet.tsx
-msgid "Use your browser’s Share action to send one posting URL or selected text to Reactive Resume. Receiving shares requires the latest store build; URL and paste import remain available."
-msgstr "브라우저의 공유 기능으로 채용 공고 URL 하나 또는 선택한 텍스트를 Reactive Resume에 보내세요. 공유를 받으려면 최신 스토어 빌드가 필요합니다. URL 및 붙여넣기 가져오기는 계속 사용할 수 있습니다."
+msgid "Use your browser’s Share action to send one posting URL or selected text to Lebenslauf2. Receiving shares requires the latest store build; URL and paste import remain available."
+msgstr "브라우저의 공유 기능으로 채용 공고 URL 하나 또는 선택한 텍스트를 Lebenslauf2에 보내세요. 공유를 받으려면 최신 스토어 빌드가 필요합니다. URL 및 붙여넣기 가져오기는 계속 사용할 수 있습니다."
 
 #: src/features/ats-checker/messages.ts
 msgid "Use your editor's normal bullet list, so stray glyphs do not land mid-sentence."
@@ -15244,8 +15244,8 @@ msgstr "내 지식"
 
 #: app/_layout.tsx
 #: app/(tabs)/settings/preferences.tsx
-msgid "Your language is saved. Restart Reactive Resume to apply the new left-to-right or right-to-left layout."
-msgstr "귀하의 언어가 저장되었습니다. 새로운 왼쪽에서 오른쪽 또는 오른쪽에서 왼쪽 레이아웃을 적용하려면 Reactive Resume를 다시 시작하세요."
+msgid "Your language is saved. Restart Lebenslauf2 to apply the new left-to-right or right-to-left layout."
+msgstr "귀하의 언어가 저장되었습니다. 새로운 왼쪽에서 오른쪽 또는 오른쪽에서 왼쪽 레이아웃을 적용하려면 Lebenslauf2를 다시 시작하세요."
 
 #: src/features/ats-checker/messages.ts
 msgid "Your lines are packed very tightly."

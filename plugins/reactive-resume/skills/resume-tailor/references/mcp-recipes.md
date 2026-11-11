@@ -1,6 +1,6 @@
-# Reactive Resume MCP recipes
+# Lebenslauf2 MCP recipes
 
-Tool sequences and JSON Patch recipes for tailoring inside Reactive Resume. Use only when the Reactive Resume MCP server is connected. Read before writing, show the user a before/after, and get a yes before every change. Tool input names for `api_*` tools are generated from the app's API; confirm them with `tools/list` if a call is rejected.
+Tool sequences and JSON Patch recipes for tailoring inside Lebenslauf2. Use only when the Lebenslauf2 MCP server is connected. Read before writing, show the user a before/after, and get a yes before every change. Tool input names for `api_*` tools are generated from the app's API; confirm them with `tools/list` if a call is rejected.
 
 ## Contents
 

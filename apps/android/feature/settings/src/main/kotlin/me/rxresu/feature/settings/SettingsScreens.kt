@@ -196,7 +196,7 @@ internal fun SettingsScreen(
         ) {
             if (section == "help") {
                 ExternalRow(stringResource(R.string.screen_docs), D.drawable.ic_ph_book_open) {
-                    browser("https://docs.rxresu.me")
+                    browser("https://docs.lebenslauf2.me")
                 }
                 ExternalRow(stringResource(CR.string.source), D.drawable.ic_ph_github_logo) {
                     browser("https://github.com/reactive-resume/reactive-resume")
@@ -216,7 +216,7 @@ internal fun SettingsScreen(
                     )
                 }
                 ExternalRow(stringResource(R.string.screen_donate), D.drawable.ic_ph_heart) {
-                    browser("https://opencollective.com/reactive-resume/donate")
+                    browser("https://opencollective.com/elster-1/donate")
                 }
             } else {
                 RrListRow(

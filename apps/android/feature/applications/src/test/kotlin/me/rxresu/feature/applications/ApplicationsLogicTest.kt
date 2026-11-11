@@ -162,7 +162,7 @@ class ApplicationsLogicTest {
         val vm = SaveJobViewModel(repos.applications, repos.documents, repos.time, signedIn = true, initialUrl = null)
         vm.setInput("Senior designer at Lumen")
         assertFalse(vm.state.value.isLink)
-        vm.update { it.copy(role = "Senior product designer", company = "Lumen") }
+        vm.update { it.copy(role = "Fachärztin für Psychiatrie und Psychotherapie", company = "Lumen") }
         val id = vm.save()!!
         assertEquals("Lumen", repos.applications.getApplication(id).company)
     }

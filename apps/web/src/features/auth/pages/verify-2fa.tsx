@@ -214,7 +214,7 @@ function TwoFactorVerificationPage({ backupCode = false }: TwoFactorVerification
 					<p className="mt-2 max-w-sm">
 						<Trans>
 							If you never verified your email address, a password reset turns two-step verification off. Otherwise a
-							reset keeps it on, so ask the person who runs this Reactive Resume server to turn it off for your account.
+							reset keeps it on, so ask the person who runs this Lebenslauf2 server to turn it off for your account.
 							Then sign in with your password and turn it on again with a new authenticator.
 						</Trans>
 					</p>

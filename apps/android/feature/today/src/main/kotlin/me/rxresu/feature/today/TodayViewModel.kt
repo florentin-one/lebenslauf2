@@ -157,7 +157,7 @@ class TodayViewModel(
     }
 
     companion object {
-        /** "Alex Morgan" → "AM"; one word → its first letter. */
+        /** "Laura Beier" → "AM"; one word → its first letter. */
         fun initials(name: String): String =
             name.trim().split(Regex("\\s+")).filter { it.isNotEmpty() }.let { listOfNotNull(it.firstOrNull(), it.drop(1).lastOrNull()) }
                 .joinToString("") { it.first().uppercase() }

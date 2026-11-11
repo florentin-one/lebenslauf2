@@ -39,7 +39,7 @@ class SystemScreenshotsTest : RrScreenshotTest() {
         val specs = listOf(
             NotificationSpec("briefing", NotificationCategory.InterviewsAndBriefings, "Briefing ready for Lumen", "Technical interview Tue at 10:00. Your briefing and 4 likely questions are ready.", briefing, listOf(NotificationAction("Open briefing", briefing), NotificationAction("Practice", briefing.copy(tab = WorkspaceTab.Practise)))),
             NotificationSpec("followup", NotificationCategory.FollowUps, "Follow up with Fieldnote", "You applied 10 days ago. A short follow-up is usually fine now.", followup, listOf(NotificationAction("Draft follow-up", followup), NotificationAction("Log follow-up", followup, true))),
-            NotificationSpec("roles", NotificationCategory.NewRoles, "4 new roles from your search", "Senior product designer at Kiln Studio and 3 more. Nothing is applied for until you choose.", SystemTarget("today")),
+            NotificationSpec("roles", NotificationCategory.NewRoles, "4 new roles from your search", "Fachärztin für Psychiatrie und Psychotherapie at Kiln Studio and 3 more. Nothing is applied for until you choose.", SystemTarget("today")),
         )
         val context = androidx.test.core.app.ApplicationProvider.getApplicationContext<RepositoryTestApp>()
         context.repositories = repositories
